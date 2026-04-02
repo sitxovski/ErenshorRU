@@ -23,7 +23,7 @@ namespace ErenshorRU
     {
         public const string GUID = "com.erenshor.ru";
         public const string NAME = "Erenshor Russian Translation";
-        public const string VERSION = "2.0.1";
+        public const string VERSION = "2.0.2";
 
         internal static ManualLogSource Log;
         internal static TranslationDB T;
@@ -336,9 +336,31 @@ namespace ErenshorRU
         private static void EnableOutline(TMP_FontAsset fa)
         {
             if (fa == null || fa.material == null) return;
-            fa.material.SetFloat("_OutlineWidth", 0.15f);
-            fa.material.SetColor("_OutlineColor", new Color(0, 0, 0, 1));
-            fa.material.EnableKeyword("OUTLINE_ON");
+            EnableOutlineOnMaterial(fa.material);
+        }
+
+        private static void EnableOutlineOnMaterial(Material mat)
+        {
+            if (mat == null) return;
+            if (mat.HasProperty("_OutlineWidth"))
+            {
+                mat.SetFloat("_OutlineWidth", 0.15f);
+                mat.SetColor("_OutlineColor", new Color(0, 0, 0, 1));
+                mat.EnableKeyword("OUTLINE_ON");
+            }
+        }
+
+        private static readonly HashSet<int> _outlinedComponents = new HashSet<int>();
+
+        public static void ApplyOutlineToComponent(TMP_Text comp)
+        {
+            if (comp == null) return;
+            int id = comp.GetInstanceID();
+            if (_outlinedComponents.Contains(id)) return;
+            _outlinedComponents.Add(id);
+
+            if (comp.fontSharedMaterial != null)
+                EnableOutlineOnMaterial(comp.fontSharedMaterial);
         }
 
         private static T DGet<T>(Dictionary<string, T> d, string k) where T : class
@@ -489,6 +511,10 @@ namespace ErenshorRU
             if (_translating) return;
             if (!FontManager.IsReady) return;
             if (ErenshorRUPlugin.T == null || string.IsNullOrEmpty(value) || value.Length < 2) return;
+
+            FontManager.PatchTMPFont(__instance.font);
+            FontManager.ApplyOutlineToComponent(__instance);
+
             if (TranslationDB.IsNumericOrShort(value)) return;
             _translating = true;
             try
@@ -496,7 +522,6 @@ namespace ErenshorRU
                 string tr = ErenshorRUPlugin.T.Translate(value);
                 if (tr != value)
                 {
-                    FontManager.PatchTMPFont(__instance.font);
                     AutoSizer.ApplyTMP(__instance);
                     value = tr;
                 }
