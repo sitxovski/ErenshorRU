@@ -23,7 +23,7 @@ namespace ErenshorRU
     {
         public const string GUID = "com.erenshor.ru";
         public const string NAME = "Erenshor Russian Translation";
-        public const string VERSION = "1.7.2";
+        public const string VERSION = "1.7.3";
 
         internal static ManualLogSource Log;
         internal static TranslationDB T;
@@ -236,9 +236,7 @@ namespace ErenshorRU
             }
 
             if (!(c is TextMeshProUGUI)) return;
-
-            if (c.GetComponentInParent<Button>() == null &&
-                c.GetComponentInParent<Toggle>() == null) return;
+            if (c.GetComponentInParent<Selectable>() == null) return;
 
             if (_autoSized.Contains(id)) return;
             _autoSized.Add(id);
@@ -246,6 +244,9 @@ namespace ErenshorRU
             c.fontSizeMax = orig;
             c.fontSizeMin = Mathf.Max(orig * 0.35f, 5f);
             c.enableAutoSizing = true;
+
+            int h = (int)c.alignment & 0xFF;
+            c.alignment = (TextAlignmentOptions)(h | 0x200);
         }
 
         public static void ApplyLegacy(Text c)
@@ -265,8 +266,7 @@ namespace ErenshorRU
                 return;
             }
 
-            if (c.GetComponentInParent<Button>() == null &&
-                c.GetComponentInParent<Toggle>() == null) return;
+            if (c.GetComponentInParent<Selectable>() == null) return;
 
             if (_autoSized.Contains(id)) return;
             _autoSized.Add(id);
@@ -274,6 +274,14 @@ namespace ErenshorRU
             c.resizeTextMaxSize = (int)orig;
             c.resizeTextMinSize = (int)Mathf.Max(orig * 0.35f, 5f);
             c.resizeTextForBestFit = true;
+
+            var a = c.alignment;
+            if (a == TextAnchor.UpperLeft || a == TextAnchor.LowerLeft)
+                c.alignment = TextAnchor.MiddleLeft;
+            else if (a == TextAnchor.UpperCenter || a == TextAnchor.LowerCenter)
+                c.alignment = TextAnchor.MiddleCenter;
+            else if (a == TextAnchor.UpperRight || a == TextAnchor.LowerRight)
+                c.alignment = TextAnchor.MiddleRight;
         }
     }
 
