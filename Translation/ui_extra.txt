@@ -846,6 +846,63 @@ NPC DMG MODIFIER: =МОДИФИКАТОР УРОНА NPC:
 Server reset failed, see log file=Сброс сервера не удался, см. файл лога
 Server reset complete... backup files are intact.=Сброс сервера завершён... резервные копии сохранены.
 Ascension XP: =Опыт вознесения: 
+You have entered =Вы вошли в 
+Players in =Игроки в 
+players online in Erenshor=игроков онлайн в Эреншоре
+
+# --- Классы персонажей (DisplayName) ---
+Windblade=Ветроклинок
+Stormcaller=Буревестник
+Arcanist=Арканист
+Paladin=Паладин
+Druid=Друид
+Reaver=Ривер
+
+# --- Названия зон (ZoneName / SceneName) ---
+Silkengrass Meadowlands=Шёлковотравные Луга
+Loomingwood Forest=Мрачнолесье
+The Duskenlight Coast=Сумеречное Побережье
+Windwashed Pass=Ветровой Перевал
+Hidden Hills=Скрытые Холмы
+The Blight=Скверна
+Malaroth's Nesting Grounds=Гнездовье Малорота
+Fallen Braxonia=Павшая Браксония
+Soluna's Landing=Посадка Солуны
+Ripper's Keep=Крепость Риппера
+Abyssal Lake=Бездонное Озеро
+Vitheo's Rest=Покой Витео
+Azynthi's Garden=Сад Азинти
+Mysterious Portal=Таинственный Портал
+Island Tomb=Островная Гробница
+Rockshade Hold=Оплот Камнетени
+Shivering Step=Дрожащая Тропа
+Lost Cellar=Потерянный Погреб
+Jaws of Sivakaya=Челюсти Сивакайи
+Prielian Cascade=Приельский Каскад
+Bellwain Island=Остров Беллвейна
+Willowwatch Ridge=Ивовый Дозор
+Faerie's Brake=Опушка Фей
+Blooming Sepulcher=Цветущий Склеп
+Reliquary Hall=Зал Реликвий
+Secluded Sanctuary=Укромное Святилище
+The Bonepits=Костяные Ямы
+Vitheo's Watch=Дозор Витео
+Old Krakengard=Старый Кракенгард
+Fernalla's Revival Plains=Равнины Возрождения Ферналлы
+Stowaway's Step=Причал Зайцев
+Port Azure=Порт-Азур
+The Elderstone Mines=Шахты Старого Камня
+Blacksalt Strand=Чёрносолёная Коса
+Braxonian Desert=Браксонийская Пустыня
+Rottenfoot=Гнилоножье
+Underspine Hollow=Подхребтовая Лощина
+LoadScene=Экран загрузки
+Prison=Тюрьма
+ - Level = — Уровень 
+Level: =Уровень: 
+
+# --- Чат: контекст зон ---
+You have unspent PROFICIENCY POINTS! Open your inventory to assign them.=У вас есть нераспределённые ОЧКИ МАСТЕРСТВА! Откройте инвентарь, чтобы назначить их.
 
 [EXACT]
 # --- Управление (OptionsMenu.prefab) ---
