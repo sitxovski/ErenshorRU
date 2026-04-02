@@ -1105,6 +1105,53 @@ Hold RIGHT MOUSE for item details...=Зажми ПКМ для инфо о пре
 # --- WTB ---
 , offering =, предлагаю 
  gold. Open a trade with me.= зол. Открой обмен со мной.
+WTB =Куплю 
+
+# --- Чат: guild / group / whisper шаблоны ---
+ tells the guild: = говорит гильдии: 
+ tells the group: = говорит группе: 
+[GUILD ADMIN MSG]: A player has left =[ГИЛЬДИЯ]: Игрок покинул 
+[GUILD ADMIN MSG]: A new player has joined =[ГИЛЬДИЯ]: Новый игрок вступил в 
+[GUILD ADMIN MSG]: =[ГИЛЬДИЯ]: 
+[WHISPER FROM] =[ШЁПОТ ОТ] 
+[WHISPER TO] =[ШЁПОТ ДЛЯ] 
+[SYSTEM MSG]=[СИСТЕМНОЕ]
+[SERVER] =[СЕРВЕР] 
+
+# --- Чат: боевые/статусные ---
+ has joined your group!= присоединился к группе!
+ has left your group!= покинул группу!
+You begin casting =Вы начинаете каст 
+'s casting has been interrupted!= — каст прерван!
+You have moved and interrupted=Вы двинулись и прервали
+Stay close, casting invis. Be in a safe spot when it breaks!=Держитесь рядом, кастую инвиз. Будьте в безопасном месте, когда спадёт!
+
+# --- Чат: лут/награды ---
+Found =Найдено 
+ Gold!=  золота!
+Received a quest reward: =Получена награда за квест: 
+Received New Quest: =Получен новый квест: 
+Received =Получено 
+ gold from item sales.= золота от продаж.
+Received  from = Получено  от 
+Found item: =Найден предмет: 
+Found in Zone: =Найден в зоне: 
+
+# --- Чат: система ---
+ has been added to your IGNORE LIST. You will no longer receive whispers from this player.= добавлен в ИГНОР-ЛИСТ. Вы больше не будете получать от него шёпот.
+Current Ignore List:=Текущий игнор-лист:
+Add a player with '/ignore PlayerName'.=Добавить: '/ignore ИмяИгрока'.
+
+# --- Чат: тренировка / LFG ---
+TRAIN!!! =ТРЕЙН!!! 
+ TO ZONE!!= В ЗОНУ!!
+ you can lead.= ты можешь повести.
+
+# --- Чат: система/рыбалка ---
+Do you want to join my group?=Хочешь присоединиться к группе?
+Sorry, nevermind.=Извини, ничего.
+You're too far away, get closer to me.=Ты слишком далеко, подойди ближе.
+One second, I'm casting something else. Ask when I'm done if you still need that invis.=Секунду, я кастую другое. Попроси когда закончу, если ещё нужен инвиз.
 
 # --- Настройки: выпадающие списки ---
 Always=Всегда

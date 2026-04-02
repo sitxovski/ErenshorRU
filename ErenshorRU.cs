@@ -23,7 +23,7 @@ namespace ErenshorRU
     {
         public const string GUID = "com.erenshor.ru";
         public const string NAME = "Erenshor Russian Translation";
-        public const string VERSION = "1.5.1";
+        public const string VERSION = "1.6.0";
 
         internal static ManualLogSource Log;
         internal static TranslationDB T;
@@ -679,7 +679,7 @@ namespace ErenshorRU
         private readonly HashSet<string> _untranslated = new HashSet<string>();
         private readonly Dictionary<string, string> _untranslatedPaths = new Dictionary<string, string>();
         private const int MaxCacheSize = 8192;
-        private const int MinSubstringKeyLength = 4;
+        private const int MinSubstringKeyLength = 3;
 
         public int ExactCount => _exact.Count;
         public int SubstringCount => _substrings.Count;

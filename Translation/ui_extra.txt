@@ -905,6 +905,21 @@ Level: =Уровень:
 You have unspent PROFICIENCY POINTS! Open your inventory to assign them.=У вас есть нераспределённые ОЧКИ МАСТЕРСТВА! Откройте инвентарь, чтобы назначить их.
 
 [EXACT]
+
+# --- Тултипы кнопок UI (ButonDesc.dsc из LoadScene.unity) ---
+Toggle UI Movement=Перемещение UI
+Lock North=Закрепить север
+World Map=Карта мира
+Draw real-time geometry (can cause FPS drops)=Отрисовка в реальном времени (может снизить FPS)
+Journal=Журнал
+Chat Box Manager=Управление чатом
+Toggle Gamepad / Steamdeck=Вкл/Выкл геймпад / Steam Deck
+Zoom Out=Отдалить
+Zoom In=Приблизить
+Spells & Skills=Заклинания и навыки
+Shield Bonus Active=Бонус щита активен
+Map=Карта
+
 # --- Управление (OptionsMenu.prefab) ---
 Forward:\n\nBackward:\n\nLeft:\n\nRight:\n\nJump:\n\nAutoattack:\n\nConsider Opponent:\n\nHail / Greet:\n\nSpells and Skills:\n\nQuest Log:\n\nCycle Targets:\n\nOpen / Submit Chat:\n\nInventory:\n\nOptions Menu:\n\nStrafe Left:\n\nStrafe Right:\n\nAutorun:\n\nSit:=Вперёд:\n\nНазад:\n\nВлево:\n\nВправо:\n\nПрыжок:\n\nАвтоатака:\n\nОценить противника:\n\nПриветствие:\n\nЗаклинания и навыки:\n\nЖурнал квестов:\n\nСмена цели:\n\nОткрыть / Отправить чат:\n\nИнвентарь:\n\nМеню настроек:\n\nШаг влево:\n\nШаг вправо:\n\nАвтобег:\n\nСесть:
 "Modern Controls" are a previous control scheme from earlier in development. Options are good, so I re-enabled them. They can only be activated once you're in-game (for now) and do not currently save settings. \n\nIf there is interest, this feature can be made complete.\n\n-Permanent Mouse look & mouse steering\n\n-"Free mouse" removed\n\n-Mouse cursor released during UI usage (also toggled by middle mouse button)\n\n-Left clicking on vendors, bank, etc interacts with them\n\n-"Left" and "Right" default to strafe=«Современное управление» — предыдущая схема из ранней разработки. Настройки — это хорошо, поэтому я вернул их. Активировать можно только в игре (пока что), настройки не сохраняются.\n\nЕсли будет интерес, функцию можно доработать.\n\n-Постоянный обзор мышью и управление мышью\n\n-«Свободная мышь» убрана\n\n-Курсор освобождается при использовании интерфейса (также по средней кнопке мыши)\n\n-Левый клик по торговцам, банку и т.д. взаимодействует с ними\n\n-«Влево» и «Вправо» по умолчанию — боковой шаг
