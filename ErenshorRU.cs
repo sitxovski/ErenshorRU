@@ -14,6 +14,7 @@ using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.TextCore;
 using UnityEngine.TextCore.LowLevel;
 
 namespace ErenshorRU
@@ -23,7 +24,7 @@ namespace ErenshorRU
     {
         public const string GUID = "com.erenshor.ru";
         public const string NAME = "Erenshor Russian Translation";
-        public const string VERSION = "1.8.1";
+        public const string VERSION = "1.8.2";
 
         internal static ManualLogSource Log;
         internal static TranslationDB T;
@@ -427,6 +428,32 @@ namespace ErenshorRU
             return DGet(_tmpReplace, "Montserrat-Regular");
         }
 
+        private static TMP_FontAsset CloneWithMetrics(TMP_FontAsset src, FaceInfo targetFace)
+        {
+            var clone = UnityEngine.Object.Instantiate(src);
+            clone.name = src.name;
+            var fi = clone.faceInfo;
+            fi.pointSize = targetFace.pointSize;
+            fi.scale = targetFace.scale;
+            fi.lineHeight = targetFace.lineHeight;
+            fi.ascentLine = targetFace.ascentLine;
+            fi.descentLine = targetFace.descentLine;
+            fi.capLine = targetFace.capLine;
+            fi.meanLine = targetFace.meanLine;
+            fi.baseline = targetFace.baseline;
+            fi.superscriptOffset = targetFace.superscriptOffset;
+            fi.superscriptSize = targetFace.superscriptSize;
+            fi.subscriptOffset = targetFace.subscriptOffset;
+            fi.subscriptSize = targetFace.subscriptSize;
+            fi.tabWidth = targetFace.tabWidth;
+            fi.underlineOffset = targetFace.underlineOffset;
+            fi.underlineThickness = targetFace.underlineThickness;
+            fi.strikethroughOffset = targetFace.strikethroughOffset;
+            fi.strikethroughThickness = targetFace.strikethroughThickness;
+            clone.faceInfo = fi;
+            return clone;
+        }
+
         public static void PatchTMPFont(TMP_FontAsset font)
         {
             if (font == null) return;
@@ -437,22 +464,24 @@ namespace ErenshorRU
             var replacement = FindTMPReplacement(font.name);
             if (replacement != null)
             {
+                var adapted = CloneWithMetrics(replacement, font.faceInfo);
                 font.characterTable.Clear();
                 font.glyphTable.Clear();
                 font.ReadFontAssetDefinition();
                 if (font.fallbackFontAssetTable == null)
                     font.fallbackFontAssetTable = new List<TMP_FontAsset>();
-                font.fallbackFontAssetTable.Insert(0, replacement);
-                ErenshorRUPlugin.Log.LogInfo($"[RU] REPLACED '{font.name}' => '{replacement.name}'");
+                font.fallbackFontAssetTable.Insert(0, adapted);
+                ErenshorRUPlugin.Log.LogInfo($"[RU] REPLACED '{font.name}' (pt={font.faceInfo.pointSize}) => '{adapted.name}'");
                 return;
             }
 
             var fb = PickMontserratFallback(font);
             if (fb == null) return;
+            var adaptedFb = CloneWithMetrics(fb, font.faceInfo);
             if (font.fallbackFontAssetTable == null)
                 font.fallbackFontAssetTable = new List<TMP_FontAsset>();
-            font.fallbackFontAssetTable.Add(fb);
-            ErenshorRUPlugin.Log.LogInfo($"[RU] '{font.name}' => fallback '{fb.name}'");
+            font.fallbackFontAssetTable.Add(adaptedFb);
+            ErenshorRUPlugin.Log.LogInfo($"[RU] '{font.name}' (pt={font.faceInfo.pointSize}) => fallback '{adaptedFb.name}'");
         }
 
         public static void PatchLegacyText(Text text)
