@@ -23,7 +23,7 @@ namespace ErenshorRU
     {
         public const string GUID = "com.erenshor.ru";
         public const string NAME = "Erenshor Russian Translation";
-        public const string VERSION = "1.7.1";
+        public const string VERSION = "1.7.2";
 
         internal static ManualLogSource Log;
         internal static TranslationDB T;
@@ -443,13 +443,35 @@ namespace ErenshorRU
     [HarmonyPatch]
     public static class ChatPatches
     {
+        private static readonly string[] ChatSeparators =
+            { " shouts: ", " says: ", " tells the guild: ", " tells the group: ", " tells you: " };
+
         [HarmonyPrefix]
         [HarmonyPatch(typeof(ChatLogLine), MethodType.Constructor,
             new Type[] { typeof(string), typeof(ChatLogLine.LogType), typeof(string) })]
         static void ChatLogLine_Ctor(ref string _msg)
         {
             if (ErenshorRUPlugin.T == null || string.IsNullOrEmpty(_msg)) return;
-            _msg = ErenshorRUPlugin.T.Translate(_msg);
+
+            string full = ErenshorRUPlugin.T.Translate(_msg);
+            if (full != _msg) { _msg = full; return; }
+
+            for (int i = 0; i < ChatSeparators.Length; i++)
+            {
+                int idx = _msg.IndexOf(ChatSeparators[i], StringComparison.Ordinal);
+                if (idx < 0) continue;
+
+                string name = _msg.Substring(0, idx);
+                string sep = ChatSeparators[i];
+                string content = _msg.Substring(idx + sep.Length);
+
+                string trSep = ErenshorRUPlugin.T.Translate(sep);
+                string trContent = ErenshorRUPlugin.T.Translate(content);
+
+                if (trSep != sep || trContent != content)
+                    _msg = name + trSep + trContent;
+                return;
+            }
         }
     }
 
