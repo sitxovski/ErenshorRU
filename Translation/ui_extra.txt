@@ -815,10 +815,34 @@ Available Points: =Доступные очки:
 Treasure Hunt:\n=Охота за сокровищами:\n
 Treasure Loc\n=Местоположение сокровища\n
 
-# --- Админ-панель сервера ---
+# --- Динамические подписи слайдеров (suffix от ReadSliderSetting) ---
 [SUBSTRING]
-Server Population: =Население сервера: 
-NPC DMG Modifier: =Модификатор урона НПС: 
-XP Modifier: =Модификатор опыта: 
-Rare Drop Rate Modifier: =Модификатор редкого лута: 
-NPC HP Modifier: =Модификатор ОЗ НПС: 
+Rare Drop Rate Modifier=Множитель редкого лута
+Respawn Time Length=Время возрождения
+NPC DMG Modifier=Множитель урона NPC
+NPC HP Modifier=Множитель ОЗ NPC
+Global Run Speed=Скорость бега
+Server Population=Население сервера
+XP Modifier=Множитель опыта
+Server Status: Live=Статус сервера: Онлайн
+Server Status: Down=Статус сервера: Оффлайн
+Server Status: Busy=Статус сервера: Загружен
+Server Status: Full=Статус сервера: Полный
+Server Status: Locked=Статус сервера: Заблокирован
+[>Auth]: Checking Login Info...=[>Авт]: Проверка данных входа...
+[>Auth]: Username found!=[>Авт]: Имя пользователя найдено!
+[>Con]: Connecting to server...=[>Подкл]: Подключение к серверу...
+[>Con]: Connection established!=[>Подкл]: Соединение установлено!
+[>Sec]: Verifying anti-cheat...=[>Безоп]: Проверка античита...
+[>Game]: Loading player characters...=[>Игра]: Загрузка персонажей...
+[>Game]: Loading player inventory...=[>Игра]: Загрузка инвентаря...
+[>Game]: Building World...=[>Игра]: Построение мира...
+[>Game]: Have fun!=[>Игра]: Удачной игры!
+Attack Roll Modifier =Модификатор броска атаки 
+NPC HP scale modifier: =Модификатор масштаба ОЗ NPC: 
+you must zone to activate this modifier=нужно сменить зону для активации модификатора
+NPC HP MODIFIER: =МОДИФИКАТОР ОЗ NPC: 
+NPC DMG MODIFIER: =МОДИФИКАТОР УРОНА NPC: 
+Server reset failed, see log file=Сброс сервера не удался, см. файл лога
+Server reset complete... backup files are intact.=Сброс сервера завершён... резервные копии сохранены.
+Ascension XP: =Опыт вознесения: 
