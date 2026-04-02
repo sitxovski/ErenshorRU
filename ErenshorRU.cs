@@ -23,7 +23,7 @@ namespace ErenshorRU
     {
         public const string GUID = "com.erenshor.ru";
         public const string NAME = "Erenshor Russian Translation";
-        public const string VERSION = "1.5.0";
+        public const string VERSION = "1.5.1";
 
         internal static ManualLogSource Log;
         internal static TranslationDB T;
@@ -213,31 +213,57 @@ namespace ErenshorRU
 
     public static class AutoSizer
     {
-        private static readonly HashSet<int> _done = new HashSet<int>();
+        private static readonly Dictionary<int, float> _origSizes = new Dictionary<int, float>();
+        private static readonly HashSet<int> _autoSized = new HashSet<int>();
 
         public static void ApplyTMP(TMP_Text c)
         {
             int id = c.GetInstanceID();
-            if (_done.Contains(id)) return;
-            _done.Add(id);
-            if (c.enableAutoSizing) return;
-            float cur = c.fontSize;
-            if (cur < 1f) return;
-            c.fontSizeMax = cur;
-            c.fontSizeMin = Mathf.Max(cur * 0.5f, 6f);
+
+            if (!_origSizes.ContainsKey(id))
+                _origSizes[id] = c.enableAutoSizing ? c.fontSizeMax : c.fontSize;
+
+            float orig = _origSizes[id];
+            if (orig < 1f) return;
+
+            if (c.enableAutoSizing)
+            {
+                c.fontSizeMax = Mathf.Min(c.fontSizeMax, orig);
+                return;
+            }
+
+            if (!(c is TextMeshProUGUI)) return;
+
+            if (_autoSized.Contains(id)) return;
+            _autoSized.Add(id);
+
+            c.fontSizeMax = orig;
+            c.fontSizeMin = Mathf.Max(orig * 0.5f, 6f);
             c.enableAutoSizing = true;
         }
 
         public static void ApplyLegacy(Text c)
         {
             int id = c.GetInstanceID();
-            if (_done.Contains(id)) return;
-            _done.Add(id);
-            if (c.resizeTextForBestFit) return;
-            int cur = c.fontSize;
-            if (cur < 1) return;
-            c.resizeTextMaxSize = cur;
-            c.resizeTextMinSize = (int)Mathf.Max(cur * 0.5f, 6f);
+
+            if (!_origSizes.ContainsKey(id))
+                _origSizes[id] = c.resizeTextForBestFit ? c.resizeTextMaxSize : c.fontSize;
+
+            float orig = _origSizes[id];
+            if (orig < 1) return;
+
+            if (c.resizeTextForBestFit)
+            {
+                if (c.resizeTextMaxSize > (int)orig)
+                    c.resizeTextMaxSize = (int)orig;
+                return;
+            }
+
+            if (_autoSized.Contains(id)) return;
+            _autoSized.Add(id);
+
+            c.resizeTextMaxSize = (int)orig;
+            c.resizeTextMinSize = (int)Mathf.Max(orig * 0.5f, 6f);
             c.resizeTextForBestFit = true;
         }
     }
