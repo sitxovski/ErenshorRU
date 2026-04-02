@@ -23,7 +23,7 @@ namespace ErenshorRU
     {
         public const string GUID = "com.erenshor.ru";
         public const string NAME = "Erenshor Russian Translation";
-        public const string VERSION = "2.0.4";
+        public const string VERSION = "2.0.5";
 
         internal static ManualLogSource Log;
         internal static TranslationDB T;
@@ -336,15 +336,53 @@ namespace ErenshorRU
             return fa;
         }
 
+        private static readonly HashSet<int> _outlinedFbMats = new HashSet<int>();
+
+        private static void EnableOutlineOnFallbackMaterial(Material mat)
+        {
+            if (mat == null) return;
+            int id = mat.GetInstanceID();
+            if (_outlinedFbMats.Contains(id)) return;
+            _outlinedFbMats.Add(id);
+            try
+            {
+                mat.SetFloat("_OutlineWidth", 0.25f);
+                mat.SetColor("_OutlineColor", new Color(0, 0, 0, 1));
+                mat.EnableKeyword("OUTLINE_ON");
+            }
+            catch { }
+        }
+
+        private static bool IsLightFont(string fontName)
+        {
+            if (string.IsNullOrEmpty(fontName)) return false;
+            string n = fontName.ToLowerInvariant();
+            return n.Contains("light") || n.Contains("thin");
+        }
+
         public static void ApplyOutlineToComponent(TMP_Text comp)
         {
             if (comp == null) return;
             try
             {
+                var font = comp.font;
+                if (font == null) return;
+                if (IsLightFont(font.name)) return;
+
                 if (comp.outlineWidth < 0.2f)
                 {
                     comp.outlineWidth = 0.25f;
                     comp.outlineColor = new Color32(0, 0, 0, 255);
+                }
+
+                if (font.fallbackFontAssetTable != null)
+                {
+                    for (int i = 0; i < font.fallbackFontAssetTable.Count; i++)
+                    {
+                        var fb = font.fallbackFontAssetTable[i];
+                        if (fb != null && fb.material != null)
+                            EnableOutlineOnFallbackMaterial(fb.material);
+                    }
                 }
             }
             catch { }
@@ -943,7 +981,7 @@ namespace ErenshorRU
                     if (en.Length > 50 && en.EndsWith("...") && !string.IsNullOrEmpty(ru))
                         _prefixes.Add(new KeyValuePair<string, string>(
                             en.Substring(0, en.Length - 3), ru));
-                }
+            }
             }
             if (skipped > 0)
                 ErenshorRUPlugin.Log?.LogWarning(

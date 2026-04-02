@@ -518,3 +518,14 @@ STORM - Finale=ШТОРМ - - Финал
 STORM - Imbue Master=ШТОРМ - - Мастер Чар
 STORM - Lightning Rod=ШТОРМ - - Громоотвод
 STORM - Reload=ШТОРМ - - Заряд
+
+# --- Доп. заклинания (для WTB чата) ---
+Antidote=Противоядие
+Concuss=Сотрясение
+Devour=Поглощение
+Jolt=Разряд
+Protection=Защита
+Regrowth=Регенерация
+Spectrum=Спектр
+Tangle=Запутывание
+Waste=Опустошение
