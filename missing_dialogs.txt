@@ -1,0 +1,953 @@
+# Missing dialog translations: 317 / 1044
+
+# Source: Scenes\Azure.unity
+Ahoy there! Do me a favor, 'eh kiddo? My back's not what it used to be - could you hand me that sack on the ground there? =
+
+# Source: Scenes\Azure.unity
+I need Octorunners, that's it. I need 4 of 'em to finish my quota and then I can sail you out there. Bring 'em on over and let's go. =
+
+# Source: Scenes\Azure.unity
+They say he left it all behind in some sad effort to repent. If ya ask me or anyone else kiddo, he's got a load of it on that island. Promise to cut me in, eh? I didn't explore none of it, kiddo, I swear. Left it just as I found it. We going or what? Just gotta square away my daily catch first. =
+
+# Source: Scenes\Azure.unity
+You don't know the tale? Ah, well, I s'pose if you're not fishin' you don't got time to tell stories. Bellwain is the most wanted Pirate in history. Terrorized Merosavilla for decades, then fled away when he got swept up by some barmaid he met. Loved to leave notes, claimed he changed his ways and just wanted peace. Even left his treasure behind for the takin'. So they say.  I'll take ya out there even, just gotta help me with today's catch is all, I got quotas ya know. =
+
+# Source: Scenes\Azure.unity
+Ports are closed. Anyone headed this way gets dropped and left on Stowaway's Step.=
+
+# Source: Scenes\Azure.unity
+Awful bunch. I used to have a shop, a home... there was a gorgeous waterfall right out my bedroom window. Port Azure pulled back the guards to defend the city and left us all alone. We had no choice but to leave. =
+
+# Source: Scenes\Azure.unity
+What are you doing up here? You lose your life's work to the Sivakayans too? =
+
+# Source: Scenes\Azure.unity
+Oh, hi there. I'm just here to announce the latest news. Right now I'm recognizing the folks who have contributed to help the development of our fine island! =
+
+# Source: Scenes\Azure.unity
+Port Azure left us on our own. I lived in a beautiful place called the Silkengrass Meadow. Then the Sivakayans came.=
+
+# Source: Scenes\Azure.unity
+Never thought I'd be living in an inn. I came to Erenshor for a new start, not for this.=
+
+# Source: Scenes\Azure.unity
+Sometimes I hear folks talkin' about ghosts that only show up at night. One specific one they all mention, over on the West Vithean Coastline, up by the Malaroths. Not gonna go and see for myself, but I heard 'bout it. =
+
+# Source: Scenes\Azure.unity
+Full house. With everyone moving back to the city, this place is in high demand. =
+
+# Source: Scenes\Azure.unity
+Haven't seen you before, and i know ya didn't come off a boat. I learned not to ask questions though. No rooms right now, either way. =
+
+# Source: Scenes\Azure.unity
+There's a fishing boat that sometimes stops on the beach in Blacksalt Strand. We've both seen it. If we can make a ring that enchants our fishing skill, we can use it to buy a ride back. Here's a template, if you can find the parts...=
+
+# Source: Scenes\Azure.unity
+They're to help ya learn. Nothin' special. =
+
+# Source: Scenes\Azure.unity
+Got some instructional books for sale here. =
+
+# Source: Scenes\Azure.unity
+To Erenshor. It was supposed to be a land of new opportunities, but here I am locked in my house in a city, too afraid to take advantage of any of it. =
+
+# Source: Scenes\Azure.unity
+Siva-whatevers. I have piles of 'em. I trade one for a map and elixir. Don't negotiate neither. Bring 'em if you got extras. =
+
+# Source: Scenes\Azure.unity
+Those funny little potions you get over from the oddities folks. I'm on their second-to-least strongest one. Anything more is just too much for this head of mine. =
+
+# Source: Scenes\Azure.unity
+You wanderin' around lost? E'ryone knows you bring me maps and Elixirs, I give you one of those junk coins I got out of a chest. =
+
+# Source: Scenes\Azure.unity
+Ho there! You bring a map? An Elixir? =
+
+# Source: Scenes\Azure.unity
+Up for some fishing? Got some supplies here!=
+
+# Source: Scenes\Azure.unity
+Sorry, not in a chattin' mood right now. =
+
+# Source: Scenes\Azure.unity
+Got a room here. It's nice enough, maybe one day I'll work up enough savings to get a house here in the city. Not like you can just build your own here...=
+
+# Source: Scenes\Azure.unity
+Ello there. Welcome to the Azure Arms.=
+
+# Source: Scenes\Azure.unity
+There are no ships due in today. Or tomorrow. Next one is from Merosavilla, with reinforcements. We're not sure when. =
+
+# Source: Scenes\Azure.unity
+Long ways off, it seems like. Where home used to be for a lot of these folks. =
+
+# Source: Scenes\Azure.unity
+You one of the slummers? =
+
+# Source: Scenes\Azure.unity
+Their origin is not known, but there is nothing else like them. Somehow, they're tied to a blessing of the Gods, but we cannot figure out exactly how. =
+
+# Source: Scenes\Azure.unity
+There are strange ores to be found in this place called Planar Stones. Have you seen any? A whole one is exceedingly rare!=
+
+# Source: Scenes\Azure.unity
+All we need is a blessed item, and we use an Inert Diamond in place of a mold. Then we apply heat and the diamond will vibrate and it will crumble, but its shards will change... they will absorb the magic from the item, leaving the physical item intact even!=
+
+# Source: Scenes\Azure.unity
+They're special things. With a magical resolving fluid in place of a mold, and if we combine 8 of the shard pieces with heat, I have reason to believe we can create a full and intact Planar Stone! =
+
+# Source: Scenes\Azure.unity
+If you find an item that carries a blessing, it'll have a certain... sparkle to it. I believe that can strip its magic though! I've only seen it done once.=
+
+# Source: Scenes\Azure.unity
+This isn't the life any of us had planned when we came to Erenshor. Now I don't have the means to go back home.=
+
+# Source: Scenes\Azure.unity
+Yep, I sell books.  If you find any rare ones, bring 'em my way and show 'em to me before you hold out your hand askin' for money. =
+
+# Source: Scenes\Azure.unity
+I feel safer near the guards. There's just no telling... I've heard odd things in the housing pit late at night.=
+
+# Source: Scenes\Azure.unity
+We're going to find a way back to Stowaway's Step. Want to help? From there, we think we can find our way back home. =
+
+# Source: Scenes\Azure.unity
+I feel safer near the guards. There's just no telling... I've heard odd things in the housing pit late at night.=
+
+# Source: Scenes\Azure.unity
+I help cook for the guards. Keep 'em fed. That way they'll protect us I hope. On that note, I could use wolf meat and bear meat. As much of each as you can bring, I'll pay what I can. Can't get out to get my own lately. =
+
+# Source: Scenes\Azure.unity
+Everyone's afraid lately. The Sivakayans are being spotted all over the place, so I hear. Hard to get out and get anything I need lately. =
+
+# Source: Scenes\Azure.unity
+I don't go out anymore. There's just too much danger out there. I wish I never came to this place. =
+
+# Source: Scenes\Azure.unity
+Down behind the market square, where the poor folk live. Came to Erenshor without a coin to spare, now they live in the pits of Azure. I hear all sorts of unsavories come out at night over there. Wouldn't know, I stay away. =
+
+# Source: Scenes\Azure.unity
+Nothing to do these days but drink and wait for the Sivakayans to decend upon us from wherever they're lurking.=
+
+# Source: Scenes\Azure.unity
+If you do not belong here, do not pass by me. The warmth of your greeting will be provided by your own escaping blood. Prove yourself. State the passphrase.=
+
+# Source: Scenes\Azure.unity
+Wrong group.=
+
+# Source: Scenes\Azure.unity
+Say it or leave.=
+
+# Source: Scenes\Azure.unity
+Well, someone must have taken a liking to you. We're about to uncover something incredible here, and we need help. Go in and speak to the others.=
+
+# Source: Scenes\Azure.unity
+Got books for sale. =
+
+# Source: Scenes\Azynthi.unity
+If you can restore me, even if I cannot leave this place, I will bestow my knowledge upon you once I regain it. =
+
+# Source: Scenes\Azynthi.unity
+He feeds on all who are here. My knowledge... he has taken it. I am one of the first Paladins. I escaped Astra, and I have seen Soluna's Celestial Blade. Azynthi has taken all but remnants of the memory from me. =
+
+# Source: Scenes\Azynthi.unity
+He is everywhere, he is ascending. He stole the power of Sivakaya and grows with each moment into something truly terrifying. =
+
+# Source: Scenes\Azynthi.unity
+How did you enter this place? Azynthi has sealed me here... and cursed me to stay. I cannot leave even if this place crumbles. =
+
+# Source: Scenes\AzynthiClear.unity
+... *It is a Riftstone, willed into existence*=
+
+# Source: Scenes\AzynthiClear.unity
+We can return at your whim. Step onto the boat.=
+
+# Source: Scenes\Blight.unity
+We are lost. We are doomed. Azynthi will not help us. =
+
+# Source: Scenes\Blight.unity
+We are lost. We are doomed. Azynthi will not help us. =
+
+# Source: Scenes\Blight.unity
+What lies beyond this point are horrors who answer to no god. Their souls are blighted and their bodies are no longer their own. The artifacts you may find are not worth the toll this place will take.=
+
+# Source: Scenes\Blight.unity
+We are lost. We are doomed. Azynthi will not help us. =
+
+# Source: Scenes\Blight.unity
+We are lost. We are doomed. Azynthi will not help us. =
+
+# Source: Scenes\BloomingSepulcher.unity
+The portal can be re-activated with a piece of Vitheo's tomb to link it... perhaps a stone or brick from its walls? =
+
+# Source: Scenes\Brake.unity
+Just up over that hill to the south for example - those ruins are overrun by some sort of ancient guardians that have been there for as long as time remembers. Not sure about their origin, but they don't like visitors. =
+
+# Source: Scenes\Brake.unity
+Careful around old ruins! They tend to attract creatures. Worse yet, sometimes they contain things that have never left.=
+
+# Source: Scenes\Braxonia.unity
+... *The Light flickers*=
+
+# Source: Scenes\Braxonian.unity
+Not a lot is known yet... Sivakaya fell in this place, and the spire of corruption rose from the sands. The remnants of that event still walk the sands here, tread with care.=
+
+# Source: Scenes\Braxonian.unity
+The prized city of Brax, it's said that he graced it with his own presence and blessed it with a portal to his own plane of existence. When the corruption came, he had to bury it in sand and fire to save the rest of the world. =
+
+# Source: Scenes\Braxonian.unity
+This place is incredible! There's no doubt that fallen Braxonia lies beneath our feet... the question is: how much of it is still there? =
+
+# Source: Scenes\Braxonian.unity
+It's some sort of a game! Some ancient passtime... but being down there makes me so uneasy.=
+
+# Source: Scenes\Braxonian.unity
+Every new dig site reveals something more curious than the last. This though... this find seems different. =
+
+# Source: Scenes\Braxonian.unity
+In old Braxonian, it's called 'Evadne' so it would seem - as that word is written in every text that references the entrance to Braxonia. =
+
+# Source: Scenes\Braxonian.unity
+All we have to do is find one opening, one window or rooftop hatch, and we may gain entry to centuries of history!=
+
+# Source: Scenes\Braxonian.unity
+The ground has been hardened into stone in many places, we are having trouble excavating the city.=
+
+# Source: Scenes\Braxonian.unity
+This grate has proved impenetrable, but something lies below. A constant wind blows from it. The air smells of Brashell... Brashell was thought to be extinct - it is an herb used in Braxonian rituals long ago. =
+
+# Source: Scenes\Braxonian.unity
+The spire to the east sprung from the ground centuries ago and with it came decay and disease. It spread rapidly through the land until Brax scorched this place with a flourish of His hand. In doing so, he sacrificed his own followers. It is our duty to uncover their story, and honor them in history.=
+
+# Source: Scenes\Braxonian.unity
+Our lost ancestors, buried by these holy sands sowed by Brax Himself to stop the blight from consuming the world. The writings we've uncovered allude to warnings given by Brax, and hint at a network of underground tunnels meant to sustain life.=
+
+# Source: Scenes\Braxonian.unity
+We have reason to believe that the lost people of this place may exist beneath our very feet.=
+
+# Source: Scenes\Braxonian.unity
+We've been unable to move it. If you can find a way in... the things you may find may change our world forever. Please, you look like the type to try. If you do, keep us apprised of your findings. =
+
+# Source: Scenes\Braxonian.unity
+An entire ancient civilization was buried under the sand. We are working to uncover its secrets.=
+
+# Source: Scenes\Braxonian.unity
+This is an exciting time for us. We're close to uncovering the secrets of the blighted spire.=
+
+# Source: Scenes\Braxonian.unity
+Have you seen it? We've uncovered something incredible... and the energy down there - you can FEEL it wanting for something!=
+
+# Source: Scenes\Braxonian.unity
+Brax chose to sacrifice his own people when he scorched this desert onto the land. The desert holds back the blight, and the sacrifice was necessary.=
+
+# Source: Scenes\Duskenlight.unity
+It's in the Revival Plains, quite a sight to see! Legend has it that the one who approaches the gate with a worthy gift will gain entry!=
+
+# Source: Scenes\Duskenlight.unity
+They spawned from Fernalla herself, as she rose to her Plane of the Great Willow. She sowed the seeds herself, gifting us her eternal presence. The very gate through which she stepped is still standing!=
+
+# Source: Scenes\Duskenlight.unity
+When a hero perishes, they might ascend to become a God or Goddess, as Fernalla did in the war against Sivakaya. Her willows will stand here eternally, and so shall we.=
+
+# Source: Scenes\Duskenlight.unity
+Fernalla ascended from Erenshor, and we, her children, shall serve her from this place. =
+
+# Source: Scenes\Duskenlight.unity
+We will remain on this land, it is our sacred right.=
+
+# Source: Scenes\Duskenlight.unity
+We cannot say, something otherworldly - perhaps something from her brother or her father - both of whom I'm sure she misses dearly. We have tried every wordly thing, to no avail.=
+
+# Source: Scenes\Duskenlight.unity
+The Jaws of Sivakaya... that ancient temple with the skullstone entrance. Nobody's been able to open it for a lifetime. They think they're going to figure it out... Who knows what that'll unleash!=
+
+# Source: Scenes\Duskenlight.unity
+Molorai. Wherever there are ruins, the Molorai are never far away. They're after something on the hilltop near the Sivakayan Ruins.=
+
+# Source: Scenes\Duskenlight.unity
+It has never been accessed since it was sealed. Her followers do not even come here. The Sivakayans have made their home elsewhere.=
+
+# Source: Scenes\Duskenlight.unity
+Don't know who they were. Defintely marched with a purpose though.=
+
+# Source: Scenes\Duskenlight.unity
+Leave me alone. I came here to make my own way, and I don't need trouble that all you folks drag along in your wake.=
+
+# Source: Scenes\Duskenlight.unity
+Port Azure has preserved the willow there, thanks to the Fernallan Sisters. We Druids of Fernalla are not as welcome within its walls. =
+
+# Source: Scenes\Duskenlight.unity
+That army marched through here not long ago... right to the hilltop they went. Tents on their backs, like they plan to stay a while. =
+
+# Source: Scenes\Duskenlight.unity
+Those men on the hill... they're trying to get into the jaws. =
+
+# Source: Scenes\Duskenlight.unity
+Sivakayan ruins, so I hear. Been in there myself, nothin' to see. Just empty space and a weird feelin'.=
+
+# Source: Scenes\Duskenlight.unity
+Settlin' here seemed like a good idea before all the stirrings took place. The skull monument was no big deal, 'cept now folks are here tryin' to wake it up.=
+
+# Source: Scenes\Duskenlight.unity
+Ay there, 'fraid I can't offer ya much. Molorai folks cleaned me out. =
+
+# Source: Scenes\Duskenlight.unity
+Came through in droves from the pass a few days back. Half went up that hill, other half kept on down the road, not sure where to. Didn't pay the worth of what they took, neither. Not much I can do 'bout that though, it's just me ya know. =
+
+# Source: Scenes\Duskenlight.unity
+The Jaws of Sivakaya. Rumored to hold the decrepit form of her remains. It's sealed tight, with no apparent way to enter or exit. =
+
+# Source: Scenes\Duskenlight.unity
+This willow stands in the eyeline of the Sivakayan statue atop the hill. Fernalla put this tree here as a sign of power. It's one of her most important willows.=
+
+# Source: Scenes\Duskenlight.unity
+I don't go out much anymore. I can't stay here.=
+
+# Source: Scenes\Duskenlight.unity
+They just descended on this place a few days ago. Seem hellbent on getting into the ruins. Saw some walkin' around behind that old school down there too, like they know something about it we don't.=
+
+# Source: Scenes\Duskenlight.unity
+This place... I come here to feel the power of it.=
+
+# Source: Scenes\Duskenlight.unity
+It's one of the rare places two Gods have touched. Fernalla's willow, and Sivakaya's temple standing guard against one another... like a timeless duel.=
+
+# Source: Scenes\Duskenlight.unity
+Pretty sure I'm moving back to the city soon. The Molorai aren't the most pleasant bunch to be around. =
+
+# Source: Scenes\Duskenlight.unity
+Just go. You have nothing I want.=
+
+# Source: Scenes\Duskenlight.unity
+Faun, Druid of Fernalla at your service. Our kind has lived in this settlement since the days of the Great War. =
+
+# Source: Scenes\Duskenlight.unity
+Talk to Malor. She's well versed. =
+
+# Source: Scenes\Duskenlight.unity
+There's more lost history here than will be written for centuries to come. This land was touched by Gods, and their blood spilled upon this very soil. =
+
+# Source: Scenes\Duskenlight.unity
+Atop that plateau stands a Sivakayan place of power. It's been dormant for decades, but we keep watch just the same.=
+
+# Source: Scenes\Duskenlight.unity
+Where the willow stands, so shall stand a child of Fernalla. There are others from who we must protect the trees.=
+
+# Source: Scenes\Duskenlight.unity
+It grows right in the Port Azure square. The city was built around it. It's good to respect the Gods. Fernalla's blessings have fallen upon the city for their piety. =
+
+# Source: Scenes\Duskenlight.unity
+Useful imposters, they are. They claim to follow Fernalla but, just like the rest of their kind, they dismiss the parts of her nature that they do not enjoy. We Druids embrace all parts of nature. Even the unpleasant. =
+
+# Source: Scenes\Elderstone.unity
+I... I'm in shock. I feel so numb. I wish you were here to help earlier.=
+
+# Source: Scenes\Elderstone.unity
+I found a bit of Elderstone Ore. It shines like some crazy diamond... I bet there's more down there.=
+
+# Source: Scenes\Elderstone.unity
+We're waiting for orders to blow the mine and seal it off.=
+
+# Source: Scenes\Elderstone.unity
+We have to rebuild that wall... I can't get those echoes out of my mind... I have to get home to mother!=
+
+# Source: Scenes\Elderstone.unity
+If I see them come through there, I'm running! They're so scary!\n=
+
+# Source: Scenes\Elderstone.unity
+I... I left my shovel. It's a family heirloom. One of those slime-things slithered over it and it was gone! =
+
+# Source: Scenes\Elderstone.unity
+If you find it, can I have it back? I know it's not important, but... but it meant a lot to me. =
+
+# Source: Scenes\Elderstone.unity
+When those monsters came out... I thought it was the end. We shouldn't meddle in those things or else it'll be good bye blue sky for all of us. =
+
+# Source: Scenes\FernallaField.unity
+A place of rebirth invites reinvention. Quiet your confusion, set right your wrongs, and stand as yourself.\n\n(At this place, you may respec your proficiencies, and those of your friends - open your inventory or theirs)=
+
+# Source: Scenes\FernallaField.unity
+Fernalla took her true form in this very spot, and left behind The Willow in her wake. Her gift to all of us is the opportunity to find our own truths.=
+
+# Source: Scenes\FernallaField.unity
+It's not advised to adventure to the north. Go at your own risk, just stay out of the ruins. Everyone knows that... but you don't look too bright. =
+
+# Source: Scenes\FernallaField.unity
+Quite a place, this field. Really one of the last places you'll see civilized folk trying to settle. Venturing past here never was a good idea. Apparently, being here wasn't a great idea either.=
+
+# Source: Scenes\FernallaField.unity
+You heard about Goodsoil? Gone overnight. Sivakayans, I'm betting. =
+
+# Source: Scenes\FernallaField.unity
+Port Azure Guards used to patrol through 'ere, up to Rottenfoot. Beyond that, folks was always on their own. A few pushed on to settle in the North, but they're not the average bunch.=
+
+# Source: Scenes\Jaws.unity
+You may pass.=
+
+# Source: Scenes\Jaws.unity
+Do not pass unless you are deemed worthy. You will die.=
+
+# Source: Scenes\Jaws.unity
+Only the worthy may pass.=
+
+# Source: Scenes\Jaws.unity
+Azynthi...=
+
+# Source: Scenes\Jaws.unity
+Only the worthy may pass.=
+
+# Source: Scenes\Jaws.unity
+Azynthi...=
+
+# Source: Scenes\Jaws.unity
+Only the worthy may pass.=
+
+# Source: Scenes\Jaws.unity
+Azynthi...=
+
+# Source: Scenes\Jaws.unity
+... *a memory can be felt in the air and a low voice echoes through your mind* - "The guardian has awoken, let her gaze upon you"... =
+
+# Source: Scenes\Jaws.unity
+Only the worthy may pass.=
+
+# Source: Scenes\Jaws.unity
+Azynthi...=
+
+# Source: Scenes\Jaws.unity
+Only the worthy may pass.=
+
+# Source: Scenes\Jaws.unity
+Azynthi...=
+
+# Source: Scenes\Jaws.unity
+Only the worthy may pass.=
+
+# Source: Scenes\Jaws.unity
+Azynthi...=
+
+# Source: Scenes\Jaws.unity
+... *a memory can be felt in the air and a low voice echoes through your mind* - "Only the truly pious shall pass. He who speaks the name of the one who gifted Sivakaya her ascension may pass unharmed.=
+
+# Source: Scenes\Loomingwood.unity
+The Candle belonged to The First Wisp - Eldrin. It was stolen from us long ago by a spy in the night. I would suspect it has found its way into the hands of Sivakayans... possibly the Darkwardens. Maybe its buried in the sands of Braxonia, or, worse yet, in some antiquities shop somewhere. If you find any trace of it, bring it to me.=
+
+# Source: Scenes\Loomingwood.unity
+Yes, I have taken great interest in the old Sivakayan Churches we've found. I suspect that the great skull cave in Duskenlight may be one of them, because its entrance resembles images of the Nighthollow Candle.=
+
+# Source: Scenes\Loomingwood.unity
+I am something of an expert on the history of this land and on Sivakaya. I don't know in what form that might be helpful, but I am here.=
+
+# Source: Scenes\Loomingwood.unity
+Beyond the road, things which are attracted to our magic wander beneath the canopy, but they do not venture close. We do not fare well away from the path.=
+
+# Source: Scenes\Loomingwood.unity
+Sivakaya came to me in a vision. An empty shell of a Goddess and filled with decay. I fear we may have to fell her current form to restore her former one.=
+
+# Source: Scenes\Loomingwood.unity
+The Loomingwood is no place to wander. Our wards protect this place from Sivakayans, but they attract what some might consider to be... far worse.=
+
+# Source: Scenes\Loomingwood.unity
+I have seen her. I've had her image seared into my mind.=
+
+# Source: Scenes\Loomingwood.unity
+It's you... the one who found Wyland and freed him. We are indebted. =
+
+# Source: Scenes\Malaroth.unity
+I stopped here for a rest before continuing on my pilgrimage. The journey along the coast was breathtaking... but tiresome. =
+
+# Source: Scenes\Ripper.unity
+We're building a new home here. Ripper will protect us. Port Azure isn't safe... there's something amiss there. =
+
+# Source: Scenes\Ripper.unity
+I've got connections in Azure. I can keep things going indefinitely, trust me.=
+
+# Source: Scenes\Ripper.unity
+We've worked hard to establish this place. I think Ripper's looking to go to war with Port Azure, I just hope that war doesn't get dragged back here. =
+
+# Source: Scenes\Ripper.unity
+Not sure what we'd have done without Ripper. I'm just waiting to be conscripted into service, but it hasn't happened yet. =
+
+# Source: Scenes\Ripper.unity
+Getting goods into this area is no trouble at all. There's smugglers running all the time.=
+
+# Source: Scenes\Ripper.unity
+This isn't how I expected life on Erenshor to go... I didn't intend to be a rebel. But here I am.=
+
+# Source: Scenes\Ripper.unity
+...is it really being a rebel though, if you had no other choice except to die? Port Azure put us all in a tough spot. My friends are there... =
+
+# Source: Scenes\RipperPortal.unity
+... *It does not respond*=
+
+# Source: Scenes\RipperPortal.unity
+Oh, pity you. You don't know with what you meddle. No worry, toddle off and play some more. I have a surprise for you to wake us up! Bring me proof of your victory.=
+
+# Source: Scenes\RipperPortal.unity
+Yes! Inside the Dreams!=
+
+# Source: Scenes\RipperPortal.unity
+Incredible place, isn't it? You've been here before.=
+
+# Source: Scenes\Rottenfoot.unity
+Croc season. We need their tails. Got any? =
+
+# Source: Scenes\Rottenfoot.unity
+Cros are in season. We're here to hunt. =
+
+# Source: Scenes\SaltedStrand.unity
+The currents bring the blight here, bit by bit. It attracts unpleasant things to the coast. It's been that way forever, I guess. Just didn't know it before I settled here. =
+
+# Source: Scenes\SaltedStrand.unity
+Can see lot's of comings and goings from up here. Goliath keeps a good watch over this place. Keeps it quiet for the rest of us. Just the odd traffic into the cliffside over there to the north. Not even to the tunnel... just into the thickets... and do you see that smoke rising? I think something's in there. Don't dare explore it myself. =
+
+# Source: Scenes\SaltedStrand.unity
+The Strand is not a place to linger. The blighted sand washes up more and more each day. =
+
+# Source: Scenes\ShiveringStep.unity
+Had a dream about a cave here... a bear made of dead dreams lived in it, and I was soaked... freezing.=
+
+# Source: Scenes\ShiveringStep.unity
+Such a vivid dream, so I came to see. But there's nothing here. Funny though, I remember being so wet...=
+
+# Source: Scenes\ShiveringStep.unity
+Immeasurably beautiful, and guarded by two demons - one made of stone, and one made of fear. =
+
+# Source: Scenes\ShiveringStep.unity
+I see a beast, ancient and foggy, mouth full of fangs. It's wet, and I'm tired from swimming.=
+
+# Source: Scenes\ShiveringStep.unity
+About great bridges across the sky. About underwater caves, full of walking dreams. =
+
+# Source: Scenes\ShiveringStep.unity
+I'm tired. I'm having nightmares.=
+
+# Source: Scenes\ShiveringStep.unity
+... *It blinks sadly. A small key materializes in your hand*=
+
+# Source: Scenes\ShiveringStep.unity
+... *It stares intently*=
+
+# Source: Scenes\ShiveringStep.unity
+Yes, a gift. If you share with me the bit of light that Kio has hidden in the tomb, then I will share a trinket with you. I must be sure that light never falls into Kio's hands again - neither this Kio nor the one you knew before. =
+
+# Source: Scenes\ShiveringStep.unity
+Go back to reality, as it were. Not sure how long you're going to remember us. We'll remember you. Guess I can give you something to take along with you.=
+
+# Source: Scenes\ShiveringStep.unity
+Just a figment of our imaginations. Funny though, how we all share it. How it creeps into our dreams with the same hurried steps. No matter, though. 'Spose you want to be finished with us then?=
+
+# Source: Scenes\ShiveringStep.unity
+Well then, you've certainly done a number on this place, haven't you? =
+
+# Source: Scenes\ShiveringStep.unity
+Oh well... the game is over. Inconsequential, isn't it? Your prize - but do not tell Kio! He likes the island in this light!=
+
+# Source: Scenes\ShiveringStep.unity
+Treasures... found 'em all myself. Scraped 'em off things. Ripped 'em outta things. =
+
+# Source: Scenes\ShiveringStep.unity
+You're not going to believe them!=
+
+# Source: Scenes\ShiveringStep.unity
+Here! There! And where else? Like the book thrown to the sea, you surface!=
+
+# Source: Scenes\ShiveringStep.unity
+Oh, fancy seeing you here. =
+
+# Source: Scenes\ShiveringStep.unity
+Watch out for Mephallo. Hides in the sky. Can't see him without help. I can't help.=
+
+# Source: Scenes\ShiveringStep.unity
+Don't fret. Fishing always clears the mind.=
+
+# Source: Scenes\ShiveringStep.unity
+Heh, you've got it!=
+
+# Source: Scenes\ShiveringStep.unity
+Ah, hello you! You're new here.=
+
+# Source: Scenes\ShiveringStep.unity
+The nightmares are too much. It's the light. Kio keeps it that way.  The guardians of this place do not like change.=
+
+# Source: Scenes\ShiveringStep.unity
+There are six... The Walking Dream, The Ghost of the Great Beast, The Shadowy Spider, The Scourge at the Cliffside Ruins, Mephallo in the Sky, and.... Him.=
+
+# Source: Scenes\ShiveringStep.unity
+Oh - you're warm, aren't you? In this light, we can fix that. The scourge will come. He can make you cold... like us. =
+
+# Source: Scenes\ShiveringStep.unity
+Oh, fancy seeing you here. =
+
+# Source: Scenes\ShiveringStep.unity
+The grass does need a good trim, doesn't it? Could be anything hiding in there. He likes to hide in there. Won't let me trim it. Says it's nice in this light.=
+
+# Source: Scenes\ShiveringStep.unity
+You're not going to believe them!=
+
+# Source: Scenes\ShiveringStep.unity
+Here! There! And where else? =
+
+# Source: Scenes\ShiveringStep.unity
+A light to carry! You'll scare the frights! You'll need it to see, in this light!=
+
+# Source: Scenes\ShiveringTomb.unity
+Yesssss....=
+
+# Source: Scenes\ShiveringTomb.unity
+Feed me... =
+
+# Source: Scenes\ShiveringTomb2.unity
+Yesssss....=
+
+# Source: Scenes\ShiveringTomb2.unity
+Feed me... =
+
+# Source: Scenes\Silkengrass.unity
+It's all gone for me. My wife is missing. Has been for some time now.  I'm terrified that she's been raised from the dead by the Sivakayans. If you find her... if she has her ring... please bring it to me so I know she's at rest finally. =
+
+# Source: Scenes\Silkengrass.unity
+Sivakaya is a Fallen God, but one day she may rise again. We work towards that each and every day. Her warped followers are lost, but she may not be. Not yet.=
+
+# Source: Scenes\Silkengrass.unity
+Quite a place now, it is. We were able to create wards that keep the Sivakayans out. It's our last sanctuary until we can restore things again.=
+
+# Source: Scenes\Silkengrass.unity
+I have been spared for the time being, but there's trouble in this place. =
+
+# Source: Scenes\Silkengrass.unity
+We're trying to make our way here. It's not easy. At least we've got Ripper. Lost most everything else. =
+
+# Source: Scenes\Silkengrass.unity
+If anyone says anything bad about Ripper, don't believe them. You'll hear all sorts of lies in Port Azure. =
+
+# Source: Scenes\Silkengrass.unity
+Sivakayans were just a whisper when I moved out here. Now, they're all over this place. And that cave up on the ledge there... don't even think about going in. You won't come out.=
+
+# Source: Scenes\Silkengrass.unity
+Aimless brutes acting under a false banner. They do not serve Sivakaya, they use her power for destruction and fool themselves that it is in her honor. Why would she wish destruction on the world she helped create? =
+
+# Source: Scenes\Silkengrass.unity
+Tough livin' out here these days. Thankfully, Ripper's men stayed behind. Port Azure is a city of cowards!=
+
+# Source: Scenes\Silkengrass.unity
+This is the last remaining Shrine to Sivakaya's form as it was before she fell. The Sivakayan warhorde has defiled the rest. This place must be protected.=
+
+# Source: Scenes\Silkengrass.unity
+Made my way out here before all the trouble started. Not leavin' now. I'm not buggin' anyone, I expect nobody will bug me. Not the Sivayans or the other ones neither.=
+
+# Source: Scenes\Silkengrass.unity
+Call themselves "The Wisp" or something like that. Friendly enough, even stop in to check on me sometimes. They say they've got a place in that forest to the North, but I've never gone. They seem to have it out for the Sivakayans though, so they can't be all bad.=
+
+# Source: Scenes\Silkengrass.unity
+If it weren't for Ripper, we'd be undead servants to Sivakaya.=
+
+# Source: Scenes\Silkengrass.unity
+He's a hero. Took an entire keep from the Sivakayans, made a home there. He keeps men out this way too. Port Azure lost a lot of its forces to him when they wrote us off for dead. =
+
+# Source: Scenes\Silkengrass.unity
+Port Azure left us. I hope Ripper takes out that whole city one day.=
+
+# Source: Scenes\Silkengrass.unity
+Pilgrims from Port Azure settled here, but when Port Azure pulled back its forces, the Sivakayans emerged and destroyed everything. A lot of people were not fortunate enough to escape in time.=
+
+# Source: Scenes\Silkengrass.unity
+Seen 'em all over the place up here. Makes me miss the walls of Port Azure. Getting back there is a journey I'm not sure I have in me anymore. There's others here too besides the Sivakayans...=
+
+# Source: Scenes\Silkengrass.unity
+If you've travelled this far, you just may be worth paying attention to. Going into the Loomingwood?=
+
+# Source: Scenes\Silkengrass.unity
+Just across the path they have defiled another Shrine. Silkengrass must have been an important place for Sivakaya, and so for that reason it is important to us. I'll make you a deal - if you help us protect this place, I will pay handsomely. Bring me Sivakayan Swords and Axes or even Sceptres as proof of your work. =
+
+# Source: Scenes\Silkengrass.unity
+Well, there's Ripper's soldiers who stay around to protect us after Port Azure abandoned us. Then there's that other group... always dressed in dark clothes and keeps to themselves mostly. Don't know much about them.=
+
+# Source: Scenes\Silkengrass.unity
+He and his men broke off from Port Azure when Port Azure pulled back. They're all that stands between us and the Sivakayans now. They're incredible in combat - I've seen it!=
+
+# Source: Scenes\Soluna.unity
+It's stunning how large it is... no human could have made this. It makes true believers out of any who see it.=
+
+# Source: Scenes\Soluna.unity
+Praise Soluna! We are so fortunate to be her followers. The proof of her having been here is undeniable! =
+
+# Source: Scenes\Soluna.unity
+Soluna... *its humming intensifies momentarily*=
+
+# Source: Scenes\Soluna.unity
+Many make the trek to see this place. It's one of the few in Erenshor where you can witness actual proof of the Gods.=
+
+# Source: Scenes\Soluna.unity
+I've heard whispers of a hidden crack in the rocks to the east that leads to a hidden valley... the source was a drunkard, and as unreliable as any I've overheard before. =
+
+# Source: Scenes\Soluna.unity
+This place has attracted many types over the years. Some more ambitious in others in their quest for fortune. =
+
+# Source: Scenes\Soluna.unity
+All are welcome here, but for any civilian who doesn't follow Soluna, the journey isn't exactly worth while.=
+
+# Source: Scenes\Soluna.unity
+You're not the average pilgrim. Beware the stardust floating about the crater. It's not what it seems. It feeds on the hope of unsuspecting explorers... it grants no wishes.=
+
+# Source: Scenes\Soluna.unity
+This is the place where Soluna landed long ago, and bestowed her gift upon the world when she created The First Paladins. She then walked to that hilltop, and re-ascended to her plane. Her guardians remain behind, protecting this holy place from... from something. I dread to know what.=
+
+# Source: Scenes\Stowaway.unity
+...Hawthorne? Who are you? Where did you learn that word? If you've found something, then give it to me now and we'll talk about... about what you know.=
+
+# Source: Scenes\Stowaway.unity
+Sorry to hear that you feel that way.=
+
+# Source: Scenes\Stowaway.unity
+We just don't know. They won't talk to us. The guards have confronted them, but they do not speak. Saw 'em headed back and forth from the old tomb once or twice... not sure why.=
+
+# Source: Scenes\Stowaway.unity
+Down the stairs into the forest, at the end of the path you can get into the old island tomb. Not sure who's buried down there, really. Creepy place though. =
+
+# Source: Scenes\Stowaway.unity
+I know a guy who can get you to Erenshor. First, bring me some Sea Spice. Love the stuff. Hooked on it even. I'll get you whatever you need after that.=
+
+# Source: Scenes\Stowaway.unity
+You wanna go to Erenshor? I'm your guy. You gotta do me a favor first though. I need to know you're legit.=
+
+# Source: Scenes\Stowaway.unity
+It's right over there... the lighthouse is just past the office.=
+
+# Source: Scenes\Stowaway.unity
+He ate my necklace and ran off... =
+
+# Source: Scenes\Stowaway.unity
+Haven't caught much. Got a few frownies, some old treasures, and a very used pair of boots.=
+
+# Source: Scenes\Stowaway.unity
+A moongill? No. Haven't caught one of those. Just this old key. Not sure what it's to.=
+
+# Source: Scenes\Stowaway.unity
+Got this old key. If you want it you can have it. I was just going to throw it back - doesn't look like any of the house keys 'round here.=
+
+# Source: Scenes\Stowaway.unity
+Sivakayans? They're just the folks who worship the Goddess of War - Sivakaya. Battle is in their souls and their targets are anyone outside of their own circle.=
+
+# Source: Scenes\Stowaway.unity
+There's a war coming to Erenshor. The Sivakayans aren't afraid anymore, and they're causing trouble all over. =
+
+# Source: Scenes\Stowaway.unity
+Just nevermind.=
+
+# Source: Scenes\Stowaway.unity
+Yes, we have followed your exploits. We believe you'll be a great help to us. Have you found anything of interest? If you need to go back to Erenshor, I can assist with that too.=
+
+# Source: Scenes\Stowaway.unity
+Haven't you said that word to me before? Did you find something else? =
+
+# Source: Scenes\Stowaway.unity
+The most obscure of items, I would doubt you would find it on this plane. Perhaps the answer lies within a dream...=
+
+# Source: Scenes\Stowaway.unity
+A gem forged in sadness - I would look for this in places that Brax and Sivakaya may have once shared. =
+
+# Source: Scenes\Stowaway.unity
+A piece of her. She was shattered on Erenshor, there must be remnants. Likely amongst her followers.=
+
+# Source: Scenes\Stowaway.unity
+You will know its host when you see it. It'll be twisted and aggressive - it will not be one of her followers, we have learned that with certainty. While they show symptoms, the dementia does not seem to take hold of them. =
+
+# Source: Scenes\Stowaway.unity
+Here, take this. It'll save you the boat ride if you don't have one yet. Otherwise just toss it away. =
+
+# Source: Scenes\Stowaway.unity
+You stop with that nonsense, I have people like you to do things for me!=
+
+# Source: Scenes\Stowaway.unity
+You think a boat small enough to not draw attention's going to be able to come and go as it pleases? The only boats that come here are the cargo ships that bring stowaways like you.=
+
+# Source: Scenes\Stowaway.unity
+What did you just say? You need to talk to Lucian... right now.=
+
+# Source: Scenes\Stowaway.unity
+You're not part of this.=
+
+# Source: Scenes\Stowaway.unity
+Oh, hi there. I'm just here to announce the latest news. Right now I'm recognizing the folks who have contributed to help the development of our fine island! =
+
+# Source: Scenes\Stowaway.unity
+There's no tellin' what it's for. We stopped askin' and they do their thing and leave us alone. Just bugs me... we don't know where they even come from. Must be some hidden place on the island. =
+
+# Source: Scenes\Stowaway.unity
+Merosavilla? That's where my home is. Nice place - lots of mountains. You should visit it someday. If I were going back to Ashenvale, I'd offer you a trip back since you didn't make it to Erenshor. You'll find your way, I'm sure.=
+
+# Source: Scenes\Stowaway.unity
+Don't know where they hide out. It's a small island... can't be that hard to find, if you've got the gumption.=
+
+# Source: Scenes\Stowaway.unity
+Bandits got it. They're somewhere on the island... Told me I could have it back for 300 gold. I don't have 300 gold and I don't have the oomph to fight 'em anymore either.=
+
+# Source: Scenes\Stowaway.unity
+You're not part of this.=
+
+# Source: Scenes\Stowaway.unity
+What did you just say? You need to talk to Lucian... right now.=
+
+# Source: Scenes\Stowaway.unity
+I don't know anything more about it besides the whispers I've heard.=
+
+# Source: Scenes\Stowaway.unity
+There's still boatmen who can cross the sea. They know the currents and winds. They don't work cheap though, and they don't work openly. =
+
+# Source: Scenes\Stowaway.unity
+Nobody knows what the ritual is for. There are people on this island who are unaccounted for... they emerge from the forest and light the stones aflame - are they trying to summon something?=
+
+# Source: Scenes\Stowaway.unity
+I've done it all. Seen it all. Slayed it all. I don't do the merc stuff anymore, but I do odd jobs.  I've even worked the docks. =
+
+# Source: Scenes\Stowaway.unity
+Beast of Stowaway's Step they call him. Seen him chewing on all kinds of old trinkets. Probably there's somethin' valuable in his gut. Don't go pokin' at him without some muscle though, else you'll be in that gut yourself. =
+
+# Source: Scenes\Stowaway.unity
+The watchlights... have you seen them? They're all over the island. What do you think they're for? =
+
+# Source: Scenes\Stowaway.unity
+I need someone who knows how to fish to catch me one! There's an old fishing pole for sale in there, but who has time for that? To make it worse, they only come out at night! I'll give you a fancy reward if you catch me one...=
+
+# Source: Scenes\Stowaway.unity
+Used to be quite the adventurer... now I'm washed up. Old injuries, ya know. Couldn't even protect my grandfather's lucky coin from those bandits.=
+
+# Source: Scenes\Stowaway.unity
+Stowaway's Step is home now. Like it or not. Erenshor's out of reach for most of us. I just wish that ritual wouldn't happen so often.=
+
+# Source: Scenes\Stowaway.unity
+Whaddaya want? =
+
+# Source: Scenes\Stowaway.unity
+In the right light you can see the beaches of Erenshor off in the distance. Too foggy today, but it's out there. I've seen a ship come back and forth in the night - unmarked, too. No idea who's sailing it, but there's something going on...=
+
+# Source: Scenes\Stowaway.unity
+Oi, welcome to the Island traveller. If you need supplies, I have them. If you're passin' through, well, you may be here a while still. Remember that I'm here and do yourself a favor and avoid the ritual. Looks like they started it up again.=
+
+# Source: Scenes\Stowaway.unity
+This is a great fishing spot. Hoping to get something soon! They sell poles up the road at the shop, if you're interested.=
+
+# Source: Scenes\Stowaway.unity
+Ah, now you've met the only person not trying to leave this place. Did my time as an adventurer.  Did it all, really. Now this quiet life is the life for me. Even sellin' some of my old stuff.=
+
+# Source: Scenes\Stowaway.unity
+Just bought this place. Saved up for years. Never sold a thing til there was a deal! Climbed all over the world looking for deals, you see! Spent whole nights fishing and mining! Now I'm rich!=
+
+# Source: Scenes\Stowaway.unity
+Preppin' to depart. Not to Erenshor though - those ports are all closed. I'm headed back home to Merosavilla for a little rest.=
+
+# Source: Scenes\Stowaway.unity
+This house just sold. You just missed the deal of a lifetime, let me tell you! Guy moving in is a bit of a character. He had a lot of stuff. =
+
+# Source: Scenes\Stowaway.unity
+It was 1.25 million gold. A fair price, for the size!=
+
+# Source: Scenes\Stowaway.unity
+Someone beat ya to it. Sorry!=
+
+# Source: Scenes\Stowaway.unity
+A Croc jumped right out of the water and I got so scared I dropped my necklace... and he ATE IT! He went off towards the lighthouse... if you get it back I'll be so grateful!=
+
+# Source: Scenes\Stowaway.unity
+Careful down in the forest. It's a rough place... ugh... being a guard is awful. I want to be something more... maybe a emissary... or, no... an ambassador! =
+
+# Source: Scenes\Stowaway.unity
+Adventure awaits out there. I just have to find a way off this island. I heard a rumor... nevermind. Don't wanna get anyone in trouble.=
+
+# Source: Scenes\Stowaway.unity
+Whatcha doing 'round here? Stuck like the rest of us? Wickliff ain't such a bad little town. We're finally building an inn!=
+
+# Source: Scenes\Stowaway.unity
+They've been here for ages. They seem harmless, but it's unnerving!=
+
+# Source: Scenes\Stowaway.unity
+No can do. It'd take quite a tidy sum for me to risk my ship on a trip to Erenshor.=
+
+# Source: Scenes\Stowaway.unity
+This place isn't so bad. None of us expected to live here when we arrived... but when they stopped all immigration to Erenshor we really had no choice.=
+
+# Source: Scenes\Stowaway.unity
+Never met a mountain or statue I couldn't climb. Been all over this island. Fell into caves. Fell into the ocean. Fell off cliffs bigger than you can imagine. It was all worth it!=
+
+# Source: Scenes\Stowaway.unity
+What're you doing way out here? Lost like the rest of us? Headed to the ruins?=
+
+# Source: Scenes\Stowaway.unity
+Just down the path there. The old fortress. Wouldn't go down there at night if I were you. Odd place, that.=
+
+# Source: Scenes\Stowaway.unity
+Get used to it. You're not finding your way off here any quicker than the rest of us. The rumors about the boatmen are a lie. The guards are all over it.=
+
+# Source: Scenes\Stowaway.unity
+Welcome to our little town of Wickliff. You get used to this place eventually except for that pink smoke... must be the ritual is underway again.=
+
+# Source: Scenes\Stowaway.unity
+Woe is me! I must have a Moongill! I crave a Moongill! But the shop has none for sale and I don't know how to fish!=
+
+# Source: Scenes\Stowaway.unity
+You're back... I've heard that you've been busy.=
+
+# Source: Scenes\Stowaway.unity
+Have you found the... hey! You're not Wyland! Don't disturb us.=
+
+# Source: Scenes\Stowaway.unity
+Begone. *Lucian's eyes never leave the searing flames before him*.=
+
+# Source: Scenes\Stowaway.unity
+We are close to something here. =
+
+# Source: Scenes\Stowaway.unity
+You ain't gettin' there without knowin' someone who can take ya. =
+
+# Source: Scenes\Stowaway.unity
+Most of us wanted to get to Erenshor... and for the right price there's still ways to get there. =
+
+# Source: Scenes\StowawayPortal.unity
+It's beginning to manifest itself! You must take from it that which it took from me. It possesses the secrets of this world. Bring them to The Wisp. For now, I must go. We will meet again, but I fear it will not truly be... me... when we do.=
+
+# Source: Scenes\StowawayPortal.unity
+You must end this corruption. It has touched us all. Fernalla. Vitheo. Brax. Even Soluna bears its mark. We endure in fractured shells. Free us.=
+
+# Source: Scenes\StowawayPortal.unity
+I hid this last remnant of myself here. I called to my followers, but few still listen. At last, you have answered.=
+
+# Source: Scenes\StowawayPortal.unity
+Azynthi has taken my very being from me. I am but a shard that remains, and I cling to the light. He is ceaseless. He is hunting for power, and he is finding it. =
+
+# Source: Scenes\StowawayPortal.unity
+You have come. Quickly - the darkness clings to you and all who walk this world. It has followed you and will manifest here soon. When it does, I cannot remain. I am not whole, and it will take what little I have left.=
+
+# Source: Scenes\StowawayPortal.unity
+Goodbye.=
+
+# Source: Scenes\SummerEvent.unity
+Kiddo, what have you done to this place? Your hands look empty but that ship out there is not right! Let's go back to Azure, I told ya I'm not one for ghost stories! =
+
+# Source: Scenes\SummerEvent.unity
+I ain't much for ghost stories kiddo I'm fixin to stay here and fish. If you find anything valuable just promise to cut me in. When you're ready to go back, just hop on my boat. I'll get the hint. =
+
+# Source: Scenes\SummerEvent.unity
+Who... who are you? We are so thankful to you... I would never have expected that I'd see a happy ending. =
+
+# Source: Scenes\SummerEvent.unity
+Thank you for everything you've done here. By recreating the happiest parts of our lives, you've brought us home. =
+
+# Source: Scenes\Tutorial.unity
+Yesssss....=
+
+# Source: Scenes\Tutorial.unity
+Feed me... =
+
+# Source: Scenes\VitheosEnd.unity
+Vitheo... *its humming intensifies momentarily*=
+
+# Source: Scenes\Windwashed.unity
+The walk here isn't bad. Just up the Duskenlight Coast and watch out for the wildlife. The fishing is worth it.=
+
+# Source: Scenes\Windwashed.unity
+I just come out here for the fishing. Port Azure says don't venture this far into the wilds... but here I am.=
+
+# Source: Scenes\Windwashed.unity
+Peaceful out here. The wildlife doesn't come to the shoreline. Gets me away from the politics of Port Azure.=
+

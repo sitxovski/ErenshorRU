@@ -23,7 +23,7 @@ namespace ErenshorRU
     {
         public const string GUID = "com.erenshor.ru";
         public const string NAME = "Erenshor Russian Translation";
-        public const string VERSION = "1.6.1";
+        public const string VERSION = "1.6.2";
 
         internal static ManualLogSource Log;
         internal static TranslationDB T;
@@ -238,7 +238,7 @@ namespace ErenshorRU
             _autoSized.Add(id);
 
             c.fontSizeMax = orig;
-            c.fontSizeMin = Mathf.Max(orig * 0.25f, 4f);
+            c.fontSizeMin = Mathf.Max(orig * 0.4f, 6f);
             c.enableAutoSizing = true;
         }
 
@@ -263,7 +263,7 @@ namespace ErenshorRU
             _autoSized.Add(id);
 
             c.resizeTextMaxSize = (int)orig;
-            c.resizeTextMinSize = (int)Mathf.Max(orig * 0.25f, 4f);
+            c.resizeTextMinSize = (int)Mathf.Max(orig * 0.4f, 6f);
             c.resizeTextForBestFit = true;
         }
     }
@@ -275,7 +275,7 @@ namespace ErenshorRU
         private static TMP_FontAsset _fallbackSemibold;
         private static TMP_FontAsset _fallbackBold;
         private static readonly HashSet<int> _patchedFontIds = new HashSet<int>();
-        private static readonly Dictionary<int, bool> _metricsAdjusted = new Dictionary<int, bool>();
+        private static bool _metricsAdjusted;
         private static bool _initialized;
 
         private static readonly string FontDir =
@@ -326,9 +326,6 @@ namespace ErenshorRU
         private static void AdjustFallbackMetrics(TMP_FontAsset fallback, TMP_FontAsset primary)
         {
             if (fallback == null || primary == null) return;
-            int key = fallback.GetInstanceID() * 31 + primary.GetInstanceID();
-            if (_metricsAdjusted.ContainsKey(key)) return;
-            _metricsAdjusted[key] = true;
             var pfi = primary.faceInfo;
             var ffi = fallback.faceInfo;
             ffi.ascentLine = pfi.ascentLine;
@@ -355,9 +352,17 @@ namespace ErenshorRU
             int id = font.GetInstanceID();
             if (_patchedFontIds.Contains(id)) return;
             _patchedFontIds.Add(id);
+
+            if (!_metricsAdjusted)
+            {
+                _metricsAdjusted = true;
+                AdjustFallbackMetrics(_fallbackRegular, font);
+                AdjustFallbackMetrics(_fallbackSemibold, font);
+                AdjustFallbackMetrics(_fallbackBold, font);
+            }
+
             var fb = PickFallback(font);
             if (fb == null) return;
-            AdjustFallbackMetrics(fb, font);
             if (font.fallbackFontAssetTable == null)
                 font.fallbackFontAssetTable = new List<TMP_FontAsset>();
             font.fallbackFontAssetTable.Add(fb);

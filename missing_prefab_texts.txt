@@ -1,0 +1,80 @@
+# Missing prefab translations: 26
+
+# Source: GameObject\DebugUIBitField.prefab
+BitField =
+
+# Source: GameObject\DebugUIColor.prefab
+Color =
+
+# Source: GameObject\DebugUIEnumField.prefab
+wibble =
+
+# Source: GameObject\DebugUIEnumField.prefab
+Enum =
+
+# Source: GameObject\DebugUIFoldout.prefab
+Foldout =
+
+# Source: GameObject\DebugUIMessageBox.prefab
+Message text =
+
+# Source: GameObject\DebugUIToggleHistory.prefab
+TEST =
+
+# Source: GameObject\DebugUIVector2.prefab
+Vector2 =
+
+# Source: GameObject\DebugUIVector3.prefab
+Vector4 =
+
+# Source: Resources\optionsmenu\OptionsMenu.prefab
+Forward:\n\nBackward:\n\nLeft:\n\nRight:\n\nJump:\n\nAutoattack:\n\nConsider Opponent:\n\nHail / Greet:\n\nSpells and Skills:\n\nQuest Log:\n\nCycle Targets:\n\nOpen / Submit Chat:\n\nInventory:\n\nOptions Menu:\n\nStrafe Left:\n\nStrafe Right:\n\nAutorun:\n\nSit: =
+
+# Source: Resources\optionsmenu\OptionsMenu.prefab
+Space =
+
+# Source: Resources\optionsmenu\OptionsMenu.prefab
+Space​ =
+
+# Source: Resources\optionsmenu\OptionsMenu.prefab
+Tab​ =
+
+# Source: Resources\optionsmenu\OptionsMenu.prefab
+Enter​ =
+
+# Source: Resources\optionsmenu\OptionsMenu.prefab
+NumLock =
+
+# Source: Resources\optionsmenu\OptionsMenu.prefab
+NumLock​ =
+
+# Source: Resources\optionsmenu\OptionsMenu.prefab
+Alpha1 =
+
+# Source: Resources\optionsmenu\OptionsMenu.prefab
+Alpha1​ =
+
+# Source: Resources\optionsmenu\OptionsMenu.prefab
+Cntrl =
+
+# Source: Resources\optionsmenu\OptionsMenu.prefab
+Cntrl​ =
+
+# Source: Resources\optionsmenu\OptionsMenu.prefab
+Shift =
+
+# Source: Resources\optionsmenu\OptionsMenu.prefab
+Shift​ =
+
+# Source: Resources\optionsmenu\OptionsMenu.prefab
+Alt =
+
+# Source: Resources\optionsmenu\OptionsMenu.prefab
+Alt​ =
+
+# Source: Resources\optionsmenu\OptionsMenu.prefab
+\"Modern Controls\" are a previous control scheme from earlier in development. Options are good, so I re-enabled them. They can only be activated once you're in-game (for now) and do not currently save settings. \n\nIf there is interest, this feature can be made complete.\n\n-Permanent Mouse look & mouse steering\n\n-\"Free mouse\" removed\n\n-Mouse cursor released during UI usage (also toggled by middle mouse button)\n\n-Left clicking on vendors, bank, etc interacts with them\n\n-\"Left\" and \"Right\" default to strafe =
+
+# Source: Resources\optionsmenu\OptionsMenu.prefab
+16pt =
+
