@@ -23,7 +23,7 @@ namespace ErenshorRU
     {
         public const string GUID = "com.erenshor.ru";
         public const string NAME = "Erenshor Russian Translation";
-        public const string VERSION = "2.0.5";
+        public const string VERSION = "2.1.0";
 
         internal static ManualLogSource Log;
         internal static TranslationDB T;
@@ -154,8 +154,7 @@ namespace ErenshorRU
             {
                 var c = allTmp[i];
                 if (c == null) continue;
-                try { FontManager.PatchTMPFont(c.font); } catch { }
-                try { FontManager.ApplyOutlineToComponent(c); } catch { }
+                try { FontManager.ReplaceTMPFont(c); } catch { }
                 try
                 {
                     string s = c.text;
@@ -255,6 +254,10 @@ namespace ErenshorRU
             new Dictionary<string, string>();
         private static readonly Dictionary<string, TMP_FontAsset> _adaptedCache =
             new Dictionary<string, TMP_FontAsset>();
+        private static readonly HashSet<int> _ourFontIds = new HashSet<int>();
+        private static readonly HashSet<int> _ourLegacyFontIds = new HashSet<int>();
+        private static readonly Dictionary<int, TMP_FontAsset> _fontReplacementMap =
+            new Dictionary<int, TMP_FontAsset>();
 
         public static bool IsReady => _initialized;
 
@@ -272,11 +275,19 @@ namespace ErenshorRU
                 LoadReplacement(modFontsDir, "Montserrat-SemiBold", "Montserrat-SemiBold.ttf");
                 LoadReplacement(modFontsDir, "Montserrat-Bold", "Montserrat-Bold.ttf");
                 LoadReplacement(modFontsDir, "Montserrat-ExtraBold", "Montserrat-ExtraBold.ttf");
+                LoadReplacement(modFontsDir, "Montserrat-Black", "Montserrat-Black.ttf");
                 LoadReplacement(modFontsDir, "Montserrat-Italic", "Montserrat-Italic.ttf");
                 LoadReplacement(modFontsDir, "Montserrat-MediumItalic", "Montserrat-MediumItalic.ttf");
                 LoadReplacement(modFontsDir, "Montserrat-SemiBoldItalic", "Montserrat-SemiBoldItalic.ttf");
                 LoadReplacement(modFontsDir, "Montserrat-BoldItalic", "Montserrat-BoldItalic.ttf");
                 LoadReplacement(modFontsDir, "Montserrat-ExtraBoldItalic", "Montserrat-ExtraBoldItalic.ttf");
+                LoadReplacement(modFontsDir, "Montserrat-BlackItalic", "Montserrat-BlackItalic.ttf");
+                LoadReplacement(modFontsDir, "Montserrat-Light", "Montserrat-Light.ttf");
+                LoadReplacement(modFontsDir, "Montserrat-LightItalic", "Montserrat-LightItalic.ttf");
+                LoadReplacement(modFontsDir, "Montserrat-ExtraLight", "Montserrat-ExtraLight.ttf");
+                LoadReplacement(modFontsDir, "Montserrat-ExtraLightItalic", "Montserrat-ExtraLightItalic.ttf");
+                LoadReplacement(modFontsDir, "Montserrat-Thin", "Montserrat-Thin.ttf");
+                LoadReplacement(modFontsDir, "Montserrat-ThinItalic", "Montserrat-ThinItalic.ttf");
                 LoadReplacement(modFontsDir, "PxPlus-VGA9", "PxPlus IBM VGA9.ttf");
             }
             catch (Exception e) { ErenshorRUPlugin.Log.LogError($"[RU] Replacement font err: {e}"); }
@@ -299,13 +310,30 @@ namespace ErenshorRU
             if (fa != null)
             {
                 fa.name = key + " SDF";
+
+                var fi = fa.faceInfo;
+                fi.descentLine *= 0.5f;
+                fi.lineHeight = fi.ascentLine - fi.descentLine;
+                if (IsSemiBoldOrHeavier(key))
+                    fi.scale = 0.9f;
+                fa.faceInfo = fi;
+
+                if (!IsLightFont(key))
+                {
+                    fa.material.SetFloat("_OutlineWidth", 0.25f);
+                    fa.material.SetColor("_OutlineColor", new Color(0, 0, 0, 1));
+                    fa.material.EnableKeyword("OUTLINE_ON");
+                }
                 _tmpReplace[key] = fa;
-                ErenshorRUPlugin.Log.LogInfo($"[RU] Loaded replacement: {fa.name} (pt={fa.faceInfo.pointSize})");
+                _ourFontIds.Add(fa.GetInstanceID());
+                ErenshorRUPlugin.Log.LogInfo(
+                    $"[RU] Loaded: {fa.name} (pt={fi.pointSize}, asc={fi.ascentLine:F1}, desc={fi.descentLine:F1}, scale={fi.scale:F2})");
             }
 
             var legFont = Font.CreateDynamicFontFromOSFont(key, 14);
             FontEnginePatch.FontPathMap[legFont.name] = path;
             _legacyReplace[key] = legFont;
+            _ourLegacyFontIds.Add(legFont.GetInstanceID());
         }
 
         private static TMP_FontAsset GetAdaptedFallback(string key, int targetPt)
@@ -360,6 +388,45 @@ namespace ErenshorRU
             return n.Contains("light") || n.Contains("thin");
         }
 
+        private static bool IsSemiBoldOrHeavier(string fontName)
+        {
+            if (string.IsNullOrEmpty(fontName)) return false;
+            string n = fontName.ToLowerInvariant();
+            return n.Contains("semibold") || n.Contains("bold") ||
+                   n.Contains("extrabold") || n.Contains("black");
+        }
+
+        public static void ReplaceTMPFont(TMP_Text comp)
+        {
+            if (comp == null || comp.font == null) return;
+
+            var origFont = comp.font;
+            int origId = origFont.GetInstanceID();
+
+            if (_ourFontIds.Contains(origId))
+            {
+                ApplyOutlineToComponent(comp);
+                return;
+            }
+
+            if (!_fontReplacementMap.TryGetValue(origId, out var replacement))
+            {
+                replacement = FindTMPReplacement(origFont.name);
+                _fontReplacementMap[origId] = replacement;
+
+                if (replacement != null)
+                    ErenshorRUPlugin.Log.LogInfo(
+                        $"[RU] Font map: '{origFont.name}' => '{replacement.name}'");
+                else
+                    PatchTMPFont(origFont);
+            }
+
+            if (replacement != null)
+                comp.font = replacement;
+
+            ApplyOutlineToComponent(comp);
+        }
+
         public static void ApplyOutlineToComponent(TMP_Text comp)
         {
             if (comp == null) return;
@@ -367,7 +434,16 @@ namespace ErenshorRU
             {
                 var font = comp.font;
                 if (font == null) return;
-                if (IsLightFont(font.name)) return;
+
+                if (IsLightFont(font.name))
+                {
+                    if (comp.outlineWidth > 0f)
+                    {
+                        comp.outlineWidth = 0f;
+                        comp.outlineColor = new Color32(0, 0, 0, 0);
+                    }
+                    return;
+                }
 
                 if (comp.outlineWidth < 0.2f)
                 {
@@ -393,64 +469,73 @@ namespace ErenshorRU
             return d.TryGetValue(k, out T v) ? v : null;
         }
 
+        private static T MatchWeightToMontserrat<T>(string n, Dictionary<string, T> dict) where T : class
+        {
+            if (n.Contains("extrabold") && n.Contains("italic"))
+                return DGet(dict, "Montserrat-ExtraBoldItalic");
+            if (n.Contains("extrabold"))
+                return DGet(dict, "Montserrat-ExtraBold");
+            if (n.Contains("semibold") && n.Contains("italic"))
+                return DGet(dict, "Montserrat-SemiBoldItalic");
+            if (n.Contains("semibold"))
+                return DGet(dict, "Montserrat-SemiBold");
+            if (n.Contains("bold") && n.Contains("italic"))
+                return DGet(dict, "Montserrat-BoldItalic");
+            if (n.Contains("bold"))
+                return DGet(dict, "Montserrat-Bold");
+            if (n.Contains("medium") && n.Contains("italic"))
+                return DGet(dict, "Montserrat-MediumItalic");
+            if (n.Contains("medium"))
+                return DGet(dict, "Montserrat-Medium");
+            if (n.Contains("extralight") && n.Contains("italic"))
+                return DGet(dict, "Montserrat-ExtraLightItalic");
+            if (n.Contains("extralight"))
+                return DGet(dict, "Montserrat-ExtraLight");
+            if (n.Contains("light") && n.Contains("italic"))
+                return DGet(dict, "Montserrat-LightItalic");
+            if (n.Contains("light"))
+                return DGet(dict, "Montserrat-Light");
+            if (n.Contains("thin") && n.Contains("italic"))
+                return DGet(dict, "Montserrat-ThinItalic");
+            if (n.Contains("thin"))
+                return DGet(dict, "Montserrat-Thin");
+            if (n.Contains("black") && n.Contains("italic"))
+                return DGet(dict, "Montserrat-BlackItalic");
+            if (n.Contains("black"))
+                return DGet(dict, "Montserrat-Black");
+            if (n.Contains("italic"))
+                return DGet(dict, "Montserrat-Italic");
+            return DGet(dict, "Montserrat-Regular");
+        }
+
         private static TMP_FontAsset FindTMPReplacement(string fontName)
         {
             string n = fontName.ToLowerInvariant();
-            if (n.Contains("ltrenovate"))
-            {
-                if (n.Contains("extrabold") && n.Contains("italic"))
-                    return DGet(_tmpReplace, "Montserrat-ExtraBoldItalic");
-                if (n.Contains("extrabold"))
-                    return DGet(_tmpReplace, "Montserrat-ExtraBold");
-                if (n.Contains("semibold") && n.Contains("italic"))
-                    return DGet(_tmpReplace, "Montserrat-SemiBoldItalic");
-                if (n.Contains("semibold"))
-                    return DGet(_tmpReplace, "Montserrat-SemiBold");
-                if (n.Contains("bold") && n.Contains("italic"))
-                    return DGet(_tmpReplace, "Montserrat-BoldItalic");
-                if (n.Contains("bold"))
-                    return DGet(_tmpReplace, "Montserrat-Bold");
-                if (n.Contains("medium") && n.Contains("italic"))
-                    return DGet(_tmpReplace, "Montserrat-MediumItalic");
-                if (n.Contains("medium"))
-                    return DGet(_tmpReplace, "Montserrat-Medium");
-                if (n.Contains("italic"))
-                    return DGet(_tmpReplace, "Montserrat-Italic");
-                return DGet(_tmpReplace, "Montserrat-Regular");
-            }
-            if (n.Contains("perfectdos") || n.Contains("pxplus") || n.Contains("vga"))
+
+            if (n.Contains("perfectdos"))
                 return DGet(_tmpReplace, "PxPlus-VGA9");
-            return null;
+
+            if (n.Contains("awesome") || n.Contains("icon") || n.Contains("symbol") ||
+                n.Contains("libertinus") || n.Contains("math") || n.Contains("glyph") ||
+                n.Contains("emoji"))
+                return null;
+
+            return MatchWeightToMontserrat(n, _tmpReplace);
         }
 
         private static Font FindLegacyReplacement(string fontName)
         {
             string n = fontName.ToLowerInvariant();
-            if (n.Contains("ltrenovate"))
-            {
-                if (n.Contains("extrabold") && n.Contains("italic"))
-                    return DGet(_legacyReplace, "Montserrat-ExtraBoldItalic");
-                if (n.Contains("extrabold"))
-                    return DGet(_legacyReplace, "Montserrat-ExtraBold");
-                if (n.Contains("semibold") && n.Contains("italic"))
-                    return DGet(_legacyReplace, "Montserrat-SemiBoldItalic");
-                if (n.Contains("semibold"))
-                    return DGet(_legacyReplace, "Montserrat-SemiBold");
-                if (n.Contains("bold") && n.Contains("italic"))
-                    return DGet(_legacyReplace, "Montserrat-BoldItalic");
-                if (n.Contains("bold"))
-                    return DGet(_legacyReplace, "Montserrat-Bold");
-                if (n.Contains("medium") && n.Contains("italic"))
-                    return DGet(_legacyReplace, "Montserrat-MediumItalic");
-                if (n.Contains("medium"))
-                    return DGet(_legacyReplace, "Montserrat-Medium");
-                if (n.Contains("italic"))
-                    return DGet(_legacyReplace, "Montserrat-Italic");
-                return DGet(_legacyReplace, "Montserrat-Regular");
-            }
-            if (n.Contains("perfectdos") || n.Contains("pxplus") || n.Contains("vga"))
+
+            if (n.Contains("perfectdos"))
                 return DGet(_legacyReplace, "PxPlus-VGA9");
-            return null;
+
+            if (n.Contains("awesome") || n.Contains("icon") || n.Contains("symbol") ||
+                n.Contains("libertinus") || n.Contains("math") || n.Contains("glyph") ||
+                n.Contains("emoji"))
+                return null;
+
+            return MatchWeightToMontserrat(n, _legacyReplace);
         }
 
         private static TMP_FontAsset PickBestFallback(TMP_FontAsset gameFont)
@@ -511,6 +596,8 @@ namespace ErenshorRU
 
         public static void PatchLegacyText(Text text)
         {
+            if (text.font != null && _ourLegacyFontIds.Contains(text.font.GetInstanceID()))
+                return;
             string origName = text.font != null ? text.font.name : "";
             var replacement = FindLegacyReplacement(origName);
             if (replacement != null)
@@ -534,8 +621,7 @@ namespace ErenshorRU
             if (!FontManager.IsReady) return;
             if (ErenshorRUPlugin.T == null) return;
 
-            FontManager.PatchTMPFont(__instance.font);
-            FontManager.ApplyOutlineToComponent(__instance);
+            FontManager.ReplaceTMPFont(__instance);
 
             if (string.IsNullOrEmpty(value) || value.Length < 2) return;
             if (TranslationDB.IsNumericOrShort(value)) return;
