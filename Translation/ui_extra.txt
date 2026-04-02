@@ -912,6 +912,15 @@ Ghostly =Призрачн.
 Giant's Blood=Кровь Великана
 Wand: =Жезл: 
 Bow: =Лук: 
+Luminstone=Люминстоун
+Rotten Meat=Гнилое Мясо
+Fossil Shard=Осколок Ископаемого
+Emerald Shard=Осколок Изумруда
+Ruby Shard=Осколок Рубина
+Sapphire Shard=Осколок Сапфира
+Diamond Shard=Осколок Алмаза
+Dock Pass=Пропуск Дока
+Strange Ore=Странная Руда
 
 # --- Названия гильдий (в плашках NPC: "\n<GuildName>") ---
 <Afterwipe>=<Послевайп>

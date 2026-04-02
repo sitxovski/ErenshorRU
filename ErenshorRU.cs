@@ -23,7 +23,7 @@ namespace ErenshorRU
     {
         public const string GUID = "com.erenshor.ru";
         public const string NAME = "Erenshor Russian Translation";
-        public const string VERSION = "2.0.3";
+        public const string VERSION = "2.0.4";
 
         internal static ManualLogSource Log;
         internal static TranslationDB T;
@@ -326,66 +326,28 @@ namespace ErenshorRU
             fa.name = key + " SDF [" + targetPt + "]";
             var fi = fa.faceInfo;
             fi.pointSize = targetPt;
-            fi.scale = 0.85f;
+            float scale = 0.85f;
+            if (key.Contains("Bold") || key.Contains("ExtraBold"))
+                scale *= 0.9f;
+            fi.scale = scale;
             fa.faceInfo = fi;
 
             _adaptedCache[cacheKey] = fa;
-            EnableOutlineOnMaterial(fa.material);
             return fa;
-        }
-
-        private static readonly HashSet<int> _outlinedMats = new HashSet<int>();
-        private static readonly HashSet<int> _outlinedComponents = new HashSet<int>();
-        private static Shader _fullSdfShader;
-
-        private static void EnableOutlineOnMaterial(Material mat)
-        {
-            if (mat == null) return;
-            int id = mat.GetInstanceID();
-            if (_outlinedMats.Contains(id)) return;
-            _outlinedMats.Add(id);
-            try
-            {
-                if (mat.shader != null && mat.shader.name.Contains("Mobile"))
-                {
-                    if (_fullSdfShader == null)
-                        _fullSdfShader = Shader.Find("TextMeshPro/Distance Field");
-                    if (_fullSdfShader != null)
-                        mat.shader = _fullSdfShader;
-                }
-                mat.SetFloat("_OutlineWidth", 0.15f);
-                mat.SetColor("_OutlineColor", new Color(0, 0, 0, 1));
-                mat.EnableKeyword("OUTLINE_ON");
-            }
-            catch { }
-        }
-
-        private static void OutlineFontChain(TMP_FontAsset fa)
-        {
-            if (fa == null) return;
-            if (fa.material != null)
-                EnableOutlineOnMaterial(fa.material);
-            if (fa.fallbackFontAssetTable != null)
-            {
-                for (int i = 0; i < fa.fallbackFontAssetTable.Count; i++)
-                {
-                    var fb = fa.fallbackFontAssetTable[i];
-                    if (fb != null && fb.material != null)
-                        EnableOutlineOnMaterial(fb.material);
-                }
-            }
         }
 
         public static void ApplyOutlineToComponent(TMP_Text comp)
         {
             if (comp == null) return;
-            int id = comp.GetInstanceID();
-            if (_outlinedComponents.Contains(id)) return;
-            _outlinedComponents.Add(id);
-
-            if (comp.fontSharedMaterial != null)
-                EnableOutlineOnMaterial(comp.fontSharedMaterial);
-            OutlineFontChain(comp.font);
+            try
+            {
+                if (comp.outlineWidth < 0.2f)
+                {
+                    comp.outlineWidth = 0.25f;
+                    comp.outlineColor = new Color32(0, 0, 0, 255);
+                }
+            }
+            catch { }
         }
 
         private static T DGet<T>(Dictionary<string, T> d, string k) where T : class
@@ -505,9 +467,6 @@ namespace ErenshorRU
             if (!font.fallbackFontAssetTable.Contains(toAdd))
                 font.fallbackFontAssetTable.Add(toAdd);
 
-            OutlineFontChain(font);
-            OutlineFontChain(toAdd);
-
             ErenshorRUPlugin.Log.LogInfo(
                 $"[RU] '{font.name}' (pt={primaryPt}) => fallback '{toAdd.name}' (pt={toAdd.faceInfo.pointSize}, s={toAdd.faceInfo.scale:F2})");
         }
@@ -622,15 +581,12 @@ namespace ErenshorRU
         {
             if (ErenshorRUPlugin.T == null || string.IsNullOrEmpty(_msg)) return;
 
-            // 1) Try split by English separator first (most reliable path)
             if (TrySplitAndTranslate(ref _msg, EnSeparators, true))
                 return;
 
-            // 2) Try split by already-translated Russian separator
             if (TrySplitAndTranslate(ref _msg, RuSeparators, false))
                 return;
 
-            // 3) Fallback: full-string translation
             string full = ErenshorRUPlugin.T.Translate(_msg);
             if (full != _msg) _msg = full;
         }
@@ -639,7 +595,7 @@ namespace ErenshorRU
         {
             for (int i = 0; i < seps.Length; i++)
             {
-                int idx = msg.IndexOf(seps[i], StringComparison.Ordinal);
+                int idx = msg.IndexOf(seps[i], StringComparison.OrdinalIgnoreCase);
                 if (idx < 0) continue;
 
                 string name = msg.Substring(0, idx);
@@ -656,12 +612,60 @@ namespace ErenshorRU
 
                 string trContent = ErenshorRUPlugin.T.Translate(content);
                 if (trContent == content)
+                {
+                    string lower = ToMixedCase(content);
+                    if (lower != content)
+                    {
+                        string trLower = ErenshorRUPlugin.T.Translate(lower);
+                        if (trLower != lower)
+                            trContent = trLower;
+                    }
+                }
+                if (trContent == content)
                     trContent = ErenshorRUPlugin.T.TranslateDirect(content);
 
                 msg = name + trSep + trContent;
                 return true;
             }
             return false;
+        }
+
+        private static string ToMixedCase(string s)
+        {
+            if (string.IsNullOrEmpty(s)) return s;
+            bool allUpper = true;
+            for (int i = 0; i < s.Length; i++)
+            {
+                char c = s[i];
+                if (c >= 'a' && c <= 'z') { allUpper = false; break; }
+            }
+            if (!allUpper) return s;
+
+            var sb = new StringBuilder(s.Length);
+            bool nextUpper = true;
+            for (int i = 0; i < s.Length; i++)
+            {
+                char c = s[i];
+                if (c == '.' || c == '!' || c == '?')
+                {
+                    sb.Append(c);
+                    nextUpper = true;
+                }
+                else if (c == ' ' || c == ',')
+                {
+                    sb.Append(c);
+                }
+                else if (nextUpper)
+                {
+                    sb.Append(char.ToUpper(c));
+                    nextUpper = false;
+                }
+                else
+                {
+                    sb.Append(char.ToLower(c));
+                }
+            }
+            return sb.ToString();
         }
     }
 
