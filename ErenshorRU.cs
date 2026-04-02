@@ -23,7 +23,7 @@ namespace ErenshorRU
     {
         public const string GUID = "com.erenshor.ru";
         public const string NAME = "Erenshor Russian Translation";
-        public const string VERSION = "1.9.2";
+        public const string VERSION = "1.9.3";
 
         internal static ManualLogSource Log;
         internal static TranslationDB T;
@@ -293,11 +293,8 @@ namespace ErenshorRU
             if (fa != null)
             {
                 fa.name = key + " SDF";
-                var fi = fa.faceInfo;
-                fi.scale = 0.9f;
-                fa.faceInfo = fi;
                 _tmpReplace[key] = fa;
-                ErenshorRUPlugin.Log.LogInfo($"[RU] Loaded replacement: {fa.name}");
+                ErenshorRUPlugin.Log.LogInfo($"[RU] Loaded replacement: {fa.name} (pt={fa.faceInfo.pointSize})");
             }
 
             var legFont = Font.CreateDynamicFontFromOSFont(key, 14);
@@ -397,11 +394,22 @@ namespace ErenshorRU
 
             var fb = PickBestFallback(font);
             if (fb == null) return;
+
+            // TMP scales fallback glyphs by: primary.pointSize / fallback.pointSize * fallback.scale
+            // Our dynamically created fonts have pointSize≈90, but game fonts like LTRenovate have 294.
+            // Without matching, the ratio would be 294/90=3.27x — text becomes huge.
+            // Clone the fallback and set its pointSize to match the primary font for 1:1 ratio.
+            var adapted = UnityEngine.Object.Instantiate(fb);
+            adapted.name = fb.name + " [" + font.faceInfo.pointSize + "]";
+            var fi = adapted.faceInfo;
+            fi.pointSize = font.faceInfo.pointSize;
+            adapted.faceInfo = fi;
+
             if (font.fallbackFontAssetTable == null)
                 font.fallbackFontAssetTable = new List<TMP_FontAsset>();
-            if (!font.fallbackFontAssetTable.Contains(fb))
-                font.fallbackFontAssetTable.Add(fb);
-            ErenshorRUPlugin.Log.LogInfo($"[RU] '{font.name}' => fallback '{fb.name}'");
+            font.fallbackFontAssetTable.Add(adapted);
+            ErenshorRUPlugin.Log.LogInfo(
+                $"[RU] '{font.name}' (pt={font.faceInfo.pointSize}) => fallback '{adapted.name}'");
         }
 
         public static void PatchLegacyText(Text text)
