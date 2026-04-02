@@ -1,6 +1,6 @@
 # ErenshorRU — Русификатор Erenshor
 
-Мод для полной русификации [Erenshor](https://store.steampowered.com/app/2382520/Erenshor/) — однопользовательской RPG в стиле классических MMORPG.
+Мод для полной (В настоящее время не обеспечивается 100% покрытие фраз\текста) русификации [Erenshor](https://store.steampowered.com/app/2382520/Erenshor/) — однопользовательской RPG в стиле классических MMORPG.
 
 ## Что переводится
 
