@@ -23,7 +23,7 @@ namespace ErenshorRU
     {
         public const string GUID = "com.erenshor.ru";
         public const string NAME = "Erenshor Russian Translation";
-        public const string VERSION = "1.9.4";
+        public const string VERSION = "1.9.5";
 
         internal static ManualLogSource Log;
         internal static TranslationDB T;
@@ -405,6 +405,7 @@ namespace ErenshorRU
             fi.pointSize = font.faceInfo.pointSize;
             fi.scale = 0.85f;
             adapted.faceInfo = fi;
+            adapted.ReadFontAssetDefinition();
 
             if (font.fallbackFontAssetTable == null)
                 font.fallbackFontAssetTable = new List<TMP_FontAsset>();
