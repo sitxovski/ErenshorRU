@@ -23,7 +23,7 @@ namespace ErenshorRU
     {
         public const string GUID = "com.erenshor.ru";
         public const string NAME = "Erenshor Russian Translation";
-        public const string VERSION = "1.9.6";
+        public const string VERSION = "2.0.0";
 
         internal static ManualLogSource Log;
         internal static TranslationDB T;
@@ -329,7 +329,16 @@ namespace ErenshorRU
             fa.faceInfo = fi;
 
             _adaptedCache[cacheKey] = fa;
+            EnableOutline(fa);
             return fa;
+        }
+
+        private static void EnableOutline(TMP_FontAsset fa)
+        {
+            if (fa == null || fa.material == null) return;
+            fa.material.SetFloat("_OutlineWidth", 0.15f);
+            fa.material.SetColor("_OutlineColor", new Color(0, 0, 0, 1));
+            fa.material.EnableKeyword("OUTLINE_ON");
         }
 
         private static T DGet<T>(Dictionary<string, T> d, string k) where T : class
@@ -546,8 +555,10 @@ namespace ErenshorRU
     [HarmonyPatch]
     public static class ChatPatches
     {
-        private static readonly string[] ChatSeparators =
+        private static readonly string[] EnSeparators =
             { " shouts: ", " says: ", " tells the guild: ", " tells the group: ", " tells you: " };
+        private static readonly string[] RuSeparators =
+            { " кричит: ", " говорит: ", " говорит гильдии: ", " говорит группе: " };
 
         [HarmonyPrefix]
         [HarmonyPatch(typeof(ChatLogLine), MethodType.Constructor,
@@ -556,25 +567,51 @@ namespace ErenshorRU
         {
             if (ErenshorRUPlugin.T == null || string.IsNullOrEmpty(_msg)) return;
 
-            string full = ErenshorRUPlugin.T.Translate(_msg);
-            if (full != _msg) { _msg = full; return; }
+            // 1) Try split by English separator first (most reliable path)
+            if (TrySplitAndTranslate(ref _msg, EnSeparators, true))
+                return;
 
-            for (int i = 0; i < ChatSeparators.Length; i++)
+            // 2) Try split by already-translated Russian separator
+            if (TrySplitAndTranslate(ref _msg, RuSeparators, false))
+                return;
+
+            // 3) Fallback: full-string translation
+            string full = ErenshorRUPlugin.T.Translate(_msg);
+            if (full != _msg) _msg = full;
+        }
+
+        private static bool TrySplitAndTranslate(ref string msg, string[] seps, bool translateSep)
+        {
+            for (int i = 0; i < seps.Length; i++)
             {
-                int idx = _msg.IndexOf(ChatSeparators[i], StringComparison.Ordinal);
+                int idx = msg.IndexOf(seps[i], StringComparison.Ordinal);
                 if (idx < 0) continue;
 
-                string name = _msg.Substring(0, idx);
-                string sep = ChatSeparators[i];
-                string content = _msg.Substring(idx + sep.Length);
+                string name = msg.Substring(0, idx);
+                string sep = seps[i];
+                string content = msg.Substring(idx + sep.Length);
 
-                string trSep = ErenshorRUPlugin.T.Translate(sep);
+                string trSep = sep;
+                if (translateSep)
+                {
+                    string rawSep = sep.Trim();
+                    string trRaw = ErenshorRUPlugin.T.Translate(rawSep);
+                    if (trRaw != rawSep)
+                        trSep = " " + trRaw + " ";
+                }
+
                 string trContent = ErenshorRUPlugin.T.Translate(content);
+                if (trContent == content)
+                    trContent = ErenshorRUPlugin.T.TranslateDirect(content);
 
                 if (trSep != sep || trContent != content)
-                    _msg = name + trSep + trContent;
-                return;
+                {
+                    msg = name + trSep + trContent;
+                    return true;
+                }
+                return true;
             }
+            return false;
         }
     }
 
@@ -881,6 +918,17 @@ namespace ErenshorRU
             if (_cache.Count >= MaxCacheSize) _cache.Clear();
             _cache[input] = result;
             return result;
+        }
+
+        public string TranslateDirect(string input)
+        {
+            if (string.IsNullOrEmpty(input)) return input;
+            if (_exact.TryGetValue(input, out string val)) return val;
+            string trimmed = input.Trim();
+            if (trimmed != input && _exact.TryGetValue(trimmed, out val)) return val;
+            string noTrail = input.TrimEnd('\n', '\r', ' ', '.');
+            if (noTrail != input && _exact.TryGetValue(noTrail, out val)) return val;
+            return input;
         }
 
         private string TranslateCore(string input)
