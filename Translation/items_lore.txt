@@ -2,49 +2,49 @@
 # Erenshor — Русский перевод: Описания предметов (лор)
 # ==============================================================
 
-[EXACT]
+[SUBSTRING]
 
 # --- Пояса ---
 A sash worn by Rottenfoots who have achieved greatness in battle.=Кушак Гнилоногов, прославившихся в бою.
-Goes great with some Ogreskin pants=Отлично смотрится с огровыми штанами
-Reminds you of fading summer days=Напоминает об уходящих летних днях
-Meant to bolster his fragile followers=Создан для укрепления хрупких последователей
-Made from hardened scales.=Сделан из закалённой чешуи.
+Goes great with some Ogreskin pants=Круто смотрится с огровыми штанами
+Reminds you of fading summer days=Напоминает о прошлых летних днях
+Meant to bolster his fragile followers=Создан для укрепления слабых
+Made from hardened scales.=Сделан из закалённой чешуи
 Something about it gives you a sense of freedom.=Что-то в нём дарит ощущение свободы.
 Worn by the Royal Azure Guard of the past=Принадлежал Королевской Страже Азура
 Weightless and silky=Невесом и шелковист
 Meant to restrain a terrifying thing.=Создан для усмирения жуткого зверя.
 It's braided leather with a metal clasp. It might double as a weapon on a really bad day.=Плетёная кожа с металлической застёжкой. В плохой день сойдёт и за оружие.
 It's not adjustable and it doesn't really fit=Не регулируется и толком не сидит
-It's ugly. No wonder they buried it. =Уродлив. Неудивительно, что его закопали. 
+It's ugly. No wonder they buried it. =Ужас. Понятно, почему его закопали. 
 Sometimes it just falls off for no reason=Иногда просто спадает без всякой причины
-Strong and Stiff=Крепкий и жёсткий
+Strong and Stiff=Крепкий, жёсткий
 It'll keep you on your feet even after the most devastating blows land.=Удержит на ногах даже после самых сокрушительных ударов.
-Made from stone cut so precisely that it became like thread.=Из камня, вырезанного настолько точно, что он стал подобен нити.
-This belt has been worn throughout time by powerful beings=Этот пояс носили могущественные существа на протяжении веков
+Made from stone cut so precisely that it became like thread.=Сделан из камня, вырезанного так точно, что стал подоб. нити
+This belt has been worn throughout time by powerful beings=Этот пояс носили могущественные существа веками
 Getting it tied on is hard, overcoming the stench is harder=Завязать его трудно, перебороть вонь — ещё труднее
-It's never where you last left it=Никогда не оказывается там, где ты его оставил
+It's never where you last left it=Никогда не там, где его оставили
 You feel more connected to others while wearing this. =Надев его, чувствуешь связь с окружающими. 
-Freedom of movement is glorious=Свобода движений — это великолепно
+Freedom of movement is glorious=Свобода движений — это чудно
 It draws attention to your pants in an uncomfortable way=Привлекает внимание к штанам весьма неловким образом
 You'd think a belt would help hold your pants up better than this does.=Казалось бы, пояс должен держать штаны лучше, чем этот.
 Once a sign of domestication, it's now a sign of power.=Когда-то символ покорности, теперь — символ силы.
 The hunger you feel while wearing this is undescribable=Голод, который ощущаешь, надев это, не описать словами
 The sound from every step is a symphony=Звук от каждого шага — целая симфония
 The Belt of a Prince=Пояс принца
-Worn by a once magnificent dragon=Принадлежал некогда величественному дракону
+Worn by a once magnificent dragon=Принадлежал великому дракону
 It does miracles for your posture=Творит чудеса с вашей осанкой
-It keeps you calm, it keeps you centered=Хранит спокойствие и помогает сосредоточиться
-Who knew a belt could be so prestigious=Кто бы мог подумать, что пояс бывает таким престижным
+It keeps you calm, it keeps you centered=Успокаивает и помогает сосредоточиться
+Who knew a belt could be so prestigious=Кто знал, что пояс бывает престижным
 If you wear this, make a doctor's appointment.=Наденешь это — запишись к врачу.
 It's woven from little bones. You can't tell who used to own the bones.=Сплетён из мелких костей. Чьих — не разобрать.
 Long ago, Grizzlepaw ate someone wearing this belt.=Давным-давно Гризлолап сожрал кого-то в этом поясе.
 Wrapped in silk and eminating summery scents.=Окутан шёлком и источает летние ароматы.
-It ushers a sense of nature into your mind =Наполняет разум ощущением единства с природой 
+It ushers a sense of nature into your mind =Наполняет чувством единства с природой 
 Worn by sailors for its wonderful utility.=Любим моряками за удобство.
 
 # --- Книги ---
-The musings of a fallen treasure hunter=Размышления погибшего охотника за сокровищами
+The musings of a fallen treasure hunter=Мысли погибшего охотника за сокровищами
 (Right Click to Read)=(ПКМ для чтения)
 A brief history of Rockshade Hold, written by an unknown author.=Краткая история Рокшейд-Холда, написанная неизвестным автором.
 A narration of the fall of Sivakaya=Повествование о падении Сивакаи
@@ -57,8 +57,8 @@ A handwritten account of Soluna, the first Paladins, Astra, and the Reavers of t
 Standard issue to Molorai troops, though they never seem to be used=Штатное оружие войск Молораи, хотя им вроде бы никто не пользуется
 It seems that Vitheo himself has heard of this bow=Кажется, сам Витео наслышан об этом луке
 It's hard not to feel uneasy holding this weapon =Трудно не чувствовать тревогу, держа это оружие 
-Great for learners and children =Отлично подходит для учеников и детей 
-Finely crafted back in the homeland=Искусно изготовлен на далёкой родине
+Great for learners and children =Подходит для учеников и детей 
+Finely crafted back in the homeland=Искусно сделан на далёкой родине
 It feels like you're just pretending to fire a bow because it's so weightless, but somehow it works=Он настолько невесом, что кажется, будто ты понарошку стреляешь из лука, но он работает
 A remnant of Old Braxonia=Реликвия Старой Браксонии
 It's not clear what a necromancer would want from this bow=Непонятно, зачем некроманту такой лук
@@ -74,21 +74,21 @@ Packs a punch, but it's heavy=Бьёт мощно, но тяжёлый
 # --- Обереги ---
 They say you're wise beyond your years. But you're not, it's just this charm at work.=Говорят, ты мудр не по годам. Но нет — это просто оберег работает.
 You find yourself saying "actually..." more.=Всё чаще ловишь себя на слове «вообще-то...»
-You look more veiny lately=В последнее время вены стали заметнее
+You look more veiny lately=Твои вены стали веднее..
 You're so pretty. Everyone knows it.=Ты так красив. Все это знают.
 For those who've always wanted to learn to juggle=Для тех, кто всегда мечтал научиться жонглировать
 You're so hardy you don't even have to wash your hands anymore=Ты настолько крепок, что можешь даже руки не мыть
 Heat pours from the gem and comforts you to your soul=Тепло льётся из самоцвета и согревает до глубины души
 Spiders everywhere hate this one weird trick.=Пауки ненавидят этот странный трюк.
-It crackles... loud enough for your friends to hear=Потрескивает... достаточно громко, чтобы слышали друзья
+It crackles... loud enough for your friends to hear=Потрескивает достаточно громко..друзья услышат
 A darkness lurks within this stone=В этом камне таится тьма
-Seemingly useless, it was once worn by ancient learners.=С виду бесполезна, но когда-то её носили древние ученики.
+Seemingly useless, it was once worn by ancient learners.=С виду бесполезна, но когда-то её носили древние ученики
 Your step has more confidence and your mind is clear=Шаг стал увереннее, а мысли — яснее
 
 # --- Нагрудники ---
-A simple cloth shirt=Простая тканевая рубаха
+A simple cloth shirt=Просто ткан. рубаха
 It's brittle, but better than nothing at all. =Хрупкая, но лучше, чем совсем ничего. 
-Often given to and worn by Paladin recruits=Часто выдаётся и носится новобранцами-паладинами
+Often given to and worn by Paladin recruits=Часто носится новобранцами-паладинами
 It hangs heavy off all the wrong parts=Висит тяжело и не в тех местах
 It's practice armor. It has a "not for actual combat" etching on the inside that you pretend not to see.=Тренировочная броня. Внутри выгравировано «не для реального боя», но ты предпочитаешь этого не замечать.
 It crawls across your skin as you wear it.=Ползает по коже, пока ты это носишь.
@@ -104,36 +104,36 @@ Worn by Braxonian wizards and priests=Носили браксонианские 
 Covered in the hints of worn etchings=Покрыта следами стёртых гравировок
 Made from the scales of a Malaroth=Из чешуи малароса
 It only took a little modification to be pretty comfortable.=Понадобилась лишь небольшая подгонка для полного удобства.
-Sturdy but freeing=Крепкий, но не стесняет
-A wonderfully crafted shirt, preserved in pristine condition.=Превосходно сшитая рубаха, сохранившаяся в идеальном состоянии.
+Sturdy but freeing=Крепок, не мешает
+A wonderfully crafted shirt, preserved in pristine condition.=Превосходно сшитая рубаха, сохранившаяся в чудном состоянии.
 Worn by Sivakayan Necromancers=Облачение некромантов Сивакаи
 Worn by Sivakayan Soldiers=Доспех воинов Сивакаи
 Pitted and Rotting, its glory must once have been immeasurable=Изъеденный и гниющий, былое величие этих доспехов неизмеримо
-Almost as neat as a dragonscale one=Почти так же хорош, как из драконьей чешуи
+Almost as neat as a dragonscale one=Почти, как из драконьей чешуи
 Light and rugged=Лёгкий и прочный
-You are so hideous with this on=Ты в этом выглядишь просто ужасно
+You are so hideous with this on=Ты в этом выглядишь ужасно
 It's really really heavy.=Он реально очень тяжёлый.
 It's worn by time, not by blades. Its wearer must have been skilled. =Изношен временем, не клинками. Его владелец был мастером. 
-Covered in dried blood=Покрыта засохшей кровью
+Covered in dried blood=Вся в засохшей крови
 The lichens crawl across your skin, filling your wounds=Лишайники ползут по коже, заполняя раны
 Worn by the soldiers of Ripper=Доспехи солдат Риппера
 Worn by the Sivakayan Elite=Облачение сивакайской элиты
 Legendary Leather Armor of Brax's Soldiers=Легендарная кожаная броня солдат Бракса
 Legendary Plate Armor of Brax's Soldiers=Легендарные латы солдат Бракса
-Legendary Garb of Brax's Arcanists=Легендарное одеяние арканистов Бракса
-Immaculate Golden Armor=Безупречные золотые доспехи
+Legendary Garb of Brax's Arcanists=Легенд. одеяние арканистов Бракса
+Immaculate Golden Armor=Чудные золотые доспехи
 Armor worn both before and after the corruption of Sivakaya took place.=Доспех, который носили и до, и после порчи Сивакаи.
-Worn by one of Sivakaya's top Darkwardens on Erenshor=Принадлежал одному из верховных тёмных стражей Сивакаи в Эреншоре
-Conveniently, it fell right off the Wyrm in your size=Как удачно — он слетел с Вирма прямо по вашему размеру
+Worn by one of Sivakaya's top Darkwardens on Erenshor=Носил один из тёмных стражей Сивакаи в Эреншоре
+Conveniently, it fell right off the Wyrm in your size=Как удачно — он слетел с Вирма прямо по размеру
 Physical blows are seemingly lost this metal, absorbed into nothingness=Физические удары словно тонут в этом металле, поглощаясь пустотой
-Worn by Eldoth Molorai himself=Принадлежал самому Элдоту Молораи
+Worn by Eldoth Molorai himself=Принадлежал Элдоту Молораи
 It's threadbare and torn.=Ветхое и рваное.
 Very light weight and thin armor. It's better than nothing.=Очень лёгкие и тонкие доспехи. Лучше, чем ничего.
 Woven from the silk of a daggerleg spider=Соткана из шёлка кинжалоногого паука
 The dried kelp adds a layer of protection =Засохшие водоросли добавляют слой защиты 
-Made of some oddly textured skin that you've never seen before=Из странной кожи с необычной текстурой, которую вы раньше не видели
-It never warms to your skin=Никогда не нагревается от тела
-A nice sturdy chestplate=Добротный крепкий нагрудник
+Made of some oddly textured skin that you've never seen before=Из странной кожи с странной текстурой, которую ранее не видели
+It never warms to your skin=Не нагревается от тела
+A nice sturdy chestplate=Чудный крепкий нагрудник
 It's fraying at every edge but remnants of a great power linger in its threads=Обтрёпан по краям, но в нитях таятся отголоски великой силы
 Ancient etchings cover the interior=Древние руны покрывают изнанку
 
@@ -146,7 +146,7 @@ It's really hard to get into your pack without melting your pack=Сложно у
 They're juicy and sweet and really really salty.=Они сочные, сладкие и очень-очень солёные.
 Just the smell alone is invigorating. =Один только аромат уже бодрит. 
 Favored by the Nippers of Rottenfoot=Лакомство кусак Гнилоногов
-A low quality, but very drinkable beer.=Невысокого качества, но вполне питкое пиво.
+A low quality, but very drinkable beer.=Невысокого качества, но вполне - пиво.
 The essence of life.=Сущность жизни.
 
 # --- Жезлы ---

@@ -904,6 +904,26 @@ Level: =Уровень:
 # --- Чат: контекст зон ---
 You have unspent PROFICIENCY POINTS! Open your inventory to assign them.=У вас есть нераспределённые ОЧКИ МАСТЕРСТВА! Откройте инвентарь, чтобы назначить их.
 
+# --- Префиксы предметов (для чата и инвентаря) ---
+Skill Book: =Книга навыков: 
+Scroll: =Свиток: 
+No Trade=Непродаваемый
+Ghostly =Призрачн. 
+Giant's Blood=Кровь Великана
+Wand: =Жезл: 
+Bow: =Лук: 
+
+# --- Названия гильдий (в плашках NPC: "\n<GuildName>") ---
+<Afterwipe>=<Послевайп>
+<Dragon Food>=<Корм Дракона>
+<Erenshor's Young>=<Молодёжь Эренсхора>
+<Friends' Club>=<Клуб Друзей>
+<Hatty Cats>=<Шляпные Коты>
+<Hires of Kevin>=<Наёмники Кевина>
+<Legend>=<Легенда>
+<Solid>=<Солид>
+<LEGENDS>=<ЛЕГЕНДЫ>
+
 # --- NPC титулы (динамическая сборка в NPC.cs) ---
 <Auction Broker>=<Аукционный брокер>
 <Banker>=<Банкир>

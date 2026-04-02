@@ -23,7 +23,7 @@ namespace ErenshorRU
     {
         public const string GUID = "com.erenshor.ru";
         public const string NAME = "Erenshor Russian Translation";
-        public const string VERSION = "1.9.1";
+        public const string VERSION = "1.9.2";
 
         internal static ManualLogSource Log;
         internal static TranslationDB T;
