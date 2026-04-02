@@ -1,0 +1,5 @@
+<Project>
+  <PropertyGroup>
+    <BaseIntermediateOutputPath>$(TEMP)\ErenshorRU_obj\</BaseIntermediateOutputPath>
+  </PropertyGroup>
+</Project>

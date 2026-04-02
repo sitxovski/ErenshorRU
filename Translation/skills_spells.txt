@@ -1,0 +1,326 @@
+# ==============================================================
+# Erenshor — Русский перевод: Навыки вознесения и Заклинания
+# ==============================================================
+
+[EXACT]
+
+# --- Навыки Вознесения: Имена ---
+Roaring Echoes=Гулкое Эхо
+Critical DOTs=Крит. ДоТы
+Critical Healing=Крит. Исцеление
+Vengeful Healing=Лечение Мести
+Critical Backstab=Крит. Бэкстаб
+Adv. Mitigation=Ул. Смягчение
+Innate Taunt=Врожд. Таунт
+Triple Attack=Тройная Атака
+Parry=Парри
+Soul Strike=Удар Души
+Undying Rage=Вечный Гнев
+Finale=Финал
+Imbue Mastery=Мастер Чар
+Lightning Rod=Громоотвод
+Quick Reload=Скорозаряд
+Innate Hitpoints=Врожд. Здоровье
+Innate Mana=Врожд. Мана
+Innate Defense=Врожд. Защита
+Innate Dodge=Врожд. Уклон
+
+# --- Навыки Вознесения: Описания ---
+Each "Resonance" point over 100 gets a chance to increase damage on resonating casts=Каждое очко «Резонанса» свыше 100 даёт шанс усилить урон резонирующих заклинаний
+Every DOT tick has a 33% chance per rank to critically hit=Тик ДоТа имеет 33% шанс за ранг нанести крит. удар
+Heals have a 20% chance per rank to heal for double=Лечение имеет 20% шанс за ранг исцелить вдвойне
+Single target heals have a 7% chance per rank to damage your target's target equal to the healing amount=Лечение цели имеет 7% шанс за ранг нанести урон цели вашей цели, равный исцелению
+15% chance per level to end a combat round with a strong attack=15% шанс за уровень завершить раунд боя мощной атакой
+15% chance per rank to land a critical hit with backstab=15% шанс за ранг нанести крит. удар при ударе в спину
+Mitigate all incoming physical damage by 5% per rank=Снижает весь входящий физ. урон на 5% за ранг
+Generate 33% more aggro per rank with each melee hit=Создаёт на 33% больше аггро за ранг с каждым ударом
+10% chance per rank to triple attack any time you double attack=10% шанс за ранг тройной атаки при каждой двойной атаке
+5% chance per rank to block all incoming melee damage, and immediately counter-attack=5% шанс за ранг блокировать весь ближний урон и сразу контратаковать
+Each melee attack steals 1% (per ascension level) of your damage's worth of mana from your target=Каждая атака крадёт 1% (за ур. вознесения) урона в виде маны у цели
+12% chance per rank to triple attack any time you double attack=12% шанс за ранг тройной атаки при каждой двойной атаке
+10% chance per rank to resist any mortal damage, and instead heal to full, and gain a massive (short duration) damage, stat, lifesteal, and haste buff.=10% шанс за ранг выстоять смертельный урон, исцелиться полностью и получить мощный (краткий) бафф урона, статов, вампиризма и скорости.
+3% chance per rank to immediately kill a target if its under 15% life. (Does not work on unique mobs)=3% шанс за ранг мгновенно убить цель, если у неё менее 15% HP. (Не работает на уник. мобах)
+15% chance per rank to not receive a penalty for imbueing a spell onto an arrow=15% шанс за ранг не получить штраф за наложение заклинания на стрелу
+10% chance per rank to cause lighting to strike any target hit by an arrow, damaging and stunning it.=10% шанс за ранг вызвать молнию по цели, поражённой стрелой, нанося урон и оглушая.
+10% chance per rank to make your next round of attacks drastically sooner.=10% шанс за ранг значительно ускорить следующий раунд ваших атак.
+Increase Max HP by 5% per level=Макс. HP +5% за уровень
+Increase MANA by 5% per level=МАНА +5% за уровень
+Increase DEF by 5% per level=DEF +5% за уровень
+Increase Magic Resist by 5% per level=Маг. сопротивление +5% за уровень
+Increase Poison Resist by 5% per level=Сопротивление яду +5% за уровень
+Increase Elemental Resist by 5% per level=Стихийное сопротивление +5% за уровень
+Increase Void Resist by 5% per level=Сопротивление бездне +5% за уровень
+Increase Dodge Chance by 2% per level=Шанс уклонения +2% за уровень
+
+# --- Заклинания: Имена ---
+Light of the Lantern=Свет Фонаря
+Burning Chains=Горящие Цепи
+Call of the Void=Зов Пустоты
+Dazzle=Морок
+Dimensional Rift=Разлом Измерений
+Hardened Skin=Твёрдая Кожа
+Immolation=Сожжение
+Infernis=Инфернис
+Intrusive Ideas=Навязчивые Идеи
+Invasive Thoughts=Навязчивые Мысли
+Lingering Inferno=Затяжное Пекло
+Portal to Braxonian=Портал в Браксониан
+Portal to Hidden=Портал в Хидден
+Portal to Reliquary=Портал в Реликварий
+Portal to Ripper's Keep=Портал в Логово Риппера
+Portal to Silkengrass=Портал в Силкенграсс
+Portal to Soluna's Landing=Портал на Пристань Солуны
+Portal to Windwashed=Портал в Виндвошд
+Funeral Pyre=Упокой Огнём
+Returning Wish=Зов Колодца
+Twisting Mind=Помутнение
+Annihilate=Уничтожить
+Arterial Decay=Распад Артерий
+Biting Vines=Хищные Лозы
+Dissipate Storm=Рассеять Бурю
+Ensaring Roots=Цепкие Корни
+Internal Rot=Гниль Нутра
+Invoke Storm=Вызвать Бурю
+Major Lightning=Сильная Молния
+Minor Lightning=Малая Молния
+Morbidity's Grasp=Хватка Скверны
+Spirit of the Flock=Дух Стаи
+Summon Brute=Призыв Брута
+Summon Cursed Fawn=Призыв Тёмной Лани
+Summon Dire Wolf=Призыв Лютоволка
+Summon Forest Spirit=Призыв Духа Леса
+Death's Embrace=Объятие Смерти
+Pride=Кураж
+Vithean Revenge=Витейская Месть
+Voidblast=Пустоудар
+Moon Bolt II=Луч Луны II
+Moon Bolt=Луч Луны
+Moonburst=Луновзрыв
+Theft of Vigor=Кража Бодрости
+Glimpse of Truth=Проблеск Истины
+Impending Doom=Грядущий Рок
+Lunar Madness=Безумие Луны
+Moonlit Frenzy=Лунный Раж
+Atonia=Атония
+Atrophy=Атрофия
+Enfeeble=Немощь
+
+# --- Заклинания: Статус-сообщения ---
+are wrapped in firey chains.=опутаны огненными цепями.
+is wrapped in firey chains.=опутан огненными цепями.
+drift into a coma=впадаете в кому
+drifts into a coma=впадает в кому
+are dazzled by colors!=ослеплены красками!
+is dazzled by colors!=ослеплён красками!
+step into a conjured portal=входите в созданный портал
+steps into a conjured portal=входит в созданный портал
+feel your thoughts become clearer.=ваши мысли становятся яснее.
+looks intense.=сосредоточен.
+feel your skin harden against the bones beneath.=ваша кожа твердеет до костей.
+feels its skin harden.=кожа твердеет.
+are overcome by flames=охвачены пламенем
+is overcome by flames=охвачен пламенем
+are lit aflame from within.=горите изнутри.
+is lit aflame from within.=горит изнутри.
+fall asleep=засыпаете
+falls asleep=засыпает
+feel yourself being destroyed from within=чувствуете, как вас разрушает изнутри
+feels themselves being destroyed from within=чувствует, как разрушается изнутри
+feel your arteries collapse.=ваши артерии сжимаются.
+feels their arteries collapse.=артерии сжимаются.
+are wrapped in biting vines.=опутаны хищными лозами.
+is wrapped in biting vines.=опутан хищными лозами.
+call upon Fernalla for clear skies.=взываете к Ферналле о ясном небе.
+calls upon Fernalla for clear skies.=взывает к Ферналле о ясном небе.
+feel your insides begin to decay.=ваши внутренности начинают гнить.
+feels their insides begin to decay=нутро начинает гнить
+call upon Fernalla for rain..=взываете к Ферналле о дожде..
+calls upon Fernalla for rain.=взывает к Ферналле о дожде.
+are overcome by electricity.=поражены электричеством.
+is overcome by electricty.=поражён электричеством.
+sense death nearby=чуете смерть рядом
+feels the presence of death=ощущает присутствие смерти
+feel faster.=ускорены.
+feels faster.=ускорен.
+are wrapped in a cold embrace.=в холодных объятиях.
+is wrapped in a cold embrace.=в холодных объятиях.
+feel a rush of pride.=ощущаете прилив сил.
+feels a rush of pride.=ощущает прилив сил.
+feel a sudden burst of hate=ощущаете всплеск ненависти
+feels a sudden burst of hate=ощущает всплеск ненависти
+are torn apart by a sudden void.=разорваны внезапной пустотой.
+is torn apart by a sudden void=разорван внезапной пустотой
+are struck by moon light=поражены лунным светом
+is struck by moon light=поражён лунным светом
+are bathed in scorching moonlight.=обожжены палящим лунным светом.
+is bathed in scorching moonlight.=обожжён палящим лунным светом.
+Feel weaker.=Слабеете.
+feels their arms grow heavy.=руки тяжелеют.
+foresee your own demise.=предвидите свою гибель.
+forsees his own demise.=предвидит свою гибель.
+feel a sense of rage=ощущаете ярость
+is overcome by a sense of rage=охвачен яростью
+feel the weight of nighmares on your limbs=кошмары сковывают ваши конечности
+feels the weight of nighmares on their limbs=кошмары сковывают конечности
+feel your muscles begin to atrophy.=ваши мышцы начинают атрофироваться.
+feels their muscles begin to atrophy.=мышцы начинают атрофироваться.
+feel your muscles become feeble.=ваши мышцы слабеют.
+feels their muscles become feeble.=мышцы слабеют.
+
+# --- Заклинания: Описания ---
+Allow the soft glow of the light to show you the way home.=Позвольте мягкому свету указать вам путь домой.
+Set respawn point. Use with caution!=Задать точку возрождения. Осторожно!
+Slow targets movement and cause (50 / tick) damage over time.=Замедляет цель и наносит (50 / тик) урона со временем.
+Charm an NPC (up to level 22) to do your bidding for a short time.=Очарует NPC (до уровня 22), подчиняя воле на время.
+Renders your target helpless. Any damage breaks this effect.=Обездвиживает цель. Любой урон снимает этот эффект.
+When used in a place where the fabric of reality is weak, it may open unseen doors.=При использовании там, где ткань реальности тонка, может открыть скрытые двери.
+Increase intelligence substantially for a brief time=Значительно повышает интеллект на короткое время
+A short-duration shield that absorbs up to 200 points of incoming damage=Кратковременный щит, поглощающий до 200 единиц входящего урона
+Slow targets movement and cause (450 / tick) damage over time.=Замедляет цель и наносит (450 / тик) урона со временем.
+Slow targets movement, attack, and cause (1400 / tick) damage over time.=Замедляет движение, атаку цели и наносит (1400 / тик) урона со временем.
+Charm an NPC (up to level 12) to do your bidding for a short time.=Очарует NPC (до уровня 12), подчиняя воле на время.
+Charm an NPC (up to level 7) to do your bidding for a short time.=Очарует NPC (до уровня 7), подчиняя воле на время.
+Slow targets movement, attack, and cause (1950 / tick) damage over time.=Замедляет движение, атаку цели и наносит (1950 / тик) урона со временем.
+Teleport you and your party to the Braxonian landing pad=Перемещает вас и группу на площадку Браксониана
+Teleport you and your party to Hidden Hills' landing pad=Перемещает вас и группу на площадку Хидден Хиллз
+Teleport you and your party to Port Azure's Reliquary, and leave behind a portal in the world that you can return to from the Reliquary.=Перемещает вас и группу в Реликварий Порт-Азура, оставляя портал для возврата из Реликвария.
+Teleport you and your party to Ripper's Keep landing pad=Перемещает вас и группу на площадку Логова Риппера
+Teleport you and your party to the Silkengrass landing pad=Перемещает вас и группу на площадку Силкенграсса
+Teleport you and your party to the Soluna's Landing landing pad=Перемещает вас и группу на площадку Пристани Солуны
+Teleport you and your party to Windwashed Pass' landing pad=Перемещает вас и группу на площадку Виндвошд Пасс
+Slow targets movement and cause (600 / tick) damage over time.=Замедляет цель и наносит (600 / тик) урона со временем.
+Teleport you and your party to your current Wishing Well=Перемещает вас и группу к текущему Колодцу Желаний
+Charm an NPC (up to level 30) to do your bidding for a short time.=Очарует NPC (до уровня 30), подчиняя воле на время.
+A high damage (1100 / tick), short duration void-based spell.=Мощное краткое заклятие пустоты (1100 / тик).
+A high damage (360 / tick), short duration void spell.=Мощное краткое заклятие пустоты (360 / тик).
+Wrap your target in venomous vines that slow movement and deal damage (7 / tick) over time.=Опутывает цель ядовитыми лозами, замедляя и нанося урон (7 / тик).
+end a thunderstorm at your location (outdoor, open areas only)=прекращает грозу в вашей области (только на открытом воздухе)
+Wrap your target in venomous vines that slow movement and deal damage (200 / tick) over time.=Опутывает цель ядовитыми лозами, замедляя и нанося (200 / тик) урона.
+A high damage (1200 / tick), short duration poison spell.=Мощное краткое заклятие яда (1200 / тик).
+Call a thunderstorm to your location (outdoor, open areas only)=Призывает грозу в вашу область (только на открытом воздухе)
+850 Magical damage on target, secondary damage on nearby targets.=850 маг. урона по цели, доп. урон по ближайшим целям.
+1200 Magical damage on target, secondary damage on nearby targets.=1200 маг. урона по цели, доп. урон по ближайшим целям.
+85 Magical damage on target, secondary damage on nearby targets.=85 маг. урона по цели, доп. урон по ближайшим целям.
+A high damage (300 / tick), short duration void spell.=Мощное краткое заклятие пустоты (300 / тик).
+Increase movement speed for a long duration on entire group=Увеличивает скорость движения группы на долгое время
+Summon a magical companion to fight along side you.=Призывает магического спутника для боя рядом с вами.
+Summon a powerful companion to fight along side you.=Призывает мощного спутника для боя рядом с вами.
+Weaken a target, while slowly draining its life and healing the caster.=Ослабляет цель, медленно вытягивая жизнь и исцеляя заклинателя.
+Gives a quick burst of life regeneration, stat boosts, and haste.=Даёт всплеск регенерации жизни, усиление статов и скорости.
+Gain a burst of Dexterity, Strength, and Life Steal as well as an increased chance to hit.=Даёт всплеск Ловкости, Силы и Вампиризма, а также шанс попадания.
+Deals 1000 damage to enemies in your immediate vicinity.=Наносит 1000 урона врагам в непосредственной близости.
+Deals 700 magic damage and interrupts your target's casts=Наносит 700 маг. урона и прерывает заклинания цели
+Deals 10 magic damage and interrupts your target's casts=Наносит 10 маг. урона и прерывает заклинания цели
+Deals 100 damage to enemies in your immediate vicinity.=Наносит 100 урона врагам в непосредственной близости.
+Steal attack speed from a target and give it to yourself.=Крадёт скорость атаки цели и передаёт вам.
+(Taunt) Target becomes furious with the caster of this spell.=(Провокация) Цель приходит в ярость на заклинателя.
+Massively slows all targets attack speed in a small radius of the caster=Сильно замедляет скорость атаки всех целей в малом радиусе
+Slow your target's movement speed by weakening their muscles=Замедляет скорость движения цели, ослабляя её мышцы
+
+[SUBSTRING]
+
+# --- Статус-подстроки ---
+ feel confused.= в смятении.
+ feels confused.= в смятении.
+feel confused.= в смятении.
+feels confused.= в смятении.
+
+[EXACT]
+
+# ==============================================================
+# Классовые заклинания (ARC / DRU / DUEL / PAL / REAV / STORM)
+# ==============================================================
+
+# --- Навык вознесения: описание ---
+10% chance per rank to resist any mortal damage, and instead heal to full, and gain a massive (short duration) damage, stat,  lifesteal, and haste buff.=10% шанс за ранг сопротивления смертельному урону: вместо гибели — полное исцеление и мощное (кратковременное) усиление урона, характеристик, вампиризма и скорости.
+
+# --- Общие имена (без префикса) ---
+Coma=Кома
+Coup De Grace=Смертельный Удар
+Focus=Фокус
+Lightning=Молния
+Sleep=Сон
+
+# --- Arcanist (ARC) ---
+ARC - Bind=ARC - Оковы
+ARC - Burning Chains=ARC - Горящие Цепи
+ARC - Call of the Void=ARC - Зов Пустоты
+ARC - Coma=ARC - Кома
+ARC - Dazzle=ARC - Ослепление
+ARC - Dimensional Rift=ARC - Разлом Измерений
+ARC - Focus=ARC - Фокус
+ARC - Hardened Skin=ARC - Закалённая Кожа
+ARC - Immolation=ARC - Испепеление
+ARC - Infernis=ARC - Инфернис
+ARC - Intrusive Ideas=ARC - Навязчивые Идеи
+ARC - Invasive Thoughts=ARC - Навязчивые Мысли
+ARC - Lingering Inferno=ARC - Затяжное Пекло
+ARC - Portal to Braxonian=ARC - Портал в Браксонию
+ARC - Portal to Hidden=ARC - Портал в Скрытое
+ARC - Portal to Reliquary=ARC - Портал в Реликварий
+ARC - Portal to Ripper=ARC - Портал к Потрошительнице
+ARC - Portal to Silkengrass=ARC - Портал в Шёлковую Траву
+ARC - Portal to Soluna's Landing=ARC - Портал к Причалу Солуны
+ARC - Portal to Windwashed=ARC - Портал на Ветрозмыв
+ARC - Pyre=ARC - Костёр
+ARC - Returning Wish=ARC - Обратное Желание
+ARC - Sleep=ARC - Сон
+ARC - Triple Resonate=ARC - Тройной Резонанс
+ARC - Twisting Mind=ARC - Искривление Разума
+
+# --- Druid (DRU) ---
+DRU - Annihilate=DRU - Уничтожение
+DRU - Arterial Decay=DRU - Артериальный Распад
+DRU - Biting Vines=DRU - Кусающие Лианы
+DRU - Critical DOT=DRU - Критический ДоТ
+DRU - Critical Healing=DRU - Критическое Исцеление
+DRU - Dissipate Storm=DRU - Рассеять Бурю
+DRU - Ensnaring Roots=DRU - Опутывающие Корни
+DRU - Internal Rot=DRU - Гниль Изнутри
+DRU - Invoke Storm=DRU - Призвать Бурю
+DRU - Lightning=DRU - Молния
+DRU - Major Lightning=DRU - Великая Молния
+DRU - Minor Lightning=DRU - Малая Молния
+DRU - Morbidity's Grasp=DRU - Хватка Тлена
+DRU - Spirit of the Flock=DRU - Дух Стаи
+DRU - Summon Brute=DRU - Призыв Громилы
+DRU - Summon Cursed Fawn=DRU - Призыв Проклятого Оленёнка
+DRU - Summon Dire Wolf=DRU - Призыв Лютого Волка
+DRU - Summon Forest Spirit=DRU - Призыв Лесного Духа
+DRU - Vengeful Healing=DRU - Мстительное Исцеление
+
+# --- Duelist (DUEL) ---
+DUEL - Coup De Grace=DUEL - Смертельный Удар
+DUEL - Critical Backstab=DUEL - Критический Удар в Спину
+DUEL - Deathly Embrace=DUEL - Смертельные Объятия
+DUEL - Pride=DUEL - Гордость
+DUEL - Vithean Revenge=DUEL - Витеанская Месть
+
+# --- Paladin (PAL) ---
+PAL - Advanced Mitigation=PAL - Усиленное Смягчение
+PAL - Blast of the Void=PAL - Залп Пустоты
+PAL - Innate Taunt=PAL - Врождённый Вызов
+PAL - Moon Bolt=PAL - Лунный Снаряд
+PAL - Moon Bolt II=PAL - Лунный Снаряд II
+PAL - Moonburst=PAL - Лунный Взрыв
+PAL - Sap Vitality=PAL - Выкачать Жизнь
+PAL - TAUNT Glimpse of Truth=PAL - ВЫЗОВ Проблеск Истины
+PAL - TAUNT Impending Doom=PAL - ВЫЗОВ Грядущая Гибель
+PAL - TAUNT Lunar Madness=PAL - ВЫЗОВ Лунное Безумие
+PAL - TAUNT Moonlit Frenzy=PAL - ВЫЗОВ Лунное Исступление
+PAL - Triple Attack=PAL - Тройная Атака
+
+# --- Reaver (REAV) ---
+REAV - Atonia=REAV - Атония
+REAV - Atrophy=REAV - Атрофия
+REAV - Enfeeble=REAV - Ослабление
+REAV - Parry=REAV - Парирование
+REAV - Soul Strike=REAV - Удар Души
+REAV - Triple Attack=REAV - Тройная Атака
+REAV - Undying Rage=REAV - Неугасимая Ярость
+
+# --- Stormcaller (STORM) ---
+STORM - Finale=STORM - Финал
+STORM - Imbue Master=STORM - Мастер Чар
+STORM - Lightning Rod=STORM - Громоотвод
+STORM - Reload=STORM - Заряд

@@ -1,0 +1,5380 @@
+﻿# ============================================================
+# Переводы, где русский текст ДЛИННЕЕ английского (+30% и более)
+# Это главные кандидаты на сокращение перевода.
+# ============================================================
+# Всего найдено: 5115 длиннее оригинала
+# Из них +50%: 499 | +30%: 1341 | +20%: 2326 | +10%: 3762
+
+# ===== СТАТИСТИКА ПО ФАЙЛАМ =====
+# misc.txt: 814 строк (+30%)
+# simplayer_chat.txt: 247 строк (+30%)
+# ui_system.txt: 77 строк (+30%)
+# items_lore.txt: 158 строк (+30%)
+# skills_spells.txt: 12 строк (+30%)
+# quests.txt: 33 строк (+30%)
+
+================================================================================
+
+[misc.txt:2525] [EX] EN(11) -> RU(29) +18 (+164%)
+EN=feel rotten
+RU=чувствуете себя отвратительно
+
+[simplayer_chat.txt:1412] [EX] EN(6) -> RU(15) +9 (+150%)
+EN=Ripper
+RU=Потрошительница
+
+[ui_system.txt:72] [EX] EN(5) -> RU(12) +7 (+140%)
+EN=VSync
+RU=Верт. синхр.
+
+[ui_system.txt:1036] [SUB] EN(5) -> RU(12) +7 (+140%)
+EN=Used 
+RU=Использован 
+
+[simplayer_chat.txt:2968] [EX] EN(6) -> RU(14) +8 (+133%)
+EN=hi pal
+RU=привет дружище
+
+[misc.txt:2563] [EX] EN(12) -> RU(28) +16 (+133%)
+EN=feels rotten
+RU=чувствует себя отвратительно
+
+[ui_system.txt:26] [EX] EN(4) -> RU(9) +5 (+125%)
+EN=Load
+RU=Загрузить
+
+[items_lore.txt:847] [EX] EN(4) -> RU(9) +5 (+125%)
+EN=Stun
+RU=Оглушение
+
+[ui_system.txt:145] [EX] EN(4) -> RU(9) +5 (+125%)
+EN=Void
+RU=Пустотный
+
+[ui_system.txt:25] [EX] EN(4) -> RU(9) +5 (+125%)
+EN=Save
+RU=Сохранить
+
+[items_lore.txt:692] [EX] EN(10) -> RU(22) +12 (+120%)
+EN=Island Fin
+RU=Островная Рыба-Плавник
+
+[skills_spells.txt:240] [EX] EN(5) -> RU(11) +6 (+120%)
+EN=Focus
+RU=Фокусировка
+
+[simplayer_chat.txt:1374] [EX] EN(5) -> RU(11) +6 (+120%)
+EN=Piety
+RU=Благочестие
+
+[misc.txt:6570] [EX] EN(10) -> RU(22) +12 (+120%)
+EN=Item Info 
+RU====Инфо о предмете ===
+
+[simplayer_chat.txt:3342] [EX] EN(6) -> RU(13) +7 (+117%)
+EN=yup np
+RU=ага не за что
+
+[quests.txt:387] [EX] EN(7) -> RU(15) +8 (+114%)
+EN=Big Red
+RU=Большой Красный
+
+[simplayer_chat.txt:2275] [EX] EN(7) -> RU(15) +8 (+114%)
+EN=Hey pal
+RU=Привет приятель
+
+[items_lore.txt:712] [EX] EN(7) -> RU(15) +8 (+114%)
+EN=Seaweed
+RU=Морская Капуста
+
+[simplayer_chat.txt:31] [EX] EN(8) -> RU(17) +9 (+112%)
+EN=bro wtf!
+RU=бро, чё за нафиг!
+
+[simplayer_chat.txt:3133] [EX] EN(8) -> RU(17) +9 (+112%)
+EN=np buddy
+RU=не за что дружище
+
+[items_lore.txt:852] [EX] EN(9) -> RU(19) +10 (+111%)
+EN=Torn Note
+RU=Разорванная Записка
+
+[misc.txt:3714] [EX] EN(10) -> RU(21) +11 (+110%)
+EN=Void Touch
+RU=Прикосновение Пустоты
+
+[simplayer_chat.txt:1316] [EX] EN(12) -> RU(25) +13 (+108%)
+EN=make sim use
+RU=сделать сима использовать
+
+[items_lore.txt:828] [EX] EN(14) -> RU(29) +15 (+107%)
+EN=Ornate Toolbox
+RU=Изящный Ящик для Инструментов
+
+[misc.txt:4690] [EX] EN(14) -> RU(29) +15 (+107%)
+EN=Brackwood Mace
+RU=Булава из Солоноватого Дерева
+
+[simplayer_chat.txt:1118] [EX] EN(5) -> RU(10) +5 (+100%)
+EN=HowTo
+RU=КакСделать
+
+[items_lore.txt:700] [EX] EN(6) -> RU(12) +6 (+100%)
+EN=Catnip
+RU=Кошачья Мята
+
+[ui_system.txt:1035] [SUB] EN(4) -> RU(8) +4 (+100%)
+EN=Tab 
+RU=Вкладка 
+
+[ui_system.txt:750] [SUB] EN(5) -> RU(10) +5 (+100%)
+EN=Spell
+RU=Заклинание
+
+[simplayer_chat.txt:101] [EX] EN(4) -> RU(8) +4 (+100%)
+EN=Hey!
+RU= Привет!
+
+[items_lore.txt:710] [EX] EN(8) -> RU(16) +8 (+100%)
+EN=Seaspice
+RU=Морская Пряность
+
+[simplayer_chat.txt:99] [EX] EN(8) -> RU(16) +8 (+100%)
+EN=Hey bud.
+RU=Здорово, братан.
+
+[misc.txt:4579] [EX] EN(10) -> RU(20) +10 (+100%)
+EN=Magma Coat
+RU=Магматический Покров
+
+[simplayer_chat.txt:645] [EX] EN(6) -> RU(12) +6 (+100%)
+EN=I like
+RU=Мне нравится
+
+[simplayer_chat.txt:3067] [EX] EN(12) -> RU(24) +12 (+100%)
+EN=k c u n a mn
+RU=ок увидимся через минуту
+
+[ui_system.txt:143] [EX] EN(5) -> RU(10) +5 (+100%)
+EN=Magic
+RU=Магический
+
+[simplayer_chat.txt:1312] [EX] EN(9) -> RU(18) +9 (+100%)
+EN=lost hope
+RU=утраченная надежда
+
+[ui_system.txt:612] [SUB] EN(8) -> RU(16) +8 (+100%)
+EN=You hit 
+RU=Ты попадаешь по 
+
+[misc.txt:3469] [EX] EN(5) -> RU(10) +5 (+100%)
+EN=Sever
+RU=Рассечение
+
+[simplayer_chat.txt:2595] [EX] EN(6) -> RU(12) +6 (+100%)
+EN=Wrong!
+RU=Неправильно!
+
+[misc.txt:1687] [EX] EN(16) -> RU(31) +15 (+94%)
+EN=Deep Diver's Cap
+RU=Шапка Глубоководного Ныряльщика
+
+[misc.txt:3700] [EX] EN(14) -> RU(27) +13 (+93%)
+EN=Vampiric Touch
+RU=Вампирическое Прикосновение
+
+[misc.txt:3112] [EX] EN(14) -> RU(27) +13 (+93%)
+EN=PAL - Sunburst
+RU=ПАЛАДИН — Солнечная Вспышка
+
+[items_lore.txt:1234] [EX] EN(12) -> RU(23) +11 (+92%)
+EN=Skyfolk Band
+RU=Кольцо Небесного Народа
+
+[misc.txt:5233] [EX] EN(11) -> RU(21) +10 (+91%)
+EN=Omen Marrow
+RU=Мозг Предзнаменования
+
+[items_lore.txt:1109] [EX] EN(11) -> RU(21) +10 (+91%)
+EN=Rotwood Bow
+RU=Лук из Гнилого Дерева
+
+[misc.txt:3079] [EX] EN(10) -> RU(19) +9 (+90%)
+EN=Molten Axe
+RU=Расплавленный Топор
+
+[items_lore.txt:1084] [EX] EN(10) -> RU(19) +9 (+90%)
+EN=Lichencoat
+RU=Лишайниковая Куртка
+
+[misc.txt:2518] [EX] EN(10) -> RU(19) +9 (+90%)
+EN=feel full.
+RU=чувствуете сытость.
+
+[misc.txt:2955] [EX] EN(10) -> RU(19) +9 (+90%)
+EN=Group Heal
+RU=Групповое Исцеление
+
+[simplayer_chat.txt:1636] [EX] EN(9) -> RU(17) +8 (+89%)
+EN=trade sim
+RU=торговать с симом
+
+[items_lore.txt:796] [EX] EN(9) -> RU(17) +8 (+89%)
+EN=Dock Pass
+RU=Пропуск к Причалу
+
+[misc.txt:1131] [EX] EN(18) -> RU(34) +16 (+89%)
+EN=Breaded Island Fin
+RU=Плавник Островной Рыбы в Панировке
+
+[misc.txt:6596] [EX] EN(9) -> RU(17) +8 (+89%)
+EN=Member 4 
+RU====Участник 4 ===
+
+[simplayer_chat.txt:417] [EX] EN(8) -> RU(15) +7 (+88%)
+EN=tank lfg
+RU=танк ищу группу
+
+[quests.txt:417] [EX] EN(8) -> RU(15) +7 (+88%)
+EN=Ripper's
+RU=Потрошительницы
+
+[items_lore.txt:933] [EX] EN(8) -> RU(15) +7 (+88%)
+EN=Bog Hoop
+RU=Болотное Кольцо
+
+[misc.txt:4437] [EX] EN(8) -> RU(15) +7 (+88%)
+EN=Bog Hoop
+RU=Болотное Кольцо
+
+[simplayer_chat.txt:1658] [EX] EN(16) -> RU(30) +14 (+88%)
+EN=use teleport pad
+RU=использовать телепорт площадку
+
+[misc.txt:2724] [EX] EN(8) -> RU(15) +7 (+88%)
+EN=Surestep
+RU=Твёрдая Поступь
+
+[misc.txt:3717] [EX] EN(8) -> RU(15) +7 (+88%)
+EN=Read Map
+RU=Прочитать Карту
+
+[simplayer_chat.txt:2863] [EX] EN(7) -> RU(13) +6 (+86%)
+EN=bruh np
+RU=бро не за что
+
+[items_lore.txt:517] [EX] EN(22) -> RU(41) +19 (+86%)
+EN=As thick as it is ugly
+RU=Настолько же толстые, насколько уродливые
+
+[misc.txt:1987] [EX] EN(14) -> RU(26) +12 (+86%)
+EN=Bear Bone Club
+RU=Дубинка из Медвежьей Кости
+
+[misc.txt:2088] [EX] EN(14) -> RU(26) +12 (+86%)
+EN=Brackwood Mace
+RU=Солоноватодревесная Булава
+
+[simplayer_chat.txt:20] [EX] EN(7) -> RU(13) +6 (+86%)
+EN=aw ffs!
+RU=бл, ну нафиг!
+
+[simplayer_chat.txt:3132] [EX] EN(7) -> RU(13) +6 (+86%)
+EN=np bruh
+RU=не за что бро
+
+[misc.txt:974] [EX] EN(13) -> RU(24) +11 (+85%)
+EN=Ripper's Keep
+RU=Крепость Потрошительницы
+
+[misc.txt:3266] [EX] EN(13) -> RU(24) +11 (+85%)
+EN=Shred Resists
+RU=Разрушение Сопротивлений
+
+[items_lore.txt:833] [EX] EN(13) -> RU(24) +11 (+85%)
+EN=Riftsnare Gem
+RU=Самоцвет Ловушки Разлома
+
+[misc.txt:6451] [EX] EN(13) -> RU(24) +11 (+85%)
+EN=Wood Training
+RU=Деревянная Тренировочная
+
+[misc.txt:4635] [EX] EN(13) -> RU(24) +11 (+85%)
+EN=Humanbone Bow
+RU=Лук из Человечьих Костей
+
+[misc.txt:68] [EX] EN(18) -> RU(33) +15 (+83%)
+EN=Ripper's Questline
+RU=Квестовая цепочка Потрошительницы
+
+[misc.txt:2183] [EX] EN(12) -> RU(22) +10 (+83%)
+EN=Break Fossil
+RU=Расколоть Окаменелость
+
+[misc.txt:3946] [EX] EN(18) -> RU(33) +15 (+83%)
+EN=Show NPC cast bars
+RU=Показывать полоски заклинаний НПС
+
+[misc.txt:5632] [EX] EN(6) -> RU(11) +5 (+83%)
+EN=Bulky.
+RU=Громоздкий.
+
+[simplayer_chat.txt:40] [EX] EN(6) -> RU(11) +5 (+83%)
+EN=cheers
+RU=за здоровье
+
+[misc.txt:5544] [EX] EN(12) -> RU(22) +10 (+83%)
+EN=-Omen Marrow
+RU=-Мозг Предзнаменования
+
+[misc.txt:4089] [EX] EN(6) -> RU(11) +5 (+83%)
+EN=Sep 26
+RU=26 сентября
+
+[misc.txt:4274] [EX] EN(12) -> RU(22) +10 (+83%)
+EN=Funeral Garb
+RU=Погребальное Облачение
+
+[misc.txt:1541] [EX] EN(12) -> RU(22) +10 (+83%)
+EN=Dynamic Fade
+RU=Динамическое Затухание
+
+[misc.txt:3230] [EX] EN(17) -> RU(31) +14 (+82%)
+EN=Prismatic Warcord
+RU=Призматическая Военная Подвязка
+
+[quests.txt:628] [EX] EN(17) -> RU(31) +14 (+82%)
+EN=Please play nice!
+RU=Будьте любезны, играйте честно!
+
+[misc.txt:5235] [EX] EN(17) -> RU(31) +14 (+82%)
+EN=Prismatic Warcord
+RU=Призматическая Военная Подвязка
+
+[misc.txt:3677] [EX] EN(11) -> RU(20) +9 (+82%)
+EN=Bramblecull
+RU=Ежевичная Выбраковка
+
+[simplayer_chat.txt:1413] [EX] EN(17) -> RU(31) +14 (+82%)
+EN=Ripper faction up
+RU=поднять фракцию Потрошительницы
+
+[simplayer_chat.txt:1377] [EX] EN(16) -> RU(29) +13 (+81%)
+EN=planar stone use
+RU=планарный камень использовать
+
+[misc.txt:6281] [EX] EN(5) -> RU(9) +4 (+80%)
+EN=Oct 8
+RU=8 октября
+
+[misc.txt:4819] [EX] EN(10) -> RU(18) +8 (+80%)
+EN=Void Slice
+RU=Рассечение Пустоты
+
+[misc.txt:3004] [EX] EN(15) -> RU(27) +12 (+80%)
+EN=Kill watchlight
+RU=Уничтожить сторожевой огонь
+
+[misc.txt:6280] [EX] EN(5) -> RU(9) +4 (+80%)
+EN=Oct 7
+RU=7 октября
+
+[ui_system.txt:24] [EX] EN(5) -> RU(9) +4 (+80%)
+EN=Apply
+RU=Применить
+
+[simplayer_chat.txt:3134] [EX] EN(5) -> RU(9) +4 (+80%)
+EN=np np
+RU=не за что
+
+[misc.txt:6279] [EX] EN(5) -> RU(9) +4 (+80%)
+EN=Oct 3
+RU=3 октября
+
+[simplayer_chat.txt:106] [EX] EN(5) -> RU(9) +4 (+80%)
+EN=hi NN
+RU=привет NN
+
+[misc.txt:1130] [EX] EN(24) -> RU(43) +19 (+79%)
+EN=CON - Breaded Island Fin
+RU=РАСХОД — Плавник Островной Рыбы в Панировке
+
+[misc.txt:2087] [EX] EN(29) -> RU(52) +23 (+79%)
+EN=Brackfruit Breaded Island Fin
+RU=Панированный Островной Плавник с Солоноватым Фруктом
+
+[simplayer_chat.txt:1470] [EX] EN(14) -> RU(25) +11 (+79%)
+EN=someone get me
+RU=кто-нибудь подберите меня
+
+[misc.txt:3261] [EX] EN(19) -> RU(34) +15 (+79%)
+EN=Sea Giant's Cutlass
+RU=Абордажный Палаш Морского Великана
+
+[misc.txt:1943] [EX] EN(14) -> RU(25) +11 (+79%)
+EN=ARC - Sunburst
+RU=ЧАРОД — Солнечная Вспышка
+
+[misc.txt:287] [EX] EN(14) -> RU(25) +11 (+79%)
+EN=Giant Watchdog
+RU=Гигантский Сторожевой Пёс
+
+[misc.txt:6589] [EX] EN(9) -> RU(16) +7 (+78%)
+EN=Hotkey 5 
+RU====Клавиша 5 ===
+
+[misc.txt:1693] [EX] EN(9) -> RU(16) +7 (+78%)
+EN=Dream Cap
+RU=Шапка Сновидений
+
+[items_lore.txt:703] [EX] EN(9) -> RU(16) +7 (+78%)
+EN=Croc Tail
+RU=Крокодилий Хвост
+
+[misc.txt:6579] [EX] EN(9) -> RU(16) +7 (+78%)
+EN=Hotkey 0 
+RU====Клавиша 0 ===
+
+[simplayer_chat.txt:869] [EX] EN(9) -> RU(16) +7 (+78%)
+EN=Boat Pass
+RU=Лодочный Пропуск
+
+[misc.txt:2521] [EX] EN(18) -> RU(32) +14 (+78%)
+EN=feel less thirsty.
+RU=чувствуете, что жажда отступила.
+
+[misc.txt:4455] [EX] EN(13) -> RU(23) +10 (+77%)
+EN=Birdbone Band
+RU=Кольцо из Птичьей Кости
+
+[items_lore.txt:932] [EX] EN(13) -> RU(23) +10 (+77%)
+EN=Birdbone Band
+RU=Кольцо из Птичьей Кости
+
+[misc.txt:6450] [EX] EN(17) -> RU(30) +13 (+76%)
+EN=Wood Training Set
+RU=Деревянный Тренировочный Набор
+
+[ui_system.txt:13] [EX] EN(4) -> RU(7) +3 (+75%)
+EN=Sell
+RU=Продать
+
+[items_lore.txt:306] [EX] EN(32) -> RU(56) +24 (+75%)
+EN=Eloquence is earned, not innate.
+RU=Красноречие нужно заслужить, а не получить при рождении.
+
+[misc.txt:2975] [EX] EN(8) -> RU(14) +6 (+75%)
+EN=Ice Bolt
+RU=Ледяная Стрела
+
+[items_lore.txt:1096] [EX] EN(16) -> RU(28) +12 (+75%)
+EN=Swampy Loincloth
+RU=Болотная Набедренная Повязка
+
+[simplayer_chat.txt:223] [EX] EN(4) -> RU(7) +3 (+75%)
+EN=Otw!
+RU=В пути!
+
+[simplayer_chat.txt:243] [EX] EN(4) -> RU(7) +3 (+75%)
+EN=sure
+RU=конечно
+
+[items_lore.txt:1077] [EX] EN(16) -> RU(28) +12 (+75%)
+EN=Daggersilk Shirt
+RU=Рубашка из Кинжального Шёлка
+
+[simplayer_chat.txt:2450] [EX] EN(4) -> RU(7) +3 (+75%)
+EN=now!
+RU=сейчас!
+
+[simplayer_chat.txt:1657] [EX] EN(12) -> RU(21) +9 (+75%)
+EN=use teleport
+RU=использовать телепорт
+
+[misc.txt:4173] [EX] EN(16) -> RU(28) +12 (+75%)
+EN=Swampy Loincloth
+RU=Болотная Набедренная Повязка
+
+[misc.txt:624] [EX] EN(8) -> RU(14) +6 (+75%)
+EN=Join us!
+RU=Присоединяйся!
+
+[ui_system.txt:751] [SUB] EN(4) -> RU(7) +3 (+75%)
+EN=Item
+RU=Предмет
+
+[misc.txt:50] [EX] EN(4) -> RU(7) +3 (+75%)
+EN=says
+RU=говорит
+
+[simplayer_chat.txt:2397] [EX] EN(16) -> RU(28) +12 (+75%)
+EN=Lol mad cuz bad.
+RU=Лол злишься потому что плох.
+
+[misc.txt:3724] [EX] EN(11) -> RU(19) +8 (+73%)
+EN=Fast Travel
+RU=Быстрое Перемещение
+
+[misc.txt:2144] [EX] EN(15) -> RU(26) +11 (+73%)
+EN=Daggersilk Hood
+RU=Кинжально-Шёлковый Капюшон
+
+[misc.txt:2733] [EX] EN(11) -> RU(19) +8 (+73%)
+EN=Runed Mitts
+RU=Рунические Рукавицы
+
+[misc.txt:6446] [EX] EN(15) -> RU(26) +11 (+73%)
+EN=Wood Dining Set
+RU=Деревянный Обеденный Набор
+
+[misc.txt:4707] [EX] EN(15) -> RU(26) +11 (+73%)
+EN=Wardwarped Cape
+RU=Искривлённый Оберегом Плащ
+
+[misc.txt:3235] [EX] EN(15) -> RU(26) +11 (+73%)
+EN=Razor Waveblade
+RU=Бритвенный Волновой Клинок
+
+[misc.txt:605] [EX] EN(11) -> RU(19) +8 (+73%)
+EN=Free me....
+RU=Освободите меня....
+
+[misc.txt:600] [EX] EN(11) -> RU(19) +8 (+73%)
+EN=For Ripper.
+RU=За Потрошительницу.
+
+[simplayer_chat.txt:2591] [EX] EN(11) -> RU(19) +8 (+73%)
+EN=Witness Me!
+RU=Засвидетельствуйте!
+
+[misc.txt:6449] [EX] EN(11) -> RU(19) +8 (+73%)
+EN=Wood Living
+RU=Деревянная Гостиная
+
+[misc.txt:6453] [EX] EN(11) -> RU(19) +8 (+73%)
+EN=Wood Vendor
+RU=Деревянный Торговец
+
+[misc.txt:6447] [EX] EN(11) -> RU(19) +8 (+73%)
+EN=Wood Dining
+RU=Деревянная Столовая
+
+[misc.txt:4802] [EX] EN(18) -> RU(31) +13 (+72%)
+EN=Razor Tipped Arrow
+RU=Стрела с Лезвийным Наконечником
+
+[misc.txt:1854] [EX] EN(17) -> RU(29) +12 (+71%)
+EN=A large stat buff
+RU=Мощное усиление характеристик
+
+[misc.txt:2534] [EX] EN(31) -> RU(53) +22 (+71%)
+EN=feel your cells become electric
+RU=чувствуете, как ваши клетки заряжаются электричеством
+
+[simplayer_chat.txt:41] [EX] EN(7) -> RU(12) +5 (+71%)
+EN=cheers!
+RU=за здоровье!
+
+[simplayer_chat.txt:644] [EX] EN(7) -> RU(12) +5 (+71%)
+EN=I enjoy
+RU=Мне нравится
+
+[ui_system.txt:1012] [SUB] EN(7) -> RU(12) +5 (+71%)
+EN= spell!
+RU= заклинанию!
+
+[simplayer_chat.txt:2969] [EX] EN(7) -> RU(12) +5 (+71%)
+EN=Hi, bye
+RU=Привет, пока
+
+[misc.txt:3656] [EX] EN(14) -> RU(24) +10 (+71%)
+EN=Unholy Bonesaw
+RU=Нечестивая Костяная Пила
+
+[misc.txt:4438] [EX] EN(17) -> RU(29) +12 (+71%)
+EN=Toxin Warped Band
+RU=Кольцо, Искривлённое Токсином
+
+[simplayer_chat.txt:668] [EX] EN(7) -> RU(12) +5 (+71%)
+EN=what tv
+RU=какой сериал
+
+[simplayer_chat.txt:2904] [EX] EN(7) -> RU(12) +5 (+71%)
+EN=EZ Life
+RU=Лёгкая Жизнь
+
+[misc.txt:1578] [EX] EN(7) -> RU(12) +5 (+71%)
+EN=*HUGS!*
+RU=*ОБНИМАШКИ!*
+
+[quests.txt:401] [EX] EN(10) -> RU(17) +7 (+70%)
+EN=Layer Cape
+RU=Многослойный Плащ
+
+[items_lore.txt:695] [EX] EN(10) -> RU(17) +7 (+70%)
+EN=Azure Mead
+RU=Азурская Медовуха
+
+[misc.txt:2445] [EX] EN(20) -> RU(34) +14 (+70%)
+EN=DRU ARC - Void Touch
+RU=ДРУИ ЧАРОД — Прикосновение Пустоты
+
+[simplayer_chat.txt:387] [EX] EN(10) -> RU(17) +7 (+70%)
+EN=druid lfg!
+RU=друид ищу группу!
+
+[misc.txt:303] [EX] EN(10) -> RU(17) +7 (+70%)
+EN=King Cobra
+RU=Королевская Кобра
+
+[misc.txt:5968] [EX] EN(20) -> RU(34) +14 (+70%)
+EN=to keep DPS similar.
+RU=для сохранения аналогичного урона.
+
+[misc.txt:3715] [EX] EN(10) -> RU(17) +7 (+70%)
+EN=Magic Bolt
+RU=Магическая Стрела
+
+[ui_system.txt:442] [EX] EN(10) -> RU(17) +7 (+70%)
+EN=Hey get on
+RU=Эй, залогинься на
+
+[misc.txt:2138] [EX] EN(10) -> RU(17) +7 (+70%)
+EN=Croc Tails
+RU=Хвосты Крокодилов
+
+[misc.txt:4262] [EX] EN(10) -> RU(17) +7 (+70%)
+EN=Lichencoat
+RU=Лишайниковый Плащ
+
+[misc.txt:4982] [EX] EN(16) -> RU(27) +11 (+69%)
+EN=GEN - Ivory Tusk
+RU=GEN - Бивень Слоновой Кости
+
+[misc.txt:1026] [EX] EN(13) -> RU(22) +9 (+69%)
+EN=Rockshade Key
+RU=Ключ от Скалистой Тени
+
+[misc.txt:4174] [EX] EN(16) -> RU(27) +11 (+69%)
+EN=Bonestudded Belt
+RU=Пояс с Костяными Заклёпками
+
+[misc.txt:6444] [EX] EN(13) -> RU(22) +9 (+69%)
+EN=Wood Bank Set
+RU=Деревянный Набор Банка
+
+[misc.txt:973] [EX] EN(13) -> RU(22) +9 (+69%)
+EN=Ripper Portal
+RU=Портал Потрошительницы
+
+[simplayer_chat.txt:1416] [EX] EN(13) -> RU(22) +9 (+69%)
+EN=RippersBounty
+RU=НаградаПотрошительницы
+
+[misc.txt:4865] [EX] EN(16) -> RU(27) +11 (+69%)
+EN=GEN - 1 InnateHP
+RU=GEN - 1 Врождённое Здоровье
+
+[misc.txt:2720] [EX] EN(13) -> RU(22) +9 (+69%)
+EN=Pious Sandals
+RU=Благочестивые Сандалии
+
+[simplayer_chat.txt:248] [EX] EN(13) -> RU(22) +9 (+69%)
+EN=teamwork baby
+RU=командная работа детка
+
+[quests.txt:415] [EX] EN(19) -> RU(32) +13 (+68%)
+EN=Ripper Main Quest 1
+RU=Основной Квест Потрошительницы 1
+
+[quests.txt:416] [EX] EN(19) -> RU(32) +13 (+68%)
+EN=Ripper Main Quest 2
+RU=Основной Квест Потрошительницы 2
+
+[misc.txt:1942] [EX] EN(19) -> RU(32) +13 (+68%)
+EN=ARC - Shred Resists
+RU=ЧАРОД — Разрушение Сопротивлений
+
+[misc.txt:6278] [EX] EN(6) -> RU(10) +4 (+67%)
+EN=Oct 21
+RU=21 октября
+
+[misc.txt:1732] [EX] EN(9) -> RU(15) +6 (+67%)
+EN=Iron Mace
+RU=Железная Булава
+
+[items_lore.txt:768] [EX] EN(9) -> RU(15) +6 (+67%)
+EN=Swamproot
+RU=Болотный Корень
+
+[misc.txt:6277] [EX] EN(6) -> RU(10) +4 (+67%)
+EN=Oct 17
+RU=17 октября
+
+[misc.txt:4491] [EX] EN(12) -> RU(20) +8 (+67%)
+EN=Hilltop Ring
+RU=Кольцо Вершины Холма
+
+[simplayer_chat.txt:3113] [EX] EN(9) -> RU(15) +6 (+67%)
+EN=next time
+RU=в следующий раз
+
+[ui_system.txt:37] [EX] EN(6) -> RU(10) +4 (+67%)
+EN=Invite
+RU=Пригласить
+
+[misc.txt:3692] [EX] EN(6) -> RU(10) +4 (+67%)
+EN=Tangle
+RU=Опутывание
+
+[simplayer_chat.txt:1318] [EX] EN(18) -> RU(30) +12 (+67%)
+EN=make simplayer use
+RU=сделать симплеера использовать
+
+[simplayer_chat.txt:285] [EX] EN(9) -> RU(15) +6 (+67%)
+EN=who cares
+RU=кому какое дело
+
+[misc.txt:6275] [EX] EN(6) -> RU(10) +4 (+67%)
+EN=Oct 15
+RU=15 октября
+
+[misc.txt:6276] [EX] EN(6) -> RU(10) +4 (+67%)
+EN=Oct 16
+RU=16 октября
+
+[misc.txt:749] [EX] EN(12) -> RU(20) +8 (+67%)
+EN=A Dying Wish
+RU=Предсмертное Желание
+
+[items_lore.txt:746] [EX] EN(9) -> RU(15) +6 (+67%)
+EN=Humanbone
+RU=Человечья Кость
+
+[misc.txt:6572] [EX] EN(9) -> RU(15) +6 (+67%)
+EN=Item Info
+RU=Инфо о предмете
+
+[misc.txt:2763] [EX] EN(9) -> RU(15) +6 (+67%)
+EN=Lost Cape
+RU=Потерянный Плащ
+
+[misc.txt:6274] [EX] EN(6) -> RU(10) +4 (+67%)
+EN=Oct 13
+RU=13 октября
+
+[misc.txt:3708] [EX] EN(12) -> RU(20) +8 (+67%)
+EN=Adv. Resists
+RU=Улучш. Сопротивления
+
+[simplayer_chat.txt:959] [EX] EN(9) -> RU(15) +6 (+67%)
+EN=Flamewell
+RU=Колодец Пламени
+
+[misc.txt:1101] [EX] EN(18) -> RU(30) +12 (+67%)
+EN=A fancy metal ore.
+RU=Изысканная металлическая руда.
+
+[simplayer_chat.txt:1635] [EX] EN(9) -> RU(15) +6 (+67%)
+EN=trade npc
+RU=торговать с нпс
+
+[simplayer_chat.txt:2967] [EX] EN(6) -> RU(10) +4 (+67%)
+EN=Hi NN.
+RU=Привет NN.
+
+[misc.txt:6445] [EX] EN(9) -> RU(15) +6 (+67%)
+EN=Wood Bank
+RU=Деревянный Банк
+
+[misc.txt:2367] [EX] EN(9) -> RU(15) +6 (+67%)
+EN=Game Room
+RU=Игровая Комната
+
+[misc.txt:2110] [EX] EN(9) -> RU(15) +6 (+67%)
+EN=Cave Lung
+RU=Пещерное Лёгкое
+
+[misc.txt:4238] [EX] EN(12) -> RU(20) +8 (+67%)
+EN=Linked Chain
+RU=Соединённая Кольчуга
+
+[ui_system.txt:614] [SUB] EN(9) -> RU(15) +6 (+67%)
+EN=You pull 
+RU=Ты вытягиваешь 
+
+[misc.txt:1674] [EX] EN(12) -> RU(20) +8 (+67%)
+EN=Cobalt Shell
+RU=Кобальтовая Раковина
+
+[misc.txt:3434] [EX] EN(18) -> RU(30) +12 (+67%)
+EN=NONE - Windblessed
+RU=ОБЩИЙ — Благословлённый Ветром
+
+[misc.txt:2077] [EX] EN(12) -> RU(20) +8 (+67%)
+EN=Blessed Helm
+RU=Благословлённый Шлем
+
+[misc.txt:309] [EX] EN(9) -> RU(15) +6 (+67%)
+EN=Lost Soul
+RU=Потерянная Душа
+
+[misc.txt:6273] [EX] EN(6) -> RU(10) +4 (+67%)
+EN=Oct 10
+RU=10 октября
+
+[misc.txt:2524] [EX] EN(21) -> RU(35) +14 (+67%)
+EN=feel renewed vitality
+RU=ощущаете обновлённую жизненную силу
+
+[simplayer_chat.txt:2290] [EX] EN(6) -> RU(10) +4 (+67%)
+EN=Hi NN!
+RU=Привет NN!
+
+[misc.txt:2182] [EX] EN(12) -> RU(20) +8 (+67%)
+EN=Brax's Touch
+RU=Прикосновение Бракса
+
+[misc.txt:6452] [EX] EN(15) -> RU(25) +10 (+67%)
+EN=Wood Vendor Set
+RU=Деревянный Набор Торговца
+
+[simplayer_chat.txt:941] [EX] EN(9) -> RU(15) +6 (+67%)
+EN=equip sim
+RU=экипировка сима
+
+[simplayer_chat.txt:1431] [EX] EN(9) -> RU(15) +6 (+67%)
+EN=Sea Giant
+RU=Морской Великан
+
+[misc.txt:3252] [EX] EN(17) -> RU(28) +11 (+65%)
+EN=Runed Molorai Axe
+RU=Рунический Молорайский Топор
+
+[simplayer_chat.txt:3092] [EX] EN(26) -> RU(43) +17 (+65%)
+EN=Lucky i even talked to you
+RU=Тебе повезло что я вообще с тобой заговорил
+
+[misc.txt:4267] [EX] EN(20) -> RU(33) +13 (+65%)
+EN=Braxonian Royal Garb
+RU=Браксонское Королевское Облачение
+
+[simplayer_chat.txt:33] [EX] EN(20) -> RU(33) +13 (+65%)
+EN=bug someone else ok?
+RU=доставай кого-нибудь другого, ок?
+
+[items_lore.txt:952] [EX] EN(17) -> RU(28) +11 (+65%)
+EN=Insect Shell Ring
+RU=Кольцо из Панциря Насекомого
+
+[misc.txt:4446] [EX] EN(17) -> RU(28) +11 (+65%)
+EN=Insect Shell Ring
+RU=Кольцо из Панциря Насекомого
+
+[misc.txt:5965] [EX] EN(23) -> RU(38) +15 (+65%)
+EN=Please report any bugs!
+RU=Пожалуйста, сообщайте о любых ошибках!
+
+[misc.txt:4435] [EX] EN(11) -> RU(18) +7 (+64%)
+EN=Gapped Ring
+RU=Кольцо с Просветом
+
+[misc.txt:975] [EX] EN(14) -> RU(23) +9 (+64%)
+EN=Rockshade Hold
+RU=Крепость Скалистой Тени
+
+[simplayer_chat.txt:3062] [EX] EN(25) -> RU(41) +16 (+64%)
+EN=It's your lucky day, BRT.
+RU=Сегодня твой счастливый день, скоро буду.
+
+[misc.txt:4646] [EX] EN(11) -> RU(18) +7 (+64%)
+EN=Rotwood Bow
+RU=Гнилодревесный Лук
+
+[simplayer_chat.txt:1274] [EX] EN(11) -> RU(18) +7 (+64%)
+EN=Island Tomb
+RU=Островная Гробница
+
+[misc.txt:2556] [EX] EN(11) -> RU(18) +7 (+64%)
+EN=feels full.
+RU=чувствует сытость.
+
+[items_lore.txt:1211] [EX] EN(14) -> RU(23) +9 (+64%)
+EN=Broken Key Bow
+RU=Сломанная Головка Ключа
+
+[items_lore.txt:1164] [EX] EN(14) -> RU(23) +9 (+64%)
+EN=Mask: Stoneman
+RU=Маска: Каменный Человек
+
+[misc.txt:2148] [EX] EN(11) -> RU(18) +7 (+64%)
+EN=Death Stare
+RU=Смертельный Взгляд
+
+[misc.txt:1946] [EX] EN(14) -> RU(23) +9 (+64%)
+EN=Arcane Mastery
+RU=Мастерство Тайной Магии
+
+[misc.txt:3083] [EX] EN(14) -> RU(23) +9 (+64%)
+EN=Mudmold Shield
+RU=Щит из Грязевой Плесени
+
+[misc.txt:1982] [EX] EN(14) -> RU(23) +9 (+64%)
+EN=Balanced Boots
+RU=Сбалансированные Сапоги
+
+[items_lore.txt:1237] [EX] EN(19) -> RU(31) +12 (+63%)
+EN=Voidblessed Compass
+RU=Благословлённый Пустотой Компас
+
+[misc.txt:2560] [EX] EN(19) -> RU(31) +12 (+63%)
+EN=feels less thirsty.
+RU=чувствует, что жажда отступила.
+
+[simplayer_chat.txt:2145] [EX] EN(8) -> RU(13) +5 (+62%)
+EN=best xp.
+RU=лучшая экспа.
+
+[misc.txt:2369] [EX] EN(8) -> RU(13) +5 (+62%)
+EN=Gate key
+RU=Ключ от Ворот
+
+[misc.txt:2448] [EX] EN(16) -> RU(26) +10 (+62%)
+EN=DRU DUEL - Regen
+RU=ДРУИ ДУЭЛ — Восстановление
+
+[misc.txt:1238] [EX] EN(16) -> RU(26) +10 (+62%)
+EN=SKILLBOOK - Kick
+RU=КНИГА НАВЫКОВ — Удар Ногой
+
+[misc.txt:2554] [EX] EN(13) -> RU(21) +8 (+62%)
+EN=feels better.
+RU=чувствует себя лучше.
+
+[misc.txt:2467] [EX] EN(21) -> RU(34) +13 (+62%)
+EN=DUEL - Vampiric Touch
+RU=ДУЭЛ — Вампирическое Прикосновение
+
+[misc.txt:198] [EX] EN(16) -> RU(26) +10 (+62%)
+EN=A Lost Sea Giant
+RU=Потерянный Морской Великан
+
+[misc.txt:2426] [EX] EN(16) -> RU(26) +10 (+62%)
+EN=DRU - Group Heal
+RU=ДРУИ — Групповое Исцеление
+
+[misc.txt:274] [EX] EN(16) -> RU(26) +10 (+62%)
+EN=Exalted Firebone
+RU=Возвышенная Огненная Кость
+
+[misc.txt:4276] [EX] EN(16) -> RU(26) +10 (+62%)
+EN=Daggersilk Shirt
+RU=Кинжально-Шёлковая Рубашка
+
+[simplayer_chat.txt:3263] [EX] EN(16) -> RU(26) +10 (+62%)
+EN=what's max level
+RU=какой максимальный уровень
+
+[items_lore.txt:1028] [EX] EN(8) -> RU(13) +5 (+62%)
+EN=Gut Cord
+RU=Кишечный Шнур
+
+[misc.txt:708] [EX] EN(32) -> RU(52) +20 (+62%)
+EN=Howdy. Welcome to Ripper's Keep.
+RU=Привет. Добро пожаловать в Крепость Потрошительницы.
+
+[misc.txt:3059] [EX] EN(16) -> RU(26) +10 (+62%)
+EN=Major Group Heal
+RU=Мощное Групповое Исцеление
+
+[misc.txt:1095] [EX] EN(8) -> RU(13) +5 (+62%)
+EN=Aura Gem
+RU=Аура-Самоцвет
+
+[simplayer_chat.txt:3074] [EX] EN(8) -> RU(13) +5 (+62%)
+EN=l8r sk8r
+RU=позже скейтер
+
+[misc.txt:1576] [EX] EN(24) -> RU(39) +15 (+62%)
+EN=(Taunt) PBAE Taunt Spell
+RU=(Провокация) PBAE Заклинание Провокации
+
+[misc.txt:5324] [EX] EN(13) -> RU(21) +8 (+62%)
+EN=Best, Samuel.
+RU=С уважением, Самуэль.
+
+[misc.txt:2145] [EX] EN(16) -> RU(26) +10 (+62%)
+EN=Daggersilk Shoes
+RU=Кинжально-Шёлковые Башмаки
+
+[misc.txt:4158] [EX] EN(8) -> RU(13) +5 (+62%)
+EN=Gut Cord
+RU=Кишечный Шнур
+
+[misc.txt:2538] [EX] EN(33) -> RU(53) +20 (+61%)
+EN=feel your limbs become weightless
+RU=чувствуете, как ваши конечности становятся невесомыми
+
+[misc.txt:2535] [EX] EN(23) -> RU(37) +14 (+61%)
+EN=feel your energy change
+RU=чувствуете, как ваша энергия меняется
+
+[misc.txt:576] [EX] EN(10) -> RU(16) +6 (+60%)
+EN=Blast you!
+RU=Будь ты проклят!
+
+[items_lore.txt:1052] [EX] EN(10) -> RU(16) +6 (+60%)
+EN=Aged Plate
+RU=Старый Нагрудник
+
+[simplayer_chat.txt:2588] [EX] EN(5) -> RU(8) +3 (+60%)
+EN=Why??
+RU=Почему??
+
+[simplayer_chat.txt:2553] [EX] EN(5) -> RU(8) +3 (+60%)
+EN=to xp
+RU=на экспу
+
+[ui_system.txt:125] [EX] EN(5) -> RU(8) +3 (+60%)
+EN=Haste
+RU=Скорость
+
+[misc.txt:6272] [EX] EN(5) -> RU(8) +3 (+60%)
+EN=Nov 7
+RU=7 ноября
+
+[misc.txt:4277] [EX] EN(20) -> RU(32) +12 (+60%)
+EN=Seaweed Soaked Shirt
+RU=Рубашка, Пропитанная Водорослями
+
+[misc.txt:5628] [EX] EN(10) -> RU(16) +6 (+60%)
+EN=Bug report
+RU=Отчёт об ошибках
+
+[misc.txt:4681] [EX] EN(25) -> RU(40) +15 (+60%)
+EN=WEAP - 3 - Brackwood Mace
+RU=WEAP - 3 - Булава из Солоноватого Дерева
+
+[misc.txt:354] [EX] EN(10) -> RU(16) +6 (+60%)
+EN=Nipper Tad
+RU=Головастик Щипца
+
+[misc.txt:2716] [EX] EN(10) -> RU(16) +6 (+60%)
+EN=Flamesoles
+RU=Огненные Подошвы
+
+[simplayer_chat.txt:3272] [EX] EN(5) -> RU(8) +3 (+60%)
+EN=Why!?
+RU=Почему!?
+
+[ui_system.txt:44] [EX] EN(10) -> RU(16) +6 (+60%)
+EN=Add Raider
+RU=Добавить рейдера
+
+[ui_system.txt:979] [SUB] EN(10) -> RU(16) +6 (+60%)
+EN=Charm Item
+RU=Предмет-талисман
+
+[simplayer_chat.txt:245] [EX] EN(5) -> RU(8) +3 (+60%)
+EN=sure!
+RU=конечно!
+
+[simplayer_chat.txt:2920] [EX] EN(15) -> RU(24) +9 (+60%)
+EN=Get Jaws keyed!
+RU=Получи ключ от Челюстей!
+
+[misc.txt:1152] [EX] EN(25) -> RU(40) +15 (+60%)
+EN=Skill Book: Control Chant
+RU=Книга Навыков: Контролирующее Песнопение
+
+[quests.txt:425] [EX] EN(25) -> RU(40) +15 (+60%)
+EN=Sivakayan Intel to Ripper
+RU=Сивакайская Разведка для Потрошительницы
+
+[misc.txt:2143] [EX] EN(17) -> RU(27) +10 (+59%)
+EN=Daggersilk Gloves
+RU=Кинжально-Шёлковые Перчатки
+
+[simplayer_chat.txt:3136] [EX] EN(17) -> RU(27) +10 (+59%)
+EN=np stay happy~ :)
+RU=не за что будь счастлив~ :)
+
+[simplayer_chat.txt:1115] [EX] EN(17) -> RU(27) +10 (+59%)
+EN=How use reliquary
+RU=Как использовать реликварий
+
+[misc.txt:5137] [EX] EN(17) -> RU(27) +10 (+59%)
+EN=NONE - Magma Coat
+RU=NONE - Магматический Покров
+
+[misc.txt:3293] [EX] EN(12) -> RU(19) +7 (+58%)
+EN=Stolen Vigor
+RU=Украденная Бодрость
+
+[simplayer_chat.txt:1315] [EX] EN(19) -> RU(30) +11 (+58%)
+EN=make sim player use
+RU=сделать симплеера использовать
+
+[misc.txt:205] [EX] EN(19) -> RU(30) +11 (+58%)
+EN=A Seafiend Manalord
+RU=Повелитель Маны Морских Тварей
+
+[misc.txt:2743] [EX] EN(12) -> RU(19) +7 (+58%)
+EN=Chain Gloves
+RU=Кольчужные Перчатки
+
+[misc.txt:2370] [EX] EN(12) -> RU(19) +7 (+58%)
+EN=Gator Gloves
+RU=Перчатки Аллигатора
+
+[items_lore.txt:1030] [EX] EN(12) -> RU(19) +7 (+58%)
+EN=Metal Girdle
+RU=Металлический Кушак
+
+[misc.txt:5656] [EX] EN(12) -> RU(19) +7 (+58%)
+EN=Pretty gems!
+RU=Красивые самоцветы!
+
+[simplayer_chat.txt:3019] [EX] EN(33) -> RU(52) +19 (+58%)
+EN=I need more move speed, how 2 get
+RU=мне нужно больше скорости передвижения, как получить
+
+[misc.txt:5655] [EX] EN(12) -> RU(19) +7 (+58%)
+EN=PERFORMANCE:
+RU=ПРОИЗВОДИТЕЛЬНОСТЬ:
+
+[misc.txt:3892] [EX] EN(12) -> RU(19) +7 (+58%)
+EN=1 Island Fin
+RU=1 Островной Плавник
+
+[misc.txt:4150] [EX] EN(12) -> RU(19) +7 (+58%)
+EN=Metal Girdle
+RU=Металлический Кушак
+
+[misc.txt:3391] [EX] EN(19) -> RU(30) +11 (+58%)
+EN=NONE - Break Fossil
+RU=ОБЩИЙ — Расколоть Окаменелость
+
+[misc.txt:3251] [EX] EN(12) -> RU(19) +7 (+58%)
+EN=Runed Gloves
+RU=Рунические Перчатки
+
+[simplayer_chat.txt:658] [EX] EN(7) -> RU(11) +4 (+57%)
+EN=Oh, try
+RU=О, попробуй
+
+[misc.txt:3971] [EX] EN(14) -> RU(22) +8 (+57%)
+EN=Rat Tail Quest
+RU=Квест Крысиных Хвостов
+
+[misc.txt:3049] [EX] EN(14) -> RU(22) +8 (+57%)
+EN=Linen Bedpants
+RU=Льняные Спальные Штаны
+
+[quests.txt:433] [EX] EN(14) -> RU(22) +8 (+57%)
+EN=Stone Training
+RU=Каменная Тренировочная
+
+[simplayer_chat.txt:290] [EX] EN(7) -> RU(11) +4 (+57%)
+EN=winner!
+RU=победитель!
+
+[items_lore.txt:999] [EX] EN(14) -> RU(22) +8 (+57%)
+EN=Lover's Locket
+RU=Медальон Возлюбленного
+
+[simplayer_chat.txt:672] [EX] EN(14) -> RU(22) +8 (+57%)
+EN=You should try
+RU=Тебе стоит попробовать
+
+[misc.txt:468] [EX] EN(14) -> RU(22) +8 (+57%)
+EN=Volcano Scarab
+RU=Вулканический Скарабей
+
+[misc.txt:28] [EX] EN(14) -> RU(22) +8 (+57%)
+EN=Ripper DeMerth
+RU=Потрошительница ДеМерт
+
+[ui_system.txt:749] [SUB] EN(7) -> RU(11) +4 (+57%)
+EN=Ability
+RU=Способность
+
+[ui_system.txt:1018] [SUB] EN(7) -> RU(11) +4 (+57%)
+EN= says: 
+RU=  говорит: 
+
+[misc.txt:4340] [EX] EN(14) -> RU(22) +8 (+57%)
+EN=Lover's Locket
+RU=Медальон Возлюбленного
+
+[misc.txt:1188] [EX] EN(7) -> RU(11) +4 (+57%)
+EN=Dodge 1
+RU=Уклонение 1
+
+[misc.txt:1929] [EX] EN(14) -> RU(22) +8 (+57%)
+EN=ARC - Ice Bolt
+RU=ЧАРОД — Ледяная Стрела
+
+[misc.txt:955] [EX] EN(14) -> RU(22) +8 (+57%)
+EN=Ripper Soldier
+RU=Солдат Потрошительницы
+
+[items_lore.txt:795] [EX] EN(14) -> RU(22) +8 (+57%)
+EN=Demonic Statue
+RU=Демоническая Статуэтка
+
+[misc.txt:4642] [EX] EN(7) -> RU(11) +4 (+57%)
+EN=Icy Bow
+RU=Ледяной Лук
+
+[misc.txt:2078] [EX] EN(14) -> RU(22) +8 (+57%)
+EN=Blessed Quiver
+RU=Благословлённый Колчан
+
+[simplayer_chat.txt:2437] [EX] EN(14) -> RU(22) +8 (+57%)
+EN=Nice gear lol.
+RU=Клёвое снаряжение лол.
+
+[simplayer_chat.txt:2526] [EX] EN(7) -> RU(11) +4 (+57%)
+EN=Sup NN!
+RU=Здарова NN!
+
+[items_lore.txt:1104] [EX] EN(7) -> RU(11) +4 (+57%)
+EN=Icy Bow
+RU=Ледяной Лук
+
+[ui_system.txt:748] [SUB] EN(7) -> RU(11) +4 (+57%)
+EN=Spells:
+RU=Заклинания:
+
+[misc.txt:1191] [EX] EN(7) -> RU(11) +4 (+57%)
+EN=Dodge 4
+RU=Уклонение 4
+
+[misc.txt:1190] [EX] EN(7) -> RU(11) +4 (+57%)
+EN=Dodge 3
+RU=Уклонение 3
+
+[misc.txt:1189] [EX] EN(7) -> RU(11) +4 (+57%)
+EN=Dodge 2
+RU=Уклонение 2
+
+[ui_system.txt:18] [EX] EN(7) -> RU(11) +4 (+57%)
+EN=Confirm
+RU=Подтвердить
+
+[misc.txt:1792] [EX] EN(16) -> RU(25) +9 (+56%)
+EN=Sivakayan Waraxe
+RU=Сивакаянский Боевой Топор
+
+[misc.txt:4241] [EX] EN(16) -> RU(25) +9 (+56%)
+EN=Spidersilk Shirt
+RU=Рубашка из Паучьего Шёлка
+
+[misc.txt:6442] [EX] EN(16) -> RU(25) +9 (+56%)
+EN=Wood Auction Set
+RU=Деревянный Набор Аукциона
+
+[misc.txt:1631] [EX] EN(16) -> RU(25) +9 (+56%)
+EN=Albino Bear Hood
+RU=Капюшон Медведя-Альбиноса
+
+[misc.txt:4578] [EX] EN(9) -> RU(14) +5 (+56%)
+EN=Lava Coat
+RU=Лавовый Покров
+
+[items_lore.txt:1013] [EX] EN(9) -> RU(14) +5 (+56%)
+EN=Belt Lamp
+RU=Поясной Фонарь
+
+[misc.txt:3471] [EX] EN(9) -> RU(14) +5 (+56%)
+EN=Void Bolt
+RU=Стрела Пустоты
+
+[misc.txt:4164] [EX] EN(16) -> RU(25) +9 (+56%)
+EN=Worn Wolf Collar
+RU=Поношенный Волчий Ошейник
+
+[misc.txt:3472] [EX] EN(9) -> RU(14) +5 (+56%)
+EN=Void Rend
+RU=Разрыв Пустоты
+
+[items_lore.txt:1095] [EX] EN(16) -> RU(25) +9 (+56%)
+EN=Spidersilk Shirt
+RU=Рубашка из Паучьего Шёлка
+
+[simplayer_chat.txt:1419] [EX] EN(9) -> RU(14) +5 (+56%)
+EN=Rockshade
+RU=Скалистая Тень
+
+[misc.txt:616] [EX] EN(9) -> RU(14) +5 (+56%)
+EN=I obey...
+RU=Я повинуюсь...
+
+[misc.txt:3067] [EX] EN(9) -> RU(14) +5 (+56%)
+EN=Marsh Rot
+RU=Болотная Гниль
+
+[simplayer_chat.txt:2261] [EX] EN(9) -> RU(14) +5 (+56%)
+EN=Hey buddy
+RU=Привет дружище
+
+[misc.txt:1924] [EX] EN(18) -> RU(28) +10 (+56%)
+EN=ARC - Brax's Touch
+RU=ЧАРОД — Прикосновение Бракса
+
+[items_lore.txt:1232] [EX] EN(9) -> RU(14) +5 (+56%)
+EN=Seastring
+RU=Морская Струна
+
+[misc.txt:4818] [EX] EN(9) -> RU(14) +5 (+56%)
+EN=End Chant
+RU=Завершить Чант
+
+[misc.txt:4441] [EX] EN(9) -> RU(14) +5 (+56%)
+EN=Void Ring
+RU=Кольцо Пустоты
+
+[misc.txt:3306] [EX] EN(18) -> RU(28) +10 (+56%)
+EN=Stone Training Set
+RU=Набор Каменной Тренировочной
+
+[misc.txt:2532] [EX] EN(16) -> RU(25) +9 (+56%)
+EN=feel vulnerable.
+RU=чувствуете себя уязвимым.
+
+[misc.txt:1986] [EX] EN(16) -> RU(25) +9 (+56%)
+EN=Battleworn Plate
+RU=Боевой Потрёпанный Доспех
+
+[simplayer_chat.txt:3053] [EX] EN(9) -> RU(14) +5 (+56%)
+EN=Is so is.
+RU=Ну так и есть.
+
+[misc.txt:1167] [EX] EN(16) -> RU(25) +9 (+56%)
+EN=Skill Book: Kick
+RU=Книга Навыков: Удар Ногой
+
+[misc.txt:1215] [EX] EN(16) -> RU(25) +9 (+56%)
+EN=SKILLBOOK - Bash
+RU=КНИГА НАВЫКОВ — Оглушение
+
+[items_lore.txt:763] [EX] EN(9) -> RU(14) +5 (+56%)
+EN=Sea Glass
+RU=Морское Стекло
+
+[misc.txt:4634] [EX] EN(9) -> RU(14) +5 (+56%)
+EN=Seastring
+RU=Морская Тетива
+
+[simplayer_chat.txt:1313] [EX] EN(11) -> RU(17) +6 (+55%)
+EN=Lost Soul 1
+RU=Потерянная Душа 1
+
+[ui_system.txt:670] [SUB] EN(11) -> RU(17) +6 (+55%)
+EN=Held Keys: 
+RU=Ключи на связке: 
+
+[simplayer_chat.txt:923] [EX] EN(20) -> RU(31) +11 (+55%)
+EN=Do the JBoots quest.
+RU=Делай квест на Сапоги Скорости.
+
+[misc.txt:366] [EX] EN(11) -> RU(17) +6 (+55%)
+EN=Priel Tamer
+RU=Укротитель Приэль
+
+[simplayer_chat.txt:967] [EX] EN(31) -> RU(48) +17 (+55%)
+EN=Friends Club just trained me...
+RU=Клуб Друзей только что натренил на меня мобов...
+
+[skills_spells.txt:251] [EX] EN(11) -> RU(17) +6 (+55%)
+EN=ARC - Focus
+RU=ARC - Фокусировка
+
+[misc.txt:2884] [EX] EN(20) -> RU(31) +11 (+55%)
+EN=Sivakayan Metal Helm
+RU=Сивакаянский Металлический Шлем
+
+[misc.txt:968] [EX] EN(11) -> RU(17) +6 (+55%)
+EN=Lost Cellar
+RU=Потерянный Погреб
+
+[misc.txt:2836] [EX] EN(11) -> RU(17) +6 (+55%)
+EN=Hallows Eve
+RU=Канун Всех Святых
+
+[items_lore.txt:1185] [EX] EN(11) -> RU(17) +6 (+55%)
+EN=Void Resist
+RU=Защита от Пустоты
+
+[misc.txt:3002] [EX] EN(20) -> RU(31) +11 (+55%)
+EN=High damage DD spell
+RU=Мощное заклинание прямого урона
+
+[misc.txt:1253] [EX] EN(22) -> RU(34) +12 (+55%)
+EN=SKILLBOOK - Void Slice
+RU=КНИГА НАВЫКОВ — Рассечение Пустоты
+
+[items_lore.txt:1046] [EX] EN(11) -> RU(17) +6 (+55%)
+EN=Toxic Strap
+RU=Ядовитая Перевязь
+
+[misc.txt:5307] [EX] EN(11) -> RU(17) +6 (+55%)
+EN=Meet Bassle
+RU=Встреча с Бэсслом
+
+[misc.txt:3104] [EX] EN(22) -> RU(34) +12 (+55%)
+EN=PAL - Advanced Resists
+RU=ПАЛАДИН — Улучшенные Сопротивления
+
+[misc.txt:3681] [EX] EN(11) -> RU(17) +6 (+55%)
+EN=Molorai Axe
+RU=Молорайский Топор
+
+[misc.txt:4461] [EX] EN(13) -> RU(20) +7 (+54%)
+EN=Freeing Stone
+RU=Освобождающий Камень
+
+[simplayer_chat.txt:459] [EX] EN(26) -> RU(40) +14 (+54%)
+EN=That group had real focus.
+RU=У той группы была настоящая собранность.
+
+[items_lore.txt:1221] [EX] EN(13) -> RU(20) +7 (+54%)
+EN=Fiery Revival
+RU=Огненное Возрождение
+
+[misc.txt:330] [EX] EN(13) -> RU(20) +7 (+54%)
+EN=Molorai Mason
+RU=Молорайский Каменщик
+
+[simplayer_chat.txt:775] [EX] EN(26) -> RU(40) +14 (+54%)
+EN=A Bounty on Ripper DeMerth
+RU=Награда за голову Потрошительницы ДеМерт
+
+[misc.txt:969] [EX] EN(13) -> RU(20) +7 (+54%)
+EN=Lost Treasure
+RU=Потерянное Сокровище
+
+[items_lore.txt:1031] [EX] EN(13) -> RU(20) +7 (+54%)
+EN=Ogreskin Cord
+RU=Шнур из Огровой Кожи
+
+[misc.txt:5135] [EX] EN(13) -> RU(20) +7 (+54%)
+EN=NONE - Bleed2
+RU=NONE - Кровотечение2
+
+[items_lore.txt:1024] [EX] EN(24) -> RU(37) +13 (+54%)
+EN=Flowing Blight Silk Sash
+RU=Кушак из Струящегося Проклятого Шёлка
+
+[misc.txt:4338] [EX] EN(13) -> RU(20) +7 (+54%)
+EN=Firey Revival
+RU=Огненное Возрождение
+
+[misc.txt:3573] [EX] EN(24) -> RU(37) +13 (+54%)
+EN=WEAP - 6 - Bearbone Club
+RU=WEAP - 6 - Дубинка из Медвежьей Кости
+
+[misc.txt:5310] [EX] EN(13) -> RU(20) +7 (+54%)
+EN=Ripper Badges
+RU=Нашивки Потрошителей
+
+[misc.txt:1111] [EX] EN(13) -> RU(20) +7 (+54%)
+EN=Lost Treasure
+RU=Потерянное Сокровище
+
+[misc.txt:1801] [EX] EN(13) -> RU(20) +7 (+54%)
+EN=Stardust Ring
+RU=Кольцо Звёздной Пыли
+
+[quests.txt:408] [EX] EN(15) -> RU(23) +8 (+53%)
+EN=Ogre Tooth Club
+RU=Дубина из Огрового Зуба
+
+[simplayer_chat.txt:688] [EX] EN(15) -> RU(23) +8 (+53%)
+EN=Last time I got
+RU=В прошлый раз я получил
+
+[misc.txt:1661] [EX] EN(17) -> RU(26) +9 (+53%)
+EN=Bonecurse Greaves
+RU=Поножи Костяного Проклятия
+
+[misc.txt:3881] [EX] EN(17) -> RU(26) +9 (+53%)
+EN=1 Blightwood slab
+RU=1 Заражённодревесная Плита
+
+[simplayer_chat.txt:1099] [EX] EN(15) -> RU(23) +8 (+53%)
+EN=how fast travel
+RU=как быстро перемещаться
+
+[misc.txt:4757] [EX] EN(15) -> RU(23) +8 (+53%)
+EN=CONS - Seaspice
+RU=CONS - Морская Пряность
+
+[items_lore.txt:846] [EX] EN(15) -> RU(23) +8 (+53%)
+EN=Stolen Memories
+RU=Украденные Воспоминания
+
+[simplayer_chat.txt:3011] [EX] EN(32) -> RU(49) +17 (+53%)
+EN=i like magic bolt i think its op
+RU=мне нравится магическая стрела, по-моему она имба
+
+[misc.txt:4833] [EX] EN(32) -> RU(49) +17 (+53%)
+EN=feel your thoughts begin to echo
+RU=ощущаете, как ваши мысли начинают отдаваться эхом
+
+[misc.txt:2723] [EX] EN(17) -> RU(26) +9 (+53%)
+EN=Molorai Warstomps
+RU=Молорайские Боевые Топтуны
+
+[misc.txt:1822] [EX] EN(15) -> RU(23) +8 (+53%)
+EN=Wolf Pelt Boots
+RU=Сапоги из Волчьей Шкуры
+
+[simplayer_chat.txt:1415] [EX] EN(15) -> RU(23) +8 (+53%)
+EN=Ripper's Bounty
+RU=Награда Потрошительницы
+
+[quests.txt:279] [EX] EN(19) -> RU(29) +10 (+53%)
+EN=Meet Shivering Step
+RU=Знакомство с Дрожащим Берегом
+
+[misc.txt:5203] [EX] EN(17) -> RU(26) +9 (+53%)
+EN=1 Part Blightwood
+RU=1 часть Заражённого Дерева
+
+[items_lore.txt:958] [EX] EN(15) -> RU(23) +8 (+53%)
+EN=Ocean Aged Ring
+RU=Кольцо, Старённое Морем
+
+[items_lore.txt:723] [EX] EN(15) -> RU(23) +8 (+53%)
+EN=Blightwood Slab
+RU=Плита Проклятого Дерева
+
+[items_lore.txt:705] [EX] EN(17) -> RU(26) +9 (+53%)
+EN=Odd Malaroth Feed
+RU=Странный Корм для Маларота
+
+[misc.txt:1009] [EX] EN(19) -> RU(29) +10 (+53%)
+EN=KEY - Rockshade Key
+RU=КЛЮЧ — Ключ от Скалистой Тени
+
+[misc.txt:3416] [EX] EN(15) -> RU(23) +8 (+53%)
+EN=NONE - Read Map
+RU=ОБЩИЙ — Прочитать Карту
+
+[misc.txt:3397] [EX] EN(17) -> RU(26) +9 (+53%)
+EN=NONE - Deathstare
+RU=ОБЩИЙ — Смертельный Взгляд
+
+[items_lore.txt:950] [EX] EN(19) -> RU(29) +10 (+53%)
+EN=Hardened Slime Ring
+RU=Кольцо из Окаменевшего Слизня
+
+[items_lore.txt:953] [EX] EN(15) -> RU(23) +8 (+53%)
+EN=Jackalbone Loop
+RU=Петля из Шакальей Кости
+
+[simplayer_chat.txt:399] [EX] EN(17) -> RU(26) +9 (+53%)
+EN=if you wanna join
+RU=если хочешь присоединиться
+
+[items_lore.txt:1017] [EX] EN(15) -> RU(23) +8 (+53%)
+EN=Breezeworn Sash
+RU=Кушак, Истёртый Ветрами
+
+[misc.txt:2079] [EX] EN(19) -> RU(29) +10 (+53%)
+EN=Blighted Silk Wraps
+RU=Осквернённые Шёлковые Обмотки
+
+[misc.txt:4596] [EX] EN(25) -> RU(38) +13 (+52%)
+EN=Increase party mana regen
+RU=Увеличивает восстановление маны группы
+
+[misc.txt:2557] [EX] EN(31) -> RU(47) +16 (+52%)
+EN=feels his cells become electric
+RU=чувствует, как клетки заряжаются электричеством
+
+[simplayer_chat.txt:3065] [EX] EN(23) -> RU(35) +12 (+52%)
+EN=JOIN DRAGON FOOD OR DIE
+RU=ВСТУПАЙ В КОРМ ДЛЯ ДРАКОНА ИЛИ УМРИ
+
+[misc.txt:5123] [EX] EN(23) -> RU(35) +12 (+52%)
+EN=GEN - Voidbound Compass
+RU=GEN - Компас, Привязанный к Пустоте
+
+[misc.txt:457] [EX] EN(23) -> RU(35) +12 (+52%)
+EN=The Lost Sea Giant King
+RU=Потерянный Король Морских Великанов
+
+[simplayer_chat.txt:931] [EX] EN(12) -> RU(18) +6 (+50%)
+EN=dusken ghost
+RU=сумеречный призрак
+
+[misc.txt:3307] [EX] EN(16) -> RU(24) +8 (+50%)
+EN=Stone Vendor Set
+RU=Набор Каменного Торговца
+
+[quests.txt:344] [EX] EN(12) -> RU(18) +6 (+50%)
+EN=The Day Ends
+RU=День заканчивается
+
+[misc.txt:4476] [EX] EN(12) -> RU(18) +6 (+50%)
+EN=Skyfolk Band
+RU=Кольцо Небожителей
+
+[simplayer_chat.txt:719] [EX] EN(12) -> RU(18) +6 (+50%)
+EN=druid spells
+RU=заклинания друидов
+
+[items_lore.txt:335] [EX] EN(22) -> RU(33) +11 (+50%)
+EN=Plain and unremarkable
+RU=Простое и ничем не примечательное
+
+[simplayer_chat.txt:268] [EX] EN(4) -> RU(6) +2 (+50%)
+EN=tyvm
+RU=спс бп
+
+[misc.txt:5030] [EX] EN(26) -> RU(39) +13 (+50%)
+EN=GEN - Offering Stone Guide
+RU=GEN - Путеводитель по Жертвенным Камням
+
+[misc.txt:4087] [EX] EN(8) -> RU(12) +4 (+50%)
+EN=Feb 2 26
+RU=2 февраля 26
+
+[simplayer_chat.txt:2872] [EX] EN(12) -> RU(18) +6 (+50%)
+EN=can u come 2
+RU=можешь придти тоже
+
+[items_lore.txt:1224] [EX] EN(8) -> RU(12) +4 (+50%)
+EN=Lifeloop
+RU=Кольцо Жизни
+
+[misc.txt:1023] [EX] EN(14) -> RU(21) +7 (+50%)
+EN=Old Church Key
+RU=Ключ от Старой Церкви
+
+[misc.txt:4088] [EX] EN(6) -> RU(9) +3 (+50%)
+EN=Nov 15
+RU=15 ноября
+
+[ui_system.txt:33] [EX] EN(4) -> RU(6) +2 (+50%)
+EN=Play
+RU=Играть
+
+[misc.txt:3345] [EX] EN(14) -> RU(21) +7 (+50%)
+EN=STC - Arcstorm
+RU=СТОЙ — Штормовая Дуга
+
+[ui_system.txt:176] [EX] EN(4) -> RU(6) +2 (+50%)
+EN=Miss
+RU=Промах
+
+[misc.txt:1194] [EX] EN(8) -> RU(12) +4 (+50%)
+EN=Dodge IV
+RU=Уклонение IV
+
+[misc.txt:415] [EX] EN(20) -> RU(30) +10 (+50%)
+EN=Sivakayan Voidmaster
+RU=Повелитель Пустоты Сивакаянцев
+
+[misc.txt:5230] [EX] EN(12) -> RU(18) +6 (+50%)
+EN=Looming Void
+RU=Нависающая Пустота
+
+[items_lore.txt:748] [EX] EN(10) -> RU(15) +5 (+50%)
+EN=Ivory Tusk
+RU=Слоновый Бивень
+
+[misc.txt:257] [EX] EN(14) -> RU(21) +7 (+50%)
+EN=Coiling Dusker
+RU=Свернувшийся Сумерник
+
+[items_lore.txt:1231] [EX] EN(14) -> RU(21) +7 (+50%)
+EN=Seastone Prism
+RU=Призма Морского Камня
+
+[skills_spells.txt:317] [EX] EN(12) -> RU(18) +6 (+50%)
+EN=REAV - Parry
+RU=REAV - Парирование
+
+[simplayer_chat.txt:902] [EX] EN(4) -> RU(6) +2 (+50%)
+EN=coin
+RU=монета
+
+[simplayer_chat.txt:307] [EX] EN(6) -> RU(9) +3 (+50%)
+EN=yessir
+RU=так точно
+
+[simplayer_chat.txt:2941] [EX] EN(16) -> RU(24) +8 (+50%)
+EN=Great movie line
+RU=Отличная фраза из фильма
+
+[ui_system.txt:942] [SUB] EN(12) -> RU(18) +6 (+50%)
+EN=Roots Target
+RU=Обездвиживает цель
+
+[items_lore.txt:844] [EX] EN(16) -> RU(24) +8 (+50%)
+EN=Small Cat Statue
+RU=Маленькая Статуэтка Кота
+
+[misc.txt:4915] [EX] EN(12) -> RU(18) +6 (+50%)
+EN=GEN - Catnip
+RU=GEN - Кошачья Мята
+
+[simplayer_chat.txt:3195] [EX] EN(12) -> RU(18) +6 (+50%)
+EN=stop please.
+RU=хватит пожалуйста.
+
+[simplayer_chat.txt:1107] [EX] EN(8) -> RU(12) +4 (+50%)
+EN=How talk
+RU=как говорить
+
+[misc.txt:4465] [EX] EN(14) -> RU(21) +7 (+50%)
+EN=Seawashed Ring
+RU=Промытое Морем Кольцо
+
+[misc.txt:3295] [EX] EN(14) -> RU(21) +7 (+50%)
+EN=Stone Bank Set
+RU=Набор Каменного Банка
+
+[misc.txt:2717] [EX] EN(12) -> RU(18) +6 (+50%)
+EN=Cratermakers
+RU=Создатели Кратеров
+
+[misc.txt:5094] [EX] EN(10) -> RU(15) +5 (+50%)
+EN=GEN - Stun
+RU=GEN - Оглушение
+
+[simplayer_chat.txt:2138] [EX] EN(6) -> RU(9) +3 (+50%)
+EN=As if!
+RU=Ещё чего!
+
+[skills_spells.txt:302] [EX] EN(18) -> RU(27) +9 (+50%)
+EN=PAL - Innate Taunt
+RU=PAL - Врождённая Провокация
+
+[misc.txt:1192] [EX] EN(8) -> RU(12) +4 (+50%)
+EN=Dodge II
+RU=Уклонение II
+
+[misc.txt:3953] [EX] EN(8) -> RU(12) +4 (+50%)
+EN=Very Low
+RU=Очень Низкое
+
+[misc.txt:4864] [EX] EN(20) -> RU(30) +10 (+50%)
+EN=GEN -  Riftsnare Gem
+RU=GEN -  Камень Ловушки Разрывов
+
+[misc.txt:5095] [EX] EN(16) -> RU(24) +8 (+50%)
+EN=GEN - Stun Short
+RU=GEN - Короткое Оглушение
+
+[misc.txt:1777] [EX] EN(14) -> RU(21) +7 (+50%)
+EN=Rockshade Ring
+RU=Кольцо Скалистой Тени
+
+[simplayer_chat.txt:1298] [EX] EN(12) -> RU(18) +6 (+50%)
+EN=last flicker
+RU=последняя мерцалка
+
+[misc.txt:387] [EX] EN(10) -> RU(15) +5 (+50%)
+EN=Ruby Fiend
+RU=Рубиновая Тварь
+
+[misc.txt:1973] [EX] EN(20) -> RU(30) +10 (+50%)
+EN=Azynthian Dining Set
+RU=Азинтийский Обеденный Гарнитур
+
+[simplayer_chat.txt:1283] [EX] EN(12) -> RU(18) +6 (+50%)
+EN=join discord
+RU=вступить в дискорд
+
+[misc.txt:2335] [EX] EN(10) -> RU(15) +5 (+50%)
+EN=End's Bane
+RU=Проклятие Конца
+
+[misc.txt:392] [EX] EN(10) -> RU(15) +5 (+50%)
+EN=Shadow Man
+RU=Теневой Человек
+
+[misc.txt:3110] [EX] EN(20) -> RU(30) +10 (+50%)
+EN=PAL - Soluna's Touch
+RU=ПАЛАДИН — Прикосновение Солуны
+
+[ui_system.txt:66] [EX] EN(4) -> RU(6) +2 (+50%)
+EN=Misc
+RU=Прочее
+
+[simplayer_chat.txt:84] [EX] EN(10) -> RU(15) +5 (+50%)
+EN=goodnight!
+RU=спокойной ночи!
+
+[simplayer_chat.txt:201] [EX] EN(8) -> RU(12) +4 (+50%)
+EN=no prob!
+RU=без проблем!
+
+[items_lore.txt:767] [EX] EN(10) -> RU(15) +5 (+50%)
+EN=Star Stone
+RU=Звёздный Камень
+
+[misc.txt:1966] [EX] EN(20) -> RU(30) +10 (+50%)
+EN=Balanced and stable.
+RU=Сбалансированные и устойчивые.
+
+[ui_system.txt:49] [EX] EN(4) -> RU(6) +2 (+50%)
+EN=Done
+RU=Готово
+
+[simplayer_chat.txt:2259] [EX] EN(6) -> RU(9) +3 (+50%)
+EN=Hey :)
+RU=Привет :)
+
+[misc.txt:1181] [EX] EN(22) -> RU(33) +11 (+50%)
+EN=Skill Book: Void Slice
+RU=Книга Навыков: Рассечение Пустоты
+
+[misc.txt:242] [EX] EN(12) -> RU(18) +6 (+50%)
+EN=Blight Eater
+RU=Пожиратель Скверны
+
+[simplayer_chat.txt:3238] [EX] EN(6) -> RU(9) +3 (+50%)
+EN=u suck
+RU=ты отстой
+
+[items_lore.txt:711] [EX] EN(8) -> RU(12) +4 (+50%)
+EN=Seafruit
+RU=Морской Плод
+
+[simplayer_chat.txt:2408] [EX] EN(6) -> RU(9) +3 (+50%)
+EN=lol yw
+RU=лол пжлст
+
+[ui_system.txt:153] [EX] EN(4) -> RU(6) +2 (+50%)
+EN=Loot
+RU=Добыча
+
+[misc.txt:4332] [EX] EN(14) -> RU(21) +7 (+50%)
+EN=Seastone Prism
+RU=Призма Морского Камня
+
+[misc.txt:4171] [EX] EN(14) -> RU(21) +7 (+50%)
+EN=Centering Cord
+RU=Центрирующая Подвязка
+
+[misc.txt:3054] [EX] EN(18) -> RU(27) +9 (+50%)
+EN=Lost Wizarding Hat
+RU=Потерянная Колдовская Шапка
+
+[misc.txt:3581] [EX] EN(30) -> RU(45) +15 (+50%)
+EN=WEAP - 8 - Sea Giant's Cutlass
+RU=WEAP - 8 - Абордажный Палаш Морского Великана
+
+[misc.txt:272] [EX] EN(12) -> RU(18) +6 (+50%)
+EN=Dusken Giant
+RU=Сумеречный Великан
+
+[misc.txt:2870] [EX] EN(18) -> RU(27) +9 (+50%)
+EN=Lost Wizarding Cap
+RU=Потерянная Колдовская Шапка
+
+[items_lore.txt:1079] [EX] EN(12) -> RU(18) +6 (+50%)
+EN=Funeral Garb
+RU=Погребальный Наряд
+
+[ui_system.txt:1049] [SUB] EN(12) -> RU(18) +6 (+50%)
+EN= but misses!
+RU= но промахивается!
+
+[misc.txt:6271] [EX] EN(6) -> RU(9) +3 (+50%)
+EN=Nov 14
+RU=14 ноября
+
+[simplayer_chat.txt:2101] [EX] EN(16) -> RU(24) +8 (+50%)
+EN=and get carried!
+RU=и катайся на ком-нибудь!
+
+[ui_system.txt:962] [SUB] EN(6) -> RU(9) +3 (+50%)
+EN=Haste 
+RU=Скорость 
+
+[misc.txt:3473] [EX] EN(10) -> RU(15) +5 (+50%)
+EN=Void Surge
+RU=Всплеск Пустоты
+
+[items_lore.txt:831] [EX] EN(14) -> RU(21) +7 (+50%)
+EN=Recovered Text
+RU=Восстановленный Текст
+
+[ui_system.txt:634] [SUB] EN(6) -> RU(9) +3 (+50%)
+EN= took 
+RU= получил 
+
+[misc.txt:1099] [EX] EN(22) -> RU(33) +11 (+50%)
+EN=Pearlescent Kelp Totem
+RU=Перламутровый Тотем из Водорослей
+
+[simplayer_chat.txt:870] [EX] EN(8) -> RU(12) +4 (+50%)
+EN=Bonepits
+RU=Костяные Ямы
+
+[ui_system.txt:22] [EX] EN(2) -> RU(3) +1 (+50%)
+EN=No
+RU=Нет
+
+[misc.txt:301] [EX] EN(12) -> RU(18) +6 (+50%)
+EN=Island Guard
+RU=Островной Стражник
+
+[misc.txt:2957] [EX] EN(16) -> RU(24) +8 (+50%)
+EN=Guiding Presence
+RU=Направляющее Присутствие
+
+[misc.txt:5483] [EX] EN(14) -> RU(21) +7 (+50%)
+EN=-Eyestalk Wand
+RU=-Жезл Глазного Стебля
+
+[misc.txt:3476] [EX] EN(6) -> RU(9) +3 (+50%)
+EN=Ionize
+RU=Ионизация
+
+[misc.txt:2541] [EX] EN(32) -> RU(48) +16 (+50%)
+EN=feel your wounds begin to close.
+RU=чувствуете, как ваши раны начинают затягиваться.
+
+[simplayer_chat.txt:3236] [EX] EN(16) -> RU(24) +8 (+50%)
+EN=u let me die wtf
+RU=ты дал мне умереть чё за
+
+[simplayer_chat.txt:49] [EX] EN(22) -> RU(33) +11 (+50%)
+EN=Cool, see ya in a few.
+RU=Круто, увидимся через пару минут.
+
+[misc.txt:5388] [EX] EN(10) -> RU(15) +5 (+50%)
+EN=Quest Log:
+RU=Журнал Квестов:
+
+[misc.txt:5386] [EX] EN(4) -> RU(6) +2 (+50%)
+EN=Map:
+RU=Карта:
+
+[quests.txt:418] [EX] EN(22) -> RU(33) +11 (+50%)
+EN=Ripper's Note To Azure
+RU=Записка Потрошительницы для Азура
+
+[misc.txt:1669] [EX] EN(16) -> RU(24) +8 (+50%)
+EN=Caveskimmer Ring
+RU=Кольцо Пещерного Скимера
+
+[items_lore.txt:1194] [EX] EN(6) -> RU(9) +3 (+50%)
+EN=Famish
+RU=Голодомор
+
+[misc.txt:5390] [EX] EN(4) -> RU(6) +2 (+50%)
+EN=Sit:
+RU=Сесть:
+
+[items_lore.txt:1197] [EX] EN(10) -> RU(15) +5 (+50%)
+EN=Lost Faith
+RU=Утраченная Вера
+
+[items_lore.txt:726] [EX] EN(16) -> RU(24) +8 (+50%)
+EN=Braxonian Fossil
+RU=Браксонская Окаменелость
+
+[misc.txt:4639] [EX] EN(10) -> RU(15) +5 (+50%)
+EN=Deathgiver
+RU=Даритель Смерти
+
+[items_lore.txt:985] [EX] EN(14) -> RU(21) +7 (+50%)
+EN=Voidbloom Ring
+RU=Кольцо Цветка Пустоты
+
+[simplayer_chat.txt:899] [EX] EN(10) -> RU(15) +5 (+50%)
+EN=Chessboard
+RU=Шахматная Доска
+
+[simplayer_chat.txt:1392] [EX] EN(8) -> RU(12) +4 (+50%)
+EN=Prielian
+RU=Приэлианский
+
+[simplayer_chat.txt:3273] [EX] EN(6) -> RU(9) +3 (+50%)
+EN=Why...
+RU=Почему...
+
+[simplayer_chat.txt:2477] [EX] EN(12) -> RU(18) +6 (+50%)
+EN=Revive me!!!
+RU=Воскресите меня!!!
+
+[misc.txt:467] [EX] EN(14) -> RU(21) +7 (+50%)
+EN=Volcanic Giant
+RU=Вулканический Великан
+
+[misc.txt:427] [EX] EN(21) -> RU(31) +10 (+48%)
+EN=Spectral King's Guard
+RU=Призрачный Королевский Стражник
+
+[misc.txt:4108] [EX] EN(29) -> RU(43) +14 (+48%)
+EN=BELT - 20 - Prismatic Warcord
+RU=BELT - 20 - Призматическая Военная Подвязка
+
+[quests.txt:221] [EX] EN(31) -> RU(46) +15 (+48%)
+EN=I'm all set for now, but thanks
+RU=На данный момент мне всего хватает, но спасибо
+
+[misc.txt:1562] [EX] EN(21) -> RU(31) +10 (+48%)
+EN=Show my damage popups
+RU=Показывать мой всплывающий урон
+
+[misc.txt:3075] [EX] EN(21) -> RU(31) +10 (+48%)
+EN=Mirror Polished Plate
+RU=Зеркально Отполированный Доспех
+
+[simplayer_chat.txt:3006] [EX] EN(42) -> RU(62) +20 (+48%)
+EN=I just peed and now I have to poo. Dangit.
+RU=Я только сходил по-маленькому и теперь надо по-большому. Блин.
+
+[misc.txt:4254] [EX] EN(25) -> RU(37) +12 (+48%)
+EN=Sivakayan Ceremonial Garb
+RU=Сивакаянское Церемониальное Облачение
+
+[misc.txt:4928] [EX] EN(15) -> RU(22) +7 (+47%)
+EN=GEN - Croc Tail
+RU=GEN - Крокодилий Хвост
+
+[misc.txt:2537] [EX] EN(30) -> RU(44) +14 (+47%)
+EN=feel your lifeforce drain way.
+RU=чувствуете, как ваша жизненная сила утекает.
+
+[items_lore.txt:806] [EX] EN(17) -> RU(25) +8 (+47%)
+EN=Guide of Offering
+RU=Руководство по Подношению
+
+[misc.txt:1778] [EX] EN(17) -> RU(25) +8 (+47%)
+EN=Royal Plate Boots
+RU=Королевские Латные Сапоги
+
+[simplayer_chat.txt:3262] [EX] EN(15) -> RU(22) +7 (+47%)
+EN=What watchlight
+RU=Какой сторожевой огонь
+
+[misc.txt:4877] [EX] EN(17) -> RU(25) +8 (+47%)
+EN=GEN - A Torn Note
+RU=GEN - Разорванная Записка
+
+[misc.txt:2539] [EX] EN(32) -> RU(47) +15 (+47%)
+EN=feel your skin begin to dissolve
+RU=чувствуете, как ваша кожа начинает растворяться
+
+[misc.txt:1202] [EX] EN(15) -> RU(22) +7 (+47%)
+EN=Summon Warhound
+RU=Призвать Боевую Гончую
+
+[misc.txt:4456] [EX] EN(15) -> RU(22) +7 (+47%)
+EN=Jackalbone Loop
+RU=Кольцо из Кости Шакала
+
+[misc.txt:4439] [EX] EN(17) -> RU(25) +8 (+47%)
+EN=Fire Emerald Band
+RU=Огненно-Изумрудное Кольцо
+
+[misc.txt:4959] [EX] EN(19) -> RU(28) +9 (+47%)
+EN=GEN - Fading Memory
+RU=GEN - Угасающее Воспоминание
+
+[misc.txt:4442] [EX] EN(15) -> RU(22) +7 (+47%)
+EN=Elderstone Ring
+RU=Кольцо Камня Старейшин
+
+[misc.txt:3215] [EX] EN(19) -> RU(28) +9 (+47%)
+EN=Petrified Wood Cane
+RU=Трость из Окаменелого Дерева
+
+[misc.txt:3908] [EX] EN(15) -> RU(22) +7 (+47%)
+EN=ALL - Marsh Rot
+RU=ОБЩИЙ — Болотная Гниль
+
+[simplayer_chat.txt:1693] [EX] EN(17) -> RU(25) +8 (+47%)
+EN=what is flamewell
+RU=что такое колодец пламени
+
+[misc.txt:4496] [EX] EN(17) -> RU(25) +8 (+47%)
+EN=AURA - Aged Prism
+RU=AURA - Состаренная Призма
+
+[misc.txt:1730] [EX] EN(15) -> RU(22) +7 (+47%)
+EN=Ice Forged Mace
+RU=Ледяная Кованая Булава
+
+[simplayer_chat.txt:3241] [EX] EN(15) -> RU(22) +7 (+47%)
+EN=ugh come get me
+RU=блин приди забери меня
+
+[misc.txt:4440] [EX] EN(19) -> RU(28) +9 (+47%)
+EN=Hardened Slime Ring
+RU=Кольцо из Затвердевшей Слизи
+
+[misc.txt:1599] [EX] EN(17) -> RU(25) +8 (+47%)
+EN=Azynthian Icebone
+RU=Азинтийская Ледяная Кость
+
+[ui_system.txt:310] [EX] EN(15) -> RU(22) +7 (+47%)
+EN=Item data error
+RU=Ошибка данных предмета
+
+[simplayer_chat.txt:1637] [EX] EN(15) -> RU(22) +7 (+47%)
+EN=trade simplayer
+RU=торговать с симплеером
+
+[misc.txt:2332] [EX] EN(15) -> RU(22) +7 (+47%)
+EN=Embalmed Bracer
+RU=Бальзамированный Наруч
+
+[misc.txt:4989] [EX] EN(15) -> RU(22) +7 (+47%)
+EN=GEN - Lost Text
+RU=GEN - Утраченный Текст
+
+[items_lore.txt:942] [EX] EN(17) -> RU(25) +8 (+47%)
+EN=Fire Emerald Band
+RU=Кольцо Огненного Изумруда
+
+[misc.txt:2533] [EX] EN(30) -> RU(44) +14 (+47%)
+EN=feel your bones begin to fail.
+RU=чувствуете, как ваши кости начинают сдавать.
+
+[misc.txt:323] [EX] EN(17) -> RU(25) +8 (+47%)
+EN=Molorai Bodyguard
+RU=Молорайский Телохранитель
+
+[items_lore.txt:887] [EX] EN(19) -> RU(28) +9 (+47%)
+EN=Faded Journal Entry
+RU=Выцветшая Дневниковая Запись
+
+[misc.txt:5651] [EX] EN(19) -> RU(28) +9 (+47%)
+EN=More to come on UI.
+RU=Больше изменений UI впереди.
+
+[simplayer_chat.txt:2438] [EX] EN(13) -> RU(19) +6 (+46%)
+EN=NICE JOB DUDE
+RU=ОТЛИЧНАЯ РАБОТА ЧЕЛ
+
+[misc.txt:1927] [EX] EN(13) -> RU(19) +6 (+46%)
+EN=ARC - Elusion
+RU=ЧАРОД — Ускользание
+
+[misc.txt:201] [EX] EN(13) -> RU(19) +6 (+46%)
+EN=A Rock Minion
+RU=Каменный Прислужник
+
+[misc.txt:2446] [EX] EN(24) -> RU(35) +11 (+46%)
+EN=DRU ARC STC - Magic Bolt
+RU=ДРУИ ЧАРОД СТОЙ — Магическая Стрела
+
+[items_lore.txt:803] [EX] EN(13) -> RU(19) +6 (+46%)
+EN=Freeing Stone
+RU=Камень Освобождения
+
+[items_lore.txt:799] [EX] EN(13) -> RU(19) +6 (+46%)
+EN=Ear of Ripper
+RU=Ухо Потрошительницы
+
+[misc.txt:2540] [EX] EN(28) -> RU(41) +13 (+46%)
+EN=feel your soul begin to burn
+RU=чувствуете, как ваша душа начинает гореть
+
+[misc.txt:1237] [EX] EN(24) -> RU(35) +11 (+46%)
+EN=SKILLBOOK - Imbued Arrow
+RU=КНИГА НАВЫКОВ — Зачарованная Стрела
+
+[misc.txt:380] [EX] EN(13) -> RU(19) +6 (+46%)
+EN=Risen Pilgrim
+RU=Восставший Паломник
+
+[items_lore.txt:1010] [EX] EN(13) -> RU(19) +6 (+46%)
+EN=Warped Choker
+RU=Искажённое Ожерелье
+
+[misc.txt:2339] [EX] EN(13) -> RU(19) +6 (+46%)
+EN=Eroded Bangle
+RU=Выветренный Браслет
+
+[misc.txt:1860] [EX] EN(13) -> RU(19) +6 (+46%)
+EN=A Pious Guest
+RU=Благочестивый Гость
+
+[items_lore.txt:1051] [EX] EN(13) -> RU(19) +6 (+46%)
+EN=Abyssal Plate
+RU=Бездонный Нагрудник
+
+[misc.txt:950] [EX] EN(13) -> RU(19) +6 (+46%)
+EN=Customs Guard
+RU=Таможенный Стражник
+
+[misc.txt:3523] [EX] EN(26) -> RU(38) +12 (+46%)
+EN=WEAP - 22 - Bear Bone Club
+RU=WEAP - 22 - Дубинка из Медвежьей Кости
+
+[misc.txt:1622] [EX] EN(13) -> RU(19) +6 (+46%)
+EN=Adorned Mitts
+RU=Украшенные Рукавицы
+
+[misc.txt:2967] [EX] EN(13) -> RU(19) +6 (+46%)
+EN=Healing Bloom
+RU=Исцеляющее Цветение
+
+[misc.txt:5225] [EX] EN(13) -> RU(19) +6 (+46%)
+EN=Finally freed
+RU=Наконец-то свободен
+
+[simplayer_chat.txt:1475] [EX] EN(28) -> RU(41) +13 (+46%)
+EN=someone tell my boss im sick
+RU=кто-нибудь скажите начальнику что я болею
+
+[simplayer_chat.txt:3135] [EX] EN(13) -> RU(19) +6 (+46%)
+EN=np scrubbypal
+RU=не за что скрабипал
+
+[simplayer_chat.txt:739] [EX] EN(13) -> RU(19) +6 (+46%)
+EN=reaver spells
+RU=заклинания рейверов
+
+[misc.txt:4615] [EX] EN(24) -> RU(35) +11 (+46%)
+EN=BOW - 17 - Humanbone Bow
+RU=BOW - 17 - Лук из Человечьих Костей
+
+[misc.txt:3290] [EX] EN(13) -> RU(19) +6 (+46%)
+EN=Stilling Cord
+RU=Укрощающая Подвязка
+
+[simplayer_chat.txt:1005] [EX] EN(20) -> RU(29) +9 (+45%)
+EN=grind ripper faction
+RU=фарми фракцию Потрошительницы
+
+[misc.txt:1774] [EX] EN(11) -> RU(16) +5 (+45%)
+EN=Ragged Belt
+RU=Потрёпанный Пояс
+
+[quests.txt:403] [EX] EN(11) -> RU(16) +5 (+45%)
+EN=Lost Soul 2
+RU=Заблудшая Душа 2
+
+[misc.txt:1029] [EX] EN(11) -> RU(16) +5 (+45%)
+EN=Shrines Key
+RU=Ключ от Святилищ
+
+[misc.txt:632] [EX] EN(11) -> RU(16) +5 (+45%)
+EN=Please, no!
+RU=Пожалуйста, нет!
+
+[misc.txt:4151] [EX] EN(11) -> RU(16) +5 (+45%)
+EN=Lost Girdle
+RU=Потерянный Кушак
+
+[ui_system.txt:925] [SUB] EN(11) -> RU(16) +5 (+45%)
+EN=Mana Cost: 
+RU=Стоимость маны: 
+
+[misc.txt:2504] [EX] EN(20) -> RU(29) +9 (+45%)
+EN=feel a sense of doom
+RU=ощущаете чувство обречённости
+
+[misc.txt:4145] [EX] EN(11) -> RU(16) +5 (+45%)
+EN=Toxic Strap
+RU=Токсичный Ремень
+
+[misc.txt:3347] [EX] EN(20) -> RU(29) +9 (+45%)
+EN=STC - Blessed Quiver
+RU=СТОЙ — Благословлённый Колчан
+
+[quests.txt:404] [EX] EN(11) -> RU(16) +5 (+45%)
+EN=Lost Soul 3
+RU=Заблудшая Душа 3
+
+[misc.txt:1109] [EX] EN(11) -> RU(16) +5 (+45%)
+EN=Pocket Rift
+RU=Карманный Разлом
+
+[misc.txt:378] [EX] EN(11) -> RU(16) +5 (+45%)
+EN=Risen Druid
+RU=Восставший Друид
+
+[misc.txt:2729] [EX] EN(11) -> RU(16) +5 (+45%)
+EN=Slimetreads
+RU=Слизевые Ступени
+
+[items_lore.txt:776] [EX] EN(11) -> RU(16) +5 (+45%)
+EN=A Lost Poem
+RU=Потерянная Поэма
+
+[simplayer_chat.txt:1489] [EX] EN(11) -> RU(16) +5 (+45%)
+EN=TeleportPad
+RU=ТелепортПлощадка
+
+[items_lore.txt:1076] [EX] EN(11) -> RU(16) +5 (+45%)
+EN=Cloth Shirt
+RU=Тканевая Рубашка
+
+[simplayer_chat.txt:2247] [EX] EN(11) -> RU(16) +5 (+45%)
+EN=Great work!
+RU=Отличная работа!
+
+[misc.txt:1558] [EX] EN(11) -> RU(16) +5 (+45%)
+EN=Panel Title
+RU=Заголовок Панели
+
+[misc.txt:3105] [EX] EN(20) -> RU(29) +9 (+45%)
+EN=PAL - Celestial Pull
+RU=ПАЛАДИН — Небесное Притяжение
+
+[misc.txt:2447] [EX] EN(22) -> RU(32) +10 (+45%)
+EN=DRU DUEL - Minor Regen
+RU=ДРУИ ДУЭЛ — Малое Восстановление
+
+[misc.txt:5518] [EX] EN(22) -> RU(32) +10 (+45%)
+EN=-Hotkey bar is smaller
+RU=-Панель горячих клавиш уменьшена
+
+[misc.txt:2305] [EX] EN(11) -> RU(16) +5 (+45%)
+EN=Dragon Food
+RU=Корм для Дракона
+
+[items_lore.txt:947] [EX] EN(11) -> RU(16) +5 (+45%)
+EN=Gapped Ring
+RU=Кольцо с Зазором
+
+[misc.txt:4598] [EX] EN(22) -> RU(32) +10 (+45%)
+EN=Increase party resists
+RU=Увеличивает сопротивления группы
+
+[misc.txt:1193] [EX] EN(9) -> RU(13) +4 (+44%)
+EN=Dodge III
+RU=Уклонение III
+
+[misc.txt:2354] [EX] EN(18) -> RU(26) +8 (+44%)
+EN=Frenzied Fistwraps
+RU=Неистовые Кулачные Обмотки
+
+[quests.txt:305] [EX] EN(16) -> RU(23) +7 (+44%)
+EN=-Island Fin Fish
+RU=-Островная Рыба-Плавник
+
+[misc.txt:2321] [EX] EN(16) -> RU(23) +7 (+44%)
+EN=Dreamborn Gloves
+RU=Грёзорождённые Перчатки
+
+[simplayer_chat.txt:767] [EX] EN(16) -> RU(23) +7 (+44%)
+EN=windblade spells
+RU=заклинания ветроклинков
+
+[misc.txt:2359] [EX] EN(16) -> RU(23) +7 (+44%)
+EN=Fungal Scab Cape
+RU=Грибной Струпчатый Плащ
+
+[misc.txt:1802] [EX] EN(18) -> RU(26) +8 (+44%)
+EN=Stone Giant's Club
+RU=Дубинка Каменного Великана
+
+[misc.txt:1222] [EX] EN(18) -> RU(26) +8 (+44%)
+EN=SKILLBOOK - Cleave
+RU=КНИГА НАВЫКОВ — Рассечение
+
+[misc.txt:5397] [EX] EN(36) -> RU(52) +16 (+44%)
+EN=(use /beardme or /shaveme to toggle)
+RU=(используйте /beardme или /shaveme для переключения)
+
+[quests.txt:20] [EX] EN(18) -> RU(26) +8 (+44%)
+EN=Bellwain Study Key
+RU=Ключ от кабинета Беллвейна
+
+[misc.txt:5229] [EX] EN(16) -> RU(23) +7 (+44%)
+EN=Head to the Gate
+RU=Направляйтесь к Воротам
+
+[misc.txt:6554] [EX] EN(16) -> RU(23) +7 (+44%)
+EN=Say nice things.
+RU=Говорите приятные вещи.
+
+[misc.txt:1598] [EX] EN(18) -> RU(26) +8 (+44%)
+EN=Azynthian Firebone
+RU=Азинтийская Огненная Кость
+
+[items_lore.txt:182] [EX] EN(27) -> RU(39) +12 (+44%)
+EN=Tough and gamey, but tasty!
+RU=Жёсткое и с привкусом дичи, но вкусное!
+
+[misc.txt:2769] [EX] EN(16) -> RU(23) +7 (+44%)
+EN=Fungal Scab Cape
+RU=Грибной Струпчатый Плащ
+
+[items_lore.txt:1242] [EX] EN(16) -> RU(23) +7 (+44%)
+EN=Worn Wolf Collar
+RU=Потёртый Волчий Ошейник
+
+[items_lore.txt:1210] [EX] EN(16) -> RU(23) +7 (+44%)
+EN=Broken Key Blade
+RU=Сломанная Бородка Ключа
+
+[simplayer_chat.txt:1432] [EX] EN(9) -> RU(13) +4 (+44%)
+EN=Seafiends
+RU=Морские Твари
+
+[misc.txt:4692] [EX] EN(18) -> RU(26) +8 (+44%)
+EN=Blackened Bone Axe
+RU=Почернёвший Костяной Топор
+
+[misc.txt:3667] [EX] EN(9) -> RU(13) +4 (+44%)
+EN=Wrathwrap
+RU=Обмотка Гнева
+
+[simplayer_chat.txt:1280] [EX] EN(9) -> RU(13) +4 (+44%)
+EN=jaws open
+RU=пасть открыть
+
+[simplayer_chat.txt:1114] [EX] EN(9) -> RU(13) +4 (+44%)
+EN=how trade
+RU=как торговать
+
+[misc.txt:4901] [EX] EN(16) -> RU(23) +7 (+44%)
+EN=GEN - Blightwood
+RU=GEN - Заражённое Дерево
+
+[misc.txt:2749] [EX] EN(9) -> RU(13) +4 (+44%)
+EN=Nightbane
+RU=Ночная Пагуба
+
+[misc.txt:2758] [EX] EN(9) -> RU(13) +4 (+44%)
+EN=Sandcloak
+RU=Песчаный Плащ
+
+[ui_system.txt:1033] [SUB] EN(16) -> RU(23) +7 (+44%)
+EN=Treasure Hunt:\n
+RU=Охота за сокровищами:\n
+
+[misc.txt:3952] [EX] EN(9) -> RU(13) +4 (+44%)
+EN=Very High
+RU=Очень Высокое
+
+[items_lore.txt:965] [EX] EN(18) -> RU(26) +8 (+44%)
+EN=Ring of Magic Bolt
+RU=Кольцо Магического Снаряда
+
+[items_lore.txt:696] [EX] EN(9) -> RU(13) +4 (+44%)
+EN=Bear Meat
+RU=Медвежье Мясо
+
+[misc.txt:3392] [EX] EN(16) -> RU(23) +7 (+44%)
+EN=None - Cave lung
+RU=ОБЩИЙ — Пещерное Лёгкое
+
+[ui_system.txt:484] [SUB] EN(9) -> RU(13) +4 (+44%)
+EN=You say: 
+RU=Ты говоришь: 
+
+[misc.txt:3276] [EX] EN(18) -> RU(26) +8 (+44%)
+EN=Sivakayan Legplate
+RU=Сивакаянские Латные Поножи
+
+[misc.txt:3297] [EX] EN(16) -> RU(23) +7 (+44%)
+EN=Stone Dining Set
+RU=Набор Каменной Столовой
+
+[misc.txt:3193] [EX] EN(27) -> RU(39) +12 (+44%)
+EN=Made of Ice older than time
+RU=Сделано из Льда, древнее самого времени
+
+[misc.txt:2977] [EX] EN(9) -> RU(13) +4 (+44%)
+EN=Ice Spear
+RU=Ледяное Копьё
+
+[items_lore.txt:1120] [EX] EN(9) -> RU(13) +4 (+44%)
+EN=Garg Wand
+RU=Жезл Горгульи
+
+[simplayer_chat.txt:2860] [EX] EN(9) -> RU(13) +4 (+44%)
+EN=Bonepits!
+RU=Костяные Ямы!
+
+[items_lore.txt:1048] [EX] EN(16) -> RU(23) +7 (+44%)
+EN=Woven Stone Belt
+RU=Пояс из Плетёного Камня
+
+[simplayer_chat.txt:2447] [EX] EN(16) -> RU(23) +7 (+44%)
+EN=No... not again!
+RU=Нет... только не снова!
+
+[simplayer_chat.txt:2492] [EX] EN(16) -> RU(23) +7 (+44%)
+EN=Scrubby says hi!
+RU=Скрабби говорит привет!
+
+[misc.txt:3451] [EX] EN(39) -> RU(56) +17 (+44%)
+EN=Soul Tap: 200 base damage lifetap spell
+RU=Отвод Души: заклинание кражи жизни на 200 базового урона
+
+[simplayer_chat.txt:896] [EX] EN(16) -> RU(23) +7 (+44%)
+EN=change sim equip
+RU=сменить экипировку сима
+
+[misc.txt:2536] [EX] EN(27) -> RU(39) +12 (+44%)
+EN=feel your eyes grow sharper
+RU=чувствуете, как ваше зрение обостряется
+
+[misc.txt:4979] [EX] EN(18) -> RU(26) +8 (+44%)
+EN=GEN - Innate Dodge
+RU=GEN - Врождённое Уклонение
+
+[simplayer_chat.txt:724] [EX] EN(14) -> RU(20) +6 (+43%)
+EN=duelist spells
+RU=заклинания дуэлянтов
+
+[misc.txt:611] [EX] EN(14) -> RU(20) +6 (+43%)
+EN=Help! Help me!
+RU=Помогите! На помощь!
+
+[misc.txt:4586] [EX] EN(30) -> RU(43) +13 (+43%)
+EN=Increase party Agi and Resists
+RU=Увеличивает ловкость и сопротивления группы
+
+[misc.txt:1083] [EX] EN(14) -> RU(20) +6 (+43%)
+EN=ORE - Stardust
+RU=РУДА — Звёздная Пыль
+
+[misc.txt:4852] [EX] EN(14) -> RU(20) +6 (+43%)
+EN=begin to bleed
+RU=начинает кровоточить
+
+[misc.txt:2721] [EX] EN(14) -> RU(20) +6 (+43%)
+EN=Wolfhide Boots
+RU=Волчьешкурные Сапоги
+
+[simplayer_chat.txt:730] [EX] EN(14) -> RU(20) +6 (+43%)
+EN=Paladin spells
+RU=заклинания паладинов
+
+[misc.txt:5070] [EX] EN(14) -> RU(20) +6 (+43%)
+EN=GEN - Seaglass
+RU=GEN - Морское Стекло
+
+[misc.txt:264] [EX] EN(14) -> RU(20) +6 (+43%)
+EN=Deadweb Spider
+RU=Паук Мёртвой Паутины
+
+[misc.txt:1198] [EX] EN(14) -> RU(20) +6 (+43%)
+EN=Soluna's Touch
+RU=Прикосновение Солуны
+
+[ui_system.txt:641] [SUB] EN(7) -> RU(10) +3 (+43%)
+EN= heals 
+RU= исцеляет 
+
+[misc.txt:1563] [EX] EN(14) -> RU(20) +6 (+43%)
+EN=Show NPC Names
+RU=Показывать Имена НПС
+
+[misc.txt:5289] [EX] EN(14) -> RU(20) +6 (+43%)
+EN=It looks worn.
+RU=Выглядит поношенным.
+
+[misc.txt:3707] [EX] EN(14) -> RU(20) +6 (+43%)
+EN=Adv. Innate HP
+RU=Улучш. Врождённое ОЗ
+
+[ui_system.txt:1017] [SUB] EN(14) -> RU(20) +6 (+43%)
+EN=You say: Hail 
+RU=Ты говоришь: Привет 
+
+[misc.txt:2845] [EX] EN(14) -> RU(20) +6 (+43%)
+EN=Igniting Brace
+RU=Воспламеняющий Наруч
+
+[items_lore.txt:1074] [EX] EN(21) -> RU(30) +9 (+43%)
+EN=Braxonian Royal Tunic
+RU=Браксонская Королевская Туника
+
+[misc.txt:39] [EX] EN(7) -> RU(10) +3 (+43%)
+EN=Skyfolk
+RU=Небожители
+
+[misc.txt:329] [EX] EN(14) -> RU(20) +6 (+43%)
+EN=Molorai Jailor
+RU=Молорайский Тюремщик
+
+[misc.txt:4131] [EX] EN(28) -> RU(40) +12 (+43%)
+EN=BELT - 35 - Swampy Loincloth
+RU=BELT - 35 - Болотная Набедренная Повязка
+
+[misc.txt:6542] [EX] EN(14) -> RU(20) +6 (+43%)
+EN=Vithean Frenzy
+RU=Витеанское Бешенство
+
+[misc.txt:4161] [EX] EN(23) -> RU(33) +10 (+43%)
+EN=Flowing Blightsilk Sash
+RU=Струящийся Кушак из Чумного Шёлка
+
+[simplayer_chat.txt:105] [EX] EN(7) -> RU(10) +3 (+43%)
+EN=hi dude
+RU=привет чел
+
+[items_lore.txt:807] [EX] EN(14) -> RU(20) +6 (+43%)
+EN=Guide to Sight
+RU=Руководство к Зрению
+
+[misc.txt:5110] [EX] EN(23) -> RU(33) +10 (+43%)
+EN=GEN - Torn Map Top Left
+RU=GEN - Обрывок Карты Верхний Левый
+
+[simplayer_chat.txt:103] [EX] EN(7) -> RU(10) +3 (+43%)
+EN=heya NN
+RU=здорово NN
+
+[ui_system.txt:116] [EX] EN(7) -> RU(10) +3 (+43%)
+EN=Agility
+RU=Проворство
+
+[items_lore.txt:48] [EX] EN(21) -> RU(30) +9 (+43%)
+EN=(Right Click to Read)
+RU=(Правый клик, чтобы прочитать)
+
+[ui_system.txt:480] [SUB] EN(7) -> RU(10) +3 (+43%)
+EN= says: 
+RU= говорит: 
+
+[simplayer_chat.txt:2274] [EX] EN(7) -> RU(10) +3 (+43%)
+EN=Hey NN.
+RU=Привет NN.
+
+[simplayer_chat.txt:2272] [EX] EN(7) -> RU(10) +3 (+43%)
+EN=Hey NN!
+RU=Привет NN!
+
+[misc.txt:6408] [EX] EN(14) -> RU(20) +6 (+43%)
+EN=Watchlight for
+RU=Сторожевой огонь для
+
+[simplayer_chat.txt:341] [EX] EN(7) -> RU(10) +3 (+43%)
+EN=heya NN
+RU=здорово NN
+
+[misc.txt:1079] [EX] EN(14) -> RU(20) +6 (+43%)
+EN=ORE - Iron Ore
+RU=РУДА — Железная Руда
+
+[items_lore.txt:984] [EX] EN(21) -> RU(30) +9 (+43%)
+EN=Vithean Sea Salt Ring
+RU=Витеанское Кольцо Морской Соли
+
+[simplayer_chat.txt:3285] [EX] EN(7) -> RU(10) +3 (+43%)
+EN=wtf ded
+RU=чё за умер
+
+[ui_system.txt:912] [SUB] EN(7) -> RU(10) +3 (+43%)
+EN= takes 
+RU= получает 
+
+[misc.txt:2877] [EX] EN(19) -> RU(27) +8 (+42%)
+EN=Spinesnap Hide Hood
+RU=Капюшон из Шкуры Хребтолома
+
+[items_lore.txt:823] [EX] EN(12) -> RU(17) +5 (+42%)
+EN=Mooring Coin
+RU=Причальная Монета
+
+[items_lore.txt:835] [EX] EN(12) -> RU(17) +5 (+42%)
+EN=Ritual Stone
+RU=Ритуальный Камень
+
+[simplayer_chat.txt:533] [EX] EN(36) -> RU(51) +15 (+42%)
+EN=you look like i drew you left handed
+RU=ты выглядишь как будто я тебя левой рукой нарисовал
+
+[misc.txt:952] [EX] EN(12) -> RU(17) +5 (+42%)
+EN=Arcane Pupil
+RU=Магический Ученик
+
+[misc.txt:5446] [EX] EN(43) -> RU(61) +18 (+42%)
+EN=-Added Ranged attacks on some items (Wands)
+RU=-Добавлены дальнобойные атаки для некоторых предметов (Жезлы)
+
+[items_lore.txt:1183] [EX] EN(12) -> RU(17) +5 (+42%)
+EN=Magic Resist
+RU=Магическая Защита
+
+[quests.txt:25] [EX] EN(12) -> RU(17) +5 (+42%)
+EN=Drafty Baths
+RU=Сквозняк в ванной
+
+[items_lore.txt:826] [EX] EN(12) -> RU(17) +5 (+42%)
+EN=Note to Liam
+RU=Записка для Лиама
+
+[misc.txt:1166] [EX] EN(24) -> RU(34) +10 (+42%)
+EN=Skill Book: Imbued Arrow
+RU=Книга Навыков: Зачарованная Стрела
+
+[misc.txt:3660] [EX] EN(12) -> RU(17) +5 (+42%)
+EN=Watcher Lens
+RU=Линза Наблюдателя
+
+[simplayer_chat.txt:385] [EX] EN(19) -> RU(27) +8 (+42%)
+EN=anyone need me? lfg
+RU=кто-нибудь ищет? ищу группу
+
+[ui_system.txt:1016] [SUB] EN(12) -> RU(17) +5 (+42%)
+EN= says: Hail 
+RU= говорит: Привет 
+
+[misc.txt:5639] [EX] EN(12) -> RU(17) +5 (+42%)
+EN=DRUID LOVIN!
+RU=ЛЮБОВЬ К ДРУИДАМ!
+
+[items_lore.txt:1020] [EX] EN(12) -> RU(17) +5 (+42%)
+EN=Charmed Belt
+RU=Зачарованный Пояс
+
+[misc.txt:4223] [EX] EN(24) -> RU(34) +10 (+42%)
+EN=CHEST - 4 - Funeral Garb
+RU=CHEST - 4 - Погребальное Облачение
+
+[misc.txt:3103] [EX] EN(24) -> RU(34) +10 (+42%)
+EN=PAL - Advanced Innate HP
+RU=ПАЛАДИН — Улучшенное Врождённое ОЗ
+
+[misc.txt:3071] [EX] EN(12) -> RU(17) +5 (+42%)
+EN=Mino Hatchet
+RU=Топорик Минотавра
+
+[misc.txt:3426] [EX] EN(19) -> RU(27) +8 (+42%)
+EN=NONE - Stolen Vigor
+RU=ОБЩИЙ — Украденная Бодрость
+
+[simplayer_chat.txt:2508] [EX] EN(19) -> RU(27) +8 (+42%)
+EN=Scubby hates toxic!
+RU=Скабби ненавидит токсичных!
+
+[misc.txt:3374] [EX] EN(12) -> RU(17) +5 (+42%)
+EN=REAV - Sever
+RU=РЕЙВ — Рассечение
+
+[misc.txt:1105] [EX] EN(19) -> RU(27) +8 (+42%)
+EN=A strong metal ore.
+RU=Крепкая металлическая руда.
+
+[misc.txt:1021] [EX] EN(19) -> RU(27) +8 (+42%)
+EN=Krakengard Bunk Key
+RU=Ключ от Казармы Кракенгарда
+
+[misc.txt:4166] [EX] EN(12) -> RU(17) +5 (+42%)
+EN=Charmed Belt
+RU=Зачарованный Пояс
+
+[simplayer_chat.txt:3300] [EX] EN(26) -> RU(37) +11 (+42%)
+EN=You can't be a real person
+RU=Ты не можешь быть настоящим человеком
+
+[misc.txt:2093] [EX] EN(19) -> RU(27) +8 (+42%)
+EN=Braxonian Gauntlets
+RU=Браксонские Латные Перчатки
+
+[misc.txt:2076] [EX] EN(26) -> RU(37) +11 (+42%)
+EN=Blessed Braxonian Wristlet
+RU=Благословлённый Браксонский Браслетик
+
+[skills_spells.txt:308] [EX] EN(26) -> RU(37) +11 (+42%)
+EN=PAL - TAUNT Impending Doom
+RU=PAL - ПРОВОКАЦИЯ Надвигающаяся Гибель
+
+[quests.txt:431] [EX] EN(12) -> RU(17) +5 (+42%)
+EN=Stone Dining
+RU=Каменная Столовая
+
+[misc.txt:2558] [EX] EN(33) -> RU(47) +14 (+42%)
+EN=feels his limbs become weightless
+RU=чувствует, как конечности становятся невесомыми
+
+[misc.txt:325] [EX] EN(12) -> RU(17) +5 (+42%)
+EN=Molorai Chef
+RU=Молорайский Повар
+
+[misc.txt:2439] [EX] EN(12) -> RU(17) +5 (+42%)
+EN=DRU - Tangle
+RU=ДРУИ — Опутывание
+
+[misc.txt:2735] [EX] EN(19) -> RU(27) +8 (+42%)
+EN=Meteorite Gauntlets
+RU=Метеоритные Латные Перчатки
+
+[misc.txt:2732] [EX] EN(19) -> RU(27) +8 (+42%)
+EN=Nagalok Claw Gloves
+RU=Перчатки из Когтей Нагалока
+
+[misc.txt:1227] [EX] EN(19) -> RU(27) +8 (+42%)
+EN=SKILLBOOK - Dodge 2
+RU=КНИГА НАВЫКОВ — Уклонение 2
+
+[misc.txt:89] [EX] EN(19) -> RU(27) +8 (+42%)
+EN=Nagalok Claw Gloves
+RU=Перчатки из Когтей Нагалока
+
+[misc.txt:1226] [EX] EN(19) -> RU(27) +8 (+42%)
+EN=SKILLBOOK - Dodge 1
+RU=КНИГА НАВЫКОВ — Уклонение 1
+
+[misc.txt:2767] [EX] EN(12) -> RU(17) +5 (+42%)
+EN=Redleaf Cape
+RU=Краснолистый Плащ
+
+[items_lore.txt:77] [EX] EN(26) -> RU(37) +11 (+42%)
+EN=You look more veiny lately
+RU=В последнее время вены стали заметнее
+
+[simplayer_chat.txt:2972] [EX] EN(12) -> RU(17) +5 (+42%)
+EN=hi!! :) cool
+RU=привет!! :) круто
+
+[simplayer_chat.txt:2945] [EX] EN(36) -> RU(51) +15 (+42%)
+EN=Guild Chat says you're to be ignored
+RU=Гильдейский Чат говорит, что тебя надо игнорировать
+
+[misc.txt:3810] [EX] EN(31) -> RU(44) +13 (+42%)
+EN=They flow with your every move.
+RU=Они движутся в такт каждому вашему движению.
+
+[misc.txt:4800] [EX] EN(12) -> RU(17) +5 (+42%)
+EN=Imbued Arrow
+RU=Заряженная Стрела
+
+[misc.txt:5111] [EX] EN(24) -> RU(34) +10 (+42%)
+EN=GEN - Torn Map Top Right
+RU=GEN - Обрывок Карты Верхний Правый
+
+[misc.txt:6582] [EX] EN(26) -> RU(37) +11 (+42%)
+EN=On: May reduce performance
+RU=Вкл: Может снизить производительность
+
+[misc.txt:6581] [EX] EN(33) -> RU(47) +14 (+42%)
+EN=Off: May rain in houses or caves 
+RU====Выкл: Может идти дождь в домах и пещерах ===
+
+[misc.txt:1229] [EX] EN(19) -> RU(27) +8 (+42%)
+EN=SKILLBOOK - Dodge 4
+RU=КНИГА НАВЫКОВ — Уклонение 4
+
+[misc.txt:220] [EX] EN(12) -> RU(17) +5 (+42%)
+EN=Abyssal Lord
+RU=Повелитель Бездны
+
+[misc.txt:338] [EX] EN(19) -> RU(27) +8 (+42%)
+EN=Molorai Truthseeker
+RU=Молорайский Искатель Истины
+
+[misc.txt:2788] [EX] EN(26) -> RU(37) +11 (+42%)
+EN=HEAD - 1 - Daggersilk Hood
+RU=HEAD - 1 - Кинжально-Шёлковый Капюшон
+
+[misc.txt:1228] [EX] EN(19) -> RU(27) +8 (+42%)
+EN=SKILLBOOK - Dodge 3
+RU=КНИГА НАВЫКОВ — Уклонение 3
+
+[misc.txt:1241] [EX] EN(17) -> RU(24) +7 (+41%)
+EN=SKILLBOOK - Pride
+RU=КНИГА НАВЫКОВ — Гордость
+
+[misc.txt:2574] [EX] EN(17) -> RU(24) +7 (+41%)
+EN=feels vulnerable.
+RU=чувствует себя уязвимым.
+
+[misc.txt:3533] [EX] EN(27) -> RU(38) +11 (+41%)
+EN=WEAP - 24 - Razor Waveblade
+RU=WEAP - 24 - Бритвенный Волновой Клинок
+
+[misc.txt:4370] [EX] EN(29) -> RU(41) +12 (+41%)
+EN=RING - 15 - Toxin Warped Band
+RU=RING - 15 - Кольцо, Искривлённое Токсином
+
+[misc.txt:4348] [EX] EN(17) -> RU(24) +7 (+41%)
+EN=Frozen Mana Charm
+RU=Замороженный Оберег Маны
+
+[misc.txt:1728] [EX] EN(17) -> RU(24) +7 (+41%)
+EN=Holy Silver Sword
+RU=Священный Серебряный Меч
+
+[misc.txt:3563] [EX] EN(22) -> RU(31) +9 (+41%)
+EN=WEAP - 39 - Molten Axe
+RU=WEAP - 39 - Расплавленный Топор
+
+[simplayer_chat.txt:1092] [EX] EN(22) -> RU(31) +9 (+41%)
+EN=How do we trade items?
+RU=Как мы обмениваемся предметами?
+
+[misc.txt:5232] [EX] EN(17) -> RU(24) +7 (+41%)
+EN=Ogre Spice Bundle
+RU=Связка Огриных Пряностей
+
+[misc.txt:4132] [EX] EN(27) -> RU(38) +11 (+41%)
+EN=BELT - 5 - Bonestudded Belt
+RU=BELT - 5 - Пояс с Костяными Заклёпками
+
+[simplayer_chat.txt:3007] [EX] EN(22) -> RU(31) +9 (+41%)
+EN=I knew you'd do it! :)
+RU=Я знал что у тебя получится! :)
+
+[misc.txt:4990] [EX] EN(17) -> RU(24) +7 (+41%)
+EN=GEN - Lost Text 1
+RU=GEN - Утраченный Текст 1
+
+[quests.txt:402] [EX] EN(17) -> RU(24) +7 (+41%)
+EN=Lost Cellar Intel
+RU=Утерянные Данные Подвала
+
+[misc.txt:4991] [EX] EN(17) -> RU(24) +7 (+41%)
+EN=GEN - Lost Text 2
+RU=GEN - Утраченный Текст 2
+
+[misc.txt:2449] [EX] EN(17) -> RU(24) +7 (+41%)
+EN=DRU PAL - Healing
+RU=ДРУИ ПАЛАДИН — Исцеление
+
+[misc.txt:1156] [EX] EN(17) -> RU(24) +7 (+41%)
+EN=Skill Book: Dodge
+RU=Книга Навыков: Уклонение
+
+[ui_system.txt:653] [SUB] EN(17) -> RU(24) +7 (+41%)
+EN=Save file updated
+RU=Файл сохранения обновлён
+
+[misc.txt:3680] [EX] EN(17) -> RU(24) +7 (+41%)
+EN=Heavy Bladed Mace
+RU=Тяжёлая Булава с Лезвием
+
+[misc.txt:2839] [EX] EN(17) -> RU(24) +7 (+41%)
+EN=Heavy Bladed Mace
+RU=Тяжёлая Булава с Лезвием
+
+[misc.txt:4992] [EX] EN(17) -> RU(24) +7 (+41%)
+EN=GEN - Lost Text 3
+RU=GEN - Утраченный Текст 3
+
+[misc.txt:4771] [EX] EN(17) -> RU(24) +7 (+41%)
+EN=FISH - Island Fin
+RU=FISH - Островной Плавник
+
+[misc.txt:6304] [EX] EN(37) -> RU(52) +15 (+41%)
+EN=Bonus XP now applies to Ascension XP.
+RU=Бонусный опыт теперь применяется к Опыту Вознесения.
+
+[misc.txt:6471] [EX] EN(27) -> RU(38) +11 (+41%)
+EN=WEAP - 13 - Razor Waveblade
+RU=WEAP - 13 - Бритвенный Волновой Клинок
+
+[quests.txt:289] [EX] EN(17) -> RU(24) +7 (+41%)
+EN=Raval's Last Wish
+RU=Последнее желание Равала
+
+[misc.txt:4697] [EX] EN(27) -> RU(38) +11 (+41%)
+EN=BACK - 37 - Wardwarped Cape
+RU=BACK - 37 - Искривлённый Оберегом Плащ
+
+[misc.txt:3294] [EX] EN(17) -> RU(24) +7 (+41%)
+EN=Stone Auction Set
+RU=Набор Каменного Аукциона
+
+[ui_system.txt:131] [EX] EN(5) -> RU(7) +2 (+40%)
+EN=Level
+RU=Уровень
+
+[simplayer_chat.txt:898] [EX] EN(5) -> RU(7) +2 (+40%)
+EN=Chess
+RU=Шахматы
+
+[misc.txt:3951] [EX] EN(15) -> RU(21) +6 (+40%)
+EN=Vertical Offset
+RU=Вертикальное Смещение
+
+[misc.txt:2737] [EX] EN(15) -> RU(21) +6 (+40%)
+EN=Rootwoven Wraps
+RU=Корнеплетёные Обмотки
+
+[misc.txt:1097] [EX] EN(15) -> RU(21) +6 (+40%)
+EN=Resolving Fluid
+RU=Растворяющая Жидкость
+
+[misc.txt:4492] [EX] EN(20) -> RU(28) +8 (+40%)
+EN=Clouded Diamond Ring
+RU=Затуманенное Алмазное Кольцо
+
+[misc.txt:388] [EX] EN(10) -> RU(14) +4 (+40%)
+EN=Sand Mummy
+RU=Песчаная Мумия
+
+[items_lore.txt:1000] [EX] EN(15) -> RU(21) +6 (+40%)
+EN=Moonglow Amulet
+RU=Амулет Лунного Сияния
+
+[misc.txt:1007] [EX] EN(20) -> RU(28) +8 (+40%)
+EN=KEY - Old Church Key
+RU=КЛЮЧ — Ключ от Старой Церкви
+
+[misc.txt:3243] [EX] EN(10) -> RU(14) +4 (+40%)
+EN=Rock Fiend
+RU=Каменный Демон
+
+[misc.txt:1815] [EX] EN(10) -> RU(14) +4 (+40%)
+EN=Void Blade
+RU=Клинок Пустоты
+
+[misc.txt:4387] [EX] EN(25) -> RU(35) +10 (+40%)
+EN=RING - 22 - Birdbone Band
+RU=RING - 22 - Кольцо из Птичьей Кости
+
+[items_lore.txt:851] [EX] EN(10) -> RU(14) +4 (+40%)
+EN=Time Stone
+RU=Камень Времени
+
+[items_lore.txt:829] [EX] EN(10) -> RU(14) +4 (+40%)
+EN=Priel Note
+RU=Записка Приэль
+
+[misc.txt:3245] [EX] EN(15) -> RU(21) +6 (+40%)
+EN=Rootwoven Wraps
+RU=Корнеплетёные Обмотки
+
+[simplayer_chat.txt:2139] [EX] EN(5) -> RU(7) +2 (+40%)
+EN=ASAP!
+RU=СРОЧНО!
+
+[simplayer_chat.txt:115] [EX] EN(5) -> RU(7) +2 (+40%)
+EN=howdy
+RU=здорово
+
+[misc.txt:998] [EX] EN(15) -> RU(21) +6 (+40%)
+EN=KEY - Crypt Key
+RU=КЛЮЧ — Ключ от Склепа
+
+[misc.txt:5096] [EX] EN(15) -> RU(21) +6 (+40%)
+EN=GEN - Swamproot
+RU=GEN - Болотный Корень
+
+[simplayer_chat.txt:240] [EX] EN(20) -> RU(28) +8 (+40%)
+EN=stfu you still stink
+RU=заткнись ты всё равно отстой
+
+[misc.txt:4341] [EX] EN(15) -> RU(21) +6 (+40%)
+EN=Moonglow Amulet
+RU=Амулет Лунного Сияния
+
+[simplayer_chat.txt:3199] [EX] EN(10) -> RU(14) +4 (+40%)
+EN=swamp song
+RU=болотная песня
+
+[misc.txt:1214] [EX] EN(20) -> RU(28) +8 (+40%)
+EN=SKILLBOOK - Backstab
+RU=КНИГА НАВЫКОВ — Удар в Спину
+
+[misc.txt:3296] [EX] EN(10) -> RU(14) +4 (+40%)
+EN=Stone Brax
+RU=Каменный Бракс
+
+[misc.txt:5954] [EX] EN(48) -> RU(67) +19 (+40%)
+EN=SimPlayer Item Management, QOL Updates, and More
+RU=Управление предметами СимИгроков, улучшения качества жизни и другое
+
+[misc.txt:1931] [EX] EN(15) -> RU(21) +6 (+40%)
+EN=ARC - Ice Spear
+RU=ЧАРОД — Ледяное Копьё
+
+[items_lore.txt:934] [EX] EN(15) -> RU(21) +6 (+40%)
+EN=Ceremonial Ring
+RU=Церемониальное Кольцо
+
+[misc.txt:5006] [EX] EN(20) -> RU(28) +8 (+40%)
+EN=GEN - Mask - EyeMask
+RU=GEN - Маска — Маска на Глаза
+
+[misc.txt:5383] [EX] EN(5) -> RU(7) +2 (+40%)
+EN=Jump:
+RU=Прыжок:
+
+[simplayer_chat.txt:1422] [EX] EN(10) -> RU(14) +4 (+40%)
+EN=run faster
+RU=бегать быстрее
+
+[misc.txt:5385] [EX] EN(5) -> RU(7) +2 (+40%)
+EN=Loot:
+RU=Добыча:
+
+[misc.txt:5325] [EX] EN(10) -> RU(14) +4 (+40%)
+EN=Signatory:
+RU=Подписавшийся:
+
+[misc.txt:402] [EX] EN(20) -> RU(28) +8 (+40%)
+EN=Sivakayan Boneraiser
+RU=Костевозводитель Сивакаянцев
+
+[ui_system.txt:604] [SUB] EN(15) -> RU(21) +6 (+40%)
+EN=You try to hit 
+RU=Ты пытаешься ударить 
+
+[misc.txt:2125] [EX] EN(10) -> RU(14) +4 (+40%)
+EN=Cloth Hood
+RU=Тканый Капюшон
+
+[misc.txt:4803] [EX] EN(10) -> RU(14) +4 (+40%)
+EN=Trick Shot
+RU=Хитрый Выстрел
+
+[misc.txt:326] [EX] EN(15) -> RU(21) +6 (+40%)
+EN=Molorai Curator
+RU=Молорайский Хранитель
+
+[ui_system.txt:16] [EX] EN(5) -> RU(7) +2 (+40%)
+EN=Close
+RU=Закрыть
+
+[ui_system.txt:164] [EX] EN(5) -> RU(7) +2 (+40%)
+EN=Guild
+RU=Гильдия
+
+[simplayer_chat.txt:916] [EX] EN(10) -> RU(14) +4 (+40%)
+EN=died invis
+RU=помер в инвизе
+
+[simplayer_chat.txt:2773] [EX] EN(15) -> RU(21) +6 (+40%)
+EN=Eldoth too hard
+RU=Элдот слишком сложный
+
+[misc.txt:625] [EX] EN(20) -> RU(28) +8 (+40%)
+EN=make it ssssstop....
+RU=пусть это пррррекратится....
+
+[simplayer_chat.txt:2874] [EX] EN(5) -> RU(7) +2 (+40%)
+EN=can't
+RU=не могу
+
+[misc.txt:400] [EX] EN(10) -> RU(14) +4 (+40%)
+EN=Silk Cobra
+RU=Шёлковая Кобра
+
+[misc.txt:2873] [EX] EN(15) -> RU(21) +6 (+40%)
+EN=Seafarer's Hood
+RU=Капюшон Мореплавателя
+
+[items_lore.txt:1216] [EX] EN(20) -> RU(28) +8 (+40%)
+EN=Crystallized Balance
+RU=Кристаллизованное Равновесие
+
+[simplayer_chat.txt:926] [EX] EN(5) -> RU(7) +2 (+40%)
+EN=Docks
+RU=Причалы
+
+[simplayer_chat.txt:2561] [EX] EN(15) -> RU(21) +6 (+40%)
+EN=u still suk lol
+RU=ты всё ещё отстой лол
+
+[misc.txt:3748] [EX] EN(10) -> RU(14) +4 (+40%)
+EN=So dainty.
+RU=Такой изящный.
+
+[simplayer_chat.txt:793] [EX] EN(10) -> RU(14) +4 (+40%)
+EN=ANGLERRING
+RU=КОЛЬЦОРЫБОЛОВА
+
+[misc.txt:2160] [EX] EN(15) -> RU(21) +6 (+40%)
+EN=Digested Gloves
+RU=Переваренные Перчатки
+
+[misc.txt:1183] [EX] EN(15) -> RU(21) +6 (+40%)
+EN=Arcane Recovery
+RU=Тайное Восстановление
+
+[misc.txt:3490] [EX] EN(30) -> RU(42) +12 (+40%)
+EN=WEAP - 11 - Runed Molora Axe 1
+RU=WEAP - 11 - Рунический Молорайский Топор 1
+
+[misc.txt:5543] [EX] EN(18) -> RU(25) +7 (+39%)
+EN=-Ogre Spice Bundle
+RU=-Связка Огриных Пряностей
+
+[items_lore.txt:949] [EX] EN(18) -> RU(25) +7 (+39%)
+EN=Green Emerald Ring
+RU=Зелёное Изумрудное Кольцо
+
+[misc.txt:3561] [EX] EN(23) -> RU(32) +9 (+39%)
+EN=WEAP - 38 - Bramblecull
+RU=WEAP - 38 - Ежевичная Выбраковка
+
+[simplayer_chat.txt:2088] [EX] EN(33) -> RU(46) +13 (+39%)
+EN=We didn’t even need to stop much.
+RU=Нам даже почти не приходилось останавливаться.
+
+[items_lore.txt:1222] [EX] EN(18) -> RU(25) +7 (+39%)
+EN=Flamelicked Gorget
+RU=Горжет, Лизанный Пламенем
+
+[simplayer_chat.txt:2059] [EX] EN(33) -> RU(46) +13 (+39%)
+EN=We didn't even need to stop much.
+RU=Нам даже почти не приходилось останавливаться.
+
+[items_lore.txt:26] [EX] EN(33) -> RU(46) +13 (+39%)
+EN=It's never where you last left it
+RU=Никогда не оказывается там, где ты его оставил
+
+[misc.txt:1597] [EX] EN(18) -> RU(25) +7 (+39%)
+EN=Azynthi, Corruptor
+RU=Азинтия, Осквернительница
+
+[quests.txt:12] [EX] EN(18) -> RU(25) +7 (+39%)
+EN=Bellwain Attic Key
+RU=Ключ от чердака Беллвейна
+
+[items_lore.txt:1040] [EX] EN(18) -> RU(25) +7 (+39%)
+EN=Spectral Silk Belt
+RU=Пояс из Призрачного Шёлка
+
+[simplayer_chat.txt:1692] [EX] EN(18) -> RU(25) +7 (+39%)
+EN=what is flame well
+RU=что такое колодец пламени
+
+[misc.txt:4216] [EX] EN(33) -> RU(46) +13 (+39%)
+EN=CHEST - 32 - Braxonian Royal Garb
+RU=CHEST - 32 - Браксонское Королевское Облачение
+
+[misc.txt:1678] [EX] EN(18) -> RU(25) +7 (+39%)
+EN=Corroded Battleaxe
+RU=Проржавевший Боевой Топор
+
+[misc.txt:4260] [EX] EN(18) -> RU(25) +7 (+39%)
+EN=Worn Dueling Plate
+RU=Потёртые Дуэлянтские Латы
+
+[misc.txt:4256] [EX] EN(18) -> RU(25) +7 (+39%)
+EN=Drakescale Cuirass
+RU=Кираса из Драконьей Чешуи
+
+[misc.txt:638] [EX] EN(33) -> RU(46) +13 (+39%)
+EN=Soluna frowns upon your decision.
+RU=Солуна неодобрительно смотрит на ваше решение.
+
+[quests.txt:259] [EX] EN(23) -> RU(32) +9 (+39%)
+EN=Orion Mycon's Lost Ring
+RU=Потерянное кольцо Ориона Мейкона
+
+[misc.txt:3886] [EX] EN(18) -> RU(25) +7 (+39%)
+EN=1 Elderstone Shard
+RU=1 Осколок Камня Старейшин
+
+[misc.txt:3882] [EX] EN(18) -> RU(25) +7 (+39%)
+EN=1 Brackfruit Juice
+RU=1 Сок Солоноватого Фрукта
+
+[misc.txt:1653] [EX] EN(18) -> RU(25) +7 (+39%)
+EN=Blacksteel Longbow
+RU=Чёрностальной Длинный Лук
+
+[misc.txt:481] [EX] EN(31) -> RU(43) +12 (+39%)
+EN=Awakens and lurches into motion
+RU=Пробуждается и с рывком приходит в движение
+
+[misc.txt:4867] [EX] EN(18) -> RU(25) +7 (+39%)
+EN=GEN - 3 Innate DEF
+RU=GEN - 3 Врождённая Защита
+
+[misc.txt:4330] [EX] EN(18) -> RU(25) +7 (+39%)
+EN=Flamelicked Gorget
+RU=Горжет, Лизанный Пламенем
+
+[misc.txt:3106] [EX] EN(23) -> RU(32) +9 (+39%)
+EN=PAL - Celestial Pull II
+RU=ПАЛАДИН — Небесное Притяжение II
+
+[misc.txt:2860] [EX] EN(18) -> RU(25) +7 (+39%)
+EN=Malaroth Hide Hood
+RU=Капюшон из Шкуры Маларота
+
+[misc.txt:3934] [EX] EN(46) -> RU(64) +18 (+39%)
+EN=All damaging spells do 5% more damage per rank
+RU=Все наносящие урон заклинания наносят на 5% больше урона за ранг
+
+[simplayer_chat.txt:2747] [EX] EN(18) -> RU(25) +7 (+39%)
+EN=Adds attack speed.
+RU=Добавляет скорость атаки.
+
+[misc.txt:1683] [EX] EN(18) -> RU(25) +7 (+39%)
+EN=Daggersilk Sleeves
+RU=Кинжально-Шёлковые Рукава
+
+[misc.txt:6382] [EX] EN(38) -> RU(53) +15 (+39%)
+EN=•Bonus XP now applies to Ascension XP.
+RU=•Бонусный опыт теперь применяется к Опыту Вознесения.
+
+[items_lore.txt:1060] [EX] EN(18) -> RU(25) +7 (+39%)
+EN=Drakescale Cuirass
+RU=Кираса из Драконьей Чешуи
+
+[misc.txt:1151] [EX] EN(18) -> RU(25) +7 (+39%)
+EN=Skill Book: Cleave
+RU=Книга Навыков: Рассечение
+
+[simplayer_chat.txt:82] [EX] EN(8) -> RU(11) +3 (+38%)
+EN=good day
+RU=добрый день
+
+[misc.txt:6574] [EX] EN(13) -> RU(18) +5 (+38%)
+EN=You like your
+RU=Тебе нравится твой
+
+[misc.txt:3693] [EX] EN(8) -> RU(11) +3 (+38%)
+EN=Toxicity
+RU=Токсичность
+
+[misc.txt:1619] [EX] EN(13) -> RU(18) +5 (+38%)
+EN=Abyssal Shell
+RU=Бездонная Раковина
+
+[misc.txt:1785] [EX] EN(16) -> RU(22) +6 (+38%)
+EN=Sea Giant's Helm
+RU=Шлем Морского Великана
+
+[misc.txt:3272] [EX] EN(13) -> RU(18) +5 (+38%)
+EN=Sivakayan Axe
+RU=Сивакаянский Топор
+
+[misc.txt:3993] [EX] EN(13) -> RU(18) +5 (+38%)
+EN=SoulGem Revid
+RU=Камень Души Ревида
+
+[misc.txt:6557] [EX] EN(13) -> RU(18) +5 (+38%)
+EN=Modern MMORPG
+RU=Современная ММОРПГ
+
+[misc.txt:1565] [EX] EN(24) -> RU(33) +9 (+38%)
+EN=Show SimPlayer cast bars
+RU=Показывать полосы каста SimPlayer
+
+[simplayer_chat.txt:2950] [EX] EN(26) -> RU(36) +10 (+38%)
+EN=Hard as rock: Join <SOLID>
+RU=Твёрдый как скала: Вступай в <SOLID>
+
+[simplayer_chat.txt:2970] [EX] EN(8) -> RU(11) +3 (+38%)
+EN=hi, that
+RU=привет, это
+
+[misc.txt:4140] [EX] EN(13) -> RU(18) +5 (+38%)
+EN=Ogreskin Cord
+RU=Шнур из Шкуры Огра
+
+[simplayer_chat.txt:38] [EX] EN(8) -> RU(11) +3 (+38%)
+EN=carry me
+RU=затащи меня
+
+[misc.txt:1556] [EX] EN(8) -> RU(11) +3 (+38%)
+EN=New Text
+RU=Новый Текст
+
+[misc.txt:3509] [EX] EN(26) -> RU(36) +10 (+38%)
+EN=WEAP - 18 - Unholy Bonesaw
+RU=WEAP - 18 - Нечестивая Костяная Пила
+
+[misc.txt:4226] [EX] EN(32) -> RU(44) +12 (+38%)
+EN=CHEST - 5 - Seaweed Soaked Shirt
+RU=CHEST - 5 - Рубашка, Пропитанная Водорослями
+
+[misc.txt:3963] [EX] EN(21) -> RU(29) +8 (+38%)
+EN=looks pale and afraid
+RU=выглядит бледным и напуганным
+
+[misc.txt:3844] [EX] EN(50) -> RU(69) +19 (+38%)
+EN=Waterproof and wind proof, likely not blade proof.
+RU=Водонепроницаемый и ветронепроницаемый, вероятно, не ножепроницаемый.
+
+[misc.txt:1246] [EX] EN(26) -> RU(36) +10 (+38%)
+EN=SKILLBOOK - Soluna's Touch
+RU=КНИГА НАВЫКОВ — Прикосновение Солуны
+
+[misc.txt:4378] [EX] EN(29) -> RU(40) +11 (+38%)
+EN=RING - 18 - Insect Shell Ring
+RU=RING - 18 - Кольцо из Панциря Насекомого
+
+[misc.txt:1776] [EX] EN(13) -> RU(18) +5 (+38%)
+EN=Ripparian Axe
+RU=Топор Потрошителей
+
+[misc.txt:1771] [EX] EN(16) -> RU(22) +6 (+38%)
+EN=Priel Steel Arms
+RU=Стальные Наручи Приэль
+
+[quests.txt:407] [EX] EN(13) -> RU(18) +5 (+38%)
+EN=Necro Journal
+RU=Дневник Некроманта
+
+[quests.txt:197] [EX] EN(16) -> RU(22) +6 (+38%)
+EN=Percy's Seaspice
+RU=Морская пряность Перси
+
+[misc.txt:4354] [EX] EN(13) -> RU(18) +5 (+38%)
+EN=Warped Choker
+RU=Искривлённый Чокер
+
+[simplayer_chat.txt:3020] [EX] EN(16) -> RU(22) +6 (+38%)
+EN=I need new rings
+RU=мне нужны новые кольца
+
+[misc.txt:1025] [EX] EN(13) -> RU(18) +5 (+38%)
+EN=Reliquary Key
+RU=Ключ от Реликвария
+
+[misc.txt:423] [EX] EN(13) -> RU(18) +5 (+38%)
+EN=Spectral Bear
+RU=Призрачный Медведь
+
+[misc.txt:573] [EX] EN(8) -> RU(11) +3 (+38%)
+EN=Be cool.
+RU=Без резких.
+
+[misc.txt:3097] [EX] EN(13) -> RU(18) +5 (+38%)
+EN=Old Torn Cape
+RU=Старый Рваный Плащ
+
+[items_lore.txt:1015] [EX] EN(16) -> RU(22) +6 (+38%)
+EN=Bonestudded Belt
+RU=Костяной Клёпаный Пояс
+
+[ui_system.txt:736] [SUB] EN(16) -> RU(22) +6 (+38%)
+EN='s rage grows...
+RU= — ярость нарастает...
+
+[ui_system.txt:768] [SUB] EN(13) -> RU(18) +5 (+38%)
+EN=Looted Item: 
+RU=Подобран предмет: 
+
+[items_lore.txt:962] [EX] EN(24) -> RU(33) +9 (+38%)
+EN=Pristine Ceremonial Ring
+RU=Безупречное Церемониальное Кольцо
+
+[items_lore.txt:944] [EX] EN(21) -> RU(29) +8 (+38%)
+EN=Flawless Emerald Ring
+RU=Безупречное Изумрудное Кольцо
+
+[misc.txt:4462] [EX] EN(16) -> RU(22) +6 (+38%)
+EN=Living Ruby Ring
+RU=Живое Рубиновое Кольцо
+
+[misc.txt:2374] [EX] EN(13) -> RU(18) +5 (+38%)
+EN=Gift of Vitae
+RU=Дар Жизненной Силы
+
+[ui_system.txt:952] [SUB] EN(8) -> RU(11) +3 (+38%)
+EN=Agility 
+RU=Проворство 
+
+[misc.txt:2751] [EX] EN(8) -> RU(11) +3 (+38%)
+EN=Lifewind
+RU=Ветер Жизни
+
+[misc.txt:4474] [EX] EN(16) -> RU(22) +6 (+38%)
+EN=Solarforged Ring
+RU=Кольцо Солнечной Ковки
+
+[ui_system.txt:639] [SUB] EN(21) -> RU(29) +8 (+38%)
+EN='s affliction renews 
+RU= — проклятье восстанавливает 
+
+[misc.txt:4641] [EX] EN(8) -> RU(11) +3 (+38%)
+EN=Oldenbow
+RU=Древний Лук
+
+[misc.txt:2959] [EX] EN(32) -> RU(44) +12 (+38%)
+EN=Heal 110 life per tick over time
+RU=Исцеляет 110 жизни за тик с течением времени
+
+[misc.txt:5442] [EX] EN(40) -> RU(55) +15 (+38%)
+EN=-Added level 2 arcanist spell - Ice Bolt
+RU=-Добавлено заклинание Чародея 2 уровня — Ледяная Стрела
+
+[simplayer_chat.txt:1488] [EX] EN(13) -> RU(18) +5 (+38%)
+EN=teleport pad?
+RU=телепорт площадка?
+
+[misc.txt:2101] [EX] EN(21) -> RU(29) +8 (+38%)
+EN=Braxonian Royal Shoes
+RU=Браксонские Королевские Туфли
+
+[items_lore.txt:1108] [EX] EN(8) -> RU(11) +3 (+38%)
+EN=Oldenbow
+RU=Древний Лук
+
+[misc.txt:2075] [EX] EN(24) -> RU(33) +9 (+38%)
+EN=Blessed Braxonian Bracer
+RU=Благословлённый Браксонский Наруч
+
+[items_lore.txt:1173] [EX] EN(21) -> RU(29) +8 (+38%)
+EN=Rune of Ripper's Keep
+RU=Руна Крепости Потрошительницы
+
+[misc.txt:646] [EX] EN(8) -> RU(11) +3 (+38%)
+EN=Wake up!
+RU=Просыпайся!
+
+[simplayer_chat.txt:3164] [EX] EN(13) -> RU(18) +5 (+38%)
+EN=Scrubby *hug*
+RU=Скраби *обнимашки*
+
+[misc.txt:465] [EX] EN(16) -> RU(22) +6 (+38%)
+EN=Vithean Immortal
+RU=Витеанский Бессмертный
+
+[misc.txt:4587] [EX] EN(42) -> RU(58) +16 (+38%)
+EN=Increase party Agi, Run speed, and Resists
+RU=Увеличивает ловкость, скорость бега и сопротивления группы
+
+[misc.txt:5423] [EX] EN(21) -> RU(29) +8 (+38%)
+EN=-"Free mouse" removed
+RU=-Режим «Свободная мышь» убран
+
+[misc.txt:4453] [EX] EN(21) -> RU(29) +8 (+38%)
+EN=Flawless Emerald Ring
+RU=Безупречное Изумрудное Кольцо
+
+[misc.txt:3214] [EX] EN(13) -> RU(18) +5 (+38%)
+EN=Perfect Links
+RU=Совершенные Звенья
+
+[misc.txt:4900] [EX] EN(16) -> RU(22) +6 (+38%)
+EN=GEN - Blightsand
+RU=GEN - Заражённый Песок
+
+[misc.txt:4444] [EX] EN(8) -> RU(11) +3 (+38%)
+EN=Lifeloop
+RU=Петля Жизни
+
+[misc.txt:5092] [EX] EN(21) -> RU(29) +8 (+38%)
+EN=GEN - Stolen Memories
+RU=GEN - Похищенные Воспоминания
+
+[misc.txt:3240] [EX] EN(13) -> RU(18) +5 (+38%)
+EN=Reed Trousers
+RU=Тростниковые Штаны
+
+[simplayer_chat.txt:109] [EX] EN(8) -> RU(11) +3 (+38%)
+EN=Hiya NN!
+RU=Здорово NN!
+
+[misc.txt:1794] [EX] EN(16) -> RU(22) +6 (+38%)
+EN=Slimepocket Belt
+RU=Пояс Слизевого Кармана
+
+[simplayer_chat.txt:981] [EX] EN(13) -> RU(18) +5 (+38%)
+EN=Ghostly Giant
+RU=Призрачный Великан
+
+[misc.txt:2384] [EX] EN(16) -> RU(22) +6 (+38%)
+EN=Greater Regrowth
+RU=Великое Восстановление
+
+[misc.txt:318] [EX] EN(16) -> RU(22) +6 (+38%)
+EN=Molorai Anointed
+RU=Молорайский Помазанник
+
+[misc.txt:1989] [EX] EN(13) -> RU(18) +5 (+38%)
+EN=Blackbone Axe
+RU=Чёрнокостный Топор
+
+[misc.txt:426] [EX] EN(19) -> RU(26) +7 (+37%)
+EN=Spectral High Guard
+RU=Призрачный Высший Стражник
+
+[misc.txt:1212] [EX] EN(27) -> RU(37) +10 (+37%)
+EN=SKILLBOOK - Arcane Recovery
+RU=КНИГА НАВЫКОВ — Тайное Восстановление
+
+[misc.txt:2639] [EX] EN(27) -> RU(37) +10 (+37%)
+EN=FOOT - 1 - Daggersilk Shoes
+RU=FOOT - 1 - Кинжально-Шёлковые Башмаки
+
+[items_lore.txt:571] [EX] EN(59) -> RU(81) +22 (+37%)
+EN=A strange trinket of a demonic head. Inscribed with a poem:
+RU=Странная безделушка в виде демонической головы. С выгравированным стихотворением:
+
+[items_lore.txt:986] [EX] EN(19) -> RU(26) +7 (+37%)
+EN=Waldorf Family Ring
+RU=Фамильное Кольцо Уолдорфов
+
+[misc.txt:4594] [EX] EN(41) -> RU(56) +15 (+37%)
+EN=Increase party HP, Lifesteal, and Resists
+RU=Увеличивает здоровье, кражу жизни и сопротивления группы
+
+[misc.txt:3430] [EX] EN(19) -> RU(26) +7 (+37%)
+EN=NONE - Undying Rage
+RU=ОБЩИЙ — Бессмертная Ярость
+
+[misc.txt:3191] [EX] EN(30) -> RU(41) +11 (+37%)
+EN=Made of a strange, burnt metal
+RU=Сделано из странного, обожжённого металла
+
+[simplayer_chat.txt:449] [EX] EN(30) -> RU(41) +11 (+37%)
+EN=I left that run feeling great.
+RU=Ушёл с того забега в отличном настроении.
+
+[items_lore.txt:785] [EX] EN(19) -> RU(26) +7 (+37%)
+EN=Azynthian Riftstone
+RU=Азинтийский Камень Разлома
+
+[misc.txt:386] [EX] EN(19) -> RU(26) +7 (+37%)
+EN=Rotting Royal Hound
+RU=Гниющая Королевская Гончая
+
+[misc.txt:1540] [EX] EN(19) -> RU(26) +7 (+37%)
+EN=Damage Popup Scaler
+RU=Масштаб Всплывающего Урона
+
+[misc.txt:3195] [EX] EN(43) -> RU(59) +16 (+37%)
+EN=Made of stone seared smooth by extreme heat
+RU=Сделано из камня, выжженного до гладкости невероятным жаром
+
+[items_lore.txt:1032] [EX] EN(19) -> RU(26) +7 (+37%)
+EN=Polished Steel Belt
+RU=Полированный Стальной Пояс
+
+[simplayer_chat.txt:2892] [EX] EN(41) -> RU(56) +15 (+37%)
+EN=Dragon Food -- Dragon Food -- Dragon Food
+RU=Корм для Дракона -- Корм для Дракона -- Корм для Дракона
+
+[items_lore.txt:941] [EX] EN(19) -> RU(26) +7 (+37%)
+EN=Fiery Sapphire Ring
+RU=Огненное Сапфировое Кольцо
+
+[misc.txt:412] [EX] EN(19) -> RU(26) +7 (+37%)
+EN=Sivakayan Spymaster
+RU=Мастер Шпионов Сивакаянцев
+
+[misc.txt:4862] [EX] EN(27) -> RU(37) +10 (+37%)
+EN=GEN  - Ripper Insignia Ring
+RU=GEN  - Кольцо с Символом Потрошителей
+
+[misc.txt:4167] [EX] EN(19) -> RU(26) +7 (+37%)
+EN=Polished Steel Belt
+RU=Полированный Стальной Пояс
+
+[misc.txt:5366] [EX] EN(46) -> RU(63) +17 (+37%)
+EN=You gain favor by grinding xp and sharing loot
+RU=Вы зарабатываете благосклонность, набирая опыт и делясь добычей
+
+[misc.txt:4711] [EX] EN(14) -> RU(19) +5 (+36%)
+EN=Azynthian Cowl
+RU=Азинтийский Капюшон
+
+[misc.txt:455] [EX] EN(14) -> RU(19) +5 (+36%)
+EN=Tamed Malaroth
+RU=Приручённый Маларот
+
+[misc.txt:1257] [EX] EN(14) -> RU(19) +5 (+36%)
+EN=NONE - Retreat
+RU=ОБЩЕЕ — Отступление
+
+[ui_system.txt:622] [SUB] EN(22) -> RU(30) +8 (+36%)
+EN= controls their chant.
+RU= контролирует своё заклинание.
+
+[misc.txt:263] [EX] EN(22) -> RU(30) +8 (+36%)
+EN=Cursed Vithean Traitor
+RU=Проклятый Витеанский Предатель
+
+[misc.txt:282] [EX] EN(11) -> RU(15) +4 (+36%)
+EN=Fungal Bear
+RU=Грибной Медведь
+
+[misc.txt:1252] [EX] EN(22) -> RU(30) +8 (+36%)
+EN=SKILLBOOK - Trick Shot
+RU=КНИГА НАВЫКОВ — Хитрый Выстрел
+
+[misc.txt:5022] [EX] EN(22) -> RU(30) +8 (+36%)
+EN=GEN - Nighthollow Base
+RU=GEN - Основание Ночнопустотной
+
+[misc.txt:4708] [EX] EN(14) -> RU(19) +5 (+36%)
+EN=Obsidian Boots
+RU=Обсидиановые Сапоги
+
+[misc.txt:2856] [EX] EN(11) -> RU(15) +4 (+36%)
+EN=Jelly Crown
+RU=Желейная Корона
+
+[simplayer_chat.txt:1445] [EX] EN(11) -> RU(15) +4 (+36%)
+EN=silken cave
+RU=пещера шёлковой
+
+[misc.txt:3657] [EX] EN(14) -> RU(19) +5 (+36%)
+EN=Victor's Pride
+RU=Гордость Победителя
+
+[misc.txt:3840] [EX] EN(39) -> RU(53) +14 (+36%)
+EN=Used in ancient ritualistic sacrifices.
+RU=Использовался в древних ритуальных жертвоприношениях.
+
+[simplayer_chat.txt:976] [EX] EN(14) -> RU(19) +5 (+36%)
+EN=get off island
+RU=выбраться с острова
+
+[simplayer_chat.txt:715] [EX] EN(11) -> RU(15) +4 (+36%)
+EN=druid guild
+RU=гильдия друидов
+
+[misc.txt:4799] [EX] EN(25) -> RU(34) +9 (+36%)
+EN=Archery - Skycaller Arrow
+RU=Стрельба — Стрела Призывателя Неба
+
+[items_lore.txt:38] [EX] EN(39) -> RU(53) +14 (+36%)
+EN=Who knew a belt could be so prestigious
+RU=Кто бы мог подумать, что пояс бывает таким престижным
+
+[misc.txt:1559] [EX] EN(14) -> RU(19) +5 (+36%)
+EN=Reverse X Axis
+RU=Инвертировать Ось X
+
+[misc.txt:2764] [EX] EN(11) -> RU(15) +4 (+36%)
+EN=Ritual Cape
+RU=Ритуальный Плащ
+
+[misc.txt:2344] [EX] EN(14) -> RU(19) +5 (+36%)
+EN=Explorer's Cap
+RU=Шапка Исследователя
+
+[misc.txt:4860] [EX] EN(14) -> RU(19) +5 (+36%)
+EN=cast your line
+RU=забрасывайте удочку
+
+[simplayer_chat.txt:3189] [EX] EN(33) -> RU(45) +12 (+36%)
+EN=Someone just spoiled Lost for me.
+RU=Мне только что заспойлерили Остаться в живых.
+
+[misc.txt:2663] [EX] EN(25) -> RU(34) +9 (+36%)
+EN=FOOT - 38 - Pious Sandals
+RU=FOOT - 38 - Благочестивые Сандалии
+
+[misc.txt:2667] [EX] EN(25) -> RU(34) +9 (+36%)
+EN=FOOT - 6 - Balanced Boots
+RU=FOOT - 6 - Сбалансированные Сапоги
+
+[misc.txt:425] [EX] EN(14) -> RU(19) +5 (+36%)
+EN=Spectral Guard
+RU=Призрачный Стражник
+
+[misc.txt:4042] [EX] EN(28) -> RU(38) +10 (+36%)
+EN=Target him and say "Umbran".
+RU=Нацельтесь на него и скажите «Умбран».
+
+[misc.txt:3702] [EX] EN(11) -> RU(15) +4 (+36%)
+EN=Stun Strike
+RU=Оглушающий Удар
+
+[misc.txt:451] [EX] EN(11) -> RU(15) +4 (+36%)
+EN=Swamp Jelly
+RU=Болотная Медуза
+
+[misc.txt:2185] [EX] EN(14) -> RU(19) +5 (+36%)
+EN=Celestial Pull
+RU=Небесное Притяжение
+
+[misc.txt:2195] [EX] EN(14) -> RU(19) +5 (+36%)
+EN=Cull the Unfit
+RU=Выбраковка Негодных
+
+[misc.txt:4907] [EX] EN(22) -> RU(30) +8 (+36%)
+EN=GEN - Braxonian Fossil
+RU=GEN - Браксонская Окаменелость
+
+[misc.txt:3994] [EX] EN(14) -> RU(19) +5 (+36%)
+EN=SoulGem Stalzo
+RU=Камень Души Стальзо
+
+[misc.txt:431] [EX] EN(11) -> RU(15) +4 (+36%)
+EN=Stone Hound
+RU=Каменная Гончая
+
+[misc.txt:1573] [EX] EN(14) -> RU(19) +5 (+36%)
+EN=Classic MMORPG
+RU=Классическая ММОРПГ
+
+[misc.txt:2444] [EX] EN(14) -> RU(19) +5 (+36%)
+EN=DRU ARC - Jolt
+RU=ДРУИ ЧАРОД — Разряд
+
+[misc.txt:3839] [EX] EN(33) -> RU(45) +12 (+36%)
+EN=Used by the Priel Malaroth Tamers
+RU=Используется Укротителями Маларотов из Приэля
+
+[misc.txt:5666] [EX] EN(33) -> RU(45) +12 (+36%)
+EN=Some UI adjustments and a bug fix
+RU=Некоторые корректировки UI и исправление бага
+
+[items_lore.txt:989] [EX] EN(11) -> RU(15) +4 (+36%)
+EN=Wisdom Band
+RU=Кольцо Мудрости
+
+[simplayer_chat.txt:386] [EX] EN(22) -> RU(30) +8 (+36%)
+EN=DPS lfg bring meeeeee!
+RU=ДПС ищу группу берите меняяяя!
+
+[skills_spells.txt:326] [EX] EN(14) -> RU(19) +5 (+36%)
+EN=STORM - Reload
+RU=STORM - Перезарядка
+
+[misc.txt:3085] [EX] EN(11) -> RU(15) +4 (+36%)
+EN=Mutual Doom
+RU=Взаимная Гибель
+
+[items_lore.txt:757] [EX] EN(14) -> RU(19) +5 (+36%)
+EN=Polished Stone
+RU=Полированный Камень
+
+[simplayer_chat.txt:169] [EX] EN(11) -> RU(15) +4 (+36%)
+EN=LMAO! Help!
+RU=ЛМАО! Помогите!
+
+[skills_spells.txt:261] [EX] EN(22) -> RU(30) +8 (+36%)
+EN=ARC - Portal to Ripper
+RU=ARC - Портал к Потрошительнице
+
+[ui_system.txt:111] [EX] EN(11) -> RU(15) +4 (+36%)
+EN=Physicality
+RU=Физическая мощь
+
+[items_lore.txt:1019] [EX] EN(14) -> RU(19) +5 (+36%)
+EN=Centering Cord
+RU=Шнур Сосредоточения
+
+[items_lore.txt:860] [EX] EN(11) -> RU(15) +4 (+36%)
+EN=Worn Shovel
+RU=Потёртая Лопата
+
+[misc.txt:4248] [EX] EN(14) -> RU(19) +5 (+36%)
+EN=Braxonian Wrap
+RU=Браксонская Обмотка
+
+[items_lore.txt:855] [EX] EN(28) -> RU(38) +10 (+36%)
+EN=Torn Treasure Map (Top Left)
+RU=Обрывок Карты Сокровищ (Левый Верхний)
+
+[items_lore.txt:724] [EX] EN(14) -> RU(19) +5 (+36%)
+EN=Blue Burnstone
+RU=Синий Жжёный Камень
+
+[items_lore.txt:721] [EX] EN(11) -> RU(15) +4 (+36%)
+EN=Beast Stone
+RU=Звериный Камень
+
+[simplayer_chat.txt:1820] [EX] EN(39) -> RU(53) +14 (+36%)
+EN=Wtf ward of piety swarms me every time?
+RU=Чё за фигня оберег благочестия заваливает каждый раз?
+
+[misc.txt:4459] [EX] EN(11) -> RU(15) +4 (+36%)
+EN=Wisdom Band
+RU=Кольцо Мудрости
+
+[misc.txt:4353] [EX] EN(14) -> RU(19) +5 (+36%)
+EN=Temporal Relic
+RU=Временна́я Реликвия
+
+[misc.txt:3139] [EX] EN(28) -> RU(38) +10 (+36%)
+EN=It just never stops burning.
+RU=Он просто никогда не перестаёт гореть.
+
+[misc.txt:1939] [EX] EN(14) -> RU(19) +5 (+36%)
+EN=ARC - Manacall
+RU=ЧАРОД — Призыв Маны
+
+[misc.txt:3096] [EX] EN(11) -> RU(15) +4 (+36%)
+EN=Old Halberd
+RU=Старая Алебарда
+
+[simplayer_chat.txt:337] [EX] EN(25) -> RU(34) +9 (+36%)
+EN=Hiya NN! Been a few days!
+RU=Здорово NN! Пару дней не виделись!
+
+[misc.txt:3090] [EX] EN(14) -> RU(19) +5 (+36%)
+EN=Obsidian Boots
+RU=Обсидиановые Сапоги
+
+[misc.txt:1019] [EX] EN(11) -> RU(15) +4 (+36%)
+EN=Ghostly Key
+RU=Призрачный Ключ
+
+[misc.txt:4327] [EX] EN(22) -> RU(30) +8 (+36%)
+EN=Petrified Wood Pendant
+RU=Подвеска из Окаменелого Дерева
+
+[misc.txt:1702] [EX] EN(14) -> RU(19) +5 (+36%)
+EN=Explorer's Cap
+RU=Шапка Исследователя
+
+[items_lore.txt:830] [EX] EN(11) -> RU(15) +4 (+36%)
+EN=Pupil's Pin
+RU=Булавка Ученика
+
+[misc.txt:3244] [EX] EN(11) -> RU(15) +4 (+36%)
+EN=Rock Sprite
+RU=Каменный Спрайт
+
+[misc.txt:3242] [EX] EN(11) -> RU(15) +4 (+36%)
+EN=Rising Moon
+RU=Восходящая Луна
+
+[misc.txt:4225] [EX] EN(28) -> RU(38) +10 (+36%)
+EN=CHEST - 5 - Daggersilk Shirt
+RU=CHEST - 5 - Кинжально-Шёлковая Рубашка
+
+[misc.txt:1654] [EX] EN(14) -> RU(19) +5 (+36%)
+EN=Blighted Boots
+RU=Осквернённые Сапоги
+
+[misc.txt:4177] [EX] EN(11) -> RU(15) +4 (+36%)
+EN=Sylvan Cord
+RU=Лесная Подвязка
+
+[items_lore.txt:1075] [EX] EN(14) -> RU(19) +5 (+36%)
+EN=Braxonian Wrap
+RU=Браксонская Обмотка
+
+[misc.txt:3250] [EX] EN(14) -> RU(19) +5 (+36%)
+EN=Royal Carapace
+RU=Королевский Панцирь
+
+[misc.txt:5559] [EX] EN(47) -> RU(64) +17 (+36%)
+EN=-SimPlayer Druids now use HEAL OVER TIME spells
+RU=-СимИгроки-Друиды теперь используют исцеление с течением времени
+
+[misc.txt:4632] [EX] EN(11) -> RU(15) +4 (+36%)
+EN=Molorai Bow
+RU=Молорайский Лук
+
+[misc.txt:4633] [EX] EN(11) -> RU(15) +4 (+36%)
+EN=Recurve Bow
+RU=Рекурсивный Лук
+
+[items_lore.txt:845] [EX] EN(22) -> RU(30) +8 (+36%)
+EN=Small Engraved Compass
+RU=Маленький Гравированный Компас
+
+[misc.txt:1096] [EX] EN(14) -> RU(19) +5 (+36%)
+EN=Verdant Energy
+RU=Живительная Энергия
+
+[items_lore.txt:1029] [EX] EN(11) -> RU(15) +4 (+36%)
+EN=Lost Girdle
+RU=Утерянный Кушак
+
+[misc.txt:1093] [EX] EN(11) -> RU(15) +4 (+36%)
+EN=Vithean Ore
+RU=Витеанская Руда
+
+[misc.txt:3238] [EX] EN(11) -> RU(15) +4 (+36%)
+EN=Recurve Bow
+RU=Рекурсивный Лук
+
+[misc.txt:1655] [EX] EN(14) -> RU(19) +5 (+36%)
+EN=Blighted Crown
+RU=Осквернённая Корона
+
+[simplayer_chat.txt:3200] [EX] EN(20) -> RU(27) +7 (+35%)
+EN=sweet see u in a min
+RU=круто увидимся через минуту
+
+[misc.txt:4882] [EX] EN(23) -> RU(31) +8 (+35%)
+EN=GEN - An Ornate Toolbox
+RU=GEN - Изящный Ящик Инструментов
+
+[misc.txt:1251] [EX] EN(23) -> RU(31) +8 (+35%)
+EN=SKILLBOOK - Stun Strike
+RU=КНИГА НАВЫКОВ — Оглушающий Удар
+
+[misc.txt:2652] [EX] EN(20) -> RU(27) +7 (+35%)
+EN=FOOT - 23 - Surestep
+RU=FOOT - 23 - Твёрдая Поступь
+
+[misc.txt:1547] [EX] EN(17) -> RU(23) +6 (+35%)
+EN=Horizontal Offset
+RU=Горизонтальное Смещение
+
+[misc.txt:5534] [EX] EN(43) -> RU(58) +15 (+35%)
+EN=-Mouse wheel now scrolls group builder list
+RU=-Колесо мыши теперь прокручивает список Построителя Группы
+
+[misc.txt:4369] [EX] EN(20) -> RU(27) +7 (+35%)
+EN=RING - 15 - Bog Hoop
+RU=RING - 15 - Болотное Кольцо
+
+[misc.txt:1213] [EX] EN(26) -> RU(35) +9 (+35%)
+EN=SKILLBOOK - Arterial Razor
+RU=КНИГА НАВЫКОВ — Артериальная Бритва
+
+[misc.txt:4424] [EX] EN(23) -> RU(31) +8 (+35%)
+EN=RING - 6 - Hilltop Ring
+RU=RING - 6 - Кольцо Вершины Холма
+
+[misc.txt:3221] [EX] EN(23) -> RU(31) +8 (+35%)
+EN=Portal of Ripper's Keep
+RU=Портал Крепости Потрошительницы
+
+[misc.txt:1258] [EX] EN(20) -> RU(27) +7 (+35%)
+EN=NONE - Summon Butler
+RU=ОБЩЕЕ — Призвать Дворецкого
+
+[misc.txt:5031] [EX] EN(20) -> RU(27) +7 (+35%)
+EN=GEN - Ogrespice Leaf
+RU=GEN - Лист Огриной Пряности
+
+[misc.txt:2450] [EX] EN(23) -> RU(31) +8 (+35%)
+EN=DRU PAL - Major Healing
+RU=ДРУИ ПАЛАДИН — Мощное Исцеление
+
+[simplayer_chat.txt:2147] [EX] EN(23) -> RU(31) +8 (+35%)
+EN=bro rofl I just fk'd up
+RU=бро рофл я только что облажался
+
+[misc.txt:1754] [EX] EN(20) -> RU(27) +7 (+35%)
+EN=Malaroth Claw Gloves
+RU=Перчатки из Когтей Маларота
+
+[misc.txt:1763] [EX] EN(17) -> RU(23) +6 (+35%)
+EN=Nightstalker Mace
+RU=Булава Ночного Охотника
+
+[misc.txt:1013] [EX] EN(17) -> RU(23) +6 (+35%)
+EN=KEY - Shrines Key
+RU=КЛЮЧ — Ключ от Святилищ
+
+[misc.txt:2842] [EX] EN(23) -> RU(31) +8 (+35%)
+EN=Hollowed Crustacean Leg
+RU=Выдолбленная Нога Ракообразного
+
+[misc.txt:1157] [EX] EN(20) -> RU(27) +7 (+35%)
+EN=Skill Book: Dodge II
+RU=Книга Навыков: Уклонение II
+
+[misc.txt:4588] [EX] EN(52) -> RU(70) +18 (+35%)
+EN=Increase party Agi, Str, Int, Run speed, and Resists
+RU=Увеличивает ловкость, силу, инт., скорость бега и сопротивления группы
+
+[misc.txt:1159] [EX] EN(20) -> RU(27) +7 (+35%)
+EN=Skill Book: Dodge IV
+RU=Книга Навыков: Уклонение IV
+
+[simplayer_chat.txt:2894] [EX] EN(37) -> RU(50) +13 (+35%)
+EN=Dragons need snacks, join Dragon Food
+RU=Драконам нужны закуски, вступай в Корм для Дракона
+
+[misc.txt:3039] [EX] EN(26) -> RU(35) +9 (+35%)
+EN=LEG - 6 - Dusty Chain Legs
+RU=LEG - 6 - Пыльные Кольчужные Поножи
+
+[misc.txt:2833] [EX] EN(31) -> RU(42) +11 (+35%)
+EN=HEAD - 9 - Sivakayan Metal Helm
+RU=HEAD - 9 - Сивакаянский Металлический Шлем
+
+[misc.txt:5594] [EX] EN(37) -> RU(50) +13 (+35%)
+EN=Bonus XP now applies to Ascension XP.
+RU=Бонус опыта теперь применяется к Опыту Вознесения.
+
+[misc.txt:2112] [EX] EN(17) -> RU(23) +6 (+35%)
+EN=Ceremonial Gloves
+RU=Церемониальные Перчатки
+
+[items_lore.txt:1089] [EX] EN(20) -> RU(27) +7 (+35%)
+EN=Preserved Cloth Coat
+RU=Сохранённое Тканевое Пальто
+
+[simplayer_chat.txt:3301] [EX] EN(20) -> RU(27) +7 (+35%)
+EN=you can't be serious
+RU=ты не можешь быть серьёзным
+
+[misc.txt:1143] [EX] EN(20) -> RU(27) +7 (+35%)
+EN=Skill Book: Backstab
+RU=Книга Навыков: Удар в Спину
+
+[misc.txt:2074] [EX] EN(26) -> RU(35) +9 (+35%)
+EN=Blessed Braxonian Bracelet
+RU=Благословлённый Браксонский Браслет
+
+[misc.txt:2869] [EX] EN(20) -> RU(27) +7 (+35%)
+EN=Sivakayan Cloth Band
+RU=Сивакаянская Тканая Повязка
+
+[items_lore.txt:1055] [EX] EN(17) -> RU(23) +6 (+35%)
+EN=Blightsteel Plate
+RU=Латы из Проклятой Стали
+
+[skills_spells.txt:310] [EX] EN(26) -> RU(35) +9 (+35%)
+EN=PAL - TAUNT Moonlit Frenzy
+RU=PAL - ПРОВОКАЦИЯ Лунное Исступление
+
+[misc.txt:23] [EX] EN(23) -> RU(31) +8 (+35%)
+EN=Brackish Coast Nagaloks
+RU=Нагалоки Солоноватого Побережья
+
+[misc.txt:3828] [EX] EN(48) -> RU(65) +17 (+35%)
+EN=This blade has existed since before time itself.
+RU=Этот клинок существует с тех пор, как само время ещё не началось.
+
+[misc.txt:1738] [EX] EN(17) -> RU(23) +6 (+35%)
+EN=King's Guard Helm
+RU=Шлем Королевской Стражи
+
+[misc.txt:1958] [EX] EN(20) -> RU(27) +7 (+35%)
+EN=begin to regenerate.
+RU=начинают восстанавливаться.
+
+[simplayer_chat.txt:1174] [EX] EN(26) -> RU(35) +9 (+35%)
+EN=I just got a Planar Stone!
+RU=Только что достал Планарный Камень!
+
+[misc.txt:3944] [EX] EN(23) -> RU(31) +8 (+35%)
+EN=Simulated Player Banter
+RU=Болтовня Симулированных Игроков
+
+[misc.txt:5642] [EX] EN(17) -> RU(23) +6 (+35%)
+EN=Fixes and Changes
+RU=Исправления и Изменения
+
+[misc.txt:1665] [EX] EN(23) -> RU(31) +8 (+35%)
+EN=Braxonian Royal Armband
+RU=Браксонский Королевский Браслет
+
+[misc.txt:4247] [EX] EN(20) -> RU(27) +7 (+35%)
+EN=Molarai Battle Chain
+RU=Молорайская Боевая Кольчуга
+
+[misc.txt:4813] [EX] EN(17) -> RU(23) +6 (+35%)
+EN=Melee Proficiency
+RU=Мастерство Ближнего Боя
+
+[items_lore.txt:982] [EX] EN(17) -> RU(23) +6 (+35%)
+EN=Toxin Warped Band
+RU=Кольцо, Искажённое Ядом
+
+[misc.txt:1176] [EX] EN(26) -> RU(35) +9 (+35%)
+EN=Skill Book: Soluna's Touch
+RU=Книга Навыков: Прикосновение Солуны
+
+[simplayer_chat.txt:3339] [EX] EN(35) -> RU(47) +12 (+34%)
+EN=you've got. i sold a few last week.
+RU=то что у тебя. я продал пару на прошлой неделе.
+
+[misc.txt:5359] [EX] EN(35) -> RU(47) +12 (+34%)
+EN=Sivakaya's betrayal, a tale untold.
+RU=Предательство Сивакаи — нерассказанная история.
+
+[items_lore.txt:856] [EX] EN(29) -> RU(39) +10 (+34%)
+EN=Torn Treasure Map (Top Right)
+RU=Обрывок Карты Сокровищ (Правый Верхний)
+
+[simplayer_chat.txt:365] [EX] EN(35) -> RU(47) +12 (+34%)
+EN=Xp time?? We did awesome last time.
+RU=Время качаться?? В прошлый раз мы круто зажгли.
+
+[simplayer_chat.txt:2554] [EX] EN(29) -> RU(39) +10 (+34%)
+EN=Train him on someone else lol
+RU=Потренируй его на ком-нибудь другом лол
+
+[misc.txt:572] [EX] EN(32) -> RU(43) +11 (+34%)
+EN=Be a shame if I had to hurt you.
+RU=Было бы жаль, если пришлось бы тебя побить.
+
+[items_lore.txt:1023] [EX] EN(12) -> RU(16) +4 (+33%)
+EN=Exalted Belt
+RU=Возвышенный Пояс
+
+[misc.txt:2226] [EX] EN(27) -> RU(36) +9 (+33%)
+EN=Damage over time and debuff
+RU=Урон с течением времени и ослабление
+
+[items_lore.txt:1026] [EX] EN(12) -> RU(16) +4 (+33%)
+EN=Ghostly Sash
+RU=Призрачный Кушак
+
+[simplayer_chat.txt:2260] [EX] EN(12) -> RU(16) +4 (+33%)
+EN=Hey :) Nice!
+RU=Привет :) Круто!
+
+[ui_system.txt:309] [EX] EN(12) -> RU(16) +4 (+33%)
+EN=Invalid item
+RU=Неверный предмет
+
+[ui_system.txt:113] [EX] EN(9) -> RU(12) +3 (+33%)
+EN=Hardiness
+RU=Выносливость
+
+[ui_system.txt:42] [EX] EN(9) -> RU(12) +3 (+33%)
+EN=No Seller
+RU=Нет продавца
+
+[misc.txt:4121] [EX] EN(27) -> RU(36) +9 (+33%)
+EN=BELT - 3 - Worn Wolf Collar
+RU=BELT - 3 - Поношенный Волчий Ошейник
+
+[items_lore.txt:1021] [EX] EN(12) -> RU(16) +4 (+33%)
+EN=Coiling Belt
+RU=Свивающийся Пояс
+
+[simplayer_chat.txt:233] [EX] EN(6) -> RU(8) +2 (+33%)
+EN=see ya
+RU=увидимся
+
+[simplayer_chat.txt:1375] [EX] EN(12) -> RU(16) +4 (+33%)
+EN=Planar Stone
+RU=Планарный Камень
+
+[misc.txt:3349] [EX] EN(12) -> RU(16) +4 (+33%)
+EN=STC - Ionize
+RU=СТОЙ — Ионизация
+
+[simplayer_chat.txt:667] [EX] EN(9) -> RU(12) +3 (+33%)
+EN=what show
+RU=какой сериал
+
+[simplayer_chat.txt:3088] [EX] EN(12) -> RU(16) +4 (+33%)
+EN=looming mino
+RU=грозолесный мино
+
+[misc.txt:444] [EX] EN(21) -> RU(28) +7 (+33%)
+EN=Summoned: Cursed Fawn
+RU=Призванный: Проклятый Олёнок
+
+[misc.txt:4147] [EX] EN(18) -> RU(24) +6 (+33%)
+EN=Spectral Silk Belt
+RU=Призрачный Шёлковый Пояс
+
+[misc.txt:1672] [EX] EN(15) -> RU(20) +5 (+33%)
+EN=Chewed Armwraps
+RU=Изжёванные Наручники
+
+[items_lore.txt:351] [EX] EN(39) -> RU(52) +13 (+33%)
+EN=Concentration comes as easily as breath
+RU=Сосредоточенность приходит так же легко, как дыхание
+
+[items_lore.txt:741] [EX] EN(12) -> RU(16) +4 (+33%)
+EN=Ghostly Bone
+RU=Призрачная Кость
+
+[simplayer_chat.txt:2263] [EX] EN(18) -> RU(24) +6 (+33%)
+EN=Hey hehe let's xp!
+RU=Привет хехе давай экспу!
+
+[misc.txt:314] [EX] EN(12) -> RU(16) +4 (+33%)
+EN=Malaroth Cub
+RU=Детёныш Маларота
+
+[simplayer_chat.txt:3296] [EX] EN(12) -> RU(16) +4 (+33%)
+EN=You BACKSTAB
+RU=Вы БЬЁТЕ В СПИНУ
+
+[misc.txt:3659] [EX] EN(15) -> RU(20) +5 (+33%)
+EN=Wardwarped Cape
+RU=Рунноискажённый Плащ
+
+[misc.txt:3658] [EX] EN(12) -> RU(16) +4 (+33%)
+EN=Warded Brace
+RU=Защищённый Наруч
+
+[misc.txt:5777] [EX] EN(15) -> RU(20) +5 (+33%)
+EN=FernallaIntro 2
+RU=ВступлениеФерналлы 2
+
+[items_lore.txt:1236] [EX] EN(12) -> RU(16) +4 (+33%)
+EN=Vithean Brew
+RU=Витеанское Зелье
+
+[misc.txt:3679] [EX] EN(15) -> RU(20) +5 (+33%)
+EN=Ogre Tooth Club
+RU=Дубинка из Зуба Огра
+
+[misc.txt:748] [EX] EN(18) -> RU(24) +6 (+33%)
+EN=A Protected Memory
+RU=Сохранённое Воспоминание
+
+[misc.txt:5776] [EX] EN(15) -> RU(20) +5 (+33%)
+EN=FernallaIntro 1
+RU=ВступлениеФерналлы 1
+
+[simplayer_chat.txt:665] [EX] EN(9) -> RU(12) +3 (+33%)
+EN=what band
+RU=какая группа
+
+[simplayer_chat.txt:316] [EX] EN(15) -> RU(20) +5 (+33%)
+EN=you still suck!
+RU=ты всё равно отстой!
+
+[misc.txt:4494] [EX] EN(12) -> RU(16) +4 (+33%)
+EN=Decayed Ring
+RU=Истлевшее Кольцо
+
+[misc.txt:5779] [EX] EN(15) -> RU(20) +5 (+33%)
+EN=FernallaIntro 4
+RU=ВступлениеФерналлы 4
+
+[misc.txt:1103] [EX] EN(21) -> RU(28) +7 (+33%)
+EN=A level 2 fuel source
+RU=Источник топлива 2-го уровня
+
+[misc.txt:2818] [EX] EN(24) -> RU(32) +8 (+33%)
+EN=HEAD - 31 - Blessed Helm
+RU=HEAD - 31 - Благословлённый Шлем
+
+[misc.txt:1102] [EX] EN(21) -> RU(28) +7 (+33%)
+EN=A level 1 fuel source
+RU=Источник топлива 1-го уровня
+
+[ui_system.txt:120] [EX] EN(6) -> RU(8) +2 (+33%)
+EN=Wisdom
+RU=Мудрость
+
+[misc.txt:2206] [EX] EN(15) -> RU(20) +5 (+33%)
+EN=Double Backstab
+RU=Двойной Удар в Спину
+
+[simplayer_chat.txt:790] [EX] EN(6) -> RU(8) +2 (+33%)
+EN=Albino
+RU=Альбинос
+
+[misc.txt:5778] [EX] EN(15) -> RU(20) +5 (+33%)
+EN=FernallaIntro 3
+RU=ВступлениеФерналлы 3
+
+[simplayer_chat.txt:788] [EX] EN(18) -> RU(24) +6 (+33%)
+EN=Aeiros is so hard.
+RU=Аэйрос ну очень сложный.
+
+[skills_spells.txt:279] [EX] EN(18) -> RU(24) +6 (+33%)
+EN=DRU - Internal Rot
+RU=DRU - Внутреннее Гниение
+
+[ui_system.txt:959] [SUB] EN(12) -> RU(16) +4 (+33%)
+EN=Void Resist 
+RU=Пустот. сопрот. 
+
+[simplayer_chat.txt:744] [EX] EN(18) -> RU(24) +6 (+33%)
+EN=stormcaller spells
+RU=заклинания буревестников
+
+[simplayer_chat.txt:2668] [EX] EN(18) -> RU(24) +6 (+33%)
+EN=Kilkay's Questline
+RU=Квестовая цепочка Килкея
+
+[misc.txt:4250] [EX] EN(21) -> RU(28) +7 (+33%)
+EN=Hardened Scale Jacket
+RU=Закалённая Чешуйчатая Куртка
+
+[misc.txt:2324] [EX] EN(12) -> RU(16) +4 (+33%)
+EN=Dusken Staff
+RU=Сумеречный Посох
+
+[ui_system.txt:156] [EX] EN(6) -> RU(8) +2 (+33%)
+EN=Ring 1
+RU=Кольцо 1
+
+[misc.txt:3410] [EX] EN(15) -> RU(20) +5 (+33%)
+EN=NONE - Ice Bite
+RU=ОБЩИЙ — Ледяной Укус
+
+[simplayer_chat.txt:52] [EX] EN(9) -> RU(12) +3 (+33%)
+EN=Dang, ok.
+RU=Блин, ладно.
+
+[simplayer_chat.txt:765] [EX] EN(15) -> RU(20) +5 (+33%)
+EN=windblade guild
+RU=гильдия ветроклинков
+
+[ui_system.txt:146] [EX] EN(6) -> RU(8) +2 (+33%)
+EN=Poison
+RU=Ядовитый
+
+[skills_spells.txt:249] [EX] EN(12) -> RU(16) +4 (+33%)
+EN=ARC - Dazzle
+RU=ARC - Ослепление
+
+[misc.txt:2962] [EX] EN(39) -> RU(52) +13 (+33%)
+EN=Heal a major amount of damage over time
+RU=Исцеляет значительный объём урона с течением времени
+
+[misc.txt:360] [EX] EN(12) -> RU(16) +4 (+33%)
+EN=Priel Gifted
+RU=Одарённый Приэль
+
+[simplayer_chat.txt:735] [EX] EN(12) -> RU(16) +4 (+33%)
+EN=reaver guild
+RU=гильдия рейверов
+
+[misc.txt:361] [EX] EN(15) -> RU(20) +5 (+33%)
+EN=Priel Grimwatch
+RU=Мрачный Дозор Приэль
+
+[simplayer_chat.txt:2599] [EX] EN(9) -> RU(12) +3 (+33%)
+EN=XP after!
+RU=Экспа потом!
+
+[misc.txt:2350] [EX] EN(15) -> RU(20) +5 (+33%)
+EN=Flame Well Seed
+RU=Семя Колодца Пламени
+
+[items_lore.txt:1090] [EX] EN(18) -> RU(24) +6 (+33%)
+EN=Rotten Chain Tunic
+RU=Гнилая Кольчужная Туника
+
+[misc.txt:4245] [EX] EN(18) -> RU(24) +6 (+33%)
+EN=Rotten Chain Tunic
+RU=Гнилая Кольчужная Туника
+
+[misc.txt:1789] [EX] EN(18) -> RU(24) +6 (+33%)
+EN=Silver Satin Cloak
+RU=Серебряный Атласный Плащ
+
+[simplayer_chat.txt:1398] [EX] EN(9) -> RU(12) +3 (+33%)
+EN=Rain ring
+RU=Кольцо дождя
+
+[misc.txt:424] [EX] EN(21) -> RU(28) +7 (+33%)
+EN=Spectral Castle Guard
+RU=Призрачный Замковый Стражник
+
+[misc.txt:4153] [EX] EN(12) -> RU(16) +4 (+33%)
+EN=Ghostly Sash
+RU=Призрачный Кушак
+
+[misc.txt:3579] [EX] EN(21) -> RU(28) +7 (+33%)
+EN=WEAP - 7 - Molora Axe
+RU=WEAP - 7 - Молорайский Топор
+
+[misc.txt:1715] [EX] EN(12) -> RU(16) +4 (+33%)
+EN=Golden Shell
+RU=Золотая Раковина
+
+[ui_system.txt:982] [SUB] EN(9) -> RU(12) +3 (+33%)
+EN=Aura Item
+RU=Предмет-аура
+
+[misc.txt:438] [EX] EN(27) -> RU(36) +9 (+33%)
+EN=Summoned Azynthian Warhound
+RU=Призванная Азинтийская Боевая Гончая
+
+[misc.txt:4717] [EX] EN(24) -> RU(32) +8 (+33%)
+EN=Unlit Nighthollow Candle
+RU=Незажжённая Ночнопустотная Свеча
+
+[misc.txt:5292] [EX] EN(27) -> RU(36) +9 (+33%)
+EN=Just the ogrespice, please.
+RU=Только огриные пряности, пожалуйста.
+
+[items_lore.txt:1191] [EX] EN(9) -> RU(12) +3 (+33%)
+EN=Corruptor
+RU=Осквернитель
+
+[misc.txt:4627] [EX] EN(21) -> RU(28) +7 (+33%)
+EN=BOW - 6 - Rotwood Bow
+RU=BOW - 6 - Гнилодревесный Лук
+
+[misc.txt:5200] [EX] EN(27) -> RU(36) +9 (+33%)
+EN=One-time usable in a forge.
+RU=Одноразовое использование в кузнице.
+
+[simplayer_chat.txt:1426] [EX] EN(21) -> RU(28) +7 (+33%)
+EN=Saw GM Burgee run by!
+RU=Видел как ГМ Берги пробежал!
+
+[misc.txt:1742] [EX] EN(12) -> RU(16) +4 (+33%)
+EN=Leaf Scepter
+RU=Листовой Скипетр
+
+[ui_system.txt:157] [EX] EN(6) -> RU(8) +2 (+33%)
+EN=Ring 2
+RU=Кольцо 2
+
+[items_lore.txt:1081] [EX] EN(21) -> RU(28) +7 (+33%)
+EN=Hardened Scale Jacket
+RU=Закалённая Чешуйчатая Куртка
+
+[misc.txt:2434] [EX] EN(21) -> RU(28) +7 (+33%)
+EN=DRU - Regrowth (Cast)
+RU=ДРУИ — Восстановление (Каст)
+
+[skills_spells.txt:287] [EX] EN(24) -> RU(32) +8 (+33%)
+EN=DRU - Summon Cursed Fawn
+RU=DRU - Призыв Проклятого Оленёнка
+
+[simplayer_chat.txt:717] [EX] EN(12) -> RU(16) +4 (+33%)
+EN=druid seller
+RU=продавец друидов
+
+[simplayer_chat.txt:2378] [EX] EN(15) -> RU(20) +5 (+33%)
+EN=Join <LEGENDS>!
+RU=Вступай в <LEGENDS>!
+
+[misc.txt:1733] [EX] EN(15) -> RU(20) +5 (+33%)
+EN=Iron Plate Belt
+RU=Железный Латный Пояс
+
+[misc.txt:577] [EX] EN(15) -> RU(20) +5 (+33%)
+EN=Brax smite you!
+RU=Бракс тебя покарает!
+
+[simplayer_chat.txt:3010] [EX] EN(9) -> RU(12) +3 (+33%)
+EN=i like it
+RU=мне нравится
+
+[misc.txt:473] [EX] EN(18) -> RU(24) +6 (+33%)
+EN=Wild Ancestral Dog
+RU=Дикий Наследственный Пёс
+
+[items_lore.txt:938] [EX] EN(12) -> RU(16) +4 (+33%)
+EN=Decayed Ring
+RU=Истлевшее Кольцо
+
+[ui_system.txt:494] [SUB] EN(12) -> RU(16) +4 (+33%)
+EN=Last login: 
+RU=Последний вход: 
+
+[misc.txt:1554] [EX] EN(12) -> RU(16) +4 (+33%)
+EN=Music Volume
+RU=Громкость Музыки
+
+[ui_system.txt:939] [SUB] EN(12) -> RU(16) +4 (+33%)
+EN=Group Effect
+RU=Групповой эффект
+
+[misc.txt:673] [EX] EN(24) -> RU(32) +8 (+33%)
+EN=You'll be Malaroth food!
+RU=Ты станешь кормом для Маларотов!
+
+[simplayer_chat.txt:961] [EX] EN(9) -> RU(12) +3 (+33%)
+EN=Food Bowl
+RU=Миска с Едой
+
+[misc.txt:3219] [EX] EN(18) -> RU(24) +6 (+33%)
+EN=Polished Longsword
+RU=Полированный Длинный Меч
+
+[misc.txt:5646] [EX] EN(9) -> RU(12) +3 (+33%)
+EN=goings-on
+RU=происходящее
+
+[misc.txt:2147] [EX] EN(12) -> RU(16) +4 (+33%)
+EN=Dainty Mitts
+RU=Изящные Рукавицы
+
+[items_lore.txt:800] [EX] EN(15) -> RU(20) +5 (+33%)
+EN=Eldrich Crystal
+RU=Элдрический Кристалл
+
+[misc.txt:5644] [EX] EN(6) -> RU(8) +2 (+33%)
+EN=Gamey.
+RU=Игровой.
+
+[misc.txt:2679] [EX] EN(24) -> RU(32) +8 (+33%)
+EN=GLOVE - 18 - Runed Mitts
+RU=GLOVE - 18 - Рунические Рукавицы
+
+[items_lore.txt:841] [EX] EN(15) -> RU(20) +5 (+33%)
+EN=Sivakayan Intel
+RU=Разведданные Сивакаи
+
+[simplayer_chat.txt:1236] [EX] EN(12) -> RU(16) +4 (+33%)
+EN=invis failed
+RU=инвиз провалился
+
+[simplayer_chat.txt:2971] [EX] EN(12) -> RU(16) +4 (+33%)
+EN=Hi! :) NN :)
+RU=Привет! :) NN :)
+
+[misc.txt:4853] [EX] EN(15) -> RU(20) +5 (+33%)
+EN=begins to bleed
+RU=начинает кровоточить
+
+[simplayer_chat.txt:1017] [EX] EN(12) -> RU(16) +4 (+33%)
+EN=He's so bad.
+RU=Он такой плохой.
+
+[misc.txt:3929] [EX] EN(24) -> RU(32) +8 (+33%)
+EN=A well used leather cap.
+RU=Хорошо поношенная кожаная шапка.
+
+[misc.txt:3816] [EX] EN(30) -> RU(40) +10 (+33%)
+EN=They offer nothing but comfort
+RU=Они не предлагают ничего, кроме комфорта
+
+[misc.txt:3824] [EX] EN(18) -> RU(24) +6 (+33%)
+EN=They're so perfect
+RU=Они настолько совершенны
+
+[simplayer_chat.txt:983] [EX] EN(9) -> RU(12) +3 (+33%)
+EN=give item
+RU=дать предмет
+
+[simplayer_chat.txt:1957] [EX] EN(27) -> RU(36) +9 (+33%)
+EN=it's a rare off most undead
+RU=это редкий дроп с большинства нежити
+
+[simplayer_chat.txt:3232] [EX] EN(9) -> RU(12) +3 (+33%)
+EN=thx info.
+RU=спс за инфо.
+
+[misc.txt:3967] [EX] EN(15) -> RU(20) +5 (+33%)
+EN=winces in pain.
+RU=вздрагивает от боли.
+
+[misc.txt:1546] [EX] EN(27) -> RU(36) +9 (+33%)
+EN=High Quality Rain Collision
+RU=Столкновения Дождя Высокого Качества
+
+[items_lore.txt:904] [EX] EN(18) -> RU(24) +6 (+33%)
+EN=Pg. 7: Faded Entry
+RU=Стр. 7: Выцветшая Запись
+
+[misc.txt:4488] [EX] EN(18) -> RU(24) +6 (+33%)
+EN=Ring of Magic Bolt
+RU=Кольцо Магической Стрелы
+
+[misc.txt:3689] [EX] EN(18) -> RU(24) +6 (+33%)
+EN=Silver Satin Cloak
+RU=Серебряный Атласный Плащ
+
+[misc.txt:452] [EX] EN(12) -> RU(16) +4 (+33%)
+EN=Swamp Nettle
+RU=Болотная Крапива
+
+[items_lore.txt:900] [EX] EN(18) -> RU(24) +6 (+33%)
+EN=Pg. 3: Faded Entry
+RU=Стр. 3: Выцветшая Запись
+
+[items_lore.txt:902] [EX] EN(18) -> RU(24) +6 (+33%)
+EN=Pg. 5: Faded Entry
+RU=Стр. 5: Выцветшая Запись
+
+[misc.txt:2099] [EX] EN(15) -> RU(20) +5 (+33%)
+EN=Braxonian Mitts
+RU=Браксонские Рукавицы
+
+[misc.txt:4898] [EX] EN(15) -> RU(20) +5 (+33%)
+EN=GEN - Belt Lamp
+RU=GEN - Поясной Фонарь
+
+[items_lore.txt:899] [EX] EN(18) -> RU(24) +6 (+33%)
+EN=Pg. 2: Faded Entry
+RU=Стр. 2: Выцветшая Запись
+
+[misc.txt:6544] [EX] EN(12) -> RU(16) +4 (+33%)
+EN=Vithean Wind
+RU=Витеанский Ветер
+
+[misc.txt:6543] [EX] EN(12) -> RU(16) +4 (+33%)
+EN=Vithean Gale
+RU=Витеанский Шквал
+
+[items_lore.txt:898] [EX] EN(18) -> RU(24) +6 (+33%)
+EN=Pg. 1: Faded Entry
+RU=Стр. 1: Выцветшая Запись
+
+[misc.txt:1158] [EX] EN(21) -> RU(28) +7 (+33%)
+EN=Skill Book: Dodge III
+RU=Книга Навыков: Уклонение III
+
+[misc.txt:1141] [EX] EN(27) -> RU(36) +9 (+33%)
+EN=Skill Book: Arcane Recovery
+RU=Книга Навыков: Тайное Восстановление
+
+[misc.txt:2546] [EX] EN(21) -> RU(28) +7 (+33%)
+EN=feels a sense of doom
+RU=ощущает чувство обречённости
+
+[ui_system.txt:684] [SUB] EN(12) -> RU(16) +4 (+33%)
+EN=Found item: 
+RU=Найден предмет: 
+
+[simplayer_chat.txt:2914] [EX] EN(30) -> RU(40) +10 (+33%)
+EN=Friends club membership is BIS
+RU=Членство в Friends Club — лучшее в слоте
+
+[items_lore.txt:903] [EX] EN(18) -> RU(24) +6 (+33%)
+EN=Pg. 6: Faded Entry
+RU=Стр. 6: Выцветшая Запись
+
+[misc.txt:261] [EX] EN(12) -> RU(16) +4 (+33%)
+EN=Crypt Keeper
+RU=Хранитель Склепа
+
+[items_lore.txt:901] [EX] EN(18) -> RU(24) +6 (+33%)
+EN=Pg. 4: Faded Entry
+RU=Стр. 4: Выцветшая Запись
+
+[ui_system.txt:180] [EX] EN(3) -> RU(4) +1 (+33%)
+EN=ON!
+RU=ВКЛ!
+
+[misc.txt:5528] [EX] EN(39) -> RU(52) +13 (+33%)
+EN=-Lowered nearly all Arcanist cast times
+RU=-Уменьшено время каста почти всех заклинаний Чародея
+
+[ui_system.txt:900] [SUB] EN(6) -> RU(8) +2 (+33%)
+EN=Found 
+RU=Найдено 
+
+[misc.txt:2750] [EX] EN(9) -> RU(12) +3 (+33%)
+EN=Nightwave
+RU=Ночная Волна
+
+[misc.txt:1255] [EX] EN(21) -> RU(28) +7 (+33%)
+EN=NEC - Summon Warhound
+RU=НЕК — Призвать Боевую Гончую
+
+[misc.txt:2431] [EX] EN(25) -> RU(33) +8 (+32%)
+EN=DRU - Major Group Healing
+RU=ДРУИ — Мощное Групповое Исцеление
+
+[misc.txt:4183] [EX] EN(25) -> RU(33) +8 (+32%)
+EN=CHEST - 10 - Linked Chain
+RU=CHEST - 10 - Соединённая Кольчуга
+
+[misc.txt:4863] [EX] EN(25) -> RU(33) +8 (+32%)
+EN=GEN  - Stowaway Dock Pass
+RU=GEN  - Пропуск на Причал Стоуэвей
+
+[misc.txt:1231] [EX] EN(22) -> RU(29) +7 (+32%)
+EN=SKILLBOOK - Dual Wield
+RU=КНИГА НАВЫКОВ — Двуручный Бой
+
+[misc.txt:4454] [EX] EN(22) -> RU(29) +7 (+32%)
+EN=Flawless Sapphire Ring
+RU=Безупречное Сапфировое Кольцо
+
+[ui_system.txt:261] [EX] EN(25) -> RU(33) +8 (+32%)
+EN=Price cannot be negative.
+RU=Цена не может быть отрицательной.
+
+[misc.txt:3921] [EX] EN(28) -> RU(37) +9 (+32%)
+EN=A standard Sivakayan War Axe
+RU=Стандартный Сивакаянский Боевой Топор
+
+[misc.txt:1779] [EX] EN(19) -> RU(25) +6 (+32%)
+EN=Royal Plate Greaves
+RU=Королевские Латные Поножи
+
+[misc.txt:2990] [EX] EN(37) -> RU(49) +12 (+32%)
+EN=Increase attack speed and move speed.
+RU=Увеличить скорость атаки и скорость передвижения.
+
+[misc.txt:401] [EX] EN(19) -> RU(25) +6 (+32%)
+EN=Sivakayan Bodyguard
+RU=Телохранитель Сивакаянцев
+
+[misc.txt:1008] [EX] EN(19) -> RU(25) +6 (+32%)
+EN=KEY - Reliquary Key
+RU=КЛЮЧ — Ключ от Реликвария
+
+[misc.txt:4202] [EX] EN(38) -> RU(50) +12 (+32%)
+EN=CHEST - 25 - Sivakayan Ceremonial Garb
+RU=CHEST - 25 - Сивакаянское Церемониальное Облачение
+
+[misc.txt:2084] [EX] EN(19) -> RU(25) +6 (+32%)
+EN=Bonebanded Armguard
+RU=Наруч с Костяной Обвязкой
+
+[misc.txt:2699] [EX] EN(31) -> RU(41) +10 (+32%)
+EN=GLOVE - 5 - Daggersilk Gloves 1
+RU=GLOVE - 5 - Кинжально-Шёлковые Перчатки 1
+
+[misc.txt:4237] [EX] EN(22) -> RU(29) +7 (+32%)
+EN=Bronzed Solunian Plate
+RU=Бронзовый Солунианский Доспех
+
+[misc.txt:1875] [EX] EN(38) -> RU(50) +12 (+32%)
+EN=A poison based damage over time spell.
+RU=Заклинание яда, наносящее урон с течением времени.
+
+[ui_system.txt:725] [SUB] EN(19) -> RU(25) +6 (+32%)
+EN=Get closer to shop!
+RU=Подойди к магазину ближе!
+
+[misc.txt:2436] [EX] EN(25) -> RU(33) +8 (+32%)
+EN=DRU - Summon Decayed Fawn
+RU=ДРУИ — Призыв Истлевшего Оленёнка
+
+[misc.txt:1179] [EX] EN(22) -> RU(29) +7 (+32%)
+EN=Skill Book: Trick Shot
+RU=Книга Навыков: Хитрый Выстрел
+
+[misc.txt:2568] [EX] EN(31) -> RU(41) +10 (+32%)
+EN=feels their blood become toxic.
+RU=чувствует, как кровь становится ядовитой.
+
+[misc.txt:1682] [EX] EN(22) -> RU(29) +7 (+32%)
+EN=Cursed Sivakayan Blade
+RU=Проклятый Сивакаянский Клинок
+
+[ui_system.txt:312] [EX] EN(22) -> RU(29) +7 (+32%)
+EN=No empty seller slots.
+RU=Нет свободных ячеек продавца.
+
+[items_lore.txt:164] [EX] EN(19) -> RU(25) +6 (+32%)
+EN=An off sea creature
+RU=Странное морское существо
+
+[misc.txt:1660] [EX] EN(19) -> RU(25) +6 (+32%)
+EN=Bonebanded Armguard
+RU=Наруч с Костяной Обвязкой
+
+[misc.txt:2799] [EX] EN(28) -> RU(37) +9 (+32%)
+EN=HEAD - 18 - Albino Bear Hood
+RU=HEAD - 18 - Капюшон Медведя-Альбиноса
+
+[misc.txt:4490] [EX] EN(19) -> RU(25) +6 (+32%)
+EN=Fiery Sapphire Ring
+RU=Огненно-Сапфировое Кольцо
+
+[misc.txt:4106] [EX] EN(22) -> RU(29) +7 (+32%)
+EN=BELT - 2- Metal Girdle
+RU=BELT - 2- Металлический Кушак
+
+[items_lore.txt:945] [EX] EN(22) -> RU(29) +7 (+32%)
+EN=Flawless Sapphire Ring
+RU=Безупречное Сапфировое Кольцо
+
+[misc.txt:6448] [EX] EN(19) -> RU(25) +6 (+32%)
+EN=Wood Livingroom Set
+RU=Деревянный Набор Гостиной
+
+[misc.txt:6352] [EX] EN(22) -> RU(29) +7 (+32%)
+EN=Any clues are welcome!
+RU=Любые зацепки приветствуются!
+
+[misc.txt:2610] [EX] EN(25) -> RU(33) +8 (+32%)
+EN=FURNITURE - Wood Training
+RU=МЕБЕЛЬ — Деревянная Тренировочная
+
+[simplayer_chat.txt:1176] [EX] EN(25) -> RU(33) +8 (+32%)
+EN=I just saw a Sylvan Giant
+RU=Только что видел Лесного Великана
+
+[misc.txt:3018] [EX] EN(25) -> RU(33) +8 (+32%)
+EN=LEG - 24 - Linen Bedpants
+RU=LEG - 24 - Льняные Спальные Штаны
+
+[simplayer_chat.txt:1098] [EX] EN(19) -> RU(25) +6 (+32%)
+EN=how equip simplayer
+RU=как экипировать симплеера
+
+[misc.txt:1699] [EX] EN(19) -> RU(25) +6 (+32%)
+EN=Engraved Plate Belt
+RU=Гравированный Латный Пояс
+
+[misc.txt:4944] [EX] EN(22) -> RU(29) +7 (+32%)
+EN=GEN - Elderstone Shard
+RU=GEN - Осколок Камня Старейшин
+
+[ui_system.txt:752] [SUB] EN(16) -> RU(21) +5 (+31%)
+EN=No active effect
+RU=Нет активного эффекта
+
+[misc.txt:4484] [EX] EN(16) -> RU(21) +5 (+31%)
+EN=Sivakaya's Touch
+RU=Прикосновение Сивакаи
+
+[misc.txt:2210] [EX] EN(32) -> RU(42) +10 (+31%)
+EN=Briefly stuns all nearby targets
+RU=Кратковременно оглушает все ближайшие цели
+
+[items_lore.txt:946] [EX] EN(16) -> RU(21) +5 (+31%)
+EN=Frozen Lava Ring
+RU=Кольцо Застывшей Лавы
+
+[misc.txt:3239] [EX] EN(13) -> RU(17) +4 (+31%)
+EN=Red Leaf Cape
+RU=Краснолистый Плащ
+
+[simplayer_chat.txt:2245] [EX] EN(13) -> RU(17) +4 (+31%)
+EN=Good day all!
+RU=Добрый день всем!
+
+[misc.txt:5391] [EX] EN(16) -> RU(21) +5 (+31%)
+EN=Split Stack (1):
+RU=Разделить Стопку (1):
+
+[simplayer_chat.txt:1447] [EX] EN(16) -> RU(21) +5 (+31%)
+EN=silkengrass rare
+RU=рарник шёлковой травы
+
+[misc.txt:5682] [EX] EN(51) -> RU(67) +16 (+31%)
+EN=a.) Most items that seemed like Wands are now wands
+RU=а) Большинство предметов, похожих на жезлы, теперь официально жезлы
+
+[misc.txt:4445] [EX] EN(13) -> RU(17) +4 (+31%)
+EN=Shielded Ring
+RU=Защищённое Кольцо
+
+[items_lore.txt:780] [EX] EN(13) -> RU(17) +4 (+31%)
+EN=A Rolled Note
+RU=Свёрнутая Записка
+
+[misc.txt:2116] [EX] EN(13) -> RU(17) +4 (+31%)
+EN=Charred Boots
+RU=Обугленные Сапоги
+
+[misc.txt:4647] [EX] EN(13) -> RU(17) +4 (+31%)
+EN=Whitewood Bow
+RU=Белодревесный Лук
+
+[misc.txt:1990] [EX] EN(16) -> RU(21) +5 (+31%)
+EN=Blackflame Torch
+RU=Факел Чёрного Пламени
+
+[misc.txt:3036] [EX] EN(26) -> RU(34) +8 (+31%)
+EN=LEG - 5 - Daggersilk Pants
+RU=LEG - 5 - Кинжально-Шёлковые Штаны
+
+[items_lore.txt:731] [EX] EN(13) -> RU(17) +4 (+31%)
+EN=Citrine Stone
+RU=Цитриновый Камень
+
+[misc.txt:4302] [EX] EN(26) -> RU(34) +8 (+31%)
+EN=NECK - 26 - Lover's Locket
+RU=NECK - 26 - Медальон Возлюбленного
+
+[misc.txt:5633] [EX] EN(13) -> RU(17) +4 (+31%)
+EN=Chant Control
+RU=Управление Чантом
+
+[items_lore.txt:704] [EX] EN(13) -> RU(17) +4 (+31%)
+EN=Malaroth Feed
+RU=Корм для Маларота
+
+[misc.txt:3376] [EX] EN(16) -> RU(21) +5 (+31%)
+EN=REAV - Void Bolt
+RU=РЕЙВ — Стрела Пустоты
+
+[misc.txt:3377] [EX] EN(16) -> RU(21) +5 (+31%)
+EN=REAV - Void Rend
+RU=РЕЙВ — Разрыв Пустоты
+
+[simplayer_chat.txt:2314] [EX] EN(36) -> RU(47) +11 (+31%)
+EN=I feel the need. The need for SPEED!
+RU=Я чувствую потребность. Потребность в СКОРОСТИ!
+
+[simplayer_chat.txt:2167] [EX] EN(16) -> RU(21) +5 (+31%)
+EN=Call in sick lol
+RU=Возьми больничный лол
+
+[misc.txt:3267] [EX] EN(13) -> RU(17) +4 (+31%)
+EN=Silent String
+RU=Безмолвная Струна
+
+[misc.txt:5136] [EX] EN(16) -> RU(21) +5 (+31%)
+EN=NONE - Lava Coat
+RU=NONE - Лавовый Покров
+
+[misc.txt:5539] [EX] EN(48) -> RU(63) +15 (+31%)
+EN=-New spell tooltips (on items and in spell book)
+RU=-Новые подсказки заклинаний (на предметах и в книге заклинаний)
+
+[misc.txt:4472] [EX] EN(16) -> RU(21) +5 (+31%)
+EN=Frozen Lava Ring
+RU=Кольцо Застывшей Лавы
+
+[simplayer_chat.txt:721] [EX] EN(13) -> RU(17) +4 (+31%)
+EN=duelist guild
+RU=гильдия дуэлянтов
+
+[simplayer_chat.txt:726] [EX] EN(13) -> RU(17) +4 (+31%)
+EN=Paladin guild
+RU=гильдия паладинов
+
+[simplayer_chat.txt:508] [EX] EN(51) -> RU(67) +16 (+31%)
+EN=If stupidity was a talent tree, you'd be maxed out.
+RU=Если бы тупость была деревом талантов, ты бы его прокачал до макса.
+
+[misc.txt:4758] [EX] EN(16) -> RU(21) +5 (+31%)
+EN=CONS - Swampbomb
+RU=CONS - Болотная Бомба
+
+[misc.txt:3611] [EX] EN(32) -> RU(42) +10 (+31%)
+EN=WRIST - 28 - Blighted Silk Wraps
+RU=WRIST - 28 - Осквернённые Шёлковые Обмотки
+
+[misc.txt:1076] [EX] EN(16) -> RU(21) +5 (+31%)
+EN=ORE - Bronze Ore
+RU=РУДА — Бронзовая Руда
+
+[misc.txt:3648] [EX] EN(16) -> RU(21) +5 (+31%)
+EN=Thin Cloth Shoes
+RU=Тонкие Тканые Башмаки
+
+[misc.txt:311] [EX] EN(13) -> RU(17) +4 (+31%)
+EN=Lullaby Fiend
+RU=Колыбельная Тварь
+
+[misc.txt:3661] [EX] EN(13) -> RU(17) +4 (+31%)
+EN=Watchers Lens
+RU=Линза Наблюдателя
+
+[misc.txt:4785] [EX] EN(16) -> RU(21) +5 (+31%)
+EN=Stance: Taunting
+RU=Стойка: Провоцирующая
+
+[simplayer_chat.txt:777] [EX] EN(13) -> RU(17) +4 (+31%)
+EN=A Lost Portal
+RU=Потерянный Портал
+
+[misc.txt:1712] [EX] EN(16) -> RU(21) +5 (+31%)
+EN=Giant's Shortbow
+RU=Короткий Лук Великана
+
+[simplayer_chat.txt:768] [EX] EN(16) -> RU(21) +5 (+31%)
+EN=windblade vendor
+RU=торговец ветроклинков
+
+[simplayer_chat.txt:1428] [EX] EN(13) -> RU(17) +4 (+31%)
+EN=saw invisible
+RU=видит невидимость
+
+[ui_system.txt:980] [SUB] EN(16) -> RU(21) +5 (+31%)
+EN=Class modifiers:
+RU=Модификаторы классов:
+
+[simplayer_chat.txt:2802] [EX] EN(42) -> RU(55) +13 (+31%)
+EN=I'd do Azynthi or Jaws or Prielian Cascade
+RU=Я бы шёл в Азинтию или Челюсти, или Приэлианский Каскад
+
+[items_lore.txt:1202] [EX] EN(13) -> RU(17) +4 (+31%)
+EN=Unborn Phobia
+RU=Нерождённая Фобия
+
+[items_lore.txt:1199] [EX] EN(16) -> RU(21) +5 (+31%)
+EN=Sivakaya's Touch
+RU=Прикосновение Сивакаи
+
+[misc.txt:3962] [EX] EN(13) -> RU(17) +4 (+31%)
+EN=looks frantic
+RU=выглядит в панике
+
+[misc.txt:4988] [EX] EN(16) -> RU(21) +5 (+31%)
+EN=GEN - Lost Faith
+RU=GEN - Утраченная Вера
+
+[simplayer_chat.txt:932] [EX] EN(13) -> RU(17) +4 (+31%)
+EN=dusken portal
+RU=сумеречный портал
+
+[simplayer_chat.txt:1082] [EX] EN(13) -> RU(17) +4 (+31%)
+EN=how do i talk
+RU=как разговаривать
+
+[misc.txt:2646] [EX] EN(29) -> RU(38) +9 (+31%)
+EN=FOOT - 18 - Molorai Warstomps
+RU=FOOT - 18 - Молорайские Боевые Топтуны
+
+[quests.txt:35] [EX] EN(16) -> RU(21) +5 (+31%)
+EN=Charged Soul Gem
+RU=Заряженный камень душ
+
+[misc.txt:4929] [EX] EN(26) -> RU(34) +8 (+31%)
+EN=GEN - Crystallized Balance
+RU=GEN - Кристаллизованное Равновесие
+
+[misc.txt:3992] [EX] EN(13) -> RU(17) +4 (+31%)
+EN=SoulGem Posta
+RU=Камень Души Посты
+
+[misc.txt:81] [EX] EN(16) -> RU(21) +5 (+31%)
+EN=Azynthian Keeper
+RU=Азинтийский Хранитель
+
+[misc.txt:1142] [EX] EN(26) -> RU(34) +8 (+31%)
+EN=Skill Book: Arterial Razor
+RU=Книга Навыков: Артериальная Бритва
+
+[ui_system.txt:941] [SUB] EN(13) -> RU(17) +4 (+31%)
+EN=Charms Target
+RU=Зачаровывает цель
+
+[quests.txt:393] [EX] EN(13) -> RU(17) +4 (+31%)
+EN=Ember Acolyte
+RU=Тлеющий Послушник
+
+[misc.txt:1180] [EX] EN(26) -> RU(34) +8 (+31%)
+EN=Skill Book: Victor's Pride
+RU=Книга Навыков: Гордость Победителя
+
+[misc.txt:3703] [EX] EN(13) -> RU(17) +4 (+31%)
+EN=Stunning Bolt
+RU=Оглушающая Стрела
+
+[misc.txt:1169] [EX] EN(29) -> RU(38) +9 (+31%)
+EN=Skill Book: Melee Proficiency
+RU=Книга Навыков: Мастерство Ближнего Боя
+
+[simplayer_chat.txt:1446] [EX] EN(16) -> RU(21) +5 (+31%)
+EN=silkengrass cave
+RU=пещера шёлковой травы
+
+[items_lore.txt:1125] [EX] EN(16) -> RU(21) +5 (+31%)
+EN=Volcanic Sceptre
+RU=Вулканический Скипетр
+
+[misc.txt:1020] [EX] EN(13) -> RU(17) +4 (+31%)
+EN=Intricate Key
+RU=Замысловатый Ключ
+
+[misc.txt:4186] [EX] EN(29) -> RU(38) +9 (+31%)
+EN=CHEST - 13 - Spidersilk Shirt
+RU=CHEST - 13 - Рубашка из Паучьего Шёлка
+
+[misc.txt:4196] [EX] EN(29) -> RU(38) +9 (+31%)
+EN=CHEST - 20 - Battleworn Plate
+RU=CHEST - 20 - Боевой Потрёпанный Доспех
+
+[misc.txt:1766] [EX] EN(13) -> RU(17) +4 (+31%)
+EN=Phantom Blade
+RU=Призрачный Клинок
+
+[items_lore.txt:1118] [EX] EN(13) -> RU(17) +4 (+31%)
+EN=Eyestalk Wand
+RU=Жезл-Глазостебель
+
+[misc.txt:1790] [EX] EN(13) -> RU(17) +4 (+31%)
+EN=Sivakayan Ore
+RU=Сивакаянская Руда
+
+[misc.txt:1243] [EX] EN(26) -> RU(34) +8 (+31%)
+EN=SKILLBOOK - Reap and Renew
+RU=КНИГА НАВЫКОВ — Жатва и Обновление
+
+[simplayer_chat.txt:54] [EX] EN(16) -> RU(21) +5 (+31%)
+EN=dead come get me
+RU=мёртв, подберите меня
+
+[misc.txt:1006] [EX] EN(26) -> RU(34) +8 (+31%)
+EN=KEY - Krarkengard Bunk Key
+RU=КЛЮЧ — Ключ от Казармы Кракенгарда
+
+[simplayer_chat.txt:737] [EX] EN(13) -> RU(17) +4 (+31%)
+EN=reaver seller
+RU=продавец рейверов
+
+[misc.txt:1585] [EX] EN(20) -> RU(26) +6 (+30%)
+EN=:D Hi! Welcome back!
+RU=:D Привет! С возвращением!
+
+[misc.txt:3108] [EX] EN(23) -> RU(30) +7 (+30%)
+EN=PAL - Soluna's Blessing
+RU=ПАЛАДИН — Благословение Солуны
+
+[misc.txt:4996] [EX] EN(23) -> RU(30) +7 (+30%)
+EN=GEN - Malaroth Feed Bad
+RU=GEN - Плохой Корм для Маларота
+
+[quests.txt:161] [EX] EN(20) -> RU(26) +6 (+30%)
+EN=A Dying Wish, Part 1
+RU=Предсмертное желание, ч. 1
+
+[quests.txt:162] [EX] EN(20) -> RU(26) +6 (+30%)
+EN=A Dying Wish, Part 2
+RU=Предсмертное желание, ч. 2
+
+[misc.txt:5649] [EX] EN(20) -> RU(26) +6 (+30%)
+EN=Here are some fixes:
+RU=Вот некоторые исправления:
+
+[misc.txt:4902] [EX] EN(20) -> RU(26) +6 (+30%)
+EN=GEN - Blue Burnstone
+RU=GEN - Синий Горючий Камень
+
+[misc.txt:1566] [EX] EN(20) -> RU(26) +6 (+30%)
+EN=Show SimPlayer Names
+RU=Показывать имена SimPlayer
+
+[simplayer_chat.txt:877] [EX] EN(10) -> RU(13) +3 (+30%)
+EN=BraxScript
+RU=ПисаниеБракса
+
+[misc.txt:3666] [EX] EN(10) -> RU(13) +3 (+30%)
+EN=Wrath Wrap
+RU=Обмотка Гнева
+
+[skills_spells.txt:324] [EX] EN(20) -> RU(26) +6 (+30%)
+EN=STORM - Imbue Master
+RU=STORM - Мастер Зачарования
+
+[misc.txt:1630] [EX] EN(10) -> RU(13) +3 (+30%)
+EN=Aged Prism
+RU=Старая Призма
+
+[misc.txt:4211] [EX] EN(23) -> RU(30) +7 (+30%)
+EN=CHEST - 30 - Lichencoat
+RU=CHEST - 30 - Лишайниковый Плащ
+
+[misc.txt:2196] [EX] EN(10) -> RU(13) +3 (+30%)
+EN=Dark Haste
+RU=Тёмная Спешка
+
+[misc.txt:453] [EX] EN(10) -> RU(13) +3 (+30%)
+EN=Swamp Wyrm
+RU=Болотный Змей
+
+[simplayer_chat.txt:1465] [EX] EN(10) -> RU(13) +3 (+30%)
+EN=soluna sun
+RU=солуна солнце
+
+[misc.txt:4817] [EX] EN(10) -> RU(13) +3 (+30%)
+EN=Dual Wield
+RU=Двуручный Бой
+
+[simplayer_chat.txt:74] [EX] EN(10) -> RU(13) +3 (+30%)
+EN=get a life
+RU=займись делом
+
+[items_lore.txt:866] [EX] EN(23) -> RU(30) +7 (+30%)
+EN=Duskenlight Willow Seed
+RU=Семя Ивы Сумеречного Побережья
+
+[ui_system.txt:931] [SUB] EN(10) -> RU(13) +3 (+30%)
+EN=Cooldown: 
+RU=Перезарядка: 
+
+[quests.txt:163] [EX] EN(20) -> RU(26) +6 (+30%)
+EN=A Dying Wish, Part 3
+RU=Предсмертное желание, ч. 3
+
+[misc.txt:4913] [EX] EN(20) -> RU(26) +6 (+30%)
+EN=GEN - Broken Key Bow
+RU=GEN - Лук Сломанного Ключа
+
+[simplayer_chat.txt:2562] [EX] EN(10) -> RU(13) +3 (+30%)
+EN=u suck lol
+RU=ты отстой лол
+
+[items_lore.txt:35] [EX] EN(33) -> RU(43) +10 (+30%)
+EN=Worn by a once magnificent dragon
+RU=Принадлежал некогда величественному дракону
+
+[misc.txt:4914] [EX] EN(23) -> RU(30) +7 (+30%)
+EN=GEN - Candlekeeper Note
+RU=GEN - Записка Хранителя Свечей
+
+[quests.txt:48] [EX] EN(10) -> RU(13) +3 (+30%)
+EN=Loss Stone
+RU=Камень Утраты
+
+[quests.txt:164] [EX] EN(20) -> RU(26) +6 (+30%)
+EN=A Dying Wish, Part 4
+RU=Предсмертное желание, ч. 4
+
+[simplayer_chat.txt:3121] [EX] EN(10) -> RU(13) +3 (+30%)
+EN=No thanks.
+RU=Нет, спасибо.
+
+[misc.txt:1561] [EX] EN(10) -> RU(13) +3 (+30%)
+EN=SFX Volume
+RU=Громкость SFX
+
+[items_lore.txt:175] [EX] EN(30) -> RU(39) +9 (+30%)
+EN=Erenshor's most prized export.
+RU=Самый ценный экспортный товар Эреншора.
+
+[misc.txt:2150] [EX] EN(10) -> RU(13) +3 (+30%)
+EN=Demon Claw
+RU=Коготь Демона
+
+[misc.txt:1178] [EX] EN(27) -> RU(35) +8 (+30%)
+EN=Skill Book: Taunting Stance
+RU=Книга Навыков: Провоцирующая Стойка
+
+[ui_system.txt:923] [SUB] EN(10) -> RU(13) +3 (+30%)
+EN=Base DPS: 
+RU=Базовый ДПС: 
+
+[simplayer_chat.txt:475] [EX] EN(33) -> RU(43) +10 (+30%)
+EN=We didn't even need to stop much.
+RU=Нам даже почти не пришлось останавливаться.
+
+[misc.txt:3479] [EX] EN(23) -> RU(30) +7 (+30%)
+EN=Soluna's Solar Blessing
+RU=Солнечное Благословение Солуны
+
+[misc.txt:204] [EX] EN(10) -> RU(13) +3 (+30%)
+EN=A Seafiend
+RU=Морская Тварь
+
+[misc.txt:1211] [EX] EN(30) -> RU(39) +9 (+30%)
+EN=SKILLBOOK - Arcane Proficiency
+RU=КНИГА НАВЫКОВ — Мастерство Тайной Магии
+
+[items_lore.txt:1045] [EX] EN(20) -> RU(26) +6 (+30%)
+EN=Tarnished Steel Belt
+RU=Потускневший Стальной Пояс
+
+[misc.txt:4367] [EX] EN(23) -> RU(30) +7 (+30%)
+EN=RING - 14 - Gapped Ring
+RU=RING - 14 - Кольцо с Просветом
+
+[misc.txt:5327] [EX] EN(43) -> RU(56) +13 (+30%)
+EN=Then add this script to plant fear in bone.
+RU=Затем добавьте этот рецепт, чтоб посеять страх в костях.
+
+[simplayer_chat.txt:2273] [EX] EN(10) -> RU(13) +3 (+30%)
+EN=Hey NN! :)
+RU=Привет NN! :)
+
+[simplayer_chat.txt:3307] [EX] EN(10) -> RU(13) +3 (+30%)
+EN=You cleave
+RU=Вы рассекаете
+
+[misc.txt:5150] [EX] EN(23) -> RU(30) +7 (+30%)
+EN=QUEST - Bellwain Midday
+RU=QUEST - Беллвейн: Середина Дня
+
+[misc.txt:4141] [EX] EN(20) -> RU(26) +6 (+30%)
+EN=Molorai Utility Belt
+RU=Молорайский Служебный Пояс
+
+[misc.txt:1081] [EX] EN(10) -> RU(13) +3 (+30%)
+EN=ORE - Rock
+RU=РУДА — Камень
+
+[misc.txt:4764] [EX] EN(27) -> RU(35) +8 (+30%)
+EN=FISH - A Fanged Caveskimmer
+RU=FISH - Клыкастый Пещерный Скользень
+
+[misc.txt:4152] [EX] EN(20) -> RU(26) +6 (+30%)
+EN=Tarnished Steel Belt
+RU=Потускневший Стальной Пояс
+
+[misc.txt:2451] [EX] EN(23) -> RU(30) +7 (+30%)
+EN=DRU PAL - Minor Healing
+RU=ДРУИ ПАЛАДИН — Малое Исцеление
+
+[items_lore.txt:736] [EX] EN(20) -> RU(26) +6 (+30%)
+EN=Dusken Giant's Blood
+RU=Кровь Сумеречного Великана
+
+[misc.txt:5032] [EX] EN(20) -> RU(26) +6 (+30%)
+EN=GEN - Old Work Order
+RU=GEN - Старый Рабочий Наряд
+
+[misc.txt:1985] [EX] EN(10) -> RU(13) +3 (+30%)
+EN=Basic Pick
+RU=Обычная Кирка
+
+[simplayer_chat.txt:718] [EX] EN(10) -> RU(13) +3 (+30%)
+EN=druid shop
+RU=лавка друидов
+
+[misc.txt:2435] [EX] EN(23) -> RU(30) +7 (+30%)
+EN=DRU - Regrowth (Effect)
+RU=ДРУИ — Восстановление (Эффект)
+
+[misc.txt:2807] [EX] EN(30) -> RU(39) +9 (+30%)
+EN=HEAD - 25 - Lost Wizarding Cap
+RU=HEAD - 25 - Потерянная Колдовская Шапка
+
+[quests.txt:430] [EX] EN(10) -> RU(13) +3 (+30%)
+EN=Stone Bank
+RU=Каменный Банк
+
+[misc.txt:2419] [EX] EN(20) -> RU(26) +6 (+30%)
+EN=DRU - Cull the Unfit
+RU=ДРУИ — Выбраковка Негодных

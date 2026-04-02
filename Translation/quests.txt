@@ -1,0 +1,692 @@
+# ==============================================================
+# Erenshor — Русский перевод: Квесты (названия, описания, диалоги)
+# ==============================================================
+
+[EXACT]
+
+# --- Квестовые предметы: Bellwain ---
+Afternoon on the Isle=Полдень на острове
+Evening on the Isle=Вечер на острове
+Morning on the Isle=Утро на острове
+Mid Day on the Isle=Середина дня на острове
+Bellwain Attic Key=Ключ чердака Беллвейна
+A key to the Bellwain Estate's attic=Ключ от чердака усадьбы Беллвейна
+Bellwain Bathroom Key=Ключ от ванной Беллвейна
+A key to the Bellwain Estate's bathroom=Ключ от ванной комнаты усадьбы Беллвейна
+Bellwain's Master Key=Главный ключ Беллвейна
+A key to the Bellwain Estate's Study=Ключ от кабинета усадьбы Беллвейна
+Bellwain Bedroom Key=Ключ от спальни Беллвейна
+A key to a Bellwain Estate Bedroom=Ключ от спальни усадьбы Беллвейна
+Bellwain Study Key=Ключ кабинета Беллвейна
+Bellsie's Wine=Вино Белси
+A fine wine from Merosavilla, very aged and probably delicious.=Изысканное вино из Мерозавиллы, выдержанное и наверняка восхитительное.
+Detective Books=Детективные книги
+A collection of notes=Коллекция записок
+Drafty Baths=Сквозняк в ванной
+Eroding Rockwall=Разрушающаяся стена
+The Warning=Предупреждение
+Bellwain's Last Entry=Последняя запись Беллвейна
+The Flint=Кремень
+The Garden Song=Песня сада
+Relaxation=Отдых
+The Stash=Тайник
+The Sun Lilies =Солнечные лилии 
+The Recipe=Рецепт
+Charged Soul Gem=Заряженный камень душ
+Contains the soul of Aragath=Содержит душу Арагата
+Contains the soul of Leah.=Содержит душу Леи.
+Contains the soul of Posta=Содержит душу Посты
+Contains the soul of Revid=Содержит душу Ревида
+Contains the soul of Stalzo=Содержит душу Стальцо
+Empty Soul Gem=Пустой камень душ
+It trembles with a hunger beyond imagination=Дрожит от голода, неподвластного воображению
+Soul Gem=Камень душ
+A cold presence presses against the interior walls. It cries a name from time to time: "Leah..."=Холодное присутствие давит на стенки изнутри. Время от времени выкрикивает имя: «Леа...»
+It vibrates in your hands, and calls out a name: "Posta..."=Вибрирует в руках и взывает по имени: «Поста...»
+A thought twists within your mind as you hold it: "Revid..."=Мысль скручивается в разуме, пока держишь его: «Ревид...»
+A swirling entity dances about inside. It cries a name from time to time: "Stalzo..."=Вихревая сущность танцует внутри. Время от времени выкрикивает имя: «Стальцо...»
+Loss Stone=Камень Утраты
+It holds the all of the sadness that has been brought upon the world within it.=Хранит в себе всю печаль, что обрушилась на этот мир.
+Rainbow Flint=Радужный кремень
+It sparks a different color, depending on where you strike it. It's powerful enough to light something as large as a torch.=Высекает искру разного цвета в зависимости от того, куда ударишь. Достаточно мощный, чтобы зажечь факел.
+Vithean Brick=Витейский кирпич
+Stones from Vitheo's Rest, likely used during construction of the tomb.=Камни из Покоев Витео, по всей видимости, использовались при строительстве гробницы.
+Azure Loyalty Medal =Медаль верности Азуру 
+It has no magical properties, it's just a plain old medal from Port Azure=Не обладает магическими свойствами — просто обычная медаль из Порт-Азура
+Seemingly a lost piece to an age old game.=Похоже, потерянная фигура из древней игры.
+A small statuette with a worn felt bottom as though its been slid to and fro. =Маленькая статуэтка со стёртым фетровым основанием, будто её двигали туда-сюда. 
+Seemingly a piece to a lost game...=Похоже, фигура из утерянной игры...
+
+# --- Квесты: Названия и описания ---
+A Cat for a Deer=Кот за оленя
+You gave a tiny statue of a talking cat to a ghostly talking deer in a dream, and the deer gave you a nightmare. =Ты отдал статуэтку говорящего кота призрачному говорящему оленю во сне, и олень подарил тебе кошмар. 
+Why color me impressed, you've done it! Fantastic! I will give you a trinket to remember this night by. =Ого, я впечатлён, ты справился! Фантастика! Дам тебе безделушку на память об этой ночи. 
+No thank you I have one already!=Спасибо, не надо, у меня уже есть!
+
+A Hermit's Request=Просьба отшельника
+An old Hermit in Fernalla's Field has asked you to recover an old toolbox from a group of bandits who are passing through the area. =Старый отшельник на Поле Ферналлы попросил вас вернуть старый ящик с инструментами у банды разбойников, проходящих через район. 
+Praise all, the lock has stood firm!  *The Hermit produces a key and unlocks the box, before handing you its contents.*  He says: "See that this finds its way." =Хвала всему, замок выдержал! *Отшельник достаёт ключ, отпирает ящик и передаёт вам содержимое.* Он говорит: «Проследи, чтобы это дошло по назначению.» 
+What sorcery is this... that is not mine! I have mine here!=Что за колдовство... это не мой! Мой при мне!
+
+A Hidden Cause=Скрытое дело
+There is a group of people hidden underneath Port Azure near the docks. A spoken password is required for safe entry - it's "Shadowtide".=Под Порт-Азуром у доков скрывается группа людей. Для безопасного входа нужен пароль — «Shadowtide».
+You may proceed onward, trusted one. Something incredible lies ahead. =Проходи, доверенный. Впереди тебя ждёт нечто невероятное. 
+
+A Note for C. Pillot=Записка для К. Пийо
+A note was given to you by a strange hermit in Fernalla's Revival Plains. Its addressed to a C. Pillot. =Странный отшельник на Равнинах Возрождения Ферналлы вручил вам записку. Адресована некоему К. Пийо. 
+We've already been though this.=Мы это уже обсуждали.
+
+A Skeleton Eye for Alyssia Fearnon=Глаз скелета для Алиссии Фирнон
+Return a Skeleton Eye to Alyssia Fernon in Hidden Hills. =Верните Глаз скелета Алиссии Фирнон в Сокрытых Холмах. 
+Wonderful! Thank you! I can use this to create a new spell I think. As a thanks, take this belt - you can put it to good use or just sell it if you like. =Замечательно! Спасибо! Думаю, я смогу создать из этого новое заклинание. В благодарность — возьми этот пояс. Пригодится, а не захочешь — продай. 
+A Skeleton Eye for Alyssa Fearnon=Глаз скелета для Алиссы Фирнон
+
+Aetheria for Saya Seawatcher=Эфирия для Саи Мороглядки
+Ghostly beings of Erenshor can leave behind Aetheria if you destroy them. If you find any, Saya Seawatcher in Vitheo's Watch says she has a unique reward for you.=Призрачные существа Эреншора могут оставлять Эфирию после уничтожения. Если найдёте — Сая Мороглядка в Дозоре Витео обещает уникальную награду.
+You've found some? Color me surprised, it's hard to come by. Here, take this as payment. If you can't use it, I'll buy it back for a handsome price. =Нашли? Ну и ну, это редкость. Вот, возьмите в оплату. Не пригодится — выкуплю за хорошую цену. 
+
+Albixt's Engagement Ring=Обручальное кольцо Альбикста
+Albixt Munger in Silkengrass fears that his missing wife is now one of the risen pilgrims in the area. If you find her engagement ring on one of them, return it to him for a reward. =Альбикст Мунгер в Силкенграссе боится, что его пропавшая жена стала одним из восставших паломников. Если найдёте её обручальное кольцо — верните ему за награду. 
+Oh... I thought I would be happy to know that she's at rest but I hadn't imagined how real this moment would be. Thank you for your help, but please leave me be. You can have this as a token of my gratitude. =О... Я думал, буду рад узнать, что она покоится с миром, но не представлял, как тяжело это будет. Спасибо за помощь, но прошу, оставьте меня. Возьмите это в знак благодарности. 
+This is not it, I already have it. =Это не то, у меня уже есть. 
+
+Alice Hewer's Necklace=Ожерелье Элис Хьюэр
+Alice Hewer's necklace was eaten by a small crocodile near the lighthouse! =Ожерелье Элис Хьюэр проглотил маленький крокодил у маяка! 
+Thank you! Here, take this as a token of my appreciation!=Спасибо! Вот, примите в знак моей признательности!
+You've already given me my necklace back. This one's not mine... weird that you found two!=Вы уже вернули мне моё ожерелье. Это не моё... странно, что нашли два!
+
+Accessing the Ethereal Planes=Доступ к Эфирным Планам
+Rumors of methods to access the Ethereal Planes have been persistent throughout history. =Слухи о способах попасть на Эфирные Планы ходили во все времена. 
+
+A Retired Locksmith=Слесарь на покое
+Amethi, just outside of town in Stowaway's Step, has expressed interest in making and repairing keys... if you find any broken ones, bring them her way. =Аметия, живущая сразу за городом в Бухте Нелегалов, берётся чинить и делать ключи... если найдёте сломанные — несите к ней. 
+Ah, a project! Old one, this one. Where'd ya get it? Ah never mind, here, that was easy. Here you go! =О, проект! Старый, однако. Откуда он? А, не важно, вот, это было просто. Держи! 
+What an interesting key piece... but it's missing something. Here, take it back for now but return to me if you find another piece!=Какой интересный кусок ключа... но чего-то не хватает. Держи пока, но вернись, если найдёшь ещё одну часть!
+
+Aragath's Imprisonment=Заточение Арагата
+Aragath claims to have been imprisoned by a group of necromancers. He thinks they're behind a hidden door in the Island Tomb near a Stone Throne. =Арагат утверждает, что был заточён группой некромантов. Он думает, они за скрытой дверью в Гробнице Острова у Каменного Трона. 
+At last! I am free to leave this place - thank you for your help, friend. Please accept this token of my appreciation.=Наконец! Я свободен! Благодарю за помощь, друг мой. Прими этот знак моей признательности.
+Bring me all four at once. Nothing less.=Принеси мне все четыре сразу. Не меньше.
+I will leave shortly, thank you.=Скоро уйду, спасибо.
+
+Destroying Aragath=Уничтожение Арагата
+A group of necromancers in the island tomb claim to be holding a demon named Aragath captive through magic. =Группа некромантов в гробнице острова утверждает, что удерживает демона по имени Арагат с помощью магии. 
+W... what have you done to me? You BELIEVED them? They're demons! You've given them my soul!=Ч... что ты наделал?! Ты им ПОВЕРИЛ? Они — демоны! Ты отдал им мою душу!
+I do not need anything else from you. Thank you for your help. =Мне больше ничего от тебя не нужно. Спасибо за помощь. 
+
+Secure Port Azure=Защита Порт-Азура
+Keep your eyes open for any intel on how or why Sivakayans are gaining access to Port Azure. Share it with Guard Captain Kilkay if you find it. =Держите глаза открытыми — ищите сведения о том, как и зачем сивакайцы проникают в Порт-Азур. Если найдёте — передайте капитану стражи Килкею. 
+Eldoth... I should have known. The tragedy at Goodsoil was done by his hand too? He seems to have the ear of the Sivakayans, but why? We shall continue to hold fast here in Port Azure. Thank you for this information. =Элдот... Надо было догадаться. Трагедия в Гудсойле — тоже его рук дело? Похоже, сивакайцы его слушают, но почему? Мы продолжим держать оборону Порт-Азура. Благодарю за сведения. 
+You've shown me this.=Вы мне это уже показывали.
+
+Bellwain's Lost Letters=Утерянные письма Беллвейна
+Bellwain's Lost Letters =Утерянные письма Беллвейна 
+Thanks again.=Ещё раз спасибо.
+
+Clearing the Bonepits=Зачистка Костяных Ям
+William Cardigo at Willowwatch has hinted that if you clear out the bonepits, and bring him proof of slaying the "glowing red demon" deep within, he'd make it worth your while. =Уильям Кардиго в Ивовом Дозоре намекнул, что если зачистить Костяные Ямы и принести доказательство убийства «светящегося красного демона» из глубин — он щедро вознаградит. 
+Wow... I've never seen anything quite like this. I didn't think you'd... I don't have much to give you - but I have this: here, take it! =Ого... Никогда не видел ничего подобного. Не думал, что ты... У меня немного, но вот это — бери! 
+William Cardigo has asked you to find out what lurks in the Bonepits and clear it out before it emerges into Willowwatch. =Уильям Кардиго попросил вас выяснить, что таится в Костяных Ямах, и зачистить их, пока оно не выползло в Ивовый Дозор. 
+So it was summoned? Interesting. I hope you cleared out the Necromancers who are bringing that place back to life too while you were at it. Here, for your time. I don't know what this is but maybe it's useful. =Так оно было призвано? Интересно. Надеюсь, ты заодно разобрался и с некромантами, которые оживляют то место. Вот, за твоё время. Не знаю, что это, но может, пригодится. 
+Thanks, but you gave me one of these already. =Спасибо, но вы мне такое уже давали. 
+
+The Scent of Brashell=Аромат брашели
+Braxon Elden in the Braxonian Desert has expressed interest in the scent of Brashell emanating from the covered well that has been recently excavated. =Браксон Элден в Браксонской Пустыне заинтересовался ароматом брашели, исходящим из недавно раскопанного колодца. 
+Where... did you find this...? This is unheard of! If you find more remnants of the old Braxonians, bring them to me - here, a reward for your troubles and a token of friendship.=Где... вы это нашли...? Невероятно! Если найдёте ещё следы древних браксонианцев — несите мне. Вот, награда за труды и знак дружбы.
+It's so interesting to see this!=Как интересно на это взглянуть!
+
+A Lost Portal Pt. 2=Утерянный портал, ч. 2
+You need to find an Eldrich Crystal to power the Rune of Brax, and offer both items to the energy source at his Portal.=Нужно найти Элдрический Кристалл, чтобы запитать Руну Бракса, и поднести оба предмета к источнику энергии у его Портала.
+
+Braxonian Scripture=Браксонское Писание
+You showed the writings from Fallen Braxonia to Braxon Elden, and he was most impressed.=Вы показали писания из Падшей Браксонии Браксону Элдену, и он был под сильнейшим впечатлением.
+
+The Lunchbag=Обеденный пакет
+You handed a fisherman his lunch in in return he mentioned he may share a pirate tale.=Вы передали рыбаку обед, и в ответ он обмолвился, что может поведать пиратскую историю.
+Ah, thanks kiddo. Appreciate the help. Say, couldn't help but notice you look like the adventurous type. What if I told ya I found somethin' out there in the sea? You ever hear of Old Bellwain Kiddo? No? Well, I ain't gonna bore ya with the tale - not unless you ask me to tell it. =Благодарю, малой. Ценю помощь. Слушай, не мог не заметить — ты из авантюристов. А что скажешь, если я кое-что нашёл в море? Слыхал про Старика Беллвейна? Нет? Ну, не буду грузить байками — разве что сам попросишь. 
+
+Druid Beads for Varran=Бусы друида для Варрана
+Varran Juctor in Fernalla Field would like some of the beads he sees the Risen Druids behind him wearing. Bring him as many as you can find. =Варран Жактор на Поле Ферналлы хотел бы получить бусы, которые он видит на Восставших Друидах неподалёку. Несите ему сколько найдёте. 
+Wonderful, I will take more if you have them!=Замечательно, возьму ещё, если есть!
+
+The Eldrich Crystal=Элдрический кристалл
+You have been told that it may be possible to combine an Eldrich crystal with an inert rune at the right place of power in order to power the rune once again. =Вам сказали, что, возможно, можно совместить Элдрический кристалл с инертной руной в нужном месте силы, чтобы вновь зарядить руну. 
+
+Faerie Dust for Nylith Valorro=Пыльца фей для Нилит Валорро
+Nyltih in Hidden Hills has asked for Faerie Dust from the nearby forest.=Нилит в Сокрытых Холмах попросила пыльцу фей из ближайшего леса.
+That's the stuff, pal! Here, take this sash. It'll serve you well.=То, что нужно, приятель! Вот, возьми этот кушак. Он тебе пригодится.
+Already got it from ya! Thanks anyhow.=Уже получил от тебя! Но всё равно спасибо.
+Faerie Dust for Nylith Valarro=Пыльца фей для Нилит Валарро
+
+A Dying Wish, Part 1=Последняя воля, ч. 1
+A Dying Wish, Part 2=Последняя воля, ч. 2
+A Dying Wish, Part 3=Последняя воля, ч. 3
+A Dying Wish, Part 4=Последняя воля, ч. 4
+
+Grizzlepaw's Chain=Цепь Гризлолапа
+A Stormcaller named Windlae in Hidden Hills has asked that you find and fell a beast in the Brake called Grizzlepaw.=Штормозов по имени Виндлай из Сокрытых Холмов попросила найти и сразить зверя по имени Гризлолап в Чаще.
+Ah, so it is true then. Tragedy has befallen my friend but at least revenge has been taken. Thank you for your services, please take this as a token of my appreciation. =Так, значит, это правда. Трагедия постигла мою подругу, но хотя бы месть свершилась. Благодарю за службу, примите это в знак моей признательности. 
+
+Hadden's Supplies=Припасы Хэддена
+Hadden's Supplies 2=Припасы Хэддена 2
+Hadden in Fernalla's Revival Plains has asked you to take a package of supplies to Ripper's Keep. They'll give you a receipt, and if you bring that back to Hadden he'll reward you. =Хэдден на Равнинах Возрождения Ферналлы попросил отнести пакет с припасами в Логово Риппера. Там дадут квитанцию — вернёте её Хэддену за награду. 
+Hadden sent these? Fantastic! We weren't expecting a delivery. Must be his plans changed. Here, take this back to him please.=Хэдден прислал? Отлично! Мы не ждали поставку. Видимо, планы поменялись. Вот, отнесите ему обратно.
+Take the receipt of delivery from Ripper's Keep back to Hadden in Fernalla's Revival Plains. =Отнесите квитанцию о доставке из Логова Риппера обратно Хэддену на Равнины Возрождения Ферналлы. 
+You've done it? I knew you could! Probably should have given you these sooner, but ah, here you go!=Сделали? Я знал, что справитесь! Наверное, стоило дать это раньше, но... вот, держите!
+We're all good, thanks.=Всё в порядке, спасибо.
+
+The Island Tomb=Гробница острова
+You've heard rumors of an old tomb on the island that has attracted the attention of strange ritualists. It may be worth investigating if you can find it. =До вас дошли слухи о старой гробнице на острове, привлёкшей внимание странных ритуалистов. Стоит расследовать, если удастся её найти. 
+
+A Key to Vitheo's Rest=Ключ к Покоям Витео
+Vethalo Gala in Port Azure's undercity tunnels has offered you a key to Vitheo's Rest - a hidden tomb beneath the city. =Веталло Гала в тоннелях под Порт-Азуром предложил вам ключ к Покоям Витео — скрытой гробнице под городом. 
+Ah, it's a good one! Here, have your key. Careful in there. It's not a friendly place. =О, хороший экземпляр! Вот ваш ключ. Осторожнее там. Место не из приветливых. 
+
+A Bounty on Guard Captain Kilkay=Награда за капитана стражи Килкея
+Ripper DeMerth wants you to kill Guard Captain Kilkay in Port Azure, for his role in the abandonment of the Citizens of the North.=Риппер ДеМерт хочет, чтобы вы убили капитана стражи Килкея в Порт-Азуре за то, что он бросил граждан Севера.
+Return with proof of his demise. =Вернитесь с доказательством его гибели. 
+
+Kio's Papers=Бумаги Кио
+Deliver the deportation papers to Kio the Light Keeper at the Lighthouse and collect his Gate Key for your own use. =Доставьте документы о депортации Кио-Смотрителю на маяке и заберите его Ключ от Ворот себе. 
+I... am so happy. I will leave this place at once... it's cursed here! You'll see! All of you will see! Take this wretched key and be away with you!=Я... так счастлив. Я немедленно покину это место... здесь проклятие! Вы увидите! Все увидите! Забирайте этот проклятый ключ и уходите!
+You've done this to me already! Why rub it in?=Вы мне это уже устроили! Зачем соль на рану?
+
+Liam's Note=Записка Лиама
+You should find the recipient of this note, it looks as though it's never going to find its own way.=Нужно найти адресата этой записки — похоже, сама она до него не доберётся.
+
+Percy's Seaspice=Морская специя Перси
+Percy has asked for some Sea Spice and in return he has promised passage off of the island. =Перси попросил Морскую Пряность и пообещал взамен помочь покинуть остров. 
+Yes! Thank you!  ....oh, erm... here - take this note to that Captain lady on the dock who's getting ready to leave. She owes me a favor, and she'll get you to Erenshor. Nice doin' business with ya!=Да! Спасибо! ...ох, эм... вот — отнеси эту записку капитанше на причале, которая собирается отплывать. Она мне должна, и она доставит тебя в Эреншор. Приятно вести дела!
+Come on now... you're not that gullible!=Ну уж нет... ты ж не настолько наивен!
+
+Passage off the Island=Отплытие с острова
+In return for Seaspice, Percy Ildia gave you a note with instructions to give it to the boat captain on the docks who was preparing to leave.=За Морскую Пряность Перси Илдия дал вам записку с указанием передать её капитану корабля на причале, готовящемуся к отплытию.
+
+Ripper's Questline=Цепочка квестов Риппера
+Ripper has mentioned rumors of Sivakayans in Port Azure. She has asked that you keep an eye open for evidence of that, and bring it to her should you find it. =Риппер упомянула слухи о сивакайцах в Порт-Азуре. Она попросила присматривать за доказательствами и нести ей, если что найдёте. 
+
+Mavik's Note=Записка Мавика
+Mavik Estonia, of Ripper's Army, has requested you deliver a message to Guard Captain Kilkay in Port Azure.=Мавик Эстония из армии Риппера просит доставить послание капитану стражи Килкею в Порт-Азур.
+
+A Trade in Ripper's Keep=Обмен в Логове Риппера
+Jeremie Galyard has offered to trade a trinket he found in Ripper's Keep that he says may have belonged to Azynthi. =Жереми Галияр предложил обменять безделушку, найденную в Логове Риппера, которая, по его словам, могла принадлежать Азинти. 
+Ah, fantastic! And for you, this weird little rock. Whatever it's for, I hope you can use it. =Чудесно! А тебе вот этот странный камешек. Что бы он ни значил, надеюсь, пригодится. 
+That's not everything I asked for...=Это не всё, что я просил...
+I'm still good pal, thanks anyhow.=У меня всё есть, приятель, но спасибо.
+
+Ritual Components=Компоненты ритуала
+Torado in Wardhaven has asked if you could help him gather components for The Rituals they must perform to restore Sivakaya.=Торадо в Вардхейвене попросил помочь собрать компоненты для Ритуалов по восстановлению Сивакаи.
+Fantastic! These are hard to come by. You know what else is hard to come by? This Aura - please use it well! =Великолепно! Это трудно достать. Знаете, что ещё трудно найти? Эту Ауру — пользуйтесь с умом! 
+Almost... need a bit more.=Почти... нужно ещё немного.
+I'm all set for now, but thanks=Пока всё есть, спасибо
+
+Samuel's Note=Записка Сэмюэля
+Samuel in Hidden Hills has asked you to deliver a note to his good friend Harvey Alder, who is likely staying at the Azure Arms in Port Azure.=Сэмюэль из Сокрытых Холмов попросил передать записку своему другу Харви Олдеру, который, скорее всего, остановился в «Лазурных Объятиях» в Порт-Азуре.
+Ah, Samuel is a good friend. Thank you for bringing this to me. I don't have much, but take this as a token of my gratitude... and welcome to Port Azure. =Сэмюэль — хороший друг. Спасибо, что принесли это мне. У меня немного, но примите это в знак благодарности... и добро пожаловать в Порт-Азур. 
+Are you making forgeries now? Get a life. =Теперь подделки делаешь? Займись делом. 
+
+Serra Stile's Shovel=Лопата Серры Стайл
+Serra Stile lost her family heirloom shovel in the Elderstone Mines incident. =Серра Стайл потеряла семейную реликвию — лопату — во время инцидента в Шахтах Древокамня. 
+Oh my! You've found it! Here... one tool in exchange for another. I hope this comes in handy!=Боже мой! Вы её нашли! Вот... инструмент в обмен на инструмент. Надеюсь, пригодится!
+This is someone else's I think. I have mine already.=По-моему, это чья-то чужая. У меня уже есть моя.
+
+Shivering Step=Дрожащий Берег
+You've made quite a mark on Shivering Step. It's time to go home.=Вы оставили заметный след на Дрожащем Берегу. Пора домой.
+Ah, well done then. Take this, dream of us. =Отлично. Возьмите это, мечтайте о нас. 
+
+A Magical Sword in Port Azure=Волшебный меч в Порт-Азуре
+There is a magical sword to be had in Port Azure. =В Порт-Азуре можно раздобыть волшебный меч. 
+You found it all? Well, deal's a deal. Here's your sword. Hope you can use it better than I would've!=Всё нашли? Ну, уговор есть уговор. Вот ваш меч. Надеюсь, вам он послужит лучше, чем мне!
+
+A Sivakayan Horn for Ludo Luxo=Сивакайский рог для Людо Люксо
+Ludo Luxo in Hidden Hills has asked for you to find a Sivakayan Horn from the Bonepits - a cave on the north side of Hidden Hills. =Людо Люксо в Сокрытых Холмах попросил добыть сивакайский рог из Костяных Ям — пещеры на севере Сокрытых Холмов. 
+Ah, I'll have the sharpest weapons on the Brackish Coast now. And for you, I gift you balance. Wear them with skill, friend!=Теперь у меня будет самое острое оружие на Солончаковом Берегу. А тебе дарю баланс. Носи с умением, друг!
+A Sivakayan Horn for Ludo Luxo=Сивакайский рог для Людо Люксо
+
+Sivakayan Intel for Kilkay=Сивакайская разведка для Килкея
+Sivakayan Intel for Ripper=Сивакайская разведка для Риппера
+I've seen this already.=Я это уже видел.
+
+Sivakayans in Port Azure=Сивакайцы в Порт-Азуре
+Sivakayans in Port Azure Pt. 2=Сивакайцы в Порт-Азуре, ч. 2
+
+A Necromancer's Book=Книга некроманта
+Trevor Urchand in Hidden Hills is doing research on Eldoth Molorai. He suspects Eldoth has ties to the resurgence of Necromancy on Erenshor, but needs to know more. =Тревор Эрчанд в Сокрытых Холмах исследует Элдота Молораи. Он подозревает, что Элдот причастен к возрождению некромантии в Эреншоре, но ему нужно больше сведений. 
+Well, look at you - almost a real adventurer, aren't ya? Thanks for bringing this to me. I've got an extra bit of armor here, use it or give it to a buddy. Or sell it, for all I care. =Ну, гляди-ка — почти настоящий искатель приключений, а? Спасибо, что принёс. У меня тут лишний доспех — пользуйся сам, отдай другу или продай, мне всё равно. 
+You're missing at least one piece.=У тебя не хватает минимум одной части.
+Thanks again for your help.=Ещё раз спасибо за помощь.
+
+Orion Mycon's Lost Ring=Потерянное кольцо Ориона Мейкона
+Repairing Orion's Ring=Починка кольца Ориона
+Repairing Orion's Ring, Part 2=Починка кольца Ориона, ч. 2
+
+Annaleigh's Nagalok Claws=Когти Нагалока для Аннали
+Bring 5 Nagalok claws to Annaleigh in Salted Strand. =Принесите 5 когтей Нагалока Аннали на Солёный Берег. 
+Well would ya look at that! Added a little bit of seaweed and got something pretty fine!=Ну ты посмотри! Добавила немного водорослей — и получилась отличная вещь!
+
+Lighting the Nighthollow Candle=Зажечь Свечу Ночной Лощины
+You have restored the Nighthollow Candle, but it is not lit. You must find a Braxonian Flame to ignite the wick and restore the Candle's true power. =Вы восстановили Свечу Ночной Лощины, но она не горит. Нужно найти Браксонское Пламя, чтобы зажечь фитиль и вернуть Свече истинную силу. 
+
+Recovering the Nighthollow Candle=Обретение Свечи Ночной Лощины
+
+Intel from the Lost Cellar=Сведения из Потерянного Погреба
+Foreman Hauck in Port Azure has asked you to explore the Lost Cellar and find any Intel that may or may not exist down there. Bring it to him if you find it. =Бригадир Хаук в Порт-Азуре попросил вас обследовать Потерянный Погреб и найти любые сведения, которые могут (а могут и не) быть там. Принесите ему, если найдёте. 
+Incredible... it's real? I'll bring it to the Guard Captain at once! Here, take this as my thanks!=Невероятно... это настоящее? Немедленно отнесу капитану стражи! Вот, примите мою благодарность!
+
+The Lost Soul Pt. 2=Потерянная душа, ч. 2
+The Lost Soul Pt. 3=Потерянная душа, ч. 3
+A Missing Person=Пропавший без вести
+Meet Shivering Step=На Дрожащий Берег
+Find the four spirits of Shivering Step.=Найдите четырёх духов Дрожащего Берега.
+Warming the Isle=Согреть остров
+You should find a way to ignite the Brazier deep in the cold Island Cave.=Нужно найти способ зажечь жаровню в глубине холодной пещеры острова.
+Changing the Lighthouse=Изменить маяк
+Sivakayan Ore for Tipp=Сивакайская руда для Типпа
+
+Ta'Dah's Shadows=Тени Та'Даха
+The Loss Stone=Камень Утраты
+
+Raval's Last Wish=Последняя воля Равала
+Raval, the First Paladin, has been trapped in an insanity wracked body for centuries. You've freed him and found his spirit, and his last wish is to know that Astra, the Celestial Dragon, has finally been removed from this plane. =Равал, Первый Паладин, был заточён в обезумевшем теле на столетия. Вы освободили его и нашли его дух, и его последнее желание — узнать, что Астра, Небесный Дракон, наконец изгнана из этого плана. 
+
+Soluna's Celestial Blade - Part 2=Небесный Клинок Солуны — ч. 2
+
+If you can find a furniture vendor, they may be able to make this item for you.=Если найдёте мебельного мастера, он может изготовить этот предмет для вас.
+
+# ==========================================================================
+# Дополнительные квестовые строки: названия, описания, диалоги NPC
+# ==========================================================================
+
+# --- Квестовые требования/предметы ---
+-1 Coal=-1 Уголь
+-Bellwain=-Беллуэйн
+-Brackfruit juice=-Сок терноплода
+-Bread=-Хлеб
+-Island Fin Fish=-Островная Рыба-Плавник
+
+# --- Свеча / Пламя ---
+... *The candle comes alive with a flame that can only be extinguished by magic, and while holding it things that you should not be able to see are illuminated in its eerie light*=... *Свеча оживает пламенем, которое можно погасить лишь магией, и пока держишь её, невидимое прежде озаряется её жутким светом*
+... *The flame flares, but does not change.*=... *Пламя вспыхивает, но не меняется.*
+... *The Flame ignites before you, and suddenly the air feels warmer*=... *Пламя загорается перед тобой, и воздух вдруг становится теплее*
+... *The flame sputters.*=... *Пламя потрескивает.*
+... *The oven glows with an unnatural blue color"=... *Печь светится неестественным голубым цветом"
+The flame does not respond=Пламя не отвечает
+
+# --- Песня сада (стихотворение) ---
+"The Garden Song"=«Песня Сада»
+(Written below)=(Написано ниже)
+By Bellsie Bellwain=Белси Беллуэйн
+2pm brings snow-like seedlings drifting on the breeze=В 2 часа дня снежные семена плывут по ветру
+5pm brings the orange glow of the cooking fire=В 5 часов вечера — оранжевое сияние кухонного огня
+6pm, the sky burns gently with that same warmth and desire=В 6 вечера небо мягко горит тем же теплом и желанием
+A hint of luck flows through the vine,=Намёк удачи течёт сквозь лозу,
+A passion stirred in blossoms below.=Страсть пробудилась в цветах внизу.
+A vision bloomed, the stars aligned.=Расцвело виденье, звёзды встали в ряд.
+And now we flourish, intertwined!=И вот мы процветаем, сплетясь!
+And then come more, carried with carefree ease=А следом ещё, легко и беспечно
+At 10am, the sky stretches into forever=В 10 утра небо тянется в бесконечность
+At 4, the sea thrashes, stretching high for the sky=В 4 часа море бьётся, тянясь ввысь к небу
+At 7, the dew shines white, like fresh snow on the ground=В 7 роса блестит белизной, как свежий снег на земле
+At 8am, the blue sky lifts, waving softly to the sea=В 8 утра голубое небо поднимается, мягко кивая морю
+At 9, the green grass stirs awake, brushing gently in the breeze=В 9 зелёная трава пробуждается, нежно колышась на ветру
+At noon, a plate of blue berries refreshes the soul=В полдень тарелка голубых ягод освежает душу
+I saw a vision in the petals' glow,=В сиянии лепестков мне привиделось,
+Our luck was true, a fate designed.=Удача наша была верна, судьба начертана.
+Soon, red bugs arrive and flitter together=Скоро красные жучки слетятся вместе
+The passion paid back with love,=Страсть отплатилась любовью,
+Then comes a rest on the soft, emerald grass below=Потом — отдых на мягкой изумрудной траве внизу
+Ah, deja vu is a fancy thing.=Дежавю — штука причудливая.
+
+# --- Время суток ---
+Morning on the Isle:=Утро на острове:
+The Day Ages:=День стареет:
+The Day Comes:=День наступает:
+The Day Ends=Конец дня
+
+# --- Беллуэйн: история острова ---
+Bellwain Love Letters=Любовные Письма Беллуэйна
+Bellwain Love Letters 1=Любовные Письма Беллуэйна 1
+Bellsie alwas said that the bathtub is in a dreadfully drafty spot. She said the walls held nothing back, and implored me to move the source to another room, however, it was architecturally impossible to do that.=Белси всегда говорила, что ванна стоит на ужасном сквозняке. Она сказала, что стены ничего не держат, и умоляла перенести источник в другую комнату, но архитектурно это было невозможно.
+Bellsie always came here to "wash off the smoke" after our drinks at the pergola campfire. =Белси всегда приходила сюда «смыть дым» после наших посиделок у костра на перголе.
+Bellsie always carried her flint, now it's been confined to my safe - for losing it would be be removing the last of her from this place.=Белси всегда носила с собой кремень, теперь он заперт в моём сейфе — потерять его значило бы стереть последний след её присутствия здесь.
+Bellsie always preferred to relax on the back patio, though she worried greatly about the eroding retaining wall that held it all together. =Белси всегда предпочитала отдыхать на задней террасе, хотя очень переживала из-за разрушающейся подпорной стены, скреплявшей всё воедино.
+Bellsie always said the Sun Lilies bloomed at 6pm, but I've never seen them in the garden, even though she sang her song there each day for the plants.=Белси всегда говорила, что Солнечные Лилии распускаются в 6 вечера, но я ни разу не видел их в саду, хотя она пела для растений каждый день.
+Bellsie always was right. =Белси всегда была права.
+Bellsie loved her detective novels. Loved to talk about how she could be an investigator and how good she'd be at it. Things like "hide in plain sight" and "they never look up, so hide things up high!"=Белси обожала детективные романы. Любила рассуждать, каким отличным сыщиком она могла бы стать. Всё вроде «прячь на виду» и «никто не смотрит вверх, так что прячь вещи повыше!»
+Evenings spent laughing and love - forever and always together.=Вечера, наполненные смехом и любовью — навсегда и навечно вместе.
+I can only hope to be reunited with Bellsie one day, but alas, I do not deserve such a kind fate. =Могу лишь надеяться однажды воссоединиться с Белси, но, увы, не заслуживаю столь милосердной судьбы.
+I could not fathom running out, Bellsie would be heartbroken too. =Я не мог представить, что запасы кончатся — Белси тоже была бы убита горем.
+I had never planned to sail again, unless it was for our wine. =Я не планировал снова выходить в море — разве что ради нашего вина.
+I had promised to have a swim around it to verify its integrity, but it wasn't until I was making preparations to leave that I noted the extent of its disrepair. =Я обещал проплыть вокруг неё, чтобы проверить целостность, но лишь готовясь к отъезду, заметил масштаб разрушений.
+I have narrated our lives here if you are inclined to stay, please honor our memories. =Я описал нашу жизнь здесь — если решишь остаться, прошу, почти нашу память.
+I will not forget her voice, I wish I could remember the words.=Я не забуду её голос — жаль, не могу вспомнить слова.
+If only I could recall the beautiful array of colors she would create at the Angel Torches, it would be like being with her one last time... I can feel a strong presence of her in that place and I long for it back. =Если бы я мог вспомнить прекрасную палитру красок, которую она создавала у Ангельских Факелов, это было бы как встреча с ней в последний раз... Я чувствую её сильное присутствие в том месте и тоскую по нему.
+It's a pile of never-sent letters, seemingly written to Bellwain by Bellsie while he was away at sea. It feels wrong to read them. =Это стопка неотправленных писем, судя по всему, написанных Белси для Беллуэйна, пока тот был в море. Читать их как-то неправильно.
+My love, my light, my Bellsie is no more, and so shall I return to the sea one last time. =Любовь моя, свет мой, моей Белси больше нет, и потому я вернусь в море в последний раз.
+Our favorite wine was...  illicit. It's hard to source, and so I've resorted to keeping a stash in a nook beneath the docks. It's not the most accessible but its safe from prying eyes. =Наше любимое вино было... незаконным. Его трудно достать, поэтому я устроил тайник в закоулке под причалом. Не самое удобное место, зато скрыто от чужих глаз.
+Returning home can't always be the same gift that it was the day before. =Возвращение домой не всегда может быть тем же даром, что и накануне.
+She even went on a tangent about how the roof would be the best place to hide your most valuable items. Nobody ever robs a roof. =Она даже ушла в тему о том, что крыша — лучшее место, чтобы прятать самые ценные вещи. Никто никогда не грабит крышу.
+Thing is, she always would forget her drink and made me come back to the bar to get it for her. I'd leave it on her chair if she was off in the gardens.=Штука в том, что она вечно забывала свой напиток и заставляла меня возвращаться в бар за ним. Если она уходила в сад — я оставлял его на её стуле.
+Truly a nuisance in the moment, but a task I miss dearly now.=В тот момент — сущая морока, но теперь я ужасно скучаю по этому занятию.
+Warming up by the fire after a bath is not the worst, after all.=Согреться у огня после ванны — в конце концов, не самое худшее.
+Oh my... I buried these when I fell ill so not to hurt him... I had forgotten all about them. How did you ever...? Never mind. Thank you. Here, take this - Captain Bellwain won't be needing his coin any longer. He's already home. =Боже... я закопала их, когда заболела, чтобы не ранить его... Совсем о них забыла. Как ты вообще...? Неважно. Спасибо. Вот, возьми — капитану Беллуэйну монеты больше не понадобятся. Он уже дома.
+These are... these are precious, but they are not mine to have for they were never put into my hands by Bellsie. Please - allow her to take them, and thank you for thinking of me first. =Это... это бесценно, но они не мои — Белси не вкладывала их мне в руки. Пожалуйста — отдай ей, и спасибо, что подумал обо мне первым.
+You've found some lost letters meant for Captain Bellwain, and you've given them back to Bellsie Bellwain. =Ты нашёл потерянные письма, предназначенные капитану Беллуэйну, и вернул их Белси Беллуэйн.
+You've handed the lost love letters to Bellwain, but he told you they were not his to take.=Ты передал потерянные любовные письма Беллуэйну, но он сказал, что не ему их брать.
+Should any set  foot in this home, I implore you to return from where you came. It holds loss and sorrow and hopelessness - all of the wealth i have sailed for is worthless alone. =Если кто-то ступит в этот дом — умоляю, вернись, откуда пришёл. Здесь царят утрата, скорбь и безнадёжность — всё богатство, ради которого я плавал, бесполезно в одиночестве.
+This is not a place to be alone. It is with age and sorrow that I leave tomorrow for one final voyage to the sea. I will not return to this place, for nothing holds me here. I've given back the materials, and now I give myself back to this world. =Это не место, чтобы быть одному. Со старостью и скорбью я отплываю завтра в последнее путешествие по морю. Я не вернусь сюда — ничто меня здесь не держит. Я вернул материалы, а теперь возвращаю себя этому миру.
+Picnics do not get any better than some brackfruit-battered Island Fin!=Нет ничего лучше для пикника, чем Островная Рыба-Плавник в кляре из терноплода!
+
+# --- Квесты: названия ---
+A Message For C=Послание для К.
+A Skeleton Eye=Глаз Скелета
+A Strange Figurine=Странная Статуэтка
+Albixts Engagement Ring=Обручальное Кольцо Альбикста
+Amethi Keys=Ключи Аметти
+Anointed Sword=Помазанный Меч
+Big Red=Большой Красный
+Blaze Fiend=Огненный Демон
+Brax's Rune 2=Руна Бракса 2
+Brax's Writings=Записи Бракса
+Bread for Fisherman=Хлеб для Рыбака
+Druid Beads=Бусы Друида
+Ember Acolyte=Тлеющий Послушник
+End of Shivering=Конец Дрожи
+Faerie Dust=Пыльца Фей
+Intensify Lighthouse=Усилить Маяк
+Key to Vitheo's Rest=Ключ к Покою Витео
+Keys for Valrae=Ключи для Валрей
+Kilkay's Bounty=Награда Килкея
+Kio The Lightkeeper=Кио-Хранитель Маяка
+Layer Cape=Слоёный Плащ
+Lost Cellar Intel=Данные Подвала
+Lost Soul 2=Заблудшая Душа 2
+Lost Soul 3=Заблудшая Душа 3
+Missing Person in Krakengard=Пропавший в Кракенгарде
+Monarch of Flame=Монарх Пламени
+Necro Journal=Дневник Некро
+Ogre Tooth Club=Огрозубая Дубина
+Orions Tempest Stone=Штормовой Камень Ориона
+Orions Tempest Stone 2=Штормовой Камень Ориона 2
+Orions Tempest Stone 3=Штормовой Камень Ориона 3
+Raval's Request=Просьба Равала
+Recovering the Nighthollow Candle 1=Поиск Свечи Ночной Пустоши 1
+Repairing Treasure Maps=Починка Карт Сокровищ
+Ripper Main Quest 1=Основной Квест Риппер 1
+Ripper Main Quest 2=Основной Квест Риппер 2
+Ripper's=Риппер
+Ripper's Note To Azure=Записка Риппер для Азура
+Serra Stiles Shovel=Лопата Серры Стайлз
+Shortsword of Viropha=Короткий Меч Вирофы
+Sivakayan Horn=Рог Сивакайца
+Sivakayan Intel to Azure=Сивакайская Разведка для Азура
+Sivakayan Intel to Azure 1=Сивакайская Разведка для Азура 1
+Sivakayan Intel to Azure 2=Сивакайская Разведка для Азура 2
+Sivakayan Intel to Ripper=Данные Сивакайцев для Риппер
+Sivakayan Ore=Сивакайская Руда
+Sivakayans in Port Azure 2=Сивакайцы в Порт-Азуре 2
+Soluna's Celestial Blade 1=Небесный Клинок Солуны 1
+Stone Auction=Каменный Аукцион
+Stone Bank=Каменный Банк
+Stone Dining=Каменная Столовая
+Stone Fountain=Каменный Фонтан
+Stone Training=Каменная Арена
+Stone Vendor=Каменная Лавка
+TahDahs Globe=Глобус Та'Да
+The Faceless=Безликий
+The Mather's Demise, Part 2=Гибель Мэтерсов, часть 2
+The Mathers Treasure=Сокровище Мэтерсов
+The Mathers Treasure 1=Сокровище Мэтерсов 1
+The Mathers' Demise=Гибель Мэтерсов
+The Necromancer=Некромант
+The Reaver's Origin=Происхождение Рейверов
+The Riftstone=Камень Разлома
+The Secrets of Creation=Тайны Творения
+The Secrets of Creation (To Lucian)=Тайны Творения (для Люциана)
+Treasure Map Repair=Починка Карты Сокровищ
+Underloft Compass=Компас Андерлофта
+Underloft's Compass=Компас Андерлофта
+Valrae's Keys=Ключи Валрей
+Wally's Moongill=Лунные Жабры Уолли
+Warden of the North=Страж Севера
+Whispers of Wyland=Шёпот Вайланда
+Willow Seeds=Семена Ивы
+Willow Soil=Ивовая Почва
+Wishlan's Hope=Надежда Вишлана
+Wishlan's Hope 1=Надежда Вишлана 1
+Wishlan's Hope Pt. 2=Надежда Вишлана, ч. 2
+
+# --- Чертежи ---
+Blueprint: Azynthian Dining=Чертёж: Азинтийская Столовая
+Blueprint: Azynthian Livingroom=Чертёж: Азинтийская Гостиная
+Blueprint: Azynthian Rest=Чертёж: Азинтийская Спальня
+Blueprint: Game Room=Чертёж: Игровая Комната
+Blueprint: Loomingwood Market=Чертёж: Рынок Грозолесья
+Blueprint: Loomingwood Shrine=Чертёж: Святилище Грозолесья
+Blueprint: Stone Auction=Чертёж: Каменный Аукцион
+Blueprint: Stone Bank=Чертёж: Каменный Банк
+Blueprint: Stone Dining=Чертёж: Каменная Столовая
+Blueprint: Stone Fountain=Чертёж: Каменный Фонтан
+Blueprint: Stone Training Room=Чертёж: Каменная Тренировочная
+Blueprint: Stone Vendor=Чертёж: Каменная Лавка
+
+# --- Квестовые требования ---
+1 Devoratrix Thorn=1 Шип Пожирательницы
+1 Intact Faerie Wing=1 Целое Крыло Феи
+1 Pink Pteriaped Feather=1 Розовое Перо Птериапода
+A few rarities to collect in the area that we use for our rituals. I need a pink Pteriaped feather, a Devoratrix thorn, and - this is a tough one - an intact faerie wing.  =Нужно собрать несколько редкостей в окрестностях, где мы проводим ритуалы. Мне нужно розовое перо Птериапода, шип Пожирательницы и — вот это сложно — целое крыло феи.
+
+# --- Квесты: описания ---
+A Ghostly Figure has handed you a stone that contains the very sadness that has been brought upon the world by Azynthi. She instructed you to bring it to someone who might know its true power, she suggested someone who mourns the loss of Sivakaya may be best.=Призрачная Фигура вручила тебе камень, хранящий саму печаль, навлечённую Азинти на мир. Она велела отнести его тому, кто может знать его истинную силу, — лучше всего скорбящему по утрате Сивакаи.
+A wish of Fernalla has asked that you find Elwio the Traitor in Vitheo's Rest, within the Traitor's Halls. She feels a great sadness for him, but cannot recall why. =Желание Ферналлы попросило найти Элвио Предателя в Покое Витео, в Залах Предателя. Она испытывает великую печаль о нём, но не может вспомнить почему.
+A recovered journal of a Sivakayan Darkwardenl was handed to Guard Captain Kilkay, who was appreciative of the info.=Найденный дневник Тёмного Стража Сивакаи был передан капитану стражи Килкею, который оценил сведения.
+A recovered page of Sivakayan Intel was handed to Guard Captain Kilkay, who was appreciative of the info.=Найденная страница сивакайской разведки передана капитану стражи Килкею, который оценил сведения.
+A scribbled note from a madman in the desert has revealed that a mysterious stone that he was holding was the property of Orion Mycon in Port Azure. =Нацарапанная записка безумца из пустыни открыла, что загадочный камень принадлежит Ориону Микону из Порт-Азура.
+Cagnus Marlsen in Willowwatch has asked for you to clear out the old Willow shrine so they can use the fertile soil to grow crops for their settlement. =Кагнус Марлсен из Ивовой Стражи попросил расчистить старое святилище Ивы, чтобы использовать плодородную почву для посевов поселения.
+Despite reports of Sivakayan raiders headed to Port Azure, none have been seen within the city. =Несмотря на донесения о Сивакайских рейдерах, направляющихся к Порт-Азуру, в городе никого не видели.
+Destroy the necromancers and collect their soul-stones, and reunite those stones with their linked watchlights to absorb their power.=Уничтожь некромантов и собери их камни душ, затем соедини камни с привязанными сторожевыми огнями, чтобы поглотить их силу.
+Fernalla herself has asked that you find Vitheo and be sure his wordly remains are at rest. She has given you a key ingredient for lighting one of the braziers in his tomb to awaken the Guardian who watches over his inner sanctum's key.=Сама Ферналла попросила найти Витео и убедиться, что его земные останки покоятся с миром. Она дала ключевой ингредиент для зажигания одной из жаровен в его гробнице, чтобы пробудить Стража с ключом от внутреннего святилища.
+Find a Ruby and two Seaspices for Tristian, who is loitering in the back lots of the houses near the main gate.=Найди рубин и две морские пряности для Тристиана, который слоняется за домами у главных ворот.
+Find him, wherever he is, and deliver the note. =Найди его, где бы он ни был, и передай записку.
+He has asked you to continue to search for information on how Sivakayans may be entering Port Azure. =Он попросил продолжать искать сведения о том, как Сивакайцы проникают в Порт-Азур.
+He has given you a key and asked you to investigate.=Он дал тебе ключ и попросил расследовать.
+He is behind the registration office.=Он за регистрационной конторой.
+He mentioned Old Krakengard specifically.=Он упомянул именно Старый Кракенгард.
+He mentioned that a Sivakayan Darkwarden may have interest in it, or perhaps its lost in the Braxonian Desert... worse yet, an antiquities dealer may have recovered it.=Он упомянул, что Тёмный Страж Сивакаи может интересоваться этим, или оно затеряно в Браксонской Пустыне... а ещё хуже — антиквар мог его забрать.
+He said you should find a jeweler for more help.=Он сказал, что стоит найти ювелира для помощи.
+He says that there may be Necromancers in the Bonepits, and should you find any of their ritual books, he'd like you to bring it to him. =Он говорит, что в Костяных Ямах могут быть некроманты, и если найдёшь их ритуальные книги — просит принести.
+He wants 3 bottles of Azure Mead and a Seaspice. =Он хочет 3 бутылки Азурской Медовухи и Морскую Пряность.
+He's asking for one Sivakrux as a trade. =Он просит один Сивакрукс в обмен.
+His brother's name is Yarren - if you cannot find him, ask for him. =Его брата зовут Яррен — если не найдёшь, спроси о нём.
+His name is Harvey Alder. Probably staying at the Azure Arms for lack of any other place to go. =Его зовут Харви Олдер. Наверное, остановился в «Азурских Оружиях» — больше-то некуда.
+If you are able to recover it, bring it back to him at his home.=Если сможешь достать — принеси ему домой.
+If you find four pieces of a treasure map, you can bring it to Cecil in Faerie's Brake to have it repaired. =Если найдёшь четыре куска карты сокровищ — неси Сесилу в Фейский Бор, он восстановит.
+If you find it, she would like for you to bring it back to her.=Если найдёшь — она просит вернуть ей.
+If you find this 'Wyland', he may be holding a note or a clue as to what they're up to...=Если найдёшь этого «Вайланда», у него может быть записка или улика о том, что они замышляют...
+If you go to Krakengard, bring me the tower and bunk keys if you find extras. I've always wanted to explore that place.=Если пойдёшь в Кракенгард — принеси ключи от башни и казармы, если найдёшь лишние. Я всегда хотела исследовать это место.
+If you head over into Faerie's Brake, and you can track down one of those nasty little Faeries, kill it. If it has any Faerie dust, bring it to me. I've got something for you if you do. =Загляни в Фейский Бор — и если выследишь одну из этих мерзких феечек, прикончи. Если найдёшь пыльцу фей — неси мне. Есть кое-что взамен.
+If you you happen across any Brashell in your explorations, Braxon Elden may be interested in seeing it.=Если в странствиях наткнёшься на Брашелл — Браксон Элден, возможно, захочет взглянуть.
+If you're able to locate them, report to Captain Kilkay.=Если сможешь их обнаружить — доложи капитану Килкею.
+In return, the Watcher has given you a special lens and claimed it will allow its wearer to spot hidden Sivakayans throughout the world. They are thought to wander nearly everywhere on occassion. =В благодарность Наблюдатель дал тебе особую линзу, позволяющую замечать скрытых Сивакайцев по всему миру. Считается, что они бродят повсюду время от времени.
+It could be dropped by any Faerie that you find.=Она может выпасть с любой феи, которую найдёшь.
+It is suspected that they may be lurking inside the city, somewhere in the shadows. =Есть подозрение, что они скрываются в городе, где-то в тенях.
+It may be beneficial to find a way to change the lighthouse color to brighten up the island further...=Возможно, стоит найти способ сменить цвет маяка, чтобы ещё больше осветить остров...
+It really does make the plants grow!=Растения и правда от этого растут!
+It tickles your legs as you run in the most wonderful way. =При беге щекочет ноги самым чудесным образом.
+Jazmyn Challa in Port Azure has asked for you to bring back any clues that might prove her claim that Reavers are the true first people of Erenshor.=Джазмин Чалла из Порт-Азура попросила принести улики, подтверждающие, что Рейверы — истинный первый народ Эренсхора.
+Larviso in Loomingwood has told you about the Nighthollow Candle. It was stolen from The Wisp long ago. If you find any trace of it, bring it to him. =Ларвисо из Грозолесья рассказал о Свече Ночной Пустоши. Она была украдена у Блуждающего Огонька давным-давно. Если найдёшь след — неси ему.
+Locate the church, and see what secrets it holds. =Найди церковь и узнай, какие тайны она хранит.
+Moongill are known to come out at night and are famously hard to catch.=Лунные Жабры появляются ночью и славятся тем, что их невероятно сложно поймать.
+Orion Mycon has given you his damaged ring. If you can fix it, it's yours. =Орион Микон отдал повреждённое кольцо. Если починишь — оно твоё.
+Orion may be interested in receiving it back...=Ориону, возможно, будет интересно получить это обратно...
+Parmalee Gemlyn has asked you to bring back the broken ring, an Elderstone Shard, and a chunk of Citrine Sandsilver in order to repair Orion's Ring=Пармали Гемлин попросила принести сломанное кольцо, осколок Элдерстоуна и кусок цитринового пескосеребра, чтобы починить Кольцо Ориона
+Ripper asked for you to bring any information you find on Sivakayan activity to her. =Потрошительница попросила приносить любую информацию о деятельности Сивакайцев.
+Ripper has reviewed the encryption you brought to her and has determined that Sivakayans have gained access to Port Azure through the lighthouse. She has asked that you investigate. =Потрошительница изучила шифровку и установила, что Сивакайцы проникли в Порт-Азур через маяк. Она просит расследовать.
+Ripper is a traitor to Erenshor who will be dealt with right along with the Sivakayans. In fact... tell ya what: wipe them out and bring me back their insignia badges, and I'll make it worth your while for every one of 'em.=Потрошительница — предательница Эренсхора, и с ней разберутся вместе с Сивакайцами. Кстати... перебей их и принеси мне нашивки, за каждую заплачу.
+Return any tomes you find to Yarren and he may share more of what he knows with you. =Верни любые найденные фолианты Яррену — и он, возможно, поделится знаниями.
+Return the four charged stones to Aragath.=Верни четыре заряженных камня Арагату.
+She believes it was taken by a slime. If you happen across it, return it to her. =Она считает, что его забрал слизень. Если наткнёшься — верни ей.
+She has been warped and hurt! I can see it. By... Azynthi? Her star pupil? Now he hides amongst your kind!  If you find him, you must gain power to defeat him! Here, bring this to one who knows its worth, and who mourns her loss. They will know what to do with it.=Она была искалечена и ранена! Я вижу. Кем... Азинти? Её лучший ученик? Теперь он прячется среди вашего рода! Если найдёшь — ты должен обрести силу, чтобы одолеть его! Вот, отнеси тому, кто знает цену и скорбит о её утрате. Они будут знать, что делать.
+She has observed a remnant of a chain stuck in the beast's teeth that may have belonged to a friend of hers. =Она заметила обрывок цепочки, застрявший в зубах зверя, — возможно, он принадлежал её другу.
+She has warned you that they're hard to come by, but every now and then you'll find one on a skeleton of any sort. =Она предупредила, что они редки, но иногда находятся на скелетах любого рода.
+She suggested searching in the cave on the north side of Hidden Hills.=Она предложила поискать в пещере на северной стороне Скрытых Холмов.
+She thinks she may be able to make something out of them that you would find useful.=Она думает, что сможет сделать из них нечто полезное для тебя.
+Sivakaya has asked you to obtain the Secrets of Creation from the corruption that will manifest in the Stowaway's Step Portal. She wants you to bring it to The Wisp. =Сивакая попросила добыть Тайны Творения из порчи, что проявится в Портале Контрабандного Утёса. Она хочет, чтобы ты отнёс их Блуждающему Огоньку.
+Supply Sergeant Tipp wants Sivakayan Ore. He says their soldiers carry it sometimes, but it's hard to find. =Интендант Типп хочет Сивакайскую Руду. Их солдаты иногда носят её, но она редко попадается.
+Ta'Dah, the hidden Sorcerer for Ripper has stopped you and offered you a prize for collecting three intact mushroom caps from the cave near Ripper's Keep. =Та'Да, скрытый колдун Потрошительницы, предложил награду за три целых шляпки грибов из пещеры у Крепости Потрошительницы.
+Torado in Wardhaven has asked if you could help him gather components for The Rituals they must perform to restore Sivakaya. He needs:=Торадо из Сторожевой Гавани попросил помочь собрать компоненты для Ритуалов восстановления Сивакаи. Ему нужны:
+Valrae Cleary in Faerie's Brake has asked you to find her a set of keys to Krakengard. The Bunk key and the Tower key are what she's after. =Валрей Клири из Фейского Бора попросила найти ключи от Кракенгарда. Ей нужны ключ от казармы и ключ от башни.
+Wally Waldorf is near the shop in Stowaway's Step and he really wants a Moongill fish. =Уолли Уолдорф у лавки на Контрабандном Утёсе — он очень хочет рыбу Лунные Жабры.
+Xander Zaxtrough in Hidden Hills made mention of a missing person he's hunting for. He suspects that the Molorai Militia are holding this person somewhere on Erenshor. =Ксандер Закстроу из Скрытых Холмов упомянул пропавшего, которого ищет. Он подозревает, что Молорайское Ополчение держит его где-то в Эренсхоре.
+Yarren Mathers has given you a key to an old church he says is buried in the hills of Blacksalt Strand. =Яррен Мэтерс дал ключ от старой церкви, погребённой в холмах Чёрносолёного Берега.
+You have a deceased treasure hunter's journal, and a request from his widow to continue his quest. You should bring whatever you find back to him to help put him at rest. =У тебя дневник погибшего кладоискателя и просьба вдовы продолжить его поиски. Принеси находки к нему, чтобы помочь душе обрести покой.
+You have gathered seeds from all of the known Willows in Erenshor and given them to a Watcher high upon a hill in Willowwatch. =Ты собрал семена со всех известных Ив Эренсхора и отдал Наблюдателю на холме в Ивовой Страже.
+You have returned a journal to Wishlan that he lost ages ago. He was gracious, and offered you an old trinket he once held dear. =Ты вернул Вишлану дневник, потерянный давным-давно. Он был благодарен и предложил старую безделушку, которой когда-то дорожил.
+You tried to give the Secrets of Creation to Lucian on Stowaway's Step, but he instructed you to bring it to Larviso in Loomingwood instead.=Ты попытался отдать Тайны Творения Люциану на Контрабандном Утёсе, но он велел отнести Ларвисо в Грозолесье.
+You've encountered a dying wish of Fernalla in the Blooming Sepulcher, and it has asked you to find her brother's tomb and defeat its guardian at the entry chamber. Upon doing so, you should return to this wish with a memory of the Burial=Ты встретил умирающее желание Ферналлы в Цветущей Гробнице; оно попросило найти гробницу брата и победить стража у входной палаты. После этого вернись с воспоминанием о Погребении
+You've encountered a second wish of Fernalla in the Blooming Sepulcher. This one has asked you to find Balaste, in Vitheo's Rest, and see if you can sense a memory that might reveal if Vitheo was indeed laid to rest there, and what happened next. =Ты встретил второе желание Ферналлы в Цветущей Гробнице. Оно попросило найти Баласте в Покое Витео и попытаться ощутить воспоминание о том, был ли Витео погребён там и что произошло дальше.
+You've found a note in the pocket of Brice Mathers. It instructs you to find his brother in Goodsoil. =Ты нашёл записку в кармане Брайса Мэтерса. В ней сказано найти его брата в Гудсойле.
+You've found a Paladin trapped by Azynthi who claims to have had knowledge of Soluna's Celestial Blade stolen from him. If you can restore him, he may be able to share it with you.=Ты нашёл Паладина, пленённого Азинти, утверждающего, что знание о Небесном Клинке Солуны у него похищено. Если восстановишь его — возможно, он поделится.
+You've reminded a phantom of who he was in a past life, and he has asked you to continue his treasure hunt. He gave you a pin and directed you to speak to his wife, using the pin as proof of having met him. He said she will help you pick up on his quest where he left off. =Ты напомнил призраку, кем он был в прошлой жизни, и он попросил продолжить охоту за сокровищами. Он дал булавку — покажи жене как доказательство встречи. Она поможет продолжить его поиски.
+You've returned a compass to Asaga Underloft in Port Azure, and he has asked you to continue to explore the mysterious portals in search of his missing father. =Ты вернул компас Асаге Андерлофту в Порт-Азуре, и он попросил продолжить исследование порталов в поисках пропавшего отца.
+There may be a way to reach places not meant for humans, and reap the rewards within.=Возможно, есть способ добраться до мест, не предназначенных для людей, и забрать сокровища оттуда.
+Wishlan handed you a bag of stones and asked for one to keep.=Вишлан вручил мешочек камней и попросил один оставить себе.
+The odd cultists won't say much, but one has mistaken you for their friend 'Wyland' before realizing his error.=Странные культисты неразговорчивы, но один принял тебя за своего друга «Вайланда», прежде чем понял ошибку.
+The odd Hermit has given you a Riftstone and instructed you to find "The Riftsnares" to "Pull the four souls into this realm and destroy them."=Странный Отшельник дал Камень Разлома и велел найти «Ловушки Разлома», чтобы «вытянуть четыре души в этот мир и уничтожить их».
+The riftsnares...=Ловушки Разлома...
+Stalzo, Revid, Leah, and Posta. Their names echo eternally through my mind. Each has hidden a soul gem on the island. Force the soul gem upon its corresponding watchlight, and the light will be extinguished and its soul captured. If you can bring me their souls, I will be indebted to you beyond measure. =Стальцо, Ревид, Лия и Поста. Их имена вечно эхом звучат в моём разуме. Каждый спрятал камень душ на острове. Поднеси камень к сторожевому огню — свет погаснет, а душа будет поймана. Если принесёшь мне их души — я в неоплатном долгу.
+They have asked you to hand the demon an empty soulstone, to absorb his power and finally allow them to leave the island.=Они попросили отдать демону пустой камень душ, чтобы поглотить его силу и наконец позволить им покинуть остров.
+The Guard Captain in Port Azure has reviewed the Sivakayan Encryption that you have found and has determined that the Sivakayans have created a secret access point in the Port Azure Lighthouse.=Капитан стражи Порт-Азура изучил Сивакайскую Шифровку и установил, что Сивакайцы создали тайную точку доступа в Маяке Порт-Азура.
+Let's talk about The Sivakayan Problem. There are rumors of Sivakayans in Port Azure. If you find any evidence of that, bring it to me.=Давай поговорим о Сивакайской Проблеме. Ходят слухи о Сивакайцах в Порт-Азуре. Если найдёшь доказательства — неси мне.
+You should investigate when you're in the city.=Стоит расследовать, когда будешь в городе.
+Port Azure is just down the road past the next house. Across the pond along the road, that's Fernalla's Revival Plains. and If you take a right before you get to town, you'll find Vitheo's Watch and an old abandoned Fort called Krakengard.=Порт-Азур — прямо по дороге, за следующим домом. Через пруд вдоль дороги — Равнины Возрождения Ферналлы. А если свернёшь направо перед городом — найдёшь Дозор Витео и заброшенный форт Кракенгард.
+If you go to Krakengard, bring me the tower and bunk keys if you find extras. I've always wanted to explore that place.=Если пойдёшь в Кракенгард — принеси ключи от башни и казармы, если будут лишние. Я всегда хотела исследовать это место.
+
+# --- NPC Диалоги: ответы при сдаче ---
+Ah yes, this is good. Thank you. I'm not afraid of the Molorai, I'll make quick work of any who bug me. Already have a reputation for doing that. Found this on one of 'em - here, have it. =А, да, это хорошо. Спасибо. Я не боюсь Молораев — быстро разберусь с любым, кто полезет. У меня уже репутация. Нашёл вот у одного из них — держи.
+Ah, gloating I see, yes! They were four, now they are none!=Ого, торжествуешь! Их было четверо — теперь ни одного!
+Ah, so Bassalt will not be making it here then, what a shame. I've discovered something that he wanted for us to tackle together - but maybe not doing so will be for my best. I'll hand it off to you, do with it what you will. I do not know what lies ahead for the one who pursues this.=Значит, Бассальт так и не придёт — жаль. Я нашёл кое-что, за что он хотел взяться вместе, — но, может, мне лучше остаться в стороне. Передам тебе, решай сам. Не знаю, что ждёт того, кто за это возьмётся.
+Ah, so Molorai is behind the Goodsoil attack somehow? Knew he was trouble. Still, the Sivakayans did it, but what is Molorai using them for? If you discover anything more, bring it to me. =Значит, Молорай причастен к атаке на Гудсойл? Я знал, что от него жди беды. Но Сивакайцы это сделали — зачем он их использует? Если узнаешь ещё — неси мне.
+Ah, these are not new... just copies of what you've shown me.=Это не новые... просто копии того, что ты уже показывал.
+Amazing! So Brax's decision to smite this land was made easy by the defiance of his own followers! Had they been less selfish, the entire land may have suffered. This is incredible history... here, have this as a reward for your troubles!=Невероятно! Решение Бракса покарать эту землю облегчила непокорность его же последователей! Будь они менее алчны — пострадала бы вся земля. Потрясающая история... держи в награду за труды!
+Amazing... this is a piece of the candle! There should be a base, wax, and a wick. Find them all and bring them here!=Потрясающе... это часть свечи! Должны быть основание, воск и фитиль. Найди всё и принеси сюда!
+Another copy... incredible. Keep that for yourself and enjoy the tale within.=Ещё копия... невероятно. Оставь себе и насладись историей.
+Any clues are welcome! =Любые улики приветствуются!
+Balaste kept his word, and for that I am grateful beyond measure. My brother was there once... and perhaps he remains still. Please, child, continue down this path with me. Let us see this through together.=Баласте сдержал слово, и за это я благодарна безмерно. Мой брат был там когда-то... и, возможно, он всё ещё там. Прошу, дитя, продолжи этот путь со мной. Давай пройдём его вместе.
+Biggest coward I ever heard of. No message? Well, I sure got one for him. Would like to deliver it on the end o' my axe, but this'll do for now. Give him this if you see 'im. Tell him it's from Ripper's guys.=Трусливей типа я в жизни не слышал. Без послания? Ну, у меня есть для него. Хотел бы доставить на конце топора, но пока сойдёт. Передай ему вот это. Скажи — от людей Потрошительницы.
+Bring me a few more first! I need four.=Принеси ещё! Мне нужно четыре.
+Edgar gave this to you? If he says it's true, it is. My family has held this piece for centuries, but it's time to forge it... its purpose will hopefully reveal itself, because I do not know what that may be.=Эдгар дал? Если он говорит, что настоящее — так и есть. Моя семья хранила этот осколок веками, но пришло время выковать его... надеюсь, назначение раскроется само.
+Eldoth... that monster has his hands in everything on this continent. Even if you've dispatched him I expect he is not truly gone. We'll remain here if Azure asks us for help, but until then it would appear that they can only wait and see what comes next. This is not mine to reward but it seems fitting to share with you. Take it, please. On behalf of the Citizens of Azure. =Элдот... это чудовище суёт руки повсюду на континенте. Даже если ты его прикончил — сомневаюсь, что он исчез. Мы останемся, если Азур попросит помощи. Это не мне решать награды, но будет правильно поделиться. Возьми, прошу. От имени граждан Азура.
+Elwio... I asked him to grant a mercy, to free Vitheo from this realm should the shadow of Sivakaya ever reach for him. I begged that he not allow her to sink her cruel claws into him and twist his will to serve her dark desires. I regret burdening Elwio with this task, but he was our most trusted general...  Please, continue onward, I must make a final request.=Элвио... я попросила его оказать милость — освободить Витео, если тень Сивакаи когда-нибудь потянется к нему. Я молила не позволить ей вонзить когти и подчинить его волю. Я жалею, что взвалила это на Элвио, но он был вернейшим полководцем... Прошу, продолжай — мне нужна последняя просьба.
+Fantastic! This is hard to come by, you know. It's uh... it makes for an enjoyable evening! Here, have it back and bring me more!=Великолепно! Такое нечасто достанешь. Оно... обеспечивает приятный вечерок! Держи обратно и неси ещё!
+He... he understands. He knows I only sought to help him. That is... such a relief. But... no... something is wrong... I can feel it. The darkness is upon me! My will to aid Vitheo held it at bay, but now... I cannot fight it any longer! Quickly, child, leave this place! I can no longer command what stirs within me! My mortal body is no longer important to me. =Он... понимает. Он знает, что я лишь хотел помочь. Какое... облегчение. Но... нет... что-то не так... я чувствую. Тьма надвигается! Моя воля помочь Витео сдерживала её, но теперь... я больше не могу! Скорее, дитя, беги! Я не властен над тем, что пробуждается внутри! Моё смертное тело мне больше не важно.
+I already have all I can eat!=У меня уже всё, что можно съесть!
+I am protected!=Я защищён!
+I appreciate your help.=Благодарю за помощь.
+I asked for three, please.=Я просил три, будь добр.
+I can't do that again... it was too much for me.=Я не могу повторить... для меня это слишком.
+I cannot believe this. You've done it... *The box opens easily with his touch, and he seems haunted by visions momentarily before regaining his senses* Azynthi... he has taken everything. Vitheo, Fernalla, Soluna, Brax - he has crept into all of their beings. Sivakaya has shown me this. You must find a way to reach them!=Не могу поверить. Ты справился... *Шкатулка легко открывается от его прикосновения, и на мгновение его пронзают видения, прежде чем он приходит в себя* Азинти... он захватил всё. Витео, Ферналлу, Солуну, Бракса — он проник в сущность каждого. Сивакая показала мне. Ты должен найти способ добраться до них!
+I cannot believe you have recovered the candle! We must piece it together at once and light it. Only a flame of Brax will be sufficient - you must find a place where the flames of Brax burn strong, and ignite the candle! It will guide you into the Jaws of Sivakaya, and we may finally learn how to restore her.=Не могу поверить, что ты нашёл свечу! Нужно немедленно собрать и зажечь. Подойдёт только пламя Бракса — найди место, где оно пылает, и зажги свечу! Она проведёт тебя в Пасть Сивакаи, и мы наконец узнаем, как её восстановить.
+I do not need more, but thank you.=Мне больше не нужно, но спасибо.
+I don't know where exactly. Many of us have come hoping to find a clue, or, with luck, may we even find our ancestral city still flourishing. If you find anything, please, bring it directly to me. I'll reward you for your efforts.=Не знаю точно где. Многие из нас пришли в надежде найти зацепку, а с удачей — может, даже наш родовой город. Если найдёшь что-нибудь — неси прямо ко мне. Награжу за старания.
+I have all I need for now, thank you.=Пока у меня всё есть, спасибо.
+I have all I need, thank you for your help.=У меня всё есть, спасибо за помощь.
+I have suspected the Sivakayans have been within our walls for some time now. This only confirms my fears. I implore you to find more information... If you learn of how the Sivakayans are entering Port Azure, please bring that information to me!=Я давно подозревал, что Сивакайцы проникли за наши стены. Это подтверждает мои опасения. Умоляю, найди ещё информацию... Если узнаешь, как они проникают в Порт-Азур — принеси сведения мне!
+I have these... didn't you give them to me?=У меня они есть... разве не ты мне их дал?
+I knew Eldoth was working with them! Removing that fiend from this town was the right decision after all. Thank you for your help. There's nothing left to do but bolster our defenses and see what comes until reinforcements arrive. Take this, as a sign of your loyalty here. It may serve you someday.=Я знал, что Элдот с ними заодно! Выгнать эту гадину было верным решением. Спасибо за помощь. Остаётся укрепить оборону и ждать подкрепления. Вот, в знак твоей верности. Когда-нибудь пригодится.
+I need but one seed from each tree, no more are necessary.=Мне нужно по одному семени с каждого дерева, больше не требуется.
+I need Sivakayan ore. Bring me 4 chunks and I'll get you something worth your while for it. It's hard to come by. You'll find a bit of it on their soldiers from time to time. I'm trying to figure out how to replicate their weapons... those things never go dull.=Мне нужна Сивакайская руда. Принеси 4 куска — дам кое-что стоящее. Редкая штука. Иногда попадается у их солдат. Пытаюсь разгадать, как повторить их оружие... эти клинки не тупеют.
+I will destroy you before you find my wards!=Я уничтожу тебя прежде, чем доберёшься до моих стражей!
+I will not be defeated, you cannot overcome my protection!=Меня не одолеть, ты не пробьёшь мою защиту!
+I... I haven't seen this in over a year. It belonged to my father. He's... he's missing. He claimed to have unlocked the secret of the Dusken Portal and was working on the Fernallan one next. He was obsessed, convinced they held mysteries too profound for the waking world to comprehend. Please, if you find him... bring him back! Here—take this. It's his latest research.=Я... больше года этого не видел. Принадлежало отцу. Он... пропал. Утверждал, что разгадал секрет Сумеречного Портала и работал над Ферналланским. Был одержим — уверен, что они хранят тайны слишком глубокие для бодрствующего мира. Прошу, если найдёшь... верни! Вот — его последние исследования.
+I... I haven't seen this in over a year. It belonged to my father. He's... he's missing. He claimed to have unlocked the secret of the Dusken Portal and was working on the Fernallan one next. He was obsessed, convinced they held mysteries too profound for the waking world to comprehend. Please, if you find him... bring him back! Here-take this. It's his latest research.=Я... больше года этого не видел. Принадлежало отцу. Он... пропал. Утверждал, что разгадал секрет Сумеречного Портала и работал над Ферналланским. Был одержим — уверен, что они хранят тайны слишком глубокие для бодрствующего мира. Прошу, если найдёшь... верни! Вот — его последние исследования.
+I'll leave shortly, thank you again.=Скоро уйду, ещё раз спасибо.
+I'm all set for now, thank you. =Пока у меня всё, спасибо.
+I'm all set now, thank you.=У меня всё, спасибо.
+I've seen this already. If you find more, bring it to me.=Я уже видел это. Если найдёшь ещё — неси мне.
+Incredible... there seems to be another page that goes with this. Do you have it?=Невероятно... похоже, есть ещё страница. У тебя она есть?
+Is this a trick? =Это шутка?
+It's "Shadowtide".=Это «Теневой Прилив».
+It's a big problem. Kio - that guy down at the Lighthouse there - he's been making folks uncomfortable. We're gonna send him on leave for a bit. Go and deliver the news and collect his gate key. It's all yours.=Серьёзная проблема. Кио — парень у маяка — нервирует народ. Мы отправим его в отпуск. Иди, сообщи ему и забери ключ от ворот. Он твой.
+It's so incredible! Get it to Lucian.=Невероятно! Отнеси Люциану.
+It's SPLENDID! The stone... it's blooming like a flower. It's taking energy from the Elderstone and... oh! Look inside! It's like a miniature storm!=ВЕЛИКОЛЕПНО! Камень... расцветает, как цветок. Черпает энергию из Элдерстоуна и... о! Загляни внутрь! Как миниатюрная буря!
+It's true! Sivakayans have gained access... it appears through the lighthouse? Take this, our spies have keys to everything. See what you can find in there. Despite our differences with the Azure Guard, of course the citizens deserve to be safe.=Правда! Сивакайцы получили доступ... через маяк? Держи — у наших шпионов ключи от всего. Посмотри, что найдёшь. Несмотря на разногласия с Азурской Стражей, горожане заслуживают безопасности.
+It's way up north and not an easy trek. Say... would you take this package for me? Bring me back the receipt? Leena should be more than obliged to accept it. It'd save her a trip down here. =Далеко на севере, путь неблизкий. Слушай... не отнесёшь посылку? Принеси квитанцию? Лина с радостью примет. Сэкономит ей поездку сюда.
+Keep 'em coming=Продолжай нести
+Kilkay's got a standin' order for my head so it only seems fair I place one for his. Can't find anyone brave enough to go and get it for me though. Nobody's willin' to give up the luxuries of Port Azure.=Килкей назначил награду за мою голову — так что только честно, что я назначу за его. Не могу найти храбреца, который бы сходил. Никто не хочет расставаться с роскошью Порт-Азура.
+Leave this place to me, it is mine!=Это место моё, убирайся!
+My wards protect me, you should flee!=Мои стражи защищают меня — беги!
+non-believers=неверующие
+Ogre teeth are magical and wonderful things... but they're so gross.=Зубы огров — магические и чудесные штуки... но до чего же мерзкие.
+Oh My Heavens! Vitheo's blessings! Fernalla's Blessings! Here, take this - I have no need for it!=О Боже! Благословение Витео! Благословение Ферналлы! Держи — мне это ни к чему!
+Oh my, this is alarming! These are the pages Eldoth must have been after when he killed Brice for the church key! Eldoth is trying to uncover information about Sivakaya or The Wisp... but why? You must find more of these pages!=Боже, это тревожно! Вот те страницы, за которыми Элдот охотился, когда убил Брайса ради ключа! Он пытается раскопать информацию о Сивакае или Огоньке... но зачем? Ты должен найти ещё!
+Oh my... they're truly here! It appears they've carved out a spot beneath the lighthouse! Quickly, go! Search the lighthouse!=Боже... они действительно здесь! Похоже, они обустроились под маяком! Скорее, обыщи маяк!
+Oh no... this was Brice's worst fear! We believe Eldoth is involved with The Wisp and that he is behind something far more sinister than I have time to explain. Brice gave me this key for safe keeping. He was afraid Eldoth's men would come for it. He discovered an old Sivakayan church buried in the hills of Blacksalt and this key is the only one in existence. See what's in there... and bring any tomes you find back to me. For Brice...=О нет... худший страх Брайса! Мы считаем, что Элдот связан с Огоньком и стоит за чем-то зловещим. Брайс отдал ключ на хранение — боялся, что люди Элдота придут за ним. Он нашёл старую Сивакайскую церковь в холмах Чёрной Соли, и этот ключ — единственный. Посмотри, что там... и принеси фолианты. Ради Брайса...
+Oh... they made copies of it? Good for the collection, I suppose. =А... они сделали копии? Для коллекции сойдёт.
+Only those who embrace the gift of life and the necessity of death are true believers. You'll find some who worship Fernalla only for her gifts, while denying that all gifts must one day be returned. True believers - and especially druids - embrace all parts of nature. =Лишь принимающие дар жизни и неизбежность смерти — истинные верующие. Найдутся те, кто чтит Ферналлу лишь за дары, отрицая, что всё однажды надо вернуть. Истинные верующие — особенно друиды — принимают все стороны природы.
+Our community appreciates having you!=Наше сообщество ценит тебя!
+Please play nice!=Играйте честно!
+Remember to keep it friendly!=Не забывайте вести себя дружелюбно!
+Remember to play nice!=Не забывайте играть честно!
+Softies. We took this place from them without even a scratch on our guys. Know what's funny? They've got no allegience to Sivakaya that I can find. All their writings are about 'Azynthi', whoeever that is. They're still lurking around though. If you find anything, please bring it my way.=Слабаки. Мы отобрали это место без единой царапины на наших. Знаешь что смешно? Никакой преданности Сивакае — все записи про «Азинти», кто бы это ни был. Но они ещё шныряют вокруг. Если найдёшь что — тащи мне.
+Some of 'em got those neat little bead necklaces - I think I could sell those. Bring me them if you find them and I'll save ya a trip back to Azure to sell 'em. =У некоторых есть аккуратные бусы — думаю, можно продать. Если найдёшь — неси, сэкономлю тебе поездку в Азур.
+Someone rubbed some wonderfully scented oil on this thing.=Кто-то натёр эту штуку чудесно пахнущим маслом.
+Take this to Larviso!=Отнеси это Ларвисо!
+Thank you for delivering my note.=Спасибо, что доставил записку.
+Thank you for playing Erenshor!=Спасибо, что играете в Erenshor!
+Thank you.=Спасибо.
+Thanks again for finding that intel!=Ещё раз спасибо за найденные данные!
+Thanks for being here!=Спасибо, что ты здесь!
+Thanks for finding that chain=Спасибо, что нашёл цепочку
+The top is worn where it has been gripped, despite having just been forged anew.=Вершина стёрта там, где сжимали, хотя перековано заново.
+The Willow is eveywhere, and the branches could be anywhere. However, I've learned that the Goblin tribes in the Fernallan Meadows might hold more clues! If you find anything, bring it back to me. One day we'll wield its branches...=Ива повсюду, и ветви могут быть где угодно. Но племена гоблинов на Ферналланских Лугах могут хранить больше улик! Если найдёшь — неси мне. Когда-нибудь мы будем владеть её ветвями...
+The Willow is eveywhere, and the branches could be anywhere. However, I've learned that the Rottenfoot tribes in the Fernallan Meadows might hold more clues! If you find anything, bring it back to me. One day we'll wield its branches...=Ива повсюду, и ветви могут быть где угодно. Но племена Гнилоногов на Ферналланских Лугах могут хранить больше улик! Если найдёшь — неси мне. Когда-нибудь мы будем владеть её ветвями...
+There are more pieces to this... but it's a fantastic start! Please, keep looking. =Тут есть ещё фрагменты... но начало отличное! Ищи дальше.
+There's an old bear in the Brake - Grizzlepaw. Wedged in his teeth, there is an old chain from a pendant. Bring it to me, and I'll pay handsomely. =В Бору есть старый медведь — Когтистая Лапа. В его зубах застряла цепочка от кулона. Принеси — щедро заплачу.
+There's another one that I need too.=Мне нужен ещё один.
+These are interesting... it looks like we're missing at least one piece though. Are they really plotting something? Hurry up, find out more!=Интересно... похоже, не хватает фрагмента. Они что-то замышляют? Поторопись, узнай больше!
+These are Willow seeds? I have never seen them so close up! Are there more? =Это семена Ивы? Никогда не видел их так близко! Есть ещё?
+They fear us, as they should! It strikes me as odd that every Sivakayan writing I find does not reference Sivakaya even once. It's as though this... this Azynthi has taken over. You should find him. We'll keep our ears to the ground. =Они нас боятся — и правильно! Странно, что ни в одной Сивакайской записи нет упоминания Сивакаи. Будто Азинти всё захватил. Тебе стоит его найти. А мы держим ухо востро.
+They had so much faith in me... and I was not able to help. I am glad to know they remembered my true intentions. Take this as my thanks, but before you go, please remove one and hand it to me - I lack the dexterity.=Они так верили в меня... а я не смог помочь. Рад, что помнили мои намерения. Вот, в благодарность, но прежде чем уйдёшь — достань один и дай мне в руку, у меня не хватает ловкости.
+They make great sharpening stones. =Из них отличные точильные камни.
+They're always going to be trouble for us. =Они всегда будут головной болью.
+They're beautiful, aren't they? I cannot recall why I carried this bag, but it may aid you. If you cross paths one day with Soluna I hope you find the power to convince her to undo our curse. I have one final gift for you, my eyes can no longer focus on it.=Красивые, правда? Не помню, зачем носил эту сумку, но тебе пригодится. Если встретишь Солуну — надеюсь, ты убедишь её снять проклятие. Последний дар — мои глаза уже не видят его.
+This is an Eldrich Crystal... these were said to have been lost to time. The legends say that if combined with the right runestone, at the right place where the God may be present, it would grant access to the Planes of the Gods. Here, take it back. You may find a use for it.=Элдрический Кристалл... считалось, что они утеряны навеки. Легенды гласят: в сочетании с нужным руническим камнем, в нужном месте, где может присутствовать Бог, он откроет доступ к Планам Богов. Забери, может найдёшь применение.
+This is INCREDIBLE! Where did you find it? Oh, look how old it is! This is such an incredible insight into our place within Erenshor's history. Here - take this as my thanks. It should server you in places touched by the void. We hold no grudges against the Paladins of today, do not worry yourself. You have stated no war. We'll simply double our efforts to find our home to the North.=НЕВЕРОЯТНО! Где ты нашёл? Посмотри, какое древнее! Потрясающее свидетельство нашего места в истории Эренсхора. Вот — прими в благодарность. Пригодится в местах, затронутых пустотой. Мы не таим зла на Паладинов, не волнуйся. Ты не объявлял войну. Мы удвоим усилия в поисках дома на Севере.
+This is not anything I'm interested in taking from you.=Я не заинтересован забирать это у тебя.
+This one's not real.=Этот ненастоящий.
+This seems to be but a piece of the puzzle... we need all the pieces!=Лишь фрагмент головоломки... нам нужны все части!
+In decidedly feminine handwriting:=Решительно женским почерком:
+Written in decidedly feminine handwriting:=Написано решительно женским почерком:
+W... what have you done to me? You BELIEVED them? They're demons! You've given them my soul! *The soul stone dissolves in his hands and a bright light floats off into the sky*=Ч-что... что ты сделал? Ты ПОВЕРИЛ им? Они демоны! Ты отдал им мою душу! *Камень душ растворяется в его руках, и яркий свет уплывает в небо*
+We're square.=Мы в расчёте.
+We've covered this already... show me anything new you find!=Мы это уже обсуждали... покажи что-нибудь новое!
+We've had mixed information, but this seems to be definitive - the Sivakayans are gathering to march on the city. Our preparations are justified. Thank you for sharing this with me.=Информация была противоречивой, но это, похоже, окончательно — Сивакайцы собираются идти на город. Наши приготовления оправданы. Спасибо, что поделился.
+Well look at you... I'm surprised you managed. Here, I had a chunk a while back and managed to have someone fashion this. =Ну надо же... удивлён, что справился. Вот, у меня был кусок — удалось заказать кое-что.
+Well well, these will do nicely for my project. You see, they never remain intact due to my... magical powers. I blow them right to bits. Ah, but here we are. You are a true friend, and Port Azure is open to your travels once more, with this!=Ну-ну, для проекта сгодятся. У меня они вечно разлетаются от моих... магических способностей. Прямо в пыль. Ну да ладно. Ты настоящий друг, и Порт-Азур снова открыт для твоих странствий — с этим!
+What an incredible ring! The band... it's Elderstone. And I've never seen a gem quite like that one. I could repair it, sure. I'd need an Elderstone shard and... something to act as a conduit between gemstone and band. A bit of Citrine Sandsilver would work!=Какое невероятное кольцо! Ободок — Элдерстоун. А такого камня не видела никогда. Починить? Конечно. Нужен осколок Элдерстоуна и... что-то в качестве проводника между камнем и ободком. Подойдёт цитриновое пескосеребро!
+What is this, a replica? We have the real candle already.=Что это, копия? У нас уже есть настоящая свеча.
+What is this? Are you making these yourself? Is this some sort of a trick?=Что это? Ты сам их делаешь? Это какой-то фокус?
+What's this...?" *She unrolls the note* "...passage to Erenshor by order of Percy? Hahaha! He's out of his mind. I don't owe him a thing. Sorry pal, no can do.=Что это..?» *Она разворачивает записку* «...проезд в Эренсхор по приказу Перси? Ха-ха-ха! Он рехнулся. Я ему ничего не должна. Извини, приятель, никак.
+Where did you find this...? It was stolen from me in the night. I was able to fight off the intruder before he did me harm, but he was able to unsocket the gem from this Elderstone band. I have no need for the ring any longer nor the trouble it has brought. You can keep it. *He fits the gem loosely into the slot and hands it back to you* Might even be fixable by a jeweler.=Где ты нашёл...? Украли ночью. Я отбился от грабителя, но он выковырнул камень из Элдерстоунового ободка. Кольцо мне не нужно — как и неприятности от него. Оставь себе. *Он вставляет камень обратно и возвращает тебе* Может, ювелир починит.
+Where did you get this? It's... ancient! This is incredible. It's a Loss Stone, I've only read about them. They're empathetic stones, which absorb sadness and sorrow from a place or time and store it as the most pure energy. We may be able to use this to restore Sivakaya! The ritual is still going on Stowaway's Step, you need to go back there and show this to Lucian at once. =Где ты это достал? Древний! Невероятно. Камень Утраты — я только читал о них. Эмпатические камни, поглощающие печаль и скорбь, хранящие их как чистейшую энергию. Возможно, с его помощью мы восстановим Сивакаю! Ритуал идёт на Контрабандном Утёсе — немедленно покажи Люциану.
+Where... did you get this? This is unheard of! If you find more remnants of the old Braxonians, bring them to me - here, a reward for your troubles and a token of friendship.=Где... ты это достал? Неслыханно! Если найдёшь ещё следы древних Браксонян — неси мне. Вот, награда и знак дружбы.
+Yeah ok I don't need all of it in bags, knock it off! =Ладно, мне не нужно всё это мешками, прекрати!
+Yeah, been excavating this site here, lookin' to find that old castle basement that's rumored to be down there. Hit a snag... bugs. They're not that dangerous alone but they swarm! Can't get through 'em.=Ага, я тут раскопки веду — ищу старый замковый подвал, который, по слухам, где-то внизу. Застопорились... жуки. По одному не опасны, но их тучи! Не пробиться.
+Yes! Oh, you've done it! I... I remember! It's all coming back to me! (TO BE CONTINUED)=Да! О, ты справился! Я... вспоминаю! Всё возвращается! (ПРОДОЛЖЕНИЕ СЛЕДУЕТ)
+Yes! Thank you! You've done both of us a favor just now. I have friends... powerful friends. Go see them hidden within walls of the Port Azure docks. They'll want a passphrase - it's "Shadowtide". =Да! Спасибо! Ты оказал услугу нам обоим. У меня есть друзья... влиятельные. Найди их за стенами доков Порт-Азура. Спросят пароль — «Теневой Прилив».
+Yes... yes there you go. I'll make my way out when it's clear. Thank you. I can't pay you but I have powerful friends. We've found something hidden on the docks in Port Azure. Go to them, there's a false wall. Use the passphrase if they ask, it's "Shadowtide".=Да... вот, вот так. Выберусь, когда будет безопасно. Спасибо. Заплатить не могу, но у меня влиятельные друзья. Мы нашли кое-что скрытое в доках Порт-Азура. Иди — там фальшивая стена. Пароль — «Теневой Прилив».
+You already gave him my message, didn't ya?=Ты уже передал ему моё послание, да?
+You already took care of this.=Ты уже с этим разобрался.
+You did a good job, and we all appreciate it.=Ты хорошо поработал, и мы все ценим.
+You have bestowed upon me a gift, adventurer. Your travels prove your strength and perhaps you can help protect this world. Sivakayans walk among us - watching and invisible. Take this, it'll allow you to see them. Whether you dispatch them is up to you. Beware though - if they sense your awareness, they may attack... and some hold great power. =Ты преподнёс мне дар, искатель приключений. Твои странствия доказывают силу, и ты можешь помочь защитить мир. Сивакайцы ходят среди нас — невидимые. Возьми — это позволит видеть их. Убивать ли — решать тебе. Но будь осторожен: если почуют, что ты их видишь — могут напасть, и некоторые обладают великой силой.
+You have the key... if you've lost it I don't know what to tell you. I do not have another. =Ключ у тебя... если потерял — не знаю, что сказать. Другого нет.
+You must find a way to reach the Gods!=Ты должен найти способ добраться до Богов!
+You say you found this note on an apparation? Incredible...=Говоришь, нашёл записку на призраке? Невероятно...
+You... you've done it? I cannot believe it. Your power must be immeasurable!  Perhaps *you* will be the one to find the answers to the questions that have tortured us for so long. Here... take this. If you can find a way to use it, you may learn secrets that will change the world forever...=Ты... справился? Не могу поверить. Твоя сила безмерна! Возможно, именно *ты* найдёшь ответы на мучившие нас вопросы. Вот... возьми. Если найдёшь способ использовать — узнаешь тайны, которые изменят мир навсегда...
+You've done it, thank you!=Ты справился, спасибо!
+You've done it? This soil looks great! I'll get to plantin' as soon as I can! Here - I was usin' this to get back and forth to get supplies but I'm not gonna need it anymore and honestly, it's a pretty uncomfortable feelin' to use! =Справился? Почва отличная! Начну сажать, как только смогу! Вот — я пользовался этим для поездок за припасами, но больше не нужно, да и ощущения от него не из приятных!
+You've found it... I feel the possibility of hope within you... I have removed the ward and I ask that you enter this place. Please, child, help me.=Ты нашёл... Я чувствую возможность надежды в тебе... Я снял защиту и прошу войти. Пожалуйста, дитя, помоги мне.
+You've met her? She was really there? Then our work has not been for nothing! You must take this to Larviso in Loomingwood - He will be able to open it!=Ты встретил её? Она была там? Значит, наш труд не напрасен! Ты должен отнести это Ларвисо в Грозолесье — он сможет открыть!
+You've slain that wretch? Good on you and good for us all. A man in his position should never abandon his own people. You are one of us now. Take this, as a sign of our gratitude. =Ты убил этого негодяя? Молодец, и нам всем на пользу. Человек на его посту не имеет права бросать своих. Ты теперь один из нас. Вот — в знак благодарности.
+You've... you've met Benjamin? So he is lost, then. It's just like him to not even rest in death, so you must help him. This is his journal - take it. See if you can find what he was after and please bring it back to him if you find it. =Ты... встретил Бенджамина? Значит, он погиб. Так на него похоже — даже в смерти не обрести покой. Ты должен помочь. Вот его дневник — возьми. Найди то, что он искал, и, пожалуйста, верни ему.

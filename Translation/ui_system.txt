@@ -1,0 +1,1121 @@
+# ============================================
+# Erenshor Russian Translation - UI & System
+# Формат: english=русский
+# Секции: [EXACT] — точное совпадение
+#         [SUBSTRING] — замена подстроки
+# Правило: русский текст <= длина англ. текста
+# ============================================
+
+[EXACT]
+
+# --- Кнопки основного меню ---
+Purchase=Купить
+Sell=Продать
+Accept=Принять
+Decline=Отклонить
+Close=Закрыть
+Cancel=Отмена
+Confirm=Подтвердить
+Continue=Далее
+OK=ОК
+Yes=Да
+No=Нет
+Back=Назад
+Apply=Применить
+Save=Сохранить
+Load=Загрузить
+Delete=Удалить
+Create=Создать
+Exit=Выход
+Quit=Выход
+Options=Настройки
+Settings=Настройки
+Play=Игра
+Enter World=Войти в мир
+New Character=Новый персонаж
+Name Character=Имя персонажа
+Invite=Пригласить
+Uninvite=Исключить
+Invite To Group=Пригласить в группу
+None Selected=Не выбрано
+None selected=Не выбрано
+No Seller=Нет продавца
+No Inventory=Нет товара
+Add Raider=Взять рейдера
+EMPTY=ПУСТО
+Login=Вход
+Credits=Авторы
+Reset=Сброс
+Done=Готово
+Defaults=Стандарт.
+
+# --- Главное меню ---
+Secure Login Portal=Авторизация
+Do not share passwords=Не делись паролями
+Load Most Recent Data=Последнее сохранение
+Enable Gamepad=Геймпад
+View Server Admin Panel=Панель администратора
+Meet other players! Join the official Discord.=Присоединяйся к Discord!
+A Simulated MMORPG=Симулятор MMORPG
+
+# --- Настройки / Graphics ---
+Game Options=Настройки игры
+Graphics=Графика
+Audio=Звук
+Controls=Управл.
+Misc=Прочее
+Camera=Камера
+Resolution=Разрешение
+Full Screen=Полный экран
+Environmental Shadows=Тени окружения
+High Detail Lighting=Детальное освещение
+VSync=VSync
+Outline Shader=Контурный шейдер
+Graphics Quality=Качество графики
+Grass Quality=Качество травы
+Brightness=Яркость
+Contrast=Контраст
+Saturation=Насыщенн.
+Color Temp=Цвет. темп.
+Draw Distance=Прорисовка
+SimPlayer Draw Dist.=Дальн. SimPlayer
+Bloom=Блюм
+Diffusion=Рассеив.
+Spell FX (Player)=Эффекты (игрок)
+Spell FX (Others)=Эффекты (прочие)
+Current FPS: =Текущий FPS: 
+
+# --- Патч-ноты ---
+Game Options=Настройки игры
+v0.3 Goes Live!=Выход версии v0.3!
+PATCH NOTES=ИЗМЕНЕНИЯ
+The REAVER is live!=ЖНЕЦ доступен!
+Server Status: Live=Статус: Онлайн
+
+# --- Слоты сохранений ---
+Slot =Слот 
+ - No Backup Found= — Бэкап не найден
+
+# --- Экран персонажа / создания ---
+Choose a name!=Выбери имя!
+Choose a class!=Выбери класс!
+Choose a Class=Выбери класс
+Name your Character=Назови персонажа
+Set your appearance=Настрой внешность
+Assign Proficiency Points=Распредели очки
+Save Character=Сохранить
+Enter world!=В мир!
+Skin Color=Цвет кожи
+Gender=Пол
+Hair Style=Причёска
+Hair Color=Цвет волос
+Beard=Борода
+Assign Proficiencies=Мастерство
+Remaining=Осталось
+Play to Unlock=Играй для открытия
+Disconnect=Отключиться
+Erase Character=Удалить
+Character Load Success!=Персонаж загружен!
+Backup Load Success!=Бэкап загружен!
+No Quest Assigned=Квест не назначен
+No quest selected.=Квест не выбран.
+No Aura Equipped=Аура не надета
+Available Points: =Доступные очки: 
+
+# --- Окно персонажа / статы ---
+Strength=Сила
+Physicality=Физ. мощь
+Endurance=Стойкость
+Hardiness=Выносливость
+Dexterity=Ловкость
+Finesse=Точность
+Agility=Проворство
+Defense=Защита
+Intelligence=Интеллект
+Intellect=Интеллект
+Arcanism=Арканизм
+Wisdom=Мудрость
+Restoration=Восстановление
+Charisma=Харизма
+Mind=Разум
+Resonance=Резонанс
+Haste=Скорость
+Atk Bonus=Бонус атк
+Attack Bonus=Бонус атаки
+HP Regen=Реген ОЗ
+MP Regen=Реген ОМ
+Armor Class=Класс брони
+Level=Уровень
+
+# --- Классы ---
+Paladin=Паладин
+Duelist=Дуэлянт
+Windblade=Ветроклинок
+Druid=Друид
+Arcanist=Арканист
+Stormcaller=Штормозов
+Reaver=Жнец
+
+# --- Тип урона ---
+Physical=Физический
+Magic=Магия
+Elemental=Стихийный
+Void=Пустота
+Poison=Ядовитый
+
+# --- Инвентарь / лут ---
+Inventory=Инвентарь
+Equipment=Экипировка
+Bank=Банк
+Trade=Обмен
+Loot=Добыча
+General=Общее
+Quest=Квест
+Ring 1=Кольцо 1
+Ring 2=Кольцо 2
+Bracer 1=Наруч 1
+Bracer 2=Наруч 2
+Primary=Основное
+Secondary=Вторичное
+
+# --- Социал ---
+Guild=Гильдия
+Group=Группа
+Party=Группа
+Raid=Рейд
+Friends=Друзья
+Whisper=Шёпот
+
+# --- Бой ---
+Attack=Атака
+Cast=Каст
+Block=Блок
+Dodge=Уклон
+Miss=Промах
+Critical=Крит
+Resist=Сопрот.
+CRITICAL=КРИТ
+ON!=ВКЛ!
+OFF.=ВЫКЛ.
+
+# --- Описания статов (окно статов) ---
+Strength is used in calculations for a character's physical Attack Damage (melee and bow).=Сила влияет на физический урон (ближний бой и лук).
+Increases your ability to use STRENGTH for Melee Damage and Bow Damage.=Усиливает Силу для урона в ближнем бою и из лука.
+Endurance is used in calculations for a character's total hitpoints and for their in-combat health regeneration.=Стойкость влияет на макс. здоровье и его реген в бою.
+Increases your ability to use ENDURANCE for calculating Hitpoints and in-combat health regeneration.=Усиливает Стойкость для расчёта здоровья и регена.
+Dexterity is used in calculations for physical attacks against defender's AC and determines the 'quality' of a hit - damage is calculated by 'ROLLED DMG x HIT QUALITY'. Dexterity is also used in calculation for blocking.=Ловкость пробивает броню цели и определяет качество удара — урон = бросок x качество. Также влияет на блок.
+Increases your ability to use DEXTERITY for bypassing a target's physical defense and getting higher quality hits during combat. Dexterity is also used for Blocking and triggering weapon procs.=Усиливает Ловкость для пробития брони и качества ударов. Также влияет на блок и проки оружия.
+Agility is used in Armor Class (AC) calculations, and also in determining if an incoming attack is dodged.=Проворство влияет на класс брони и шанс уклонения.
+Increases your ability to use AGILITY in Armor Class (AC) calculations and also determining if an incoming attack is dodged.=Усиливает Проворство для расчёта брони и уклонения.
+Intelligence plays a large role in the calculation for the size of a character's mana pool, and is used in calculating offensive spell damage.=Интеллект увеличивает запас маны и урон заклинаний.
+Increases your ability to use INTELLIGENCE in calculating offensive spell damage, and total mana pool.=Усиливает Интеллект для маг. урона и запаса маны.
+Wisdom is used in calculations for in-combat mana regeneration and healing power.=Мудрость влияет на реген маны в бою и силу исцеления.
+Increases your ability to use WISDOM in calculating a spell's healing power, as well as your overall mana regeneration.=Усиливает Мудрость для исцеления и регенерации маны.
+Charisma is used in spell-resist calculations. The caster gains a bonus modifier based on their charisma which is used to bypass their target's resists.=Харизма помогает пробить маг. сопротивление цели.
+Increases your ability to use CHARISMA to bypass a target's spell resists, increasing your offensive spell damage.=Усиливает Харизму для пробития сопротивлений цели.
+Resonance is a characters % chance to have any damage spell re-cast itself instantly, and for no mana. Resonating spells may not do full spell damage. Resonance can occur on weapon procs.=Резонанс — шанс мгновенно повторить заклинание бесплатно. Повтор наносит неполный урон. Работает с проками оружия.
+Haste is applied to non-magical attacks, haste reduces the 'cooldown' by a flat percentage of primary, offhand, bow, and wand attacks.=Скорость снижает время между физ. атаками на процент от КД основной руки, левой, лука и жезла.
+Atk Bonus is a flat bonus applied to 1d20 attack rolls when detemining quality of a melee hit. Increases your chance to crit, or land a higher damage attack. Reduces overall chance to miss.=Бонус атаки — плоский бонус к броску 1d20, повышает шанс крита и снижает промахи.
+HP Regen is your in-combat, per-tick Hitpoint Regen amount. 1 tick is approximately 3 seconds. A 50x modifier is applied ouside of combat.=Реген ОЗ — реген здоровья за тик боя (~3 сек). Вне боя множитель x50.
+MP Regen is your in-combat, per-tick Mana Regen amount. 1 tick is approximately 3 seconds. A 50x modifier is applied outside of combat.=Реген ОМ — реген маны за тик боя (~3 сек). Вне боя множитель x50.
+
+# --- Описания классов (char select) — v0.3 ---
+The Paladin is a master of defense  and excels in using heavy armor and weapon types.\n\nPaladins harness the power of the Sun and Moon to defend their friends by debuffing and drawing the attention of foes onto themselves.\n\nA Paladin should focus on Strength, Agility, and Endurance.=Паладин — мастер обороны в тяжёлой броне.\n\nПаладины используют силу Солнца и Луны для защиты друзей, ослабляя врагов и привлекая их внимание.\n\nФокус: Сила, Проворство, Стойкость.
+The Paladin is a master of defense and excels in using heavy armor and weapon types.\n\nPaladins harness the power of the Sun and Moon to defend their friends by debuffing and drawing the attention of foes onto themselves.\n\nA Paladin should focus on Strength, Agility, and Endurance.=Паладин — мастер обороны в тяжёлой броне.\n\nПаладины используют силу Солнца и Луны для защиты друзей, ослабляя врагов и привлекая их внимание.\n\nФокус: Сила, Проворство, Стойкость.
+The Windblade is a master of offensive combat and is best while using light armor and weapon types.\n\nWindblades thrive in battle. They gain health by dealing damage, and excel in crippling their opponents' abilities.\n\nA Windblade should focus on Strength, Dexterity, and Intelligence.=Ветроклинок — мастер атаки в лёгкой броне.\n\nВетроклинки живут битвой, лечатся уроном и калечат способности врагов.\n\nФокус: Сила, Ловкость, Интеллект.
+The Druid is a master of all things nature - both pleasant and unpleasant.\n\nThe Druid can call upon not only the force of life to heal their allies, but he also commands the power of death to disable foes.\n\nA Druid should focus on Wisdom, and Charisma.=Друид — повелитель природы, и светлой, и тёмной.\n\nДруид призывает силу жизни для исцеления союзников и повелевает смертью для обезвреживания врагов.\n\nФокус: Мудрость, Харизма.
+The Arcanist is a magical being, who thrives in cloth armor.\n\nArcanists command magic of all types, and they have many tools to control the tides of battle and subdue opponents.\n\nAn Arcanist should focus on Intellect and Charisma.=Арканист — маг в тканевой броне.\n\nАрканисты повелевают всеми видами магии и могут контролировать ход боя.\n\nФокус: Интеллект, Харизма.
+A Stormcaller looks to the sky for power - calling upon the winds and the elements to assist them.\n\nStormcallers are proficient in Archery and in melee combat, while also commanding a mixture of magical spells.\n\nStormcallers should focus on Strength, Dexterity, and Intelligence.=Штормозов черпает силу с небес, призывая ветра и стихии.\n\nШтормозовы искусны в стрельбе и ближнем бою, а также владеют магией.\n\nФокус: Сила, Ловкость, Интеллект.
+Reavers are powerful warriors who train in combat stances in order to adapt to the changing situations of battle.\n\nA Reaver has the ability to both deal and sustain heavy damage, and is a good compliment to any party composition.\n\nReavers should focus on Strength, Intelligence, and Agility.=Жнецы — могучие воины, тренирующие боевые стойки для адаптации к любой ситуации.\n\nЖнец способен наносить и выдерживать тяжёлый урон, дополняя любой отряд.\n\nФокус: Сила, Интеллект, Проворство.
+
+# --- Описания классов: отдельные предложения (fallback) ---
+The Paladin is a master of defense  and excels in using heavy armor and weapon types.=Паладин — мастер обороны в тяжёлой броне.
+The Paladin is a master of defense and excels in using heavy armor and weapon types.=Паладин — мастер обороны в тяжёлой броне.
+Paladins harness the power of the Sun and Moon to defend their friends by debuffing and drawing the attention of foes onto themselves.=Паладины используют силу Солнца и Луны для защиты друзей, ослабляя врагов и привлекая их внимание.
+A Paladin should focus on Strength, Agility, and Endurance.=Паладину нужны Сила, Проворство и Стойкость.
+The Windblade is a master of offensive combat and is best while using light armor and weapon types.=Ветроклинок — мастер атаки в лёгкой броне.
+Windblades thrive in battle. They gain health by dealing damage, and excel in crippling their opponents' abilities.=Ветроклинки живут битвой, лечатся уроном и калечат способности врагов.
+A Windblade should focus on Strength, Dexterity, and Intelligence.=Ветроклинку нужны Сила, Ловкость и Интеллект.
+The Druid is a master of all things nature - both pleasant and unpleasant.=Друид — повелитель природы, и светлой, и тёмной.
+The Druid can call upon not only the force of life to heal their allies, but he also commands the power of death to disable foes.=Друид призывает силу жизни для исцеления союзников и повелевает смертью для обезвреживания врагов.
+A Druid should focus on Wisdom, and Charisma.=Друиду нужны Мудрость и Харизма.
+The Arcanist is a magical being, who thrives in cloth armor.=Арканист — маг в тканевой броне.
+Arcanists command magic of all types, and they have many tools to control the tides of battle and subdue opponents.=Арканисты повелевают всеми видами магии и могут контролировать ход боя.
+An Arcanist should focus on Intellect and Charisma.=Арканисту нужны Интеллект и Харизма.
+A Stormcaller looks to the sky for power - calling upon the winds and the elements to assist them.=Штормозов черпает силу с небес, призывая ветра и стихии.
+Stormcallers are proficient in Archery and in melee combat, while also commanding a mixture of magical spells.=Штормозовы искусны в стрельбе и ближнем бою, а также владеют магией.
+Stormcallers should focus on Strength, Dexterity, and Intelligence.=Штормозову нужны Сила, Ловкость и Интеллект.
+Reavers are powerful warriors who train in combat stances in order to adapt to the changing situations of battle.=Жнецы — могучие воины, тренирующие боевые стойки для адаптации к любой ситуации.
+A Reaver has the ability to both deal and sustain heavy damage, and is a good compliment to any party composition.=Жнец способен наносить и выдерживать тяжёлый урон, дополняя любой отряд.
+Reavers should focus on Strength, Intelligence, and Agility.=Жнецу нужны Сила, Интеллект и Проворство.
+
+# --- Описания классов (старые, совместимость) ---
+The Paladin is a master of weapon combat and excels at using heavy armor and weapon types.\n\nTo sustain in battle, a Paladin can depend on Solunarian Magic of the Day and Night.\n\nA Paladin should focus on Strength, Agility, and Endurance.=Паладин — мастер оружия в тяжёлой броне.\n\nВ бою зависит от Солунарианской магии.\n\nФокус: Сила, Проворство, Стойкость.
+The Duelist is a master of offensive combat and is best while using light armor and weapon types.\n\nDuelists thrive on combat. They gain health by dealing damage, and excel at crippling their opponents' abilities.\n\nA Duelist should focus on Dexterity, Strength, and Intelligence.=Дуэлянт — мастер атаки в лёгкой броне.\n\nЛечатся уроном и калечат врагов.\n\nФокус: Ловкость, Сила, Интеллект.
+The Druid is a master of all things nature - both pleasant and unpleasant.\n\nThe Druid can call upon not only the force of life, but he also commands the power of death.\n\nA Druid should focus on Intelligence, Wisdom, and Charisma.=Друид — повелитель природы, и светлой, и тёмной.\n\nВластвует над жизнью и смертью.\n\nФокус: Интеллект, Мудрость, Харизма.
+The Arcanist is a magical being, who thrives in cloth armor.\n\nArcanists command magic of all types, and they have many tools to avoid close physical combat.\n\nAn Arcanist should focus on Intelligence, Wisdom, and Charisma.=Арканист — маг в тканевой броне.\n\nВладеет любой магией и избегает ближнего боя.\n\nФокус: Интеллект, Мудрость, Харизма.
+The Paladin is a master of weapon combat and excels at using heavy armor and weapon types.=Паладин — мастер оружия в тяжёлой броне.
+A Druid should focus on Intelligence, Wisdom, and Charisma.=Друиду нужны Интеллект, Мудрость и Харизма.
+An Arcanist should focus on Intelligence, Wisdom, and Charisma.=Арканисту нужны Интеллект, Мудрость и Харизма.
+Arcanists command magic of all types, and they have many tools to avoid close physical combat.=Арканисты владеют любой магией и избегают ближнего боя.
+The Druid can call upon not only the force of life, but he also commands the power of death.=Друид управляет как силой жизни, так и властью смерти.
+
+# --- Системные сообщения ---
+FAILED TO SAVE CHARACTER...=ОШИБКА СОХРАНЕНИЯ ПЕРСОНАЖА...
+Command not recognized.=Команда не распознана.
+You are not experienced enough to learn this spell yet...=Ты ещё слишком зелен для этого заклинания...
+You already know this spell!=Ты уже знаешь это заклинание!
+You are not experienced enough to learn this skill yet...=Ты ещё слишком зелен для этого навыка...
+You already know this skill!=Ты уже знаешь этот навык!
+Your class cannot use this item!=Твой класс не может это использовать!
+This item can only be used from a hotkey.=Этот предмет можно юзать только с хоткея.
+You must buy this item before you can use it that way!=Сначала купи предмет, потом используй!
+This item cannot destroyed.=Этот предмет нельзя уничтожить.
+You cannot equip two of the same RELIC ITEMS.=Нельзя надеть два одинаковых РЕЛИКТА.
+You need the DUAL WIELD skill to put a weapon in your secondary hand.=Нужен навык ДВУРУЧИЯ для оружия в левой руке.
+Primary Slot Items requires two hands!=Предмет основного слота требует обе руки!
+This item cannot go in this slot.=Предмет не подходит для этого слота.
+Second hand must be empty to equip a 2-handed weapon!=Левая рука должна быть пуста для двуручника!
+Two handed weapons must be equipped in the primary slot with an empty secondary hand.=Двуручное оружие — в основной слот, левая рука свободна.
+Cannot store or rearrange items on corpses.=Нельзя перекладывать вещи на трупах.
+You cannot use this item while casting a spell.=Нельзя использовать предмет во время каста.
+Target is out of range, get closer!=Цель далеко, подойди ближе!
+Can't do that while dead...=Нельзя — ты мёртв...
+Hold 'RIGHT CLICK' to view info=Зажми ПКМ для инфо
+Cannot hotkey items from bank.=Нельзя хоткеить вещи из банка.
+You're too far away to do that!=Слишком далеко для этого!
+You are already casting a spell...=Ты уже кастуешь заклинание...
+Can't cast while stunned...=Нельзя кастовать в стане...
+You have moved and interrupted your casting!=Ты двинулся и прервал каст!
+This target is invulnerable.=Эта цель неуязвима.
+Your spell resonates and casts again!=Твоё заклинание резонирует и кастуется снова!
+You feel a surge of returning mana.=Ты чувствуешь возврат маны.
+Your spell did not take hold...=Заклинание не подействовало...
+You land a critical blast!=Ты наносишь крит. удар!
+You score a critical hit!=Ты наносишь критический удар!
+You score a CRIPPLING BLOW!=Ты наносишь КАЛЕЧАЩИЙ УДАР!
+You did not learn anything from this trivial opponent.=Ты ничему не научился у такого слабого врага.
+You've summoned a companion!=Ты призвал спутника!
+You cannot have two summoned companions!=Нельзя иметь двух призванных спутников!
+You are so broke. Somehow, the wish still works.=Ты нищий. Но желание как-то сработало.
+Price must be a round number.=Цена должна быть круглым числом.
+Price cannot be negative.=Цена не может быть ниже нуля.
+You need more gold to buy this item.=Не хватает золота на этот предмет.
+You have money to pick up at the auction house.=У тебя есть золото в аукционном доме.
+Invalid recipe... Check items and quantities=Неверный рецепт... Проверь предметы и кол-во
+item successfully forged!=предмет успешно выкован!
+You're not currently in a guild.=Ты сейчас не в гильдии.
+You must be a guild leader to use this function.=Эта функция только для лидера гильдии.
+Target the Player to invite first.=Сначала выбери игрока для приглашения.
+I'm already in your guild!=Я уже в твоей гильдии!
+Do you want to join my group?=Хочешь в мою группу?
+Sorry, nevermind.=Извини, забудь.
+This SimPlayer is not your friend=Этот игрок не в твоих друзьях
+This spell can only be cast on group members, yourself, or a willing target=Это заклинание только для группы, себя или согласной цели
+You are caught in a wave of celestial magic!=Тебя накрыло волной небесной магии!
+You are caught in the dragon's breath!=Тебя поглотило дыхание дракона!
+YOU REFUSE THE EMBRACE OF DEATH, AND REPLACE IT WITH RAGE=ТЫ ОТВЕРГАЕШЬ СМЕРТЬ И ЗАМЕНЯЕШЬ ЕЁ ЯРОСТЬЮ
+A blast of power restores your mana!=Взрыв силы восстанавливает твою ману!
+Your bracer begins to glow!=Твой наруч начинает светиться!
+The glow fizzes... (invalid target)=Свечение угасает... (неверная цель)
+A ROARING ECHO courses through the air=РЕВУЩЕЕ ЭХО РАЗНОСИТСЯ ПО ВОЗДУХУ
+That's not quite right...=Что-то не так...
+The Spirits of Erenshor have chosen Balance...=Духи Эреншора выбрали Равновесие...
+You have died and lost some experience.=Ты погиб и потерял часть опыта.
+You cannot fight underwater!=Нельзя сражаться под водой!
+You must be facing your target!=Повернись лицом к цели!
+No valid target, switching auto attack off.=Нет цели, авто-атака отключена.
+You can't hit yourself!=Нельзя бить самого себя!
+You need more mana!=Не хватает маны!
+You settle into a meditative state=Ты погружаешься в медитацию
+You have been ROOTED!=Ты ОБЕЗДВИЖЕН!
+You have been STUNNED!=Ты ОГЛУШЁН!
+You have been FEARED!=Ты ИСПУГАН!
+You have escaped from your bonds!=Ты вырвался из оков!
+You lack the power to charm two beings!=Не хватает силы зачаровать двоих!
+This spell is not strong enough...=Заклинание недостаточно сильное...
+You have a class proficiency point to spend! Open your inventory to assign it.=У тебя есть очко мастерства! Открой инвентарь.
+You missed the water.=Промахнулся мимо воды.
+You did not catch anything.=Ты ничего не поймал.
+Not even a nibble...=Даже не клюнуло...
+It's a good cast!=Хороший заброс!
+You cast your line...=Ты забрасываешь удочку...
+You need a fishing pole in your hand!=Нужна удочка в руке!
+You can't fish while in the water!=Нельзя рыбачить в воде!
+Your inventory is full, you must re-cast your line manually.=Инвентарь полон, перезабрось вручную.
+You have moved, you must re-cast your line manually.=Ты двинулся, перезабрось вручную.
+Cannot use more than one template item at a time.=Нельзя использовать больше одного шаблона.
+Invalid fuel source...=Неверный источник топлива...
+Invalid template item...=Неверный шаблон предмета...
+Invalid item=Неверный предмет
+Item data error=Ошибка предмета
+No item selected=Предмет не выбран
+No empty seller slots.=Нет свободных ячеек.
+No seller selected...=Продавец не выбран...
+Your Merchandise=Ваши товары
+No Backup Found=Бэкап не найден
+You are not currently in a group.=Ты сейчас не в группе.
+Dismiss your group before forming a raid.=Распусти группу перед созданием рейда.
+You must be at the planning table to do this.=Для этого нужно быть у стола планирования.
+This Diamond can only be used to remove a blessing...=Этот алмаз только для снятия благословения...
+This mold can only remove a blessing from one item=Эта форма снимает благословение только с одного
+This Diamond can only be used on a blessed item.=Этот алмаз только для благословлённого предмета.
+DELETE=УДАЛИТЬ
+This person cannot accept a blessed item. Find a way to remove the blessing if you want to trade it.=Этот чел не может взять благослов. предмет. Сними благословение для обмена.
+No keys on Keyring.=Нет ключей на связке.
+
+# --- Рыбалка ---
+You feel a nibble - catch chance increased!=Клюёт — шанс поимки вырос!
+Fishing Pole=Удочка
+
+# --- Майнинг ---
+Mineral Deposit=Залежи руды
+No mining tool in inventory=Нет инструмента для добычи
+
+# --- MOTD ---
+MESSAGE OF THE DAY: Welcome to Erenshor! Press ENTER and type /help for tips and commands=СООБЩЕНИЕ ДНЯ: Добро пожаловать в Эреншор! Жми ENTER и пиши /help
+
+# --- Аукцион ---
+Blessed items not supported in AH=Благослов. предметы нельзя в аукцион
+
+# --- Группа / социал ---
+I am the new Main Assist, assist me!=Я новый МА, ассистите мне!
+Main assist will be me again, assist me!=МА снова на мне, ассистите мне!
+AE Taunting! Heals on me!=АОЕ таунт! Хилы на меня!
+Restoring my mana, hold on!=Восстанавливаю ману, подождите!
+I lagged out for a sec... what were we doing again?=Лагнул на секунду... чё мы делали-то?
+Still need that invis? Here you go.=Ещё нужен инвиз? Держи.
+I can do it for you, hang on=Могу для тебя, подожди
+
+# --- Предметы / крафт ---
+Wow! Thank you for that! We can put this to use I bet.=Ого! Спасибо! Пригодится, ставлю на это.
+Thanks! I didn't have this one yet!=Спасибо! Такого у меня ещё не было!
+I don't need that at the moment, but thanks!=Пока не нужно, но спасибо!
+I've got this one already, thanks anyhow!=Это уже есть, но всё равно благодарю!
+
+# --- Зонные события ---
+THE SPIRITS OF ERENSHOR HAVE GROWN IMPATIENT=ДУХИ ЭРЕНШОРА ТЕРЯЮТ ТЕРПЕНИЕ
+Fernalla's Revival Plains=Равнины Возрождения Ферналлы
+
+# --- Серверные настройки ---
+--SERVER SETTINGS--=--НАСТРОЙКИ СЕРВЕРА--
+--ACCESS PANEL ON MAIN MENU TO ADJUST--=--ПАНЕЛЬ ДОСТУПА В ГЛАВНОМ МЕНЮ--
+
+# --- Боевые сообщения (маски/редкие предметы) ---
+no way thats the Eldoth mask??=нет, чел, это маска Элдота??
+bro how did you get the Molorai mask lol=бро как ты достал маску Молораи лол
+that mask is the rarest drop in the game wtf=эта маска — самый редкий дроп в игре чё
+theres no shot you actually got the mask=не может быть что ты реально выбил маску
+i farmed 3 days straight for that mask and never got it=я фармил 3 дня подряд и не выбил её
+did you cheat for that Eldoth mask be honest=ты читерил ради маски Элдота, честно?
+that Molorai mask looks insane=маска Молораи выглядит нереально
+wait that mask actually drops??=подожди, она реально падает??
+seen like one person ever with that Eldoth mask=видел типа одного чела с маской Элдота
+dude i hate you that mask is my dream drop=чел ненавижу тебя это мой дрим дроп
+no fkn way you rolled the Molorai mask=ни фига се ты роллнул маску Молораи
+im shaking dude that mask is real??=я трясусь чел, маска реальная??
+bruh the Eldoth mask actually dropped???=бро маска Элдота реально упала???
+how many runs did that take holy heck=сколько ранов понадобилось, ё-моё
+i saw the drop rate its like .002 lmao=я видел дропрейт — типа .002 лмао
+that mask looks cursed ngl=маска выглядит проклятой, нвр
+man i was right behind you when you got that mask=чел я был прям за тобой когда выпала маска
+i been looking for a Molorai Mask for weeks and nothing=я ищу маску Молораи неделями и ничего
+you actually wearing the Eldoth mask omg=ты реально носишь маску Элдота ояебу
+tell me you got that mask on stream i need to see it=скажи что заснял дроп маски на стриме
+theres like a 1 in 50k chance on that mask dude thats insane=там типа шанс 1 к 50к на маску, нереал
+i swear the mask doesnt even exist til now=клянусь маска вообще не существовала до этого
+you must have sacrificed something for that mask=ты наверное чем-то пожертвовал ради маски
+you better not trade that mask ever=лучше никогда не трейди эту маску
+bro i thought that mask was myth only=бро я думал маска — это миф
+dude sell me that Molorai mask i beg=чел, продай мне маску Молораи, умоляю
+people are gonna grind for years for that eldoth mask=люди будут гриндить годами ради неё
+
+# --- Инфо-ответы SimPlayer ---
+I haven't seen of that one yet=Я ещё такого не видел
+I haven't heard of that NPC yet=Я ещё не слышал о таком NPC
+I don't think I know that=Вроде не знаю такого
+I don't have an answer for that=Не могу ответить на это
+Sorry, quest spoilers are not allowed here. =Извини, спойлеры квестов здесь запрещены. 
+Hey, sorry, we are not supposed to share quest spoilers. =Эй, сорри, спойлеры квестов нельзя. 
+Friendly reminder that quest spoilers are not permitted. =Напоминаю: спойлеры квестов запрещены. 
+Sorry, but sharing quest details is against the rules. =Сорри, делиться деталями квеста — против правил. 
+Just a heads up, we cannot post quest spoilers. =Просто инфа: спойлеры квестов нельзя. 
+My bad, but quest spoilers are not allowed here. =Мой косяк, но спойлеры квестов нельзя тут. 
+Sorry about that, quest spoilers are against the rules. =Пардон, спойлеры квестов против правил. 
+Quick reminder: no quest spoilers here. =Напоминалка: без спойлеров квестов. 
+Sorry, but we need to avoid quest spoilers. =Сорри, спойлеры квестов нужно избегать. 
+Apologies, quest spoilers are not permitted. =Извиняюсь, спойлеры квестов запрещены. 
+You should check the wiki or Discord for that=Глянь в вики или Дискорд
+Wiki probably has the details=На вики скорее всего есть инфа
+Ask on the Discord, they're awesome=Спроси в Дискорде, там топовые
+Try the wiki for that one=Попробуй вики для этого
+The wiki should cover this=Вики должна это покрыть
+I'd check in with the Discord=Я бы глянул в Дискорде
+Discord is your best bet here=Дискорд — лучший вариант тут
+Not sure, but the wiki will know=Не уверен, но вики знает
+You can find that on the wiki=Найдёшь это на вики
+You can summon it with a Bag of Offering Stones.=Призывается Мешком жертвенных камней.
+
+# --- SimPlayer гильдия ---
+Oh... I wasn't expecting an invite to your guild. You could have sent me a whisper to talk about it! I'll join though.=О... не ждал приглашения в гильдию. Мог бы в личку написать! Но зайду.
+Hey we've barely played together, I'm not looking to join right now.=Мы почти не играли вместе, не хочу вступать пока.
+It was really cool to be there for the drop. Thank you SO MUCH for bringing me!=Было реально круто быть при дропе. ОГРОМНОЕ спасибо что взял!
+I wish I could have gone but I get why you took your friends. Thanks still.=Хотелось бы пойти, но я понимаю почему ты взял друзей. Спасибо.
+
+# --- Боссовые крики ---
+Azynthian Keeper Shouts: Come, my minions! Show them our strength!=Азинтианский Хранитель: Ко мне, слуги! Покажите нашу мощь!
+Azynthian Keeper Shouts: Minions! I need more of your lives for the cause!=Азинтианский Хранитель: Слуги! Мне нужно больше ваших жизней!
+Azynthian Keeper Shouts: You are treading in places you should not be! It is time to write an ending to your tale.=Азинтианский Хранитель: Вы забрели куда не следует! Пора писать конец вашей истории.
+The remaining shadows reel, and gather strength from the loss of their companion=Оставшиеся тени содрогаются и черпают силу из гибели собрата
+The remaining shadow becomes enraged!=Оставшаяся тень впадает в ярость!
+Siraethe draws power from her wards...=Сирэтея черпает силу из своих оберегов...
+Siraethe summons a protective ward...=Сирэтея призывает защитный оберег...
+Fallen Fernalla shouts: I warned you not to approach me, child! This body belongs to the dark now... AND SO SHALL YOU!=Падшая Ферналла: Я предупреждала, дитя! Это тело принадлежит тьме... КАК И ТЫ!
+Fallen Fernalla shouts: MOTHER! LEND ME YOUR POWER! ENSURE THAT THESE INTRUDERS BELONG TO ME FOREVER!=Падшая Ферналла: МАТЬ! ДАЙ МНЕ СИЛУ! ПУСТЬ ЭТИ ЧУЖАКИ БУДУТ МОИМИ НАВЕЧНО!
+Fallen Fernalla shouts: I HAVE MORE POWER THAN YOU CAN IMAGINE!=Падшая Ферналла: У МЕНЯ БОЛЬШЕ СИЛЫ, ЧЕМ ВЫ МОЖЕТЕ ПРЕДСТАВИТЬ!
+Fallen Fernalla shouts: YOU ARE TOO TIRED TO CONTINUE, GIVE UP!=Падшая Ферналла: ВЫ СЛИШКОМ УСТАЛИ, СДАВАЙТЕСЬ!
+Fallen Fernalla shouts: You... you have freed my body from the darkness! Thank you... the Darkness remains though... Sivakaya has my very being in her clutches...=Падшая Ферналла: Ты... освободил моё тело от тьмы! Спасибо... Но Тьма осталась... Сивакая держит моё существо в когтях...
+Fallen Fernalla shouts: MOTHER! I CALL UPON YOU! SHOW US YOUR GREATNESS!=Падшая Ферналла: МАТЬ! ЗОВУ ТЕБЯ! ЯВИ НАМ СВОЁ ВЕЛИЧИЕ!
+Fallen Fernalla shouts: AWAKEN, MY FAWNS! JOIN OUR BATTLE!=Падшая Ферналла: ПРОБУДИТЕСЬ, МОИ ОЛЕНЯТА! ВСТУПИТЕ В БОЙ!
+
+# --- SimPlayer alt-реплики ---
+You're on an alt?? Jump over onto=Ты на альте?? Переключись на
+Hey get on=Эй, заходи на
+New character?? Why aren't you on=Новый чар?? Почему не на
+What are you... making alts now? Get on=Чё ты... альтов крутишь? Заходи на
+I'm gonna need you go get on=Мне нужно чтобы ты зашёл на
+Hi! You gonna be playing=Хей! Будешь играть на
+Who's got time for alts? You should be on=Кому нужны альты? Давай на
+I need to make an alt too so I can group with you when you're not playing=Мне тоже надо альта сделать, чтоб группиться когда ты не на
+
+# --- Джейл ---
+You have been=Ты был
+by staff member:=сотрудником:
+for breaking the rules of Erenshor.=за нарушение правил Эреншора.
+You will be automatically released in=Автоматическое освобождение через
+
+# --- Гильдия серверные ---
+Hey, I'm looking for a new guild. Can I join yours by any chance?=Эй, ищу гильдию. Можно к вам?
+
+# --- Торговля с NPC ---
+You receive your item back with a blessing from Brax himself.=Предмет возвращён с благословением самого Бракса.
+You receive your item back, just as it was before you offered it.=Предмет возвращён таким же, каким был отдан.
+
+# --- Кузница ошибки ---
+This reciple can only upgrade one BLUE SPARKLING item=Этот рецепт улучшает только один СИНИЙ БЛЕСТЯЩИЙ
+
+# --- TypeText / команды ---
+You cannot friend Burgee Media staff=Нельзя добавить в друзья персонал Burgee
+
+# --- Setname ---
+Names may only contain letters A-Z or numbers 0-9.=Имена: только буквы A-Z или цифры 0-9.
+Names must be no more than 16 characters.=Имена не длиннее 16 символов.
+This name is taken by another player.=Это имя занято другим игроком.
+Hand-written SimPlayers cannot be renamed, try someone else.=Авторские SimPlayer не переименовываются, выбери другого.
+This player has refused your name suggestion=Этот игрок отклонил предложение имени
+Must target a SimPlayer to use this function=Нужно нацелить SimPlayer для этой функции
+
+[SUBSTRING]
+
+# --- Чат-формат ---
+ says: = говорит: 
+ shouts: = кричит: 
+ shouts:  = кричит: 
+[WHISPER FROM] =[ШЁПОТ ОТ] 
+You say: =Ты говоришь: 
+You shout: =Ты кричишь: 
+You tell your group: =Ты говоришь группе: 
+You tell your guild: =Ты говоришь гильдии: 
+Quest Completed: =Квест выполнен: 
+Received New Quest: =Получен новый квест: 
+Received a quest reward: =Получена награда квеста: 
+Loading Data...=Загрузка данных...
+Loading Server Data...=Загрузка данных сервера...
+ days ago.= дней назад.
+Last login: =Посл. вход: 
+
+# --- Торговля ---
+Trading with =Обмен с 
+Doing business with =Торговля с 
+You purchased: =Ты купил: 
+ gold=  зол.
+You sold: =Ты продал: 
+You sold a stack of =Ты продал стопку 
+You sold a =Ты продал 
+Thanks! I owe you =Спасибо! С меня 
+ gold, here it is.= зол., держи.
+Oops, here's your =Ой, держи обратно 
+ back.=.
+
+# --- Аукцион ---
+ listed for = выставлено за 
+ Gold= Зол.
+ (No Inventory)= (Нет товара)
+'s Merchandise= Товары
+You have bought =Ты купил 
+Creating Auction House save profile...=Создаётся профиль аукциона...
+Seller: =Продавец: 
+None=Нет
+
+# --- Лут/предмет ---
+Received =Получено 
+ gold for the = золота за 
+ gold to buy back the = золота чтобы выкупить 
+That'll be =Это будет 
+I'll give you =Дам тебе 
+Sorry, but I'm not buying the =Извини, не покупаю 
+... just throw it away if you don't want it.=... просто выброси, если не нужно.
+You already have the item! (=У тебя уже есть предмет! (
+ added to 'friends' list.= добавлен в друзья.
+ removed from 'friends' list.= удалён из друзей.
+You've lost standing with =Ты потерял репутацию у 
+You've gained standing with =Ты улучшил репутацию у 
+ is too far away to hear you.= слишком далеко, не слышит.
+ is preparing a POWERFUL ATTACK!= готовит МОЩНУЮ АТАКУ!
+ unleashes a POWERFUL ATTACK on = обрушивает МОЩНУЮ АТАКУ на 
+'s casting has been interrupted!= — каст прерван!
+ scores a CRIPPLING BLOW!= наносит КАЛЕЧАЩИЙ УДАР!
+ performs a SPECTRAL STRIKE!= наносит ПРИЗРАЧНЫЙ УДАР!
+ shield absorbs the blow!= — щит поглощает удар!
+ perfoms a COUP DE GRACE!= наносит ДОБИВАЮЩИЙ УДАР!
+ finds an opening for a counter-attack!= находит брешь для контратаки!
+ cannot be damaged by you.= не может быть повреждён тобой.
+ damage from your combat stance= урона от боевой стойки
+ from your damage shield!= от щита урона!
+ IS OVERCOME BY UNDYING RAGE= ОХВАЧЕН БЕССМЕРТНОЙ ЯРОСТЬЮ
+WARNING: Inventory full. Received item in TRASH SLOT!=ВНИМАНИЕ: Инвентарь полон. Предмет в МУСОРКЕ!
+WARNING: Item will be lost unless its relocated to a safe inventory slot.=ВНИМАНИЕ: Предмет пропадёт, если не переложить в слот!
+WARNING: This item does not have an activatable ability and cannot be hotkeyed.=ВНИМАНИЕ: У предмета нет активной способности, хоткей невозможен.
+WARNING: Cannot hotkey items that are not in your direct inventory.=ВНИМАНИЕ: Хоткеить можно только из инвентаря.
+ the spell could not take hold...= заклинание не подействовало...
+ is ravaged by a Lingering Inferno.= поглощён Затяжным Пламенем.
+ is caught in a wave of celestial magic!= поглощён волной небесной магии!
+ is caught in the dragon's breath!= поглощён дыханием дракона!
+ can't be stunned, get on that one ASAP!= нельзя оглушить, бейте его ASAP!
+ roars in the distance, and its heavy footsteps are coming closer...= рычит вдали, и тяжёлые шаги приближаются...
+Nearby Malaroths follow your actions with interest...=Ближние малароты следят за тобой с интересом...
+The Malaroths seem agitated by what you've brought... you decide it's best to drop the food!=Малароты встревожены принесённым... решаешь бросить еду!
+The Malaroths sense the food you're carrying and begin to howl... you decide its best to drop the food!=Малароты чуют еду на тебе и начинают выть... решаешь бросить еду!
+ but you'll want to be around level = но тебе стоит быть примерно на 
+ or so if you're trying to farm it= уровне, если фармишь это
+, just look around a bit and you'll find it=, просто осмотрись — найдёшь
+I think that comes from something in =Думаю это из чего-то в 
+I remember something about =Помню что-то про 
+ is a reward from the quest '= — награда квеста '
+You get it from completing '=Получишь за выполнение '
+It comes from the quest '=Это из квеста '
+players online in Erenshor= игроков онлайн в Эреншоре
+ seconds... please remain still.= сек... стой на месте.
+>>Disconnecting from Server - please remain still!<<=>>Отключение от сервера — стой на месте!<<
+Disconnecting from server in =Отключение от сервера через 
+Moved during disconnect - please remain still!=Двигался при отключении — стой на месте!
+Now listening for Gamepad input... press any button on gamepad to activate=Ожидание ввода геймпада... нажми любую кнопку
+Now muting all non-keyboard and mouse inputs.=Выключаю все входы кроме клавиатуры и мыши.
+Name can only contain A-Z, 0-9.=Имя: только A-Z, 0-9.
+That name is already taken!=Это имя уже занято!
+The current time is: =Текущее время: 
+No save file found for slot =Сохранение не найдено для слота 
+This player has declined your friend request.=Этот игрок отклонил запрос в друзья.
+ untethered from your character and will progress independently until friended again (by this character or any other)= отвязан от персонажа и будет развиваться сам, пока снова не добавишь в друзья
+Save Data is located at: =Сохранения находятся по: 
+THE SPIRITS OF ERENSHOR SMILE UPON =ДУХИ ЭРЕНШОРА УЛЫБАЮТСЯ 
+THE SPIRITS OF ERENSHOR HAVE BROUGHT FORTH A TEST! =ДУХИ ЭРЕНШОРА НИСПОСЛАЛИ ИСПЫТАНИЕ! 
+ have been blessed with sight by the spirits to detect intruders.= получили дар зрения от духов для обнаружения чужаков.
+THE GODS OF ERENSHOR HAVE GROWN IMPATIENT=БОГИ ЭРЕНШОРА ТЕРЯЮТ ТЕРПЕНИЕ
+THE SPIRITS OF ERENSHOR SMILE UPON MULTIPLE GUILDS!=ДУХИ ЭРЕНШОРА УЛЫБАЮТСЯ НЕСКОЛЬКИМ ГИЛЬДИЯМ!
+ has greatly exceeded their competition, and will not be awarded points for this win.= значительно превзошла соперников и не получит очков за победу.
+[GUILD ADMIN MSG]: It is requested that ALL PLAYERS proceed to the Reliquary!=[СООБЩЕНИЕ ГИЛЬДИИ]: Все игроки — в Реликварий!
+[GUILD ADMIN MSG]: A player has left =[СООБЩЕНИЕ ГИЛЬДИИ]: Игрок покинул 
+[GUILD ADMIN MSG]: A new player has joined =[СООБЩЕНИЕ ГИЛЬДИИ]: Новый игрок вступил в 
+Town Crier Shouts: Hear ye, hear ye!=Глашатай: Слушайте, слушайте!
+, for their support and dedication to the ongoing efforts to develop this land!=, за поддержку и преданность развитию этой земли!
+[SYSTEM] Failed to create AH data for player. Restart Erenshor client to use Auction House listings.=[СИСТЕМА] Ошибка данных аукциона. Перезапусти клиент для использования.
+EXPERIENCE LOCK ENABLED: NO EXPERIENCE WILL BE EARNED=БЛОКИРОВКА ОПЫТА: ОПЫТ НАКАПЛИВАТЬСЯ НЕ БУДЕТ
+EXPERIENCE LOCK DISABLED: EXPERIENCE WILL BE EARNED NORMALLY=БЛОКИРОВКА ОПЫТА СНЯТА: ОПЫТ НАЧИСЛЯЕТСЯ НОРМАЛЬНО
+Portal to Soluna's Landing=Портал в Пристань Солуны
+You smash the Braxonian Fossil to reveal the contents inside...=Ты разбиваешь Браксонианскую Окаменелость...
+The Wyrm succumbs to the Wyrm's Bane=Змей поддаётся яду Змееморья
+This target was not a Wyrm.=Эта цель — не Змей.
+The flame roars, sounding nearly human: The offering must be balanced and it must not be greedy=Пламя ревёт почти человеческим голосом: Подношение должно быть сбалансированным и нежадным
+The flame roars, sounding nearly human: The offering has been accepted...=Пламя ревёт: Подношение принято...
+The flame roars, sounding nearly human: Brax was not pleased with this offering...=Пламя ревёт: Бракс не доволен подношением...
+
+# --- Бой: подстроки ---
+Auto Attack =Авто-атака 
+You try to hit =Ты атакуешь 
+, but miss!=, но промах!
+ dodged the attack!= увернулся от атаки!
+ blocked the attack!= заблокировал атаку!
+is INVULNERABLE!= НЕУЯЗВИМ!
+'s shield absorbs the blow!= — щит поглощает удар!
+but you deal no damage!= но не наносишь урона!
+You hit =Ты бьёшь 
+ damage!= урона!
+You pull =Ты тянешь 
+ mana from your target's soul!= маны из души цели!
+You try to perform a COUP DE GRACE on =Ты пытаешься добить 
+You perform a COUP DE GRACE on =Ты добиваешь 
+You find an opening and throw a target into the fray=Ты находишь момент и бросаешь цель в бой
+You perform a quick reload and prepare to fire again!=Быстрая перезарядка — готов стрелять снова!
+[autoattack] You can't reach your target from here!=[авто] Цель вне зоны досягаемости!
+You begin casting =Ты начинаешь кастовать 
+ controls their chant.= контролирует заклинание.
+ spell did not take hold on you!= не подействовало на тебя!
+ spell did not take hold!= не подействовало!
+ spell has worn off of = рассеялось на 
+ has worn off of you.= рассеялось на тебе.
+You have been ROOTED= обездвижен
+You have been STUNNED= оглушён
+You have been FEARED= напуган
+ comes to their senses!= приходит в себя!
+ is immune to this spell's effects!= невосприимчив к эффекту!
+ resisted the damage from = сопротивился урону от 
+You resisted the damage from =Ты сопротивился урону от 
+ took = получил 
+ damage from = урона от 
+ BLEED damage from = урона кровотечения от 
+ healing spell restores = исцеление восстанавливает 
+ life!= ОЗ!
+'s affliction renews = — недуг исцеляет 
+ health for = здоровья на 
+ heals = лечит 
+ points of damage!= урона!
+You've gained = получил 
+ experience!= опыта!
+ ASCENSION experience!= ВОЗНЕСЕНИЯ!
+You've gained an ASCENSION POINT!=Ты получил ОЧКО ВОЗНЕСЕНИЯ!
+ has added a point to Ascension: = добавил очко в Вознесение: 
+You've gained a level! You are now level =Новый уровень! Теперь ты уровень 
+ has gained a level!= получил новый уровень!
+ receives = получает 
+Experience Lock is enabled. To retore experience gains, type /explock=Блокировка опыта включена. Для возврата набери /explock
+>>Saving Game Data...<<=>>\u0421охранение данных игры...<<
+Save file updated=Игра сохранена
+Mineral Deposit\n(Regenerating...)=Залежи руды\n(Восстановление...)
+You've mined a =Ты добыл 
+You've struck a mineral deposit...=Ты нашёл залежи руды...
+You caught =Ты поймал 
+Guild Race Target: =Цель гильд. гонки: 
+[SERVER] Guild name must be more than 2 characters long=[СЕРВЕР] Имя гильдии должно быть длиннее 2 символов
+[SERVER] Guild name has been reserved by another user=[СЕРВЕР] Имя гильдии уже занято
+[SERVER] Creating new guild data...=[СЕРВЕР] Создание данных гильдии...
+[SERVER] Guild creation complete!=[СЕРВЕР] Гильдия создана!
+[GUILD ADMIN MSG]: GUILD LEADER SET: =[ГИЛЬДИЯ]: ЛИДЕР НАЗНАЧЕН: 
+[SERVER] You cannot delete a guild that you did not create...=[СЕРВЕР] Нельзя удалить не свою гильдию...
+ has been added to your IGNORE LIST. You will no longer receive whispers from this player.= добавлен в ИГНОР-ЛИСТ. Шёпот от этого игрока не будет приходить.
+ has been removed from your IGNORE LIST. = удалён из ИГНОР-ЛИСТА. 
+Add a player with '/ignore PlayerName'.=Добавь игрока: '/ignore Имя'.
+Current Ignore List:=Текущий Игнор-Лист:
+Players in =Игроки в 
+Held Keys: =Связка ключей: 
+NPC HP MODIFIER: =Множитель ОЗ NPC: 
+NPC DMG MODIFIER: =Множитель урона NPC: 
+NPC XP MODIFIER: =Множитель опыта NPC: 
+NPC LOOT MODIFIER: =Множитель лута NPC: 
+MINIMAP: ENABLED=МИНИКАРТА: ВКЛ
+MINIMAP: DISABLED=МИНИКАРТА: ВЫКЛ
+QUEST MARKERS: ENABLED=МАРКЕРЫ КВЕСТОВ: ВКЛ
+QUEST MARKERS: DISABLED=МАРКЕРЫ КВЕСТОВ: ВЫКЛ
+This group member has been removed...=Этот участник группы удалён...
+Erenshor v0.3 - 'Rising Shadows' is live! Check out the Steam announcement for highlights.=Erenshor v0.3 — «Восходящие Тени» вышли! Читай анонс в Steam.
+Februrary 2026 - The Erenshor 'RISING SHADOWS' patch is LIVE!=Февраль 2026 — Патч «ВОСХОДЯЩИЕ ТЕНИ» вышел!
+ - Level = — Ур. 
+No Item Found...=Предмет не найден...
+Found item: =Обнаружено: 
+Item Drops From: =Дропается с: 
+Mob Level: =Ур. моба: 
+Is Unique / Named Encounter: =Уникальный: 
+Found in Zone: =Найден в зоне: 
+Gamepad Control Enabled (experimental)=Управление геймпадом включено (эксперимент.)
+Level: =Ур.: 
+ / 40= / 40
+
+# --- Оценка противника (con) ---
+Even with a strong group, you are not likely to win this battle.=Даже с сильной группой вы вряд ли победите.
+You will need a powerful group for this battle.=Для этого боя нужна мощная группа.
+This is a battle you shouldn't enter lightly.=В этот бой не стоит лезть без подготовки.
+This opponent will be a challenge.=Этот противник будет серьёзным испытанием.
+You'd be an even match for this opponent.=Ты примерно равен этому противнику.
+You're more experienced, but this opponent could pose a challenge.=Ты опытнее, но противник может дать бой.
+This opponent should fall easily.=Этот противник падёт легко.
+This opponent is trivial - you won't learn anything.=Этот противник ничтожен — ты ничему не научишься.
+
+# --- Репутация / фракции ---
+ regards you as a hero... = считает тебя героем... 
+ looks upon you kindly... = смотрит на тебя с теплом... 
+ is indifferent to you... = безразличен к тебе... 
+ looks tense in your presence... = напряжён в твоём присутствии... 
+ looks threateningly in your direction... = угрожающе смотрит на тебя... 
+ postures, ready to fight you... = занимает боевую стойку... 
+ scowls and braces to attack... = хмурится и готовится к атаке... 
+ is UNAWARE of your presence...= не подозревает о тебе...
+ This opponent looks unique, and may have special abilities.= Этот противник уникален, возможно со способностями.
+
+# --- Ошибки/инфо PlayerControl ---
+No target=Нет цели
+Consider who...?=Оценить кого...?
+This item refuses to leave your grasp, as though it has another, unknown use.=Предмет отказывается покидать руки, словно у него другое назначение.
+Cannot trade with Burgee Media Staff=Нельзя торговать с персоналом Burgee
+You need something to light this with...=Нужно чем-то поджечь...
+Cannot loot while attacking.=Нельзя лутать во время атаки.
+You can't take other players' loot.=Нельзя брать чужой лут.
+You can't reach that, get closer!=Не достать, подойди ближе!
+You're dead. That's not how this works.=Ты мёртв. Так это не работает.
+Remove item from cursor before interacting with a vendor.=Убери предмет с курсора перед торговлей.
+Get closer to shop!=Подойди к лавке!
+This NPC is busy right now.=Этот NPC сейчас занят.
+Get closer to inspect this player!=Подойди ближе для осмотра!
+You can mine Nodes by attacking them as long as you have a pick in your inventory. Find a pick, or get closer first.=Бей ноды с киркой в инвентаре. Найди кирку или подойди ближе.
+
+# --- Бой: Стан/Страх ---
+You shake off the stun!=Ты стряхиваешь оглушение!
+You shake off the fear!=Ты подавляешь страх!
+
+# --- NPC бой ---
+ becomes ENRAGED!= впадает в ЯРОСТЬ!
+'s rage grows...= — ярость крепнет...
+ absorbed the spell.= поглотил заклинание.
+Nothing happens...=Ничего не происходит...
+Time does not exist here... your Time Stone returns to your hand.=Времени здесь нет... Камень Времени возвращается к тебе.
+Another being calls this spot home... your lantern flickers and fails. Try moving somewhere else.=Здесь обитает другое существо... фонарь мерцает и гаснет. Попробуй другое место.
+Cannot use this item here...=Нельзя использовать предмет здесь...
+
+# --- Хоткеи / Способности ---
+You must select a target for this spell!=Выбери цель для заклинания!
+This spell has been removed from the game.=Это заклинание удалено из игры.
+No target selected.=Цель не выбрана.
+No target selected=Цель не выбрана
+Spells:=Чары:
+Ability=Умение
+Spell=Заклинание
+Item=Предмет
+No active effect=Нет эффекта
+Empty Hotkey=Пустой хоткей
+
+# --- Тултипы предметов ---
+Unsellable=Не продаётся
+Ingredients:\n\n=Ингредиенты:\n\n
+Right click or assign to hotkey to use.=ПКМ или назначь на хоткей.
+Effect applied once item is equipped.=Эффект применяется при экипировке.
+Item Consumed Upon Use.\n\n=Расходуется при использовании.\n\n
+(Hold RIGHT MOUSE for details)=(Зажми ПКМ для деталей)
+(Hold CONTROL for details)=(Зажми CTRL для деталей)
+(Hold DPAD DOWN for details)=(Зажми DPAD ВНИЗ для деталей)
+Primary or Secondary=Основное или вторичное
+No Spell Selected.=Заклинание не выбрано.
+
+# --- Лут ---
+Looted Item: =Добыто: 
+No room for =Нет места для 
+Destroyed Item: =Уничтожен предмет: 
+
+# --- Зоны ---
+You have unspent PROFICIENCY POINTS! Open your inventory to assign them.=Есть нераспределённые очки мастерства! Открой инвентарь.
+
+# --- Двери ---
+, the door opens!=, дверь открывается!
+ added to Keyring!= добавлен на связку!
+ required!= требуется!
+
+# --- События ---
+The chest breaks open!=Сундук взламывается!
+The nearby guardians are protecting the chest...=Стражи поблизости защищают сундук...
+The ground begins to rumble as something aggressively approaches...=Земля трясётся — что-то агрессивное приближается...
+Ancient Guardians materialize nearby...=Древние стражи появляются рядом...
+A strange sound comes from the garden...=Странный звук из сада...
+The link between the spiders has been broken=Связь между пауками разорвана
+The Phantom's Ward calls mysterious lights into existence=Оберег Фантома призывает загадочные огни
+The game awaits...=Игра ждёт...
+An item from your inventory springs to life and falls onto the game board!=Предмет из инвентаря оживает и падает на доску!
+The game piece dematerializes, leaving behind a mold to rebuild itself.=Фигура развеивается, оставляя форму для воссоздания.
+A sensation of longing exists in this place.=Чувство тоски витает в этом месте.
+An item from your inventory springs to life and falls onto the game board...=Предмет из инвентаря оживает и падает на доску...
+
+# --- Шивер (событие) ---
+Kio the Lightkeeper Shouts: Ah, it's starting soon! Come and get your lamps!=Кио Хранитель: А, скоро начнётся! Берите фонари!
+The Gatekeeper Shouts: In this light, none can.=Привратник: В этом свете — никто не может.
+The Harbinger Shouts: He cannot harm this place.=Вестник: Он не может навредить этому месту.
+The Curator Shouts: He musn't meddle...=Хранитель: Он не должен вмешиваться...
+The Bridgekeeper Shouts: Do we sense a new guest? I do hope to meet him!=Мостовой: Мы чуем нового гостя? Надеюсь встретить его!
+Kio the Lightkeeper Shouts: Time for Hide and Seek! Heh heh heh...=Кио Хранитель: Время для пряток! Хе хе хе...
+Kio the Lightkeeper Shouts: The Hider is waiting! Find him.=Кио Хранитель: Прячущийся ждёт! Найдите его.
+Kio the Lightkeeper Shouts: The air has changed... the island stirs! What have you done? It musn't grow brighter! Meddle no more!=Кио: Воздух изменился... остров пробуждается! Что вы наделали? Нельзя ярче! Хватит вмешиваться!
+Kio the Lightkeeper Shouts: Something awoke among the Seaside ruins... one should find it, before one is found by it!=Кио: Что-то пробудилось в руинах у моря... найдите это, пока оно не нашло вас!
+Kio the Lightkeeper Shouts: Oh you... I'm afraid you're not going to like me... IN... THIS... LIGHT...=Кио: О, ты... Боюсь, я тебе не понравлюсь... В... ЭТОМ... СВЕТЕ...
+Kio the Darkbringer basks in the strange blue light, but the light slightly fades...=Кио Тёмный Вестник купается в синем свете, но свет слабеет...
+The Lighthouse sputters, its light fading completely.=Маяк мерцает, его свет полностью угасает.
+Kio the Darkbringer shouts: Impossible! Now you'll pay!=Кио Тёмный Вестник: Невозможно! Теперь поплатитесь!
+
+# --- Осмотр SimPlayer ---
+'s Equipment= — Снаряжение
+Current Tier: Blessed=Текущий: Благослов.
+ Upgrade to: Ascended= Улучшить до: Вознесён.
+Current Tier: Normal=Текущий: Обычный
+ Upgrade to: Blessed= Улучшить до: Благослов.
+This player will not listen to your requests=Этот игрок не слушает твои просьбы
+Invalid SimPlayer=Неверный SimPlayer
+You cannot perform this action here...=Нельзя выполнить это здесь...
+I don't have enough Sivakruxes!=Мне не хватает Сивакруксов!
+The offer has been accepted!=Предложение принято!
+The offer has been declined!=Предложение отклонено!
+Yes! Thank you for helping me!=Да! Спасибо за помощь!
+Awww that stinks!=Эх, облом!
+You need a Planar Stone to do this...=Нужен Планарный Камень...
+Item Ascended!=Предмет Вознесён!
+I read we're supposed to go somewhere in Braxonia for this?=Я читал, нужно идти в Браксонию?
+Don't we need to do this at a forge?=Разве не нужно делать это у кузницы?
+
+# --- Группа ---
+ has joined your group!= присоединился к группе!
+ has left your group!= покинул группу!
+Your group is currently full (maximum of 5, including you)=Группа полна (максимум 5, включая тебя)
+This player is not currently available for grouping, or is already in your group, or is outside of your level range.=Этот игрок недоступен для группы, уже в группе или вне диапазона уровней.
+You're a lot higher than me, I'll try to keep up...=Ты сильно выше меня, постараюсь не отставать...
+Auto Pull: OFF=Авто-пулл: ВЫКЛ
+Auto Pull: ON=Авто-пулл: ВКЛ
+(Empty)=(Пусто)
+Empty=Пусто
+Cannot kick an empty group slot=Нельзя кикнуть пустой слот группы
+Uh... you're our puller I thought?=Э... ты же наш пуллер?
+I can't pull that target. Pick something else or drop target and let me pick.=Не могу пульнуть эту цель. Выбери другую или дай мне выбрать.
+I don't think anyone can cast that yet.=Думаю, никто ещё не может это кастануть.
+Stay close, casting invis. Be in a safe spot when it breaks!=Держись рядом, кастую инвиз. Будь в безопасности когда спадёт!
+I'm right next to you=Я прямо рядом с тобой
+Group roles reset...=Роли группы сброшены...
+
+# --- Вознесение ---
+Ascension Points: =Очки Вознесения: 
+Points spent: =Потрачено: 
+Unused Slot=Свободный слот
+
+# --- Книга заклинаний ---
+Page =Стр. 
+
+# --- Поиск сокровищ ---
+Type /loc to get your current location.=Набери /loc для текущей позиции.
+
+# --- NPC торговля ---
+ says: I don't want your garbage. Take it somewhere else.= говорит: Мне не нужен твой мусор. Неси куда-нибудь.
+ says: That item is special... I can't take that. Have someone remove the blessing first.= говорит: Это особый предмет... Не возьму. Сначала сними благословение.
+ says: I can't use that with my current setup.= говорит: Не могу это юзать с моим сетапом.
+Thank you! I'll put my old item away in case I need it later!=Спасибо! Уберу старый предмет на случай если пригодится!
+Thanks! I really needed this.=Спасибо! Мне это реально нужно было.
+Ok, I'll use this for now.=Ок, буду пользоваться пока.
+Ah, I can't use this right now but thanks anyhow=Не могу это юзать сейчас, но спасибо
+My primary weapon is two handed, so I can't equip this right now.=Моё основное оружие двуручное, не могу надеть это.
+ says: Oops, I have a better one of these.= говорит: Ой, у меня есть получше.
+Ok, I'll switch that item out.=Ок, поменяю предмет.
+Ok, I'll equip that.=Ок, надену это.
+ has returned your = вернул тебе 
+
+# --- SimPlayer реплики ---
+It's telling me you're all dead! I can't revive!=Система говорит вы все мертвы! Не могу реснуть!
+ tells the group: Close one!= говорит группе: Чуть не сдохли!
+ tells the group: I'm down!= говорит группе: Я лёг!
+ tells the group: Zoning out!= говорит группе: Зонюсь!
+There's nowhere to go!=Некуда идти!
+need mana... =нужна мана... 
+medding up for a sec... =медитирую секунду... 
+I'm OOM hang on... =У меня ООМ подожди... 
+Waiting on a heal=Жду хила
+gotta heal up.=надо подлечиться.
+need some life before I pull more.=нужно ОЗ перед следующим пуллом.
+waiting on group mana...=жду ману группы...
+ is here, attack it!= тут, бейте!
+
+# --- SimPlayer группа NPC ---
+OOM! Casting meditate!=ООМ! Кастую медитацию!
+I will be the Main Assist!=Я буду МА!
+I'm dead, assist =Я мёртв, ассистите 
+, watch for adds!=, следите за аддами!
+Get on = Бейте 
+ - it's immune to crowd control= — невосприимчив к контролю
+
+# --- Серверные ---
+[SERVER] Guild name must be less than 25 characters long=[СЕРВЕР] Имя гильдии не длиннее 25 символов
+All SimPlayer Save Data Reset...=Все данные SimPlayer сброшены...
+Server reset complete... backup files are intact.=Сервер сброшен... бэкапы целы.
+
+# --- Лут / золото ---
+Found =Найдено 
+ Gold!= Зол.!
+'s Loot= — Добыча
+You've lost an item: =Потерян предмет: 
+
+# --- Колдовство ---
+ lands a critical blast!= наносит крит. взрыв!
+ inflicts = наносит 
+ damage upon themself!= урона себе!
+You inflict = Ты наносишь 
+ damage upon yourself!= урона себе!
+Cannot hit yourself with VENGEFUL HEALING! (Target a hostile NPC before healing yourself!=Нельзя бить МСТИТЕЛЬНЫМ ИСЦЕЛЕНИЕМ! (Выбери враждебного NPC)
+ takes = получает 
+ VENGEFUL HEALING damage!= урона МСТИТЕЛЬНОГО ИСЦЕЛЕНИЯ!
+It's a =Это 
+Spell did not complete - commands missed. Please alert dev team=Каст не завершён — ошибка команд. Сообщите разработчикам
+
+# --- Предмет: Подстроки тултипов ---
+Slot: =Слот: 
+ - 2-Handed= — Двуручное
+ - Relic Item= — Реликт
+Activatable: =Активация: 
+Worn Effect: =Эффект ношения: 
+Base DPS: =ДПС: 
+Required Level: =Треб. уровень: 
+Mana Cost: =Расход маны: 
+Spell Type: =Тип закл.: 
+Spell Line: =Линия закл.: 
+Cast Time: =Время каста: 
+Resist Type: =Тип сопрот.: 
+Effect Type: =Тип эффекта: 
+Cooldown: =Откат: 
+Spell Level: =Ур. закл.: 
+Instant Effect=Мгновенный эффект
+Effect Duration: =Длительность: 
+Damage over time: =Урон со временем: 
+ sec= сек
+ / tick= / тик
+Lifetap=Вампиризм
+Group Effect=Эффект группы
+Stuns Target=Оглушает цель
+Charms Target=Чарует цель
+Roots Target=Опутывает цель
+Taunt:=Таунт:
+ aggro= аггро
+Apply Effects on Target=Наложить эффекты на цель
+Hitpoints =ОЗ 
+Armor Class =Класс брони 
+Mana =Мана 
+Strength =Сила 
+Dexterity =Ловкость 
+Endurance =Стойкость 
+Agility =Проворство 
+Wisdom =Мудрость 
+Intelligence =Интеллект 
+Charisma =Харизма 
+Magic Resist =Маг. сопрот. 
+Elemental Resist =Стих. сопрот. 
+Poison Resist =Яд. сопрот. 
+Void Resist =Пустот. сопрот. 
+Movement Speed =Скорость движ. 
+Damage Shield =Щит урона 
+Haste =Скорость 
+Lifesteal =Кража жизни 
+Attack Roll Modifier =Модиф. броска атк 
+Resonance =Резонанс 
+% chance to proc =% шанс прока 
+% chance on ATTACK: \n=% шанс при АТАКЕ: \n
+% chance on BASH: \n=% шанс при БАШЕ: \n
+% chance on CAST: \n=% шанс при КАСТЕ: \n
+Physicality: +=Физическая мощь: +
+Hardiness: +=Выносливость: +
+Finesse: +=Точность: +
+Defense: +=Защита: +
+Arcanism: +=Арканизм: +
+Restoration: +=Восстановление: +
+Mind: +=Разум: +
+Resist Scaling: =Скейл сопрот.: 
+Mitigation Scaling: +=Скейл снижения: +
+Charm Item=Талисман
+Class modifiers:=Бонусы классов:
+Charms do not increase stats, they modify how effectively your character utilizes stats.=Талисманы не повышают статы, а меняют эффективность их использования.
+Aura Item=Аура
+Auras effect entire party=Ауры действуют на всю группу
+Auras of same type do not stack=Ауры одного типа не складываются
+YOU ALREADY KNOW THIS SPELL=ТЫ УЖЕ ЗНАЕШЬ ЭТО ЗАКЛИНАНИЕ
+YOU ALREADY KNOW THIS SKILL=ТЫ УЖЕ ЗНАЕШЬ ЭТОТ НАВЫК
+Skill Type: =Тип навыка: 
+CHANGE STANCE=СМЕНИТЬ СТОЙКУ
+SimPlayers DO NOT automatically learn this skill!\nHand this book to them to allow them to use it.=SimPlayer НЕ выучат навык автоматически!\nОтдай им книгу чтобы они могли его использовать.
+
+# --- Зона ---
+You have entered =Ты вошёл в 
+
+# --- Бой: смерть ---
+You have slain =Ты убил 
+ has been slain by = убит 
+ has been slain.= убит.
+'s corpse= — труп
+
+# --- Подстроки боя ---
+ shakes off the stun!= стряхивает оглушение!
+ shakes off the fear!= подавляет страх!
+Switching to =Переключение на 
+ stance!= стойку!
+ hits YOU for = бьёт ТЕБЯ на 
+ spell damage!= маг. урона!
+ hits = бьёт 
+Your = Твоё 
+ spell hits = закл. бьёт 
+ resisted the = сопротивился 
+ spell!= магии!
+You resisted the =Ты сопротивился 
+
+# --- Подстроки торговля NPC ---
+ says: Hail = говорит: Привет 
+You say: Hail =Ты говоришь: Привет 
+ says: =  говорит: 
+
+# --- Зона ---
+
+# --- Предмет: Подстрока ---
+Targeting: =Цель: 
+ DPS:= ДПС:
+Lv. =Ур. 
+ points= очков
+Wants: =Нужно: 
+Sivakruxes: =Сивакруксов: 
+Planar Stones: =Планарных Камней: 
+The treasure appears to be in =Сокровище похоже в 
+The treasure appears to be located near =Сокровище похоже рядом с 
+Treasure Hunt:\n=Поиск сокровищ:\n
+Treasure Loc\n=Место сокровища\n
+Tab =Вкладка 
+Used =Потрачен 
+
+# --- NPC (серверные подстроки) ---
+Connecting to guild chat for =Подключение к гильд. чату 
+... COMPLETE=... ГОТОВО
+ says: I'm here, joining your group now.= говорит: Я тут, вступаю в группу.
+
+# --- Проценты резистов ---
+ (No Inventory)= (Нет товара)
+
+# --- Ещё NPC бой подстроки ---
+ tries to attack = пытается атаковать 
+ attacks = атакует 
+ but misses!= но промах!
+ avoided the attack and = уклонился от атаки и 
+ an opening for a counter-attack!= нашёл брешь для контратаки!
+ parried the attack!= парировал атаку!
+ casting = кастует 
+ incoming on = на подходе к 
+taunting =таунтит 
+assisting =ассистит 
+Killing =Убиваю 
+Assisting! I'm on =Ассист! Я на 
+, stay on your current target!=, оставайся на своей цели!
+ is the assist! I'm on = — ассист! Я на 
+'s target is = — цель 
+, killing it now!=, убиваю!
+
+# --- Банк ---
+Hold RIGHT MOUSE for item details...=Зажми ПКМ для инфо о предмете...
+
+# --- WTB ---
+, offering =, предлагаю 
+ gold. Open a trade with me.= зол. Открой обмен со мной.
+
+# --- Настройки: выпадающие списки ---
+Always=Всегда
+Never=Никогда
+
+# --- Настройки: полные строки ---
+Right Click Required for Item Info=ПКМ для инфо предмета
+
+# --- Подстроки для динамических строк ---
+[SUBSTRING]
+Remaining =Осталось 
+ Points:= очков:
+ points:= очков:
+ units= ед.

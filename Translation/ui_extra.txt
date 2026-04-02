@@ -1,0 +1,816 @@
+# Сгенерировано из untranslated_dump.txt — массовый перевод
+# Пропущены: заглушки, дебаг, координаты, кнопки клавиш, имена NPC
+
+# --- Экран персонажа / загрузка ---
+Character  Select=Выбор Персонажа
+Choose a Class\n\nName your Character\n\nSet your appearance\n\nAssign Proficiency Points\n\nSave Character\n\nEnter world!=Выбери класс\n\nНазови персонажа\n\nНастрой внешность\n\nРаспредели очки\n\nСохранить\n\nВ мир!
+Choose Class\n=Выбери класс\n
+Character Personalization\n=Настройка внешности\n
+Character Proficiencies=Мастерство персонажа
+Character Stats=Характеристики
+Adventure awaits...=Приключение ждёт...
+How does your journey begin? =Как начнётся твоё путешествие? 
+Stranded!=Выброшен на берег!
+Determination=Решимость
+Like many, you were seeking a new life on Erenshor. Your voyage was underway when the ports were closed, and your vessel was re-directed to Stowaway's Step. \n\nYour adventure begins unexpectedly on this quiet island.\n\n[This is a challenging 1-2 hour long quest that will introduce you to Erenshor's unique systems while rewarding you with achievements and loot. This game start is HIGHLY RECOMMENDED for beginners]=Как и многие, ты искал новую жизнь в Эреншоре. Порты закрыли, и корабль перенаправили в Пристань Зайцев.\n\nПриключение начинается неожиданно на этом тихом острове.\n\n[Это непростой квест на 1–2 часа, который познакомит с уникальными системами Erenshor и наградит достижениями и лутом. Этот старт НАСТОЯТЕЛЬНО РЕКОМЕНДОВАН для новичков]
+You have been displaced from your home, but you cannot clearly remember what happened. In a daze, you have wandered until you came upon a settlement called Willowwatch. You have the opportunity here to get back on your feet. \n\nAs your mind begins to clear, you decide that you will not sit idly by any longer waiting to see what hand fate deals you. You will learn to protect yourself by any means necessary. \n\n[This is an Alternate Start for players who understand how to play Erenshor]=Ты изгнан из дома и не помнишь, что произошло. В забытьи бродил, пока не наткнулся на поселение Иводор. Здесь можно встать на ноги.\n\nРазум проясняется, и ты решаешь, что больше не будешь ждать милостей судьбы. Ты научишься защищать себя любой ценой.\n\n[Это альтернативный старт для тех, кто уже знаком с Erenshor]
+Erasing a character cannot be undone.\n\nAre you sure?=Удаление персонажа необратимо.\n\nТы уверен?
+Load Backup=Загрузить бэкап
+LOADING DATABASES=ЗАГРУЗКА БАЗ ДАННЫХ
+Loading Guilds...=Загрузка гильдий...
+Loading World...=Загрузка мира...
+Filling Auction House...=Заполнение аукциона...
+Finalizing Data...=Финализация данных...
+Building World and Databases... =Построение мира и баз данных... 
+WARNING\nBackups will overwrite current characters once loaded.=ВНИМАНИЕ\nБэкапы перезапишут текущих персонажей при загрузке.
+You are loading local backup save data. This will overwrite any current data.=Загрузка локального бэкапа. Текущие данные будут перезаписаны.
+This is best used for restoring corrupted or lost save games.=Лучше всего подходит для восстановления повреждённых сохранений.
+Warning=Предупреждение
+
+# --- Главное меню / титульный экран ---
+#2110 PVE  - Server Status: Live=#2110 PVE — Статус сервера: Онлайн
+#2111 PVP - Server Status: Down=#2111 PVP — Статус сервера: Оффлайн
+Early Access Build=Ранний Доступ
+Welcome to Erenshor \n=Добро пожаловать в Эреншор \n
+Early Access is Live!=Ранний доступ запущен!
+Review Erenshor!=Оцени Erenshor!
+
+# --- Меню ESC ---
+Menu=Меню
+Resume=Продолжить
+Save & Disconnect=Сохранить и выйти
+Unstuck Me=Застрял!
+STUCK!=ЗАСТРЯЛ!
+Reset UI=Сбросить UI
+Combat Feedback=Боевая обратная связь
+Join the community=Присоединиться к сообществу
+Erenshor Wiki=Вики Erenshor
+
+# --- Настройки (исправлены \n) ---
+Right Click Required for \nItem Info=ПКМ для\nинфо предмета
+On: May reduce performance\nOff: May rain in houses or caves=Вкл: Снижает FPS\nВыкл: Дождь в помещениях
+Cap framerate to resolution refresh rate=Ограничить FPS частотой обновления
+VSync=Верт. синхр.
+Current FPS:=Текущий FPS:
+
+# --- Клавиши управления ---
+Forward:\n\nBackward:\n\nLeft:\n\nRight:\n\nJump:\n\nAutoattack:\n\nConsider Opponent:\n\nHail / Greet:\n\nSpells and Skills:\n\nQuest Log:\n\nCycle Targets:\n\nOpen / Submit Chat:\n\nInventory:\n\nOptions Menu:\n\nStrafe Left:\n...=Вперёд:\n\nНазад:\n\nВлево:\n\nВправо:\n\nПрыжок:\n\nАвтоатака:\n\nОценить цель:\n\nПриветствие:\n\nЗаклинания и навыки:\n\nЖурнал квестов:\n\nСмена цели:\n\nОткрыть чат:\n\nИнвентарь:\n\nНастройки:\n\nСтрейф влево:\n...
+Guild Mngr:\n\nLoot: \n\nWhisper Respond:\n\nSplit Stack (1):\n\nSplit Stack (10):\n\nMap:\n\nHotbar Swap:\n=Гильдия:\n\nЛут:\n\nОтветить шёпотом:\n\nРазделить (1):\n\nРазделить (10):\n\nКарта:\n\nСмена панели:\n
+\nHotkey 1\n\nHotkey 2\n\nHotkey 3\n\nHotkey 4\n\nHotkey 5=\nКлавиша 1\n\nКлавиша 2\n\nКлавиша 3\n\nКлавиша 4\n\nКлавиша 5
+\nHotkey 6\n\nHotkey 7\n\nHotkey 8\n\nHotkey 9\n\nHotkey 0=\nКлавиша 6\n\nКлавиша 7\n\nКлавиша 8\n\nКлавиша 9\n\nКлавиша 0
+Member 1\n\nMember 2\n\nMember 3\n\nMember 4=Член 1\n\nЧлен 2\n\nЧлен 3\n\nЧлен 4
+Self=Себя
+Commands and Hints=Команды и подсказки
+
+# --- Инвентарь / статы ---
+< Place item here to destroy=< Положи предмет для уничтожения
+Health=Здоровье
+Mana=Мана
+Mana:=Мана:
+Stamina:=Стамина:
+XP:=Опыт:
+Gold:=Золото:
+HP:  =ОЗ:  
+HP:=ОЗ:
+MP:=ОМ:
+AC:=КБ:
+AC=КБ
+Str:=Сил:
+End:=Стойк:
+Dex:=Ловк:
+Agi:=Пров:
+Int:=Инт:
+Wis:=Муд:
+Cha:=Хар:
+Res:=Сопр:
+Str=Сил
+End=Стойк
+Dex=Ловк
+Agi=Пров
+Int=Инт
+Wis=Муд
+Cha=Хар
+Strength:=Сила:
+Endurance:=Стойкость:
+Dexterity:=Ловкость:
+Agility:=Проворство:
+Intelligence:=Интеллект:
+Wisdom:=Мудрость:
+Charisma:=Харизма:
+Resonance:=Резонанс:
+Physicality:=Физ. мощь:
+Hardiness:=Выносливость:
+Finesse:=Точность:
+Defense:=Защита:
+Arcanism:=Арканизм:
+Restoration:=Восстановление:
+Mind:=Разум:
+Mitigation:=Снижение урона:
+Haste:=Скорость:
+HP Regen:=Реген ОЗ:
+MP Regen:=Реген ОМ:
+Atk Bonus:=Бонус атк:
+Atk Bonus: =Бонус атк: 
+Resist vs=Сопр. к
+Resists=Сопротивления
+Resists\n=Сопротивления\n
+Magic:=Магия:
+Poison:=Яд:
+Void:=Пустота:
+Void:\n=Пустота:\n
+Elem:=Стихия:
+Str: \nEnd:\nDex:\nAgi:\nInt:\nWis:\nCha:\nRes:=Сил: \nСтойк:\nЛовк:\nПров:\nИнт:\nМуд:\nХар:\nСопр:
+Magic\nPoison\nElemental\nVoid=Магия\nЯд\nСтихия\nПустота
+Vitals=Показатели
+Damage:=Урон:
+Damage Type:=Тип урона:
+Delay:=Задержка:
+Range:=Дальность:
+Slot:=Слот:
+Slot: Primary=Слот: Основной
+Equipment=Экипировка
+Main \nHand=Осн.\nРука
+Main\nHand=Осн.\nРука
+Off \nHand=Вт.\nРука
+Off\nHand=Вт.\nРука
+Head=Голова
+Chest=Нагрудник
+Arm=Наруч
+Hand=Рука
+Waist=Пояс
+Leg=Ноги
+Foot=Ступни
+Foot\n=Ступни\n
+Neck=Шея
+Ring=Кольцо
+Wrist=Запястье
+Aura=Аура
+Phys.=Физ.
+Hard.=Вынос.
+Fin.=Точн.
+Def.=Защ.
+Arc.=Арк.
+Rest.=Вост.
+Inventory=Инвентарь
+
+# --- Предметы ---
+Auto Stack=Авто-стопка
+Close Bank=Закрыть банк
+Weapons and Armor=Оружие и броня
+(Hold right mouse button for spell info)=\(Зажми ПКМ для инфо заклинания\)
+(Hold Right Mouse for item info)=\(Зажми ПКМ для инфо предмета\)
+Points Spent: =Потрачено очков: 
+Available Points: 0=Доступные очки: 0
+Add Point=Добавить очко
+Adding points to a proficiency will allow a character to utilize its corresponding stat more efficiently.=Очки мастерства позволяют персонажу эффективнее использовать соответствующий стат.
+
+# --- Квестовый журнал ---
+Quest Log=Журнал квестов
+Active=Активные
+Active Quests=Активные квесты
+Completed=Завершённые
+Completed Quests=Завершённые квесты
+Repeatable=Повторяемые
+No Quest Selected=Квест не выбран
+
+# --- Навыки / заклинания ---
+Skills=Навыки
+View Skills=Просмотр навыков
+Assign Hotkey=Назначить клавишу
+Make Hotkey=Назначить клавишу
+Previous Page=Пред. страница
+Class=Класс
+Ascension=Вознесение
+Ascend=Вознести
+Spell Description=Описание заклинания
+Dodge Expertise=Мастерство уклонения
+Innate Health=Врождённое здоровье
+
+# --- Группа / рейд ---
+Manage Group=Управлять группой
+Manage Roles=Управлять ролями
+Assign Group Roles=Назначить роли группы
+Assignments=Назначения
+Main Tank=Главный танк
+Main Assist=Главный ассист
+Puller=Пуллер
+Healing=Исцеление
+Crowd Control=Контроль
+DPS Focus=Фокус урона
+Pull Target=Тянуть цель
+Assist MA=Ассист ГА
+Run Away\n=Бежать!\n
+Invis Group=Инвиз группы
+Guard=Охранять
+Follow=Следовать
+Toggle \nPuller=Вкл/Выкл\nПуллер
+Group Builder=Формирование группы
+Invite Player=Пригласить игрока
+Dismiss=Распустить
+Dismiss Player=Отпустить игрока
+Add Friend=Добавить друга
+Unfriend=Удалить из друзей
+Friend=Друг
+Peers=Равные
+Group Member 1=Участник группы 1
+Group Member 2=Участник группы 2
+Group Member 3\n=Участник группы 3\n
+Group Member 4\n=Участник группы 4\n
+Group 1=Группа 1
+Group 2\n=Группа 2\n
+Member Name=Имя участника
+DPS Manager=Менеджер урона
+DPS Management=Управление уроном
+Group member will limit DPS until target is under set % life=Участник ограничит урон пока цель выше заданного % ОЗ
+Group members will focus on DPS if not currently performing a task=Участники сосредоточатся на уроне, если нет задачи
+Group should use fear kite tactics\n(Sim players will prioritize movespeed debuffs and fear spells)=Использовать тактику кайтинга\n(SimPlayer приоритизируют замедления и страх)
+Heal Threshold=Порог лечения
+Healing Matrix=Матрица лечения
+Autopull Settings=Настройки пулла
+Pulling=Пулл
+Hold if under % group mana:=Ждать при мане группы ниже %:
+Max distance to pull:=Макс. дистанция пулла:
+Max pull target Lv. above:=Макс. ур. цели выше:
+Max pull target Lv. below:=Макс. ур. цели ниже:
+Targets=Цели
+Target 2=Цель 2
+Target 3=Цель 3
+Target 4=Цель 4
+Target 5=Цель 5
+Target DPS: =Урон по цели: 
+Player DPS:=Урон игрока:
+Max Hit: =Макс. удар: 
+Min Hit:=Мин. удар:
+Avg Hit:=Средн. удар:
+Target Pet=Цель — питомец
+Player=Игрок
+Quick Commands=Быстрые команды
+Blade=Клинок
+Storm=Шторм
+
+# --- Гильдия ---
+Guild Manager=Менеджер гильдии
+Guild Members=Члены гильдии
+Guild Rankings=Рейтинг гильдий
+Guild Name=Название гильдии
+Guild Name Here=Название гильдии
+Guild Administration=Администрация гильдии
+Guild Actions=Действия гильдии
+Create Guild\n=Создать гильдию\n
+Create a Guild=Создать гильдию
+Delete Guild=Удалить гильдию
+Delete a Guild=Удалить гильдию
+Leave Guild=Покинуть гильдию
+Leave=Покинуть
+Leave your Guild?=Покинуть гильдию?
+Name your new guild=Назови свою гильдию
+Confirm your new guild name.\n\nCheck carefully for typos or spelling errors!=Подтверди название гильдии.\n\nПроверь на опечатки!
+This will remove you from your current guild. You can be re-invited by sending a whisper to any member who likes you enough to invite you.=Ты покинешь свою гильдию. Можешь получить приглашение снова, отправив шёпот любому участнику.
+All guild members will be disbanded and free to join other guilds. \nThe Guild's score will be reset to 0.=Все участники будут распущены.\nСчёт гильдии обнулится.
+Creating a guild will disband any guilds you currently lead and it will remove you from any guilds of which you're a normal member.=Создание гильдии распустит все гильдии, которыми ты руководишь, и исключит из тех, где ты рядовой.
+Type "DELETE" to confirm. This is final.=Напиши «DELETE» для подтверждения. Это необратимо.
+A guild has invited you to join their ranks!=Гильдия приглашает тебя вступить в ряды!
+Are you sure you want to decline the guild invite?=Отклонить приглашение в гильдию?
+Confirmation=Подтверждение
+Go Back=Назад
+Proceed=Продолжить
+Invite Member\n=Пригласить\n
+Invite to Group=Пригласить в группу
+Kick Member=Исключить
+Roster Admin=Управление составом
+Selected Member=Выбранный участник
+Summon To Hall=Призвать в зал
+Begin a Raid=Начать рейд
+Call Raid Force\n=Созвать рейд\n
+
+# --- Аукцион / торговля ---
+Filter By=Фильтр
+Sort By=Сортировка
+Search=Поиск
+All Slots=Все слоты
+Include General Items=Включая обычные
+Cost=Цена
+Asking Price:=Запрашиваемая цена:
+Selected Item:=Выбранный предмет:
+Seller=Продавец
+Seller Name=Имя продавца
+Seller Name:=Имя продавца:
+Your Listings=Ваши лоты
+Your Broker Slots\n=Ваши слоты брокера\n
+CONFIRM PURCHASE=ПОДТВЕРДИТЬ ПОКУПКУ
+No Seller Selected...=Продавец не выбран...
+Clear=Очистить
+Clear All Filters=Очистить все фильтры
+Sell Stack=Продать стопку
+Cancel Trade=Отменить обмен
+List Price...=Цена лота...
+Goodbye=До свидания
+Last Sold Item=Последний проданный предмет
+Next Page=След. стр.
+Prev. Page=Пред. стр.
+Prev Player=Пред. игрок
+Next Player\n=След. игрок\n
+Ok=Ок
+
+# --- Боевые / цели ---
+Combat Window=Боевое окно
+Opaque=Непрозрачное
+Show Background=Фон
+Charmed NPC=Очарованный НПС
+Auto-Assist Group Main Assist=Авто-ассист главному ассисту
+Back off=Отступить
+Back Off=Отступить
+Break=Стоп
+-Controlled Chant-=—Контролируемый каст—
+Waiting for Revive...=Ожидание воскрешения...
+In trouble? Tell your group to run!\n/party run away!=Проблемы? Скажи группе бежать!\n/party бежите!
+You've Died!=Ты погиб!
+Respawn=Возродиться
+Run!=Бежать!
+Rest=Отдых
+Rest for how long?=Отдыхать сколько?
+Resting... =Отдых... 
+
+# --- Чат ---
+/All Player=/Все игроки
+/Reply\n=/Ответ\n
+/Whisper=/Шёпот
+Let's Group\n=Давай в группу\n
+Where are you=Где ты
+Say=Разговор
+Shout=Крик
+WTB Shouts=Покупка
+Main=Главный
+Main Tab=Гл. вкладка
+Tab=Вкладка
+Add=Добавить
+Remove=Удалить
+Add or Remove chat boxes=Добавить или убрать окна чата
+Add Tab=Добавить вкладку
+Del. Tab=Удалить вкладку
+Set Tab Filters=Фильтры вкладки
+
+# --- Фильтры чата ---
+Faction Changes=Смена фракции
+Game & Battle Events=Игровые события
+NPC Emotes \n(e.g. begins casting...)=Эмоции НПС\n(напр. начинает каст...)
+Zone Wide Events=Зональные события
+Heals on Me=Лечение на мне
+Hits on Me=Удары по мне
+My Healing=Моё лечение
+My Hits=Мои удары
+Other's Healing=Лечение других
+Other's Hits=Удары других
+Sim Req. Loot=Лут SimPlayer
+System Msg.=Системные
+Hide Bottom Bar=Скрыть нижнюю панель
+Do not alert for updates=Не уведомлять об обновлениях
+Filters=Фильтры
+Jump to Present=К последнему
+Win. Background=Фон окна
+Background=Фон
+
+# --- Зал гильдии ---
+Customize Hall=Настройка зала
+Build=Строить
+Celestial=Небесный
+Honor=Честь
+Elements=Стихии
+Rune=Руна
+Willow=Ива
+Statue \nOnly=Только\nстатуя
+Decor=Декор
+
+# --- Мини-карта / местоположение ---
+Enable Minimap=Вкл. миникарту
+Enable Quest Markers=Вкл. маркеры квестов
+
+# --- Кузница / крафт ---
+Smithing Window=Кузница
+Combine=Соединить
+Components=Компоненты
+Template=Шаблон
+Fuel Source=Топливо
+Crafting Window=Окно крафта
+
+# --- Осмотр SimPlayer ---
+Alternate Items=Запасные вещи
+Selected=Выбрано
+Charm=Очарование
+Hide Helmet=Скрыть шлем
+No auto-upgrades for gear=Не улучшать экипировку
+Hint: Left Click on any slot to help SimPlayer equip alternate items they may be carrying=Подсказка: ЛКМ по слоту чтобы помочь SimPlayer надеть запасную вещь
+Current Tier:=Текущий уровень:
+ Upgrade To:= Улучшить до:
+Offer=Предложить
+Offer Sivakruxes:=Предложить Сивакруксы:
+This action requires you to be near a forge=Нужно быть рядом с кузницей
+This action will only work in certain locations of power.=Работает только в местах силы.
+This will use one planar stone=Будет использован один планарный камень
+You are about to discard an item, are you sure?=Выбросить предмет? Уверен?
+Planar=Планарный
+Planar Stones:=Планарные Камни:
+Sivakruxes:\n=Сивакруксы:\n
+
+# --- Админка сервера ---
+Server Admin Panel=Панель администрирования
+Server Population: =Население сервера: 
+Server Reset=Сброс сервера
+Reset All=Сбросить всё
+Reset Selected=Сбросить выбранного
+Reset Server=Сбросить сервер
+Reset All SimPlayers=Сбросить всех SimPlayer
+Close Window=Закрыть окно
+Enable Reset=Вкл. сброс
+Enable Reset All=Вкл. сброс всех
+Enable Server Reset=Вкл. сброс сервера
+Note: Decreasing population may cause some SimPlayers to be offline.=Примечание: Снижение населения может отключить часть SimPlayer.
+NPC DMG Modifier: 1=Множитель урона NPC: 1
+NPC HP Modifier: 1=Множитель ОЗ NPC: 1
+XP Modifier: 1=Множитель опыта: 1
+Rare Drop Rate Modifier: 1=Множитель редкого лута: 1
+Respawn Time Length=Время возрождения
+XP Penalty on Death=Штраф опыта за смерть
+Show Target Level=Показать ур. цели
+GMs will Jail Player=ГМы посадят игрока
+Weak MOBs  Run Away=Слабые мобы убегают
+Casual\n=Казуальный\n
+Challenge=Испытание
+Extended=Расширенный
+Recommended=Рекомендуемый
+Global Run Speed Modifier=Множитель скорости бега
+RECOMMENDED settings are hand-picked to give users a classic MMO experience. \n\nFor users looking for a modified experience, feel free to adjust these settings to your liking or try a pre-set.\n=РЕКОМЕНДУЕМЫЕ настройки подобраны для классического MMO-опыта.\n\nДля изменённого опыта настройте по вкусу или выберите пресет.\n
+This function allows you to remove individual SimPlayers to make room for new ones.=Удалить отдельных SimPlayer для освобождения места.
+This function will reset ALL SimPlayers to a randomized, default state. =Сброс ВСЕХ SimPlayer к случайному начальному состоянию. 
+This function will restore Erenshor to a "Day 1" status. All play progress will be fully reset.=Восстановить Erenshor к «Дню 1». Весь прогресс будет полностью сброшен.
+There is no confirmation prompt. This button is final.=Подтверждения не будет. Кнопка окончательна.
+
+# --- Туториал ---
+~Press Escape to Close Tips~=~Нажми Esc чтобы закрыть подсказки~
+Erenshor - Beginner tip:=Erenshor — совет новичку:
+Keys and Doors=Ключи и двери
+BEFORE YOU PLAY=ПЕРЕД ИГРОЙ
+Continue with Classic Settings=Продолжить с классическими настройками
+Got it=Понятно
+Got it!=Понятно!
+Set Respawn Point=Установить точку возрождения
+Throw Gold into the wishing well?=Бросить золото в колодец желаний?
+Saving and backing up game data...=Сохранение и резервная копия...
+
+# --- Чат-команды ---
+HOTKEY TYPE=ТИП ХОТКЕЯ
+Object Name=Имя объекта
+Clean List=Очистить список
+E- Loot All=E — Взять всё
+Esc - Close=Esc — Закрыть
+Destroy All=Уничтожить всё
+Specify Slot=Указать слот
+
+# --- DPS / категории аукциона ---
+HP=ОЗ
+MP=ОМ
+MR=МС
+PR=ЯС
+VR=ПС
+ER=СтС
+Effect=Эффект
+Ratio=Соотн.
+Dly=Зад.
+
+# --- Мелкие лейблы ---
+Constant=Постоянно
+Toggle=Вкл/Выкл
+ALERT TO RETURNING PLAYERS\n=ВНИМАНИЕ ВЕРНУВШИМСЯ ИГРОКАМ\n
+Must spend 8 points in GENERAL skills first=Сначала потрать 8 очков в ОБЩИХ навыках
+Aura: Brax's Aura=Аура: Аура Бракса
+Social Log Initialized=Лог общения инициализирован
+SPELL NAME CAST=КАСТ ЗАКЛИНАНИЯ
+Warrior  Druid  Duelist  Arcanist  Stormcaller  Reaver=Паладин  Друид  Ветроклинок  Арканист  Штормозов  Жнец
+
+# --- Квесты ---
+A Magic Sword in Port Azure=Волшебный Меч в Порт-Лазури
+A Mystery in Fernalla's Field=Тайна на Поле Ферналлы
+
+# --- Гильдия (доп.) ---
+<GUILD NAME IN LIMITED CHAR>=<ИМЯ ГИЛЬДИИ>
+Creating a Guild will disband any guilds you currently lead and it will remove you from any guilds of which you're a normal member.=Создание гильдии распустит все гильдии, которыми ты руководишь, и исключит из тех, где ты рядовой.
+ITEM NAME HERE=ПРЕДМЕТ
+
+# --- Аукцион / предметы (доп.) ---
+Res=Сопр.
+This item is undervalued on a regular basis by Port Azure. Many question its true worth.=Этот предмет регулярно недооценивается в Порт-Лазури. Многие сомневаются в его истинной стоимости.
+
+# --- Настройки (доп.) ---
+Ultra=Ультра
+Button=Кнопка
+
+# --- Чат вкладки ---
+Tab 1=Вкл. 1
+Tab 2=Вкл. 2
+Tab 3=Вкл. 3
+Tab 4=Вкл. 4
+Tab 5=Вкл. 5
+
+# --- Статы (доп.) ---
+Charisma is used in spell-resist calculations. The caster gains a bonus modifier based on their charisma, and the defender's resists are also calculated using Charisma. =Харизма используется в расчётах сопротивления. Кастующий получает бонус от харизмы, а сопротивления защищающегося тоже зависят от Харизмы.
+Criteria: 6 points previously spent\n\nSkill description: e.g.\nIncrease HP by 2%, 5%, 10% =Требуется: 6 потраченных очков\n\nОписание навыка, напр.:\nУвеличивает ОЗ на 2%, 5%, 10% 
+
+# --- Помощь: функции игры ---
+GAME FUNCTIONS\n/ (w/ no text)\n/all players\n/friend\n/whisper \n/shout\n/party\n/guild \n/loc \n/ascview\n/setname X\n\n=ФУНКЦИИ ИГРЫ\n/ (без текста)\n/all players\n/friend\n/whisper \n/shout\n/party\n/guild \n/loc \n/ascview\n/setname X\n\n
+DEBUG\n/iamadev\n/dosunny\n/time1\n/time50\n/time\n/bluesky\n/raining\n/thunder\n/droneme\nF7\n=ОТЛАДКА\n/iamadev\n/dosunny\n/time1\n/time50\n/time\n/bluesky\n/raining\n/thunder\n/droneme\nF7\n
+
+# --- Помощь: описания команд (длинные тексты, префиксное сопоставление) ---
+# Помощь: описания команд игрока (полный текст неизвестен, но запись сработает как субстрока)
+\nRequired for some debug commands\ntoggle global lighting\nset day night cycle to normal speed\nset day night cycle to 50x speed\nsee what time it is\nweather trending to sunny\nweather trending to rainy\nweather trending to stormy\ncamera drone (WASD + Arrows)\nDisable UI\n\n=\nНужно для отладочных команд\nвкл/выкл глобальное освещение\nскорость цикла дня/ночи — обычная\nскорость цикла дня/ночи — 50x\nузнать время\nпогода: к ясной\nпогода: к дождливой\nпогода: к грозовой\nдрон камеры (WASD + стрелки)\nСкрыть UI\n\n
+Tips and Hints:\n\n1.) Talk to all NPCs (H - default)\n\n2.) Take your time, read dialog for hints and directions\n\n3.) It's best to be in a group\n\n4.) Share loot with your group by  handing it to them (drag item to their character model)\n\n5.) SimPlayers auto-learn spells and skills\n\n6.) If you're stuck, there's a wiki and a discord!\n\n7.) Hard fight? Try adjusting healing thresholds \n\n8.) Press F2, F3, F4 (default keys)  to target a party member. Press the same key twice to get their  target.\n\n9.) If you're struggling in one area, it's likely that there is a better place you could find to adventure\n\n10.) Secrets and traps often have 'audio clues' nearby to get your attention\n\n11.) Explore! Different areas of the world have different spells or skills for sale.\n\n12.) Try asking questions to your guild!=Советы и подсказки:\n\n1.) Говори со всеми НПС (H по умолчанию)\n\n2.) Не торопись, читай диалоги — там подсказки\n\n3.) Лучше быть в группе\n\n4.) Делись добычей — перетащи предмет на модель персонажа\n\n5.) SimPlayer сами изучают заклинания и навыки\n\n6.) Застрял? Есть вики и Discord!\n\n7.) Тяжёлый бой? Попробуй настроить порог лечения\n\n8.) F2, F3, F4 (по умолчанию) — выбрать члена группы. Дважды — его цель.\n\n9.) Трудно тут? Скорее всего, есть место получше\n\n10.) У секретов и ловушек часто есть «звуковые подсказки»\n\n11.) Исследуй! В разных частях мира продаются разные заклинания\n\n12.) Попробуй задать вопрос гильдии!
+
+# --- Патч-ноты ---
+\nv0.3 brings TONS of changes to Erenshor, check out the full patch notes on the steam community hub.\n\nThe REAVER is live! \n\nCheck out the "Server Admin Panel" to increase server population and add new...=\nv0.3 приносит МАССУ изменений в Erenshor, полные патч-ноты на хабе сообщества Steam.\n\nЖНЕЦ теперь доступен!\n\nЗагляни в «Панель администрирования» для увеличения населения и добавления новых...
+
+# --- Предупреждения и попапы (длинные тексты) ---
+"Modern Controls" are a previous control scheme from earlier in development. Options are good, so I re-enabled them. They can only be activated once you're in-game (for now) and do not currently save settings. \n\nIf there is interest, this feature can be made complete.\n\n-Permanent Mouse look & mouse steering\n\n-"Free mouse" removed\n\n-Mouse cursor released during UI usage (also toggled by middle mouse button)\n\n-Left clicking on vendors, bank, etc interacts with them\n\n-"Left" and "Right" default to strafe\n\n=«Современное управление» — схема из раннего этапа разработки. Варианты полезны, поэтому их вернули. Активируются только в игре (пока), настройки не сохраняются.\n\nЕсли будет интерес — функцию доделают.\n\n-Постоянный обзор мышью и управление\n\n-«Свободная мышь» убрана\n\n-Курсор появляется при работе с UI (также по СКМ)\n\n-ЛКМ по торговцам, банку и т.д. взаимодействует с ними\n\n-«Влево» и «Вправо» по умолчанию — стрейф\n\n
+A bug fix in Erenshor's v0.3 patch may have caused your inventory to be rearranged on initial v0.3 launch.\n\nPlease ensure that no important items have been placed in your TRASH SLOT on each character. \n\nNew Players can disregard this message.=Исправление бага в патче v0.3 могло переместить ваш инвентарь при первом запуске v0.3.\n\nУбедитесь, что важные предметы не попали в СЛОТ УНИЧТОЖЕНИЯ у каждого персонажа.\n\nНовые игроки могут проигнорировать это сообщение.
+Left click on a door to open it. If you need a key, it'll be automatically used from your inventory. Also, there's other things you'll need to know how to do in this game. Read all of the tutorial tips carefully for that information!\n\nDo not skip tutorial tips!=ЛКМ по двери, чтобы открыть. Если нужен ключ, он используется автоматически из инвентаря. Есть и другие вещи, которые стоит знать. Внимательно читай все обучающие подсказки!\n\nНе пропускай подсказки!
+This is a one-time popup\n\nErenshor is a faithful nod to classic MMORPGs of the early 2000s. \n\nThis means that by default the game offers no map, no quest markers, and the gameplay is tuned to give a challenge.\n\nHowever, to keep Erenshor enjoyable and accessible to all, these settings are adjustable.\n\nYou can tune Erenshor to your liking in the SERVER ADMIN PANEL from the LOGIN SCREEN at any time. There are no penalties for adjusting the game's settings.\n\n\n=Это одноразовое окно\n\nErenshor — дань уважения классическим ММОРПГ начала 2000-х.\n\nЭто значит, что по умолчанию нет карты, нет маркеров квестов, а геймплей настроен на сложность.\n\nОднако, чтобы Erenshor был приятен и доступен всем, эти настройки можно менять.\n\nНастрой Erenshor под себя в ПАНЕЛИ АДМИНИСТРИРОВАНИЯ на ЭКРАНЕ ВХОДА в любое время. Никаких штрафов за изменение настроек.\n\n\n
+Erenshor is currently in EARLY ACCESS. Many game experiences are subject to change including graphics, audio, animations, UI, items, encounters, class roles, and more. \n\nIf you experience bugs, balance issues, or other problems needing attention, please report them on the steam forums or in the community discord. \n\nIf you experience lost save data, backups can be loaded from the Main Menu.\n\nPress any key to continue=Erenshor сейчас в РАННЕМ ДОСТУПЕ. Многое может измениться: графика, звук, анимации, интерфейс, предметы, бои, роли классов и т.д.\n\nЕсли вы столкнётесь с багами, проблемами баланса или другими вопросами, сообщайте на форумах Steam или в Discord сообщества.\n\nЕсли потеряли сохранения, бэкапы можно загрузить из Главного Меню.\n\nНажмите любую клавишу
+
+# --- Юридическая информация ---
+Erenshor™ and Burgee Media™ are property of Burgee Media LLC. © 2025 Burgee Media LLC. All rights reserved.=Erenshor™ и Burgee Media™ являются собственностью Burgee Media LLC. © 2025 Burgee Media LLC. Все права защищены.
+
+# --- Кнопки управления (метки) ---
+# Управление (старое меню — полный текст)
+Keyboard Inputs:\n\nForward:\n\nBackward:\n\nLeft:\n\nRight:\n\nJump:\n\nAutoattack:\n\nConsider Opponent:\n\nHail / Greet:\n\nSpells and Skills:\n\nQuest Log:\n\nCycle Targets:\n\nOpen / Submit Chat:\n\nInventory:\n\nOptions Menu:=Клавиши ввода:\n\nВперёд:\n\nНазад:\n\nВлево:\n\nВправо:\n\nПрыжок:\n\nАвтоатака:\n\nОценить цель:\n\nПриветствие:\n\nЗаклинания и навыки:\n\nЖурнал квестов:\n\nСмена цели:\n\nОткрыть чат:\n\nИнвентарь:\n\nМеню настроек:
+
+# --- Описания классов (ТОЧНЫЕ ключи из LoadScene.unity) ---
+The Paladin is a master of defense  and excels at using heavy armor and weapon types.\n\nPaladins harness the power of the Sun and Moon to defend their friends by debuffing and drawing the attention of foes onto themselves.\n\nA Paladin should focus on Strength, Agility, and Endurance.=Паладин — мастер обороны, превосходно владеет тяжёлой бронёй и оружием.\n\nПаладины используют силу Солнца и Луны для защиты союзников, ослабляя врагов и привлекая их внимание на себя.\n\nПаладину стоит развивать Силу, Проворство и Стойкость.
+The Windblade is a master of offensive combat and is best while using light armor and weapon types.\n\nWindblades thrive on battle. They gain health by dealing damage, and excel at crippling their opponents' abilities.\n\nA Windblade should focus on Strength, Dexterity, and Intelligence.=Ветроклинок — мастер атакующего боя, лучше всего проявляет себя в лёгкой броне.\n\nВетроклинки живут битвой. Они восстанавливают здоровье, нанося урон, и превосходно калечат способности противников.\n\nВетроклинку стоит развивать Силу, Ловкость и Интеллект.
+The Druid is a master of all things nature - both pleasant and unpleasant.\n\nThe Druid can call upon not only the force of life to heal their allies, but he also commands the power of death to disable foes.\n\nA Druid should focus on Wisdom, and Charisma.=Друид — повелитель природы во всех её проявлениях — и светлых, и тёмных.\n\nДруид призывает силу жизни для исцеления союзников и повелевает силой смерти, обезвреживая врагов.\n\nДруиду стоит развивать Мудрость и Харизму.
+The Arcanist is a magical being, who thrives in cloth armor.\n\nArcanists command magic of all types, and they have many tools to control the tides of battle and subdue opponents.\n\nAn Arcanist should focus on Intelligence and Charisma.=Арканист — магическое существо, превосходно чувствующее себя в тканевой броне.\n\nАрканисты повелевают магией всех видов и имеют множество инструментов для контроля хода битвы и подчинения противников.\n\nАрканисту стоит развивать Интеллект и Харизму.
+A Stormcaller looks to the sky for power - calling upon the winds and the elements to assist them.\n\nStormcallers are proficient in Archery and in melee combat, while also commanding a mixture of magical spells.\n\nStormcallers should focus on Strength, Dexterity, and Intelligence.=Штормозов обращается к небесам за силой, призывая ветра и стихии на помощь.\n\nШтормозовы искусны в стрельбе из лука и ближнем бою, а также владеют различными заклинаниями.\n\nШтормозову стоит развивать Силу, Ловкость и Интеллект.
+Reavers are powerful warriors who train in combat stances in order to adapt to the changing situations of battle. \n\nA Reaver has the ability to both deal and sustain heavy damage, and is a good compliment to any party composition. \n\nReavers should focus on Strength, Intelligence, and Agility.=Жнецы — могучие воины, тренирующие боевые стойки для адаптации к меняющимся условиям боя.\n\nЖнец способен как наносить, так и выдерживать тяжёлый урон, прекрасно дополняя любой состав отряда.\n\nЖнецу стоит развивать Силу, Интеллект и Проворство.
+
+# --- Первые строки описаний классов (отдельные) ---
+The Paladin is a master of defense  and excels at using heavy armor and weapon types.=Паладин — мастер обороны, превосходно владеет тяжёлой бронёй и оружием.
+The Windblade is a master of offensive combat and is best while using light armor and weapon types.=Ветроклинок — мастер атакующего боя в лёгкой броне.
+A Stormcaller looks to the sky for power - calling upon the winds and the elements to assist them.=Штормозов обращается к небесам, призывая ветра и стихии.
+
+# --- Описания статов (CalcStats.cs) ---
+Strength is used in calculations for a character's physical Attack Damage (melee and bow).=Сила используется в расчётах физического урона персонажа (ближний бой и лук).
+Endurance is used in calculations for a character's total hitpoints and for their in-combat health regeneration.=Стойкость используется в расчётах общего количества ОЗ и регенерации здоровья в бою.
+Dexterity is used in calculations for physical attacks against defender's AC and determines the 'quality' of a hit - damage is calculated by 'ROLLED DMG x HIT QUALITY'. Dexterity is also used in calculation for blocking.=Ловкость используется в расчётах физических атак против КБ защитника и определяет «качество» удара — урон считается как «БРОСОК УРОНА × КАЧЕСТВО УДАРА». Ловкость также влияет на блокирование.
+Agility is used in Armor Class (AC) calculations, and also in determining if an incoming attack is dodged.=Проворство используется в расчётах Класса Брони (КБ) и определяет, будет ли входящая атака уклонена.
+Intelligence plays a large role in the calculation for the size of a character's mana pool, and is used in calculating offensive spell damage.=Интеллект играет большую роль в расчёте размера пула маны и используется в расчётах урона атакующих заклинаний.
+Wisdom is used in calculations for in-combat mana regeneration and healing power.=Мудрость используется в расчётах регенерации маны в бою и силы исцеления.
+Charisma is used in spell-resist calculations. The caster gains a bonus modifier based on their charisma which is used to bypass their target's resists.=Харизма используется в расчётах сопротивления заклинаниям. Кастующий получает бонус от харизмы, пробивающий сопротивления цели.
+Resonance is a characters % chance to have any damage spell re-cast itself instantly, and for no mana. Resonating spells may not do full spell damage. Resonance can occur on weapon procs.=Резонанс — шанс (%) мгновенного бесплатного повторного каста заклинания урона. Повторные заклинания могут наносить неполный урон. Резонанс может срабатывать от проков оружия.
+Haste is applied to non-magical attacks, haste reduces the 'cooldown' by a flat percentage of primary, offhand, bow, and wand attacks.=Скорость применяется к немагическим атакам — уменьшает перезарядку на фиксированный % для основной руки, второй руки, лука и жезла.
+Atk Bonus is a flat bonus applied to 1d20 attack rolls when detemining quality of a melee hit. Increases your chance to crit, or land a higher damage attack. Reduces overall chance to miss.=Бонус атаки — плоский бонус к броскам 1d20 при определении качества удара в ближнем бою. Увеличивает шанс крита и сильного удара. Снижает шанс промаха.
+HP Regen is your in-combat, per-tick Hitpoint Regen amount. 1 tick is approximately 3 seconds. A 50x modifier is applied ouside of combat.=Реген ОЗ — количество регенерации ОЗ за тик в бою. 1 тик ≈ 3 секунды. Вне боя множитель ×50.
+MP Regen is your in-combat, per-tick Mana Regen amount. 1 tick is approximately 3 seconds. A 50x modifier is applied outside of combat.=Реген ОМ — количество регенерации маны за тик в бою. 1 тик ≈ 3 секунды. Вне боя множитель ×50.
+
+# --- Описания мастерства (SpendProficiencyWindow.cs) ---
+Increases your ability to use STRENGTH for Melee Damage and Bow Damage.=Увеличивает эффективность использования СИЛЫ для урона в ближнем бою и из лука.
+Increases your ability to use ENDURANCE for calculating Hitpoints and in-combat health regeneration.=Увеличивает эффективность СТОЙКОСТИ в расчётах ОЗ и регенерации здоровья в бою.
+Increases your ability to use DEXTERITY for bypassing a target's physical defense and getting higher quality hits during combat. Dexterity is also used for Blocking and triggering weapon procs.=Увеличивает эффективность ЛОВКОСТИ для пробивания физ. защиты и повышения качества ударов. Ловкость также влияет на блок и проки оружия.
+Increases your ability to use AGILITY in Armor Class (AC) calculations and also determining if an incoming attack is dodged.=Увеличивает эффективность ПРОВОРСТВА в расчётах КБ и определении уклонения от атак.
+Increases your ability to use INTELLIGENCE in calculating offensive spell damage, and total mana pool.=Увеличивает эффективность ИНТЕЛЛЕКТА в расчётах урона заклинаний и общего пула маны.
+Increases your ability to use WISDOM in calculating a spell's healing power, as well as your overall mana regeneration.=Увеличивает эффективность МУДРОСТИ в расчётах силы исцеления и общей регенерации маны.
+Increases your ability to use CHARISMA to bypass a target's spell resists, increasing your offensive spell damage.=Увеличивает эффективность ХАРИЗМЫ для пробивания сопротивления цели, усиливая урон заклинаний.
+
+# --- Названия статов (CalcStats.cs) ---
+Attack Bonus=Бонус атаки
+Resonance=Резонанс
+
+# --- Информация о предметах (ItemInfoWindow.cs) ---
+Unsellable=Непродаваемый
+Primary or Secondary=Основной или Вторичной
+Right click or assign to hotkey to use.=ПКМ или горячая клавиша для использования.
+Effect applied once item is equipped.=Эффект применяется при экипировке.
+
+# --- Хоткей / книга заклинаний ---
+Ability=Способность
+Spell=Заклинание
+Item=Предмет
+No active effect=Нет активного эффекта
+Empty Hotkey=Пустой хоткей
+No Spell Selected.=Заклинание не выбрано.
+No Skill Selected.=Навык не выбран.
+No Quest Assigned=Квест не назначен
+No quest selected.=Квест не выбран.
+Unused Slot=Пустой слот
+No Aura Equipped=Нет ауры
+
+# --- Группа (SimPlayerGrouping.cs) ---
+Empty=Пусто
+EMPTY=ПУСТО
+Auto Pull: OFF=Автопулл: ВЫКЛ
+Auto Pull: ON=Автопулл: ВКЛ
+Getting main assist's target...=Получение цели главного ассиста...
+Main assist currently has no target=Главный ассист сейчас без цели
+You are the main assist...=Вы — главный ассист...
+No target selected...=Цель не выбрана...
+No target selected=Цель не выбрана
+Can't invite party members while dead...=Нельзя приглашать в группу, пока мёртв...
+Invalid invite: this is not a SimPlayer...=Неверное приглашение: это не SimPlayer...
+Your group is currently full (maximum of 5, including you)=Группа полная (максимум 5, включая вас)
+This player is not currently available for grouping, or is already in your group, or is outside of your level range.=Игрок недоступен для группировки, уже в группе, или вне диапазона уровней.
+Cannot kick an empty group slot=Нельзя исключить пустой слот
+Group roles reset...=Роли группы сброшены...
+Your party member has decided not to follow you to this place...=Ваш соратник решил не следовать за вами сюда...
+
+# --- Создание персонажа (CharSelectManager.cs) ---
+Character Load Success!=Персонаж загружен!
+Backup Load Success!=Бэкап загружен!
+Choose a name!=Выбери имя!
+Name can only contain A-Z, 0-9.=Имя может содержать только A-Z, 0-9.
+That name is already taken!=Это имя уже занято!
+Choose a class!=Выбери класс!
+New Character=Новый персонаж
+Play to Unlock=Играй, чтобы разблокировать
+Erase Character=Удалить персонажа
+Assign Proficiencies=Распределить мастерство
+
+# --- Аукцион (AuctionHouseUI.cs) ---
+Invalid item=Недопустимый предмет
+Price must be a round number.=Цена должна быть целым числом.
+Item data error=Ошибка данных предмета
+Price cannot be negative.=Цена не может быть отрицательной.
+Blessed items not supported in AH=Благословлённые предметы нельзя выставить
+No empty seller slots.=Нет свободных слотов продавца.
+No Seller=Нет продавца
+No Inventory=Нет инвентаря
+No seller selected...=Продавец не выбран...
+Your Merchandise=Ваш товар
+None selected=Не выбрано
+
+# --- Сброс сервера (ServerReset.cs) ---
+All SimPlayer Save Data Reset...=Все данные SimPlayer сброшены...
+Server reset complete... backup files are intact.=Сброс сервера завершён... бэкапы на месте.
+Server reset failed, see log file=Сброс сервера не удался, см. лог
+No save folder found to delete.=Папка сохранений не найдена.
+
+# --- Торговля ---
+Purchase=Купить
+Sell=Продать
+Give Items=Дать предметы
+Upgrade Item=Улучшить предмет
+Discard Item=Выбросить предмет
+Buy Item=Купить предмет
+Equip Item=Экипировать
+Item Name=Имя предмета
+Item Stats=Стат. предмета
+Item Search...=Поиск предмета...
+Auction House=Аукцион
+Bank=Банк
+
+# --- Разное UI ---
+Invite=Пригласить
+Uninvite=Отменить приглашение
+None Selected=Не выбрано
+Select a class=Выбери класс
+Press any key=Нажми любую клавишу
+Hair Color=Цвет волос
+Hair Style\n=Стиль волос\n
+Beard=Борода
+Save Character=Сохранить персонажа
+Enter World=Войти в мир
+Confirm=Подтвердить
+Cancel=Отмена
+Close=Закрыть
+Exit=Выход
+Back=Назад
+Yes=Да
+Yes\n=Да\n
+No=Нет
+No\n=Нет\n
+Decline=Отклонить
+Accept=Принять
+Defaults=По умолчанию
+None=Нет
+Login=Войти
+Continue=Продолжить
+Disconnect=Отключиться
+Friends=Друзья
+Group=Группа
+Raid=Рейд
+Respec=Перераспределение
+Blueprint=Чертёж
+General=Общие
+Mind=Разум
+Attack=Атака
+Attack\n=Атака\n
+Finesse=Точность
+Physicality=Физ. мощь
+Hardiness=Выносливость
+View Spells=Просмотр заклинаний
+Elemental Resist=Стихийное сопротивление
+Void Resist=Сопротивление Пустоте
+Magic Resist=Сопр. магии
+Innate Health=Врождённое здоровье
+Innate Defense=Врождённая защита
+Proficiencies=Мастерство
+Charisma=Харизма
+A Simulated MMORPG=Симуляция ММОРПГ
+Secure Login Portal=Безопасный Портал Входа
+Do not share passwords=Не делитесь паролями
+Meet other players! Join the official Discord.=Познакомься с другими! Присоединяйся к Discord.
+Thank you for playing Erenshor!\n\n=Спасибо за игру в Erenshor!\n\n
+PATCH NOTES=ПАТЧ-НОТЫ
+Balance Update: Paladins, Skills. and more!=Обновление баланса: Паладины, навыки и многое другое!
+Graphics Quality\n=Качество графики\n
+Ambience Volume\n=Громкость окружения\n
+Audio=Звук
+Controls=Управление
+Misc=Прочее
+Camera=Камера
+Graphics=Графика
+Draw Distance=Дальность прорисовки
+Bloom=Блум
+Brightness=Яркость
+Contrast=Контраст
+Saturation=Насыщенность
+Diffusion=Диффузия
+Color Temp=Цвет. температура
+Cam Smoothing=Плавность камеры
+SimPlayer Draw Dist.=Дальность SimPlayer
+Grass Quality=Качество травы
+Resolution=Разрешение
+Enable Gamepad=Вкл. геймпад
+Always=Всегда
+Spell Channel and Impact Volume=Громкость каста и попаданий
+Combat Volume (Hit SFX / "Ouch" SFX)=Громкость боя (удары / «ой»)
+Spell FX (Player)=Эффекты заклинаний (свои)
+Spell FX (Others)=Эффекты заклинаний (другие)
+View Server Admin Panel=Панель Администрирования
+- Experimental -\n\n=- Экспериментально -\n\n
+\nTarget Group Members=\nВыбрать членов группы
+Any Available Slot=Любой свободный слот
+Spell Name=Имя заклинания
+Break Spell=Прервать заклинание
+
+# --- Горнодобыча ---
+Mineral Deposit=Минеральное месторождение
+Mineral Deposit\n(Regenerating...)=Минеральное месторождение\n(Восстановление...)
+
+# --- Уровень / прогресс ---
+Ascension Points: =Очки вознесения: 
+Points spent: =Потрачено очков: 
+Ascension XP: =Опыт вознесения: 
+No Aura Equipped=Нет ауры
+
+# --- Патч-ноты / Дебаг ---
+DEBUG INFO: \nA previous bug caused players in Character Slot 1 to be "friends" with everyone. \n\nThis button will remove all SimPlayers from your fiends list without interfering with XP tethering. If you purchased the game after 5/30/25, this bug did not affect you. \n\nAs this is a debug feature, it is a good idea to only use it once to clear the friends list, as it does modify save files outside of the normal methods and may have unexpected results if misused. =ОТЛАДКА: \nПредыдущий баг приводил к тому, что игроки в Слоте 1 «дружили» со всеми.\n\nЭта кнопка удалит всех SimPlayer из списка друзей, не затрагивая привязку опыта. Если вы купили игру после 30.05.25, этот баг вас не затронул.\n\nТак как это отладочная функция, лучше использовать её один раз. Она изменяет файлы сохранений нестандартно и может дать неожиданные результаты при злоупотреблении. 
+\nCLASS CHANGES\n\n\u2022While using a shield, Paladins will gain a 2x bonus to all armor mitigations\n\n\u2022When not using a shield, Paladins will have standard armor mitigations\n\n\u2022Damage bonus increased for 2H weapons from 1.3x --> 2x.\n\n\u2022While using a shield, Paladins will gain a 2x bonus to all armor mitigations\n\nSKILLS AND ABILITIES\n\n\u2022Dodge is now broken into SKILL LEVELS (I - IV). Books can be found in Port Azure. Not all classes will be able to use Dodge up to level IV.\n\n\u2022Block is now broken into SKILL LEVELS (I - IV). Books can be found in Port Azure. Not all classes will be able to use Block up to level IV.\n\n\n\n\n=\nИЗМЕНЕНИЯ КЛАССОВ\n\n•Со щитом Паладины получат бонус ×2 ко всем поглощениям брони\n\n•Без щита — стандартные поглощения\n\n•Бонус урона двуручного оружия увеличен с 1.3× до 2×\n\n•Со щитом Паладины получат бонус ×2 ко всем поглощениям\n\nНАВЫКИ И СПОСОБНОСТИ\n\n•Уклонение разделено на УРОВНИ (I-IV). Книги в Порт-Лазури. Не все классы могут освоить Уклонение до IV.\n\n•Блок разделён на УРОВНИ (I-IV). Книги в Порт-Лазури. Не все классы могут освоить Блок до IV.\n\n\n\n\n
+
+# --- Кузница / SimInspect ---
+Change Stance\n\n=Смена стойки\n\n
+Current Tier: Blessed=Текущий уровень: Благословлён
+Current Tier: Normal=Текущий уровень: Обычный
+End Raid=Завершить рейд
+Planar Stones: =Планарные камни: 
+Error: Invalid Inspect Target.=Ошибка: Неверная цель осмотра.
+
+# --- Системные сообщения чата ---
+You say: Hail=Вы говорите: Приветствую
+Achievements Cleared=Достижения сброшены
+No keys on Keyring.=Нет ключей на связке.
+
+[SUBSTRING]
+# --- Динамические строки ---
+ SimPlayers Loaded= SimPlayer загружено
+Buying From =Покупка у 
+Conversation with: =Разговор с: 
+Current Guild Target: =Цель гильдии: 
+Data Deleted for =Данные удалены для 
+Trading With =Обмен с 
+Needs: =Нужно: 
+Character Name=Имя персонажа
+Level =Уровень 
+Slot: =Слот: 
+Activatable: =Активируемый: 
+Worn Effect: =Носимый эффект: 
+Base DPS: =Базовый ДПС: 
+Required Level: =Треб. уровень: 
+Mana Cost: =Стоимость маны: 
+Spell Type: =Тип заклинания: 
+Effect Type: =Тип эффекта: 
+Ingredients:\n\n=Ингредиенты:\n\n
+Doing business with =Торговля с 
+Trading with =Обмен с 
+Welcome to Level =Добро пожаловать на уровень 
+Seller: =Продавец: 
+Deleted Data for =Данные удалены для 
+Wants: =Хочет: 
+Guild Race Target: =Цель гильд. рейса: 
+No target=Нет цели
+Page =Страница 
+spell did not take hold!= заклинание не подействовало!
+spell has worn off of = заклинание рассеялось у 
+spell hits = заклинание попадает по 
+ for  points of damage!= на  ед. урона!
+ healing spell restores = исцеление восстанавливает 
+ life!= ОЗ!
+ did  damage to = нанёс  урона по 
+Available Points: =Доступные очки: 
+Treasure Hunt:\n=Охота за сокровищами:\n
+Treasure Loc\n=Местоположение сокровища\n
