@@ -23,7 +23,7 @@ namespace ErenshorRU
     {
         public const string GUID = "com.erenshor.ru";
         public const string NAME = "Erenshor Russian Translation";
-        public const string VERSION = "2.0.2";
+        public const string VERSION = "2.0.3";
 
         internal static ManualLogSource Log;
         internal static TranslationDB T;
@@ -154,6 +154,8 @@ namespace ErenshorRU
             {
                 var c = allTmp[i];
                 if (c == null) continue;
+                try { FontManager.PatchTMPFont(c.font); } catch { }
+                try { FontManager.ApplyOutlineToComponent(c); } catch { }
                 try
                 {
                     string s = c.text;
@@ -162,7 +164,6 @@ namespace ErenshorRU
                     string tr = db.Translate(s);
                     if (tr != s)
                     {
-                        FontManager.PatchTMPFont(c.font);
                         AutoSizer.ApplyTMP(c);
                         TextPatches.SetWithoutTranslation(c, tr);
                         tmpHit++;
@@ -329,28 +330,51 @@ namespace ErenshorRU
             fa.faceInfo = fi;
 
             _adaptedCache[cacheKey] = fa;
-            EnableOutline(fa);
+            EnableOutlineOnMaterial(fa.material);
             return fa;
         }
 
-        private static void EnableOutline(TMP_FontAsset fa)
-        {
-            if (fa == null || fa.material == null) return;
-            EnableOutlineOnMaterial(fa.material);
-        }
+        private static readonly HashSet<int> _outlinedMats = new HashSet<int>();
+        private static readonly HashSet<int> _outlinedComponents = new HashSet<int>();
+        private static Shader _fullSdfShader;
 
         private static void EnableOutlineOnMaterial(Material mat)
         {
             if (mat == null) return;
-            if (mat.HasProperty("_OutlineWidth"))
+            int id = mat.GetInstanceID();
+            if (_outlinedMats.Contains(id)) return;
+            _outlinedMats.Add(id);
+            try
             {
+                if (mat.shader != null && mat.shader.name.Contains("Mobile"))
+                {
+                    if (_fullSdfShader == null)
+                        _fullSdfShader = Shader.Find("TextMeshPro/Distance Field");
+                    if (_fullSdfShader != null)
+                        mat.shader = _fullSdfShader;
+                }
                 mat.SetFloat("_OutlineWidth", 0.15f);
                 mat.SetColor("_OutlineColor", new Color(0, 0, 0, 1));
                 mat.EnableKeyword("OUTLINE_ON");
             }
+            catch { }
         }
 
-        private static readonly HashSet<int> _outlinedComponents = new HashSet<int>();
+        private static void OutlineFontChain(TMP_FontAsset fa)
+        {
+            if (fa == null) return;
+            if (fa.material != null)
+                EnableOutlineOnMaterial(fa.material);
+            if (fa.fallbackFontAssetTable != null)
+            {
+                for (int i = 0; i < fa.fallbackFontAssetTable.Count; i++)
+                {
+                    var fb = fa.fallbackFontAssetTable[i];
+                    if (fb != null && fb.material != null)
+                        EnableOutlineOnMaterial(fb.material);
+                }
+            }
+        }
 
         public static void ApplyOutlineToComponent(TMP_Text comp)
         {
@@ -361,6 +385,7 @@ namespace ErenshorRU
 
             if (comp.fontSharedMaterial != null)
                 EnableOutlineOnMaterial(comp.fontSharedMaterial);
+            OutlineFontChain(comp.font);
         }
 
         private static T DGet<T>(Dictionary<string, T> d, string k) where T : class
@@ -480,8 +505,8 @@ namespace ErenshorRU
             if (!font.fallbackFontAssetTable.Contains(toAdd))
                 font.fallbackFontAssetTable.Add(toAdd);
 
-            EnableOutline(font);
-            EnableOutline(toAdd);
+            OutlineFontChain(font);
+            OutlineFontChain(toAdd);
 
             ErenshorRUPlugin.Log.LogInfo(
                 $"[RU] '{font.name}' (pt={primaryPt}) => fallback '{toAdd.name}' (pt={toAdd.faceInfo.pointSize}, s={toAdd.faceInfo.scale:F2})");
@@ -510,11 +535,12 @@ namespace ErenshorRU
         {
             if (_translating) return;
             if (!FontManager.IsReady) return;
-            if (ErenshorRUPlugin.T == null || string.IsNullOrEmpty(value) || value.Length < 2) return;
+            if (ErenshorRUPlugin.T == null) return;
 
             FontManager.PatchTMPFont(__instance.font);
             FontManager.ApplyOutlineToComponent(__instance);
 
+            if (string.IsNullOrEmpty(value) || value.Length < 2) return;
             if (TranslationDB.IsNumericOrShort(value)) return;
             _translating = true;
             try
