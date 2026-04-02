@@ -349,3 +349,7 @@ Vitheo... *its humming intensifies momentarily*=Витео... *гудение н
 The walk here isn't bad. Just up the Duskenlight Coast and watch out for the wildlife. The fishing is worth it.=Дорога сюда неплоха. Вверх по Сумеречному побережью, только следи за дикими зверями. Рыбалка того стоит.
 I just come out here for the fishing. Port Azure says don't venture this far into the wilds... but here I am.=Я прихожу сюда ради рыбалки. Порт-Азур говорит — не забирайся так далеко в дикие земли... но вот я здесь.
 Peaceful out here. The wildlife doesn't come to the shoreline. Gets me away from the politics of Port Azure.=Тут спокойно. Живность не подходит к берегу. Помогает отвлечься от политики Порт-Азура.
+
+# === Системные строки диалогов ===
+I'm busy right now...=Я сейчас занят...
+QUEST ERROR UH OH!=ОШИБКА КВЕСТА!

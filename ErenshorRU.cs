@@ -23,7 +23,7 @@ namespace ErenshorRU
     {
         public const string GUID = "com.erenshor.ru";
         public const string NAME = "Erenshor Russian Translation";
-        public const string VERSION = "1.7.0";
+        public const string VERSION = "1.7.1";
 
         internal static ManualLogSource Log;
         internal static TranslationDB T;
@@ -49,6 +49,9 @@ namespace ErenshorRU
 
                 try { harmony.PatchAll(typeof(ChatPatches)); Log.LogInfo("[RU] ChatLogLine patch OK"); }
                 catch (Exception e) { Log.LogError($"[RU] ChatLogLine FAIL: {e.Message}"); }
+
+                try { harmony.PatchAll(typeof(NPCDialogPatches)); Log.LogInfo("[RU] NPCDialog patch OK"); }
+                catch (Exception e) { Log.LogError($"[RU] NPCDialog FAIL: {e.Message}"); }
 
                 try { ChatInputPatches.Apply(harmony); Log.LogInfo("[RU] Chat input patches OK"); }
                 catch (Exception e) { Log.LogError($"[RU] Chat input patches FAIL: {e.Message}"); }
@@ -447,6 +450,19 @@ namespace ErenshorRU
         {
             if (ErenshorRUPlugin.T == null || string.IsNullOrEmpty(_msg)) return;
             _msg = ErenshorRUPlugin.T.Translate(_msg);
+        }
+    }
+
+    [HarmonyPatch]
+    public static class NPCDialogPatches
+    {
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(NPCDialog), "GetDialog")]
+        static void GetDialog_Post(ref string __result)
+        {
+            if (ErenshorRUPlugin.T == null || string.IsNullOrEmpty(__result)) return;
+            string tr = ErenshorRUPlugin.T.Translate(__result);
+            if (tr != __result) __result = tr;
         }
     }
 
