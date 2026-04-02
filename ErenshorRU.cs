@@ -23,7 +23,7 @@ namespace ErenshorRU
     {
         public const string GUID = "com.erenshor.ru";
         public const string NAME = "Erenshor Russian Translation";
-        public const string VERSION = "1.6.2";
+        public const string VERSION = "1.7.0";
 
         internal static ManualLogSource Log;
         internal static TranslationDB T;
@@ -234,11 +234,14 @@ namespace ErenshorRU
 
             if (!(c is TextMeshProUGUI)) return;
 
+            if (c.GetComponentInParent<Button>() == null &&
+                c.GetComponentInParent<Toggle>() == null) return;
+
             if (_autoSized.Contains(id)) return;
             _autoSized.Add(id);
 
             c.fontSizeMax = orig;
-            c.fontSizeMin = Mathf.Max(orig * 0.4f, 6f);
+            c.fontSizeMin = Mathf.Max(orig * 0.35f, 5f);
             c.enableAutoSizing = true;
         }
 
@@ -259,11 +262,14 @@ namespace ErenshorRU
                 return;
             }
 
+            if (c.GetComponentInParent<Button>() == null &&
+                c.GetComponentInParent<Toggle>() == null) return;
+
             if (_autoSized.Contains(id)) return;
             _autoSized.Add(id);
 
             c.resizeTextMaxSize = (int)orig;
-            c.resizeTextMinSize = (int)Mathf.Max(orig * 0.4f, 6f);
+            c.resizeTextMinSize = (int)Mathf.Max(orig * 0.35f, 5f);
             c.resizeTextForBestFit = true;
         }
     }
@@ -275,7 +281,6 @@ namespace ErenshorRU
         private static TMP_FontAsset _fallbackSemibold;
         private static TMP_FontAsset _fallbackBold;
         private static readonly HashSet<int> _patchedFontIds = new HashSet<int>();
-        private static bool _metricsAdjusted;
         private static bool _initialized;
 
         private static readonly string FontDir =
@@ -323,18 +328,6 @@ namespace ErenshorRU
             return fa;
         }
 
-        private static void AdjustFallbackMetrics(TMP_FontAsset fallback, TMP_FontAsset primary)
-        {
-            if (fallback == null || primary == null) return;
-            var pfi = primary.faceInfo;
-            var ffi = fallback.faceInfo;
-            ffi.ascentLine = pfi.ascentLine;
-            ffi.descentLine = pfi.descentLine;
-            ffi.baseline = pfi.baseline;
-            ffi.lineHeight = pfi.lineHeight;
-            fallback.faceInfo = ffi;
-        }
-
         private static TMP_FontAsset PickFallback(TMP_FontAsset gameFont)
         {
             if (gameFont == null) return _fallbackRegular ?? _fallbackSemibold;
@@ -352,14 +345,6 @@ namespace ErenshorRU
             int id = font.GetInstanceID();
             if (_patchedFontIds.Contains(id)) return;
             _patchedFontIds.Add(id);
-
-            if (!_metricsAdjusted)
-            {
-                _metricsAdjusted = true;
-                AdjustFallbackMetrics(_fallbackRegular, font);
-                AdjustFallbackMetrics(_fallbackSemibold, font);
-                AdjustFallbackMetrics(_fallbackBold, font);
-            }
 
             var fb = PickFallback(font);
             if (fb == null) return;

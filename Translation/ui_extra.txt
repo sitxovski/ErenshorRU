@@ -801,7 +801,7 @@ Welcome to Level =Добро пожаловать на уровень
 Seller: =Продавец: 
 Deleted Data for =Данные удалены для 
 Wants: =Хочет: 
-Guild Race Target: =Цель гильд. рейса: 
+Guild Race Target: =Цель гильд. рейда: 
 No target=Нет цели
 Page =Страница 
 spell did not take hold!= заклинание не подействовало!
@@ -904,7 +904,45 @@ Level: =Уровень:
 # --- Чат: контекст зон ---
 You have unspent PROFICIENCY POINTS! Open your inventory to assign them.=У вас есть нераспределённые ОЧКИ МАСТЕРСТВА! Откройте инвентарь, чтобы назначить их.
 
+# --- NPC титулы (динамическая сборка в NPC.cs) ---
+<Auction Broker>=<Аукционный брокер>
+<Banker>=<Банкир>
+<Adventurer Merchant>=<Торговец снаряжением>
+<Arcanist Merchant>=<Торговец арканиста>
+<Archery Merchant>=<Торговец стрельбой>
+<Armor Merchant>=<Торговец бронёй>
+<Aura Gem Merchant>=<Торговец аура-камнями>
+<Druid Merchant>=<Торговец друида>
+<Fishing Merchant>=<Торговец рыболова>
+<Food Merchant>=<Торговец едой>
+<Fossil Merchant>=<Торговец ископаемыми>
+<Furniture Merchant>=<Торговец мебелью>
+<General Merchant>=<Торговец>
+<Jewelry Merchant>=<Ювелирный торговец>
+<Lore Book Merchant>=<Торговец книгами знаний>
+<Oddities Merchant>=<Торговец диковинками>
+<Paladin Merchant>=<Торговец паладина>
+<Reaver Merchant>=<Торговец ривера>
+<Research Merchant>=<Торговец исследований>
+<Skill Book Merchant>=<Торговец книгами навыков>
+<Spell Merchant>=<Торговец заклинаниями>
+<Stormcaller Merchant>=<Торговец буревестника>
+<Treasure Merchant>=<Торговец сокровищами>
+<Weapons Merchant>=<Торговец оружием>
+<Windblade Merchant>=<Торговец ветроклинка>
+
+# --- Строки из чата / системы ---
+Community and Marketing management: =Маркетинг и сообщество: 
+Design and Development:=Дизайн и разработка:
+With support from=При поддержке
+Current FPS: =Текущий FPS: 
+< Place item here to destroy=< Перетащите сюда для уничтожения
+
 [EXACT]
+
+# --- Пропущенные exact-переводы ---
+Empty Slot=Пустой слот
+Goods=Товары
 
 # --- Тултипы кнопок UI (ButonDesc.dsc из LoadScene.unity) ---
 Toggle UI Movement=Перемещение UI
