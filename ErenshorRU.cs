@@ -14,7 +14,6 @@ using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using UnityEngine.TextCore;
 using UnityEngine.TextCore.LowLevel;
 
 namespace ErenshorRU
@@ -24,7 +23,7 @@ namespace ErenshorRU
     {
         public const string GUID = "com.erenshor.ru";
         public const string NAME = "Erenshor Russian Translation";
-        public const string VERSION = "1.8.2";
+        public const string VERSION = "1.9.0";
 
         internal static ManualLogSource Log;
         internal static TranslationDB T;
@@ -218,71 +217,27 @@ namespace ErenshorRU
     public static class AutoSizer
     {
         private static readonly Dictionary<int, float> _origSizes = new Dictionary<int, float>();
-        private static readonly HashSet<int> _autoSized = new HashSet<int>();
 
         public static void ApplyTMP(TMP_Text c)
         {
+            if (!c.enableAutoSizing) return;
             int id = c.GetInstanceID();
-
             if (!_origSizes.ContainsKey(id))
-                _origSizes[id] = c.enableAutoSizing ? c.fontSizeMax : c.fontSize;
-
+                _origSizes[id] = c.fontSizeMax;
             float orig = _origSizes[id];
-            if (orig < 1f) return;
-
-            if (c.enableAutoSizing)
-            {
-                c.fontSizeMax = Mathf.Min(c.fontSizeMax, orig);
-                return;
-            }
-
-            if (!(c is TextMeshProUGUI)) return;
-            if (c.GetComponentInParent<Selectable>() == null) return;
-
-            if (_autoSized.Contains(id)) return;
-            _autoSized.Add(id);
-
-            c.fontSizeMax = orig;
-            c.fontSizeMin = Mathf.Max(orig * 0.35f, 5f);
-            c.enableAutoSizing = true;
-
-            int h = (int)c.alignment & 0xFF;
-            c.alignment = (TextAlignmentOptions)(h | 0x200);
+            if (orig > 0 && c.fontSizeMax > orig)
+                c.fontSizeMax = orig;
         }
 
         public static void ApplyLegacy(Text c)
         {
+            if (!c.resizeTextForBestFit) return;
             int id = c.GetInstanceID();
-
             if (!_origSizes.ContainsKey(id))
-                _origSizes[id] = c.resizeTextForBestFit ? c.resizeTextMaxSize : c.fontSize;
-
+                _origSizes[id] = c.resizeTextMaxSize;
             float orig = _origSizes[id];
-            if (orig < 1) return;
-
-            if (c.resizeTextForBestFit)
-            {
-                if (c.resizeTextMaxSize > (int)orig)
-                    c.resizeTextMaxSize = (int)orig;
-                return;
-            }
-
-            if (c.GetComponentInParent<Selectable>() == null) return;
-
-            if (_autoSized.Contains(id)) return;
-            _autoSized.Add(id);
-
-            c.resizeTextMaxSize = (int)orig;
-            c.resizeTextMinSize = (int)Mathf.Max(orig * 0.35f, 5f);
-            c.resizeTextForBestFit = true;
-
-            var a = c.alignment;
-            if (a == TextAnchor.UpperLeft || a == TextAnchor.LowerLeft)
-                c.alignment = TextAnchor.MiddleLeft;
-            else if (a == TextAnchor.UpperCenter || a == TextAnchor.LowerCenter)
-                c.alignment = TextAnchor.MiddleCenter;
-            else if (a == TextAnchor.UpperRight || a == TextAnchor.LowerRight)
-                c.alignment = TextAnchor.MiddleRight;
+            if (orig > 0 && c.resizeTextMaxSize > (int)orig)
+                c.resizeTextMaxSize = (int)orig;
         }
     }
 
@@ -412,8 +367,10 @@ namespace ErenshorRU
             return null;
         }
 
-        private static TMP_FontAsset PickMontserratFallback(TMP_FontAsset gameFont)
+        private static TMP_FontAsset PickBestFallback(TMP_FontAsset gameFont)
         {
+            var direct = FindTMPReplacement(gameFont != null ? gameFont.name : "");
+            if (direct != null) return direct;
             if (gameFont == null)
                 return DGet(_tmpReplace, "Montserrat-Regular");
             string n = gameFont.name.ToLowerInvariant();
@@ -428,32 +385,6 @@ namespace ErenshorRU
             return DGet(_tmpReplace, "Montserrat-Regular");
         }
 
-        private static TMP_FontAsset CloneWithMetrics(TMP_FontAsset src, FaceInfo targetFace)
-        {
-            var clone = UnityEngine.Object.Instantiate(src);
-            clone.name = src.name;
-            var fi = clone.faceInfo;
-            fi.pointSize = targetFace.pointSize;
-            fi.scale = targetFace.scale;
-            fi.lineHeight = targetFace.lineHeight;
-            fi.ascentLine = targetFace.ascentLine;
-            fi.descentLine = targetFace.descentLine;
-            fi.capLine = targetFace.capLine;
-            fi.meanLine = targetFace.meanLine;
-            fi.baseline = targetFace.baseline;
-            fi.superscriptOffset = targetFace.superscriptOffset;
-            fi.superscriptSize = targetFace.superscriptSize;
-            fi.subscriptOffset = targetFace.subscriptOffset;
-            fi.subscriptSize = targetFace.subscriptSize;
-            fi.tabWidth = targetFace.tabWidth;
-            fi.underlineOffset = targetFace.underlineOffset;
-            fi.underlineThickness = targetFace.underlineThickness;
-            fi.strikethroughOffset = targetFace.strikethroughOffset;
-            fi.strikethroughThickness = targetFace.strikethroughThickness;
-            clone.faceInfo = fi;
-            return clone;
-        }
-
         public static void PatchTMPFont(TMP_FontAsset font)
         {
             if (font == null) return;
@@ -461,27 +392,13 @@ namespace ErenshorRU
             if (_patchedFontIds.Contains(id)) return;
             _patchedFontIds.Add(id);
 
-            var replacement = FindTMPReplacement(font.name);
-            if (replacement != null)
-            {
-                var adapted = CloneWithMetrics(replacement, font.faceInfo);
-                font.characterTable.Clear();
-                font.glyphTable.Clear();
-                font.ReadFontAssetDefinition();
-                if (font.fallbackFontAssetTable == null)
-                    font.fallbackFontAssetTable = new List<TMP_FontAsset>();
-                font.fallbackFontAssetTable.Insert(0, adapted);
-                ErenshorRUPlugin.Log.LogInfo($"[RU] REPLACED '{font.name}' (pt={font.faceInfo.pointSize}) => '{adapted.name}'");
-                return;
-            }
-
-            var fb = PickMontserratFallback(font);
+            var fb = PickBestFallback(font);
             if (fb == null) return;
-            var adaptedFb = CloneWithMetrics(fb, font.faceInfo);
             if (font.fallbackFontAssetTable == null)
                 font.fallbackFontAssetTable = new List<TMP_FontAsset>();
-            font.fallbackFontAssetTable.Add(adaptedFb);
-            ErenshorRUPlugin.Log.LogInfo($"[RU] '{font.name}' (pt={font.faceInfo.pointSize}) => fallback '{adaptedFb.name}'");
+            if (!font.fallbackFontAssetTable.Contains(fb))
+                font.fallbackFontAssetTable.Add(fb);
+            ErenshorRUPlugin.Log.LogInfo($"[RU] '{font.name}' => fallback '{fb.name}'");
         }
 
         public static void PatchLegacyText(Text text)
@@ -489,16 +406,13 @@ namespace ErenshorRU
             string origName = text.font != null ? text.font.name : "";
             var replacement = FindLegacyReplacement(origName);
             if (replacement != null)
-            {
                 text.font = replacement;
-            }
             else
             {
                 var fallback = DGet(_legacyReplace, "Montserrat-Regular");
                 if (fallback != null)
                     text.font = fallback;
             }
-            text.alignByGeometry = true;
         }
     }
 
