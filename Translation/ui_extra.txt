@@ -814,3 +814,11 @@ spell hits = заклинание попадает по
 Available Points: =Доступные очки: 
 Treasure Hunt:\n=Охота за сокровищами:\n
 Treasure Loc\n=Местоположение сокровища\n
+
+# --- Админ-панель сервера ---
+[SUBSTRING]
+Server Population: =Население сервера: 
+NPC DMG Modifier: =Модификатор урона НПС: 
+XP Modifier: =Модификатор опыта: 
+Rare Drop Rate Modifier: =Модификатор редкого лута: 
+NPC HP Modifier: =Модификатор ОЗ НПС: 
