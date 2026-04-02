@@ -23,7 +23,7 @@ namespace ErenshorRU
     {
         public const string GUID = "com.erenshor.ru";
         public const string NAME = "Erenshor Russian Translation";
-        public const string VERSION = "1.6.0";
+        public const string VERSION = "1.6.1";
 
         internal static ManualLogSource Log;
         internal static TranslationDB T;
@@ -238,7 +238,7 @@ namespace ErenshorRU
             _autoSized.Add(id);
 
             c.fontSizeMax = orig;
-            c.fontSizeMin = Mathf.Max(orig * 0.5f, 6f);
+            c.fontSizeMin = Mathf.Max(orig * 0.25f, 4f);
             c.enableAutoSizing = true;
         }
 
@@ -263,7 +263,7 @@ namespace ErenshorRU
             _autoSized.Add(id);
 
             c.resizeTextMaxSize = (int)orig;
-            c.resizeTextMinSize = (int)Mathf.Max(orig * 0.5f, 6f);
+            c.resizeTextMinSize = (int)Mathf.Max(orig * 0.25f, 4f);
             c.resizeTextForBestFit = true;
         }
     }
@@ -271,10 +271,11 @@ namespace ErenshorRU
     public static class FontManager
     {
         private static Font _legacyFont;
+        private static TMP_FontAsset _fallbackRegular;
         private static TMP_FontAsset _fallbackSemibold;
         private static TMP_FontAsset _fallbackBold;
         private static readonly HashSet<int> _patchedFontIds = new HashSet<int>();
-        private static bool _metricsAdjusted;
+        private static readonly Dictionary<int, bool> _metricsAdjusted = new Dictionary<int, bool>();
         private static bool _initialized;
 
         private static readonly string FontDir =
@@ -288,13 +289,14 @@ namespace ErenshorRU
             _initialized = true;
             try
             {
-                _legacyFont = Font.CreateDynamicFontFromOSFont("Segoe UI Semibold", 14);
-                ErenshorRUPlugin.Log.LogInfo("[RU] Legacy Segoe UI Semibold OK");
+                _legacyFont = Font.CreateDynamicFontFromOSFont("Segoe UI", 14);
+                ErenshorRUPlugin.Log.LogInfo("[RU] Legacy Segoe UI OK");
             }
             catch (Exception e) { ErenshorRUPlugin.Log.LogError($"[RU] Legacy font err: {e.Message}"); }
 
             try
             {
+                _fallbackRegular = CreateFallback("Segoe UI", "segoeui.ttf");
                 _fallbackSemibold = CreateFallback("Segoe UI Semibold", "seguisb.ttf");
                 _fallbackBold = CreateFallback("Segoe UI Bold", "segoeuib.ttf");
             }
@@ -324,6 +326,9 @@ namespace ErenshorRU
         private static void AdjustFallbackMetrics(TMP_FontAsset fallback, TMP_FontAsset primary)
         {
             if (fallback == null || primary == null) return;
+            int key = fallback.GetInstanceID() * 31 + primary.GetInstanceID();
+            if (_metricsAdjusted.ContainsKey(key)) return;
+            _metricsAdjusted[key] = true;
             var pfi = primary.faceInfo;
             var ffi = fallback.faceInfo;
             ffi.ascentLine = pfi.ascentLine;
@@ -335,11 +340,13 @@ namespace ErenshorRU
 
         private static TMP_FontAsset PickFallback(TMP_FontAsset gameFont)
         {
-            if (gameFont == null) return _fallbackSemibold;
+            if (gameFont == null) return _fallbackRegular ?? _fallbackSemibold;
             string n = gameFont.name.ToLowerInvariant();
             if (n.Contains("bold") || n.Contains("agency") || n.Contains("broken"))
-                return _fallbackBold ?? _fallbackSemibold;
-            return _fallbackSemibold;
+                return _fallbackBold ?? _fallbackSemibold ?? _fallbackRegular;
+            if (n.Contains("semibold") || n.Contains("medium") || n.Contains("demi"))
+                return _fallbackSemibold ?? _fallbackRegular;
+            return _fallbackRegular ?? _fallbackSemibold;
         }
 
         public static void PatchTMPFont(TMP_FontAsset font)
@@ -350,12 +357,7 @@ namespace ErenshorRU
             _patchedFontIds.Add(id);
             var fb = PickFallback(font);
             if (fb == null) return;
-            if (!_metricsAdjusted)
-            {
-                _metricsAdjusted = true;
-                AdjustFallbackMetrics(_fallbackSemibold, font);
-                AdjustFallbackMetrics(_fallbackBold, font);
-            }
+            AdjustFallbackMetrics(fb, font);
             if (font.fallbackFontAssetTable == null)
                 font.fallbackFontAssetTable = new List<TMP_FontAsset>();
             font.fallbackFontAssetTable.Add(fb);
