@@ -23,7 +23,7 @@ namespace ErenshorRU
     {
         public const string GUID = "com.erenshor.ru";
         public const string NAME = "Erenshor Russian Translation";
-        public const string VERSION = "1.9.0";
+        public const string VERSION = "1.9.1";
 
         internal static ManualLogSource Log;
         internal static TranslationDB T;
@@ -293,6 +293,9 @@ namespace ErenshorRU
             if (fa != null)
             {
                 fa.name = key + " SDF";
+                var fi = fa.faceInfo;
+                fi.scale = 0.9f;
+                fa.faceInfo = fi;
                 _tmpReplace[key] = fa;
                 ErenshorRUPlugin.Log.LogInfo($"[RU] Loaded replacement: {fa.name}");
             }
