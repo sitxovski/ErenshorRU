@@ -23,7 +23,7 @@ namespace ErenshorRU
     {
         public const string GUID = "com.erenshor.ru";
         public const string NAME = "Erenshor Russian Translation";
-        public const string VERSION = "1.7.3";
+        public const string VERSION = "1.8.0";
 
         internal static ManualLogSource Log;
         internal static TranslationDB T;
@@ -287,15 +287,20 @@ namespace ErenshorRU
 
     public static class FontManager
     {
-        private static Font _legacyFont;
+        private static Font _legacyFallback;
         private static TMP_FontAsset _fallbackRegular;
         private static TMP_FontAsset _fallbackSemibold;
         private static TMP_FontAsset _fallbackBold;
         private static readonly HashSet<int> _patchedFontIds = new HashSet<int>();
         private static bool _initialized;
 
-        private static readonly string FontDir =
+        private static readonly string SysFontDir =
             Environment.GetFolderPath(Environment.SpecialFolder.Fonts);
+
+        private static readonly Dictionary<string, TMP_FontAsset> _tmpReplace =
+            new Dictionary<string, TMP_FontAsset>();
+        private static readonly Dictionary<string, Font> _legacyReplace =
+            new Dictionary<string, Font>();
 
         public static bool IsReady => _initialized;
 
@@ -303,25 +308,61 @@ namespace ErenshorRU
         {
             if (_initialized) return;
             _initialized = true;
-            try
-            {
-                _legacyFont = Font.CreateDynamicFontFromOSFont("Segoe UI", 14);
-                ErenshorRUPlugin.Log.LogInfo("[RU] Legacy Segoe UI OK");
-            }
-            catch (Exception e) { ErenshorRUPlugin.Log.LogError($"[RU] Legacy font err: {e.Message}"); }
+
+            string modFontsDir = Path.Combine(ErenshorRUPlugin.PluginDir, "Fonts");
 
             try
             {
-                _fallbackRegular = CreateFallback("Segoe UI", "segoeui.ttf");
-                _fallbackSemibold = CreateFallback("Segoe UI Semibold", "seguisb.ttf");
-                _fallbackBold = CreateFallback("Segoe UI Bold", "segoeuib.ttf");
+                LoadReplacement(modFontsDir, "Montserrat-Regular", "Montserrat-Regular.ttf");
+                LoadReplacement(modFontsDir, "Montserrat-Medium", "Montserrat-Medium.ttf");
+                LoadReplacement(modFontsDir, "Montserrat-SemiBold", "Montserrat-SemiBold.ttf");
+                LoadReplacement(modFontsDir, "Montserrat-Bold", "Montserrat-Bold.ttf");
+                LoadReplacement(modFontsDir, "Montserrat-ExtraBold", "Montserrat-ExtraBold.ttf");
+                LoadReplacement(modFontsDir, "Montserrat-Italic", "Montserrat-Italic.ttf");
+                LoadReplacement(modFontsDir, "Montserrat-MediumItalic", "Montserrat-MediumItalic.ttf");
+                LoadReplacement(modFontsDir, "Montserrat-SemiBoldItalic", "Montserrat-SemiBoldItalic.ttf");
+                LoadReplacement(modFontsDir, "Montserrat-BoldItalic", "Montserrat-BoldItalic.ttf");
+                LoadReplacement(modFontsDir, "Montserrat-ExtraBoldItalic", "Montserrat-ExtraBoldItalic.ttf");
+                LoadReplacement(modFontsDir, "PxPlus-VGA9", "PxPlus IBM VGA9.ttf");
             }
-            catch (Exception e) { ErenshorRUPlugin.Log.LogError($"[RU] TMP font err: {e}"); }
+            catch (Exception e) { ErenshorRUPlugin.Log.LogError($"[RU] Replacement font err: {e}"); }
+
+            try
+            {
+                _legacyFallback = Font.CreateDynamicFontFromOSFont("Segoe UI", 14);
+                _fallbackRegular = CreateSysFallback("Segoe UI", "segoeui.ttf");
+                _fallbackSemibold = CreateSysFallback("Segoe UI Semibold", "seguisb.ttf");
+                _fallbackBold = CreateSysFallback("Segoe UI Bold", "segoeuib.ttf");
+            }
+            catch (Exception e) { ErenshorRUPlugin.Log.LogError($"[RU] Segoe fallback err: {e}"); }
         }
 
-        private static TMP_FontAsset CreateFallback(string osName, string ttfFile)
+        private static void LoadReplacement(string dir, string key, string filename)
         {
-            string path = Path.Combine(FontDir, ttfFile);
+            string path = Path.Combine(dir, filename);
+            if (!File.Exists(path))
+            {
+                ErenshorRUPlugin.Log.LogWarning($"[RU] Font not found: {path}");
+                return;
+            }
+            var osFont = Font.CreateDynamicFontFromOSFont(key, 44);
+            FontEnginePatch.FontPathMap[key] = path;
+            FontEnginePatch.FontPathMap[osFont.name] = path;
+            var fa = TMP_FontAsset.CreateFontAsset(osFont);
+            if (fa != null)
+            {
+                fa.name = key + " SDF";
+                _tmpReplace[key] = fa;
+                ErenshorRUPlugin.Log.LogInfo($"[RU] Loaded replacement: {fa.name}");
+            }
+            var legFont = Font.CreateDynamicFontFromOSFont(key, 14);
+            FontEnginePatch.FontPathMap[legFont.name] = path;
+            _legacyReplace[key] = legFont;
+        }
+
+        private static TMP_FontAsset CreateSysFallback(string osName, string ttfFile)
+        {
+            string path = Path.Combine(SysFontDir, ttfFile);
             if (!File.Exists(path))
             {
                 path = Path.Combine(@"C:\Windows\Fonts", ttfFile);
@@ -329,17 +370,77 @@ namespace ErenshorRU
             }
             var osFont = Font.CreateDynamicFontFromOSFont(osName, 44);
             FontEnginePatch.FontPathMap[osFont.name] = path;
-            ErenshorRUPlugin.Log.LogInfo($"[RU] Mapped '{osFont.name}' => {ttfFile}");
             var fa = TMP_FontAsset.CreateFontAsset(osFont);
-            if (fa != null)
-            {
-                fa.name = osName + " SDF";
-                ErenshorRUPlugin.Log.LogInfo($"[RU] Created TMP fallback: {fa.name}");
-            }
+            if (fa != null) fa.name = osName + " SDF";
             return fa;
         }
 
-        private static TMP_FontAsset PickFallback(TMP_FontAsset gameFont)
+        private static T DGet<T>(Dictionary<string, T> d, string k) where T : class
+        {
+            return d.TryGetValue(k, out T v) ? v : null;
+        }
+
+        private static TMP_FontAsset FindTMPReplacement(string fontName)
+        {
+            string n = fontName.ToLowerInvariant();
+            if (n.Contains("ltrenovate"))
+            {
+                if (n.Contains("extrabold") && n.Contains("italic"))
+                    return DGet(_tmpReplace, "Montserrat-ExtraBoldItalic");
+                if (n.Contains("extrabold"))
+                    return DGet(_tmpReplace, "Montserrat-ExtraBold");
+                if (n.Contains("semibold") && n.Contains("italic"))
+                    return DGet(_tmpReplace, "Montserrat-SemiBoldItalic");
+                if (n.Contains("semibold"))
+                    return DGet(_tmpReplace, "Montserrat-SemiBold");
+                if (n.Contains("bold") && n.Contains("italic"))
+                    return DGet(_tmpReplace, "Montserrat-BoldItalic");
+                if (n.Contains("bold"))
+                    return DGet(_tmpReplace, "Montserrat-Bold");
+                if (n.Contains("medium") && n.Contains("italic"))
+                    return DGet(_tmpReplace, "Montserrat-MediumItalic");
+                if (n.Contains("medium"))
+                    return DGet(_tmpReplace, "Montserrat-Medium");
+                if (n.Contains("italic"))
+                    return DGet(_tmpReplace, "Montserrat-Italic");
+                return DGet(_tmpReplace, "Montserrat-Regular");
+            }
+            if (n.Contains("perfectdos") || n.Contains("pxplus") || n.Contains("vga"))
+                return DGet(_tmpReplace, "PxPlus-VGA9");
+            return null;
+        }
+
+        private static Font FindLegacyReplacement(string fontName)
+        {
+            string n = fontName.ToLowerInvariant();
+            if (n.Contains("ltrenovate"))
+            {
+                if (n.Contains("extrabold") && n.Contains("italic"))
+                    return DGet(_legacyReplace, "Montserrat-ExtraBoldItalic");
+                if (n.Contains("extrabold"))
+                    return DGet(_legacyReplace, "Montserrat-ExtraBold");
+                if (n.Contains("semibold") && n.Contains("italic"))
+                    return DGet(_legacyReplace, "Montserrat-SemiBoldItalic");
+                if (n.Contains("semibold"))
+                    return DGet(_legacyReplace, "Montserrat-SemiBold");
+                if (n.Contains("bold") && n.Contains("italic"))
+                    return DGet(_legacyReplace, "Montserrat-BoldItalic");
+                if (n.Contains("bold"))
+                    return DGet(_legacyReplace, "Montserrat-Bold");
+                if (n.Contains("medium") && n.Contains("italic"))
+                    return DGet(_legacyReplace, "Montserrat-MediumItalic");
+                if (n.Contains("medium"))
+                    return DGet(_legacyReplace, "Montserrat-Medium");
+                if (n.Contains("italic"))
+                    return DGet(_legacyReplace, "Montserrat-Italic");
+                return DGet(_legacyReplace, "Montserrat-Regular");
+            }
+            if (n.Contains("perfectdos") || n.Contains("pxplus") || n.Contains("vga"))
+                return DGet(_legacyReplace, "PxPlus-VGA9");
+            return null;
+        }
+
+        private static TMP_FontAsset PickCyrillicFallback(TMP_FontAsset gameFont)
         {
             if (gameFont == null) return _fallbackRegular ?? _fallbackSemibold;
             string n = gameFont.name.ToLowerInvariant();
@@ -357,7 +458,20 @@ namespace ErenshorRU
             if (_patchedFontIds.Contains(id)) return;
             _patchedFontIds.Add(id);
 
-            var fb = PickFallback(font);
+            var replacement = FindTMPReplacement(font.name);
+            if (replacement != null)
+            {
+                font.characterTable.Clear();
+                font.glyphTable.Clear();
+                font.ReadFontAssetDefinition();
+                if (font.fallbackFontAssetTable == null)
+                    font.fallbackFontAssetTable = new List<TMP_FontAsset>();
+                font.fallbackFontAssetTable.Insert(0, replacement);
+                ErenshorRUPlugin.Log.LogInfo($"[RU] REPLACED '{font.name}' => '{replacement.name}'");
+                return;
+            }
+
+            var fb = PickCyrillicFallback(font);
             if (fb == null) return;
             if (font.fallbackFontAssetTable == null)
                 font.fallbackFontAssetTable = new List<TMP_FontAsset>();
@@ -367,7 +481,12 @@ namespace ErenshorRU
 
         public static void PatchLegacyText(Text text)
         {
-            if (_legacyFont != null) text.font = _legacyFont;
+            string origName = text.font != null ? text.font.name : "";
+            var replacement = FindLegacyReplacement(origName);
+            if (replacement != null)
+                text.font = replacement;
+            else if (_legacyFallback != null)
+                text.font = _legacyFallback;
             text.alignByGeometry = true;
         }
     }
