@@ -1,0 +1,459 @@
+# items_lore.txt: 458 violations
+L9|+1|EN(35):Goes great with some Ogreskin pants|RU(36):Отлично смотрится с огровыми штанами
+L10|+1|EN(33):Reminds you of fading summer days|RU(34):Напоминает об уходящих летних днях
+L11|+6|EN(38):Meant to bolster his fragile followers|RU(44):Создан для укрепления хрупких последователей
+L12|+1|EN(26):Made from hardened scales.|RU(27):Сделан из закалённой чешуи.
+L19|+5|EN(37):It's ugly. No wonder they buried it. |RU(42):Уродлив. Неудивительно, что его закопали. 
+L21|+1|EN(16):Strong and Stiff|RU(17):Крепкий и жёсткий
+L23|+4|EN(60):Made from stone cut so precisely that it became like thread.|RU(64):Из камня, вырезанного настолько точно, что он стал подобен нити.
+L24|+2|EN(58):This belt has been worn throughout time by powerful beings|RU(60):Этот пояс носили могущественные существа на протяжении веков
+L26|+13|EN(33):It's never where you last left it|RU(46):Никогда не оказывается там, где ты его оставил
+L28|+3|EN(31):Freedom of movement is glorious|RU(34):Свобода движений — это великолепно
+L35|+10|EN(33):Worn by a once magnificent dragon|RU(43):Принадлежал некогда величественному дракону
+L37|+5|EN(40):It keeps you calm, it keeps you centered|RU(45):Хранит спокойствие и помогает сосредоточиться
+L38|+14|EN(39):Who knew a belt could be so prestigious|RU(53):Кто бы мог подумать, что пояс бывает таким престижным
+L43|+3|EN(43):It ushers a sense of nature into your mind |RU(46):Наполняет разум ощущением единства с природой 
+L47|+6|EN(39):The musings of a fallen treasure hunter|RU(45):Размышления погибшего охотника за сокровищами
+L60|+6|EN(32):Great for learners and children |RU(38):Отлично подходит для учеников и детей 
+L61|+1|EN(35):Finely crafted back in the homeland|RU(36):Искусно изготовлен на далёкой родине
+L77|+11|EN(26):You look more veiny lately|RU(37):В последнее время вены стали заметнее
+L83|+4|EN(51):It crackles... loud enough for your friends to hear|RU(55):Потрескивает... достаточно громко, чтобы слышали друзья
+L85|+1|EN(56):Seemingly useless, it was once worn by ancient learners.|RU(57):С виду бесполезна, но когда-то её носили древние ученики.
+L89|+3|EN(20):A simple cloth shirt|RU(23):Простая тканевая рубаха
+L91|+5|EN(43):Often given to and worn by Paladin recruits|RU(48):Часто выдаётся и носится новобранцами-паладинами
+L107|+5|EN(18):Sturdy but freeing|RU(23):Крепкий, но не стесняет
+L108|+2|EN(61):A wonderfully crafted shirt, preserved in pristine condition.|RU(63):Превосходно сшитая рубаха, сохранившаяся в идеальном состоянии.
+L112|+7|EN(35):Almost as neat as a dragonscale one|RU(42):Почти так же хорош, как из драконьей чешуи
+L114|+2|EN(31):You are so hideous with this on|RU(33):Ты в этом выглядишь просто ужасно
+L117|+1|EN(22):Covered in dried blood|RU(23):Покрыта засохшей кровью
+L123|+3|EN(34):Legendary Garb of Brax's Arcanists|RU(37):Легендарное одеяние арканистов Бракса
+L124|+4|EN(23):Immaculate Golden Armor|RU(27):Безупречные золотые доспехи
+L126|+12|EN(53):Worn by one of Sivakaya's top Darkwardens on Erenshor|RU(65):Принадлежал одному из верховных тёмных стражей Сивакаи в Эреншоре
+L127|+1|EN(53):Conveniently, it fell right off the Wyrm in your size|RU(54):Как удачно — он слетел с Вирма прямо по вашему размеру
+L129|+3|EN(30):Worn by Eldoth Molorai himself|RU(33):Принадлежал самому Элдоту Молораи
+L134|+5|EN(62):Made of some oddly textured skin that you've never seen before|RU(67):Из странной кожи с необычной текстурой, которую вы раньше не видели
+L135|+3|EN(27):It never warms to your skin|RU(30):Никогда не нагревается от тела
+L136|+3|EN(24):A nice sturdy chestplate|RU(27):Добротный крепкий нагрудник
+L149|+4|EN(39):A low quality, but very drinkable beer.|RU(43):Невысокого качества, но вполне питкое пиво.
+L157|+2|EN(24):A Rare Nocturnal Seafish|RU(26):Редкая ночная морская рыба
+L158|+3|EN(17):A Common Sea Fish|RU(20):Обычная морская рыба
+L159|+1|EN(20):A Poisonous Sea Fish|RU(21):Ядовитая морская рыба
+L161|+1|EN(20):A large, bitey fish.|RU(21):Большая кусачая рыба.
+L164|+6|EN(19):An off sea creature|RU(25):Странное морское существо
+L168|+4|EN(44):A pin worn by the soldiers who serve Ripper.|RU(48):Значок, который носят солдаты на службе Риппера.
+L169|+5|EN(51):A mysterious gem that tugs against something unseen|RU(56):Таинственный камень, который тянется к чему-то незримому
+L175|+9|EN(30):Erenshor's most prized export.|RU(39):Самый ценный экспортный товар Эреншора.
+L176|+3|EN(62):Proof of a hard-earned victory over Azure Guard Captain Kilkay|RU(65):Доказательство нелёгкой победы над капитаном стражи Азура Килкеем
+L177|+2|EN(50):Proof of a hard-earned victory over Ripper DeMerth|RU(52):Доказательство нелёгкой победы над Риппером ДеМертом
+L180|+7|EN(33):A bag full of odd shaped stones. |RU(40):Мешок, полный камней причудливой формы. 
+L182|+12|EN(27):Tough and gamey, but tasty!|RU(39):Жёсткое и с привкусом дичи, но вкусное!
+L189|+2|EN(35):A spice long thought to be extinct.|RU(37):Пряность, давно считавшаяся вымершей.
+L194|+3|EN(69):A somewhat rare stone, said to hold magical power in the right hands.|RU(72):Довольно редкий камень, который в умелых руках обретает магическую силу.
+L204|+6|EN(31):Smooth Ivory from a large beast|RU(37):Гладкая слоновая кость крупного зверя
+L205|+4|EN(49):Makes an absolutely awful tea, but people buy it.|RU(53):Из него выходит отвратительный чай, но люди покупают.
+L209|+6|EN(104):The stinking flower's petals rot and fall away, but despite being uprooted, it rapidly regrows new ones.|RU(110):Лепестки зловонного цветка гниют и опадают, но, несмотря на то что он вырван с корнем, тут же отрастают новые.
+L215|+4|EN(34):An ancient currency, lost to time.|RU(38):Древняя монета, затерянная во времени.
+L220|+4|EN(26):Polished by blowing sands.|RU(30):Отполирован песчаными ветрами.
+L229|+2|EN(37):This must be where glitter comes from|RU(39):Наверное, именно отсюда берутся блёстки
+L231|+2|EN(32):They look slimy but they aren't.|RU(34):Выглядят склизкими, но это не так.
+L234|+2|EN(44):It seems to absorb light in an unnatural way|RU(46):Поглощает свет каким-то неестественным образом
+L238|+4|EN(21):Somebody misses this.|RU(25):Кому-то этого не хватает.
+L242|+3|EN(16):It squirms about|RU(19):Ёрзает и извивается
+L244|+1|EN(22):From a Rottenfoot Croc|RU(23):От крокодила Гнилоногов
+L254|+5|EN(19):Stone Giant's Blood|RU(24):Кровь Каменного Великана
+L264|+4|EN(16):Nighthollow Wick|RU(20):Фитиль Ночной Лощины
+L269|+2|EN(87):It contains a unique energy, and you can sense it longing to be paired with something. |RU(89):В нём заключена уникальная энергия, и вы чувствуете, как он жаждет соединиться с чем-то. 
+L282|+154|EN(29):Passive: Place it in a <color|RU(183):green> cosmetic </color> general inventory slot to enable its environmental light.=Пассивно: Поместите в <color=green> косметический </color> слот инвентаря, чтобы включить подсветку.
+L285|+117|EN(45):A simple halloween mask. Put it into a <color|RU(162):green>cosmetic</color> slot in your inventory to activate.=Простая маска на Хэллоуин. Поместите в <color=green>косметический</color> слот инвентаря для активации.
+L290|+3|EN(38):Use this rune in your Reliquary Table.|RU(41):Используйте эту руну на столе Реликвария.
+L295|+1|EN(35):This necklace is very unremarkable.|RU(36):Это ожерелье ничем не примечательно.
+L296|+5|EN(29):Its eyes follow your own gaze|RU(34):Его глаза следят за вашим взглядом
+L297|+1|EN(22):Rough, but not rusted.|RU(23):Грубый, но не заржавел.
+L299|+3|EN(53):The dried, stone-like wood constantly sprouts flowers|RU(56):Засохшее, каменистое дерево постоянно прорастает цветами
+L309|+3|EN(71):The arcane bows before you, and you feel suddenly connected with it all|RU(74):Магия склоняется перед вами, и вы внезапно чувствуете связь со всем вокруг
+L312|+13|EN(53):A small necklace worn with the most optimistic intent|RU(66):Маленькое ожерелье, надеваемое с самыми оптимистичными намерениями
+L314|+2|EN(45):The talon shaped charm is a strange bird call|RU(47):Амулет в форме когтя издаёт странный птичий зов
+L316|+2|EN(46):A simple charmed necklace on a leather string.|RU(48):Простое зачарованное ожерелье на кожаном шнурке.
+L328|+7|EN(49):The gem projects images of beauty lost aeons ago.|RU(56):Камень проецирует образы красоты, утраченной эоны назад.
+L329|+3|EN(27):Smells like fresh cut lawn.|RU(30):Пахнет свежескошенным газоном.
+L333|+8|EN(36):A calm sense of focus overcomes you.|RU(44):Тебя охватывает спокойная сосредоточенность.
+L338|+2|EN(18):One size fits all.|RU(20):Один размер на всех.
+L339|+1|EN(41):Said to soothe even the deepest of wounds|RU(42):Говорят, успокаивает даже глубочайшие раны
+L342|+9|EN(42):A ring worn by the most devout Braxonians.|RU(51):Кольцо, которое носили самые набожные браксонианцы.
+L343|+1|EN(26):The stone is still slimey.|RU(27):Камень до сих пор склизкий.
+L346|+3|EN(19):Hardiness is a gift|RU(22):Выносливость — это дар
+L347|+1|EN(37):You can't quite identify the metal...|RU(38):Не можешь определить, что за металл...
+L348|+3|EN(49):A high quality ring, adorned with pristine stones|RU(52):Качественное кольцо, украшенное безупречными камнями
+L351|+13|EN(39):Concentration comes as easily as breath|RU(52):Сосредоточенность приходит так же легко, как дыхание
+L354|+3|EN(69):The emerald is the deepest, most crisp green you've ever laid eyes on|RU(72):Этот изумруд — самый глубокий и чистый зелёный, что вы когда-либо видели
+L356|+1|EN(22):So light and delicate.|RU(23):Такое лёгкое и хрупкое.
+L360|+3|EN(27):Brilliance flows through it|RU(30):Сквозь него течёт блеск разума
+L361|+1|EN(33):You just feel better with this on|RU(34):С ним просто чувствуешь себя лучше
+L364|+2|EN(45):You'll never get used to the squirmy feeling.|RU(47):К извивающемуся ощущению никогда не привыкнешь.
+L365|+1|EN(25):From fire, one is reborn.|RU(26):Из огня рождаешься заново.
+L367|+3|EN(25):A plain engagement ring. |RU(28):Простое обручальное кольцо. 
+L369|+3|EN(49):Waving it around causes a fine dust to fly about.|RU(52):Стоит помахать — и вокруг поднимается тонкая пыльца.
+L370|+7|EN(35):A ring that represents lost rituals|RU(42):Кольцо, символизирующее утраченные ритуалы
+L371|+7|EN(47):This ring was present for world changing events|RU(54):Это кольцо присутствовало при событиях, изменивших мир
+L372|+3|EN(44):A simple luminstone ring with a golden band.|RU(47):Простое кольцо с люминстоуном в золотой оправе.
+L378|+3|EN(37):The feeling of safety is overwhelming|RU(40):Чувство безопасности просто захлёстывает
+L381|+1|EN(30):An ancient king wore this ring|RU(31):Это кольцо носил древний король
+L382|+1|EN(20):Vitheo's prized ring|RU(21):Заветное кольцо Витео
+L388|+4|EN(30):Worn by Eldoth Molorai himself|RU(34):Принадлежало самому Элдоту Молораи
+L390|+4|EN(33):A ring worn by fishermen for luck|RU(37):Кольцо, которое рыбаки носят на удачу
+L395|+3|EN(40):If it fits you, how did it fit a faerie?|RU(43):Если оно тебе впору, как оно подходило фее?
+L404|+4|EN(32):Great to bring for a first date.|RU(36):Отличный букет для первого свидания.
+L405|+3|EN(26):Torn from a ghostly spider|RU(29):Оторвана от призрачного паука
+L406|+4|EN(33):It's not real, but it still works|RU(37):Он ненастоящий, но всё равно работает
+L423|+6|EN(26):It barely counts as a cape|RU(32):Едва ли это можно назвать плащом
+L431|+2|EN(40):It must have been a very large spider...|RU(42):Должно быть, это был очень крупный паук...
+L432|+9|EN(32):Weaved to withstand strong winds|RU(41):Соткан так, чтобы выдержать сильный ветер
+L440|+7|EN(31):A royal cape for a royal person|RU(38):Королевский плащ для королевской особы
+L443|+2|EN(27):It's shaped like bat wings.|RU(29):В форме крыльев летучей мыши.
+L446|+5|EN(36):Very soft. Its comfort is unmatched.|RU(41):Очень мягкий. По удобству ему нет равных.
+L451|+1|EN(51):It has an oddly calming effect on those who see it.|RU(52):Странным образом успокаивает каждого, кто его видит.
+L457|+9|EN(53):These are more like metal boxing gloves than anything|RU(62):Это скорее металлические боксёрские перчатки, чем что-либо ещё
+L458|+1|EN(32):Really heavy duty, but flexible!|RU(33):По-настоящему прочные, но гибкие!
+L463|+1|EN(21):Fitted and protective|RU(22):По размеру и с защитой
+L466|+7|EN(46):It's a big metal glove, the fingers are stiff.|RU(53):Здоровенная металлическая перчатка, пальцы не гнутся.
+L472|+2|EN(23):Tarnished but effective|RU(25):Потускнели, но эффективны
+L477|+6|EN(35):Pulsating runes cover these gloves.|RU(41):Пульсирующие руны покрывают эти перчатки.
+L483|+13|EN(51):In a pinch, a helmet headbutt could be devastating.|RU(64):В крайнем случае удар головой в этом шлеме будет сокрушительным.
+L484|+4|EN(45):It has a tinted visor that darkens the world.|RU(49):У него тонированное забрало, делающее мир темнее.
+L486|+4|EN(42):Just a pointy hat. Nothing fancy about it.|RU(46):Просто остроконечная шляпа. Ничего особенного.
+L490|+6|EN(41):Probably belonged to someone pretty cool.|RU(47):Наверное, принадлежал кому-то довольно крутому.
+L491|+2|EN(34):It's ugly and you look ridiculous.|RU(36):Уродливый, и выглядишь в нём нелепо.
+L492|+7|EN(33):You feel smarter just wearing it.|RU(40):Чувствуешь себя умнее, просто надев его.
+L493|+8|EN(35):One of Goodsoil's famous straw hats|RU(43):Одна из знаменитых соломенных шляп Гудсойла
+L498|+8|EN(31):A remarkably preserved antique.|RU(39):Замечательно сохранившийся антиквариат.
+L506|+2|EN(50):Emits a dark shadow that covers most of your face.|RU(52):Излучает тёмную тень, скрывающую большую часть лица.
+L507|+1|EN(42):It hasn't been washed since its last owner|RU(43):Его не стирали со времён прошлого владельца
+L508|+2|EN(39):Just wearing it makes you feel tougher.|RU(41):Просто надев его, чувствуешь себя крепче.
+L519|+2|EN(21):They just look awful.|RU(23):Выглядят просто ужасно.
+L522|+4|EN(49):They're pretty heavy, but they make you feel safe|RU(53):Довольно тяжёлые, зато чувствуешь себя в безопасности
+L525|+2|EN(42):They feel and look exactly like tree bark.|RU(44):На вид и на ощупь — точь-в-точь кора дерева.
+L532|+4|EN(48):Two giant sheets of metal strapped to your legs.|RU(52):Два здоровенных листа металла, пристёгнутых к ногам.
+L533|+3|EN(23):You look 5 times wider.|RU(26):Ты выглядишь в 5 раз шире.
+L534|+2|EN(53):A single-layered cloth that is as fine as it is thin.|RU(55):Однослойная ткань, столь же тонкая, сколь и изысканная.
+L545|+2|EN(26):"My Dear Friend C. Pillot,|RU(28):«Мой дорогой друг К. Пиллот,
+L555|+3|EN(24):A plain engagement ring.|RU(27):Простое обручальное кольцо.
+L566|+17|EN(165):A shard of light from the Stowaway Lighthouse. With it, Kio has created a place called Shivering Step - a dreamlike alternate reality where he once held great power.|RU(182):Осколок света из маяка Контрабандного Утёса. С его помощью Кио создал место под названием Дрожащий Утёс — сноподобную альтернативную реальность, где он некогда обладал великой силой.
+L568|+117|EN(45):A simple halloween mask. Put it into a <color|RU(162):green>cosmetic</color> slot in your inventory to activate.=Простая маска на Хэллоуин. Помести в <color=green>косметическую</color> ячейку инвентаря для активации.
+L571|+22|EN(59):A strange trinket of a demonic head. Inscribed with a poem:|RU(81):Странная безделушка в виде демонической головы. С выгравированным стихотворением:
+L574|+2|EN(48):A tiny replica of the one you talked to earlier.|RU(50):Крошечная копия того, с кем ты только что говорил.
+L577|+4|EN(56):A twisted and awful image. Below it, a poem is scrawled:|RU(60):Искажённый и жуткий образ. Под ним нацарапано стихотворение:
+L580|+10|EN(52):An old family Heirloom that someone probably misses.|RU(62):Старая семейная реликвия, по которой кто-то наверняка скучает.
+L582|+5|EN(23):Awaken, sleeping grace;|RU(28):Пробудись, спящая благодать;
+L587|+3|EN(18):By Azynthi's Touch|RU(21):Прикосновением Азинти
+L592|+6|EN(66):Each day, I no longer pray for clarity or salvation from the rage.|RU(72):С каждым днём я всё реже молю о ясности рассудка или спасении от ярости.
+L595|+1|EN(15):Esteemed Orlok,|RU(16):Уважаемый Орлок,
+L598|+3|EN(21):From a time long past|RU(24):Из давно минувших времён
+L599|+6|EN(31):Great for learners and children|RU(37):Отлично подходит для новичков и детей
+L601|+6|EN(63):I fear for our safety. I fear that our time is nearing its end.|RU(69):Я боюсь за нашу безопасность. Боюсь, что наше время подходит к концу.
+L614|+2|EN(42):It ushers a sense of nature into your mind|RU(44):Наполняет разум чувством единения с природой
+L616|+3|EN(66):It's brittle and cracked and more yellow than you'd have imagined.|RU(69):Хрупкий, потрескавшийся и пожелтевший сильнее, чем можно представить.
+L618|+4|EN(23):It's faded but legible:|RU(27):Выцвел, но разобрать можно:
+L620|+7|EN(36):It's ugly. No wonder they buried it.|RU(43):Уродливый. Неудивительно, что его закопали.
+L623|+3|EN(34):Its ruby gemstone hums with hatred|RU(37):Его рубиновый камень гудит ненавистью
+L627|+1|EN(22):My dear friend Harvey,|RU(23):Мой дорогой друг Харви,
+L630|+3|EN(337):Never before have I witnessed a curse so relentless! Ancient and unyielding, it condemns us to a cold, half-living state, our flesh turning to stone, and our minds slowly succumbing to madness. In fleeting moments of clarity, I try to write, but I sense those moments are growing ever shorter, fading into a darkness I can barely resist.|RU(340):Никогда прежде я не видел столь безжалостного проклятия! Древнее и неумолимое, оно обрекает нас на холодное полужизненное существование — плоть обращается в камень, а разум медленно поддаётся безумию. В мимолётные минуты ясности я пытаюсь писать, но чувствую — эти мгновения становятся всё короче, угасая во тьме, которой я едва противлюсь.
+L631|+6|EN(29):Not exactly a local delicacy.|RU(35):Не сказать чтобы местный деликатес.
+L632|+2|EN(21):One entry stands out:|RU(23):Одна запись выделяется:
+L636|+3|EN(17):Precious Tiallia,|RU(20):Драгоценная Тиаллия,
+L652|+1|EN(104):The giant rests until the flames are relit. When once again both burn bright we might rekindle its fury.|RU(105):Гигант спит, пока пламя не зажгут вновь. Когда оба огня вновь разгорятся, мы сможем пробудить его ярость.
+L655|+6|EN(127):The living flames must be relit upon fuels measured with precision. Do not guess, use the guide cards issued to all of our own.|RU(133):Живое пламя должно быть зажжено на точно отмеренном топливе. Не гадайте — используйте карточки-инструкции, выданные каждому из наших.
+L666|+1|EN(11):To L. Kilfa|RU(12):Для Л. Килфа
+L686|+2|EN(12):A Husselfish|RU(14):Суетливая Рыба
+L687|+2|EN(10):A Moongill|RU(12):Лунные Жабры
+L689|+1|EN(17):A Stonemouth Bass|RU(18):Каменноротый Окунь
+L692|+2|EN(10):Island Fin|RU(12):Рыба-Плавник
+L695|+2|EN(10):Azure Mead|RU(12):Азурский Мёд
+L696|+2|EN(9):Bear Meat|RU(11):Медвежатина
+L700|+6|EN(6):Catnip|RU(12):Кошачья Мята
+L702|+1|EN(5):Coral|RU(6):Коралл
+L703|+2|EN(9):Croc Tail|RU(11):Хвост Крока
+L704|+4|EN(13):Malaroth Feed|RU(17):Корм для Маларота
+L705|+9|EN(17):Odd Malaroth Feed|RU(26):Странный Корм для Маларота
+L706|+2|EN(9):Muck Ball|RU(11):Комок Грязи
+L707|+1|EN(16):Ogrespice Bundle|RU(17):Связка Огроспеций
+L708|+1|EN(14):Ogrespice Leaf|RU(15):Лист Огроспеций
+L710|+8|EN(8):Seaspice|RU(16):Морская Пряность
+L711|+4|EN(8):Seafruit|RU(12):Морской Плод
+L712|+2|EN(7):Seaweed|RU(9):Водоросли
+L714|+2|EN(9):Wolf Meat|RU(11):Волчье Мясо
+L717|+1|EN(12):Ancient Bone|RU(13):Древняя Кость
+L719|+3|EN(19):Ancient Golem Stone|RU(22):Камень Древнего Голема
+L720|+3|EN(21):Ancient Pottery Shard|RU(24):Осколок Древней Керамики
+L721|+4|EN(11):Beast Stone|RU(15):Звериный Камень
+L723|+8|EN(15):Blightwood Slab|RU(23):Плита Проклятого Дерева
+L724|+5|EN(14):Blue Burnstone|RU(19):Синий Жжёный Камень
+L726|+8|EN(16):Braxonian Fossil|RU(24):Браксонская Окаменелость
+L727|+7|EN(29):Braxonian Portal Shard (Fire)|RU(36):Осколок Браксонского Портала (Огонь)
+L728|+6|EN(28):Braxonian Portal Shard (Ice)|RU(34):Осколок Браксонского Портала (Лёд)
+L731|+4|EN(13):Citrine Stone|RU(17):Цитриновый Камень
+L733|+2|EN(16):Devoratrix Thorn|RU(18):Шип Пожирательницы
+L736|+6|EN(20):Dusken Giant's Blood|RU(26):Кровь Сумеречного Великана
+L737|+3|EN(16):Elderstone Shard|RU(19):Осколок Элдерстоуна
+L740|+1|EN(12):Fungal Spore|RU(13):Грибная Спора
+L741|+4|EN(12):Ghostly Bone|RU(16):Призрачная Кость
+L742|+5|EN(21):Ghostly Giant's Blood|RU(26):Кровь Призрачного Великана
+L744|+1|EN(14):Graveweed Leaf|RU(15):Лист Могильника
+L746|+6|EN(9):Humanbone|RU(15):Человечья Кость
+L748|+5|EN(10):Ivory Tusk|RU(15):Слоновый Бивень
+L750|+1|EN(13):Malaroth Hide|RU(14):Шкура Маларота
+L751|+2|EN(12):Malaroth Tag|RU(14):Бирка Маларота
+L752|+3|EN(12):Nagalok Claw|RU(15):Коготь Нагалока
+L754|+4|EN(15):Nighthollow Wax|RU(19):Воск Ночной Пустоши
+L755|+3|EN(14):Offering Stone|RU(17):Жертвенный Камень
+L756|+1|EN(22):Pink Pteriaped Feather|RU(23):Розовое Перо Птериапода
+L757|+5|EN(14):Polished Stone|RU(19):Полированный Камень
+L758|+4|EN(15):Pulsating Stone|RU(19):Пульсирующий Камень
+L762|+1|EN(4):Ruby|RU(5):Рубин
+L763|+5|EN(9):Sea Glass|RU(14):Морское Стекло
+L767|+5|EN(10):Star Stone|RU(15):Звёздный Камень
+L768|+6|EN(9):Swamproot|RU(15):Болотный Корень
+L769|+2|EN(20):Sylvan Giant's Blood|RU(22):Кровь Лесного Великана
+L770|+1|EN(14):Temporal Shard|RU(15):Осколок Времени
+L776|+5|EN(11):A Lost Poem|RU(16):Потерянная Поэма
+L777|+2|EN(13):A Magical Bag|RU(15):Волшебная Сумка
+L780|+4|EN(13):A Rolled Note|RU(17):Свёрнутая Записка
+L782|+3|EN(12):Autmis' Note|RU(15):Записка Аутмиса
+L783|+2|EN(16):Awaken the Angel|RU(18):Пробуждение Ангела
+L785|+7|EN(19):Azynthian Riftstone|RU(26):Азинтийский Камень Разлома
+L787|+3|EN(22):Bag of Offering Stones|RU(25):Мешочек Жертвенных Камней
+L788|+1|EN(11):Black Flame|RU(12):Чёрное Пламя
+L793|+3|EN(25):Daggerhart Ancestral Coin|RU(28):Родовая Монета Кинжалосердых
+L794|+5|EN(17):Dark Flame Recipe|RU(22):Рецепт Тёмного Пламени
+L795|+2|EN(14):Demonic Statue|RU(16):Статуэтка Демона
+L796|+5|EN(9):Dock Pass|RU(14):Пропуск в Порт
+L800|+5|EN(15):Eldrich Crystal|RU(20):Элдрический Кристалл
+L802|+3|EN(13):Fading Memory|RU(16):Угасающая Память
+L803|+6|EN(13):Freeing Stone|RU(19):Камень Освобождения
+L812|+4|EN(17):Kio's Leave Order|RU(21):Приказ об Отпуске Кио
+L814|+3|EN(17):Life Flame Recipe|RU(20):Рецепт Пламени Жизни
+L816|+1|EN(19):Malaroth Sinew Cord|RU(20):Шнур из Жил Маларота
+L818|+2|EN(19):Mavik Easton's Note|RU(21):Записка Мавика Истона
+L823|+5|EN(12):Mooring Coin|RU(17):Причальная Монета
+L824|+2|EN(25):Necromancer's Ritual Book|RU(27):Ритуальная Книга Некроманта
+L825|+1|EN(16):Note from Eldoth|RU(17):Записка от Элдота
+L826|+5|EN(12):Note to Liam|RU(17):Записка для Лиама
+L827|+4|EN(14):Old Work Order|RU(18):Старый Наряд-Заказ
+L829|+4|EN(10):Priel Note|RU(14):Записка Приэль
+L830|+4|EN(11):Pupil's Pin|RU(15):Булавка Ученика
+L831|+7|EN(14):Recovered Text|RU(21):Восстановленный Текст
+L833|+2|EN(13):Riftsnare Gem|RU(15):Ловчий Самоцвет
+L835|+5|EN(12):Ritual Stone|RU(17):Ритуальный Камень
+L838|+4|EN(22):Simple Engagement Ring|RU(26):Простое Обручальное Кольцо
+L839|+5|EN(19):Sivakayan Boat Pass|RU(24):Лодочный Пропуск Сивакаи
+L841|+5|EN(15):Sivakayan Intel|RU(20):Разведданные Сивакаи
+L842|+1|EN(8):Sivakrux|RU(9):Сивакрукс
+L847|+5|EN(4):Stun|RU(9):Оглушение
+L848|+3|EN(13):Tempest Stone|RU(16):Штормовой Камень
+L851|+4|EN(10):Time Stone|RU(14):Камень Времени
+L852|+10|EN(9):Torn Note|RU(19):Разорванная Записка
+L853|+6|EN(31):Torn Treasure Map (Bottom Left)|RU(37):Обрывок Карты Сокровищ (Левый Нижний)
+L854|+6|EN(32):Torn Treasure Map (Bottom Right)|RU(38):Обрывок Карты Сокровищ (Правый Нижний)
+L855|+10|EN(28):Torn Treasure Map (Top Left)|RU(38):Обрывок Карты Сокровищ (Левый Верхний)
+L856|+10|EN(29):Torn Treasure Map (Top Right)|RU(39):Обрывок Карты Сокровищ (Правый Верхний)
+L858|+2|EN(12):Treasure Map|RU(14):Карта Сокровищ
+L859|+3|EN(15):Unsocketed Ring|RU(18):Кольцо без Вставки
+L860|+4|EN(11):Worn Shovel|RU(15):Потёртая Лопата
+L866|+7|EN(23):Duskenlight Willow Seed|RU(30):Семя Ивы Сумеречного Побережья
+L867|+1|EN(21):Fernallan Willow Seed|RU(22):Семя Ферналланской Ивы
+L886|+3|EN(22):Eldoth's Journal Entry|RU(25):Дневниковая Запись Элдота
+L887|+9|EN(19):Faded Journal Entry|RU(28):Выцветшая Дневниковая Запись
+L893|+1|EN(17):Notes of a Hermit|RU(18):Записки Отшельника
+L894|+5|EN(17):Old Journal Pg. 1|RU(22):Старый Дневник, стр. 1
+L895|+5|EN(17):Old Journal Pg. 2|RU(22):Старый Дневник, стр. 2
+L896|+5|EN(17):Old Journal Pg. 3|RU(22):Старый Дневник, стр. 3
+L897|+5|EN(17):Old Journal Pg. 4|RU(22):Старый Дневник, стр. 4
+L898|+6|EN(18):Pg. 1: Faded Entry|RU(24):Стр. 1: Выцветшая Запись
+L899|+6|EN(18):Pg. 2: Faded Entry|RU(24):Стр. 2: Выцветшая Запись
+L900|+6|EN(18):Pg. 3: Faded Entry|RU(24):Стр. 3: Выцветшая Запись
+L901|+6|EN(18):Pg. 4: Faded Entry|RU(24):Стр. 4: Выцветшая Запись
+L902|+6|EN(18):Pg. 5: Faded Entry|RU(24):Стр. 5: Выцветшая Запись
+L903|+6|EN(18):Pg. 6: Faded Entry|RU(24):Стр. 6: Выцветшая Запись
+L904|+6|EN(18):Pg. 7: Faded Entry|RU(24):Стр. 7: Выцветшая Запись
+L905|+1|EN(18):Savannah's Musings|RU(19):Размышления Саванны
+L917|+6|EN(22):The Duskenlight Ritual|RU(28):Ритуал Сумеречного Побережья
+L918|+4|EN(26):The Fall of Rockshade Hold|RU(30):Падение Крепости Каменной Тени
+L926|+2|EN(11):Aged letter|RU(13):Старое Письмо
+L929|+1|EN(21):Aged Ring of Barriers|RU(22):Старое Кольцо Барьеров
+L930|+2|EN(13):Angler's Ring|RU(15):Кольцо Рыболова
+L932|+10|EN(13):Birdbone Band|RU(23):Кольцо из Птичьей Кости
+L933|+7|EN(8):Bog Hoop|RU(15):Болотное Кольцо
+L934|+6|EN(15):Ceremonial Ring|RU(21):Церемониальное Кольцо
+L935|+2|EN(20):Clouded Diamond Ring|RU(22):Мутное Алмазное Кольцо
+L936|+1|EN(18):Concentration Band|RU(19):Кольцо Концентрации
+L937|+1|EN(13):Dancer's Ring|RU(14):Кольцо Танцора
+L938|+4|EN(12):Decayed Ring|RU(16):Истлевшее Кольцо
+L939|+3|EN(15):Elderstone Ring|RU(18):Кольцо Элдерстоуна
+L940|+1|EN(22):Eldoth's Heirloom Ring|RU(23):Фамильное Кольцо Элдота
+L941|+7|EN(19):Fiery Sapphire Ring|RU(26):Огненное Сапфировое Кольцо
+L942|+8|EN(17):Fire Emerald Band|RU(25):Кольцо Огненного Изумруда
+L943|+6|EN(21):Flawless Diamond Ring|RU(27):Безупречное Алмазное Кольцо
+L944|+8|EN(21):Flawless Emerald Ring|RU(29):Безупречное Изумрудное Кольцо
+L945|+7|EN(22):Flawless Sapphire Ring|RU(29):Безупречное Сапфировое Кольцо
+L946|+5|EN(16):Frozen Lava Ring|RU(21):Кольцо Застывшей Лавы
+L947|+5|EN(11):Gapped Ring|RU(16):Кольцо с Зазором
+L948|+5|EN(22):Golden Luminstone Ring|RU(27):Кольцо Золотого Люминстоуна
+L949|+7|EN(18):Green Emerald Ring|RU(25):Зелёное Изумрудное Кольцо
+L953|+8|EN(15):Jackalbone Loop|RU(23):Петля из Шакальей Кости
+L954|+4|EN(16):Living Ruby Ring|RU(20):Кольцо Живого Рубина
+L955|+1|EN(20):Living Sapphire Ring|RU(21):Кольцо Живого Сапфира
+L956|+1|EN(22):Molorai Allegiant Ring|RU(23):Кольцо Верности Молорая
+L959|+1|EN(12):Phoenix Loop|RU(13):Петля Феникса
+L960|+5|EN(19):Priel Insignia Ring|RU(24):Кольцо с Эмблемой Приэль
+L961|+4|EN(20):Priel Officer's Ring|RU(24):Офицерское Кольцо Приэль
+L962|+9|EN(24):Pristine Ceremonial Ring|RU(33):Безупречное Церемониальное Кольцо
+L965|+8|EN(18):Ring of Magic Bolt|RU(26):Кольцо Магического Снаряда
+L971|+4|EN(17):Ring of the Pious|RU(21):Кольцо Благочестивого
+L974|+2|EN(15):Rottenfoot Ring|RU(17):Кольцо Гнилоногов
+L975|+2|EN(13):Shielded Ring|RU(15):Защитное Кольцо
+L976|+1|EN(14):Shivering Ring|RU(15):Дрожащее Кольцо
+L978|+5|EN(17):Solar Forged Ring|RU(22):Кольцо Солнечной Ковки
+L980|+2|EN(15):Swirlstone Ring|RU(17):Кольцо Вихрекамня
+L982|+6|EN(17):Toxin Warped Band|RU(23):Кольцо, Искажённое Ядом
+L984|+4|EN(21):Vithean Sea Salt Ring|RU(25):Витеанское Солёное Кольцо
+L985|+3|EN(14):Voidbloom Ring|RU(17):Кольцо Пустоцвета
+L986|+7|EN(19):Waldorf Family Ring|RU(26):Фамильное Кольцо Уолдорфов
+L988|+3|EN(18):Wild Colossus Ring|RU(21):Кольцо Дикого Колосса
+L989|+4|EN(11):Wisdom Band|RU(15):Кольцо Мудрости
+L992|+1|EN(24):A Grassland Sap Necklace|RU(25):Ожерелье из Лугового Сока
+L994|+2|EN(18):Amulet of Birdsong|RU(20):Амулет Птичьей Песни
+L995|+5|EN(21):Blackened Iron Amulet|RU(26):Амулет из Чернёного Железа
+L997|+2|EN(14):Decayed Amulet|RU(16):Истлевший Амулет
+L999|+8|EN(14):Lover's Locket|RU(22):Медальон Возлюбленного
+L1000|+6|EN(15):Moonglow Amulet|RU(21):Амулет Лунного Сияния
+L1002|+3|EN(25):Pendant of Petrified Wood|RU(28):Кулон из Окаменевшего Дерева
+L1003|+2|EN(14):Plain Necklace|RU(16):Простое Ожерелье
+L1004|+6|EN(23):Pteriaped Claw Necklace|RU(29):Ожерелье из Когтей Птериапода
+L1006|+2|EN(15):Scarab Necklace|RU(17):Ожерелье Скарабея
+L1007|+1|EN(18):Seafarer's Pendant|RU(19):Кулон Мореплавателя
+L1010|+6|EN(13):Warped Choker|RU(19):Искажённое Ожерелье
+L1013|+5|EN(9):Belt Lamp|RU(14):Поясной Фонарь
+L1015|+6|EN(16):Bonestudded Belt|RU(22):Костяной Клёпаный Пояс
+L1016|+1|EN(12):Braided Belt|RU(13):Плетёный Пояс
+L1018|+3|EN(14):Braxonian Sash|RU(17):Браксонский Кушак
+L1019|+5|EN(14):Centering Cord|RU(19):Шнур Сосредоточения
+L1020|+5|EN(12):Charmed Belt|RU(17):Зачарованный Пояс
+L1021|+4|EN(12):Coiling Belt|RU(16):Свивающийся Пояс
+L1023|+4|EN(12):Exalted Belt|RU(16):Возвышенный Пояс
+L1025|+2|EN(16):Gem Adorned Belt|RU(18):Пояс с Самоцветами
+L1026|+4|EN(12):Ghostly Sash|RU(16):Призрачный Кушак
+L1027|+2|EN(12):Granite Belt|RU(14):Гранитный Пояс
+L1028|+5|EN(8):Gut Cord|RU(13):Кишечный Шнур
+L1029|+4|EN(11):Lost Girdle|RU(15):Утерянный Кушак
+L1030|+2|EN(12):Metal Girdle|RU(14):Железный Кушак
+L1031|+1|EN(13):Ogreskin Cord|RU(14):Огрокожий Шнур
+L1032|+7|EN(19):Polished Steel Belt|RU(26):Полированный Стальной Пояс
+L1033|+4|EN(21):Reinforced Scale Belt|RU(25):Усиленный Чешуйчатый Пояс
+L1034|+1|EN(15):Rottenfoot Sash|RU(16):Кушак Гнилоногов
+L1035|+6|EN(23):Rottenfoot Tribal Strap|RU(29):Племенная Перевязь Гнилоногов
+L1036|+1|EN(15):Royal Waistband|RU(16):Королевский Пояс
+L1038|+5|EN(22):Sash of the Lost Guard|RU(27):Кушак Потерянного Стражника
+L1039|+4|EN(19):Shivering Belt Lamp|RU(23):Дрожащий Поясной Фонарь
+L1040|+2|EN(18):Spectral Silk Belt|RU(20):Призрачный Шёлк-Пояс
+L1041|+4|EN(16):Stabilizing Belt|RU(20):Стабилизирующий Пояс
+L1043|+3|EN(16):Steadfast Girdle|RU(19):Непоколебимый Кушак
+L1045|+6|EN(20):Tarnished Steel Belt|RU(26):Потускневший Стальной Пояс
+L1046|+6|EN(11):Toxic Strap|RU(17):Ядовитая Перевязь
+L1047|+2|EN(13):Twilight Belt|RU(15):Сумеречный Пояс
+L1048|+7|EN(16):Woven Stone Belt|RU(23):Пояс из Плетёного Камня
+L1051|+6|EN(13):Abyssal Plate|RU(19):Бездонный Нагрудник
+L1052|+6|EN(10):Aged Plate|RU(16):Старый Нагрудник
+L1054|+3|EN(22):Azure Plate Chestguard|RU(25):Азурский Латный Нагрудник
+L1055|+6|EN(17):Blightsteel Plate|RU(23):Латы из Проклятой Стали
+L1056|+5|EN(18):Bloodstained Plate|RU(23):Окровавленный Нагрудник
+L1057|+1|EN(15):Braxonian Plate|RU(16):Браксонские Латы
+L1058|+2|EN(24):Bronzed Solunarian Plate|RU(26):Бронзовые Солунарские Латы
+L1059|+3|EN(16):Cold Steel Plate|RU(19):Латы Холодной Стали
+L1063|+2|EN(25):Malaroth Scale Chestguard|RU(27):Нагрудник из Чешуи Маларота
+L1067|+4|EN(16):Stonelined Plate|RU(20):Камнеотделанные Латы
+L1068|+6|EN(21):Tarnished Plate Armor|RU(27):Потускневшие Латные Доспехи
+L1069|+2|EN(19):Virophan Chestguard|RU(21):Вирофанский Нагрудник
+L1070|+4|EN(18):Worn Dueling Plate|RU(22):Потёртые Дуэльные Латы
+L1073|+3|EN(23):Braxonian Leather Tunic|RU(26):Браксонская Кожаная Туника
+L1074|+9|EN(21):Braxonian Royal Tunic|RU(30):Браксонская Королевская Туника
+L1075|+5|EN(14):Braxonian Wrap|RU(19):Браксонская Обмотка
+L1076|+5|EN(11):Cloth Shirt|RU(16):Тканевая Рубашка
+L1077|+12|EN(16):Daggersilk Shirt|RU(28):Рубашка из Кинжального Шёлка
+L1079|+6|EN(12):Funeral Garb|RU(18):Погребальный Наряд
+L1081|+7|EN(21):Hardened Scale Jacket|RU(28):Закалённая Чешуйчатая Куртка
+L1083|+2|EN(18):Kelp Crusted Shirt|RU(20):Рубашка в Водорослях
+L1084|+4|EN(10):Lichencoat|RU(14):Мшистая Куртка
+L1087|+1|EN(12):Muddy Jerkin|RU(13):Грязный Жилет
+L1088|+2|EN(11):Oread Tunic|RU(13):Туника Ореады
+L1089|+7|EN(20):Preserved Cloth Coat|RU(27):Сохранённое Тканевое Пальто
+L1090|+6|EN(18):Rotten Chain Tunic|RU(24):Гнилая Кольчужная Туника
+L1092|+7|EN(25):Sivakayan Ceremonial Garb|RU(32):Церемониальное Облачение Сивакаи
+L1097|+4|EN(22):Tattered Leather Tunic|RU(26):Потрёпанная Кожаная Туника
+L1101|+2|EN(13):Braxonian Bow|RU(15):Браксонский Лук
+L1104|+4|EN(7):Icy Bow|RU(11):Ледяной Лук
+L1105|+3|EN(17):Merosavillian Bow|RU(20):Меросавилланский Лук
+L1107|+2|EN(15):Necromantic Bow|RU(17):Некромантский Лук
+L1108|+3|EN(8):Oldenbow|RU(11):Древний Лук
+L1109|+2|EN(11):Rotwood Bow|RU(13):Трухлявый Лук
+L1111|+2|EN(12):Spectral Bow|RU(14):Призрачный Лук
+L1117|+2|EN(11):Dreamy Wand|RU(13):Грёзовый Жезл
+L1118|+4|EN(13):Eyestalk Wand|RU(17):Жезл-Глазостебель
+L1119|+4|EN(17):Fernallan Sceptre|RU(21):Ферналланский Скипетр
+L1120|+4|EN(9):Garg Wand|RU(13):Жезл Горгульи
+L1123|+2|EN(16):Spectral Sceptre|RU(18):Призрачный Скипетр
+L1124|+2|EN(22):Unusual Copper Sceptre|RU(24):Необычный Медный Скипетр
+L1125|+5|EN(16):Volcanic Sceptre|RU(21):Вулканический Скипетр
+L1126|+1|EN(11):Wand of Air|RU(12):Жезл Воздуха
+L1127|+2|EN(9):Weak Wand|RU(11):Слабый Жезл
+L1130|+3|EN(15):Adventure Charm|RU(18):Оберег Приключений
+L1132|+2|EN(12):Charm of Age|RU(14):Оберег Времени
+L1137|+1|EN(15):Charm of Vanity|RU(16):Оберег Тщеславия
+L1140|+4|EN(17):Frozen Mana Charm|RU(21):Оберег Замёрзшей Маны
+L1141|+1|EN(14):Healer's Charm|RU(15):Оберег Целителя
+L1146|+2|EN(15):Warlord's Charm|RU(17):Оберег Полководца
+L1149|+1|EN(12):Mask: Baboon|RU(13):Маска: Бабуин
+L1150|+1|EN(12):Mask: Badger|RU(13):Маска: Барсук
+L1151|+1|EN(12):Mask: Bandit|RU(13):Маска: Бандит
+L1152|+1|EN(9):Mask: Cat|RU(10):Маска: Кот
+L1153|+2|EN(14):Mask: Cat Hero|RU(16):Маска: Кот-Герой
+L1154|+1|EN(11):Mask: Demon|RU(12):Маска: Демон
+L1155|+1|EN(9):Mask: Dog|RU(10):Маска: Пёс
+L1157|+1|EN(9):Mask: Fox|RU(10):Маска: Лис
+L1158|+4|EN(16):Mask: Green Hero|RU(20):Маска: Зелёный Герой
+L1159|+1|EN(19):Mask: Happy Pumpkin|RU(20):Маска: Весёлая Тыква
+L1162|+1|EN(18):Mask: Snow Leopard|RU(19):Маска: Снежный Барс
+L1167|+2|EN(18):Inert Rune of Brax|RU(20):Инертная Руна Бракса
+L1185|+1|EN(11):Void Resist|RU(12):Защ. Пустоты
+L1191|+3|EN(9):Corruptor|RU(12):Осквернитель
+L1193|+1|EN(10):Deathgiver|RU(11):Смертодавец
+L1194|+3|EN(6):Famish|RU(9):Голодомор
+L1195|+2|EN(15):Godless Amarion|RU(17):Безбожный Амарион
+L1197|+5|EN(10):Lost Faith|RU(15):Утраченная Вера
+L1199|+5|EN(16):Sivakaya's Touch|RU(21):Прикосновение Сивакаи
+L1201|+3|EN(15):Thief of Breath|RU(18):Похититель Дыхания
+L1202|+4|EN(13):Unborn Phobia|RU(17):Нерождённая Фобия
+L1203|+2|EN(11):Wyrm's Bane|RU(13):Погибель Змея
+L1206|+2|EN(17):Aether's Blessing|RU(19):Благословение Эфира
+L1207|+1|EN(19):Ascendant's Embrace|RU(20):Объятие Вознесённого
+L1210|+7|EN(16):Broken Key Blade|RU(23):Сломанная Бородка Ключа
+L1211|+9|EN(14):Broken Key Bow|RU(23):Сломанная Головка Ключа
+L1212|+2|EN(20):Brute's Chain Collar|RU(22):Цепной Ошейник Громилы
+L1213|+2|EN(16):Chitin Protector|RU(18):Хитиновый Защитник
+L1216|+8|EN(20):Crystallized Balance|RU(28):Кристаллизованное Равновесие
+L1218|+2|EN(19):Decayed Druid Beads|RU(21):Истлевшие Бусы Друида
+L1219|+1|EN(13):Demon's Crest|RU(14):Гребень Демона
+L1221|+7|EN(13):Fiery Revival|RU(20):Огненное Возрождение
+L1223|+3|EN(14):Flint Carapace|RU(17):Кремнёвый Панцирь
+L1224|+4|EN(8):Lifeloop|RU(12):Кольцо Жизни
+L1226|+1|EN(13):Molorai Sigil|RU(14):Печать Молорая
+L1227|+1|EN(7):Plumage|RU(8):Оперение
+L1228|+5|EN(30):Pristine Grass Spider Carapace|RU(35):Безупречный Панцирь Травяного Паука
+L1229|+7|EN(28):Ruined Grass Spider Carapace|RU(35):Разрушенный Панцирь Травяного Паука
+L1230|+1|EN(20):Sableheart's Harness|RU(21):Упряжь Чёрного Сердца
+L1232|+5|EN(9):Seastring|RU(14):Морская Струна
+L1234|+3|EN(12):Skyfolk Band|RU(15):Небесное Кольцо
+L1236|+4|EN(12):Vithean Brew|RU(16):Витеанское Зелье
+L1238|+4|EN(15):Warhound Collar|RU(19):Ошейник Боевого Пса
+L1239|+3|EN(14):Watcher's Lens|RU(17):Линза Наблюдателя
+L1240|+1|EN(15):Weathered Chain|RU(16):Выветренная Цепь
+L1242|+7|EN(16):Worn Wolf Collar|RU(23):Потёртый Волчий Ошейник
+L1243|+2|EN(19):Wyrm Skin Protector|RU(21):Защитник из Кожи Змея

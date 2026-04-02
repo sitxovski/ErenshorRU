@@ -1,0 +1,42 @@
+# skills_spells.txt: 41 violations
+L206|+1|EN(51):Summon a magical companion to fight along side you.|RU(52):Призывает магического спутника для боя рядом с вами.
+L235|+12|EN(152):10% chance per rank to resist any mortal damage, and instead heal to full, and gain a massive (short duration) damage, stat,  lifesteal, and haste buff.|RU(164):10% шанс за ранг сопротивления смертельному урону: вместо гибели — полное исцеление и мощное (кратковременное) усиление урона, характеристик, вампиризма и скорости.
+L239|+3|EN(13):Coup De Grace|RU(16):Смертельный Удар
+L245|+1|EN(10):ARC - Bind|RU(11):ARC - Оковы
+L249|+4|EN(12):ARC - Dazzle|RU(16):ARC - Ослепление
+L252|+2|EN(19):ARC - Hardened Skin|RU(21):ARC - Закалённая Кожа
+L253|+1|EN(16):ARC - Immolation|RU(17):ARC - Испепеление
+L261|+8|EN(22):ARC - Portal to Ripper|RU(30):ARC - Портал к Потрошительнице
+L262|+2|EN(27):ARC - Portal to Silkengrass|RU(29):ARC - Портал в Шёлковую Траву
+L265|+2|EN(10):ARC - Pyre|RU(12):ARC - Костёр
+L266|+2|EN(20):ARC - Returning Wish|RU(22):ARC - Обратное Желание
+L268|+1|EN(21):ARC - Triple Resonate|RU(22):ARC - Тройной Резонанс
+L269|+5|EN(19):ARC - Twisting Mind|RU(24):ARC - Искривление Разума
+L272|+1|EN(16):DRU - Annihilate|RU(17):DRU - Уничтожение
+L273|+5|EN(20):DRU - Arterial Decay|RU(25):DRU - Артериальный Распад
+L274|+2|EN(18):DRU - Biting Vines|RU(20):DRU - Кусающие Лианы
+L275|+3|EN(18):DRU - Critical DOT|RU(21):DRU - Критический ДоТ
+L276|+5|EN(22):DRU - Critical Healing|RU(27):DRU - Критическое Исцеление
+L278|+2|EN(21):DRU - Ensnaring Roots|RU(23):DRU - Опутывающие Корни
+L279|+1|EN(18):DRU - Internal Rot|RU(19):DRU - Гниль Изнутри
+L280|+1|EN(18):DRU - Invoke Storm|RU(19):DRU - Призвать Бурю
+L286|+2|EN(18):DRU - Summon Brute|RU(20):DRU - Призыв Громилы
+L287|+8|EN(24):DRU - Summon Cursed Fawn|RU(32):DRU - Призыв Проклятого Оленёнка
+L288|+3|EN(22):DRU - Summon Dire Wolf|RU(25):DRU - Призыв Лютого Волка
+L290|+5|EN(22):DRU - Vengeful Healing|RU(27):DRU - Мстительное Исцеление
+L293|+3|EN(20):DUEL - Coup De Grace|RU(23):DUEL - Смертельный Удар
+L294|+7|EN(24):DUEL - Critical Backstab|RU(31):DUEL - Критический Удар в Спину
+L295|+4|EN(22):DUEL - Deathly Embrace|RU(26):DUEL - Смертельные Объятия
+L296|+3|EN(12):DUEL - Pride|RU(15):DUEL - Гордость
+L297|+1|EN(22):DUEL - Vithean Revenge|RU(23):DUEL - Витеанская Месть
+L302|+4|EN(18):PAL - Innate Taunt|RU(22):PAL - Врождённый Вызов
+L303|+4|EN(15):PAL - Moon Bolt|RU(19):PAL - Лунный Снаряд
+L304|+4|EN(18):PAL - Moon Bolt II|RU(22):PAL - Лунный Снаряд II
+L305|+3|EN(15):PAL - Moonburst|RU(18):PAL - Лунный Взрыв
+L306|+2|EN(18):PAL - Sap Vitality|RU(20):PAL - Выкачать Жизнь
+L308|+1|EN(26):PAL - TAUNT Impending Doom|RU(27):PAL - ВЫЗОВ Грядущая Гибель
+L309|+1|EN(25):PAL - TAUNT Lunar Madness|RU(26):PAL - ВЫЗОВ Лунное Безумие
+L310|+4|EN(26):PAL - TAUNT Moonlit Frenzy|RU(30):PAL - ВЫЗОВ Лунное Исступление
+L316|+2|EN(15):REAV - Enfeeble|RU(17):REAV - Ослабление
+L317|+6|EN(12):REAV - Parry|RU(18):REAV - Парирование
+L320|+5|EN(19):REAV - Undying Rage|RU(24):REAV - Неугасимая Ярость

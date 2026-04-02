@@ -1,0 +1,41 @@
+# npc_dialogs.txt: 40 violations
+L14|+12|EN(88):Never thought I'd be living in an inn. I came to Erenshor for a new start, not for this.|RU(100):Никогда не думал, что буду жить в таверне. Я приехал на Эреншор ради нового начала, а не ради этого.
+L19|+2|EN(43):They're to help ya learn. Nothin' special. |RU(45):Чтобы помочь тебе учиться. Ничего особенного.
+L21|+3|EN(151):To Erenshor. It was supposed to be a land of new opportunities, but here I am locked in my house in a city, too afraid to take advantage of any of it. |RU(154):На Эреншор. Это должна была быть земля новых возможностей, а я сижу взаперти в своём доме в городе, слишком напуганный, чтобы воспользоваться хоть чем-то.
+L29|+13|EN(38):Ello there. Welcome to the Azure Arms.|RU(51):Приветствую. Добро пожаловать в «Лазурные Объятия».
+L48|+1|EN(12):Wrong group.|RU(13):Не та группа.
+L49|+1|EN(16):Say it or leave.|RU(17):Говори или уходи.
+L54|+15|EN(112):If you can restore me, even if I cannot leave this place, I will bestow my knowledge upon you once I regain it. |RU(127):Если ты сможешь восстановить меня, пусть даже я не смогу покинуть это место, я передам тебе свои знания, когда обрету их вновь.
+L61|+7|EN(47):We can return at your whim. Step onto the boat.|RU(54):Мы можем вернуться по твоему желанию. Ступай на лодку.
+L72|+6|EN(120):Careful around old ruins! They tend to attract creatures. Worse yet, sometimes they contain things that have never left.|RU(126):Осторожнее со старыми руинами! Они притягивают тварей. А ещё хуже — иногда в них живёт нечто, что никогда не покидало их стен.
+L89|+13|EN(93):We have reason to believe that the lost people of this place may exist beneath our very feet.|RU(106):У нас есть основания полагать, что потерянный народ этого места может существовать прямо у нас под ногами.
+L101|+2|EN(52):We will remain on this land, it is our sacred right.|RU(54):Мы останемся на этой земле — это наше священное право.
+L111|+3|EN(103):Sivakayan ruins, so I hear. Been in there myself, nothin' to see. Just empty space and a weird feelin'.|RU(106):Руины сивакайцев, как я слышал. Был там сам — смотреть не на что. Пустое пространство и странное ощущение.
+L119|+2|EN(50):This place... I come here to feel the power of it.|RU(52):Это место... я прихожу сюда, чтобы ощутить его силу.
+L122|+14|EN(33):Just go. You have nothing I want.|RU(47):Просто уходи. У тебя нет ничего, что мне нужно.
+L124|+7|EN(34):Talk to Malor. She's well versed. |RU(41):Поговори с Малор. Она хорошо осведомлена.
+L132|+1|EN(72):I... I'm in shock. I feel so numb. I wish you were here to help earlier.|RU(73):Я... я в шоке. Я ничего не чувствую. Жаль, что тебя не было здесь раньше.
+L150|+1|EN(13):You may pass.|RU(14):Можешь пройти.
+L152|+3|EN(25):Only the worthy may pass.|RU(28):Лишь достойный может пройти.
+L181|+1|EN(164):Oh, pity you. You don't know with what you meddle. No worry, toddle off and play some more. I have a surprise for you to wake us up! Bring me proof of your victory.|RU(165):О, бедняга. Ты не знаешь, во что ввязываешься. Не беда — побегай ещё, поиграй. У меня для тебя сюрприз, чтобы нас разбудить! Принеси мне доказательство своей победы.
+L186|+1|EN(43):Croc season. We need their tails. Got any? |RU(44):Сезон крокодилов. Нам нужны их хвосты. Есть?
+L201|+6|EN(60):... *It blinks sadly. A small key materializes in your hand*|RU(66):... *Оно печально моргает. В твоей руке появляется маленький ключ*
+L202|+4|EN(24):... *It stares intently*|RU(28):... *Оно пристально смотрит*
+L205|+2|EN(193):Just a figment of our imaginations. Funny though, how we all share it. How it creeps into our dreams with the same hurried steps. No matter, though. 'Spose you want to be finished with us then?|RU(195):Всего лишь плод нашего воображения. Забавно, правда, что мы все его разделяем. Как оно прокрадывается в наши сны теми же торопливыми шагами. Впрочем, неважно. Полагаю, ты хочешь с нами закончить?
+L213|+2|EN(43):Don't fret. Fishing always clears the mind.|RU(45):Не переживай. Рыбалка всегда проясняет разум.
+L225|+4|EN(11):Feed me... |RU(15):Накорми меня...
+L242|+3|EN(68):Port Azure left us. I hope Ripper takes out that whole city one day.|RU(71):Порт-Азур бросил нас. Надеюсь, Риппер однажды захватит весь этот город.
+L251|+16|EN(110):It's stunning how large it is... no human could have made this. It makes true believers out of any who see it.|RU(126):Поразительно, какое оно огромное... ни один человек не смог бы такое создать. Каждый, кто увидит, становится истинно верующим.
+L254|+33|EN(117):Many make the trek to see this place. It's one of the few in Erenshor where you can witness actual proof of the Gods.|RU(150):Многие совершают паломничество, чтобы увидеть это место. Одно из немногих на Эреншоре, где можно увидеть подлинное доказательство существования Богов.
+L280|+6|EN(100):A piece of her. She was shattered on Erenshor, there must be remnants. Likely amongst her followers.|RU(106):Частица её. Она была разбита на Эреншоре, значит, остались осколки. Скорее всего, среди её последователей.
+L283|+2|EN(72):You stop with that nonsense, I have people like you to do things for me!|RU(74):Прекрати эту чепуху, у меня есть такие, как ты, чтобы делать дела за меня!
+L285|+12|EN(63):What did you just say? You need to talk to Lucian... right now.|RU(75):Что ты только что сказал? Тебе нужно поговорить с Лусианом... прямо сейчас.
+L288|+10|EN(194):There's no tellin' what it's for. We stopped askin' and they do their thing and leave us alone. Just bugs me... we don't know where they even come from. Must be some hidden place on the island. |RU(204):Не угадаешь, для чего это. Мы перестали спрашивать — они делают своё дело и оставляют нас в покое. Только вот покоя нет... мы даже не знаем, откуда они. Должно быть, где-то на острове есть потайное место.
+L299|+10|EN(146):Used to be quite the adventurer... now I'm washed up. Old injuries, ya know. Couldn't even protect my grandfather's lucky coin from those bandits.|RU(156):Был когда-то неплохим искателем приключений... теперь списан на берег. Старые раны, сам понимаешь. Даже счастливую монету деда не смог защитить от бандитов.
+L300|+3|EN(134):Stowaway's Step is home now. Like it or not. Erenshor's out of reach for most of us. I just wish that ritual wouldn't happen so often.|RU(137):Причал Зайцев теперь мой дом. Нравится или нет. Эреншор для большинства из нас недоступен. Только бы этот ритуал не происходил так часто.
+L309|+4|EN(53):It was 1.25 million gold. A fair price, for the size!|RU(57):1,25 миллиона золотых. Справедливая цена за такой размер!
+L316|+8|EN(83):No can do. It'd take quite a tidy sum for me to risk my ship on a trip to Erenshor.|RU(91):Не выйдет. Нужна кругленькая сумма, чтобы я рискнул своим кораблём ради поездки на Эреншор.
+L326|+3|EN(66):Begone. *Lucian's eyes never leave the searing flames before him*.|RU(69):Прочь. *Взгляд Лусиана не отрывается от пылающего пламени перед ним.*
+L329|+3|EN(97):Most of us wanted to get to Erenshor... and for the right price there's still ways to get there. |RU(100):Большинство из нас хотело попасть на Эреншор... и за правильную цену всё ещё есть способы добраться.
+L333|+22|EN(144):You must end this corruption. It has touched us all. Fernalla. Vitheo. Brax. Even Soluna bears its mark. We endure in fractured shells. Free us.|RU(166):Ты должен положить конец этой порче. Она коснулась всех нас. Ферналлы. Витео. Бракса. Даже Солуна несёт её печать. Мы существуем в расколотых оболочках. Освободи нас.
+L336|+3|EN(218):You have come. Quickly - the darkness clings to you and all who walk this world. It has followed you and will manifest here soon. When it does, I cannot remain. I am not whole, and it will take what little I have left.|RU(221):Ты пришёл. Скорее — тьма цепляется к тебе и ко всем, кто ходит по этому миру. Она последовала за тобой и скоро проявится здесь. Когда это случится, я не смогу остаться. Я не целый, и она заберёт то немногое, что осталось.

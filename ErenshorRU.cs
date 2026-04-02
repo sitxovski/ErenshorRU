@@ -23,7 +23,7 @@ namespace ErenshorRU
     {
         public const string GUID = "com.erenshor.ru";
         public const string NAME = "Erenshor Russian Translation";
-        public const string VERSION = "2.0.0";
+        public const string VERSION = "2.0.1";
 
         internal static ManualLogSource Log;
         internal static TranslationDB T;
@@ -457,6 +457,10 @@ namespace ErenshorRU
                 font.fallbackFontAssetTable = new List<TMP_FontAsset>();
             if (!font.fallbackFontAssetTable.Contains(toAdd))
                 font.fallbackFontAssetTable.Add(toAdd);
+
+            EnableOutline(font);
+            EnableOutline(toAdd);
+
             ErenshorRUPlugin.Log.LogInfo(
                 $"[RU] '{font.name}' (pt={primaryPt}) => fallback '{toAdd.name}' (pt={toAdd.faceInfo.pointSize}, s={toAdd.faceInfo.scale:F2})");
         }
@@ -594,21 +598,16 @@ namespace ErenshorRU
                 string trSep = sep;
                 if (translateSep)
                 {
-                    string rawSep = sep.Trim();
-                    string trRaw = ErenshorRUPlugin.T.Translate(rawSep);
-                    if (trRaw != rawSep)
-                        trSep = " " + trRaw + " ";
+                    string trFull = ErenshorRUPlugin.T.Translate(sep);
+                    if (trFull != sep)
+                        trSep = trFull;
                 }
 
                 string trContent = ErenshorRUPlugin.T.Translate(content);
                 if (trContent == content)
                     trContent = ErenshorRUPlugin.T.TranslateDirect(content);
 
-                if (trSep != sep || trContent != content)
-                {
-                    msg = name + trSep + trContent;
-                    return true;
-                }
+                msg = name + trSep + trContent;
                 return true;
             }
             return false;

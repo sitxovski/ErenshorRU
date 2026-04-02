@@ -1,0 +1,405 @@
+# ui_extra.txt: 404 violations
+L12|+2|EN(29):How does your journey begin? |RU(31):Как начнётся твоё путешествие? 
+L13|+9|EN(9):Stranded!|RU(18):Выброшен на берег!
+L18|+4|EN(11):Load Backup|RU(15):Загрузить бэкап
+L19|+2|EN(17):LOADING DATABASES|RU(19):ЗАГРУЗКА БАЗ ДАННЫХ
+L20|+2|EN(17):Loading Guilds...|RU(19):Загрузка гильдий...
+L23|+3|EN(18):Finalizing Data...|RU(21):Финализация данных...
+L27|+3|EN(61):This is best used for restoring corrupted or lost save games.|RU(64):Лучше всего подходит для восстановления повреждённых сохранений.
+L28|+7|EN(7):Warning|RU(14):Предупреждение
+L34|+7|EN(22):Welcome to Erenshor \n|RU(29):Добро пожаловать в Эреншор \n
+L35|+1|EN(21):Early Access is Live!|RU(22):Ранний доступ запущен!
+L40|+4|EN(6):Resume|RU(10):Продолжить
+L43|+2|EN(6):STUCK!|RU(8):ЗАСТРЯЛ!
+L44|+3|EN(8):Reset UI|RU(11):Сбросить UI
+L45|+6|EN(15):Combat Feedback|RU(21):Боевая обратная связь
+L46|+9|EN(18):Join the community|RU(27):Присоединиться к сообществу
+L53|+7|EN(5):VSync|RU(12):Верт. синхр.
+L59|+5|EN(58):\nHotkey 1\n\nHotkey 2\n\nHotkey 3\n\nHotkey 4\n\nHotkey 5|RU(63):\nКлавиша 1\n\nКлавиша 2\n\nКлавиша 3\n\nКлавиша 4\n\nКлавиша 5
+L60|+5|EN(58):\nHotkey 6\n\nHotkey 7\n\nHotkey 8\n\nHotkey 9\n\nHotkey 0|RU(63):\nКлавиша 6\n\nКлавиша 7\n\nКлавиша 8\n\nКлавиша 9\n\nКлавиша 0
+L63|+1|EN(18):Commands and Hints|RU(19):Команды и подсказки
+L66|+4|EN(28):< Place item here to destroy|RU(32):< Положи предмет для уничтожения
+L67|+2|EN(6):Health|RU(8):Здоровье
+L71|+2|EN(3):XP:|RU(5):Опыт:
+L72|+2|EN(5):Gold:|RU(7):Золото:
+L79|+2|EN(4):End:|RU(6):Стойк:
+L80|+1|EN(4):Dex:|RU(5):Ловк:
+L81|+1|EN(4):Agi:|RU(5):Пров:
+L85|+1|EN(4):Res:|RU(5):Сопр:
+L87|+2|EN(3):End|RU(5):Стойк
+L88|+1|EN(3):Dex|RU(4):Ловк
+L89|+1|EN(3):Agi|RU(4):Пров
+L96|+3|EN(8):Agility:|RU(11):Проворство:
+L98|+2|EN(7):Wisdom:|RU(9):Мудрость:
+L102|+3|EN(10):Hardiness:|RU(13):Выносливость:
+L103|+1|EN(8):Finesse:|RU(9):Точность:
+L106|+3|EN(12):Restoration:|RU(15):Восстановление:
+L107|+1|EN(5):Mind:|RU(6):Разум:
+L108|+4|EN(11):Mitigation:|RU(15):Снижение урона:
+L109|+3|EN(6):Haste:|RU(9):Скорость:
+L115|+6|EN(7):Resists|RU(13):Сопротивления
+L116|+6|EN(9):Resists\n|RU(15):Сопротивления\n
+L119|+3|EN(5):Void:|RU(8):Пустота:
+L120|+3|EN(7):Void:\n|RU(10):Пустота:\n
+L121|+2|EN(5):Elem:|RU(7):Стихия:
+L122|+5|EN(47):Str: \nEnd:\nDex:\nAgi:\nInt:\nWis:\nCha:\nRes:|RU(52):Сил: \nСтойк:\nЛовк:\nПров:\nИнт:\nМуд:\nХар:\nСопр:
+L124|+4|EN(6):Vitals|RU(10):Показатели
+L127|+3|EN(6):Delay:|RU(9):Задержка:
+L128|+4|EN(6):Range:|RU(10):Дальность:
+L130|+1|EN(13):Slot: Primary|RU(14):Слот: Основной
+L131|+1|EN(9):Equipment|RU(10):Экипировка
+L136|+2|EN(4):Head|RU(6):Голова
+L137|+4|EN(5):Chest|RU(9):Нагрудник
+L138|+2|EN(3):Arm|RU(5):Наруч
+L141|+1|EN(3):Leg|RU(4):Ноги
+L142|+2|EN(4):Foot|RU(6):Ступни
+L143|+2|EN(6):Foot\n|RU(8):Ступни\n
+L145|+2|EN(4):Ring|RU(6):Кольцо
+L146|+3|EN(5):Wrist|RU(8):Запястье
+L149|+1|EN(5):Hard.|RU(6):Вынос.
+L150|+1|EN(4):Fin.|RU(5):Точн.
+L157|+1|EN(10):Auto Stack|RU(11):Авто-стопка
+L158|+2|EN(10):Close Bank|RU(12):Закрыть банк
+L162|+3|EN(14):Points Spent: |RU(17):Потрачено очков: 
+L164|+4|EN(9):Add Point|RU(13):Добавить очко
+L168|+5|EN(9):Quest Log|RU(14):Журнал квестов
+L169|+2|EN(6):Active|RU(8):Активные
+L170|+2|EN(13):Active Quests|RU(15):Активные квесты
+L171|+2|EN(9):Completed|RU(11):Завершённые
+L172|+2|EN(16):Completed Quests|RU(18):Завершённые квесты
+L173|+1|EN(10):Repeatable|RU(11):Повторяемые
+L178|+5|EN(11):View Skills|RU(16):Просмотр навыков
+L179|+4|EN(13):Assign Hotkey|RU(17):Назначить клавишу
+L180|+6|EN(11):Make Hotkey|RU(17):Назначить клавишу
+L181|+1|EN(13):Previous Page|RU(14):Пред. страница
+L183|+1|EN(9):Ascension|RU(10):Вознесение
+L184|+2|EN(6):Ascend|RU(8):Вознести
+L185|+2|EN(17):Spell Description|RU(19):Описание заклинания
+L186|+5|EN(15):Dodge Expertise|RU(20):Мастерство уклонения
+L187|+6|EN(13):Innate Health|RU(19):Врождённое здоровье
+L190|+5|EN(12):Manage Group|RU(17):Управлять группой
+L191|+4|EN(12):Manage Roles|RU(16):Управлять ролями
+L192|+3|EN(18):Assign Group Roles|RU(21):Назначить роли группы
+L194|+3|EN(9):Main Tank|RU(12):Главный танк
+L195|+3|EN(11):Main Assist|RU(14):Главный ассист
+L197|+2|EN(7):Healing|RU(9):Исцеление
+L199|+2|EN(9):DPS Focus|RU(11):Фокус урона
+L203|+1|EN(11):Invis Group|RU(12):Инвиз группы
+L204|+3|EN(5):Guard|RU(8):Охранять
+L205|+3|EN(6):Follow|RU(9):Следовать
+L206|+1|EN(15):Toggle \nPuller|RU(16):Вкл/Выкл\nПуллер
+L207|+6|EN(13):Group Builder|RU(19):Формирование группы
+L208|+4|EN(13):Invite Player|RU(17):Пригласить игрока
+L209|+3|EN(7):Dismiss|RU(10):Распустить
+L210|+2|EN(14):Dismiss Player|RU(16):Отпустить игрока
+L211|+4|EN(10):Add Friend|RU(14):Добавить друга
+L212|+9|EN(8):Unfriend|RU(17):Удалить из друзей
+L214|+1|EN(5):Peers|RU(6):Равные
+L215|+3|EN(14):Group Member 1|RU(17):Участник группы 1
+L216|+3|EN(14):Group Member 2|RU(17):Участник группы 2
+L217|+3|EN(16):Group Member 3\n|RU(19):Участник группы 3\n
+L218|+3|EN(16):Group Member 4\n|RU(19):Участник группы 4\n
+L219|+1|EN(7):Group 1|RU(8):Группа 1
+L220|+1|EN(9):Group 2\n|RU(10):Группа 2\n
+L221|+2|EN(11):Member Name|RU(13):Имя участника
+L222|+3|EN(11):DPS Manager|RU(14):Менеджер урона
+L223|+3|EN(14):DPS Management|RU(17):Управление уроном
+L228|+1|EN(14):Healing Matrix|RU(15):Матрица лечения
+L231|+2|EN(27):Hold if under % group mana:|RU(29):Ждать при мане группы ниже %:
+L232|+1|EN(21):Max distance to pull:|RU(22):Макс. дистанция пулла:
+L240|+2|EN(12):Target DPS: |RU(14):Урон по цели: 
+L241|+1|EN(11):Player DPS:|RU(12):Урон игрока:
+L242|+3|EN(9):Max Hit: |RU(12):Макс. удар: 
+L243|+2|EN(8):Min Hit:|RU(10):Мин. удар:
+L244|+4|EN(8):Avg Hit:|RU(12):Средн. удар:
+L245|+4|EN(10):Target Pet|RU(14):Цель — питомец
+L247|+1|EN(14):Quick Commands|RU(15):Быстрые команды
+L248|+1|EN(5):Blade|RU(6):Клинок
+L252|+3|EN(13):Guild Manager|RU(16):Менеджер гильдии
+L254|+1|EN(14):Guild Rankings|RU(15):Рейтинг гильдий
+L255|+6|EN(10):Guild Name|RU(16):Название гильдии
+L256|+1|EN(15):Guild Name Here|RU(16):Название гильдии
+L257|+1|EN(20):Guild Administration|RU(21):Администрация гильдии
+L258|+3|EN(13):Guild Actions|RU(16):Действия гильдии
+L259|+3|EN(14):Create Guild\n|RU(17):Создать гильдию\n
+L260|+1|EN(14):Create a Guild|RU(15):Создать гильдию
+L261|+3|EN(12):Delete Guild|RU(15):Удалить гильдию
+L262|+1|EN(14):Delete a Guild|RU(15):Удалить гильдию
+L263|+5|EN(11):Leave Guild|RU(16):Покинуть гильдию
+L264|+3|EN(5):Leave|RU(8):Покинуть
+L271|+10|EN(40):Type "DELETE" to confirm. This is final.|RU(50):Напиши «DELETE» для подтверждения. Это необратимо.
+L274|+1|EN(12):Confirmation|RU(13):Подтверждение
+L276|+3|EN(7):Proceed|RU(10):Продолжить
+L278|+4|EN(15):Invite to Group|RU(19):Пригласить в группу
+L280|+7|EN(12):Roster Admin|RU(19):Управление составом
+L281|+3|EN(15):Selected Member|RU(18):Выбранный участник
+L288|+3|EN(7):Sort By|RU(10):Сортировка
+L293|+6|EN(13):Asking Price:|RU(19):Запрашиваемая цена:
+L294|+4|EN(14):Selected Item:|RU(18):Выбранный предмет:
+L295|+2|EN(6):Seller|RU(8):Продавец
+L296|+1|EN(11):Seller Name|RU(12):Имя продавца
+L297|+1|EN(12):Seller Name:|RU(13):Имя продавца:
+L299|+1|EN(19):Your Broker Slots\n|RU(20):Ваши слоты брокера\n
+L300|+3|EN(16):CONFIRM PURCHASE|RU(19):ПОДТВЕРДИТЬ ПОКУПКУ
+L302|+3|EN(5):Clear|RU(8):Очистить
+L303|+3|EN(17):Clear All Filters|RU(20):Очистить все фильтры
+L304|+4|EN(10):Sell Stack|RU(14):Продать стопку
+L305|+2|EN(12):Cancel Trade|RU(14):Отменить обмен
+L307|+4|EN(7):Goodbye|RU(11):До свидания
+L308|+13|EN(14):Last Sold Item|RU(27):Последний проданный предмет
+L309|+1|EN(9):Next Page|RU(10):След. стр.
+L317|+6|EN(6):Opaque|RU(12):Непрозрачное
+L319|+4|EN(11):Charmed NPC|RU(15):Очарованный НПС
+L321|+1|EN(8):Back off|RU(9):Отступить
+L322|+1|EN(8):Back Off|RU(9):Отступить
+L324|+3|EN(18):-Controlled Chant-|RU(21):—Контролируемый каст—
+L325|+2|EN(21):Waiting for Revive...|RU(23):Ожидание воскрешения...
+L328|+4|EN(7):Respawn|RU(11):Возродиться
+L329|+3|EN(4):Run!|RU(7):Бежать!
+L330|+1|EN(4):Rest|RU(5):Отдых
+L338|+3|EN(13):Let's Group\n|RU(16):Давай в группу\n
+L340|+5|EN(3):Say|RU(8):Разговор
+L343|+3|EN(4):Main|RU(7):Главный
+L344|+3|EN(8):Main Tab|RU(11):Гл. вкладка
+L345|+4|EN(3):Tab|RU(7):Вкладка
+L346|+5|EN(3):Add|RU(8):Добавить
+L347|+1|EN(6):Remove|RU(7):Удалить
+L348|+5|EN(24):Add or Remove chat boxes|RU(29):Добавить или убрать окна чата
+L349|+9|EN(7):Add Tab|RU(16):Добавить вкладку
+L350|+7|EN(8):Del. Tab|RU(15):Удалить вкладку
+L357|+1|EN(16):Zone Wide Events|RU(17):Зональные события
+L358|+3|EN(11):Heals on Me|RU(14):Лечение на мне
+L359|+2|EN(10):Hits on Me|RU(12):Удары по мне
+L360|+1|EN(10):My Healing|RU(11):Моё лечение
+L361|+2|EN(7):My Hits|RU(9):Мои удары
+L366|+5|EN(15):Hide Bottom Bar|RU(20):Скрыть нижнюю панель
+L367|+4|EN(24):Do not alert for updates|RU(28):Не уведомлять об обновлениях
+L375|+2|EN(5):Build|RU(7):Строить
+L381|+1|EN(13):Statue \nOnly|RU(14):Только\nстатуя
+L390|+2|EN(7):Combine|RU(9):Соединить
+L399|+5|EN(5):Charm|RU(10):Очарование
+L403|+3|EN(13):Current Tier:|RU(16):Текущий уровень:
+L404|+1|EN(12): Upgrade To:|RU(13): Улучшить до:
+L405|+5|EN(5):Offer|RU(10):Предложить
+L406|+5|EN(17):Offer Sivakruxes:|RU(22):Предложить Сивакруксы:
+L409|+9|EN(30):This will use one planar stone|RU(39):Будет использован один планарный камень
+L411|+3|EN(6):Planar|RU(9):Планарный
+L412|+2|EN(14):Planar Stones:|RU(16):Планарные Камни:
+L416|+6|EN(18):Server Admin Panel|RU(24):Панель администрирования
+L418|+1|EN(12):Server Reset|RU(13):Сброс сервера
+L419|+3|EN(9):Reset All|RU(12):Сбросить всё
+L420|+5|EN(14):Reset Selected|RU(19):Сбросить выбранного
+L421|+3|EN(12):Reset Server|RU(15):Сбросить сервер
+L422|+3|EN(20):Reset All SimPlayers|RU(23):Сбросить всех SimPlayer
+L428|+3|EN(19):NPC DMG Modifier: 1|RU(22):Множитель урона NPC: 1
+L429|+1|EN(18):NPC HP Modifier: 1|RU(19):Множитель ОЗ NPC: 1
+L430|+4|EN(14):XP Modifier: 1|RU(18):Множитель опыта: 1
+L433|+2|EN(19):XP Penalty on Death|RU(21):Штраф опыта за смерть
+L437|+4|EN(8):Casual\n|RU(12):Казуальный\n
+L439|+3|EN(8):Extended|RU(11):Расширенный
+L440|+2|EN(11):Recommended|RU(13):Рекомендуемый
+L449|+7|EN(28):~Press Escape to Close Tips~|RU(35):~Нажми Esc чтобы закрыть подсказки~
+L450|+1|EN(24):Erenshor - Beginner tip:|RU(25):Erenshor — совет новичку:
+L453|+8|EN(30):Continue with Classic Settings|RU(38):Продолжить с классическими настройками
+L454|+1|EN(6):Got it|RU(7):Понятно
+L455|+1|EN(7):Got it!|RU(8):Понятно!
+L456|+11|EN(17):Set Respawn Point|RU(28):Установить точку возрождения
+L463|+5|EN(10):Clean List|RU(15):Очистить список
+L464|+2|EN(11):E- Loot All|RU(13):E — Взять всё
+L465|+2|EN(11):Esc - Close|RU(13):Esc — Закрыть
+L466|+3|EN(11):Destroy All|RU(14):Уничтожить всё
+L475|+1|EN(2):ER|RU(3):СтС
+L477|+1|EN(5):Ratio|RU(6):Соотн.
+L478|+1|EN(3):Dly|RU(4):Зад.
+L481|+1|EN(8):Constant|RU(9):Постоянно
+L482|+2|EN(6):Toggle|RU(8):Вкл/Выкл
+L483|+2|EN(28):ALERT TO RETURNING PLAYERS\n|RU(30):ВНИМАНИЕ ВЕРНУВШИМСЯ ИГРОКАМ\n
+L486|+5|EN(22):Social Log Initialized|RU(27):Лог общения инициализирован
+L500|+2|EN(3):Res|RU(5):Сопр.
+L501|+10|EN(88):This item is undervalued on a regular basis by Port Azure. Many question its true worth.|RU(98):Этот предмет регулярно недооценивается в Порт-Лазури. Многие сомневаются в его истинной стоимости.
+L504|+1|EN(5):Ultra|RU(6):Ультра
+L508|+1|EN(5):Tab 1|RU(6):Вкл. 1
+L509|+1|EN(5):Tab 2|RU(6):Вкл. 2
+L510|+1|EN(5):Tab 3|RU(6):Вкл. 3
+L511|+1|EN(5):Tab 4|RU(6):Вкл. 4
+L512|+1|EN(5):Tab 5|RU(6):Вкл. 5
+L520|+2|EN(95):DEBUG\n/iamadev\n/dosunny\n/time1\n/time50\n/time\n/bluesky\n/raining\n/thunder\n/droneme\nF7\n|RU(97):ОТЛАДКА\n/iamadev\n/dosunny\n/time1\n/time50\n/time\n/bluesky\n/raining\n/thunder\n/droneme\nF7\n
+L538|+5|EN(107):Erenshor™ and Burgee Media™ are property of Burgee Media LLC. © 2025 Burgee Media LLC. All rights reserved.|RU(112):Erenshor™ и Burgee Media™ являются собственностью Burgee Media LLC. © 2025 Burgee Media LLC. Все права защищены.
+L548|+14|EN(237):The Arcanist is a magical being, who thrives in cloth armor.\n\nArcanists command magic of all types, and they have many tools to control the tides of battle and subdue opponents.\n\nAn Arcanist should focus on Intelligence and Charisma.|RU(251):Арканист — магическое существо, превосходно чувствующее себя в тканевой броне.\n\nАрканисты повелевают магией всех видов и имеют множество инструментов для контроля хода битвы и подчинения противников.\n\nАрканисту стоит развивать Интеллект и Харизму.
+L572|+8|EN(71):Increases your ability to use STRENGTH for Melee Damage and Bow Damage.|RU(79):Увеличивает эффективность использования СИЛЫ для урона в ближнем бою и из лука.
+L585|+3|EN(10):Unsellable|RU(13):Непродаваемый
+L586|+2|EN(20):Primary or Secondary|RU(22):Основной или Вторичной
+L587|+3|EN(39):Right click or assign to hotkey to use.|RU(42):ПКМ или горячая клавиша для использования.
+L591|+4|EN(7):Ability|RU(11):Способность
+L592|+5|EN(5):Spell|RU(10):Заклинание
+L593|+3|EN(4):Item|RU(7):Предмет
+L594|+5|EN(16):No active effect|RU(21):Нет активного эффекта
+L595|+1|EN(12):Empty Hotkey|RU(13):Пустой хоткей
+L596|+4|EN(18):No Spell Selected.|RU(22):Заклинание не выбрано.
+L608|+3|EN(31):Getting main assist's target...|RU(34):Получение цели главного ассиста...
+L613|+1|EN(40):Can't invite party members while dead...|RU(41):Нельзя приглашать в группу, пока мёртв...
+L618|+3|EN(20):Group roles reset...|RU(23):Роли группы сброшены...
+L625|+5|EN(31):Name can only contain A-Z, 0-9.|RU(36):Имя может содержать только A-Z, 0-9.
+L628|+1|EN(13):New Character|RU(14):Новый персонаж
+L629|+13|EN(14):Play to Unlock|RU(27):Играй, чтобы разблокировать
+L630|+2|EN(15):Erase Character|RU(17):Удалить персонажа
+L631|+3|EN(20):Assign Proficiencies|RU(23):Распределить мастерство
+L634|+8|EN(12):Invalid item|RU(20):Недопустимый предмет
+L635|+1|EN(29):Price must be a round number.|RU(30):Цена должна быть целым числом.
+L636|+7|EN(15):Item data error|RU(22):Ошибка данных предмета
+L637|+8|EN(25):Price cannot be negative.|RU(33):Цена не может быть отрицательной.
+L638|+8|EN(33):Blessed items not supported in AH|RU(41):Благословлённые предметы нельзя выставить
+L639|+8|EN(22):No empty seller slots.|RU(30):Нет свободных слотов продавца.
+L640|+3|EN(9):No Seller|RU(12):Нет продавца
+L641|+1|EN(12):No Inventory|RU(13):Нет инвентаря
+L654|+3|EN(4):Sell|RU(7):Продать
+L655|+3|EN(10):Give Items|RU(13):Дать предметы
+L656|+4|EN(12):Upgrade Item|RU(16):Улучшить предмет
+L657|+5|EN(12):Discard Item|RU(17):Выбросить предмет
+L658|+6|EN(8):Buy Item|RU(14):Купить предмет
+L659|+1|EN(10):Equip Item|RU(11):Экипировать
+L660|+3|EN(9):Item Name|RU(12):Имя предмета
+L661|+4|EN(10):Item Stats|RU(14):Стат. предмета
+L662|+3|EN(14):Item Search...|RU(17):Поиск предмета...
+L667|+4|EN(6):Invite|RU(10):Пригласить
+L668|+12|EN(8):Uninvite|RU(20):Отменить приглашение
+L671|+6|EN(13):Press any key|RU(19):Нажми любую клавишу
+L673|+1|EN(12):Hair Style\n|RU(13):Стиль волос\n
+L674|+1|EN(5):Beard|RU(6):Борода
+L675|+5|EN(14):Save Character|RU(19):Сохранить персонажа
+L677|+4|EN(7):Confirm|RU(11):Подтвердить
+L679|+2|EN(5):Close|RU(7):Закрыть
+L680|+1|EN(4):Exit|RU(5):Выход
+L681|+1|EN(4):Back|RU(5):Назад
+L684|+1|EN(2):No|RU(3):Нет
+L685|+1|EN(4):No\n|RU(5):Нет\n
+L686|+2|EN(7):Decline|RU(9):Отклонить
+L687|+1|EN(6):Accept|RU(7):Принять
+L688|+4|EN(8):Defaults|RU(12):По умолчанию
+L691|+2|EN(8):Continue|RU(10):Продолжить
+L692|+1|EN(10):Disconnect|RU(11):Отключиться
+L694|+1|EN(5):Group|RU(6):Группа
+L696|+11|EN(6):Respec|RU(17):Перераспределение
+L699|+1|EN(4):Mind|RU(5):Разум
+L702|+1|EN(7):Finesse|RU(8):Точность
+L704|+3|EN(9):Hardiness|RU(12):Выносливость
+L705|+8|EN(11):View Spells|RU(19):Просмотр заклинаний
+L706|+7|EN(16):Elemental Resist|RU(23):Стихийное сопротивление
+L707|+10|EN(11):Void Resist|RU(21):Сопротивление Пустоте
+L709|+6|EN(13):Innate Health|RU(19):Врождённое здоровье
+L710|+3|EN(14):Innate Defense|RU(17):Врождённая защита
+L714|+4|EN(19):Secure Login Portal|RU(23):Безопасный Портал Входа
+L716|+1|EN(46):Meet other players! Join the official Discord.|RU(47):Познакомься с другими! Присоединяйся к Discord.
+L719|+10|EN(43):Balance Update: Paladins, Skills. and more!|RU(53):Обновление баланса: Паладины, навыки и многое другое!
+L721|+4|EN(17):Ambience Volume\n|RU(21):Громкость окружения\n
+L723|+2|EN(8):Controls|RU(10):Управление
+L724|+2|EN(4):Misc|RU(6):Прочее
+L727|+7|EN(13):Draw Distance|RU(20):Дальность прорисовки
+L731|+2|EN(10):Saturation|RU(12):Насыщенность
+L733|+7|EN(10):Color Temp|RU(17):Цвет. температура
+L734|+3|EN(13):Cam Smoothing|RU(16):Плавность камеры
+L736|+1|EN(13):Grass Quality|RU(14):Качество травы
+L742|+8|EN(17):Spell FX (Player)|RU(25):Эффекты заклинаний (свои)
+L743|+10|EN(17):Spell FX (Others)|RU(27):Эффекты заклинаний (другие)
+L744|+1|EN(23):View Server Admin Panel|RU(24):Панель Администрирования
+L745|+4|EN(20):- Experimental -\n\n|RU(24):- Экспериментально -\n\n
+L746|+1|EN(22):\nTarget Group Members|RU(23):\nВыбрать членов группы
+L747|+2|EN(18):Any Available Slot|RU(20):Любой свободный слот
+L748|+4|EN(10):Spell Name|RU(14):Имя заклинания
+L749|+8|EN(11):Break Spell|RU(19):Прервать заклинание
+L752|+10|EN(15):Mineral Deposit|RU(25):Минеральное месторождение
+L753|+12|EN(34):Mineral Deposit\n(Regenerating...)|RU(46):Минеральное месторождение\n(Восстановление...)
+L757|+3|EN(14):Points spent: |RU(17):Потрачено очков: 
+L758|+3|EN(14):Ascension XP: |RU(17):Опыт вознесения: 
+L767|+8|EN(21):Current Tier: Blessed|RU(29):Текущий уровень: Благословлён
+L768|+4|EN(20):Current Tier: Normal|RU(24):Текущий уровень: Обычный
+L769|+6|EN(8):End Raid|RU(14):Завершить рейд
+L770|+2|EN(15):Planar Stones: |RU(17):Планарные камни: 
+L774|+11|EN(13):You say: Hail|RU(24):Вы говорите: Приветствую
+L776|+2|EN(19):No keys on Keyring.|RU(21):Нет ключей на связке.
+L780|+2|EN(18): SimPlayers Loaded|RU(20): SimPlayer загружено
+L784|+2|EN(17):Data Deleted for |RU(19):Данные удалены для 
+L788|+2|EN(6):Level |RU(8):Уровень 
+L790|+1|EN(13):Activatable: |RU(14):Активируемый: 
+L791|+3|EN(13):Worn Effect: |RU(16):Носимый эффект: 
+L792|+3|EN(10):Base DPS: |RU(13):Базовый ДПС: 
+L794|+5|EN(11):Mana Cost: |RU(16):Стоимость маны: 
+L795|+4|EN(12):Spell Type: |RU(16):Тип заклинания: 
+L800|+11|EN(17):Welcome to Level |RU(28):Добро пожаловать на уровень 
+L801|+2|EN(8):Seller: |RU(10):Продавец: 
+L802|+2|EN(17):Deleted Data for |RU(19):Данные удалены для 
+L806|+4|EN(5):Page |RU(9):Страница 
+L807|+5|EN(24):spell did not take hold!|RU(29): заклинание не подействовало!
+L808|+3|EN(22):spell has worn off of |RU(25): заклинание рассеялось у 
+L809|+13|EN(11):spell hits |RU(24): заклинание попадает по 
+L811|+3|EN(24): healing spell restores |RU(27): исцеление восстанавливает 
+L813|+1|EN(16): did  damage to |RU(17): нанёс  урона по 
+L815|+7|EN(16):Treasure Hunt:\n|RU(23):Охота за сокровищами:\n
+L816|+12|EN(14):Treasure Loc\n|RU(26):Местоположение сокровища\n
+L822|+3|EN(16):NPC DMG Modifier|RU(19):Множитель урона NPC
+L823|+1|EN(15):NPC HP Modifier|RU(16):Множитель ОЗ NPC
+L826|+4|EN(11):XP Modifier|RU(15):Множитель опыта
+L827|+3|EN(19):Server Status: Live|RU(22):Статус сервера: Онлайн
+L828|+4|EN(19):Server Status: Down|RU(23):Статус сервера: Оффлайн
+L829|+5|EN(19):Server Status: Busy|RU(24):Статус сервера: Загружен
+L830|+3|EN(19):Server Status: Full|RU(22):Статус сервера: Полный
+L831|+7|EN(21):Server Status: Locked|RU(28):Статус сервера: Заблокирован
+L841|+4|EN(21):Attack Roll Modifier |RU(25):Модификатор броска атаки 
+L842|+6|EN(23):NPC HP scale modifier: |RU(29):Модификатор масштаба ОЗ NPC: 
+L843|+6|EN(39):you must zone to activate this modifier|RU(45):нужно сменить зону для активации модификатора
+L844|+3|EN(17):NPC HP MODIFIER: |RU(20):МОДИФИКАТОР ОЗ NPC: 
+L845|+5|EN(18):NPC DMG MODIFIER: |RU(23):МОДИФИКАТОР УРОНА NPC: 
+L846|+5|EN(33):Server reset failed, see log file|RU(38):Сброс сервера не удался, см. файл лога
+L847|+3|EN(49):Server reset complete... backup files are intact.|RU(52):Сброс сервера завершён... резервные копии сохранены.
+L848|+3|EN(14):Ascension XP: |RU(17):Опыт вознесения: 
+L854|+2|EN(9):Windblade|RU(11):Ветроклинок
+L865|+1|EN(15):Windwashed Pass|RU(16):Ветровой Перевал
+L866|+1|EN(12):Hidden Hills|RU(13):Скрытые Холмы
+L869|+1|EN(15):Fallen Braxonia|RU(16):Павшая Браксония
+L871|+3|EN(13):Ripper's Keep|RU(16):Крепость Риппера
+L872|+3|EN(12):Abyssal Lake|RU(15):Бездонное Озеро
+L875|+2|EN(17):Mysterious Portal|RU(19):Таинственный Портал
+L876|+7|EN(11):Island Tomb|RU(18):Островная Гробница
+L877|+1|EN(14):Rockshade Hold|RU(15):Оплот Камнетени
+L879|+6|EN(11):Lost Cellar|RU(17):Потерянный Погреб
+L881|+1|EN(16):Prielian Cascade|RU(17):Приельский Каскад
+L882|+1|EN(15):Bellwain Island|RU(16):Остров Беллвейна
+L890|+3|EN(14):Old Krakengard|RU(17):Старый Кракенгард
+L891|+3|EN(25):Fernalla's Revival Plains|RU(28):Равнины Возрождения Ферналлы
+L895|+1|EN(16):Blacksalt Strand|RU(17):Чёрносолёная Коса
+L896|+5|EN(16):Braxonian Desert|RU(21):Браксонийская Пустыня
+L898|+2|EN(17):Underspine Hollow|RU(19):Подхребтовая Лощина
+L899|+5|EN(9):LoadScene|RU(14):Экран загрузки
+L901|+2|EN(9): - Level |RU(11): — Уровень 
+L902|+2|EN(7):Level: |RU(9):Уровень: 
+L905|+12|EN(72):You have unspent PROFICIENCY POINTS! Open your inventory to assign them.|RU(84):У вас есть нераспределённые ОЧКИ МАСТЕРСТВА! Откройте инвентарь, чтобы назначить их.
+L908|+3|EN(16):<Auction Broker>|RU(19):<Аукционный брокер>
+L910|+1|EN(21):<Adventurer Merchant>|RU(22):<Торговец снаряжением>
+L911|+1|EN(19):<Arcanist Merchant>|RU(20):<Торговец арканиста>
+L912|+2|EN(18):<Archery Merchant>|RU(20):<Торговец стрельбой>
+L913|+1|EN(16):<Armor Merchant>|RU(17):<Торговец бронёй>
+L914|+4|EN(19):<Aura Gem Merchant>|RU(23):<Торговец аура-камнями>
+L915|+1|EN(16):<Druid Merchant>|RU(17):<Торговец друида>
+L916|+1|EN(18):<Fishing Merchant>|RU(19):<Торговец рыболова>
+L918|+5|EN(17):<Fossil Merchant>|RU(22):<Торговец ископаемыми>
+L921|+2|EN(18):<Jewelry Merchant>|RU(20):<Ювелирный торговец>
+L922|+5|EN(20):<Lore Book Merchant>|RU(25):<Торговец книгами знаний>
+L923|+3|EN(19):<Oddities Merchant>|RU(22):<Торговец диковинками>
+L924|+1|EN(18):<Paladin Merchant>|RU(19):<Торговец паладина>
+L926|+4|EN(19):<Research Merchant>|RU(23):<Торговец исследований>
+L927|+5|EN(21):<Skill Book Merchant>|RU(26):<Торговец книгами навыков>
+L928|+7|EN(16):<Spell Merchant>|RU(23):<Торговец заклинаниями>
+L929|+1|EN(22):<Stormcaller Merchant>|RU(23):<Торговец буревестника>
+L930|+3|EN(19):<Treasure Merchant>|RU(22):<Торговец сокровищами>
+L932|+2|EN(20):<Windblade Merchant>|RU(22):<Торговец ветроклинка>
+L939|+5|EN(28):< Place item here to destroy|RU(33):< Перетащите сюда для уничтожения
+L944|+1|EN(10):Empty Slot|RU(11):Пустой слот
+L945|+1|EN(5):Goods|RU(6):Товары
+L949|+5|EN(10):Lock North|RU(15):Закрепить север
+L950|+1|EN(9):World Map|RU(10):Карта мира
+L951|+3|EN(45):Draw real-time geometry (can cause FPS drops)|RU(48):Отрисовка в реальном времени (может снизить FPS)
+L954|+3|EN(26):Toggle Gamepad / Steamdeck|RU(29):Вкл/Выкл геймпад / Steam Deck
+L956|+3|EN(7):Zoom In|RU(10):Приблизить
+L957|+4|EN(15):Spells & Skills|RU(19):Заклинания и навыки
+L959|+2|EN(3):Map|RU(5):Карта
+L962|+7|EN(264):Forward:\n\nBackward:\n\nLeft:\n\nRight:\n\nJump:\n\nAutoattack:\n\nConsider Opponent:\n\nHail / Greet:\n\nSpells and Skills:\n\nQuest Log:\n\nCycle Targets:\n\nOpen / Submit Chat:\n\nInventory:\n\nOptions Menu:\n\nStrafe Left:\n\nStrafe Right:\n\nAutorun:\n\nSit:|RU(271):Вперёд:\n\nНазад:\n\nВлево:\n\nВправо:\n\nПрыжок:\n\nАвтоатака:\n\nОценить противника:\n\nПриветствие:\n\nЗаклинания и навыки:\n\nЖурнал квестов:\n\nСмена цели:\n\nОткрыть / Отправить чат:\n\nИнвентарь:\n\nМеню настроек:\n\nШаг влево:\n\nШаг вправо:\n\nАвтобег:\n\nСесть:

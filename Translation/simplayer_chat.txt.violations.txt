@@ -1,0 +1,1043 @@
+# simplayer_chat.txt: 1042 violations
+L16|+2|EN(11):are you ok?|RU(13):ты в порядке?
+L19|+2|EN(7):Aw, ok.|RU(9):А, ладно.
+L20|+6|EN(7):aw ffs!|RU(13):бл, ну нафиг!
+L24|+3|EN(17):awww man afk beer|RU(20):ааа чел афк за пивом
+L31|+9|EN(8):bro wtf!|RU(17):бро, чё за нафиг!
+L33|+13|EN(20):bug someone else ok?|RU(33):доставай кого-нибудь другого, ок?
+L34|+1|EN(4):busy|RU(5):занят
+L37|+2|EN(12):Can you not?|RU(14):Может не надо?
+L38|+3|EN(8):carry me|RU(11):затащи меня
+L40|+5|EN(6):cheers|RU(11):за здоровье
+L41|+5|EN(7):cheers!|RU(12):за здоровье!
+L45|+2|EN(10):CONGRATS!!|RU(12):ПОЗДРАВЛЯЮ!!
+L46|+1|EN(4):cool|RU(5):круто
+L49|+11|EN(22):Cool, see ya in a few.|RU(33):Круто, увидимся через пару минут.
+L52|+3|EN(9):Dang, ok.|RU(12):Блин, ладно.
+L53|+1|EN(4):dead|RU(5):мёртв
+L54|+5|EN(16):dead come get me|RU(21):мёртв, подберите меня
+L62|+1|EN(9):dude wtf!|RU(10):чел чё за!
+L69|+2|EN(11):excuse me??|RU(13):прости, что??
+L70|+1|EN(15):fantastic work!|RU(16):шикарная работа!
+L74|+3|EN(10):get a life|RU(13):займись делом
+L75|+1|EN(8):get bent|RU(9):иди нафиг
+L78|+1|EN(17):get reported dork|RU(18):репорт тебе, дурак
+L81|+1|EN(45):going to be max level soon, LF raiding guild.|RU(46):скоро буду макс уровень, ищу рейдовую гильдию.
+L82|+3|EN(8):good day|RU(11):добрый день
+L84|+5|EN(10):goodnight!|RU(15):спокойной ночи!
+L85|+2|EN(16):got a sivakrux!!|RU(18):достал сивакрукс!!
+L95|+1|EN(5):hello|RU(6):привет
+L96|+1|EN(8):hello NN|RU(9):привет NN
+L97|+6|EN(23):Hello, you XPing today?|RU(29):Привет, опыт качаешь сегодня?
+L99|+8|EN(8):Hey bud.|RU(16):Здорово, братан.
+L101|+4|EN(4):Hey!|RU(8): Привет!
+L103|+3|EN(7):heya NN|RU(10):здорово NN
+L105|+3|EN(7):hi dude|RU(10):привет чел
+L106|+4|EN(5):hi NN|RU(9):привет NN
+L107|+4|EN(15):Hi NN what's up|RU(19):Привет NN, как дела
+L108|+6|EN(34):Hi! LMK if you wanna do something.|RU(40):Привет! Скажи если хочешь что-то делать.
+L109|+3|EN(8):Hiya NN!|RU(11):Здорово NN!
+L115|+2|EN(5):howdy|RU(7):здорово
+L121|+6|EN(35):i barely had to look at the screen!|RU(41):почти даже на экран смотреть не пришлось!
+L122|+5|EN(21):i cant atm thanks tho|RU(26):не могу сейчас, но спасибо
+L128|+2|EN(12):i got rolled|RU(14):меня раскатали
+L129|+1|EN(13):i gotcha pal!|RU(14):я тебя поднял!
+L133|+9|EN(33):i may have to go if we keep dying|RU(42):наверно уйду если будем продолжать дохнуть
+L136|+5|EN(17):i wish i had that|RU(22):хотел бы я такое иметь
+L142|+1|EN(24):is always on in my house|RU(25):у меня дома всегда играет
+L143|+3|EN(14):is fast travel|RU(17):быстрый транспорт
+L146|+3|EN(22):is in all my playlists|RU(25):у меня во всех плейлистах
+L148|+2|EN(9):is my fav|RU(11):мой любимый
+L150|+5|EN(21):is my guilty pleasure|RU(26):моё виноватое удовольствие
+L152|+1|EN(32):is one of my all time favorites!|RU(33):один из моих любимых всех времён!
+L153|+1|EN(21):is one you might like|RU(22):тебе может понравиться
+L155|+1|EN(15):is pretty good.|RU(16):довольно хорошо.
+L158|+4|EN(18):it looks really OP|RU(22):выглядит реально имбой
+L159|+2|EN(16):it looks so cool|RU(18):выглядит так круто
+L163|+3|EN(31):laaaaaaag!! anyone else lagging|RU(34):лаааааг!! у кого-нибудь ещё лагает
+L169|+4|EN(11):LMAO! Help!|RU(15):ЛМАО! Помогите!
+L171|+1|EN(9):lmao rude|RU(10):лмао грубо
+L172|+6|EN(49):lol I like to be around humans, so I'll stay here|RU(55):лол мне нравится быть среди людей, так что останусь тут
+L174|+1|EN(8):lol nice|RU(9):лол круто
+L178|+3|EN(22):LOLLLLL okay. Help me.|RU(25):ЛОЛЛЛЛ ладно. Помоги мне.
+L182|+3|EN(14):max level yet?|RU(17):уже макс уровень?
+L187|+1|EN(6):mornin|RU(7):утречко
+L189|+4|EN(47):my food always gets delivered at the worst time|RU(51):мне всегда еду привозят в самый неподходящий момент
+L190|+2|EN(11):my pleasure|RU(13):рад стараться
+L191|+1|EN(4):neat|RU(5):клёво
+L192|+1|EN(5):neat!|RU(6):клёво!
+L199|+1|EN(20):Nice! Get rekt mobs!|RU(21):Найс! Получите, мобы!
+L201|+4|EN(8):no prob!|RU(12):без проблем!
+L202|+1|EN(10):no problem|RU(11):без проблем
+L203|+1|EN(12):no problemo!|RU(13):без проблемо!
+L206|+1|EN(4):No..|RU(5):Нет..
+L207|+1|EN(5):no...|RU(6):нет...
+L215|+4|EN(24):ok dude see you in a min|RU(28):ок чел увидимся через минуту
+L216|+1|EN(23):ok that one stung a bit|RU(24):ок эта подкосила немного
+L223|+3|EN(4):Otw!|RU(7):В пути!
+L226|+1|EN(16):peel this thing!|RU(17):сними это с меня!
+L229|+2|EN(8):reported|RU(10):зарепорчен
+L231|+2|EN(14):rofl stop dork|RU(16):рофл стоп дурень
+L232|+1|EN(5):rude.|RU(6):грубо.
+L233|+2|EN(6):see ya|RU(8):увидимся
+L234|+2|EN(10):see ya man|RU(12):увидимся чел
+L238|+3|EN(15):sounds fun, otw|RU(18):звучит весело, иду
+L240|+8|EN(20):stfu you still stink|RU(28):заткнись ты всё равно отстой
+L243|+3|EN(4):sure|RU(7):конечно
+L244|+5|EN(29):Sure I'll head over in a few.|RU(34):Конечно, подойду через пару минут.
+L245|+3|EN(5):sure!|RU(8):конечно!
+L246|+1|EN(5):sweet|RU(6):сладко
+L247|+1|EN(6):sweet!|RU(7):сладко!
+L248|+9|EN(13):teamwork baby|RU(22):командная работа детка
+L249|+1|EN(5):thank|RU(6):спасиб
+L254|+1|EN(6):Thanks|RU(7):Спасибо
+L257|+3|EN(28):thanks for sharing that drop|RU(31):спасибо что дал посмотреть дроп
+L259|+1|EN(14):that was rude.|RU(15):это было грубо.
+L266|+3|EN(11):thx info...|RU(14):спс за инфу...
+L268|+2|EN(4):tyvm|RU(6):спс бп
+L272|+1|EN(5):W00t!|RU(6):Ву-ху!
+L273|+2|EN(10):way to go!|RU(12):так держать!
+L283|+1|EN(10):whats new?|RU(11):что нового?
+L285|+6|EN(9):who cares|RU(15):кому какое дело
+L288|+1|EN(19):whoa trucked, help.|RU(20):ого сбили, помогите.
+L290|+4|EN(7):winner!|RU(11):победитель!
+L291|+2|EN(8):winning!|RU(10):побеждаем!
+L292|+2|EN(17):wow thats quite a|RU(19):ого ничего себе это
+L293|+1|EN(9):wrong guy|RU(10):не тот чел
+L307|+3|EN(6):yessir|RU(9):так точно
+L310|+1|EN(10):yo! on me!|RU(11):йо! на мне!
+L314|+2|EN(13):you look cool|RU(15):круто выглядишь
+L316|+5|EN(15):you still suck!|RU(20):ты всё равно отстой!
+L328|+2|EN(43):Hey where ya been NN? We should hang again!|RU(45):Хэй, где пропадал NN? Надо бы снова потусить!
+L332|+1|EN(12):heya, I'm at|RU(13):здорово, я на
+L333|+2|EN(11):heyo I'm at|RU(13):здорово, я на
+L334|+1|EN(14):hi pal, I'm in|RU(15):привет бро, я в
+L336|+5|EN(18):hi, if you're near|RU(23):привет, если ты рядом с
+L337|+9|EN(25):Hiya NN! Been a few days!|RU(34):Здорово NN! Пару дней не виделись!
+L339|+4|EN(67):Hey pal, nice to see you online again! Hit me up if you wanna hang.|RU(71):Привет, бро! Рад видеть тебя снова онлайн! Напиши если хочешь потусить.
+L341|+3|EN(7):heya NN|RU(10):здорово NN
+L342|+1|EN(29):Hey! Who let NN back in here?|RU(30):Привет! Кто пустил NN обратно?
+L343|+4|EN(15):Hi NN what's up|RU(19):Привет NN, как дела
+L350|+5|EN(40):NN! I missed blaming you for everything!|RU(45):NN! Скучал по тому как обвинять тебя во всём!
+L351|+2|EN(45):NN! I was just talking about you… in my head.|RU(47):NN! Я только что о тебе думал… у себя в голове.
+L363|+10|EN(52):Whoa! NN sighting! Quick, someone mark the calendar.|RU(62):Ого! NN замечен! Скорее, пусть кто-нибудь отметит в календаре.
+L365|+12|EN(35):Xp time?? We did awesome last time.|RU(47):Время качаться?? В прошлый раз мы круто зажгли.
+L366|+1|EN(44):Yaaaay you're back :) now we can get back to|RU(45):Ураааа ты вернулся :) теперь можем продолжить
+L379|+3|EN(38):I'd run with that group again anytime.|RU(41):С этой группой бегал бы ещё когда угодно.
+L384|+4|EN(43):anyone gonna be lfg in like an hour or two?|RU(47):кто-нибудь будет ищ. группу через часик-другой?
+L385|+8|EN(19):anyone need me? lfg|RU(27):кто-нибудь ищет? ищу группу
+L386|+8|EN(22):DPS lfg bring meeeeee!|RU(30):ДПС ищу группу берите меняяяя!
+L387|+7|EN(10):druid lfg!|RU(17):друид ищу группу!
+L388|+7|EN(25):duelist lfg! I'm cool! :)|RU(32):дуэлянт ищу группу! Я клёвый! :)
+L391|+4|EN(27):hey dude let's do something|RU(31):хэй чел давай что-нибудь делать
+L394|+1|EN(34):hey man, i'm on too if you're free|RU(35):хэй, я тоже онлайн если ты свободен
+L395|+9|EN(34):hey sorry mostly afk thanks anyhow|RU(43):хэй, сори в основном афк, спасибо всё равно
+L398|+3|EN(25):I asked for four, please.|RU(28):Я просил четырёх, будь добр.
+L399|+9|EN(17):if you wanna join|RU(26):если хочешь присоединиться
+L400|+1|EN(25):if you want to come along|RU(26):если хочешь присоединиться
+L403|+1|EN(19):if you want to hang|RU(20):если хочешь потусить
+L404|+5|EN(17):if you want to xp|RU(22):если хочешь покачаться
+L405|+4|EN(38):If you're doing something fun bring me|RU(42):Если делаешь что-то прикольное — бери меня
+L408|+4|EN(34):hey sorry mostly afk thanks anyhow|RU(38):сори в основном афк, спасибо всё равно
+L409|+3|EN(26):I'm half afk, can't group.|RU(29):Я полу-афк, не могу в группу.
+L411|+1|EN(27):not right now thanks anyhow|RU(28):не сейчас, спасибо всё равно
+L417|+7|EN(8):tank lfg|RU(15):танк ищу группу
+L425|+7|EN(49):but I still don't know what went wrong last time.|RU(56):но я до сих пор не пойму что пошло не так в прошлый раз.
+L428|+4|EN(49):but last time felt a bit scattered, to be honest.|RU(53):но в прошлый раз было как-то хаотично, честно говоря.
+L433|+1|EN(49):but our last group struggled to keep up the pace.|RU(50):но наша прошлая группа не могла поддерживать темп.
+L438|+7|EN(49):but that last run had a few too many close calls.|RU(56):но в том забеге было слишком много критических моментов.
+L440|+3|EN(46):but that last run was... not our best showing.|RU(49):но тот забег был... не лучшим нашим выступлением.
+L442|+1|EN(48):but things kind of fell apart in our last group.|RU(49):но всё как-то развалилось в нашей прошлой группе.
+L443|+3|EN(46):but we hit a lot of trouble in our last group.|RU(49):но в прошлой группе мы нарвались на кучу проблем.
+L449|+11|EN(30):I left that run feeling great.|RU(41):Ушёл с того забега в отличном настроении.
+L451|+8|EN(39):I think we all played to our strengths.|RU(47):Думаю мы все использовали свои сильные стороны.
+L454|+5|EN(27):It all felt really natural.|RU(32):Всё ощущалось очень естественно.
+L457|+8|EN(36):Last time was smooth and productive.|RU(44):В прошлый раз всё было гладко и продуктивно.
+L458|+7|EN(28):That group had great energy.|RU(35):У той группы была отличная энергия.
+L459|+14|EN(26):That group had real focus.|RU(40):У той группы была настоящая собранность.
+L460|+6|EN(31):That group just worked, y'know?|RU(37):Та группа просто работала, понимаешь?
+L461|+2|EN(35):That group worked better than most.|RU(37):Та группа работала лучше большинства.
+L463|+2|EN(38):That session flew by... in a good way.|RU(40):Та сессия пролетела... в хорошем смысле.
+L465|+2|EN(29):That was a great use of time.|RU(31):Отличное использование времени.
+L471|+1|EN(37):The group just felt solid all around.|RU(38):Группа чувствовалась надёжной во всём.
+L472|+7|EN(35):The pace felt just right last time.|RU(42):Темп в прошлый раз был как раз правильный.
+L475|+10|EN(33):We didn't even need to stop much.|RU(43):Нам даже почти не пришлось останавливаться.
+L476|+6|EN(34):We got a ton done in a short time.|RU(40):Мы кучу всего сделали за короткое время.
+L477|+8|EN(39):We had a really good balance last time.|RU(47):У нас был реально хороший баланс в прошлый раз.
+L478|+3|EN(37):We had great momentum from the start.|RU(40):У нас был отличный темп с самого начала.
+L482|+5|EN(33):We made great progress last time.|RU(38):Мы отлично продвинулись в прошлый раз.
+L487|+2|EN(37):We really made the most of that zone.|RU(39):Мы реально выжали максимум из той зоны.
+L495|+1|EN(26):are your eyes painted on??|RU(27):у тебя глаза нарисованные??
+L499|+1|EN(71):Every patch note says "improved performance" but when's the fun coming?|RU(72):В каждом патчноте «улучшена производительность», но когда будет веселье?
+L506|+4|EN(43):If brains were currency, you'd be bankrupt.|RU(47):Если бы мозги были валютой, ты бы обанкротился.
+L508|+16|EN(51):If stupidity was a talent tree, you'd be maxed out.|RU(67):Если бы тупость была деревом талантов, ты бы его прокачал до макса.
+L513|+3|EN(61):log off so i can log on my casio calculator to take your spot|RU(64):выйди чтобы я мог зайти с калькулятора Casio и занять твоё место
+L514|+6|EN(48):not even noah had to carry animals like you dang|RU(54):даже Ною не приходилось нести таких зверей как ты блин
+L516|+7|EN(39):turn your monitor on next time we group|RU(46):включи монитор в следующий раз когда группимся
+L517|+9|EN(64):Watching you play is like watching paint dry, but less exciting.|RU(73):Смотреть как ты играешь — как смотреть как сохнет краска, только скучнее.
+L518|+4|EN(66):Well, if I ever need a birdbrain's opinion, I'll be sure to chirp.|RU(70):Ну если мне когда-нибудь понадобится мнение куриного мозга, я чирикну.
+L528|+9|EN(40):You're so dense, light bends around you.|RU(49):Ты настолько тупой, что свет вокруг тебя огибает.
+L531|+5|EN(30):nice sentence, what's it mean?|RU(35):красивое предложение, а что значит?
+L533|+15|EN(36):you look like i drew you left handed|RU(51):ты выглядишь как будто я тебя левой рукой нарисовал
+L535|+10|EN(53):you need aimbot irl to stop hitting the wrong hotkeys|RU(63):тебе нужен аимбот в реале чтобы перестать нажимать не те кнопки
+L537|+2|EN(31):you type like a monkey holy cow|RU(33):ты печатаешь как обезьяна мамочки
+L539|+2|EN(47):you're the crunchy peanut butter of group mates|RU(49):ты — арахисовая паста с кусками среди согрупников
+L624|+1|EN(11):The Simsons|RU(12):The Simpsons
+L641|+6|EN(21):Give me bands to try.|RU(27):Подкиньте группы послушать.
+L642|+9|EN(41):Give me good shows to watch, ready set go|RU(50):Подкиньте хороших сериалов, на старт внимание марш
+L643|+1|EN(9):How about|RU(10):Как насчёт
+L644|+5|EN(7):I enjoy|RU(12):Мне нравится
+L645|+6|EN(6):I like|RU(12):Мне нравится
+L646|+6|EN(25):I need music suggestions.|RU(31):Нужны музыкальные рекомендации.
+L649|+4|EN(15):I'm really into|RU(19):Я реально подсел на
+L650|+1|EN(14):I've been into|RU(15):Я сейчас слушаю
+L657|+1|EN(5):Music|RU(6):Музыка
+L658|+4|EN(7):Oh, try|RU(11):О, попробуй
+L661|+2|EN(23):should be up your alley|RU(25):должно быть в твоём вкусе
+L665|+3|EN(9):what band|RU(12):какая группа
+L666|+2|EN(10):what music|RU(12):какая музыка
+L667|+3|EN(9):what show|RU(12):какой сериал
+L668|+5|EN(7):what tv|RU(12):какой сериал
+L672|+8|EN(14):You should try|RU(22):Тебе стоит попробовать
+L677|+4|EN(29):Anyone mind if I get that II?|RU(33):Никто не против если я возьму II?
+L683|+7|EN(32):I'm so much stronger since I got|RU(39):Я намного сильнее с тех пор как получил
+L684|+1|EN(41):I've cleared tougher fights since getting|RU(42):Я проходил бои и потруднее после получения
+L685|+9|EN(42):items make a really big difference in this|RU(51):предметы реально делают большую разницу в этой игре
+L687|+3|EN(40):I think I hit my stride after picking up|RU(43):Думаю я поймал темп после того как подобрал
+L688|+8|EN(15):Last time I got|RU(23):В прошлый раз я получил
+L690|+1|EN(13):NEED THAT II!|RU(14):НУЖЕН ЭТОТ II!
+L696|+3|EN(36):That last run paid off - finally got|RU(39):Тот забег окупился — наконец-то получил
+L708|+2|EN(14):Arcanist guild|RU(16):гильдия Чародеев
+L710|+2|EN(15):Arcanist seller|RU(17):продавец Чародеев
+L711|+1|EN(13):Arcanist shop|RU(14):лавка Чародеев
+L712|+4|EN(15):Arcanist spells|RU(19):заклинания Чародеев
+L715|+4|EN(11):druid guild|RU(15):гильдия друидов
+L716|+2|EN(14):druid merchant|RU(16):торговец друидов
+L717|+4|EN(12):druid seller|RU(16):продавец друидов
+L718|+3|EN(10):druid shop|RU(13):лавка друидов
+L719|+6|EN(12):druid spells|RU(18):заклинания друидов
+L721|+4|EN(13):duelist guild|RU(17):гильдия дуэлянтов
+L722|+2|EN(16):duelist merchant|RU(18):торговец дуэлянтов
+L723|+4|EN(14):duelist seller|RU(18):продавец дуэлянтов
+L724|+6|EN(14):duelist spells|RU(20):заклинания дуэлянтов
+L726|+4|EN(13):Paladin guild|RU(17):гильдия паладинов
+L727|+2|EN(16):Paladin merchant|RU(18):торговец паладинов
+L728|+4|EN(14):Paladin seller|RU(18):продавец паладинов
+L729|+3|EN(12):Paladin shop|RU(15):лавка паладинов
+L730|+6|EN(14):Paladin spells|RU(20):заклинания паладинов
+L735|+4|EN(12):reaver guild|RU(16):гильдия рейверов
+L736|+2|EN(15):reaver merchant|RU(17):торговец рейверов
+L737|+4|EN(13):reaver seller|RU(17):продавец рейверов
+L738|+3|EN(11):reaver shop|RU(14):лавка рейверов
+L739|+6|EN(13):reaver spells|RU(19):заклинания рейверов
+L740|+4|EN(17):stormcaller guild|RU(21):гильдия буревестников
+L741|+2|EN(20):stormcaller merchant|RU(22):торговец буревестников
+L742|+4|EN(18):stormcaller seller|RU(22):продавец буревестников
+L743|+3|EN(16):stormcaller shop|RU(19):лавка буревестников
+L744|+6|EN(18):stormcaller spells|RU(24):заклинания буревестников
+L757|+2|EN(18):where druid vendor|RU(20):где торговец друидов
+L758|+2|EN(20):where duelist vendor|RU(22):где торговец дуэлянтов
+L762|+2|EN(20):where Paladin vendor|RU(22):где торговец паладинов
+L763|+2|EN(19):where reaver vendor|RU(21):где торговец рейверов
+L764|+2|EN(24):where stormcaller vendor|RU(26):где торговец буревестников
+L765|+5|EN(15):windblade guild|RU(20):гильдия ветроклинков
+L766|+4|EN(14):windblade shop|RU(18):лавка ветроклинков
+L767|+7|EN(16):windblade spells|RU(23):заклинания ветроклинков
+L768|+5|EN(16):windblade vendor|RU(21):торговец ветроклинков
+L769|+3|EN(15):windblades shop|RU(18):лавка ветроклинков
+L775|+14|EN(26):A Bounty on Ripper DeMerth|RU(40):Награда за голову Потрошительницы ДеМерт
+L776|+4|EN(37):A Ghostly Giant? Are they ok to farm?|RU(41):Призрачный Великан? Их нормально фармить?
+L777|+4|EN(13):A Lost Portal|RU(17):Потерянный Портал
+L783|+1|EN(13):Aeiros easier|RU(14):Аэйрос полегче
+L784|+3|EN(11):Aeiros hard|RU(14):Аэйрос сложный
+L786|+4|EN(44):Aeiros is a wall for sure. Big resist check.|RU(48):Аэйрос — это стена. Серьёзная проверка резистов.
+L788|+6|EN(18):Aeiros is so hard.|RU(24):Аэйрос ну очень сложный.
+L790|+2|EN(6):Albino|RU(8):Альбинос
+L791|+2|EN(13):albino kodiak|RU(15):кодьяк-альбинос
+L792|+3|EN(20):All. Bots. All. day.|RU(23):Одни. Боты. Весь. День.
+L793|+4|EN(10):ANGLERRING|RU(14):КОЛЬЦОРЫБОЛОВА
+L794|+3|EN(13):any lore book|RU(16):любая книга лора
+L796|+7|EN(28):Anyone doing 0 light Eldoth?|RU(35):Кто-нибудь делает Элдота без света?
+L798|+2|EN(17):anyone drinking??|RU(19):кто-нибудь бухает??
+L799|+3|EN(43):Anyone ever do the Seafiends in windwashed?|RU(46):Кто-нибудь делал Морских Тварей на Ветрозмыве?
+L807|+2|EN(47):Anyone know what the Braxonian Flame Well does?|RU(49):Кто знает что делает Браксонский Колодец Пламени?
+L811|+1|EN(27):Anyone rotting druid stuff?|RU(28):Кто-нибудь фармит друидское?
+L812|+7|EN(42):Anything good on the windwashed seafiends?|RU(49):Что-нибудь годное с морских тварей на Ветрозмыве?
+L814|+1|EN(16):Aquilimar attack|RU(17):атака Аквилимаров
+L815|+3|EN(14):Aquilimar word|RU(17):слово Аквилимаров
+L816|+2|EN(33):Are Ghostly Giants worth farming?|RU(35):Призрачных Великанов стоит фармить?
+L826|+1|EN(33):Are tier 3 auras sold by vendors?|RU(34):Ауры 3 тира продаются у торговцев?
+L835|+2|EN(13):Balance Notes|RU(15):Заметки баланса
+L837|+1|EN(12):Balthom adds|RU(13):аддов Балтома
+L838|+2|EN(12):Balthom hard|RU(14):Балтом сложный
+L840|+11|EN(59):Balthom in jaws keeps killing me because he just swarms me.|RU(70):Балтом в Пасти убивает меня раз за разом потому что заваливает аддами.
+L841|+2|EN(18):Bard class when!!?|RU(20):Класс барда когда!!?
+L842|+2|EN(17):base night hollow|RU(19):база ночной пустоши
+L844|+3|EN(16):Basement Flicker|RU(19):подвальная мерцалка
+L845|+1|EN(8):Bellwain|RU(9):Белльвейн
+L847|+10|EN(56):Bellwain is super cool, great reward, doable at level 1!|RU(66):Белльвейн супер крутой, отличная награда, можно делать с 1 уровня!
+L851|+1|EN(23):best group: 4 arcanists|RU(24):лучшая группа: 4 чародея
+L852|+3|EN(11):Best group!|RU(14):Лучшая группа!
+L853|+2|EN(11):blight boat|RU(13):лодка скверны
+L854|+3|EN(11):blight dock|RU(14):причал скверны
+L855|+1|EN(11):Blight Wyrm|RU(12):Змей Скверны
+L856|+5|EN(18):Blight Wyrm please|RU(23):Змей Скверны пожалуйста
+L857|+6|EN(50):Blight Wyrm ruins every single treasure map I get.|RU(56):Змей Скверны портит каждую карту сокровищ что я получаю.
+L859|+4|EN(41):Blight Wyrm's kill count on me is insane.|RU(45):Змей Скверны убивал меня безумное кол-во раз.
+L869|+7|EN(9):Boat Pass|RU(16):Лодочный Пропуск
+L870|+4|EN(8):Bonepits|RU(12):Костяные Ямы
+L871|+6|EN(34):Bonepits is great for starting out|RU(40):Костяные Ямы отлично подходят для начала
+L873|+1|EN(14):Braxonia drops|RU(15):дропы Браксонии
+L876|+2|EN(8):BraxRune|RU(10):РунаБракса
+L877|+3|EN(10):BraxScript|RU(13):ПисаниеБракса
+L881|+1|EN(23):Buy it, save the grind.|RU(24):Купи, сэкономь на фарме.
+L882|+3|EN(44):Can any class go to Port Azure? Where is it?|RU(47):Любой класс может попасть в Порт-Азур? Где это?
+L883|+9|EN(52):Can GM Burgee spawn anything he wants? I bet he can.|RU(61):ГМ Берги может заспавнить что угодно? Готов поспорить что да.
+L887|+5|EN(44):can i wishlist erenshor if i already own it?|RU(49):можно добавить эренсхор в вишлист если уже купил?
+L892|+1|EN(68):Careful doing maps, hit the chest and stand back until things spawn!|RU(69):Осторожнее с картами, ударь сундук и отойди пока мобы не заспавнятся!
+L893|+7|EN(39):Careful on maps, if you wipe it's over.|RU(46):Осторожнее с картами, если вайп — всё пропало.
+L895|+2|EN(15):change gear sim|RU(17):сменить шмот симу
+L896|+7|EN(16):change sim equip|RU(23):сменить экипировку сима
+L898|+2|EN(5):Chess|RU(7):Шахматы
+L899|+5|EN(10):Chessboard|RU(15):Шахматная Доска
+L902|+2|EN(4):coin|RU(6):монета
+L904|+1|EN(8):Cultists|RU(9):Культисты
+L906|+2|EN(15):daggerhart coin|RU(17):монета Дэггерхарт
+L909|+1|EN(57):definitely bring a full party, he's tough for level 5-6s.|RU(58):обязательно бери полную группу, он крепкий для 5-6 уровня.
+L912|+1|EN(14):Demented spawn|RU(15):спавн Безумного
+L914|+3|EN(55):Did I hear that Silkengrass has some really rare stuff?|RU(58):Я слышал что на Шёлковой Траве есть что-то реально редкое?
+L916|+4|EN(10):died invis|RU(14):помер в инвизе
+L917|+1|EN(18):different item sim|RU(19):другой предмет симу
+L919|+1|EN(13):dire huntress|RU(14):лютая охотница
+L922|+3|EN(58):Do the Blooming Sepulcher questline to unlock those wings.|RU(61):Пройди цепочку квестов Цветущего Склепа чтобы открыть крылья.
+L923|+11|EN(20):Do the JBoots quest.|RU(31):Делай квест на Сапоги Скорости.
+L924|+7|EN(65):Do the questline, it'll take you back and forth to Vitheos' Rest.|RU(72):Делай цепочку квестов, она будет гонять тебя туда-обратно в Покой Витео.
+L926|+2|EN(5):Docks|RU(7):Причалы
+L931|+6|EN(12):dusken ghost|RU(18):сумеречный призрак
+L932|+4|EN(13):dusken portal|RU(17):сумеречный портал
+L933|+3|EN(13):Dusken school|RU(16):сумеречная школа
+L934|+1|EN(18):duskenlight ghosts|RU(19):сумеречные призраки
+L938|+2|EN(11):Eldoth Hard|RU(13):Элдот сложный
+L939|+2|EN(12):end tutorial|RU(14):конец обучения
+L941|+6|EN(9):equip sim|RU(15):экипировка сима
+L942|+2|EN(14):Erenshor music|RU(16):музыка Эренсхора
+L946|+8|EN(40):Every time I hit Evadne I can't hurt her|RU(48):Каждый раз когда бью Эвадне не могу нанести урон
+L948|+3|EN(49):Fake wall, right in the big room behind Siraethe.|RU(52):Фальшивая стена, прямо в большой комнате за Сираэте.
+L949|+5|EN(42):Far east corner of town, down in the slums|RU(47):Дальний восточный угол города, внизу в трущобах
+L956|+6|EN(30):Find the fake wall near Elwio.|RU(36):Найди фальшивую стену рядом с Элвио.
+L957|+3|EN(12):Find Wyland!|RU(15):Найди Уайленда!
+L959|+6|EN(9):Flamewell|RU(15):Колодец Пламени
+L960|+1|EN(7):Flicker|RU(8):Мерцалка
+L961|+3|EN(9):Food Bowl|RU(12):Миска с Едой
+L962|+2|EN(18):food dish malaroth|RU(20):миска с едой маларот
+L963|+1|EN(21):friends club annoying|RU(22):клуб друзей раздражает
+L964|+4|EN(17):friends club hate|RU(21):клуб друзей ненависть
+L967|+17|EN(31):Friends Club just trained me...|RU(48):Клуб Друзей только что натренил на меня мобов...
+L968|+3|EN(38):Friends Club needs to get a life. Wow.|RU(41):Клубу Друзей нужно найти себе жизнь. Ого.
+L969|+1|EN(16):friends club why|RU(17):клуб друзей зачем
+L971|+10|EN(50):Fun zone for lower levels for sure. Nice loot too.|RU(60):Прикольная зона для низких уровней точно. Лут тоже неплохой.
+L972|+2|EN(7):GATEKEY|RU(9):КЛЮЧВОРОТ
+L976|+5|EN(14):get off island|RU(19):выбраться с острова
+L979|+5|EN(17):Get to Port Azure|RU(22):Доберись до Порт-Азура
+L980|+3|EN(12):ghost school|RU(15):школа призраков
+L981|+5|EN(13):Ghostly Giant|RU(18):Призрачный Великан
+L982|+2|EN(13):ghosts school|RU(15):школа призраков
+L983|+3|EN(9):give item|RU(12):дать предмет
+L986|+3|EN(93):GM Burgee has said he's one of the luckiest people on the planet to get to do this every day.|RU(96):ГМ Берги говорил что он один из самых везучих людей на планете что может делать это каждый день.
+L996|+3|EN(29):go to options --> how to play|RU(32):зайди в настройки --> как играть
+L1005|+9|EN(20):grind ripper faction|RU(29):фарми фракцию Потрошительницы
+L1006|+8|EN(51):Grinding Port Azure guards will fix Ripper faction.|RU(59):Фарм стражников Порт-Азура починит фракцию Потрошительницы.
+L1008|+4|EN(14):haunted school|RU(18):школа с призраками
+L1009|+7|EN(73):He does AE damage while you find and destroy his wards. He spawns 3 or 4.|RU(80):Он наносит АОЕ урон пока ты ищешь и уничтожаешь его обереги. Он спавнит 3 или 4.
+L1011|+5|EN(76):He spawns wards you have to kill first, then you get to claim the Reliquary.|RU(81):Он спавнит обереги которые нужно убить первыми, потом сможешь забрать Реликварий.
+L1012|+10|EN(35):He wont' spawn til you trigger him.|RU(45):Он не заспавнится пока ты не триггернёшь его.
+L1013|+7|EN(36):He's always up once you trigger him.|RU(43):Он всегда стоит как только его триггернёшь.
+L1017|+4|EN(12):He's so bad.|RU(16):Он такой плохой.
+L1019|+2|EN(12):Hidden Chuch|RU(14):Тайная Церковь
+L1020|+1|EN(13):hidden church|RU(14):тайная церковь
+L1021|+1|EN(12):Hidden Hills|RU(13):Скрытые Холмы
+L1025|+10|EN(69):Hidden is right off of Faerie's Brake and Duskenlight... and bonepits|RU(79):Скрытые прямо рядом с Пределом Фей и Сумеречным Побережьем... и Костяными Ямами
+L1026|+4|EN(65):Hidden to Brake to Azure or Fernalla to Brake to Azure basically.|RU(69):По сути Скрытые до Предела до Азура или Ферналла до Предела до Азура.
+L1033|+2|EN(16):How Dark Azynthi|RU(18):как Тёмная Азинтия
+L1035|+8|EN(45):How do I activate this Portal in Duskenlight?|RU(53):Как активировать этот Портал на Сумеречном Побережье?
+L1040|+1|EN(40):How do I farm the Lost Hope in Soluna's?|RU(41):Как фармить Утраченную Надежду на Солуне?
+L1041|+3|EN(20):How do I fast travel|RU(23):Как быстро перемещаться
+L1047|+4|EN(36):How do I flip Azynthi to night time?|RU(40):Как переключить Азинтию на ночное время?
+L1057|+4|EN(34):How do I get my tier 3 class aura?|RU(38):Как получить ауру 3 тира моего класса?
+L1063|+1|EN(27):How do I get to Underspine?|RU(28):Как добраться до Подхребтья?
+L1065|+3|EN(21):How do I hurt Evadne?|RU(24):Как нанести урон Эвадне?
+L1066|+3|EN(34):How do I hurt the Reliquary Fiend?|RU(37):Как нанести урон твари из Реликвария?
+L1071|+7|EN(26):How do I make Astra spawn?|RU(33):Как заставить Астру заспавниться?
+L1080|+2|EN(40):How do I spawn the rares in silkengrass?|RU(42):Как заспавнить рарников на Шёлковой Траве?
+L1081|+2|EN(42):How do I swap to the Dark side of Azynthi?|RU(44):Как переключиться на Тёмную сторону Азинтии?
+L1082|+4|EN(13):how do i talk|RU(17):как разговаривать
+L1090|+2|EN(26):How do I use my Reliquary?|RU(28):Как использовать Реликварий?
+L1092|+9|EN(22):How do we trade items?|RU(31):Как мы обмениваемся предметами?
+L1098|+6|EN(19):how equip simplayer|RU(25):как экипировать симплеера
+L1099|+8|EN(15):how fast travel|RU(23):как быстро перемещаться
+L1100|+1|EN(11):how flicker|RU(12):как мерцалка
+L1106|+3|EN(19):How Reliquary Build|RU(22):как строить Реликварий
+L1107|+4|EN(8):How talk|RU(12):как говорить
+L1110|+4|EN(18):How to change gear|RU(22):Как сменить снаряжение
+L1111|+1|EN(11):How To Talk|RU(12):Как Говорить
+L1112|+1|EN(12):How to trade|RU(13):Как торговать
+L1113|+1|EN(14):How to trade 1|RU(15):Как торговать 1
+L1114|+4|EN(9):how trade|RU(13):как торговать
+L1115|+10|EN(17):How use reliquary|RU(27):Как использовать реликварий
+L1116|+1|EN(10):How Wyland|RU(11):Как Уайленд
+L1118|+5|EN(5):HowTo|RU(10):КакСделать
+L1122|+3|EN(36):I can respec my proficiences, right?|RU(39):Я могу перераспределить мастерства, да?
+L1125|+2|EN(35):I can't beat the Reliquary Fiend...|RU(37):Не могу побить тварь из Реликвария...
+L1134|+1|EN(59):I cant unlock any doors in Vitheos rest, nothing drops keys|RU(60):Не могу открыть двери в Покое Витео, ничего не дропает ключи
+L1136|+4|EN(53):I do pretty well in this Seafiend cave in Windwashed.|RU(57):Неплохо справляюсь в пещере Морских Тварей на Ветрозмыве.
+L1148|+4|EN(74):I got mine from Grughlor, but he has a big loot table it can take a while.|RU(78):Я свой достал у Грухглора, но у него огромная лут-таблица, может занять время.
+L1165|+3|EN(41):I heard Silkengrass has some rare spawns.|RU(44):Слышал на Шёлковой Траве есть редкие спавны.
+L1170|+18|EN(103):I heard they're a college e-sports team who does this in their free time because they suck at e-sports.|RU(121):Слышал это студенческая киберспортивная команда которая делает это в свободное время потому что они отстой в киберспорте.
+L1173|+2|EN(44):I just found a Planar stone, are these rare?|RU(46):Только что нашёл Планарный камень, они редкие?
+L1174|+9|EN(26):I just got a Planar Stone!|RU(35):Только что достал Планарный Камень!
+L1176|+8|EN(25):I just saw a Sylvan Giant|RU(33):Только что видел Лесного Великана
+L1177|+4|EN(70):I just saw the GM, he has cool swords. I wonder if they drop anywhere?|RU(74):Только что видел ГМа, у него крутые мечи. Интересно, дропаются где-нибудь?
+L1179|+5|EN(36):I keep dying to the Reliquary Fiend!|RU(41):Я постоянно дохну от твари из Реликвария!
+L1180|+6|EN(57):I keep dying to the ward of piety it's impossible to beat|RU(63):Постоянно дохну от оберега благочестия, его невозможно победить
+L1186|+2|EN(19):I like the discord!|RU(21):Мне нравится дискорд!
+L1187|+4|EN(43):I looked in every house I can't find Wyland|RU(47):Я заглянул в каждый дом, не могу найти Уайленда
+L1191|+4|EN(23):I loved that questline!|RU(27):Обожаю эту цепочку квестов!
+L1194|+4|EN(21):I need my tier 3 aura|RU(25):Мне нужна моя аура 3 тира
+L1197|+6|EN(55):I quit. The lag needs fixing. Next patch better fix it.|RU(61):Я бросаю. Лаги нужно фиксить. Следующий патч должен починить.
+L1199|+6|EN(34):I really like Hidden Hills so far!|RU(40):Мне реально нравятся Скрытые Холмы пока!
+L1201|+1|EN(43):I see the GM on like every day. What a job.|RU(44):Вижу ГМа чуть ли не каждый день. Вот работа.
+L1221|+4|EN(43):If brains were currency, you'd be bankrupt.|RU(47):Если бы мозги были валютой, ты бы обанкротился.
+L1222|+14|EN(51):If i get KOS to Ripper can i grind faction back up?|RU(65):Если стану КОС к Потрошительнице, могу нафармить фракцию обратно?
+L1223|+3|EN(52):If I kill Ripper do I lose access to the whole area?|RU(55):Если убью Потрошительницу, потеряю доступ ко всей зоне?
+L1225|+4|EN(53):If you didn't hail Revan go do it he starts the quest|RU(57):Если не поздоровался с Реваном — сходи, он начинает квест
+L1227|+5|EN(111):If you're KOS to Ripper you can kill Azure Guards to get faction back up, but then you'll be KOS in Port Azure.|RU(116):Если КОС к Потрошительнице, можешь убивать стражников Азура чтобы поднять фракцию, но тогда будешь КОС в Порт-Азуре.
+L1236|+4|EN(12):invis failed|RU(16):инвиз провалился
+L1237|+2|EN(51):Invis gets me killed so much. Better just to fight.|RU(53):Из-за инвиза столько раз дохну. Лучше просто драться.
+L1238|+1|EN(12):Invis sucks.|RU(13):Инвиз отстой.
+L1247|+1|EN(38):is the Bonepits a good newbie dungeon?|RU(39):Костяные Ямы хороший данж для новичков?
+L1251|+1|EN(29):Is the Reliquary worth using?|RU(30):Стоит использовать Реликварий?
+L1266|+3|EN(34):Is there fast travel in this game?|RU(37):Есть быстрое перемещение в этой игре?
+L1273|+2|EN(7):Is Wiki|RU(9):Есть Вики
+L1274|+7|EN(11):Island Tomb|RU(18):Островная Гробница
+L1277|+2|EN(10):jaws empty|RU(12):пасть пустая
+L1280|+4|EN(9):jaws open|RU(13):пасть открыть
+L1281|+12|EN(60):jboots quest in Fernalla / Ripper! You can do it at level 1.|RU(72):квест на сапоги скорости в Ферналле / Потрошительнице! Можно с 1 уровня.
+L1282|+15|EN(75):jboots quest starts in Fernalla's Revival Plains, straight up EQ throwback!|RU(90):квест на сапоги скорости начинается на Равнинах Возрождения Ферналлы, прямая отсылка к EQ!
+L1283|+6|EN(12):join discord|RU(18):вступить в дискорд
+L1285|+1|EN(59):Just do the nighthollow candle quest and it opens right up.|RU(60):Просто сделай квест на свечу Ночной Пустоши и всё откроется.
+L1286|+3|EN(36):Just drag the item to them and click|RU(39):Просто перетащи предмет на них и кликни
+L1293|+2|EN(12):kill flicker|RU(14):убить мерцалку
+L1295|+3|EN(49):Krakengard is a great place for level 8-13 or so!|RU(52):Кракенгард отличное место для уровней 8-13 примерно!
+L1298|+6|EN(12):last flicker|RU(18):последняя мерцалка
+L1299|+1|EN(20):Lavriso in Wardhaven|RU(21):Лавризо в Вардхейвене
+L1300|+3|EN(12):Leave Island|RU(15):Покинуть Остров
+L1301|+3|EN(14):leave tutorial|RU(17):покинуть обучение
+L1308|+3|EN(14):Lore book best|RU(17):Книга лора лучшая
+L1309|+2|EN(16):loss stone quest|RU(18):квест камня потерь
+L1310|+4|EN(15):loss stone turn|RU(19):сдать камень потерь
+L1311|+4|EN(14):Loss Stone who|RU(18):камень потерь кому
+L1312|+9|EN(9):lost hope|RU(18):утраченная надежда
+L1313|+6|EN(11):Lost Soul 1|RU(17):Потерянная Душа 1
+L1315|+11|EN(19):make sim player use|RU(30):сделать симплеера использовать
+L1316|+13|EN(12):make sim use|RU(25):сделать сима использовать
+L1317|+4|EN(21):make simplayer change|RU(25):сделать симплеера сменить
+L1318|+12|EN(18):make simplayer use|RU(30):сделать симплеера использовать
+L1320|+1|EN(13):malaroth dish|RU(14):миска маларота
+L1324|+2|EN(9):map piece|RU(11):кусок карты
+L1325|+1|EN(4):Maps|RU(5):Карты
+L1326|+3|EN(15):move speed buff|RU(18):бафф скорости бега
+L1330|+2|EN(14):movespeed item|RU(16):предмет скорости
+L1332|+3|EN(24):mysterious portal dusken|RU(27):загадочный портал сумрачный
+L1335|+5|EN(25):Neat zone, not much to do|RU(30):Аккуратная зона, делать нечего
+L1336|+1|EN(35):Need a good tank for sure for Plax.|RU(36):Точно нужен хороший танк для Плакса.
+L1339|+1|EN(9):need bank|RU(10):нужен банк
+L1340|+2|EN(55):Need to go to Dark Azynthi first to get riftsnare gems.|RU(57):Сначала надо в Тёмную Азинтию за камнями ловушки разлома.
+L1341|+3|EN(43):Need to have void resist for him, he hurts.|RU(46):Нужен резист пустоты для него, он больно бьёт.
+L1344|+2|EN(13):neziroth coin|RU(15):монета незирота
+L1345|+2|EN(18):night hollow piece|RU(20):кусок ночной пустоши
+L1346|+3|EN(11):Nighthollow|RU(14):Ночная Пустошь
+L1347|+3|EN(17):nighthollow piece|RU(20):кусок ночной пустоши
+L1349|+2|EN(58):No it's all bots. I'll stay here with actual humans thanks|RU(60):Нет, там одни боты. Останусь тут с реальными людьми, спасибо
+L1355|+1|EN(51):Oh man I found a Planar Stone it sells for so much!|RU(52):Ого нашёл Планарный Камень, он продаётся за столько!
+L1359|+2|EN(42):Omg everyone do the Port Azure dock quest!|RU(44):Ого все делайте квест на причале Порт-Азура!
+L1363|+3|EN(13):Open Blooming|RU(16):Открыть Цветущий
+L1373|+3|EN(17):piece nighthollow|RU(20):кусок ночной пустоши
+L1374|+6|EN(5):Piety|RU(11):Благочестие
+L1375|+4|EN(12):Planar Stone|RU(16):Планарный Камень
+L1376|+4|EN(19):Planar Stone drop!!|RU(23):Дроп Планарного Камня!!
+L1377|+13|EN(16):planar stone use|RU(29):планарный камень использовать
+L1378|+1|EN(4):Plax|RU(5):Плакс
+L1387|+4|EN(14):Portal Revival|RU(18):Портал Возрождения
+L1390|+2|EN(14):pretty sure no|RU(16):скорее всего нет
+L1392|+4|EN(8):Prielian|RU(12):Приэлианский
+L1395|+1|EN(42):Put item on cursor and click on the player|RU(43):Возьми предмет на курсор и кликни на игрока
+L1397|+1|EN(9):PVP WHEN?|RU(10):ПвП КОГДА?
+L1398|+3|EN(9):Rain ring|RU(12):Кольцо дождя
+L1400|+2|EN(48):Reavers need to be nerfed. They're just so good.|RU(50):Рейверов нужно нерфить. Они просто слишком хороши.
+L1401|+1|EN(15):Reliquary Fiend|RU(16):Тварь Реликвария
+L1402|+1|EN(51):Remind me where the Azynthi boat pass drops please.|RU(52):Напомните откуда дропается лодочный пропуск Азинтии.
+L1404|+2|EN(10):respec can|RU(12):респек можно
+L1407|+1|EN(37):respecs are free in Fernalla's Plains|RU(38):респеки бесплатны на Равнинах Ферналлы
+L1408|+7|EN(42):Return with proof of the demise of Ripper.|RU(49):Вернись с доказательством гибели Потрошительницы.
+L1412|+9|EN(6):Ripper|RU(15):Потрошительница
+L1413|+14|EN(17):Ripper faction up|RU(31):поднять фракцию Потрошительницы
+L1414|+3|EN(64):Ripper has loot I want, how do I get it without ruining faction?|RU(67):У Потрошительницы есть нужный лут, как забрать не испортив фракцию?
+L1415|+8|EN(15):Ripper's Bounty|RU(23):Награда Потрошительницы
+L1416|+9|EN(13):RippersBounty|RU(22):НаградаПотрошительницы
+L1419|+5|EN(9):Rockshade|RU(14):Скалистая Тень
+L1422|+4|EN(10):run faster|RU(14):бегать быстрее
+L1423|+1|EN(10):sable find|RU(11):найти сэйбл
+L1426|+7|EN(21):Saw GM Burgee run by!|RU(28):Видел как ГМ Берги пробежал!
+L1427|+2|EN(9):saw invis|RU(11):видит инвиз
+L1428|+4|EN(13):saw invisible|RU(17):видит невидимость
+L1431|+6|EN(9):Sea Giant|RU(15):Морской Великан
+L1432|+4|EN(9):Seafiends|RU(13):Морские Твари
+L1436|+1|EN(13):secret church|RU(14):тайная церковь
+L1438|+3|EN(17):secret word Azure|RU(20):секретное слово Азур
+L1439|+1|EN(9):see invis|RU(10):вижу инвиз
+L1440|+3|EN(13):see invisible|RU(16):вижу невидимость
+L1443|+6|EN(40):Should I do the Bonepits as a low level?|RU(46):Стоит ли идти в Костяные Ямы на низком уровне?
+L1445|+4|EN(11):silken cave|RU(15):пещера шёлковой
+L1446|+5|EN(16):silkengrass cave|RU(21):пещера шёлковой травы
+L1447|+5|EN(16):silkengrass rare|RU(21):рарник шёлковой травы
+L1451|+2|EN(22):simplayer swap weapons|RU(24):симплеер поменять оружие
+L1453|+1|EN(9):Sivakayan|RU(10):Сивакаянец
+L1454|+3|EN(16):Sivakayan Raider|RU(19):Сивакаянский Рейдер
+L1455|+2|EN(17):Sivakayan Weapons|RU(19):Сивакаянское Оружие
+L1465|+3|EN(10):soluna sun|RU(13):солуна солнце
+L1470|+11|EN(14):someone get me|RU(25):кто-нибудь подберите меня
+L1471|+2|EN(63):Someone keeps stream sniping me. Why don't the GMs do anything?|RU(65):Кто-то постоянно стрим-снайпит меня. Почему ГМы ничего не делают?
+L1474|+6|EN(47):Someone show me what BP I should be after next?|RU(53):Кто-нибудь покажите какой чертёж мне нужен следующий?
+L1475|+13|EN(28):someone tell my boss im sick|RU(41):кто-нибудь скажите начальнику что я болею
+L1478|+1|EN(14):spawn demented|RU(15):спавн безумного
+L1480|+2|EN(12):Sylvan Giant|RU(14):Лесной Великан
+L1484|+3|EN(11):talk to NPC|RU(14):говорить с НПС
+L1487|+4|EN(17):teleport pad what|RU(21):телепорт площадка что
+L1488|+5|EN(13):teleport pad?|RU(18):телепорт площадка?
+L1489|+5|EN(11):TeleportPad|RU(16):ТелепортПлощадка
+L1490|+3|EN(35):Tell me about Rockshade hold please|RU(38):Расскажите про Крепость Скалистой Тени
+L1493|+6|EN(25):That dude jailed me once.|RU(31):Тот чувак однажды посадил меня.
+L1519|+1|EN(38):The discord? I heard it all simulated.|RU(39):Дискорд? Слышал там всё симулированное.
+L1532|+2|EN(13):The Lost Soul|RU(15):Потерянная Душа
+L1534|+10|EN(68):The Pearlescent Kelp Totem drops there. Little EQ reference I think!|RU(78):Перламутровый Тотем из Водорослей дропается там. Небольшая отсылка к EQ думаю!
+L1537|+1|EN(47):The Raiders roam a few zones. They're horrible.|RU(48):Рейдеры бродят по нескольким зонам. Они ужасные.
+L1541|+1|EN(79):The Sivakayan weapons are so rare this Silkengrass quest isn't worth the effort|RU(80):Сивакаянское оружие настолько редкое что квест на Шёлковой Траве не стоит усилий
+L1548|+3|EN(11):THELOSTSOUL|RU(14):ПОТЕРЯННАЯДУША
+L1549|+3|EN(12):THELOSTSOUL2|RU(15):ПОТЕРЯННАЯДУША2
+L1560|+3|EN(50):There's a few clickie items that'll get you moving|RU(53):Есть пара кликабельных предметов которые тебя ускорят
+L1575|+3|EN(51):There's a Portal thing in Duskenlight but it's off?|RU(54):На Сумеречном есть что-то типа Портала но он выключен?
+L1577|+1|EN(74):There's a quest to open it. Look up "Nighthollow candle" if you want help.|RU(75):Есть квест чтобы открыть. Погугли «свеча Ночной Пустоши» если нужна помощь.
+L1588|+5|EN(47):There's a wall you can walk through near Elwio.|RU(52):Рядом с Элвио есть стена через которую можно пройти.
+L1608|+5|EN(38):They take this game way too seriously.|RU(43):Они слишком серьёзно относятся к этой игре.
+L1616|+10|EN(43):This group can't beat Aeiros? He's so hard.|RU(53):Эта группа не может побить Аэйроса? Он такой сложный.
+L1618|+10|EN(47):This weapon quest in Silkengrass is pretty lame|RU(57):Этот квест на оружие на Шёлковой Траве довольно отстойный
+L1635|+6|EN(9):trade npc|RU(15):торговать с нпс
+L1636|+8|EN(9):trade sim|RU(17):торговать с симом
+L1637|+7|EN(15):trade simplayer|RU(22):торговать с симплеером
+L1638|+3|EN(46):Treasure maps are a good way to get Sivakruxes|RU(49):Карты сокровищ — хороший способ добыть Сивакруксы
+L1645|+1|EN(30):undead mobs drop it everywhere|RU(31):мобы-нежить дропают это повсюду
+L1646|+2|EN(10):Under Dock|RU(12):Под Причалом
+L1647|+1|EN(17):under dock attack|RU(18):под причалом атака
+L1648|+3|EN(15):under dock word|RU(18):под причалом слово
+L1655|+1|EN(81):Underspine is tough, if it's too hard at level 12 or so try farming ouside a bit.|RU(82):Подхребтье непростое, если слишком сложно на 12 уровне попробуй пофармить снаружи.
+L1656|+1|EN(15):unlock blooming|RU(16):открыть цветущий
+L1657|+9|EN(12):use teleport|RU(21):использовать телепорт
+L1658|+14|EN(16):use teleport pad|RU(30):использовать телепорт площадку
+L1663|+3|EN(12):Void resist!|RU(15):Резист пустоты!
+L1667|+5|EN(17):ward of piety how|RU(22):оберег благочестия как
+L1675|+1|EN(14):waterfall cave|RU(15):пещера водопада
+L1676|+3|EN(16):wax night hollow|RU(19):воск ночной пустоши
+L1681|+2|EN(41):What are some ways to increase movespeed?|RU(43):Какие есть способы увеличить скорость бега?
+L1689|+4|EN(69):What drops the Diamondine Mace in Windwashed? Is it really that good?|RU(73):Откуда дропается булава Диамондина на Ветрозмыве? Она реально так хороша?
+L1692|+7|EN(18):what is flame well|RU(25):что такое колодец пламени
+L1693|+8|EN(17):what is flamewell|RU(25):что такое колодец пламени
+L1695|+2|EN(21):What is the Bonepits?|RU(23):Что такое Костяные Ямы?
+L1696|+10|EN(47):What is the Braxonian Flame well I heard about?|RU(57):Что такое Браксонский Колодец Пламени о котором я слышал?
+L1704|+3|EN(17):what planar stone|RU(20):что планарный камень
+L1707|+4|EN(43):what the heck I just died to a Sylvan Giant|RU(47):чёрт возьми только что сдох от Лесного Великана
+L1711|+2|EN(18):What's a Sivakrux?|RU(20):Что такое Сивакрукс?
+L1714|+1|EN(33):What's so special about Braxonia?|RU(34):Что такого особенного в Браксонии?
+L1715|+7|EN(53):What's the big glowing eyed skull for in Duskenlight?|RU(60):Для чего большой череп со светящимися глазами на Сумеречном?
+L1731|+2|EN(66):when port azure gets super busy i have to just stare at the ground|RU(68):когда Порт-Азур становится суперзагружен приходится пялиться в землю
+L1745|+4|EN(45):Where do I get Lost Hope in Soluna's landing?|RU(49):Где достать Утраченную Надежду на Причале Солуны?
+L1747|+2|EN(47):Where do I get the gem to swap to Dark Azynthi?|RU(49):Где достать камень для перехода в Тёмную Азинтию?
+L1753|+3|EN(16):where flame well|RU(19):где колодец пламени
+L1754|+4|EN(15):Where flamewell|RU(19):Где колодец пламени
+L1755|+1|EN(17):Where Gem Azynthi|RU(18):Где камень Азинтии
+L1762|+4|EN(24):Where is Rockshade Hold?|RU(28):Где Крепость Скалистой Тени?
+L1784|+1|EN(49):Where's the gem to go between Azynthi dimensions?|RU(50):Где камень для перехода между измерениями Азинтии?
+L1790|+4|EN(14):who loss stone|RU(18):кому камень потерь
+L1792|+5|EN(36):Who takes Nighthollow Candle pieces?|RU(41):Кто принимает куски Свечи Ночной Пустоши?
+L1794|+3|EN(40):Why am I so slow, how do I be less slow?|RU(43):Почему я такой медленный, как быть быстрее?
+L1795|+4|EN(24):Why can't I kill Evadne?|RU(28):Почему не могу убить Эвадне?
+L1800|+6|EN(22):Why is Aeiros so hard?|RU(28):Почему Аэйрос такой сложный?
+L1804|+3|EN(31):Why is the Blight Wyrm so fast?|RU(34):Почему Змей Скверны такой быстрый?
+L1808|+1|EN(15):why proficiency|RU(16):зачем мастерство
+L1810|+4|EN(17):wick night hollow|RU(21):фитиль ночной пустоши
+L1811|+1|EN(16):wick nighthollow|RU(17):фитиль найтхоллоу
+L1820|+14|EN(39):Wtf ward of piety swarms me every time?|RU(53):Чё за фигня оберег благочестия заваливает каждый раз?
+L1822|+1|EN(6):Wyland|RU(7):Уайленд
+L1834|+2|EN(33):Yep he's a tank and resist check.|RU(35):Ага, он проверка на танк и резисты.
+L1842|+3|EN(58):You can do so much damage with that mace. It's super rare.|RU(61):С этой булавой можно столько урона нанести. Она супер редкая.
+L1853|+1|EN(70):You can get Wyrm's Bane in Port Azure. If you cast it on him, he dies.|RU(71):Погибель Змея можно достать в Порт-Азуре. Кастуешь на него — он дохнет.
+L1855|+8|EN(56):You can kill guards in Port Azure to get Ripper faction.|RU(64):Можно убивать стражников Порт-Азура для фракции Потрошительницы.
+L1868|+4|EN(22):You did soooo great in|RU(26):Ты таааак круто выступил в
+L1892|+2|EN(81):You have to hand the Stardust 'A Lost Faith to make it vulnerable, then fight it.|RU(83):Нужно сдать Звёздной Пыли «Утраченную Веру» чтобы сделать уязвимой, потом сражайся.
+L1903|+1|EN(25):you look awesome with it!|RU(26):ты круто с этим выглядишь!
+L1927|+4|EN(149):You'll have to fight Port Azure guards to fix Ripper rep. If you're really motivated, you can then farm Azure faction back up by fighting Sivakayans.|RU(153):Придётся драться со стражей Порт-Азура для репы Потрошительницы. Если реально мотивирован, потом можно нафармить фракцию Азура обратно через Сивакаянцев.
+L1929|+10|EN(105):You'll have to kill Port Azure guards to get Ripper faction. Makes navigating Port Azure a bit of a pain.|RU(115):Придётся убивать стражей Порт-Азура для фракции Потрошительницы. Навигация по Порт-Азуру станет немного проблемной.
+L1930|+2|EN(35):You'll need a lot of those, keep it|RU(37):Тебе понадобится много таких, сохрани
+L1956|+5|EN(85):It's a rare drop off the Stoneman Diamondine. Like really reare. It's so good though.|RU(90):Это редкий дроп с Каменного Человека Диамондина. Прямо реально редкий. Но он такой крутой.
+L1957|+9|EN(27):it's a rare off most undead|RU(36):это редкий дроп с большинства нежити
+L1983|+1|EN(11):i like that|RU(12):нравится это
+L1984|+2|EN(11):i like your|RU(13):нравится твой
+L1987|+1|EN(31):omg :) I had sooooo much fun in|RU(32):омг :) мне было тааааак весело в
+L1988|+4|EN(28):man you must play this a lot|RU(32):чел ты наверно играешь тут много
+L1989|+4|EN(22):You Did soooo great in|RU(26):Ты таааак круто выступил в
+L2003|+5|EN(17):Can't find Wyland|RU(22):Не могу найти Уайленда
+L2005|+1|EN(13):give sim gear|RU(14):дать шмот симу
+L2019|+4|EN(32):I barely noticed the time go by.|RU(36):Даже не заметил как время пролетело.
+L2022|+4|EN(21):I need the II please.|RU(25):Мне нужен II, пожалуйста.
+L2023|+1|EN(22):I really want one lmao|RU(23):Реально хочу такой лмао
+L2024|+1|EN(36):I still remember the moment I looted|RU(37):До сих пор помню момент когда залутал
+L2029|+3|EN(38):I'd run with that group again anytime.|RU(41):С этой группой бегал бы ещё когда угодно.
+L2037|+2|EN(25):I'm so happy we got this!|RU(27):Так рад что мы это достали!
+L2038|+7|EN(32):I'm so much stronger since I got|RU(39):Я намного сильнее с тех пор как получил
+L2041|+1|EN(41):I've cleared tougher fights since getting|RU(42):Я проходил бои и потруднее после получения
+L2043|+2|EN(16):is all you need.|RU(18):это всё что нужно.
+L2058|+6|EN(31):That group just worked, y'know?|RU(37):Та группа просто работала, понимаешь?
+L2059|+13|EN(33):We didn't even need to stop much.|RU(46):Нам даже почти не приходилось останавливаться.
+L2062|+2|EN(9):whole map|RU(11):целая карта
+L2065|+1|EN(13):yo man get to|RU(14):йо чел давай в
+L2079|+3|EN(38):I’d run with that group again anytime.|RU(41):С этой группой бегал бы ещё когда угодно.
+L2080|+7|EN(32):I’m so much stronger since I got|RU(39):Я намного сильнее с тех пор как получил
+L2083|+1|EN(41):I’ve cleared tougher fights since getting|RU(42):Я проходил бои и потруднее после получения
+L2087|+6|EN(31):That group just worked, y’know?|RU(37):Та группа просто работала, понимаешь?
+L2088|+13|EN(33):We didn’t even need to stop much.|RU(46):Нам даже почти не приходилось останавливаться.
+L2094|+2|EN(14):A tale indeed!|RU(16):Вот так история!
+L2096|+1|EN(7):afk rn.|RU(8):афк щас.
+L2101|+8|EN(16):and get carried!|RU(24):и катайся на ком-нибудь!
+L2113|+1|EN(29):are blasted by mithril shards|RU(30):поражены мифриловыми осколками
+L2116|+1|EN(22):are caught in a quake!|RU(23):попали в землетрясение!
+L2138|+3|EN(6):As if!|RU(9):Ещё чего!
+L2139|+2|EN(5):ASAP!|RU(7):СРОЧНО!
+L2141|+1|EN(12):Back online!|RU(13):Снова онлайн!
+L2143|+1|EN(44):Be Hired By Kevin! Join now! HIRES OF KEVIN!|RU(45):Будь нанят Кевином! Вступай! НАЁМНИКИ КЕВИНА!
+L2145|+5|EN(8):best xp.|RU(13):лучшая экспа.
+L2146|+4|EN(21):BRO I needed that II!|RU(25):БРО мне нужен был тот II!
+L2147|+8|EN(23):bro rofl I just fk'd up|RU(31):бро рофл я только что облажался
+L2149|+1|EN(13):BRUH BRUHHHH!|RU(14):БРАТ БРАТАААН!
+L2160|+1|EN(6):Bruhh!|RU(7):Братан!
+L2161|+1|EN(7):BRUHH!!|RU(8):БРАТАН!!
+L2162|+4|EN(19):bruhhhh eyyyy xp in|RU(23):братааан эйй на экспу в
+L2163|+1|EN(8):Bruhhhh!|RU(9):Братааан!
+L2165|+2|EN(10):bye bye!!!|RU(12):пока пока!!!
+L2166|+1|EN(6):Byeee!|RU(7):Покааа!
+L2167|+5|EN(16):Call in sick lol|RU(21):Возьми больничный лол
+L2175|+1|EN(13):chug to that!|RU(14):выпьем за это!
+L2177|+2|EN(15):danger noodles!|RU(17):опасные лапшички!
+L2178|+4|EN(27):Did you miss my guild tag??|RU(31):Ты мой тег гильдии не заметил??
+L2185|+4|EN(39):Dragon Food needs more people! Join us!|RU(43):Dragon Food нужно больше народу! Вступайте!
+L2198|+2|EN(24):dude... lol. Oops! Help!|RU(26):чел... лол. Упс! Помогите!
+L2218|+4|EN(17):Erenshor is life!|RU(21):Эренсхор — это жизнь!
+L2224|+2|EN(8):FC only!|RU(10):Только FC!
+L2228|+5|EN(32):Fresh and Clean: Join Afterwipe!|RU(37):Свежий и Чистый: вступай в Afterwipe!
+L2243|+2|EN(26):gonna need that II please!|RU(28):мне нужен тот II пожалуйста!
+L2245|+4|EN(13):Good day all!|RU(17):Добрый день всем!
+L2246|+3|EN(15):Great flick lol|RU(18):Отличный фильм лол
+L2247|+5|EN(11):Great work!|RU(16):Отличная работа!
+L2251|+1|EN(15):HAHA GL IM DOWN|RU(16):ХАХА ВП Я В ДЕЛЕ
+L2256|+1|EN(12):Heals on me!|RU(13):Хилы на меня!
+L2258|+2|EN(23):hehe oops :( need help!|RU(25):хехе упс :( нужна помощь!
+L2259|+3|EN(6):Hey :)|RU(9):Привет :)
+L2260|+4|EN(12):Hey :) Nice!|RU(16):Привет :) Круто!
+L2261|+5|EN(9):Hey buddy|RU(14):Привет дружище
+L2263|+6|EN(18):Hey hehe let's xp!|RU(24):Привет хехе давай экспу!
+L2266|+1|EN(18):Hey i need that II|RU(19):Эй мне нужен тот II
+L2267|+7|EN(40):hey if hit a guard does he h8 u forever?|RU(47):эй если ударить стражника он навечно ненавидит?
+L2269|+1|EN(19):hey NN welcome back|RU(20):эй NN с возвращением
+L2271|+2|EN(20):hey NN, wanna group?|RU(22):эй NN хочешь в группу?
+L2272|+3|EN(7):Hey NN!|RU(10):Привет NN!
+L2273|+3|EN(10):Hey NN! :)|RU(13):Привет NN! :)
+L2274|+3|EN(7):Hey NN.|RU(10):Привет NN.
+L2275|+8|EN(7):Hey pal|RU(15):Привет приятель
+L2280|+4|EN(18):hey u shuld come 2|RU(22):эй тебе стоит прийти в
+L2281|+1|EN(49):hey we should group again that was fun last time.|RU(50):эй давай снова в группу в прошлый раз было весело.
+L2287|+1|EN(31):Hey. If you do any xp bring me.|RU(32):Привет. Если на экспу бери меня.
+L2289|+8|EN(29):hi NN i can xp if you're free|RU(37):привет NN могу на экспу если свободен
+L2290|+4|EN(6):Hi NN!|RU(10):Привет NN!
+L2292|+4|EN(31):Hi. I'm on too if you're xping.|RU(35):Привет. Я тоже онлайн если фармишь.
+L2304|+1|EN(8):I agree!|RU(9):Согласен!
+L2314|+11|EN(36):I feel the need. The need for SPEED!|RU(47):Я чувствую потребность. Потребность в СКОРОСТИ!
+L2327|+2|EN(20):I love dual weapons!|RU(22):Обожаю двойное оружие!
+L2340|+2|EN(27):I thought that was awesome!|RU(29):Я подумал что это было круто!
+L2354|+5|EN(21):If you xp I can come.|RU(26):Если на экспу могу прийти.
+L2356|+2|EN(19):IM GETTING GREAT XP|RU(21):У МЕНЯ ОТЛИЧНАЯ ЭКСПА
+L2357|+2|EN(58):Increase group Wisdom, Resonance, and Haste for 15 seconds|RU(60):Увеличивает Мудрость Резонанс и Скорость группы на 15 секунд
+L2358|+4|EN(17):is 2 good 4 u lol|RU(21):ты 2 плох 4 этого лол
+L2361|+1|EN(21):is caught in a quake!|RU(22):попал в землетрясение!
+L2365|+1|EN(42):It's all good til you run into Winkles lol|RU(43):Всё хорошо пока не наткнёшься на Уинклс лол
+L2369|+3|EN(31):It's Cat Time! Join Hatty Cats!|RU(34):Время кошек! Вступай в Hatty Cats!
+L2371|+1|EN(13):it's good xp.|RU(14):хорошая экспа.
+L2378|+5|EN(15):Join <LEGENDS>!|RU(20):Вступай в <LEGENDS>!
+L2379|+5|EN(35):Join HIRES OF KEVIN and be awesome!|RU(40):Вступай в НАЁМНИКИ КЕВИНА и будь крутым!
+L2380|+2|EN(33):Kevin wants you! Join the Kevins!|RU(35):Кевин ждёт тебя! Вступай к Кевинам!
+L2384|+3|EN(26):lets drink to that folks!!|RU(29):давайте выпьем за это народ!!
+L2385|+5|EN(30):lfg for xp or raid or whatever|RU(35):иг на экспу или рейд или что угодно
+L2386|+4|EN(23):LFG for xp or whatever.|RU(27):ИГ на экспу или что угодно.
+L2389|+1|EN(14):lfg, can tank.|RU(15):иг могу танком.
+L2390|+1|EN(9):LMAO DEAD|RU(10):ЛМАО МЁРТВ
+L2391|+3|EN(34):lmao u need all the help u can get|RU(37):лмао тебе нужна вся помощь какая есть
+L2396|+1|EN(5):lol k|RU(6):лол ок
+L2397|+12|EN(16):Lol mad cuz bad.|RU(28):Лол злишься потому что плох.
+L2398|+2|EN(14):Lol no thanks.|RU(16):Лол нет спасибо.
+L2401|+2|EN(10):lol see ya|RU(12):лол увидимся
+L2403|+5|EN(21):lol u think ur funny?|RU(26):лол ты думаешь ты смешной?
+L2404|+3|EN(19):lol u wanna go bk 2|RU(22):лол хочешь вернуться в
+L2405|+7|EN(31):lol u would kill us all n e how|RU(38):лол ты бы нас всех убил в любом случае
+L2408|+3|EN(6):lol yw|RU(9):лол пжлст
+L2410|+1|EN(19):lol, probably true.|RU(20):лол наверное правда.
+L2412|+2|EN(9):loot hog!|RU(11):лут-жадина!
+L2413|+2|EN(12):LOUD NOISES!|RU(14):ГРОМКИЕ ЗВУКИ!
+L2416|+8|EN(33):MAN MY GROUP JUST GO WRECKED LMAO|RU(41):ЧУВАК МОЮ ГРУППУ ТОЛЬКО ЧТО РАЗНЕСЛИ ЛМАО
+L2425|+8|EN(36):My desk literally just collapsed lol|RU(44):Мой стол буквально только что развалился лол
+L2427|+5|EN(37):My friend said he got too scared haha|RU(42):Мой друг сказал что слишком испугался хаха
+L2428|+1|EN(10):My guy NN!|RU(11):Мой чел NN!
+L2433|+2|EN(24):n e 1 lend me some gold?|RU(26):кто-нибудь одолжит золота?
+L2437|+8|EN(14):Nice gear lol.|RU(22):Клёвое снаряжение лол.
+L2438|+6|EN(13):NICE JOB DUDE|RU(19):ОТЛИЧНАЯ РАБОТА ЧЕЛ
+L2439|+7|EN(35):nice job last time, wanna xp again?|RU(42):отлично в прошлый раз хочешь ещё на экспу?
+L2445|+1|EN(11):no problem!|RU(12):без проблем!
+L2446|+3|EN(11):no way haha|RU(14):ни за что хаха
+L2447|+7|EN(16):No... not again!|RU(23):Нет... только не снова!
+L2450|+3|EN(4):now!|RU(7):сейчас!
+L2455|+5|EN(25):oh yo charm spells r sick|RU(30):о чувак чары заклинания крутые
+L2461|+3|EN(38):omg bring me whatever you're doing! :)|RU(41):омг возьмите меня что бы вы ни делали! :)
+L2463|+3|EN(18):omg Goliath please|RU(21):омг Голиаф пожалуйста
+L2466|+2|EN(19):omg THANKS! Brt! :)|RU(21):омг СПАСИБО! Бегу! :)
+L2467|+7|EN(27):our group was SOOOOO fun!!!|RU(34):наша группа была ТАААААК весело!!!
+L2469|+4|EN(32):Our XP Groups? <SOLID>! Join us!|RU(36):Наши экспа-группы? <SOLID>! Вступай!
+L2477|+6|EN(12):Revive me!!!|RU(18):Воскресите меня!!!
+L2480|+2|EN(31):SCRRRUUUUUUBBBY says II please!|RU(33):СКРАААААББИ просит II пожалуйста!
+L2484|+3|EN(24):Scrubby and NN are BFFS!|RU(27):Скрабби и NN ЛУЧШИЕ ДРУЗЬЯ!
+L2485|+6|EN(35):Scrubby can group later but not now|RU(41):Скрабби может в группу позже но не сейчас
+L2488|+1|EN(23):Scrubby loves that II!!|RU(24):Скрабби обожает тот II!!
+L2489|+1|EN(18):Scrubby loves you!|RU(19):Скрабби тебя любит!
+L2490|+1|EN(21):Scrubby loves youuuu!|RU(22):Скрабби тебя любиииит!
+L2492|+7|EN(16):Scrubby says hi!|RU(23):Скрабби говорит привет!
+L2496|+3|EN(23):Scrubby will BRT! Stay!|RU(26):Скрабби СЕЙЧАС БУДЕТ! Жди!
+L2504|+2|EN(19):Scrubby's so happy!|RU(21):Скрабби так счастлив!
+L2507|+1|EN(20):Scrubster loves you!|RU(21):Скрабстер тебя любит!
+L2508|+8|EN(19):Scubby hates toxic!|RU(27):Скабби ненавидит токсичных!
+L2510|+4|EN(26):Secret quest, no spoilers!|RU(30):Секретный квест без спойлеров!
+L2511|+3|EN(19):See you after work!|RU(22):Увидимся после работы!
+L2512|+4|EN(53):Seeking a Guild Kevin is Hiring! Join Hires of Kevin!|RU(57):Ищешь гильдию Кевин нанимает! Вступай в Наёмников Кевина!
+L2514|+2|EN(18):SHOULD BE MINE LOL|RU(20):ДОЛЖЕН БЫТЬ МОИМ ЛОЛ
+L2516|+1|EN(8):Skip it!|RU(9):Пропусти!
+L2518|+3|EN(12):SO WE CAN XP|RU(15):ЧТОБЫ ЭКСПИТЬСЯ
+L2526|+4|EN(7):Sup NN!|RU(11):Здарова NN!
+L2540|+2|EN(44):The minotaurs in Loomingwood are amazing xp!|RU(46):Минотавры в Грозолесье дают потрясающую экспу!
+L2543|+1|EN(32):The xp was actually not terrible|RU(33):Экспа была на самом деле неплохая
+L2545|+2|EN(31):They drop a nice weapon though.|RU(33):Зато они дропают неплохое оружие.
+L2552|+1|EN(23):Those asps will get ya!|RU(24):Эти аспиды вас достанут!
+L2553|+3|EN(5):to xp|RU(8):на экспу
+L2554|+10|EN(29):Train him on someone else lol|RU(39):Потренируй его на ком-нибудь другом лол
+L2555|+3|EN(28):u n me we rekt that dump lol|RU(31):ты и я мы разнесли то место лол
+L2556|+9|EN(32):u need 2 share loot yo bcuz that|RU(41):тебе надо делить лут чувак потому что тот
+L2560|+9|EN(61):u seem like a guy who has 2 play this solo lol bcuz ur so bad|RU(70):ты похож на чела который должен играть соло лол потому что ты так плох
+L2561|+6|EN(15):u still suk lol|RU(21):ты всё ещё отстой лол
+L2562|+3|EN(10):u suck lol|RU(13):ты отстой лол
+L2564|+1|EN(19):u xping can i come?|RU(20):экспишься можно мне?
+L2568|+1|EN(9):WAZZUP!!!|RU(10):ЗДАРОВА!!!
+L2579|+1|EN(15):whats good NN!!|RU(16):как делишки NN!!
+L2581|+1|EN(19):Whats up Scubbypal!|RU(20):Как дела Скаббидруг!
+L2588|+3|EN(5):Why??|RU(8):Почему??
+L2590|+3|EN(34):Wiping is the way: Join Afterwipe!|RU(37):Вайп — это путь: вступай в Afterwipe!
+L2591|+8|EN(11):Witness Me!|RU(19):Засвидетельствуйте!
+L2595|+6|EN(6):Wrong!|RU(12):Неправильно!
+L2596|+8|EN(30):wtb xp leech... or powerlevel.|RU(38):куплю пиявку экспы... или павер-левел.
+L2599|+3|EN(9):XP after!|RU(12):Экспа потом!
+L2600|+2|EN(8):XPing in|RU(10):Экспимся в
+L2601|+4|EN(34):xX~HATTY CATS~Xx  All are welcome!|RU(38):xX~HATTY CATS~Xx Все добро пожаловать!
+L2605|+1|EN(9):YEAH BOY!|RU(10):ДА ПАРЕНЬ!
+L2621|+1|EN(26):Yes! That tune is so good!|RU(27):Да! Эта мелодия так хороша!
+L2624|+1|EN(12):yo bruh neat|RU(13):йо брат круто
+L2625|+3|EN(26):yo bruh! more bruh-time in|RU(29):йо брат! больше бро-времени в
+L2627|+2|EN(35):yo can u give me sum gear bcuz that|RU(37):йо можешь дать снарягу потому что тот
+L2628|+3|EN(16):yo im on lets go|RU(19):йо я онлайн погнали
+L2640|+1|EN(33):You make Scrubby look like a pro!|RU(34):Ты делаешь Скрабби похожим на про!
+L2645|+3|EN(22):YOU WANNA DO SOMETHIN?|RU(25):ХОЧЕШЬ ЧТО-НИБУДЬ ДЕЛАТЬ?
+L2647|+1|EN(18):YOU WANNA MEET UP?|RU(19):ХОЧЕШЬ ВСТРЕТИТЬСЯ?
+L2651|+1|EN(18):You're back YAAAY!|RU(19):Ты вернулся УУУУРА!
+L2668|+6|EN(18):Kilkay's Questline|RU(24):Квестовая цепочка Килкея
+L2724|+1|EN(67):You met a strange being called "The Bridgekeeper" on Shivering Step|RU(68):Вы встретили странное существо «Хранитель Моста» на Дрожащей Ступени
+L2728|+8|EN(46):Aetherfiends are awful. Just terrible. So bad.|RU(54):Эфирные Твари ужасны. Просто отвратительны. Так плохо.
+L2734|+4|EN(41):Books are just lazy movies. Like come on.|RU(45):Книги это просто ленивые фильмы. Ну серьёзно.
+L2741|+1|EN(4):bye.|RU(5):пока.
+L2742|+1|EN(7):c u l8r|RU(8):увидимся
+L2743|+6|EN(27):Can't get cat off keyboard.|RU(33):Не могу убрать кота с клавиатуры.
+L2746|+10|EN(66):Gives a 25% chance to proc spell: Arcstorm (750 dmg) on each arrow|RU(76):Даёт 25% шанс активировать заклинание Чарошторм (750 урона) на каждую стрелу
+L2747|+7|EN(18):Adds attack speed.|RU(25):Добавляет скорость атаки.
+L2748|+10|EN(45):Aged by decades of exposure to the ocean air.|RU(55):Состарено десятилетиями воздействия океанского воздуха.
+L2757|+1|EN(48):Argo was a boring guy and he owned boring books.|RU(49):Арго был скучным типом и владел скучными книгами.
+L2760|+8|EN(41):Bonepits is the best for that level range|RU(49):Костяные Ямы — лучшее для этого диапазона уровней
+L2762|+4|EN(21):Braxonia, hands down.|RU(25):Браксония, без вариантов.
+L2765|+7|EN(49):Crocs can be good formalwear with the right socks|RU(56):Кроксы могут быть парадной одеждой с правильными носками
+L2769|+4|EN(26):Definitely Rockshade Hold.|RU(30):Точно Крепость Скалистой Тени.
+L2770|+2|EN(35):Definitely try Braxonia or Azynthi.|RU(37):Точно попробуй Браксонию или Азинтию.
+L2772|+4|EN(25):Eldoth keeps wrecking me.|RU(29):Элдот меня постоянно убивает.
+L2773|+6|EN(15):Eldoth too hard|RU(21):Элдот слишком сложный
+L2774|+4|EN(17):Eldoth too strong|RU(21):Элдот слишком сильный
+L2779|+7|EN(31):Goliath keeps sneaking up on me|RU(38):Голиаф постоянно подкрадывается ко мне
+L2782|+2|EN(18):Granitus scares me|RU(20):Гранитус меня пугает
+L2783|+12|EN(42):Hexagons are not, in fact, the best-a-gons|RU(54):Шестиугольники на самом деле не самые лучшие-угольники
+L2784|+7|EN(28):Hidden Hills or Bonepits imo|RU(35):Скрытые Холмы или Костяные Ямы имхо
+L2787|+5|EN(19):I HATE AETHERFIENDS|RU(24):НЕНАВИЖУ ЭФИРНЫХ ДЕМОНОВ
+L2794|+16|EN(62):If Krakengard is too easy, try Underspine or Duskenlight Coast|RU(78):Если Кракенгард слишком лёгкий, попробуй Подхребетье или Побережье Тусклосвета
+L2795|+2|EN(54):Jaws once you're keyed. Otherwise Azynthi or Prielian.|RU(56):Челюсти, когда получишь ключ. Иначе Азинтия или Приэлия.
+L2796|+4|EN(37):Krakengard is still ok for that level|RU(41):Кракенгард ещё нормально для этого уровня
+L2799|+9|EN(51):Lost Cellar is good, bring Elemental Resist though.|RU(60):Потерянный Подвал — хорошо, но бери Стихийное Сопротивление.
+L2802|+13|EN(42):I'd do Azynthi or Jaws or Prielian Cascade|RU(55):Я бы шёл в Азинтию или Челюсти, или Приэлианский Каскад
+L2803|+4|EN(46):I'd do Vitheo's Rest or Blooming at that level|RU(50):Я бы шёл в Покой Витео или Цветение на этом уровне
+L2804|+4|EN(24):I'd go Abyssal or Blight|RU(28):Я бы шёл в Бездну или Заразу
+L2806|+3|EN(38):Prielian Cascade or Braxonia for sure.|RU(41):Приэлианский Каскад или Браксония, точно.
+L2807|+3|EN(38):Seafiends in Windwashed would be great|RU(41):Морские Демоны в Ветробреге — то что надо
+L2809|+2|EN(27):Swamp Wyrm is such a rocket|RU(29):Болотный Змей — ракета просто
+L2812|+1|EN(50):The Faeries in Ripper's keep seem like a good camp|RU(51):Феи в Крепости Потрошительницы — вроде хороший кемп
+L2816|+5|EN(61):The Hidden Church in Blacksalt has great loot for your range.|RU(66):Скрытая Церковь в Чёрной Соли — отличный лут для твоего диапазона.
+L2818|+13|EN(52):The Ogres use this to keep the grass spiders at bay.|RU(65):Огры используют это, чтобы держать травяных пауков на расстоянии.
+L2823|+2|EN(33):Vitheos Rest first wing is great.|RU(35):Первое крыло Покоя Витео — отлично.
+L2824|+17|EN(74):Well I just died to Granitus. Something that big shouldn't be that sneaky.|RU(91):Вот только что умер от Гранитуса. Что-то настолько большое не должно быть таким незаметным.
+L2826|+4|EN(40):Around 18-19 I think Elderstone is great|RU(44):Около 18-19 думаю Камень Старейшин — отлично
+L2827|+3|EN(65):Some of the higher stuff in Braxonian Desert might be ok for you.|RU(68):Некоторые высокоуровневые штуки в Браксонской Пустыне могут подойти.
+L2831|+4|EN(60):Stick to Stowaway or Willowwatch if you skilled the tutorial|RU(64):Оставайся в Безбилетнике или Ивовой Страже, если прошёл обучение
+L2832|+1|EN(42):Stick to your starting zone til 5-6 or so.|RU(43):Оставайся в стартовой зоне до 5-6 примерно.
+L2838|+6|EN(88):You can start working on Jaws key, get Azynthi done, and check out Prielian Cascade too.|RU(94):Можно начинать работать над ключом Челюстей, пройти Азинтию и заглянуть в Приэлианский Каскад.
+L2847|+1|EN(48):Abyssal lake to get Azynthi keyed, then Azynthi.|RU(49):Бездонное Озеро для ключа Азинтии, потом Азинтия.
+L2848|+5|EN(45):Abyssal Lake would be good, maybe a bit hard.|RU(50):Бездонное Озеро было бы хорошо, может чуть сложно.
+L2851|+5|EN(24):arcanist dmg is nutty yo|RU(29):урон чародея просто дикий йоу
+L2852|+1|EN(14):aw u killed me|RU(15):бл ты меня убил
+L2853|+3|EN(19):Aww crap! Get me up|RU(22):Вот блин! Подними меня
+L2855|+1|EN(13):Awwww come on|RU(14):Нуууу да ладно
+L2858|+4|EN(18):Azynthi, then Jaws|RU(22):Азинтия, потом Челюсти
+L2859|+1|EN(20):Better luck tomorrow|RU(21):Завтра повезёт больше
+L2860|+4|EN(9):Bonepits!|RU(13):Костяные Ямы!
+L2863|+6|EN(7):bruh np|RU(13):бро не за что
+L2865|+1|EN(8):bruh wtf|RU(9):бро чё за
+L2867|+1|EN(8):busy atm|RU(9):занят щас
+L2869|+2|EN(9):Bye loser|RU(11):Пока, лузер
+L2872|+6|EN(12):can u come 2|RU(18):можешь придти тоже
+L2874|+2|EN(5):can't|RU(7):не могу
+L2875|+2|EN(10):cant sorry|RU(12):не могу сори
+L2879|+1|EN(8):COME ON.|RU(9):ДА ЛАДНО.
+L2880|+2|EN(7):Come to|RU(9):Приходи в
+L2882|+1|EN(5):Cool.|RU(6):Круто.
+L2883|+3|EN(13):could use you|RU(16):ты бы пригодился
+L2887|+4|EN(32):Don't be a jerk, Join the Kevins|RU(36):Не будь придурком, вступай в Кевинов
+L2891|+6|EN(52):Dr Seuss had it right! Join our club! --HATTY CATS--|RU(58):Доктор Сьюз был прав! Вступай в наш клуб! --ШЛЯПНЫЕ КОТЫ--
+L2892|+15|EN(41):Dragon Food -- Dragon Food -- Dragon Food|RU(56):Корм для Дракона -- Корм для Дракона -- Корм для Дракона
+L2894|+13|EN(37):Dragons need snacks, join Dragon Food|RU(50):Драконам нужны закуски, вступай в Корм для Дракона
+L2895|+1|EN(36):Dream on noobs, Friends Club is full|RU(37):Мечтайте, нубы, Friends Club заполнен
+L2896|+1|EN(51):dying is the wooorrrrsst I forgot to bind at a well|RU(52):умирать — хуже всегоооо, забыл привязаться к колодцу
+L2901|+1|EN(57):Everyone has an opinion... opinions are like... you know.|RU(58):У каждого есть мнение... мнения — это как... ну ты знаешь.
+L2903|+5|EN(32):Ew weekends over for me tomorrow|RU(37):Блин выходные у меня завтра кончаются
+L2904|+5|EN(7):EZ Life|RU(12):Лёгкая Жизнь
+L2905|+5|EN(32):FC IS THE ONLY GUILD ON ERENSHOR|RU(37):FC — ЕДИНСТВЕННАЯ ГИЛЬДИЯ В ЭРЕНСХОРЕ
+L2906|+1|EN(8):ffs dead|RU(9):блин умер
+L2910|+2|EN(20):Friends are welcome~|RU(22):Друзья приветствуются~
+L2912|+1|EN(20):Friends club forever|RU(21):Friends Club навсегда
+L2914|+10|EN(30):Friends club membership is BIS|RU(40):Членство в Friends Club — лучшее в слоте
+L2916|+8|EN(37):Friends Club: Join us in your dreams.|RU(45):Friends Club: Присоединяйтесь к нам в мечтах.
+L2917|+6|EN(50):FRIENDS CLUB: The guild that will never invite you|RU(56):FRIENDS CLUB: Гильдия, которая никогда тебя не пригласит
+L2919|+1|EN(9):get bent.|RU(10):иди лесом.
+L2920|+9|EN(15):Get Jaws keyed!|RU(24):Получи ключ от Челюстей!
+L2921|+2|EN(9):GET LOST.|RU(11):ПРОВАЛИВАЙ.
+L2922|+3|EN(13):get me up nub|RU(16):подними меня нуб
+L2924|+1|EN(16):Get this off me.|RU(17):Сними это с меня.
+L2925|+1|EN(21):Get this thing off me|RU(22):Сними эту штуку с меня
+L2926|+1|EN(14):gg there buddy|RU(15):гг там, дружище
+L2935|+1|EN(67):Good thing you can type, you won't be doing much else on this game.|RU(68):Хорошо что умеешь печатать, больше в этой игре ты мало что сделаешь.
+L2936|+2|EN(9):got aggro|RU(11):словил агро
+L2940|+3|EN(11):Great movie|RU(14):Отличный фильм
+L2941|+8|EN(16):Great movie line|RU(24):Отличная фраза из фильма
+L2944|+9|EN(32):GUILD -- Join Afterwipe -- GUILD|RU(41):ГИЛЬДИЯ -- Вступай в Afterwipe -- ГИЛЬДИЯ
+L2945|+15|EN(36):Guild Chat says you're to be ignored|RU(51):Гильдейский Чат говорит, что тебя надо игнорировать
+L2949|+5|EN(39):Hah, skill level going up in 3...2....1|RU(44):Ха, уровень навыка повысится через 3...2...1
+L2950|+10|EN(26):Hard as rock: Join <SOLID>|RU(36):Твёрдый как скала: Вступай в <SOLID>
+L2953|+3|EN(38):He really just beelines out of nowhere|RU(41):Он реально просто выскакивает из ниоткуда
+L2954|+6|EN(52):He's just a big old named monster, nice loot though.|RU(58):Он просто большой старый именной монстр, зато лут хороший.
+L2957|+2|EN(16):Heeeey NN!!!! :)|RU(18):Привееет NN!!!! :)
+L2958|+4|EN(22):Heeeeyyyy stranger! :)|RU(26):Приветииик, незнакомец! :)
+L2961|+1|EN(17):hey! :) love that|RU(18):хей! :) обожаю это
+L2967|+4|EN(6):Hi NN.|RU(10):Привет NN.
+L2968|+8|EN(6):hi pal|RU(14):привет дружище
+L2969|+5|EN(7):Hi, bye|RU(12):Привет, пока
+L2970|+3|EN(8):hi, that|RU(11):привет, это
+L2971|+4|EN(12):Hi! :) NN :)|RU(16):Привет! :) NN :)
+L2972|+5|EN(12):hi!! :) cool|RU(17):привет!! :) круто
+L2973|+1|EN(6):Hio NN|RU(7):Прив NN
+L2974|+1|EN(14):Hires of Kevin|RU(15):Кевины набирают
+L2975|+2|EN(7):Hiya :)|RU(9):Привет :)
+L2978|+2|EN(8):How gate|RU(10):Как ворота
+L2979|+1|EN(7):how r u|RU(8):как дела
+L2982|+5|EN(37):I am feeling very attacked right now.|RU(42):Я чувствую, что меня атакуют прямо сейчас.
+L2986|+4|EN(25):I can use that II please.|RU(29):Можно мне тот II, пожалуйста.
+L2988|+1|EN(38):I can't kill Eldoth it's not possible.|RU(39):Я не могу убить Элдота, это невозможно.
+L2991|+1|EN(17):I can't with you.|RU(18):Я не могу с тобой.
+L2992|+5|EN(19):i could use that II|RU(24):мне бы пригодился тот II
+L2993|+6|EN(30):I did bonepits at those levels|RU(36):Я делал Костяные Ямы на этих уровнях
+L2997|+4|EN(34):I dont think you're worth my time.|RU(38):Не думаю, что ты стоишь моего времени.
+L3001|+4|EN(27):I hope a Wyrm steps on you.|RU(31):Надеюсь, Змей на тебя наступит.
+L3003|+4|EN(30):I just ate and I wasn't hungry|RU(34):Я только что поел и не был голоден
+L3004|+3|EN(46):I just finished the third mysterious portal...|RU(49):Я только что закончил третий загадочный портал...
+L3006|+20|EN(42):I just peed and now I have to poo. Dangit.|RU(62):Я только сходил по-маленькому и теперь надо по-большому. Блин.
+L3007|+9|EN(22):I knew you'd do it! :)|RU(31):Я знал что у тебя получится! :)
+L3010|+3|EN(9):i like it|RU(12):мне нравится
+L3011|+17|EN(32):i like magic bolt i think its op|RU(49):мне нравится магическая стрела, по-моему она имба
+L3017|+7|EN(40):I mean, I can't prove that's false so...|RU(47):Ну, я не могу доказать что это ложь, так что...
+L3019|+19|EN(33):I need more move speed, how 2 get|RU(52):мне нужно больше скорости передвижения, как получить
+L3020|+6|EN(16):I need new rings|RU(22):мне нужны новые кольца
+L3021|+1|EN(30):I need someone to mana buff me|RU(31):мне нужен кто-то для баффа маны
+L3022|+8|EN(31):I need that II if nobody minds.|RU(39):Мне нужен тот II, если никто не против.
+L3023|+3|EN(20):i need the II please|RU(23):мне нужен II пожалуйста
+L3028|+4|EN(20):I really need chips.|RU(24):Мне реально нужны чипсы.
+L3030|+3|EN(17):I see dead people|RU(20):Я вижу мёртвых людей
+L3033|+2|EN(38):i think this game is trying to kill me|RU(40):мне кажется эта игра пытается меня убить
+L3035|+1|EN(29):I will be buried in my crocs.|RU(30):Меня похоронят в моих кроксах.
+L3036|+5|EN(30):I will never not wear hoodies.|RU(35):Я никогда не перестану носить худи.
+L3038|+1|EN(38):I'll one shot your junkpile of a toon.|RU(39):Я ваншотну твоего свалочного персонажа.
+L3045|+1|EN(26):i've got a bit, i'll come.|RU(27):у меня немного есть, приду.
+L3048|+4|EN(20):ILL COME TANK FOR YA|RU(24):Я ПРИДУ ПОТАНКУЮ ЗА ТЕБЯ
+L3049|+2|EN(13):im dead. wtf.|RU(15):я мёртв. чё за.
+L3050|+2|EN(9):is 2 cool|RU(11):это 2 круто
+L3053|+5|EN(9):Is so is.|RU(14):Ну так и есть.
+L3056|+3|EN(52):It'll forever be the lowest achievement in the game.|RU(55):Это навсегда останется самым низким достижением в игре.
+L3062|+16|EN(25):It's your lucky day, BRT.|RU(41):Сегодня твой счастливый день, скоро буду.
+L3063|+8|EN(28):Join <HATTY CATS> right MEOW|RU(36):Вступай в <ШЛЯПНЫЕ КОТЫ> прямо МЯЯЯУ
+L3064|+2|EN(35):Join <SOLID> and don't be a softie.|RU(37):Вступай в <SOLID> и не будь слабаком.
+L3065|+12|EN(23):JOIN DRAGON FOOD OR DIE|RU(35):ВСТУПАЙ В КОРМ ДЛЯ ДРАКОНА ИЛИ УМРИ
+L3066|+6|EN(22):JOGGERS! the only way.|RU(28):ДЖОГГЕРЫ! единственный путь.
+L3067|+12|EN(12):k c u n a mn|RU(24):ок увидимся через минуту
+L3068|+5|EN(23):Keep on trying to be us|RU(28):Продолжай пытаться быть нами
+L3074|+5|EN(8):l8r sk8r|RU(13):позже скейтер
+L3075|+3|EN(11):lame. dead.|RU(14):отстой. мёртв.
+L3076|+1|EN(42):Last night Goliath one shot me to the moon|RU(43):Прошлой ночью Голиаф ваншотнул меня на луну
+L3078|+2|EN(16):lawl bruh, we in|RU(18):лол бро, мы внутри
+L3082|+1|EN(18):Legends never die.|RU(19):Легенды не умирают.
+L3084|+4|EN(52):let me drop everything i'm doing to congratulate you|RU(56):позвольте мне бросить всё что делаю чтобы поздравить вас
+L3087|+4|EN(22):Life uh... finds a way|RU(26):Жизнь ух... находит способ
+L3088|+4|EN(12):looming mino|RU(16):грозолесный мино
+L3089|+4|EN(16):looming minotaur|RU(20):грозолесный минотавр
+L3090|+2|EN(15):Love that movie|RU(17):Обожаю этот фильм
+L3092|+17|EN(26):Lucky i even talked to you|RU(43):Тебе повезло что я вообще с тобой заговорил
+L3101|+2|EN(26):monstrs got all melty lawl|RU(28):монстры все расплавились лол
+L3108|+3|EN(42):My shirt has been inside out all day. Ffff|RU(45):У меня рубашка была наизнанку весь день. Блин
+L3110|+4|EN(22):Need 4 kiddo, no less.|RU(26):Нужно 4, малыш, не меньше.
+L3113|+6|EN(9):next time|RU(15):в следующий раз
+L3114|+1|EN(6):NICE 1|RU(7):КРАСАВА
+L3116|+7|EN(27):Nice one, get a real guild.|RU(34):Молодец, найди нормальную гильдию.
+L3118|+3|EN(33):No Friends Club tag, no whispers.|RU(36):Нет тега Friends Club — нет шёпотов.
+L3119|+4|EN(26):No loss to the rest of us.|RU(30):Невелика потеря для остальных.
+L3120|+2|EN(9):no thanks|RU(11):нет спасибо
+L3121|+3|EN(10):No thanks.|RU(13):Нет, спасибо.
+L3123|+1|EN(44):No, that's not true. I've talked to the dev.|RU(45):Нет, это неправда. Я говорил с разработчиком.
+L3124|+3|EN(22):No. Friends Club only.|RU(25):Нет. Только Friends Club.
+L3126|+2|EN(24):NOPE. Friends Club only.|RU(26):НЕ-А. Только Friends Club.
+L3130|+7|EN(38):Nothing is real. Dead internet theory.|RU(45):Ничего не реально. Теория мёртвого интернета.
+L3132|+6|EN(7):np bruh|RU(13):не за что бро
+L3133|+9|EN(8):np buddy|RU(17):не за что дружище
+L3134|+4|EN(5):np np|RU(9):не за что
+L3135|+6|EN(13):np scrubbypal|RU(19):не за что скрабипал
+L3136|+10|EN(17):np stay happy~ :)|RU(27):не за что будь счастлив~ :)
+L3137|+1|EN(17):Oh nice call back|RU(18):О классная отсылка
+L3138|+4|EN(16):oh you got me...|RU(20):ох ты меня достал...
+L3139|+1|EN(7):ok cool|RU(8):ок круто
+L3140|+1|EN(7):ok nice|RU(8):ок клёво
+L3141|+2|EN(23):Ok then. That was rude.|RU(25):Ну ладно. Это было грубо.
+L3144|+6|EN(23):omfg y did u loot my II|RU(29):боже почему ты залутал мой II
+L3145|+1|EN(5):on me|RU(6):на мне
+L3146|+2|EN(18):One less to carry.|RU(20):Одним меньше тащить.
+L3147|+1|EN(10):ones on me|RU(11):этот на мне
+L3148|+4|EN(41):Only Noah could carry animals like you...|RU(45):Только Ной мог нести таких животных как ты...
+L3149|+1|EN(9):only you.|RU(10):только ты.
+L3154|+1|EN(14):r we goin bk 2|RU(15):мы возвращаемся
+L3156|+2|EN(8):Retreat!|RU(10):Отступаем!
+L3157|+3|EN(40):Revenge is sweet, you'll get him someday|RU(43):Месть сладка, ты его когда-нибудь достанешь
+L3160|+1|EN(16):rottenfoot music|RU(17):музыка гнилоножки
+L3161|+1|EN(15):rottenfoot song|RU(16):песня гнилоножки
+L3164|+5|EN(13):Scrubby *hug*|RU(18):Скраби *обнимашки*
+L3169|+6|EN(35):Scrubby had so much fun with you NN|RU(41):Скраби так весело с тобой провёл время NN
+L3179|+1|EN(49):Scrubby would insult you, but you'd probably cry.|RU(50):Скраби бы тебя оскорбил, но ты наверное заплачешь.
+L3180|+1|EN(31):Scrubby!!! Take scrubby back to|RU(32):Скраби!!! Верни Скраби обратно в
+L3182|+5|EN(19):Scubby says come to|RU(24):Скраби говорит приходи в
+L3183|+1|EN(8):see you.|RU(9):увидимся.
+L3185|+1|EN(8):Sighs...|RU(9):Вздохи...
+L3188|+2|EN(34):So silly that you have to do that.|RU(36):Так глупо, что ты должен это делать.
+L3189|+12|EN(33):Someone just spoiled Lost for me.|RU(45):Мне только что заспойлерили Остаться в живых.
+L3190|+3|EN(18):someone taunt this|RU(21):кто-нибудь агрите это
+L3192|+1|EN(52):Sorry, busy getting server firsts with Friends Club.|RU(53):Извини, занят — беру серверные фёрсты с Friends Club.
+L3193|+1|EN(52):Sorry, busy getting werver firsts with Friends Club.|RU(53):Извини, занят — беру серверные фёрсты с Friends Club.
+L3194|+3|EN(25):sorry, mostly watching TV|RU(28):извини, в основном смотрю ТВ
+L3195|+6|EN(12):stop please.|RU(18):хватит пожалуйста.
+L3196|+1|EN(13):stop spamming|RU(14):хватит спамить
+L3197|+4|EN(21):stop wasting my time.|RU(25):хватит тратить моё время.
+L3198|+1|EN(13):sucks im dead|RU(14):отстой я мёртв
+L3199|+4|EN(10):swamp song|RU(14):болотная песня
+L3200|+7|EN(20):sweet see u in a min|RU(27):круто увидимся через минуту
+L3201|+2|EN(40):Tapioca is the only pudding worth eating|RU(42):Тапиока — единственный пудинг стоящий того
+L3204|+3|EN(20):That camp is so good|RU(23):Этот кемп такой хороший
+L3205|+1|EN(9):that hurt|RU(10):это больно
+L3208|+3|EN(42):That was lame. We'll go farm more dragons.|RU(45):Это было ламово. Пойдём фармить ещё драконов.
+L3216|+2|EN(15):That's so lame.|RU(17):Это так отстойно.
+L3218|+1|EN(17):That's so mean :(|RU(18):Это так жестоко :(
+L3219|+4|EN(16):That's so wrong.|RU(20):Это так неправильно.
+L3224|+9|EN(39):There's hope for you yet, you did ok in|RU(48):Ещё есть надежда для тебя, ты неплохо выступил в
+L3226|+1|EN(12):third portal|RU(13):третий портал
+L3232|+3|EN(9):thx info.|RU(12):спс за инфо.
+L3233|+4|EN(15):TO BE CONTINUED|RU(19):ПРОДОЛЖЕНИЕ СЛЕДУЕТ
+L3235|+4|EN(22):Top 10 movies all time|RU(26):Топ 10 фильмов всех времён
+L3236|+8|EN(16):u let me die wtf|RU(24):ты дал мне умереть чё за
+L3238|+3|EN(6):u suck|RU(9):ты отстой
+L3239|+4|EN(26):u suck if you take that II|RU(30):ты отстой если возьмёшь тот II
+L3240|+1|EN(5):u suk|RU(6):ты лох
+L3241|+7|EN(15):ugh come get me|RU(22):блин приди забери меня
+L3249|+2|EN(31):Wanna hang with Scrubby? Get to|RU(33):Хочешь тусить со Скраби? Двигай в
+L3250|+2|EN(18):Wanna head over to|RU(20):Хочешь отправиться в
+L3251|+1|EN(35):Watch out for him, fast and sneaky.|RU(36):Осторожно с ним, быстрый и скрытный.
+L3252|+2|EN(9):Way to go|RU(11):Так держать
+L3253|+9|EN(53):We always wipe! Join Afterwipe! Don't be a non-wiper.|RU(62):Мы всегда вайпаем! Вступай в Afterwipe! Не будь анти-вайпером.
+L3256|+5|EN(19):Welcome to the Rock|RU(24):Добро пожаловать в Скалу
+L3262|+7|EN(15):What watchlight|RU(22):Какой сторожевой огонь
+L3263|+10|EN(16):what's max level|RU(26):какой максимальный уровень
+L3264|+2|EN(9):whatever.|RU(11):как угодно.
+L3265|+2|EN(11):whats up NN|RU(13):что нового NN
+L3268|+4|EN(16):Where watchlight|RU(20):Где сторожевой огонь
+L3269|+2|EN(18):who freakin' cares|RU(20):кому вообще не пофиг
+L3271|+6|EN(34):Why is my chair wet? WHY IS IT WET|RU(40):Почему мой стул мокрый? ПОЧЕМУ ОН МОКРЫЙ
+L3272|+3|EN(5):Why!?|RU(8):Почему!?
+L3273|+3|EN(6):Why...|RU(9):Почему...
+L3275|+9|EN(32):Wonderwall is a great party song|RU(41):Wonderwall — отличная песня для вечеринки
+L3277|+1|EN(22):Work day tomorrow yuck|RU(23):Рабочий день завтра, фу
+L3283|+6|EN(21):Wrong guild tag buddy|RU(27):Не тот тег гильдии, дружище
+L3284|+2|EN(20):WTB THAT II FOR FREE|RU(22):КУПЛЮ ТОТ II БЕСПЛАТНО
+L3285|+3|EN(7):wtf ded|RU(10):чё за умер
+L3286|+2|EN(14):wtf howd i die|RU(16):чё за как я умер
+L3287|+2|EN(9):WTG THERE|RU(11):МОЛОДЕЦ ТАМ
+L3288|+1|EN(56):Yarren? Haven't seen him since the raid. I hope he's ok.|RU(57):Яррен? Не видел его с рейда. Надеюсь с ним всё нормально.
+L3296|+4|EN(12):You BACKSTAB|RU(16):Вы БЬЁТЕ В СПИНУ
+L3299|+8|EN(55):You can get a fast travel stone early on in Willowwatch|RU(63):Можно получить камень быстрого перемещения рано в Ивовой Страже
+L3300|+11|EN(26):You can't be a real person|RU(37):Ты не можешь быть настоящим человеком
+L3301|+7|EN(20):you can't be serious|RU(27):ты не можешь быть серьёзным
+L3303|+3|EN(27):You can't hang with Scrubby|RU(30):Ты не сможешь тусить со Скраби
+L3307|+3|EN(10):You cleave|RU(13):Вы рассекаете
+L3310|+2|EN(30):You feel big and bad with that|RU(32):Ты себя крутым чувствуешь с этим
+L3312|+5|EN(28):you got there is really good|RU(33):то что ты получил реально хорошее
+L3316|+4|EN(22):you have is super nice|RU(26):то что у тебя супер клёвое
+L3318|+2|EN(8):You kick|RU(10):Вы пинаете
+L3320|+4|EN(24):you look so cooooool! :)|RU(28):ты выглядишь так круууто! :)
+L3328|+5|EN(50):You'll always remember the day a FC talked to you.|RU(55):Ты навсегда запомнишь день, когда с тобой поговорил FC.
+L3329|+5|EN(64):You'll never forget the day you messed with the Molarai Militia!|RU(69):Ты никогда не забудешь день, когда связался с Молорайским Ополчением!
+L3334|+6|EN(52):you're so garbage only a trash truck could carry you|RU(58):ты настолько мусор, что только мусоровоз может тебя увезти
+L3339|+12|EN(35):you've got. i sold a few last week.|RU(47):то что у тебя. я продал пару на прошлой неделе.
+L3342|+7|EN(6):yup np|RU(13):ага не за что
+L3347|+5|EN(57):She's really hard, definitely a DPS check at some points.|RU(62):Она реально сложная, определённо ДПС чек в некоторых моментах.

@@ -1,0 +1,227 @@
+# ui_system.txt: 226 violations
+L13|+3|EN(4):Sell|RU(7):Продать
+L14|+1|EN(6):Accept|RU(7):Принять
+L15|+2|EN(7):Decline|RU(9):Отклонить
+L16|+2|EN(5):Close|RU(7):Закрыть
+L18|+4|EN(7):Confirm|RU(11):Подтвердить
+L22|+1|EN(2):No|RU(3):Нет
+L23|+1|EN(4):Back|RU(5):Назад
+L24|+4|EN(5):Apply|RU(9):Применить
+L25|+5|EN(4):Save|RU(9):Сохранить
+L26|+5|EN(4):Load|RU(9):Загрузить
+L27|+1|EN(6):Delete|RU(7):Удалить
+L28|+1|EN(6):Create|RU(7):Создать
+L29|+1|EN(4):Exit|RU(5):Выход
+L30|+1|EN(4):Quit|RU(5):Выход
+L31|+2|EN(7):Options|RU(9):Настройки
+L32|+1|EN(8):Settings|RU(9):Настройки
+L35|+1|EN(13):New Character|RU(14):Новый персонаж
+L37|+4|EN(6):Invite|RU(10):Пригласить
+L38|+1|EN(8):Uninvite|RU(9):Исключить
+L39|+4|EN(15):Invite To Group|RU(19):Пригласить в группу
+L42|+3|EN(9):No Seller|RU(12):Нет продавца
+L44|+3|EN(10):Add Raider|RU(13):Взять рейдера
+L49|+2|EN(4):Done|RU(6):Готово
+L50|+1|EN(8):Defaults|RU(9):Стандарт.
+L62|+2|EN(12):Game Options|RU(14):Настройки игры
+L66|+2|EN(4):Misc|RU(6):Прочее
+L69|+1|EN(11):Full Screen|RU(12):Полный экран
+L73|+2|EN(14):Outline Shader|RU(16):Контурный шейдер
+L75|+1|EN(13):Grass Quality|RU(14):Качество травы
+L79|+1|EN(10):Color Temp|RU(11):Цвет. темп.
+L89|+2|EN(12):Game Options|RU(14):Настройки игры
+L90|+3|EN(15):v0.3 Goes Live!|RU(18):Выход версии v0.3!
+L112|+1|EN(5):Beard|RU(6):Борода
+L115|+4|EN(14):Play to Unlock|RU(18):Играй для открытия
+L116|+1|EN(10):Disconnect|RU(11):Отключиться
+L129|+3|EN(9):Hardiness|RU(12):Выносливость
+L131|+1|EN(7):Finesse|RU(8):Точность
+L132|+3|EN(7):Agility|RU(10):Проворство
+L137|+2|EN(6):Wisdom|RU(8):Мудрость
+L138|+3|EN(11):Restoration|RU(14):Восстановление
+L140|+1|EN(4):Mind|RU(5):Разум
+L142|+3|EN(5):Haste|RU(8):Скорость
+L148|+2|EN(5):Level|RU(7):Уровень
+L153|+2|EN(9):Windblade|RU(11):Ветроклинок
+L160|+2|EN(8):Physical|RU(10):Физический
+L163|+3|EN(4):Void|RU(7):Пустота
+L164|+2|EN(6):Poison|RU(8):Ядовитый
+L168|+1|EN(9):Equipment|RU(10):Экипировка
+L171|+2|EN(4):Loot|RU(6):Добыча
+L174|+2|EN(6):Ring 1|RU(8):Кольцо 1
+L175|+2|EN(6):Ring 2|RU(8):Кольцо 2
+L178|+1|EN(7):Primary|RU(8):Основное
+L182|+2|EN(5):Guild|RU(7):Гильдия
+L183|+1|EN(5):Group|RU(6):Группа
+L184|+1|EN(5):Party|RU(6):Группа
+L194|+2|EN(4):Miss|RU(6):Промах
+L196|+1|EN(6):Resist|RU(7):Сопрот.
+L198|+1|EN(3):ON!|RU(4):ВКЛ!
+L199|+1|EN(4):OFF.|RU(5):ВЫКЛ.
+L264|+3|EN(27):FAILED TO SAVE CHARACTER...|RU(30):ОШИБКА СОХРАНЕНИЯ ПЕРСОНАЖА...
+L267|+1|EN(28):You already know this spell!|RU(29):Ты уже знаешь это заклинание!
+L270|+5|EN(32):Your class cannot use this item!|RU(37):Твой класс не может это использовать!
+L273|+4|EN(27):This item cannot destroyed.|RU(31):Этот предмет нельзя уничтожить.
+L276|+3|EN(38):Primary Slot Items requires two hands!|RU(41):Предмет основного слота требует обе руки!
+L277|+3|EN(33):This item cannot go in this slot.|RU(36):Предмет не подходит для этого слота.
+L291|+8|EN(37):Your spell resonates and casts again!|RU(45):Твоё заклинание резонирует и кастуется снова!
+L295|+4|EN(25):You score a critical hit!|RU(29):Ты наносишь критический удар!
+L301|+3|EN(29):Price must be a round number.|RU(32):Цена должна быть круглым числом.
+L302|+4|EN(25):Price cannot be negative.|RU(29):Цена не может быть ниже нуля.
+L309|+4|EN(34):Target the Player to invite first.|RU(38):Сначала выбери игрока для приглашения.
+L318|+1|EN(36):A blast of power restores your mana!|RU(37):Взрыв силы восстанавливает твою ману!
+L319|+3|EN(27):Your bracer begins to glow!|RU(30):Твой наруч начинает светиться!
+L328|+1|EN(23):You can't hit yourself!|RU(24):Нельзя бить самого себя!
+L338|+1|EN(21):You missed the water.|RU(22):Промахнулся мимо воды.
+L342|+4|EN(21):You cast your line...|RU(25):Ты забрасываешь удочку...
+L348|+6|EN(22):Invalid fuel source...|RU(28):Неверный источник топлива...
+L349|+3|EN(24):Invalid template item...|RU(27):Неверный шаблон предмета...
+L350|+4|EN(12):Invalid item|RU(16):Неверный предмет
+L352|+1|EN(16):No item selected|RU(17):Предмет не выбран
+L363|+1|EN(6):DELETE|RU(7):УДАЛИТЬ
+L365|+2|EN(19):No keys on Keyring.|RU(21):Нет ключей на связке.
+L379|+3|EN(33):Blessed items not supported in AH|RU(36):Благослов. предметы нельзя в аукцион
+L385|+4|EN(27):Restoring my mana, hold on!|RU(31):Восстанавливаю ману, подождите!
+L398|+3|EN(25):Fernalla's Revival Plains|RU(28):Равнины Возрождения Ферналлы
+L401|+2|EN(19):--SERVER SETTINGS--|RU(21):--НАСТРОЙКИ СЕРВЕРА--
+L411|+2|EN(30):that Molorai mask looks insane|RU(32):маска Молораи выглядит нереально
+L420|+3|EN(26):that mask looks cursed ngl|RU(29):маска выглядит проклятой, нвр
+L426|+3|EN(42):i swear the mask doesnt even exist til now|RU(45):клянусь маска вообще не существовала до этого
+L430|+1|EN(36):dude sell me that Molorai mask i beg|RU(37):чел, продай мне маску Молораи, умоляю
+L449|+1|EN(29):Wiki probably has the details|RU(30):На вики скорее всего есть инфа
+L471|+3|EN(38):Siraethe draws power from her wards...|RU(41):Сирэтея черпает силу из своих оберегов...
+L483|+3|EN(10):Hey get on|RU(13):Эй, заходи на
+L508|+4|EN(36):You cannot friend Burgee Media staff|RU(40):Нельзя добавить в друзья персонал Burgee
+L521|+3|EN(7): says: |RU(10): говорит: 
+L525|+4|EN(9):You say: |RU(13):Ты говоришь: 
+L526|+1|EN(11):You shout: |RU(12):Ты кричишь: 
+L530|+1|EN(20):Received New Quest: |RU(21):Получен новый квест: 
+L532|+3|EN(15):Loading Data...|RU(18):Загрузка данных...
+L533|+4|EN(22):Loading Server Data...|RU(26):Загрузка данных сервера...
+L534|+2|EN(10): days ago.|RU(12): дней назад.
+L541|+1|EN(5): gold|RU(6):  зол.
+L542|+1|EN(10):You sold: |RU(11):Ты продал: 
+L551|+3|EN(12): listed for |RU(15): выставлено за 
+L557|+2|EN(8):Seller: |RU(10):Продавец: 
+L563|+1|EN(22): gold to buy back the |RU(23): золота чтобы выкупить 
+L582|+5|EN(26): cannot be damaged by you.|RU(31): не может быть повреждён тобой.
+L617|+4|EN(28):No save file found for slot |RU(32):Сохранение не найдено для слота 
+L646|+1|EN(11):, but miss!|RU(12):, но промах!
+L647|+1|EN(19): dodged the attack!|RU(20): увернулся от атаки!
+L652|+1|EN(8):You hit |RU(9):Ты бьёшь 
+L654|+1|EN(9):You pull |RU(10):Ты тянешь 
+L661|+5|EN(18):You begin casting |RU(23):Ты начинаешь кастовать 
+L662|+3|EN(22): controls their chant.|RU(25): контролирует заклинание.
+L674|+3|EN(6): took |RU(9): получил 
+L676|+4|EN(19): BLEED damage from |RU(23): урона кровотечения от 
+L677|+3|EN(24): healing spell restores |RU(27): исцеление восстанавливает 
+L680|+1|EN(12): health for |RU(13): здоровья на 
+L689|+3|EN(20): has gained a level!|RU(23): получил новый уровень!
+L692|+11|EN(23):>>Saving Game Data...<<|RU(34):>>\u0421охранение данных игры...<<
+L710|+4|EN(11):Held Keys: |RU(15):Связка ключей: 
+L711|+1|EN(17):NPC HP MODIFIER: |RU(18):Множитель ОЗ NPC: 
+L712|+3|EN(18):NPC DMG MODIFIER: |RU(21):Множитель урона NPC: 
+L713|+4|EN(17):NPC XP MODIFIER: |RU(21):Множитель опыта NPC: 
+L714|+1|EN(19):NPC LOOT MODIFIER: |RU(20):Множитель лута NPC: 
+L723|+4|EN(16):No Item Found...|RU(20):Предмет не найден...
+L729|+6|EN(38):Gamepad Control Enabled (experimental)|RU(44):Управление геймпадом включено (эксперимент.)
+L737|+8|EN(34):This opponent will be a challenge.|RU(42):Этот противник будет серьёзным испытанием.
+L745|+3|EN(26): looks upon you kindly... |RU(29): смотрит на тебя с теплом... 
+L750|+1|EN(32): scowls and braces to attack... |RU(33): хмурится и готовится к атаке... 
+L760|+1|EN(28):Cannot loot while attacking.|RU(29):Нельзя лутать во время атаки.
+L771|+2|EN(23):You shake off the stun!|RU(25):Ты стряхиваешь оглушение!
+L775|+1|EN(17): becomes ENRAGED!|RU(18): впадает в ЯРОСТЬ!
+L776|+4|EN(16):'s rage grows...|RU(20): — ярость крепнет...
+L777|+1|EN(20): absorbed the spell.|RU(21): поглотил заклинание.
+L778|+5|EN(18):Nothing happens...|RU(23):Ничего не происходит...
+L781|+8|EN(28):Cannot use this item here...|RU(36):Нельзя использовать предмет здесь...
+L790|+5|EN(5):Spell|RU(10):Заклинание
+L791|+3|EN(4):Item|RU(7):Предмет
+L793|+1|EN(12):Empty Hotkey|RU(13):Пустой хоткей
+L796|+2|EN(10):Unsellable|RU(12):Не продаётся
+L800|+7|EN(27):Item Consumed Upon Use.\n\n|RU(34):Расходуется при использовании.\n\n
+L803|+1|EN(28):(Hold DPAD DOWN for details)|RU(29):(Зажми DPAD ВНИЗ для деталей)
+L804|+2|EN(20):Primary or Secondary|RU(22):Основное или вторичное
+L805|+4|EN(18):No Spell Selected.|RU(22):Заклинание не выбрано.
+L809|+2|EN(12):No room for |RU(14):Нет места для 
+L810|+3|EN(16):Destroyed Item: |RU(19):Уничтожен предмет: 
+L816|+3|EN(17):, the door opens!|RU(20):, дверь открывается!
+L817|+2|EN(18): added to Keyring!|RU(20): добавлен на связку!
+L818|+1|EN(10): required!|RU(11): требуется!
+L850|+1|EN(12):'s Equipment|RU(13): — Снаряжение
+L852|+2|EN(21): Upgrade to: Ascended|RU(23): Улучшить до: Вознесён.
+L854|+4|EN(20): Upgrade to: Blessed|RU(24): Улучшить до: Благослов.
+L856|+1|EN(17):Invalid SimPlayer|RU(18):Неверный SimPlayer
+L864|+3|EN(14):Item Ascended!|RU(17):Предмет Вознесён!
+L869|+1|EN(23): has joined your group!|RU(24): присоединился к группе!
+L874|+1|EN(14):Auto Pull: OFF|RU(15):Авто-пулл: ВЫКЛ
+L875|+1|EN(13):Auto Pull: ON|RU(14):Авто-пулл: ВКЛ
+L878|+2|EN(31):Cannot kick an empty group slot|RU(33):Нельзя кикнуть пустой слот группы
+L881|+1|EN(39):I don't think anyone can cast that yet.|RU(40):Думаю, никто ещё не может это кастануть.
+L882|+2|EN(60):Stay close, casting invis. Be in a safe spot when it breaks!|RU(62):Держись рядом, кастую инвиз. Будь в безопасности когда спадёт!
+L884|+3|EN(20):Group roles reset...|RU(23):Роли группы сброшены...
+L889|+3|EN(11):Unused Slot|RU(14):Свободный слот
+L902|+7|EN(29):Thanks! I really needed this.|RU(36):Спасибо! Мне это реально нужно было.
+L903|+1|EN(26):Ok, I'll use this for now.|RU(27):Ок, буду пользоваться пока.
+L913|+4|EN(28): tells the group: Close one!|RU(32): говорит группе: Чуть не сдохли!
+L917|+1|EN(13):need mana... |RU(14):нужна мана... 
+L919|+3|EN(19):I'm OOM hang on... |RU(22):У меня ООМ подожди... 
+L921|+3|EN(14):gotta heal up.|RU(17):надо подлечиться.
+L929|+2|EN(17):I'm dead, assist |RU(19):Я мёртв, ассистите 
+L930|+3|EN(17):, watch for adds!|RU(20):, следите за аддами!
+L940|+2|EN(6):Found |RU(8):Найдено 
+L942|+2|EN(7):'s Loot|RU(9): — Добыча
+L949|+1|EN(12):You inflict |RU(13): Ты наносишь 
+L952|+3|EN(7): takes |RU(10): получает 
+L953|+5|EN(25): VENGEFUL HEALING damage!|RU(30): урона МСТИТЕЛЬНОГО ИСЦЕЛЕНИЯ!
+L959|+1|EN(11): - 2-Handed|RU(12): — Двуручное
+L962|+3|EN(13):Worn Effect: |RU(16):Эффект ношения: 
+L965|+2|EN(11):Mana Cost: |RU(13):Расход маны: 
+L967|+1|EN(12):Spell Line: |RU(13):Линия закл.: 
+L968|+2|EN(11):Cast Time: |RU(13):Время каста: 
+L973|+3|EN(14):Instant Effect|RU(17):Мгновенный эффект
+L978|+2|EN(7):Lifetap|RU(9):Вампиризм
+L979|+1|EN(12):Group Effect|RU(13):Эффект группы
+L980|+1|EN(12):Stuns Target|RU(13):Оглушает цель
+L982|+2|EN(12):Roots Target|RU(14):Опутывает цель
+L985|+1|EN(23):Apply Effects on Target|RU(24):Наложить эффекты на цель
+L992|+3|EN(8):Agility |RU(11):Проворство 
+L993|+2|EN(7):Wisdom |RU(9):Мудрость 
+L999|+4|EN(12):Void Resist |RU(16):Пустот. сопрот. 
+L1002|+3|EN(6):Haste |RU(9):Скорость 
+L1003|+2|EN(10):Lifesteal |RU(12):Кража жизни 
+L1010|+4|EN(14):Physicality: +|RU(18):Физическая мощь: +
+L1011|+3|EN(12):Hardiness: +|RU(15):Выносливость: +
+L1012|+1|EN(10):Finesse: +|RU(11):Точность: +
+L1015|+3|EN(14):Restoration: +|RU(17):Восстановление: +
+L1016|+1|EN(7):Mind: +|RU(8):Разум: +
+L1023|+3|EN(25):Auras effect entire party|RU(28):Ауры действуют на всю группу
+L1024|+1|EN(31):Auras of same type do not stack|RU(32):Ауры одного типа не складываются
+L1025|+1|EN(27):YOU ALREADY KNOW THIS SPELL|RU(28):ТЫ УЖЕ ЗНАЕШЬ ЭТО ЗАКЛИНАНИЕ
+L1028|+1|EN(13):CHANGE STANCE|RU(14):СМЕНИТЬ СТОЙКУ
+L1041|+1|EN(21): shakes off the stun!|RU(22): стряхивает оглушение!
+L1043|+3|EN(13):Switching to |RU(16):Переключение на 
+L1048|+1|EN(5):Your |RU(6): Твоё 
+L1055|+5|EN(12): says: Hail |RU(17): говорит: Привет 
+L1056|+6|EN(14):You say: Hail |RU(20):Ты говоришь: Привет 
+L1057|+4|EN(7): says: |RU(11):  говорит: 
+L1067|+1|EN(12):Sivakruxes: |RU(13):Сивакруксов: 
+L1068|+3|EN(15):Planar Stones: |RU(18):Планарных Камней: 
+L1071|+1|EN(16):Treasure Hunt:\n|RU(17):Поиск сокровищ:\n
+L1072|+3|EN(14):Treasure Loc\n|RU(17):Место сокровища\n
+L1073|+4|EN(4):Tab |RU(8):Вкладка 
+L1074|+4|EN(5):Used |RU(9):Потрачен 
+L1085|+3|EN(17): tries to attack |RU(20): пытается атаковать 
+L1092|+1|EN(13): incoming on |RU(14): на подходе к 
+L1106|+1|EN(11):, offering |RU(12):, предлагаю 
+L1108|+2|EN(4):WTB |RU(6):Куплю 
+L1122|+1|EN(23): has joined your group!|RU(24): присоединился к группе!
+L1127|+11|EN(60):Stay close, casting invis. Be in a safe spot when it breaks!|RU(71):Держитесь рядом, кастую инвиз. Будьте в безопасном месте, когда спадёт!
+L1130|+2|EN(6):Found |RU(8):Найдено 
+L1131|+3|EN(6): Gold!|RU(9):  золота!
+L1132|+2|EN(25):Received a quest reward: |RU(27):Получена награда за квест: 
+L1133|+1|EN(20):Received New Quest: |RU(21):Получен новый квест: 
+L1137|+4|EN(12):Found item: |RU(16):Найден предмет: 
+L1148|+5|EN(14): you can lead.|RU(19): ты можешь повести.
+L1151|+2|EN(29):Do you want to join my group?|RU(31):Хочешь присоединиться к группе?
+L1158|+2|EN(5):Never|RU(7):Никогда
