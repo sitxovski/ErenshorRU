@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text;
+using System.Text.RegularExpressions;
 using BepInEx;
 using BepInEx.Logging;
 using HarmonyLib;
@@ -20,7 +21,7 @@ namespace ErenshorRU
     {
         public const string GUID = "com.erenshor.ru";
         public const string NAME = "Erenshor Russian Translation";
-        public const string VERSION = "1.3.0";
+        public const string VERSION = "1.4.0";
 
         internal static ManualLogSource Log;
         internal static TranslationDB T;
@@ -46,6 +47,9 @@ namespace ErenshorRU
 
                 try { harmony.PatchAll(typeof(ChatPatches)); Log.LogInfo("[RU] ChatLogLine patch OK"); }
                 catch (Exception e) { Log.LogError($"[RU] ChatLogLine FAIL: {e.Message}"); }
+
+                try { ChatInputPatches.Apply(harmony); Log.LogInfo("[RU] Chat input patches OK"); }
+                catch (Exception e) { Log.LogError($"[RU] Chat input patches FAIL: {e.Message}"); }
 
                 try
                 {
@@ -422,6 +426,214 @@ namespace ErenshorRU
         {
             if (ErenshorRUPlugin.T == null || string.IsNullOrEmpty(_msg)) return;
             _msg = ErenshorRUPlugin.T.Translate(_msg);
+        }
+    }
+
+    public static class ChatInputMapper
+    {
+        private static readonly List<KeyValuePair<Regex, string>> _map
+            = new List<KeyValuePair<Regex, string>>();
+
+        static ChatInputMapper()
+        {
+            // Greetings
+            Add("привет(ик)?", "hello");
+            Add("здравствуй(те)?", "hello");
+            Add("здоров(о)?", "hello");
+            Add("салют", "hello");
+            Add("хай", "hi");
+            Add("хей", "hey");
+            Add("йо+", "yo");
+            Add("доброе утро", "morning");
+            Add("добрый вечер", "evening");
+            Add("добрый день", "good day");
+            Add("как дела", "how are you");
+            Add("алоха", "aloha");
+
+            // Affirmations
+            Add("да\\b", "yes");
+            Add("ок\\b", "ok");
+            Add("хорошо", "ok");
+            Add("ладно", "ok");
+            Add("конечно", "sure");
+            Add("давай", "lets go");
+            Add("ага", "yeah");
+            Add("угу", "yeah");
+            Add("иду", "coming");
+            Add("понял(а)?", "got it");
+            Add("отлично", "sweet");
+
+            // Declinations
+            Add("нет\\b", "no");
+            Add("не могу", "can't");
+            Add("занят(а)?", "busy");
+            Add("потом", "later");
+            Add("не хочу", "don't wanna");
+            Add("пас\\b", "pass");
+            Add("неа", "nah");
+            Add("не сейчас", "maybe later");
+            Add("в другой раз", "next time");
+
+            // Gratitude
+            Add("спасибо", "thanks");
+            Add("спс", "thx");
+            Add("благодарю", "thank you");
+
+            // Apologies
+            Add("извини(те)?", "sorry");
+            Add("прости(те)?", "sorry");
+            Add("ой\\b", "oops");
+            Add("мой косяк", "my bad");
+            Add("моя ошибка", "my mistake");
+
+            // LFG / Group
+            Add("ищу группу", "LFG");
+            Add("группа", "group");
+            Add("помо(гите|щь|ги)", "help");
+            Add("опыт", "exp");
+            Add("играть", "play");
+            Add("хоч(ешь|у) в группу", "want to group?");
+            Add("пойд[её]м", "lets go");
+            Add("давай вместе", "lets go");
+
+            // Level up
+            Add("левел( ап)?", "level up");
+            Add("уровень", "level up");
+            Add("динг", "ding");
+
+            // Goodnight / Bye
+            Add("спокойной ночи", "goodnight");
+            Add("пока\\b", "bye");
+            Add("ночи\\b", "night");
+            Add("спать", "sleep");
+            Add("до свидания", "bye");
+
+            // Info requests
+            Add("где взя(ть|л)", "where did you get");
+            Add("что падает", "what drops");
+            Add("квест", "quest");
+            Add("где найти", "where can I find");
+            Add("как получить", "how do i get");
+            Add("где достать", "where do i get");
+            Add("откуда", "where did you get");
+
+            // WhatsUp
+            Add("чем заним", "whatcha doing");
+            Add("что делаешь", "whatcha doing");
+
+            // Location
+            Add("где ты", "where are you");
+            Add("ты где", "where are you");
+
+            // Invis
+            Add("инвиз", "invis");
+            Add("невидимость", "invis");
+
+            // Guild
+            Add("вступай в (мою )?гильдию", "join my guild");
+            Add("хочу в гильдию", "join your guild");
+            Add("инвайт в гильдию", "guild invite");
+            Add("приглаш(ение)? в гильдию", "guild invite");
+
+            // Slot / item info
+            Add("где (ты )?(взял|получил|нашёл|нашел)", "where did you get");
+            Add("что за шмот", "what is that");
+            Add("что это за", "what is that");
+
+            // Level check
+            Add("какой (у тебя )?уровень", "what level are you");
+            Add("какой (у тебя )?левел", "what level are you");
+        }
+
+        private static void Add(string ruPattern, string enKeyword)
+        {
+            _map.Add(new KeyValuePair<Regex, string>(
+                new Regex(ruPattern, RegexOptions.IgnoreCase | RegexOptions.Compiled),
+                enKeyword));
+        }
+
+        public static string EnrichWithEnglish(string input)
+        {
+            if (string.IsNullOrEmpty(input)) return input;
+
+            bool hasCyrillic = false;
+            for (int i = 0; i < input.Length; i++)
+            {
+                if (input[i] >= '\u0400' && input[i] <= '\u04FF')
+                { hasCyrillic = true; break; }
+            }
+            if (!hasCyrillic) return input;
+
+            var matched = new List<string>();
+            for (int i = 0; i < _map.Count; i++)
+            {
+                if (_map[i].Key.IsMatch(input))
+                    matched.Add(_map[i].Value);
+            }
+            if (matched.Count == 0) return input;
+
+            return input + " " + string.Join(" ", matched.ToArray());
+        }
+    }
+
+    public static class ChatInputPatches
+    {
+        public static void Apply(Harmony harmony)
+        {
+            var parseSay = AccessTools.Method(typeof(SimPlayerShoutParse),
+                "ParseSay", new[] { typeof(string), typeof(string), typeof(bool) });
+            if (parseSay != null)
+                harmony.Patch(parseSay, prefix: new HarmonyMethod(
+                    typeof(ChatInputPatches), nameof(ParseSayPrefix)));
+
+            var parseShout = AccessTools.Method(typeof(SimPlayerShoutParse),
+                "ParseShout", new[] { typeof(string), typeof(string), typeof(bool) });
+            if (parseShout != null)
+                harmony.Patch(parseShout, prefix: new HarmonyMethod(
+                    typeof(ChatInputPatches), nameof(ParseShoutPrefix)));
+
+            var simReceive = AccessTools.Method(typeof(SimPlayerMngr),
+                "SimReceiveMsg", new[] { typeof(string), typeof(string) });
+            if (simReceive != null)
+                harmony.Patch(simReceive, prefix: new HarmonyMethod(
+                    typeof(ChatInputPatches), nameof(SimReceiveMsgPrefix)));
+
+            var simSay = AccessTools.Method(typeof(SimPlayerMngr),
+                "SimRespondToSay", new[] { typeof(string), typeof(SimPlayerTracking) });
+            if (simSay != null)
+                harmony.Patch(simSay, prefix: new HarmonyMethod(
+                    typeof(ChatInputPatches), nameof(SimRespondToSayPrefix)));
+
+            var parseText = AccessTools.Method(typeof(NPCDialogManager),
+                "ParseText", new[] { typeof(string) });
+            if (parseText != null)
+                harmony.Patch(parseText, prefix: new HarmonyMethod(
+                    typeof(ChatInputPatches), nameof(ParseTextPrefix)));
+        }
+
+        static void ParseSayPrefix(ref string _shout, bool _isPlayer)
+        {
+            if (_isPlayer) _shout = ChatInputMapper.EnrichWithEnglish(_shout);
+        }
+
+        static void ParseShoutPrefix(ref string _shout, bool _isPlayer)
+        {
+            if (_isPlayer) _shout = ChatInputMapper.EnrichWithEnglish(_shout);
+        }
+
+        static void SimReceiveMsgPrefix(ref string incomingMsg)
+        {
+            incomingMsg = ChatInputMapper.EnrichWithEnglish(incomingMsg);
+        }
+
+        static void SimRespondToSayPrefix(ref string incomingMsg)
+        {
+            incomingMsg = ChatInputMapper.EnrichWithEnglish(incomingMsg);
+        }
+
+        static void ParseTextPrefix(ref string _incoming)
+        {
+            _incoming = ChatInputMapper.EnrichWithEnglish(_incoming);
         }
     }
 
