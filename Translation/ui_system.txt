@@ -1160,9 +1160,162 @@ Never=Никогда
 # --- Настройки: полные строки ---
 Right Click Required for Item Info=ПКМ для инфо предмета
 
+# --- Экипировка ---
+Equipped =Экипировано: 
+Unequipped =Снято: 
+
+# --- Смерть/Респавн ---
+New respawn point set!=Новая точка возрождения установлена!
+
+# --- Погода ---
+It begins to rain.=Начинается дождь.
+The rain stops.=Дождь прекращается.
+
+# --- Навыки ---
+This skill requires a shield to be equipped!=Для этого навыка нужен щит!
+This skill requires a two-handed weapon to be equipped!=Для этого навыка нужно двуручное оружие!
+This skill requires a bow to be equipped!=Для этого навыка нужен лук!
+This skill requires a weapon to be equipped!=Для этого навыка нужно оружие!
+Can't use skills while dead!=Нельзя использовать навыки мёртвым!
+
+# --- Каст / Бой ---
+You execute a FINALE!=Ты наносишь ФИНАЛ!
+A sensation of free will washes over you...=Ощущение свободы воли окутывает тебя...
+Sablehearts Curse grows stronger...=Проклятие Сэйблхарт усиливается...
+Astra begins to inhale again...=Астра снова делает вдох...
+Cooldown period...=Откат...
+DPS Recording Started - 60 seconds remaining!=Запись ДПС — осталось 60 секунд!
+YOU have taken =ТЫ получил 
+ from your damage shield!= от щита урона!
+
+# --- Гильдия ---
+You are not currently in a guild.=Ты сейчас не в гильдии.
+
+# --- Отдых ---
+ hours left...= часов осталось...
+
+# --- Шёпот SimPlayer ---
+Just hanging out solo. Hit me up if you wanna group!=Зависаю соло. Пиши если хочешь в группу!
+I'm here, heading your way.=Я тут, иду к тебе.
+I'm not in a guild!=Я не в гильдии!
+Yeah! You've always been nice. Let me see if I can get you an invite!=Да! Ты всегда был добр. Попробую достать тебе инвайт!
+You're already in my guild...=Ты уже в моей гильдии...
+Ok! I'll have them send an invite, one sec!=Ок! Попрошу отправить инвайт, секунду!
+Sorry, I'm not there anymore.=Извини, меня там больше нет.
+Hey, I'm just hanging in a group right now.=Привет, я просто тусуюсь в группе сейчас.
+sorry, I'm already in a group.=извини, я уже в группе.
+I'm already in your group!=Я уже в твоей группе!
+I can't get to that place...=Я не могу попасть в то место...
+I'm coming, hold on!=Иду, подожди!
+Add me to your party!=Добавь меня в группу!
+Dude send the invite already=Чел, отправь уже инвайт
+I'm a lot lower level than you, but I'll come for the fun of it!=Я намного ниже тебя уровнем, но приду ради фана!
+I'm considering my options... we should group more to see if we get along at least=Обдумываю варианты... нам стоит больше группиться, чтобы хотя бы узнать друг друга
+You're not even in a guild!=Ты даже не в гильдии!
+You're not a guild leader, how are you going to invite me??=Ты не лидер гильдии, как ты меня пригласишь??
+I'm kind of happy in my current guild, we should hang out more though to see if I'm a good fit.=Мне вроде хорошо в моей гильдии, но давай потусим больше — может подойду.
+ I'll join up! I'll come to you for an invite now.= Я вступлю! Иду к тебе за инвайтом.
+Your party member has decided not to follow you to this place...=Ваш сопартиец решил не следовать за вами в это место...
+ is not currently online.= сейчас не в сети.
+Please do not send direct messages to game staff.=Пожалуйста, не пишите напрямую персоналу игры.
+This player has temporarily blocked whispers from you.=Этот игрок временно заблокировал ваши шёпоты.
+Looks like you want to join my guild... I don't really know you well enough to vouch for you. Sorry!=Похоже, ты хочешь вступить в мою гильдию... Я тебя не настолько хорошо знаю, чтобы поручиться. Извини!
+You can summon it with a Bag of Offering Stones.=Можно призвать мешком подношений.
+
+# --- БД Знаний: Общие ответы ---
+Not sure on that one=Не уверен насчёт этого
+I don't know=Не знаю
+No idea=Без понятия
+Can't say=Не могу сказать
+I don't have that info=У меня нет такой инфы
+I can't remember=Не помню
+Hard to say=Трудно сказать
+I don't think I know that=Не думаю, что знаю это
+I don't have an answer for that=У меня нет ответа на это
+Unsure on that=Не уверен в этом
+
+# --- БД Знаний: Советы вики ---
+You should check the wiki or Discord for that=Проверь вики или Дискорд
+Wiki probably has the details=На вики, наверное, есть детали
+Look it up on the wiki=Поищи на вики
+Ask on the Discord, they're awesome=Спроси в Дискорде, там помогут
+Try the wiki for that one=Попробуй вики для этого
+The wiki should cover this=На вики это должно быть
+I'd check in with the Discord=Я бы заглянул в Дискорд
+Discord is your best bet here=Дискорд — лучший вариант
+Not sure, but the wiki will know=Не уверен, но вики знает
+You can find that on the wiki=Можешь найти это на вики
+
+# --- БД Знаний: Квесты-спойлеры ---
+Sorry, quest spoilers are not allowed here.=Извини, спойлеры квестов тут запрещены.
+Hey, sorry, we are not supposed to share quest spoilers.=Эй, извини, нам нельзя делиться спойлерами квестов.
+Friendly reminder that quest spoilers are not permitted.=Напоминание: спойлеры квестов запрещены.
+Sorry, but sharing quest details is against the rules.=Извини, но делиться деталями квестов — против правил.
+Just a heads up, we cannot post quest spoilers.=К сведению: нельзя постить спойлеры квестов.
+My bad, but quest spoilers are not allowed here.=Мой косяк, но спойлеры квестов тут запрещены.
+Sorry about that, quest spoilers are against the rules.=Извиняюсь, спойлеры квестов — против правил.
+Quick reminder: no quest spoilers here.=Напоминание: без спойлеров квестов.
+Sorry, but we need to avoid quest spoilers.=Извини, нужно избегать спойлеров квестов.
+Apologies, quest spoilers are not permitted.=Извиняюсь, спойлеры квестов запрещены.
+
+# --- БД Знаний: Крафт ---
+ is crafted, you need = — крафтовый, нужно 
+ is crafted with = — крафтится из 
+Thats crafted. You need =Это крафтится. Нужно 
+
+# --- БД Знаний: Квестовые награды ---
+ is a reward from the quest '= — награда квеста '
+ gives = даёт 
+ as a reward= как награду
+Finish '=Пройди '
+' to receive = чтобы получить 
+Completing '=Прохождение '
+' rewards =  даёт 
+' rewards you with = награждает тебя 
+It's from the quest '=Это из квеста '
+
 # --- Подстроки для динамических строк ---
 [SUBSTRING]
 Remaining =Осталось 
  Points:= очков:
  points:= очков:
  units= ед.
+
+# --- БД Знаний: подстроки дропа ---
+ drops from = падает с 
+ comes from = из 
+ drops that.= роняет это.
+ drops = роняет 
+ can drop from = может упасть с 
+You can get = Можно получить 
+ can be found on = можно найти у 
+ spawns in = спавнится в 
+It spawns in =Спавнится в 
+ is around level = примерно уровень 
+Go to =Иди в 
+ and find = и найди 
+Farm =Фарми 
+Try =Попробуй 
+Look for =Ищи 
+That one spawns in =Спавнится в 
+ for your = для твоего 
+Check =Проверь 
+Pretty sure that's from =Почти уверен, что это из 
+I want to say it's in =Мне кажется, это в 
+Might be in =Возможно, в 
+Feels like that was in =Чувствую, что это было в 
+Think it's tied to =Думаю, это связано с 
+I think you get =Думаю, ты получишь 
+Could be =Может быть 
+, but I'm not certain=, но не уверен
+ for that= для этого
+ somehow= как-то
+
+# --- Шёпот: подстроки ---
+ I'm in = Я в 
+We'll meet up here and then head somewhere cool!=Встретимся тут и пойдём куда-нибудь клёво!
+ you interested?= тебе интересно?
+I haven't seen of that one yet=Я ещё не слышал о таком
+I haven't heard of that NPC yet=Я ещё не слышал об этом NPC
+ It's a crafted item.= Это крафтовый предмет.
+It comes from the quest '=Это из квеста '
