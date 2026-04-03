@@ -23,7 +23,7 @@ namespace ErenshorRU
     {
         public const string GUID = "com.erenshor.ru";
         public const string NAME = "Erenshor Russian Translation";
-        public const string VERSION = "2.1.0";
+        public const string VERSION = "2.1.1";
 
         internal static ManualLogSource Log;
         internal static TranslationDB T;
@@ -385,7 +385,11 @@ namespace ErenshorRU
         {
             if (string.IsNullOrEmpty(fontName)) return false;
             string n = fontName.ToLowerInvariant();
-            return n.Contains("light") || n.Contains("thin");
+            if (n.Contains("light") || n.Contains("thin")) return true;
+            if (n.Contains("italic") && !n.Contains("bold") && !n.Contains("semi") &&
+                !n.Contains("medium") && !n.Contains("black"))
+                return true;
+            return false;
         }
 
         private static bool IsSemiBoldOrHeavier(string fontName)
