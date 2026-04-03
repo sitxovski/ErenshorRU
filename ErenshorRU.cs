@@ -23,7 +23,7 @@ namespace ErenshorRU
     {
         public const string GUID = "com.erenshor.ru";
         public const string NAME = "Erenshor Russian Translation";
-        public const string VERSION = "2.4.0";
+        public const string VERSION = "2.5.0";
 
         internal static ManualLogSource Log;
         internal static TranslationDB T;
@@ -52,6 +52,9 @@ namespace ErenshorRU
 
                 try { harmony.PatchAll(typeof(NPCDialogPatches)); Log.LogInfo("[RU] NPCDialog patch OK"); }
                 catch (Exception e) { Log.LogError($"[RU] NPCDialog FAIL: {e.Message}"); }
+
+                try { harmony.PatchAll(typeof(QuestLogPatches)); Log.LogInfo("[RU] QuestLog patch OK"); }
+                catch (Exception e) { Log.LogError($"[RU] QuestLog FAIL: {e.Message}"); }
 
                 try { ChatInputPatches.Apply(harmony); Log.LogInfo("[RU] Chat input patches OK"); }
                 catch (Exception e) { Log.LogError($"[RU] Chat input patches FAIL: {e.Message}"); }
@@ -962,6 +965,59 @@ namespace ErenshorRU
             if (matched.Count == 0) return input;
 
             return input + " " + string.Join(" ", matched.ToArray());
+        }
+    }
+
+    [HarmonyPatch]
+    public static class QuestLogPatches
+    {
+        [HarmonyPrefix]
+        [HarmonyPatch(typeof(QuestLog), "DisplayQuestInfo")]
+        static bool DisplayQuestInfo_Prefix(QuestLog __instance, string _buttonNum)
+        {
+            try
+            {
+                int index = int.Parse(_buttonNum);
+                var t = Traverse.Create(__instance);
+                int start = t.Field("start").GetValue<int>();
+                bool viewActive = t.Field("viewActive").GetValue<bool>();
+                bool viewComplete = t.Field("viewComplete").GetValue<bool>();
+                bool viewRepeat = t.Field("viewRepeat").GetValue<bool>();
+
+                int questIndex = start + index;
+                Quest quest = null;
+
+                if (viewActive)
+                {
+                    if (questIndex < GameData.HasQuest.Count)
+                        quest = GameData.QuestDB.GetQuestByName(GameData.HasQuest[questIndex]);
+                }
+                else
+                {
+                    var filtered = new List<string>();
+                    for (int i = 0; i < GameData.CompletedQuests.Count; i++)
+                    {
+                        var q = GameData.QuestDB.GetQuestByName(GameData.CompletedQuests[i]);
+                        if (q == null) continue;
+                        if (viewRepeat && q.repeatable)
+                            filtered.Add(GameData.CompletedQuests[i]);
+                        else if (viewComplete && !q.repeatable)
+                            filtered.Add(GameData.CompletedQuests[i]);
+                    }
+                    if (questIndex < filtered.Count)
+                        quest = GameData.QuestDB.GetQuestByName(filtered[questIndex]);
+                }
+
+                if (quest != null)
+                    __instance.Desc.text = quest.QuestDesc;
+                else
+                    __instance.Desc.text = "No quest selected.";
+            }
+            catch (Exception e)
+            {
+                ErenshorRUPlugin.Log.LogError($"[RU] QuestLog patch error: {e.Message}");
+            }
+            return false;
         }
     }
 
