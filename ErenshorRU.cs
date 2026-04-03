@@ -23,7 +23,7 @@ namespace ErenshorRU
     {
         public const string GUID = "com.erenshor.ru";
         public const string NAME = "Erenshor Russian Translation";
-        public const string VERSION = "2.1.2";
+        public const string VERSION = "2.1.3";
 
         internal static ManualLogSource Log;
         internal static TranslationDB T;
@@ -365,9 +365,7 @@ namespace ErenshorRU
         }
 
         private static readonly HashSet<int> _outlinedFbMats = new HashSet<int>();
-        private static readonly HashSet<int> _processedComponents = new HashSet<int>();
-        private static readonly Dictionary<int, Material> _outlineMats = new Dictionary<int, Material>();
-        private static readonly Dictionary<int, Material> _noOutlineMats = new Dictionary<int, Material>();
+        private static readonly HashSet<int> _sizeAdjusted = new HashSet<int>();
 
         private static void EnableOutlineOnFallbackMaterial(Material mat)
         {
@@ -437,53 +435,41 @@ namespace ErenshorRU
         public static void ApplyOutlineToComponent(TMP_Text comp)
         {
             if (comp == null) return;
-            int compId = comp.GetInstanceID();
-            if (_processedComponents.Contains(compId)) return;
-            _processedComponents.Add(compId);
-
             try
             {
                 var font = comp.font;
                 if (font == null) return;
 
-                if (comp.fontSize >= 36f)
-                    comp.fontSize *= 0.85f;
-
-                bool noOutline = IsLightFont(font.name) || comp.fontSize <= 18f;
-                int fontId = font.GetInstanceID();
-
-                if (noOutline)
+                int compId = comp.GetInstanceID();
+                if (!_sizeAdjusted.Contains(compId) && comp.fontSize >= 36f)
                 {
-                    if (!_noOutlineMats.TryGetValue(fontId, out var mat))
-                    {
-                        mat = new Material(font.material);
-                        mat.SetFloat("_OutlineWidth", 0f);
-                        mat.SetColor("_OutlineColor", new Color(0, 0, 0, 0));
-                        mat.DisableKeyword("OUTLINE_ON");
-                        _noOutlineMats[fontId] = mat;
-                    }
-                    comp.fontMaterial = mat;
+                    _sizeAdjusted.Add(compId);
+                    comp.fontSize *= 0.75f;
                 }
-                else
-                {
-                    if (!_outlineMats.TryGetValue(fontId, out var mat))
-                    {
-                        mat = new Material(font.material);
-                        mat.SetFloat("_OutlineWidth", 0.25f);
-                        mat.SetColor("_OutlineColor", new Color(0, 0, 0, 1));
-                        mat.EnableKeyword("OUTLINE_ON");
-                        _outlineMats[fontId] = mat;
-                    }
-                    comp.fontMaterial = mat;
 
-                    if (font.fallbackFontAssetTable != null)
+                if (IsLightFont(font.name))
+                {
+                    if (comp.outlineWidth > 0f)
                     {
-                        for (int i = 0; i < font.fallbackFontAssetTable.Count; i++)
-                        {
-                            var fb = font.fallbackFontAssetTable[i];
-                            if (fb != null && fb.material != null)
-                                EnableOutlineOnFallbackMaterial(fb.material);
-                        }
+                        comp.outlineWidth = 0f;
+                        comp.outlineColor = new Color32(0, 0, 0, 0);
+                    }
+                    return;
+                }
+
+                if (comp.outlineWidth < 0.2f)
+                {
+                    comp.outlineWidth = 0.25f;
+                    comp.outlineColor = new Color32(0, 0, 0, 255);
+                }
+
+                if (font.fallbackFontAssetTable != null)
+                {
+                    for (int i = 0; i < font.fallbackFontAssetTable.Count; i++)
+                    {
+                        var fb = font.fallbackFontAssetTable[i];
+                        if (fb != null && fb.material != null)
+                            EnableOutlineOnFallbackMaterial(fb.material);
                     }
                 }
             }
