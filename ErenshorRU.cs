@@ -23,7 +23,7 @@ namespace ErenshorRU
     {
         public const string GUID = "com.erenshor.ru";
         public const string NAME = "Erenshor Russian Translation";
-        public const string VERSION = "2.1.3";
+        public const string VERSION = "2.1.4";
 
         internal static ManualLogSource Log;
         internal static TranslationDB T;
@@ -312,7 +312,7 @@ namespace ErenshorRU
                 fa.name = key + " SDF";
 
                 var fi = fa.faceInfo;
-                fi.descentLine *= 0.5f;
+                fi.ascentLine *= 0.75f;
                 fi.lineHeight = fi.ascentLine - fi.descentLine;
                 if (IsSemiBoldOrHeavier(key))
                     fi.scale = 0.9f;
