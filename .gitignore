@@ -4,5 +4,11 @@ obj/
 *.pdb
 *.cache
 *.user
+*.zip
 .vs/
 untranslated_dump.txt
+_*.txt
+*.violations.txt
+*.py
+missing_*.txt
+longer_translations.txt
