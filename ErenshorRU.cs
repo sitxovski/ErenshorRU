@@ -23,7 +23,7 @@ namespace ErenshorRU
     {
         public const string GUID = "com.erenshor.ru";
         public const string NAME = "Erenshor Russian Translation";
-        public const string VERSION = "2.6.0";
+        public const string VERSION = "2.7.0";
 
         internal static ManualLogSource Log;
         internal static TranslationDB T;
@@ -39,6 +39,7 @@ namespace ErenshorRU
                 string translationDir = Path.Combine(PluginDir, "Translation");
                 T = new TranslationDB(translationDir);
                 Log.LogInfo($"[RU] {T.ExactCount} exact + {T.SubstringCount} substr loaded");
+                NPCDialogPatches.LoadKeywords(translationDir);
 
                 var harmony = new Harmony(GUID);
 
@@ -763,10 +764,53 @@ namespace ErenshorRU
                 if (trContent == content)
                     trContent = ErenshorRUPlugin.T.TranslateDirect(content);
 
+                if (trContent == content)
+                    trContent = TranslateSentences(content);
+
                 msg = name + trSep + trContent;
                 return true;
             }
             return false;
+        }
+
+        private static string TranslateSentences(string content)
+        {
+            if (string.IsNullOrEmpty(content) || content.Length < 6) return content;
+
+            var parts = new List<string>();
+            int start = 0;
+            for (int i = 0; i < content.Length; i++)
+            {
+                char c = content[i];
+                if ((c == '.' || c == '!' || c == '?') && i + 1 < content.Length && content[i + 1] == ' ')
+                {
+                    parts.Add(content.Substring(start, i - start + 1));
+                    start = i + 2;
+                }
+            }
+            if (start < content.Length)
+                parts.Add(content.Substring(start));
+
+            if (parts.Count < 2) return content;
+
+            bool anyTranslated = false;
+            for (int i = 0; i < parts.Count; i++)
+            {
+                string p = parts[i].Trim();
+                if (p.Length < 4) continue;
+                string tr = ErenshorRUPlugin.T.TranslateDirect(p);
+                if (tr != p) { parts[i] = tr; anyTranslated = true; continue; }
+                string lower = ToMixedCase(p);
+                if (lower != p)
+                {
+                    tr = ErenshorRUPlugin.T.TranslateDirect(lower);
+                    if (tr != lower) { parts[i] = tr; anyTranslated = true; continue; }
+                }
+                tr = ErenshorRUPlugin.T.Translate(p);
+                if (tr != p) { parts[i] = tr; anyTranslated = true; }
+            }
+
+            return anyTranslated ? string.Join(" ", parts) : content;
         }
 
         private static string ToMixedCase(string s)
@@ -811,13 +855,209 @@ namespace ErenshorRU
     [HarmonyPatch]
     public static class NPCDialogPatches
     {
+        internal static readonly Dictionary<string, string> _reverseKeywords =
+            new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
+        private static readonly Dictionary<string, string> _keywordStems =
+            new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
+        private static string _lastOriginalDialog;
+
+        public static void LoadKeywords(string dir)
+        {
+            string path = Path.Combine(dir, "npc_keywords.txt");
+            if (!File.Exists(path)) return;
+            foreach (string raw in File.ReadAllLines(path, Encoding.UTF8))
+            {
+                string line = raw.TrimEnd('\r');
+                if (line.Length == 0 || line[0] == '#') continue;
+                int sep = line.IndexOf('=');
+                if (sep <= 0) continue;
+                string en = line.Substring(0, sep);
+                string ru = line.Substring(sep + 1);
+                if (!string.IsNullOrEmpty(en) && !string.IsNullOrEmpty(ru))
+                    _keywordStems[en] = ru;
+            }
+            ErenshorRUPlugin.Log?.LogInfo($"[RU] Loaded {_keywordStems.Count} keyword stems");
+        }
+
         [HarmonyPostfix]
         [HarmonyPatch(typeof(NPCDialog), "GetDialog")]
         static void GetDialog_Post(ref string __result)
         {
             if (ErenshorRUPlugin.T == null || string.IsNullOrEmpty(__result)) return;
+            _lastOriginalDialog = __result;
             string tr = ErenshorRUPlugin.T.Translate(__result);
             if (tr != __result) __result = tr;
+        }
+
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(NPCDialogManager), "GenericHail")]
+        static void GenericHail_Post(NPCDialogManager __instance)
+        {
+            WrapTranslatedKeywords(__instance);
+        }
+
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(NPCDialogManager), "ParseText")]
+        static void ParseText_Post(NPCDialogManager __instance)
+        {
+            WrapTranslatedKeywords(__instance);
+        }
+
+        [HarmonyPrefix]
+        [HarmonyPatch(typeof(NPCDialogManager), "SearchForKeyword")]
+        static bool SearchForKeyword_Pre(NPCDialogManager __instance, string _word, ref bool __result)
+        {
+            if (!_reverseKeywords.TryGetValue(_word, out string englishKw))
+                return true;
+
+            var dialogs = __instance.MyDialogOptions;
+            if (dialogs != null)
+            {
+                for (int i = 0; i < dialogs.Length; i++)
+                {
+                    if (dialogs[i].KeywordToActivate.Contains(englishKw))
+                    {
+                        __result = true;
+                        return false;
+                    }
+                }
+            }
+            return true;
+        }
+
+        internal static bool TryReverseKeyword(string word, out string englishKw)
+        {
+            return _reverseKeywords.TryGetValue(word, out englishKw);
+        }
+
+        private static void WrapTranslatedKeywords(NPCDialogManager __instance)
+        {
+            if (ErenshorRUPlugin.T == null) return;
+            var t = Traverse.Create(__instance);
+            string returnStr = t.Field("ReturnString").GetValue<string>();
+            if (string.IsNullOrEmpty(returnStr)) return;
+
+            var keywords = t.Field("Keywords").GetValue<List<string>>();
+            if (keywords == null || keywords.Count == 0) return;
+
+            bool changed = false;
+            for (int k = 0; k < keywords.Count; k++)
+            {
+                string keyword = keywords[k];
+
+                if (returnStr.Contains("<color=#16EC00>[" + keyword + "]</color>"))
+                    continue;
+
+                if (returnStr.IndexOf(keyword, StringComparison.Ordinal) >= 0)
+                {
+                    returnStr = returnStr.Replace(keyword,
+                        "<color=#16EC00>[" + keyword + "]</color>");
+                    changed = true;
+                    continue;
+                }
+
+                string ruWord = FindTranslatedKeyword(returnStr, keyword);
+                if (ruWord != null)
+                {
+                    int idx = returnStr.IndexOf(ruWord, StringComparison.Ordinal);
+                    if (idx >= 0)
+                    {
+                        returnStr = returnStr.Substring(0, idx)
+                            + "<color=#16EC00>[" + ruWord + "]</color>"
+                            + returnStr.Substring(idx + ruWord.Length);
+                        _reverseKeywords[ruWord] = keyword;
+                        changed = true;
+                    }
+                }
+            }
+
+            if (changed)
+                t.Field("ReturnString").SetValue(returnStr);
+        }
+
+        private static string FindTranslatedKeyword(string translatedText, string keyword)
+        {
+            if (_keywordStems.TryGetValue(keyword, out string stem) ||
+                _keywordStems.TryGetValue(keyword.ToLower(), out stem))
+            {
+                string found = FindStemInText(translatedText, stem);
+                if (found != null) return found;
+            }
+
+            string tr = ErenshorRUPlugin.T.TranslateDirect(keyword);
+            if (tr != keyword && translatedText.Contains(tr))
+                return tr;
+
+            string lower = keyword.ToLower();
+            if (lower != keyword)
+            {
+                tr = ErenshorRUPlugin.T.TranslateDirect(lower);
+                if (tr != lower && translatedText.Contains(tr))
+                    return tr;
+            }
+
+            if (_lastOriginalDialog != null &&
+                _lastOriginalDialog.IndexOf(keyword, StringComparison.OrdinalIgnoreCase) >= 0)
+            {
+                string found = FindByPosition(_lastOriginalDialog, translatedText, keyword);
+                if (found != null) return found;
+            }
+
+            return null;
+        }
+
+        private static string FindStemInText(string text, string stem)
+        {
+            if (string.IsNullOrEmpty(stem) || stem.Length < 2) return null;
+            int idx = text.IndexOf(stem, StringComparison.OrdinalIgnoreCase);
+            if (idx < 0) return null;
+
+            int start = idx;
+            while (start > 0 && !IsWordBoundary(text[start - 1]))
+                start--;
+
+            int end = idx + stem.Length;
+            while (end < text.Length && !IsWordBoundary(text[end]))
+                end++;
+
+            if (end <= start) return null;
+            string word = text.Substring(start, end - start);
+            return word.Length >= 2 ? word : null;
+        }
+
+        private static string FindByPosition(string original, string translated, string keyword)
+        {
+            int kwIdx = original.IndexOf(keyword, StringComparison.OrdinalIgnoreCase);
+            if (kwIdx < 0) return null;
+
+            float relPos = (float)(kwIdx + keyword.Length / 2) / original.Length;
+            int approxPos = (int)(relPos * translated.Length);
+            approxPos = Math.Max(0, Math.Min(approxPos, translated.Length - 1));
+
+            int start = approxPos;
+            while (start > 0 && !IsWordBoundary(translated[start - 1]))
+                start--;
+
+            int end = approxPos;
+            while (end < translated.Length && !IsWordBoundary(translated[end]))
+                end++;
+
+            if (end <= start) return null;
+            string word = translated.Substring(start, end - start);
+
+            if (word.Length < 3) return null;
+            bool hasCyrillic = false;
+            for (int i = 0; i < word.Length; i++)
+                if (word[i] >= '\u0400' && word[i] <= '\u04FF') { hasCyrillic = true; break; }
+            return hasCyrillic ? word : null;
+        }
+
+        private static bool IsWordBoundary(char c)
+        {
+            return char.IsWhiteSpace(c) || c == ',' || c == '.' || c == '!'
+                || c == '?' || c == ':' || c == ';' || c == '"' || c == '\''
+                || c == '[' || c == ']' || c == '<' || c == '>' || c == '('
+                || c == ')' || c == '\u2014' || c == '\u2013';
         }
     }
 
@@ -1068,7 +1308,6 @@ namespace ErenshorRU
 
         static void SimReceiveMsgPrefix(ref string incomingMsg)
         {
-            incomingMsg = ChatInputMapper.EnrichWithEnglish(incomingMsg);
         }
 
         static void SimRespondToSayPrefix(ref string incomingMsg)
@@ -1078,6 +1317,11 @@ namespace ErenshorRU
 
         static void ParseTextPrefix(ref string _incoming)
         {
+            if (NPCDialogPatches.TryReverseKeyword(_incoming, out string englishKw))
+            {
+                _incoming = englishKw;
+                return;
+            }
             _incoming = ChatInputMapper.EnrichWithEnglish(_incoming);
         }
     }
@@ -1322,6 +1566,7 @@ namespace ErenshorRU
         private enum State { Checking, UpToDate, Outdated, Error }
         private State _state = State.Checking;
         private string _remoteVersion = "";
+        private string _releaseBody = "";
         private float _showUntil;
         private float _fadeStart;
         private bool _dismissed;
@@ -1330,6 +1575,7 @@ namespace ErenshorRU
         private GUIStyle _labelStyle;
         private GUIStyle _btnStyle;
         private GUIStyle _closeBtnStyle;
+        private GUIStyle _changelogStyle;
         private bool _stylesReady;
 
         private void Start()
@@ -1358,6 +1604,7 @@ namespace ErenshorRU
 
             string body = req.downloadHandler.text;
             _remoteVersion = ParseTagName(body);
+            _releaseBody = ParseReleaseBody(body);
 
             if (string.IsNullOrEmpty(_remoteVersion))
             {
@@ -1382,6 +1629,34 @@ namespace ErenshorRU
                 _showUntil = Time.time + 8f;
                 _fadeStart = Time.time + 6f;
             }
+        }
+
+        private static string ParseReleaseBody(string json)
+        {
+            int idx = json.IndexOf("\"body\"", StringComparison.Ordinal);
+            if (idx < 0) return "";
+            int colon = json.IndexOf(':', idx);
+            if (colon < 0) return "";
+            int q1 = json.IndexOf('"', colon + 1);
+            if (q1 < 0) return "";
+
+            var sb = new StringBuilder();
+            for (int i = q1 + 1; i < json.Length; i++)
+            {
+                if (json[i] == '"' && json[i - 1] != '\\') break;
+                if (json[i] == '\\' && i + 1 < json.Length)
+                {
+                    char next = json[i + 1];
+                    if (next == 'n') { sb.Append('\n'); i++; continue; }
+                    if (next == 'r') { i++; continue; }
+                    if (next == '"') { sb.Append('"'); i++; continue; }
+                    if (next == '\\') { sb.Append('\\'); i++; continue; }
+                }
+                sb.Append(json[i]);
+            }
+            string raw = sb.ToString().Trim();
+            if (raw.Length > 400) raw = raw.Substring(0, 400) + "...";
+            return raw;
         }
 
         private static string ParseTagName(string json)
@@ -1448,6 +1723,12 @@ namespace ErenshorRU
             _closeBtnStyle = new GUIStyle(GUI.skin.button);
             _closeBtnStyle.fontSize = 12;
             _closeBtnStyle.padding = new RectOffset(4, 4, 2, 2);
+
+            _changelogStyle = new GUIStyle(GUI.skin.label);
+            _changelogStyle.fontSize = 12;
+            _changelogStyle.wordWrap = true;
+            _changelogStyle.richText = true;
+            _changelogStyle.normal.textColor = new Color(0.85f, 0.85f, 0.85f, 1f);
         }
 
         private void OnGUI()
@@ -1498,7 +1779,10 @@ namespace ErenshorRU
 
         private void DrawOutdated()
         {
-            float w = 380f, h = 110f;
+            bool hasChangelog = !string.IsNullOrEmpty(_releaseBody);
+            float w = 400f;
+            float changelogH = hasChangelog ? 100f : 0f;
+            float h = 120f + changelogH;
             float x = Screen.width - w - 20f;
             float y = Screen.height - h - 20f;
             var rect = new Rect(x, y, w, h);
@@ -1512,6 +1796,15 @@ namespace ErenshorRU
 
             _labelStyle.alignment = TextAnchor.UpperCenter;
             GUI.Label(new Rect(x + 8, y + 10, w - 16, 50), msg, _labelStyle);
+
+            if (hasChangelog)
+            {
+                string clHeader = "<color=#88BBFF><b>Что изменено:</b></color>";
+                string clBody = FormatChangelog(_releaseBody);
+                GUI.Label(new Rect(x + 14, y + 58, w - 28, 18), clHeader, _changelogStyle);
+                GUI.Label(new Rect(x + 14, y + 76, w - 28, changelogH - 18),
+                    clBody, _changelogStyle);
+            }
 
             float btnW = 140f, btnH = 30f;
             float btnY = y + h - btnH - 12f;
@@ -1533,6 +1826,35 @@ namespace ErenshorRU
             {
                 _dismissed = true;
             }
+        }
+
+        private static string FormatChangelog(string raw)
+        {
+            if (string.IsNullOrEmpty(raw)) return "";
+            var sb = new StringBuilder();
+            string[] lines = raw.Split('\n');
+            for (int i = 0; i < lines.Length; i++)
+            {
+                string line = lines[i].TrimStart();
+                if (line.Length == 0) continue;
+                if (line.StartsWith("- ") || line.StartsWith("* "))
+                {
+                    sb.Append("<color=#CCDDAA>  ●</color> ");
+                    sb.AppendLine(line.Substring(2).Trim());
+                }
+                else if (line.StartsWith("# ") || line.StartsWith("## "))
+                {
+                    string hdr = line.TrimStart('#', ' ');
+                    sb.Append("<color=#FFDD88><b>");
+                    sb.Append(hdr);
+                    sb.AppendLine("</b></color>");
+                }
+                else
+                {
+                    sb.AppendLine(line);
+                }
+            }
+            return sb.ToString().TrimEnd();
         }
     }
 }

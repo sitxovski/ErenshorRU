@@ -1105,7 +1105,7 @@ Hold RIGHT MOUSE for item details...=Зажми ПКМ для инфо о пре
 # --- WTB ---
 , offering =, предлаг. 
  gold. Open a trade with me.= зол. Открой обмен со мной.
-WTB =Куп 
+WTB =Куплю 
 
 # --- Чат: guild / group / whisper шаблоны ---
  tells the guild: = говорит гильдии: 
