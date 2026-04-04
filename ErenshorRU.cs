@@ -23,7 +23,7 @@ namespace ErenshorRU
     {
         public const string GUID = "com.erenshor.ru";
         public const string NAME = "Erenshor Russian Translation";
-        public const string VERSION = "2.7.1";
+        public const string VERSION = "2.7.2";
 
         internal static ManualLogSource Log;
         internal static TranslationDB T;
@@ -449,9 +449,18 @@ namespace ErenshorRU
 
             if (replacement != null)
             {
+                try
+                {
+                    Traverse.Create(comp).Field("m_fontMaterial").SetValue(null);
+                }
+                catch { }
+
                 comp.font = replacement;
-                ApplyOutlineToComponent(comp);
+                comp.fontSharedMaterial = replacement.material;
+                try { comp.ForceMeshUpdate(true); } catch { }
             }
+
+            ApplyOutlineToComponent(comp);
         }
 
         public static void ApplyOutlineToComponent(TMP_Text comp)
@@ -506,9 +515,9 @@ namespace ErenshorRU
         private static T MatchWeightToMontserrat<T>(string n, Dictionary<string, T> dict) where T : class
         {
             if (n.Contains("extrabold") && n.Contains("italic"))
-                return DGet(dict, "Montserrat-ExtraBoldItalic");
+                return DGet(dict, "Montserrat-BoldItalic") ?? DGet(dict, "Montserrat-Bold");
             if (n.Contains("extrabold"))
-                return DGet(dict, "Montserrat-ExtraBold");
+                return DGet(dict, "Montserrat-Bold");
             if (n.Contains("semibold") && n.Contains("italic"))
                 return DGet(dict, "Montserrat-SemiBoldItalic");
             if (n.Contains("semibold"))
@@ -549,7 +558,12 @@ namespace ErenshorRU
             if (n.Contains("perfectdos"))
                 return DGet(_tmpReplace, "PxPlus-VGA9");
 
-            return null;
+            if (n.Contains("awesome") || n.Contains("icon") || n.Contains("symbol") ||
+                n.Contains("libertinus") || n.Contains("math") || n.Contains("glyph") ||
+                n.Contains("emoji"))
+                return null;
+
+            return MatchWeightToMontserrat(n, _tmpReplace);
         }
 
         private static Font FindLegacyReplacement(string fontName)
