@@ -448,9 +448,10 @@ namespace ErenshorRU
             }
 
             if (replacement != null)
+            {
                 comp.font = replacement;
-
-            ApplyOutlineToComponent(comp);
+                ApplyOutlineToComponent(comp);
+            }
         }
 
         public static void ApplyOutlineToComponent(TMP_Text comp)
@@ -548,12 +549,7 @@ namespace ErenshorRU
             if (n.Contains("perfectdos"))
                 return DGet(_tmpReplace, "PxPlus-VGA9");
 
-            if (n.Contains("awesome") || n.Contains("icon") || n.Contains("symbol") ||
-                n.Contains("libertinus") || n.Contains("math") || n.Contains("glyph") ||
-                n.Contains("emoji"))
-                return null;
-
-            return MatchWeightToMontserrat(n, _tmpReplace);
+            return null;
         }
 
         private static Font FindLegacyReplacement(string fontName)
