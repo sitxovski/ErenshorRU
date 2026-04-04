@@ -11,14 +11,14 @@ Awful bunch. I used to have a shop, a home... there was a gorgeous waterfall rig
 What are you doing up here? You lose your life's work to the Sivakayans too? =Что ты тут делаешь? Тоже потерял дело всей жизни из-за сивакайцев?
 Oh, hi there. I'm just here to announce the latest news. Right now I'm recognizing the folks who have contributed to help the development of our fine island! =О, привет. Я здесь, чтобы объявлять последние новости. Сейчас я отмечаю тех, кто внёс вклад в развитие нашего славного острова!
 Port Azure left us on our own. I lived in a beautiful place called the Silkengrass Meadow. Then the Sivakayans came.=Порт-Азур бросил нас на произвол судьбы. Я жил в прекрасном месте — Шёлковотравном Лугу. А потом пришли сивакайцы.
-Never thought I'd be living in an inn. I came to Erenshor for a new start, not for this.=Никогда не думал, что буду жить в таверне. Я приехал на Эреншор ради нового начала, а не ради этого.
+Never thought I'd be living in an inn. I came to Erenshor for a new start, not for this.=И не думал, что буду жить в таверне. Приехал на Эреншор ради нового начала, не этого.
 Sometimes I hear folks talkin' about ghosts that only show up at night. One specific one they all mention, over on the West Vithean Coastline, up by the Malaroths. Not gonna go and see for myself, but I heard 'bout it. =Иногда слышу, как люди болтают о призраках, которые появляются только ночью. Все упоминают одного конкретного — на западном Витейском побережье, у Малоротов. Сам проверять не пойду, но слышал об этом.
 Full house. With everyone moving back to the city, this place is in high demand. =Полный дом. Все переезжают обратно в город, так что местечко нарасхват.
 Haven't seen you before, and i know ya didn't come off a boat. I learned not to ask questions though. No rooms right now, either way. =Раньше тебя не видел, и знаю, что ты не с корабля. Но я научился не задавать вопросов. В любом случае, комнат сейчас нет.
 There's a fishing boat that sometimes stops on the beach in Blacksalt Strand. We've both seen it. If we can make a ring that enchants our fishing skill, we can use it to buy a ride back. Here's a template, if you can find the parts...=На пляже Чёрносолёной Косы иногда останавливается рыбацкая лодка. Мы оба её видели. Если сделать кольцо, зачаровывающее рыболовное мастерство, можно выкупить обратный путь. Вот чертёж, если найдёшь детали...
-They're to help ya learn. Nothin' special. =Чтобы помочь тебе учиться. Ничего особенного.
+They're to help ya learn. Nothin' special. =Помогут тебе учиться. Ничего особенного.
 Got some instructional books for sale here. =Продаю обучающие книги.
-To Erenshor. It was supposed to be a land of new opportunities, but here I am locked in my house in a city, too afraid to take advantage of any of it. =На Эреншор. Это должна была быть земля новых возможностей, а я сижу взаперти в своём доме в городе, слишком напуганный, чтобы воспользоваться хоть чем-то.
+To Erenshor. It was supposed to be a land of new opportunities, but here I am locked in my house in a city, too afraid to take advantage of any of it. =На Эреншор. Это должна была быть земля новых возможностей, а я сижу взаперти дома в городе, слишком напуган, чтобы воспользоваться хоть чем-то.
 Siva-whatevers. I have piles of 'em. I trade one for a map and elixir. Don't negotiate neither. Bring 'em if you got extras. =Сива-как-их-там. У меня их горы. Меняю одну штуку на карту и эликсир. И не торгуюсь. Тащи, если есть лишние.
 Those funny little potions you get over from the oddities folks. I'm on their second-to-least strongest one. Anything more is just too much for this head of mine. =Те забавные зелья, которые берёшь у торговцев диковинами. Я пью предпоследнее по слабости. Что-то покрепче уже слишком для моей головы.
 You wanderin' around lost? E'ryone knows you bring me maps and Elixirs, I give you one of those junk coins I got out of a chest. =Бродишь потерянный? Все знают: принеси мне карты и эликсиры — получишь одну из тех мусорных монет, что я достал из сундука.
@@ -26,7 +26,7 @@ Ho there! You bring a map? An Elixir? =Эй! Принёс карту? Эликс
 Up for some fishing? Got some supplies here!=Порыбачить хочешь? Есть припасы!
 Sorry, not in a chattin' mood right now. =Извини, не в настроении болтать сейчас.
 Got a room here. It's nice enough, maybe one day I'll work up enough savings to get a house here in the city. Not like you can just build your own here...=Снимаю тут комнату. Неплохо, может когда-нибудь накоплю на дом в городе. Тут ведь свой не построишь...
-Ello there. Welcome to the Azure Arms.=Приветствую. Добро пожаловать в «Лазурные Объятия».
+Ello there. Welcome to the Azure Arms.=Эй! Добро пожаловать в Лазурный Герб.
 There are no ships due in today. Or tomorrow. Next one is from Merosavilla, with reinforcements. We're not sure when. =Сегодня кораблей не ожидается. И завтра тоже. Следующий — из Мерозавиллы, с подкреплением. Когда — неизвестно.
 Long ways off, it seems like. Where home used to be for a lot of these folks. =Далеко, как видно. Там, где раньше был дом у многих из этих людей.
 You one of the slummers? =Ты один из трущобников?
@@ -45,20 +45,20 @@ I don't go out anymore. There's just too much danger out there. I wish I never c
 Down behind the market square, where the poor folk live. Came to Erenshor without a coin to spare, now they live in the pits of Azure. I hear all sorts of unsavories come out at night over there. Wouldn't know, I stay away. =Внизу за рыночной площадью, где живут бедняки. Приехали на Эреншор без гроша за душой, теперь живут в трущобах Азура. Слышал, по ночам там всякий сброд вылезает. Сам не знаю — держусь подальше.
 Nothing to do these days but drink and wait for the Sivakayans to decend upon us from wherever they're lurking.=Нечем заняться — только пить и ждать, пока сивакайцы нагрянут из своих укрытий.
 If you do not belong here, do not pass by me. The warmth of your greeting will be provided by your own escaping blood. Prove yourself. State the passphrase.=Если тебе тут не место — не смей проходить мимо меня. Тепло твоего приветствия обеспечит твоя же льющаяся кровь. Докажи, что ты свой. Назови пароль.
-Wrong group.=Не та группа.
-Say it or leave.=Говори или уходи.
+Wrong group.=Не та группа
+Say it or leave.=Говори или вали.
 Well, someone must have taken a liking to you. We're about to uncover something incredible here, and we need help. Go in and speak to the others.=Что ж, кому-то ты приглянулся. Мы вот-вот раскроем нечто невероятное, и нам нужна помощь. Заходи и поговори с остальными.
 Got books for sale. =Продаю книги.
 
 # === Azynthi ===
-If you can restore me, even if I cannot leave this place, I will bestow my knowledge upon you once I regain it. =Если ты сможешь восстановить меня, пусть даже я не смогу покинуть это место, я передам тебе свои знания, когда обрету их вновь.
+If you can restore me, even if I cannot leave this place, I will bestow my knowledge upon you once I regain it. =Если восстановишь меня, пусть я не смогу покинуть это место, я передам тебе знания, когда обрету их вновь.
 He feeds on all who are here. My knowledge... he has taken it. I am one of the first Paladins. I escaped Astra, and I have seen Soluna's Celestial Blade. Azynthi has taken all but remnants of the memory from me. =Он питается всеми, кто здесь. Мои знания... он забрал их. Я один из первых паладинов. Я сбежал из Астры и видел Небесный Клинок Солуны. Азинти отнял у меня всё, кроме обрывков воспоминаний.
 He is everywhere, he is ascending. He stole the power of Sivakaya and grows with each moment into something truly terrifying. =Он повсюду, он возвышается. Он похитил силу Сивакайи и с каждым мгновением становится чем-то по-настоящему ужасающим.
 How did you enter this place? Azynthi has sealed me here... and cursed me to stay. I cannot leave even if this place crumbles. =Как ты сюда попал? Азинти запечатал меня здесь... и проклял остаться. Я не смогу уйти, даже если это место рухнет.
 
 # === AzynthiClear ===
 ... *It is a Riftstone, willed into existence*=... *Это Камень Разлома, порождённый волей*
-We can return at your whim. Step onto the boat.=Мы можем вернуться по твоему желанию. Ступай на лодку.
+We can return at your whim. Step onto the boat.=Вернёмся, когда пожелаешь. Ступай на лодку.
 
 # === Blight ===
 We are lost. We are doomed. Azynthi will not help us. =Мы пропали. Мы обречены. Азинти нам не поможет.
@@ -69,7 +69,7 @@ The portal can be re-activated with a piece of Vitheo's tomb to link it... perha
 
 # === Brake ===
 Just up over that hill to the south for example - those ruins are overrun by some sort of ancient guardians that have been there for as long as time remembers. Not sure about their origin, but they don't like visitors. =Вот, за тем холмом к югу — те руины кишат древними стражами, что стоят там с незапамятных времён. Не знаю, откуда они, но гостей не жалуют.
-Careful around old ruins! They tend to attract creatures. Worse yet, sometimes they contain things that have never left.=Осторожнее со старыми руинами! Они притягивают тварей. А ещё хуже — иногда в них живёт нечто, что никогда не покидало их стен.
+Careful around old ruins! They tend to attract creatures. Worse yet, sometimes they contain things that have never left.=Осторожнее со старыми руинами! Они притягивают тварей. Хуже того — иногда в них живёт нечто, что никогда не уходило.
 
 # === Braxonia ===
 ... *The Light flickers*=... *Свет мерцает*
@@ -86,7 +86,7 @@ The ground has been hardened into stone in many places, we are having trouble ex
 This grate has proved impenetrable, but something lies below. A constant wind blows from it. The air smells of Brashell... Brashell was thought to be extinct - it is an herb used in Braxonian rituals long ago. =Эта решётка оказалась неприступной, но что-то лежит внизу. Из неё постоянно дует ветер. Воздух пахнет брашеллом... Считалось, что брашелл вымер — это трава, использовавшаяся в древних браксонийских ритуалах.
 The spire to the east sprung from the ground centuries ago and with it came decay and disease. It spread rapidly through the land until Brax scorched this place with a flourish of His hand. In doing so, he sacrificed his own followers. It is our duty to uncover their story, and honor them in history.=Шпиль на востоке вырос из земли столетия назад, принеся с собой гниль и болезни. Они стремительно распространились по земле, пока Бракс не испепелил это место взмахом руки. Тем самым он пожертвовал собственными последователями. Наш долг — раскрыть их историю и почтить их память.
 Our lost ancestors, buried by these holy sands sowed by Brax Himself to stop the blight from consuming the world. The writings we've uncovered allude to warnings given by Brax, and hint at a network of underground tunnels meant to sustain life.=Наши потерянные предки, погребённые под священными песками, посеянными самим Браксом, чтобы остановить скверну. Найденные нами писания намекают на предупреждения Бракса и сеть подземных туннелей, предназначенных для выживания.
-We have reason to believe that the lost people of this place may exist beneath our very feet.=У нас есть основания полагать, что потерянный народ этого места может существовать прямо у нас под ногами.
+We have reason to believe that the lost people of this place may exist beneath our very feet.=Мы полагаем, что потерянный народ этих мест может жить прямо у нас под ногами.
 We've been unable to move it. If you can find a way in... the things you may find may change our world forever. Please, you look like the type to try. If you do, keep us apprised of your findings. =Мы не смогли это сдвинуть. Если найдёшь способ войти... то, что обнаружишь, может навсегда изменить наш мир. Прошу, ты выглядишь как человек, который рискнёт. Если так — держи нас в курсе.
 An entire ancient civilization was buried under the sand. We are working to uncover its secrets.=Целая древняя цивилизация погребена под песком. Мы работаем над раскрытием её тайн.
 This is an exciting time for us. We're close to uncovering the secrets of the blighted spire.=Для нас настали захватывающие времена. Мы близки к разгадке тайн заражённого шпиля.
@@ -98,7 +98,7 @@ It's in the Revival Plains, quite a sight to see! Legend has it that the one who
 They spawned from Fernalla herself, as she rose to her Plane of the Great Willow. She sowed the seeds herself, gifting us her eternal presence. The very gate through which she stepped is still standing!=Они проросли из самой Ферналлы, когда она вознеслась в Обитель Великой Ивы. Она посеяла семена собственной рукой, даруя нам своё вечное присутствие. Врата, через которые она ступила, стоят до сих пор!
 When a hero perishes, they might ascend to become a God or Goddess, as Fernalla did in the war against Sivakaya. Her willows will stand here eternally, and so shall we.=Когда герой погибает, он может вознестись и стать Богом или Богиней, как Ферналла в войне против Сивакайи. Её ивы будут стоять здесь вечно, и мы — тоже.
 Fernalla ascended from Erenshor, and we, her children, shall serve her from this place. =Ферналла вознеслась с Эреншора, и мы, её дети, будем служить ей из этого места.
-We will remain on this land, it is our sacred right.=Мы останемся на этой земле — это наше священное право.
+We will remain on this land, it is our sacred right.=Мы останемся на этой земле, это наше святое право.
 We cannot say, something otherworldly - perhaps something from her brother or her father - both of whom I'm sure she misses dearly. We have tried every wordly thing, to no avail.=Трудно сказать, нечто потустороннее — возможно, что-то от её брата или отца — по обоим она, уверен, очень скучает. Мы перепробовали всё земное, безуспешно.
 The Jaws of Sivakaya... that ancient temple with the skullstone entrance. Nobody's been able to open it for a lifetime. They think they're going to figure it out... Who knows what that'll unleash!=Челюсти Сивакайи... тот древний храм с входом из черепного камня. Никто не мог открыть его целую вечность. Они думают, что разберутся... Кто знает, что это высвободит!
 Molorai. Wherever there are ruins, the Molorai are never far away. They're after something on the hilltop near the Sivakayan Ruins.=Молорай. Где руины — Молорай всегда неподалёку. Они что-то ищут на вершине холма у Руин Сивакайи.
@@ -108,7 +108,7 @@ Leave me alone. I came here to make my own way, and I don't need trouble that al
 Port Azure has preserved the willow there, thanks to the Fernallan Sisters. We Druids of Fernalla are not as welcome within its walls. =Порт-Азур сохранил иву там благодаря Сёстрам Ферналлы. Нас, друидов Ферналлы, не так радушно принимают в его стенах.
 That army marched through here not long ago... right to the hilltop they went. Tents on their backs, like they plan to stay a while. =Та армия прошла здесь не так давно... прямо на вершину холма. С палатками за спиной, будто надолго.
 Those men on the hill... they're trying to get into the jaws. =Те люди на холме... они пытаются проникнуть в Челюсти.
-Sivakayan ruins, so I hear. Been in there myself, nothin' to see. Just empty space and a weird feelin'.=Руины сивакайцев, как я слышал. Был там сам — смотреть не на что. Пустое пространство и странное ощущение.
+Sivakayan ruins, so I hear. Been in there myself, nothin' to see. Just empty space and a weird feelin'.=Руины сивакайцев, слышал. Был там сам — смотреть не на что. Пустота и странное ощущение.
 Settlin' here seemed like a good idea before all the stirrings took place. The skull monument was no big deal, 'cept now folks are here tryin' to wake it up.=Поселиться здесь казалось хорошей идеей, пока не начались волнения. Монумент-череп был пустяком, но теперь тут народ пытается его пробудить.
 Ay there, 'fraid I can't offer ya much. Molorai folks cleaned me out. =Эй, боюсь, много предложить не могу. Молорайцы меня обчистили.
 Came through in droves from the pass a few days back. Half went up that hill, other half kept on down the road, not sure where to. Didn't pay the worth of what they took, neither. Not much I can do 'bout that though, it's just me ya know. =Нахлынули толпой с перевала пару дней назад. Половина пошла на холм, другая — дальше по дороге, не знаю куда. Заплатили меньше, чем забрали. Но что я могу поделать — я тут один.
@@ -116,12 +116,12 @@ The Jaws of Sivakaya. Rumored to hold the decrepit form of her remains. It's sea
 This willow stands in the eyeline of the Sivakayan statue atop the hill. Fernalla put this tree here as a sign of power. It's one of her most important willows.=Эта ива стоит на линии взгляда статуи Сивакайи на вершине холма. Ферналла посадила это дерево как знак силы. Одна из важнейших её ив.
 I don't go out much anymore. I can't stay here.=Я почти не выхожу. Не могу здесь оставаться.
 They just descended on this place a few days ago. Seem hellbent on getting into the ruins. Saw some walkin' around behind that old school down there too, like they know something about it we don't.=Они нагрянули сюда несколько дней назад. Одержимы идеей проникнуть в руины. Видел некоторых за той старой школой внизу — будто знают что-то, чего мы не знаем.
-This place... I come here to feel the power of it.=Это место... я прихожу сюда, чтобы ощутить его силу.
+This place... I come here to feel the power of it.=Это место... прихожу сюда, чтобы ощутить его силу.
 It's one of the rare places two Gods have touched. Fernalla's willow, and Sivakaya's temple standing guard against one another... like a timeless duel.=Одно из редких мест, которых коснулись два Бога. Ива Ферналлы и храм Сивакайи стоят друг против друга... как вечная дуэль.
 Pretty sure I'm moving back to the city soon. The Molorai aren't the most pleasant bunch to be around. =Пожалуй, скоро перееду обратно в город. Молорайцы — не самая приятная компания.
-Just go. You have nothing I want.=Просто уходи. У тебя нет ничего, что мне нужно.
+Just go. You have nothing I want.=Вали. Мне от тебя ничего не надо.
 Faun, Druid of Fernalla at your service. Our kind has lived in this settlement since the days of the Great War. =Фавн, друид Ферналлы, к вашим услугам. Наш народ живёт в этом поселении со времён Великой Войны.
-Talk to Malor. She's well versed. =Поговори с Малор. Она хорошо осведомлена.
+Talk to Malor. She's well versed. =Поговори с Малор. Она сведуща.
 There's more lost history here than will be written for centuries to come. This land was touched by Gods, and their blood spilled upon this very soil. =Здесь больше утраченной истории, чем напишут за столетия. Этой земли коснулись Боги, и их кровь пролилась на эту самую почву.
 Atop that plateau stands a Sivakayan place of power. It's been dormant for decades, but we keep watch just the same.=На вершине того плато стоит место силы Сивакайи. Оно бездействует десятилетиями, но мы всё равно следим.
 Where the willow stands, so shall stand a child of Fernalla. There are others from who we must protect the trees.=Где стоит ива — там будет стоять и дитя Ферналлы. Есть те, от кого мы должны защищать деревья.
@@ -129,7 +129,7 @@ It grows right in the Port Azure square. The city was built around it. It's good
 Useful imposters, they are. They claim to follow Fernalla but, just like the rest of their kind, they dismiss the parts of her nature that they do not enjoy. We Druids embrace all parts of nature. Even the unpleasant. =Полезные самозванцы. Они утверждают, что следуют Ферналле, но, как и прочие, отвергают те стороны её природы, что им не по нраву. Мы, друиды, принимаем все стороны природы. Даже неприятные.
 
 # === Elderstone ===
-I... I'm in shock. I feel so numb. I wish you were here to help earlier.=Я... я в шоке. Я ничего не чувствую. Жаль, что тебя не было здесь раньше.
+I... I'm in shock. I feel so numb. I wish you were here to help earlier.=Я... я в шоке. Ничего не чувствую. Жаль, что тебя не было здесь раньше.
 I found a bit of Elderstone Ore. It shines like some crazy diamond... I bet there's more down there.=Я нашёл кусок Старокаменной Руды. Сияет, как безумный алмаз... Готов поспорить, там внизу ещё есть.
 We're waiting for orders to blow the mine and seal it off.=Ждём приказа взорвать шахту и запечатать её.
 We have to rebuild that wall... I can't get those echoes out of my mind... I have to get home to mother!=Нужно восстановить ту стену... не могу выбросить из головы то эхо... мне надо домой, к матери!
@@ -147,9 +147,9 @@ You heard about Goodsoil? Gone overnight. Sivakayans, I'm betting. =Слышал
 Port Azure Guards used to patrol through 'ere, up to Rottenfoot. Beyond that, folks was always on their own. A few pushed on to settle in the North, but they're not the average bunch.=Стража Порт-Азура раньше патрулировала тут до Гнилоножья. Дальше — каждый сам за себя. Некоторые двинулись на север обживаться, но это не простой народ.
 
 # === Jaws ===
-You may pass.=Можешь пройти.
+You may pass.=Можешь идти.
 Do not pass unless you are deemed worthy. You will die.=Не проходи, если не признан достойным. Ты погибнешь.
-Only the worthy may pass.=Лишь достойный может пройти.
+Only the worthy may pass.=Лишь достойный пройдёт.
 Azynthi...=Азинти...
 ... *a memory can be felt in the air and a low voice echoes through your mind* - "The guardian has awoken, let her gaze upon you"... =... *в воздухе ощущается память, и тихий голос эхом звучит в разуме* — «Страж пробудился, позволь ей взглянуть на тебя»...
 ... *a memory can be felt in the air and a low voice echoes through your mind* - "Only the truly pious shall pass. He who speaks the name of the one who gifted Sivakaya her ascension may pass unharmed.=... *в воздухе ощущается память, и тихий голос эхом звучит в разуме* — «Лишь истинно благочестивый пройдёт. Тот, кто произнесёт имя даровавшего Сивакайе вознесение, пройдёт невредимым.
@@ -178,12 +178,12 @@ This isn't how I expected life on Erenshor to go... I didn't intend to be a rebe
 
 # === RipperPortal ===
 ... *It does not respond*=... *Он не отвечает*
-Oh, pity you. You don't know with what you meddle. No worry, toddle off and play some more. I have a surprise for you to wake us up! Bring me proof of your victory.=О, бедняга. Ты не знаешь, во что ввязываешься. Не беда — побегай ещё, поиграй. У меня для тебя сюрприз, чтобы нас разбудить! Принеси мне доказательство своей победы.
+Oh, pity you. You don't know with what you meddle. No worry, toddle off and play some more. I have a surprise for you to wake us up! Bring me proof of your victory.=О, бедняга. Ты не знаешь, во что ввязываешься. Не беда — побегай ещё, поиграй. У меня для тебя сюрприз, чтобы нас разбудить! Принеси доказательство своей победы.
 Yes! Inside the Dreams!=Да! Внутри Снов!
 Incredible place, isn't it? You've been here before.=Невероятное место, правда? Ты уже бывал здесь.
 
 # === Rottenfoot ===
-Croc season. We need their tails. Got any? =Сезон крокодилов. Нам нужны их хвосты. Есть?
+Croc season. We need their tails. Got any? =Сезон крокодилов. Нужны их хвосты. Есть?
 Cros are in season. We're here to hunt. =Крокодилы в сезоне. Мы здесь на охоте.
 
 # === SaltedStrand ===
@@ -198,11 +198,11 @@ Immeasurably beautiful, and guarded by two demons - one made of stone, and one m
 I see a beast, ancient and foggy, mouth full of fangs. It's wet, and I'm tired from swimming.=Вижу зверя, древнего и туманного, с пастью, полной клыков. Мокро, и я устал от плавания.
 About great bridges across the sky. About underwater caves, full of walking dreams. =О великих мостах через небо. О подводных пещерах, полных бродячих снов.
 I'm tired. I'm having nightmares.=Я устал. Мне снятся кошмары.
-... *It blinks sadly. A small key materializes in your hand*=... *Оно печально моргает. В твоей руке появляется маленький ключ*
-... *It stares intently*=... *Оно пристально смотрит*
+... *It blinks sadly. A small key materializes in your hand*=... *Оно грустно моргает. В руке возникает маленький ключ*
+... *It stares intently*=... *Оно глядит в упор*
 Yes, a gift. If you share with me the bit of light that Kio has hidden in the tomb, then I will share a trinket with you. I must be sure that light never falls into Kio's hands again - neither this Kio nor the one you knew before. =Да, дар. Если поделишься со мной крупицей света, что Кио спрятал в гробнице, я поделюсь безделушкой. Я должен быть уверен, что этот свет никогда не попадёт в руки Кио — ни этого, ни того, которого ты знал прежде.
 Go back to reality, as it were. Not sure how long you're going to remember us. We'll remember you. Guess I can give you something to take along with you.=Возвращайся в реальность, так сказать. Не знаю, как долго ты будешь нас помнить. Мы тебя запомним. Пожалуй, дам тебе кое-что с собой.
-Just a figment of our imaginations. Funny though, how we all share it. How it creeps into our dreams with the same hurried steps. No matter, though. 'Spose you want to be finished with us then?=Всего лишь плод нашего воображения. Забавно, правда, что мы все его разделяем. Как оно прокрадывается в наши сны теми же торопливыми шагами. Впрочем, неважно. Полагаю, ты хочешь с нами закончить?
+Just a figment of our imaginations. Funny though, how we all share it. How it creeps into our dreams with the same hurried steps. No matter, though. 'Spose you want to be finished with us then?=Лишь плод нашего воображения. Забавно, правда, что мы все его разделяем. Как оно прокрадывается в наши сны теми же торопливыми шагами. Впрочем, неважно. Полагаю, ты хочешь с нами закончить?
 Well then, you've certainly done a number on this place, haven't you? =Ну что ж, ты тут наворотил дел, не так ли?
 Oh well... the game is over. Inconsequential, isn't it? Your prize - but do not tell Kio! He likes the island in this light!=Ну что ж... игра окончена. Пустяки, правда? Твой приз — но не говори Кио! Ему нравится остров в таком свете!
 Treasures... found 'em all myself. Scraped 'em off things. Ripped 'em outta things. =Сокровища... сам всё нашёл. Соскрёб отовсюду. Выдрал из всего.
@@ -210,7 +210,7 @@ You're not going to believe them!=Ты им не поверишь!
 Here! There! And where else? Like the book thrown to the sea, you surface!=Тут! Там! И где ещё? Как книга, брошенная в море, ты всплываешь!
 Oh, fancy seeing you here. =О, какая встреча.
 Watch out for Mephallo. Hides in the sky. Can't see him without help. I can't help.=Берегись Мефалло. Прячется в небе. Без помощи его не увидеть. Я помочь не могу.
-Don't fret. Fishing always clears the mind.=Не переживай. Рыбалка всегда проясняет разум.
+Don't fret. Fishing always clears the mind.=Не бойся. Рыбалка всегда проясняет разум.
 Heh, you've got it!=Хех, получилось!
 Ah, hello you! You're new here.=А, привет! Ты тут новенький.
 The nightmares are too much. It's the light. Kio keeps it that way.  The guardians of this place do not like change.=Кошмары невыносимы. Всё из-за света. Кио поддерживает его таким. Стражи этого места не любят перемен.
@@ -222,7 +222,7 @@ A light to carry! You'll scare the frights! You'll need it to see, in this light
 
 # === ShiveringTomb / ShiveringTomb2 / Tutorial ===
 Yesssss....=Дааа....
-Feed me... =Накорми меня...
+Feed me... =Дай есть...
 
 # === Silkengrass ===
 It's all gone for me. My wife is missing. Has been for some time now.  I'm terrified that she's been raised from the dead by the Sivakayans. If you find her... if she has her ring... please bring it to me so I know she's at rest finally. =Для меня всё кончено. Моя жена пропала. Уже давно. Я в ужасе от мысли, что сивакайцы подняли её из мёртвых. Если найдёшь её... если у неё будет кольцо... прошу, принеси его мне, чтобы я знал, что она наконец упокоилась.
@@ -239,7 +239,7 @@ Made my way out here before all the trouble started. Not leavin' now. I'm not bu
 Call themselves "The Wisp" or something like that. Friendly enough, even stop in to check on me sometimes. They say they've got a place in that forest to the North, but I've never gone. They seem to have it out for the Sivakayans though, so they can't be all bad.=Называют себя «Огоньки» или что-то в этом роде. Довольно дружелюбные, даже заглядывают проведать меня иногда. Говорят, у них место в том лесу на севере, но я не ходил. Вроде бы воюют с сивакайцами — значит, не такие уж плохие.
 If it weren't for Ripper, we'd be undead servants to Sivakaya.=Если бы не Риппер, мы были бы нежитью на службе у Сивакайи.
 He's a hero. Took an entire keep from the Sivakayans, made a home there. He keeps men out this way too. Port Azure lost a lot of its forces to him when they wrote us off for dead. =Он герой. Отбил целую крепость у сивакайцев, обустроил там дом. Его люди и здесь дежурят. Порт-Азур потерял немало бойцов, перешедших к нему, когда город списал нас со счетов.
-Port Azure left us. I hope Ripper takes out that whole city one day.=Порт-Азур бросил нас. Надеюсь, Риппер однажды захватит весь этот город.
+Port Azure left us. I hope Ripper takes out that whole city one day.=Порт-Азур бросил нас. Надеюсь, Риппер однажды возьмёт весь город.
 Pilgrims from Port Azure settled here, but when Port Azure pulled back its forces, the Sivakayans emerged and destroyed everything. A lot of people were not fortunate enough to escape in time.=Паломники из Порт-Азура обосновались здесь, но когда город отозвал войска, сивакайцы вышли и уничтожили всё. Многим не повезло сбежать вовремя.
 Seen 'em all over the place up here. Makes me miss the walls of Port Azure. Getting back there is a journey I'm not sure I have in me anymore. There's others here too besides the Sivakayans...=Видел их повсюду тут наверху. Скучаю по стенам Порт-Азура. Вернуться туда — путь, который мне, боюсь, уже не по силам. Тут и кроме сивакайцев кое-кто есть...
 If you've travelled this far, you just may be worth paying attention to. Going into the Loomingwood?=Если добрался досюда — возможно, ты заслуживаешь внимания. Идёшь в Мрачнолесье?
@@ -248,10 +248,10 @@ Well, there's Ripper's soldiers who stay around to protect us after Port Azure a
 He and his men broke off from Port Azure when Port Azure pulled back. They're all that stands between us and the Sivakayans now. They're incredible in combat - I've seen it!=Он и его люди откололись от Порт-Азура, когда тот отступил. Теперь только они стоят между нами и сивакайцами. Они невероятны в бою — я видел!
 
 # === Soluna ===
-It's stunning how large it is... no human could have made this. It makes true believers out of any who see it.=Поразительно, какое оно огромное... ни один человек не смог бы такое создать. Каждый, кто увидит, становится истинно верующим.
+It's stunning how large it is... no human could have made this. It makes true believers out of any who see it.=Поразительно, какое огромное... человек не смог бы такое создать. Любой, кто увидит, уверует.
 Praise Soluna! We are so fortunate to be her followers. The proof of her having been here is undeniable! =Хвала Солуне! Нам повезло быть её последователями. Доказательство её пребывания здесь неоспоримо!
 Soluna... *its humming intensifies momentarily*=Солуна... *гудение на мгновение усиливается*
-Many make the trek to see this place. It's one of the few in Erenshor where you can witness actual proof of the Gods.=Многие совершают паломничество, чтобы увидеть это место. Одно из немногих на Эреншоре, где можно увидеть подлинное доказательство существования Богов.
+Many make the trek to see this place. It's one of the few in Erenshor where you can witness actual proof of the Gods.=Многие идут сюда. Одно из немногих мест на Эреншоре, где видно истинное свидетельство Богов.
 I've heard whispers of a hidden crack in the rocks to the east that leads to a hidden valley... the source was a drunkard, and as unreliable as any I've overheard before. =Слышал шёпот о скрытой трещине в скалах на востоке, ведущей в потайную долину... источник — пьяница, ненадёжный, как и все, кого я слышал прежде.
 This place has attracted many types over the years. Some more ambitious in others in their quest for fortune. =Это место привлекало разных людей на протяжении лет. Некоторые амбициознее других в погоне за удачей.
 All are welcome here, but for any civilian who doesn't follow Soluna, the journey isn't exactly worth while.=Здесь всем рады, но для обычного человека, не следующего Солуне, путешествие того не стоит.
@@ -277,15 +277,15 @@ Yes, we have followed your exploits. We believe you'll be a great help to us. Ha
 Haven't you said that word to me before? Did you find something else? =Ты уже говорил мне это слово раньше? Нашёл что-то ещё?
 The most obscure of items, I would doubt you would find it on this plane. Perhaps the answer lies within a dream...=Самый загадочный из предметов. Сомневаюсь, что найдёшь его в этом мире. Возможно, ответ сокрыт во сне...
 A gem forged in sadness - I would look for this in places that Brax and Sivakaya may have once shared. =Самоцвет, выкованный печалью — я бы искал его в местах, где Бракс и Сивакайя когда-то были вместе.
-A piece of her. She was shattered on Erenshor, there must be remnants. Likely amongst her followers.=Частица её. Она была разбита на Эреншоре, значит, остались осколки. Скорее всего, среди её последователей.
+A piece of her. She was shattered on Erenshor, there must be remnants. Likely amongst her followers.=Частица её. Она разбита на Эреншоре, значит, остались осколки. Верно, среди её последователей.
 You will know its host when you see it. It'll be twisted and aggressive - it will not be one of her followers, we have learned that with certainty. While they show symptoms, the dementia does not seem to take hold of them. =Ты узнаешь носителя, когда увидишь. Он будет искажён и агрессивен — это точно не один из её последователей, мы выяснили наверняка. Хотя симптомы есть у многих, безумие не захватывает их полностью.
 Here, take this. It'll save you the boat ride if you don't have one yet. Otherwise just toss it away. =Держи, возьми это. Сэкономишь на лодке, если ещё нет такого. А если есть — просто выбрось.
-You stop with that nonsense, I have people like you to do things for me!=Прекрати эту чепуху, у меня есть такие, как ты, чтобы делать дела за меня!
+You stop with that nonsense, I have people like you to do things for me!=Прекрати чепуху, у меня есть такие, как ты, чтобы делать дела за меня!
 You think a boat small enough to not draw attention's going to be able to come and go as it pleases? The only boats that come here are the cargo ships that bring stowaways like you.=Думаешь, лодка достаточно маленькая, чтобы не привлекать внимания, сможет плавать туда-сюда? Единственные суда здесь — грузовые корабли, привозящие зайцев вроде тебя.
-What did you just say? You need to talk to Lucian... right now.=Что ты только что сказал? Тебе нужно поговорить с Лусианом... прямо сейчас.
+What did you just say? You need to talk to Lucian... right now.=Что ты сказал? Тебе нужно к Лусиану... прямо сейчас.
 You're not part of this.=Ты тут ни при чём.
 Oh, hi there. I'm just here to announce the latest news. Right now I'm recognizing the folks who have contributed to help the development of our fine island! =О, привет. Я здесь, чтобы объявлять последние новости. Сейчас я отмечаю тех, кто помог развитию нашего славного острова!
-There's no tellin' what it's for. We stopped askin' and they do their thing and leave us alone. Just bugs me... we don't know where they even come from. Must be some hidden place on the island. =Не угадаешь, для чего это. Мы перестали спрашивать — они делают своё дело и оставляют нас в покое. Только вот покоя нет... мы даже не знаем, откуда они. Должно быть, где-то на острове есть потайное место.
+There's no tellin' what it's for. We stopped askin' and they do their thing and leave us alone. Just bugs me... we don't know where they even come from. Must be some hidden place on the island. =Не угадаешь, для чего это. Мы перестали спрашивать — они делают своё и оставляют нас. Только вот покоя нет... мы даже не знаем, откуда они. Где-то на острове есть тайное место.
 Merosavilla? That's where my home is. Nice place - lots of mountains. You should visit it someday. If I were going back to Ashenvale, I'd offer you a trip back since you didn't make it to Erenshor. You'll find your way, I'm sure.=Мерозавилла? Там мой дом. Красивое место — много гор. Загляни как-нибудь. Если бы я возвращался в Ашенвейл, предложил бы подвезти — раз уж ты не добрался до Эреншора. Найдёшь свой путь, уверен.
 Don't know where they hide out. It's a small island... can't be that hard to find, if you've got the gumption.=Не знаю, где они прячутся. Остров маленький... не так уж трудно найти, если есть смелость.
 Bandits got it. They're somewhere on the island... Told me I could have it back for 300 gold. I don't have 300 gold and I don't have the oomph to fight 'em anymore either.=Бандиты забрали. Где-то на острове... Сказали, верну за 300 золотых. У меня нет 300 золотых, да и сил драться уже нет.
@@ -296,8 +296,8 @@ I've done it all. Seen it all. Slayed it all. I don't do the merc stuff anymore,
 Beast of Stowaway's Step they call him. Seen him chewing on all kinds of old trinkets. Probably there's somethin' valuable in his gut. Don't go pokin' at him without some muscle though, else you'll be in that gut yourself. =Зверь Причала Безбилетников — так его зовут. Видели, как жуёт всякие старые безделушки. Наверняка в брюхе есть что-то ценное. Только не лезь к нему без подмоги, иначе сам окажешься в том брюхе.
 The watchlights... have you seen them? They're all over the island. What do you think they're for? =Сторожевые огни... видел их? Они по всему острову. Как думаешь, зачем?
 I need someone who knows how to fish to catch me one! There's an old fishing pole for sale in there, but who has time for that? To make it worse, they only come out at night! I'll give you a fancy reward if you catch me one...=Мне нужен кто-то, кто умеет рыбачить! В магазине продаётся старая удочка, но у кого есть время? И ещё хуже — они появляются только ночью! За одну рыбку дам отличную награду...
-Used to be quite the adventurer... now I'm washed up. Old injuries, ya know. Couldn't even protect my grandfather's lucky coin from those bandits.=Был когда-то неплохим искателем приключений... теперь списан на берег. Старые раны, сам понимаешь. Даже счастливую монету деда не смог защитить от бандитов.
-Stowaway's Step is home now. Like it or not. Erenshor's out of reach for most of us. I just wish that ritual wouldn't happen so often.=Причал Безбилетников теперь мой дом. Нравится или нет. Эреншор для большинства из нас недоступен. Только бы этот ритуал не происходил так часто.
+Used to be quite the adventurer... now I'm washed up. Old injuries, ya know. Couldn't even protect my grandfather's lucky coin from those bandits.=Был когда-то искателем приключений... теперь списан. Старые раны, сам знаешь. Даже монету деда не смог уберечь от бандитов.
+Stowaway's Step is home now. Like it or not. Erenshor's out of reach for most of us. I just wish that ritual wouldn't happen so often.=Причал Безбилетников — мой дом. Нравится или нет. Эреншор для большинства недоступен. Только бы ритуал не шёл так часто.
 Whaddaya want? =Чего надо?
 In the right light you can see the beaches of Erenshor off in the distance. Too foggy today, but it's out there. I've seen a ship come back and forth in the night - unmarked, too. No idea who's sailing it, but there's something going on...=При правильном свете можно увидеть пляжи Эреншора вдали. Сегодня слишком туманно, но он там. Я видел корабль, снующий туда-сюда ночью — без опознавательных знаков. Не знаю, кто на нём, но что-то происходит...
 Oi, welcome to the Island traveller. If you need supplies, I have them. If you're passin' through, well, you may be here a while still. Remember that I'm here and do yourself a favor and avoid the ritual. Looks like they started it up again.=Ой, добро пожаловать на остров, путник. Нужны припасы — они у меня есть. Если проездом — ну, задержишься ещё ненадолго. Помни, что я тут, и сделай себе одолжение — обходи ритуал стороной. Похоже, опять начали.
@@ -306,14 +306,14 @@ Ah, now you've met the only person not trying to leave this place. Did my time a
 Just bought this place. Saved up for years. Never sold a thing til there was a deal! Climbed all over the world looking for deals, you see! Spent whole nights fishing and mining! Now I'm rich!=Только что купил это место. Копил годами. Ничего не продавал, пока не подворачивалась сделка! Облазил весь мир в поисках выгоды! Ночами напролёт рыбачил и добывал руду! Теперь я богат!
 Preppin' to depart. Not to Erenshor though - those ports are all closed. I'm headed back home to Merosavilla for a little rest.=Готовлюсь к отплытию. Но не на Эреншор — там все порты закрыты. Еду домой, в Мерозавиллу, немного отдохнуть.
 This house just sold. You just missed the deal of a lifetime, let me tell you! Guy moving in is a bit of a character. He had a lot of stuff. =Этот дом только что продан. Ты упустил сделку века, говорю тебе! Новый жилец — тот ещё персонаж. Барахла у него — уйма.
-It was 1.25 million gold. A fair price, for the size!=1,25 миллиона золотых. Справедливая цена за такой размер!
+It was 1.25 million gold. A fair price, for the size!=1,25 миллиона золотых. Честная цена за размер!
 Someone beat ya to it. Sorry!=Кто-то тебя опередил. Извини!
 A Croc jumped right out of the water and I got so scared I dropped my necklace... and he ATE IT! He went off towards the lighthouse... if you get it back I'll be so grateful!=Крокодил выпрыгнул прямо из воды, я так испугался, что уронил ожерелье... и он СОЖРАЛ его! Побежал к маяку... если вернёшь — буду так благодарен!
 Careful down in the forest. It's a rough place... ugh... being a guard is awful. I want to be something more... maybe a emissary... or, no... an ambassador! =Осторожнее в лесу. Суровое место... уф... быть стражником — ужасно. Хочу стать кем-то большим... может, посланником... или нет... послом!
 Adventure awaits out there. I just have to find a way off this island. I heard a rumor... nevermind. Don't wanna get anyone in trouble.=Приключения ждут. Нужно лишь найти способ покинуть остров. Слышал слух... а, забудь. Не хочу никого подставлять.
 Whatcha doing 'round here? Stuck like the rest of us? Wickliff ain't such a bad little town. We're finally building an inn!=Чем тут занимаешься? Застрял, как и мы? Виклифф — неплохой городок. Наконец-то строим таверну!
 They've been here for ages. They seem harmless, but it's unnerving!=Они здесь целую вечность. Вроде безобидные, но нервирует!
-No can do. It'd take quite a tidy sum for me to risk my ship on a trip to Erenshor.=Не выйдет. Нужна кругленькая сумма, чтобы я рискнул своим кораблём ради поездки на Эреншор.
+No can do. It'd take quite a tidy sum for me to risk my ship on a trip to Erenshor.=Не выйдет. Нужна кругленькая сумма, чтобы я рискнул кораблём ради Эреншора.
 This place isn't so bad. None of us expected to live here when we arrived... but when they stopped all immigration to Erenshor we really had no choice.=Не так уж тут плохо. Никто из нас не рассчитывал тут жить... но когда закрыли иммиграцию на Эреншор, выбора не осталось.
 Never met a mountain or statue I couldn't climb. Been all over this island. Fell into caves. Fell into the ocean. Fell off cliffs bigger than you can imagine. It was all worth it!=Не встречал горы или статуи, на которую не смог бы залезть. Облазил весь остров. Падал в пещеры. Падал в океан. Срывался со скал выше, чем можешь представить. Всё того стоило!
 What're you doing way out here? Lost like the rest of us? Headed to the ruins?=Что ты тут делаешь так далеко? Заблудился, как и мы? Идёшь к руинам?
@@ -323,17 +323,17 @@ Welcome to our little town of Wickliff. You get used to this place eventually ex
 Woe is me! I must have a Moongill! I crave a Moongill! But the shop has none for sale and I don't know how to fish!=Горе мне! Мне нужен Лунножабр! Я жажду Лунножабра! Но в лавке их нет, а рыбачить я не умею!
 You're back... I've heard that you've been busy.=Ты вернулся... Слышал, ты был занят.
 Have you found the... hey! You're not Wyland! Don't disturb us.=Ты нашёл... эй! Ты не Вайланд! Не мешай нам.
-Begone. *Lucian's eyes never leave the searing flames before him*.=Прочь. *Взгляд Лусиана не отрывается от пылающего пламени перед ним.*
+Begone. *Lucian's eyes never leave the searing flames before him*.=Прочь. *Взгляд Лусиана не отрывается от пламени перед ним.*
 We are close to something here. =Мы близки к чему-то.
 You ain't gettin' there without knowin' someone who can take ya. =Туда не попасть, если не знаешь того, кто отвезёт.
-Most of us wanted to get to Erenshor... and for the right price there's still ways to get there. =Большинство из нас хотело попасть на Эреншор... и за правильную цену всё ещё есть способы добраться.
+Most of us wanted to get to Erenshor... and for the right price there's still ways to get there. =Большинство хотело попасть на Эреншор... и за нужную цену всё ещё есть способы добраться.
 
 # === StowawayPortal ===
 It's beginning to manifest itself! You must take from it that which it took from me. It possesses the secrets of this world. Bring them to The Wisp. For now, I must go. We will meet again, but I fear it will not truly be... me... when we do.=Оно начинает проявляться! Ты должен забрать у него то, что оно отняло у меня. Оно хранит тайны этого мира. Отнеси их Огонькам. А сейчас мне пора. Мы встретимся снова, но боюсь, это буду уже не совсем... я.
-You must end this corruption. It has touched us all. Fernalla. Vitheo. Brax. Even Soluna bears its mark. We endure in fractured shells. Free us.=Ты должен положить конец этой порче. Она коснулась всех нас. Ферналлы. Витео. Бракса. Даже Солуна несёт её печать. Мы существуем в расколотых оболочках. Освободи нас.
+You must end this corruption. It has touched us all. Fernalla. Vitheo. Brax. Even Soluna bears its mark. We endure in fractured shells. Free us.=Покончи с порчей. Она коснулась всех. Ферналлы. Витео. Бракса. Даже Солуна несёт печать. Мы живём в расколотых оболочках. Освободи нас.
 I hid this last remnant of myself here. I called to my followers, but few still listen. At last, you have answered.=Я спрятал здесь последний осколок себя. Я взывал к последователям, но мало кто ещё слушает. Наконец ты откликнулся.
 Azynthi has taken my very being from me. I am but a shard that remains, and I cling to the light. He is ceaseless. He is hunting for power, and he is finding it. =Азинти забрал моё существо. Я лишь осколок, и я цепляюсь за свет. Он неутомим. Он охотится за силой — и находит её.
-You have come. Quickly - the darkness clings to you and all who walk this world. It has followed you and will manifest here soon. When it does, I cannot remain. I am not whole, and it will take what little I have left.=Ты пришёл. Скорее — тьма цепляется к тебе и ко всем, кто ходит по этому миру. Она последовала за тобой и скоро проявится здесь. Когда это случится, я не смогу остаться. Я не целый, и она заберёт то немногое, что осталось.
+You have come. Quickly - the darkness clings to you and all who walk this world. It has followed you and will manifest here soon. When it does, I cannot remain. I am not whole, and it will take what little I have left.=Ты пришёл. Скорее — тьма цепляется к тебе и ко всем, кто ходит по этому миру. Она шла за тобой и скоро проявится здесь. Когда это случится, я не смогу остаться. Я не целый, и она заберёт то немногое, что осталось.
 Goodbye.=Прощай.
 
 # === SummerEvent ===

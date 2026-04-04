@@ -5,29 +5,29 @@
 [EXACT]
 
 # --- Заголовки подсказок ---
-WELCOME TO ERENSHOR!=ДОБРО ПОЖАЛОВАТЬ В ЭРЕНШОР!
+WELCOME TO ERENSHOR!=ПРИВЕТ, ЭРЕНШОР!
 Bandits=Бандиты
-Dungeons!=Подземелья!
+Dungeons!=Данжи!
 Combat=Бой
 Merchants=Торговцы
-Be Social!=Будь общительным!
-Grouping=Группировка
+Be Social!=Общайся!
+Grouping=Группы
 Investigating a Quest=Исследование квеста
 You've done it!=Ты справился!
-Get paid!=Получи награду!
+Get paid!=Награда!
 Saying the right things...=Говори правильно...
-Turning in Quest Items=Сдача квестовых предметов
+Turning in Quest Items=Сдача предметов квеста
 Groups are important!=Группы важны!
-Consider NPCs!=Присмотрись к НПС!
+Consider NPCs!=Оцени НПС!
 Erenshor!=Эреншор!
-Forges!=Кузницы!
+Forges!=Кузня!
 Shivering Step=Дрожащая Тропа
 
 # --- Stowaway: WELCOME TO ERENSHOR (клавиатура) ---
-Use WASD or LEFT STICK to move and Spacebar or X to jump. \n\nHold RIGHT MOUSE or use RIGHT STICK to look around.\n\nYou can rebind most controls in the OPTIONS MENU (Press O)\n\nProceed up the stairs. The tutorial begins on the docks.=Используйте WASD или ЛЕВЫЙ СТИК для движения, Пробел или X для прыжка.\n\nЗажмите ПРАВУЮ КНОПКУ МЫШИ или используйте ПРАВЫЙ СТИК для обзора.\n\nНастроить клавиши можно в МЕНЮ НАСТРОЕК (клавиша O).\n\nПоднимитесь по лестнице. Обучение начинается на причале.
+Use WASD or LEFT STICK to move and Spacebar or X to jump. \n\nHold RIGHT MOUSE or use RIGHT STICK to look around.\n\nYou can rebind most controls in the OPTIONS MENU (Press O)\n\nProceed up the stairs. The tutorial begins on the docks.=WASD или ЛЕВЫЙ СТИК — движение, Пробел или X — прыжок.\n\nПКМ или ПРАВЫЙ СТИК — обзор.\n\nКлавиши настройте в МЕНЮ НАСТРОЕК (O).\n\nИдите по лестнице. Обучение на причале.
 
 # --- Stowaway: WELCOME TO ERENSHOR (геймпад) ---
-Use LEFT STICK to move and X to jump. \n\nUse RIGHT STICK to look around.\n\nProceed up the stairs. The tutorial begins on the docks.=Используйте ЛЕВЫЙ СТИК для движения, X для прыжка.\n\nИспользуйте ПРАВЫЙ СТИК для обзора.\n\nПоднимитесь по лестнице. Обучение начинается на причале.
+Use LEFT STICK to move and X to jump. \n\nUse RIGHT STICK to look around.\n\nProceed up the stairs. The tutorial begins on the docks.=ЛЕВЫЙ СТИК — движение, X — прыжок.\n\nПРАВЫЙ СТИК — обзор.\n\nИдите по лестнице. Обучение на причале.
 
 # --- Stowaway: Bandits (клавиатура) ---
 The Bandit cave is a great place to test your mettle. It might be a good idea to find a friend around the island to come with you. Type "/" and press ENTER to see who's around to find a friend. Use <color="green">/whisper PLAYERNAME Let's group!</color> to invite them. \n\nYou can also use the <color="yellow">GROUP BUILDER</color> by clicking the handshake button on the top of your screen.\n\nUse the INVITE button above the dialog box to invite a friend to join once they're here.=Пещера бандитов — отличное место проверить свои силы. Стоит найти друга на острове. Напишите «/» и нажмите ENTER, чтобы посмотреть кто рядом. Используйте <color="green">/whisper ИМЯИГРОКА Давай в группу!</color> для приглашения.\n\nВы также можете использовать <color="yellow">ФОРМИРОВАНИЕ ГРУППЫ</color>, нажав кнопку рукопожатия вверху экрана.\n\nНажмите кнопку ПРИГЛАСИТЬ над диалоговым окном, когда друг будет рядом.
@@ -144,35 +144,35 @@ TUTORIAL TIP: Just because it looks scary, doesn't mean you can't talk to it... 
 Congratulations, You've made it to Erenshor! Explore, adventure, battle, and see what change you can bring to this world.\n\nType <color="green">/all players</color> to find new friends!=Поздравляем, вы добрались до Эреншора! Исследуйте, сражайтесь и посмотрите, что вы можете изменить в этом мире.\n\nНапишите <color="green">/all players</color> чтобы найти новых друзей!
 
 # --- ShiveringStep ---
-<color="red">Shivering Step</color> is an event zone that changes as you play.\n\nDon't be afraid to backtrack to look for clues, and keep a close eye on your chat box for hints from NPCs!=<color="red">Дрожащая Тропа</color> — это событийная зона, которая меняется по ходу игры.\n\nНе бойтесь возвращаться назад в поисках подсказок и следите за чатом — НПС дают полезные намёки!
+<color="red">Shivering Step</color> is an event zone that changes as you play.\n\nDon't be afraid to backtrack to look for clues, and keep a close eye on your chat box for hints from NPCs!=<color="red">Дрожащая Тропа</color> — событийная зона, которая меняется по ходу игры.\n\nНе бойтесь возвращаться назад в поисках подсказок и следите за чатом — НПС дают полезные намёки!
 
 # --- Zoneline: Demo popup ---
 The Game Continues...=Игра продолжается...
 Thanks for playing the Erenshor demo! The game continues on the mainland, in a more open world, with thousands of items, quests, monsters, and more to discover! Join our discord and please be sure to WISHLIST ERENSHOR on Steam!=Спасибо за игру в демо Erenshor! Игра продолжается на материке, в более открытом мире с тысячами предметов, квестов, монстров и многим другим! Присоединяйтесь к Discord и добавьте ERENSHOR в список желаемого Steam!
 
 # --- C# hardcoded strings ---
-MESSAGE OF THE DAY: Welcome to Erenshor! Press ENTER and type /help for tips and commands=СООБЩЕНИЕ ДНЯ: Добро пожаловать в Эреншор! Нажмите ENTER и введите /help для советов и команд
-Welcome to the Erenshor Demo!=Добро пожаловать в демо Erenshor!
-You feel a nibble - catch chance increased!=Вы чувствуете поклёвку — шанс улова повышен!
+MESSAGE OF THE DAY: Welcome to Erenshor! Press ENTER and type /help for tips and commands=СООБЩЕНИЕ ДНЯ: Добро пожаловать в Эреншор! Жмите ENTER, /help для советов
+Welcome to the Erenshor Demo!=Привет, демо Erenshor!
+You feel a nibble - catch chance increased!=Вы чувствуете поклёвку — шанс улова вырос!
 You cannot use this item while casting a spell.=Нельзя использовать предмет во время каста.
 You have been <color=red> JAILED</color> by staff member: <color=yellow>GM-Burgee</color> for breaking the rules of Erenshor.=Вас <color=red>ПОСАДИЛИ</color> сотрудник: <color=yellow>ГМ-Берджи</color> за нарушение правил Эреншора.
 Command not recognized.=Команда не распознана.
-MINIMAP: ENABLED=МИНИКАРТА: ВКЛЮЧЕНА
-MINIMAP: DISABLED=МИНИКАРТА: ОТКЛЮЧЕНА
-WARNING: Inventory full. Received item in TRASH SLOT!=ВНИМАНИЕ: Инвентарь полон! Предмет попал в СЛОТ УНИЧТОЖЕНИЯ!
+MINIMAP: ENABLED=МИНИКАРТА: ВКЛ.
+MINIMAP: DISABLED=МИНИКАРТА: ОТКЛ.
+WARNING: Inventory full. Received item in TRASH SLOT!=ВНИМАНИЕ: Инвентарь полон! Предмет в МУСОРНОМ СЛОТЕ!
 You are already casting a spell...=Вы уже кастуете заклинание...
 You have been ROOTED!=Вас СКОВАЛИ!
 You have been STUNNED!=Вас ОГЛУШИЛИ!
 You have been FEARED!=Вас НАПУГАЛИ!
-You feel a surge of returning mana.=Вы чувствуете прилив возвращающейся маны.
+You feel a surge of returning mana.=Вы чувствуете прилив маны.
 Press any key to continue=Нажмите любую клавишу
 Now listening for Gamepad input... press any button on gamepad to activate=Ожидание ввода с геймпада... нажмите любую кнопку для активации
-Gamepad Control Enabled (experimental)=Управление геймпадом включено (экспериментально)
-STEAM DECK DETECTED=ОБНАРУЖЕН STEAM DECK
+Gamepad Control Enabled (experimental)=Геймпад включён (экспериментально)
+STEAM DECK DETECTED=НАЙДЕН STEAM DECK
 Gamepad / Steam Deck Control Options coming soon=Настройки геймпада / Steam Deck скоро появятся
 (Hold RIGHT MOUSE for details)=(Зажмите ПКМ для подробностей)
-Hold RIGHT MOUSE for item details...=Зажмите ПКМ для информации о предмете...
-Solo | LFG=Соло | Ищу группу
+Hold RIGHT MOUSE for item details...=Зажмите ПКМ для деталей предмета...
+Solo | LFG=Соло | LFG
 No Load Data Found - Creating new data for: =Данные не найдены — создание новых для: 
 First session detected: Initializing UI - =Первая сессия: инициализация UI — 
- elements set to home positions= элементов установлено на позиции
+ elements set to home positions= элементов на базовых позициях
