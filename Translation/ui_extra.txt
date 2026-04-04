@@ -627,7 +627,7 @@ That name is already taken!=Это имя уже занято!
 Choose a class!=Выбери класс!
 New Character=Новый персон.
 Play to Unlock=Играй к разбл.
-Erase Character=Удалить персон.
+Erase Character=Удалить
 Assign Proficiencies=Распред. мастерство
 
 # --- Аукцион (AuctionHouseUI.cs) ---

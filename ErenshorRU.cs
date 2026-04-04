@@ -263,6 +263,9 @@ namespace ErenshorRU
         private static readonly Dictionary<int, TMP_FontAsset> _fontReplacementMap =
             new Dictionary<int, TMP_FontAsset>();
 
+        private const string CyrillicChars =
+            "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя";
+
         public static bool IsReady => _initialized;
 
         public static void Init()
@@ -314,6 +317,16 @@ namespace ErenshorRU
             if (fa != null)
             {
                 fa.name = key + " SDF";
+                fa.atlasPopulationMode = AtlasPopulationMode.Dynamic;
+
+                try
+                {
+                    fa.TryAddCharacters(CyrillicChars, out _);
+                }
+                catch (Exception ex)
+                {
+                    ErenshorRUPlugin.Log.LogWarning($"[RU] Cyrillic pre-populate for {key}: {ex.Message}");
+                }
 
                 var fi = fa.faceInfo;
                 fi.ascentLine *= 0.75f;
@@ -356,6 +369,10 @@ namespace ErenshorRU
                 return DGet(_tmpReplace, key);
 
             fa.name = key + " SDF [" + targetPt + "]";
+            fa.atlasPopulationMode = AtlasPopulationMode.Dynamic;
+            try { fa.TryAddCharacters(CyrillicChars, out _); }
+            catch { }
+
             var fi = fa.faceInfo;
             fi.pointSize = targetPt;
             float scale = 0.85f;
