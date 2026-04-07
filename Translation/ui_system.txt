@@ -801,7 +801,9 @@ Item Consumed Upon Use.\n\n=Расходуемый предмет.\n\n
 (Hold RIGHT MOUSE for details)=(Зажми ПКМ для деталей)
 (Hold CONTROL for details)=(Зажми CTRL для деталей)
 (Hold DPAD DOWN for details)=(Зажми DPAD ВНИЗ для детал.)
-Primary or Secondary=Основное или втор.
+Primary or Secondary=Основное или Вторичное
+Note: Ingredients MUST be exact quantities=Примечание: Ингредиенты ДОЛЖНЫ быть точного количества
+Use CTRL + CLICK to separate stacks.=Используй CTRL + КЛИК для разделения стаков.
 No Spell Selected.=Спелл не выбран.
 
 # --- Лут ---
@@ -955,18 +957,49 @@ It's a =Это
 Spell did not complete - commands missed. Please alert dev team=Каст не завершён — ошибка команд. Сообщите разработчикам
 
 # --- Предмет: Подстроки тултипов ---
+Slot: Head=Слот: Голова
+Slot: Neck=Слот: Шея
+Slot: Chest=Слот: Грудь
+Slot: Shoulder=Слот: Плечо
+Slot: Arm=Слот: Руки
+Slot: Bracer=Слот: Наруч
+Slot: Ring=Слот: Кольцо
+Slot: Hand=Слот: Кисти
+Slot: Foot=Слот: Ступни
+Slot: Leg=Слот: Ноги
+Slot: Back=Слот: Спина
+Slot: Waist=Слот: Пояс
+Slot: Primary=Слот: Основное
+Slot: Secondary=Слот: Вторичное
+Slot: Aura=Слот: Аура
+Slot: Charm=Слот: Талисман
+Slot: General=Слот: Общий
 Slot: =Слот: 
- - 2-Handed= — Двуруч.
- - Relic Item= — Реликт
+Primary or Secondary=Основное или Вторичное
+ - 2-Handed= — Двуручное
+ - Relic Item= — Реликвия
 Activatable: =Активация: 
 Worn Effect: =При ношении: 
 Base DPS: =ДПС: 
 Required Level: =Треб. уровень: 
 Mana Cost: =Цена маны: 
+Spell Type: Damage=Тип закл.: Урон
+Spell Type: StatusEffect=Тип закл.: Дебафф
+Spell Type: Beneficial=Тип закл.: Бафф
+Spell Type: AE=Тип закл.: АОЕ
+Spell Type: PBAE=Тип закл.: ПБ-АОЕ
+Spell Type: Misc=Тип закл.: Прочее
+Spell Type: Heal=Тип закл.: Лечение
+Spell Type: Pet=Тип закл.: Питомец
 Spell Type: =Тип закл.: 
 Spell Line: =Лин. закл.: 
 Cast Time: =Вр. каста: 
 Resist Type: =Тип сопрот.: 
+<color=#FFFFFF>Physical</color>=<color=#FFFFFF>Физический</color>
+<color=#8080FF>Magic</color>=<color=#8080FF>Магия</color>
+<color=#FFA500>Elemental</color>=<color=#FFA500>Стихия</color>
+<color=#50C878>Poison</color>=<color=#50C878>Яд</color>
+<color=#B030B0>Void</color>=<color=#B030B0>Пустота</color>
 Effect Type: =Тип эффекта: 
 Cooldown: =Откат: 
 Spell Level: =Ур. закл.: 
@@ -1104,7 +1137,7 @@ Hold RIGHT MOUSE for item details...=Зажми ПКМ для инфо о пре
 
 # --- WTB ---
 , offering =, предлаг. 
- gold. Open a trade with me.= зол. Открой обмен со мной.
+ gold. Open a trade with me.= зол. Жду трейд.
 WTB =Куплю 
 
 # --- Чат: guild / group / whisper шаблоны ---

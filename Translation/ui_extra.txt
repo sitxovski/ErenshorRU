@@ -63,7 +63,7 @@ Self=Себя
 Commands and Hints=Команды и советы
 
 # --- Инвентарь / статы ---
-< Place item here to destroy=< Положи предмет для уничт.
+< Place item here to destroy=< Положи предмет сюда для уничтожения
 Health=ОЗ
 Mana=ОМ
 Mana:=ОМ:
@@ -204,7 +204,7 @@ Invis Group=Инвиз груп.
 Guard=Страж
 Follow=Следуй
 Toggle \nPuller=Смена\nПуллер
-Group Builder=Билдер группы
+Group Builder=Группа
 Invite Player=Пригл. игрока
 Dismiss=Убрать
 Dismiss Player=Убрать игрока
@@ -223,7 +223,7 @@ DPS Manager=Менедж. ДПС
 DPS Management=Упр. уроном
 Group member will limit DPS until target is under set % life=Участник ограничит урон пока цель выше заданного % ОЗ
 Group members will focus on DPS if not currently performing a task=Участники сосредоточатся на уроне, если нет задачи
-Group should use fear kite tactics\n(Sim players will prioritize movespeed debuffs and fear spells)=Использовать тактику кайтинга\n(SimPlayer приоритизируют замедления и страх)
+Group should use fear kite tactics\n(Sim players will prioritize movespeed debuffs and fear spells)=Использовать тактику кайтинга\n(СимИгроки приоритизируют замедления и страх)
 Heal Threshold=Порог лечения
 Healing Matrix=Матрица хила
 Autopull Settings=Настройки пулла
@@ -361,7 +361,7 @@ My Healing=Моё леч.
 My Hits=Мой дмг
 Other's Healing=Лечение других
 Other's Hits=Удары других
-Sim Req. Loot=Лут SimPlayer
+Sim Req. Loot=Лут Сим-ов
 System Msg.=Системные
 Hide Bottom Bar=Скрыть низ пан.
 Do not alert for updates=Не уведомлять о патчах
@@ -399,7 +399,7 @@ Selected=Выбрано
 Charm=Чары
 Hide Helmet=Скрыть шлем
 No auto-upgrades for gear=Не улучшать экипировку
-Hint: Left Click on any slot to help SimPlayer equip alternate items they may be carrying=Подсказка: ЛКМ по слоту чтобы помочь SimPlayer надеть запасную вещь
+Hint: Left Click on any slot to help SimPlayer equip alternate items they may be carrying=Подсказка: ЛКМ по слоту чтобы помочь СимИгроку надеть запасную вещь
 Current Tier:=Тек. уровень:
  Upgrade To:= Улучш. до:
 Offer=Дать
@@ -419,12 +419,12 @@ Server Reset=Сброс серв.
 Reset All=Сброс всё
 Reset Selected=Сброс выбранн.
 Reset Server=Сброс сервер
-Reset All SimPlayers=Сброс всех SimPlayer
+Reset All SimPlayers=Сброс всех СимИгроков
 Close Window=Закрыть окно
 Enable Reset=Вкл. сброс
 Enable Reset All=Вкл. сброс всех
 Enable Server Reset=Вкл. сброс сервера
-Note: Decreasing population may cause some SimPlayers to be offline.=Примечание: Снижение населения может отключить часть SimPlayer.
+Note: Decreasing population may cause some SimPlayers to be offline.=Примечание: Снижение населения может отключить часть СимИгроков.
 NPC DMG Modifier: 1=Множ. урона NPC: 1
 NPC HP Modifier: 1=Множ. ОЗ NPC: 1
 XP Modifier: 1=Множ. опыта: 1
@@ -440,8 +440,8 @@ Extended=Расшир.
 Recommended=Рекоменд.
 Global Run Speed Modifier=Множитель скорости бега
 RECOMMENDED settings are hand-picked to give users a classic MMO experience. \n\nFor users looking for a modified experience, feel free to adjust these settings to your liking or try a pre-set.\n=РЕКОМЕНДУЕМЫЕ настройки подобраны для классического MMO-опыта.\n\nДля изменённого опыта настройте по вкусу или выберите пресет.\n
-This function allows you to remove individual SimPlayers to make room for new ones.=Удалить отдельных SimPlayer для освобождения места.
-This function will reset ALL SimPlayers to a randomized, default state. =Сброс ВСЕХ SimPlayer к случайному начальному состоянию. 
+This function allows you to remove individual SimPlayers to make room for new ones.=Удалить отдельных СимИгроков для освобождения места.
+This function will reset ALL SimPlayers to a randomized, default state. =Сброс ВСЕХ СимИгроков к случайному начальному состоянию. 
 This function will restore Erenshor to a "Day 1" status. All play progress will be fully reset.=Восстановить Erenshor к «Дню 1». Весь прогресс будет полностью сброшен.
 There is no confirmation prompt. This button is final.=Подтверждения не будет. Кнопка окончательна.
 
@@ -522,7 +522,7 @@ DEBUG\n/iamadev\n/dosunny\n/time1\n/time50\n/time\n/bluesky\n/raining\n/thunder\
 # --- Помощь: описания команд (длинные тексты, префиксное сопоставление) ---
 # Помощь: описания команд игрока (полный текст неизвестен, но запись сработает как субстрока)
 \nRequired for some debug commands\ntoggle global lighting\nset day night cycle to normal speed\nset day night cycle to 50x speed\nsee what time it is\nweather trending to sunny\nweather trending to rainy\nweather trending to stormy\ncamera drone (WASD + Arrows)\nDisable UI\n\n=\nНужно для отладочных команд\nвкл/выкл глобальное освещение\nскорость цикла дня/ночи — обычная\nскорость цикла дня/ночи — 50x\nузнать время\nпогода: к ясной\nпогода: к дождливой\nпогода: к грозовой\nдрон камеры (WASD + стрелки)\nСкрыть UI\n\n
-Tips and Hints:\n\n1.) Talk to all NPCs (H - default)\n\n2.) Take your time, read dialog for hints and directions\n\n3.) It's best to be in a group\n\n4.) Share loot with your group by  handing it to them (drag item to their character model)\n\n5.) SimPlayers auto-learn spells and skills\n\n6.) If you're stuck, there's a wiki and a discord!\n\n7.) Hard fight? Try adjusting healing thresholds \n\n8.) Press F2, F3, F4 (default keys)  to target a party member. Press the same key twice to get their  target.\n\n9.) If you're struggling in one area, it's likely that there is a better place you could find to adventure\n\n10.) Secrets and traps often have 'audio clues' nearby to get your attention\n\n11.) Explore! Different areas of the world have different spells or skills for sale.\n\n12.) Try asking questions to your guild!=Советы и подсказки:\n\n1.) Говори со всеми НПС (H по умолчанию)\n\n2.) Не торопись, читай диалоги — там подсказки\n\n3.) Лучше быть в группе\n\n4.) Делись добычей — перетащи предмет на модель персонажа\n\n5.) SimPlayer сами изучают заклинания и навыки\n\n6.) Застрял? Есть вики и Discord!\n\n7.) Тяжёлый бой? Попробуй настроить порог лечения\n\n8.) F2, F3, F4 (по умолчанию) — выбрать члена группы. Дважды — его цель.\n\n9.) Трудно тут? Скорее всего, есть место получше\n\n10.) У секретов и ловушек часто есть «звуковые подсказки»\n\n11.) Исследуй! В разных частях мира продаются разные заклинания\n\n12.) Попробуй задать вопрос гильдии!
+Tips and Hints:\n\n1.) Talk to all NPCs (H - default)\n\n2.) Take your time, read dialog for hints and directions\n\n3.) It's best to be in a group\n\n4.) Share loot with your group by  handing it to them (drag item to their character model)\n\n5.) SimPlayers auto-learn spells and skills\n\n6.) If you're stuck, there's a wiki and a discord!\n\n7.) Hard fight? Try adjusting healing thresholds \n\n8.) Press F2, F3, F4 (default keys)  to target a party member. Press the same key twice to get their  target.\n\n9.) If you're struggling in one area, it's likely that there is a better place you could find to adventure\n\n10.) Secrets and traps often have 'audio clues' nearby to get your attention\n\n11.) Explore! Different areas of the world have different spells or skills for sale.\n\n12.) Try asking questions to your guild!=Советы и подсказки:\n\n1.) Говори со всеми НПС (H по умолчанию)\n\n2.) Не торопись, читай диалоги — там подсказки\n\n3.) Лучше быть в группе\n\n4.) Делись добычей — перетащи предмет на модель персонажа\n\n5.) СимИгроки сами изучают заклинания и навыки\n\n6.) Застрял? Есть вики и Discord!\n\n7.) Тяжёлый бой? Попробуй настроить порог лечения\n\n8.) F2, F3, F4 (по умолчанию) — выбрать члена группы. Дважды — его цель.\n\n9.) Трудно тут? Скорее всего, есть место получше\n\n10.) У секретов и ловушек часто есть «звуковые подсказки»\n\n11.) Исследуй! В разных частях мира продаются разные заклинания\n\n12.) Попробуй задать вопрос гильдии!
 
 # --- Патч-ноты ---
 \nv0.3 brings TONS of changes to Erenshor, check out the full patch notes on the steam community hub.\n\nThe REAVER is live! \n\nCheck out the "Server Admin Panel" to increase server population and add new...=\nv0.3 приносит МАССУ изменений в Erenshor, полные патч-ноты на хабе сообщества Steam.\n\nЖНЕЦ теперь доступен!\n\nЗагляни в «Панель администрирования» для увеличения населения и добавления новых...
@@ -584,7 +584,7 @@ Resonance=Резонанс
 # --- Информация о предметах (ItemInfoWindow.cs) ---
 Unsellable=Неторговый
 Primary or Secondary=Основн. или Вторичн.
-Right click or assign to hotkey to use.=ПКМ или хоткей для использования.
+Right click or assign to hotkey to use.=ПКМ / хоткей - исп.
 Effect applied once item is equipped.=Эффект применяется при экипировке.
 
 # --- Хоткей / книга заклинаний ---
@@ -611,7 +611,7 @@ You are the main assist...=Вы — главный ассист...
 No target selected...=Цель не выбрана...
 No target selected=Цель не выбрана
 Can't invite party members while dead...=Нельзя приглашать в группу пока мёртв...
-Invalid invite: this is not a SimPlayer...=Неверное приглашение: это не SimPlayer...
+Invalid invite: this is not a SimPlayer...=Неверное приглашение: это не СимИгрок...
 Your group is currently full (maximum of 5, including you)=Группа полная (максимум 5, включая вас)
 This player is not currently available for grouping, or is already in your group, or is outside of your level range.=Игрок недоступен для группировки, уже в группе, или вне диапазона уровней.
 Cannot kick an empty group slot=Нельзя исключить пустой слот
@@ -644,7 +644,7 @@ Your Merchandise=Ваш товар
 None selected=Не выбрано
 
 # --- Сброс сервера (ServerReset.cs) ---
-All SimPlayer Save Data Reset...=Все данные SimPlayer сброшены...
+All SimPlayer Save Data Reset...=Все данные СимИгроков сброшены...
 Server reset complete... backup files are intact.=Сброс сервера завершён... бэкапы на месте.
 Server reset failed, see log file=Сброс сервера не удался, см. лог
 No save folder found to delete.=Папка сохранений не найдена.
@@ -732,7 +732,7 @@ Saturation=Насыщен.
 Diffusion=Диффузия
 Color Temp=Цв. темп.
 Cam Smoothing=Плавн. камеры
-SimPlayer Draw Dist.=Дальность SimPlayer
+SimPlayer Draw Dist.=Дальность СимИгроков
 Grass Quality=Качест. травы
 Resolution=Разрешение
 Enable Gamepad=Вкл. геймпад
@@ -759,7 +759,7 @@ Ascension XP: =Опыт вознес.:
 No Aura Equipped=Нет ауры
 
 # --- Патч-ноты / Дебаг ---
-DEBUG INFO: \nA previous bug caused players in Character Slot 1 to be "friends" with everyone. \n\nThis button will remove all SimPlayers from your fiends list without interfering with XP tethering. If you purchased the game after 5/30/25, this bug did not affect you. \n\nAs this is a debug feature, it is a good idea to only use it once to clear the friends list, as it does modify save files outside of the normal methods and may have unexpected results if misused. =ОТЛАДКА: \nПредыдущий баг приводил к тому, что игроки в Слоте 1 «дружили» со всеми.\n\nЭта кнопка удалит всех SimPlayer из списка друзей, не затрагивая привязку опыта. Если вы купили игру после 30.05.25, этот баг вас не затронул.\n\nТак как это отладочная функция, лучше использовать её один раз. Она изменяет файлы сохранений нестандартно и может дать неожиданные результаты при злоупотреблении. 
+DEBUG INFO: \nA previous bug caused players in Character Slot 1 to be "friends" with everyone. \n\nThis button will remove all SimPlayers from your fiends list without interfering with XP tethering. If you purchased the game after 5/30/25, this bug did not affect you. \n\nAs this is a debug feature, it is a good idea to only use it once to clear the friends list, as it does modify save files outside of the normal methods and may have unexpected results if misused. =ОТЛАДКА: \nПредыдущий баг приводил к тому, что игроки в Слоте 1 «дружили» со всеми.\n\nЭта кнопка удалит всех СимИгроков из списка друзей, не затрагивая привязку опыта. Если вы купили игру после 30.05.25, этот баг вас не затронул.\n\nТак как это отладочная функция, лучше использовать её один раз. Она изменяет файлы сохранений нестандартно и может дать неожиданные результаты при злоупотреблении. 
 \nCLASS CHANGES\n\n\u2022While using a shield, Paladins will gain a 2x bonus to all armor mitigations\n\n\u2022When not using a shield, Paladins will have standard armor mitigations\n\n\u2022Damage bonus increased for 2H weapons from 1.3x --> 2x.\n\n\u2022While using a shield, Paladins will gain a 2x bonus to all armor mitigations\n\nSKILLS AND ABILITIES\n\n\u2022Dodge is now broken into SKILL LEVELS (I - IV). Books can be found in Port Azure. Not all classes will be able to use Dodge up to level IV.\n\n\u2022Block is now broken into SKILL LEVELS (I - IV). Books can be found in Port Azure. Not all classes will be able to use Block up to level IV.\n\n\n\n\n=\nИЗМЕНЕНИЯ КЛАССОВ\n\n•Со щитом Паладины получат бонус ×2 ко всем поглощениям брони\n\n•Без щита — стандартные поглощения\n\n•Бонус урона двуручного оружия увеличен с 1.3× до 2×\n\n•Со щитом Паладины получат бонус ×2 ко всем поглощениям\n\nНАВЫКИ И СПОСОБНОСТИ\n\n•Уклонение разделено на УРОВНИ (I-IV). Книги в Порт-Лазури. Не все классы могут освоить Уклонение до IV.\n\n•Блок разделён на УРОВНИ (I-IV). Книги в Порт-Лазури. Не все классы могут освоить Блок до IV.\n\n\n\n\n
 
 # --- Кузница / SimInspect ---
@@ -777,7 +777,7 @@ No keys on Keyring.=Нет ключей.
 
 [SUBSTRING]
 # --- Динамические строки ---
- SimPlayers Loaded= SimPlayer загр.
+ SimPlayers Loaded= СимИгроков загружено
 Buying From =Покупка у 
 Conversation with: =Разговор с: 
 Current Guild Target: =Цель гильдии: 
@@ -966,7 +966,8 @@ Community and Marketing management: =Маркетинг и сообщество:
 Design and Development:=Дизайн и разработка:
 With support from=При поддержке
 Current FPS: =Текущий FPS: 
-< Place item here to destroy=< Положи сюда для уничтож.
+< Place item here to destroy=< Положи предмет для уничтожения
+< Place item here to DESTROY=< Положи предмет для уничтожения
 
 [EXACT]
 

@@ -449,6 +449,10 @@ namespace ErenshorRU
 
             if (replacement != null)
             {
+                float origLS = comp.lineSpacing;
+                var origFI = origFont.faceInfo;
+                var newFI = replacement.faceInfo;
+
                 try
                 {
                     Traverse.Create(comp).Field("m_fontMaterial").SetValue(null);
@@ -457,6 +461,20 @@ namespace ErenshorRU
 
                 comp.font = replacement;
                 comp.fontSharedMaterial = replacement.material;
+
+                if (origFI.pointSize > 0 && newFI.pointSize > 0 &&
+                    newFI.lineHeight > 0.1f)
+                {
+                    float origPerEm = origFI.lineHeight / (float)origFI.pointSize;
+                    float newPerEm  = newFI.lineHeight  / (float)newFI.pointSize;
+                    if (newPerEm > 0.01f)
+                    {
+                        float ratio = origPerEm / newPerEm * 1.08f;
+                        comp.lineSpacing =
+                            (ratio * (1f + origLS / 100f) - 1f) * 100f;
+                    }
+                }
+
                 try { comp.ForceMeshUpdate(true); } catch { }
             }
 
@@ -1419,7 +1437,9 @@ namespace ErenshorRU
             for (int i = 0; i < line.Length; i++)
             {
                 char c = line[i];
-                if (c == '<') depth++;
+                if (c == '<' && i + 1 < line.Length &&
+                    (char.IsLetter(line[i + 1]) || line[i + 1] == '/'))
+                    depth++;
                 else if (c == '>' && depth > 0) depth--;
                 else if (c == '=' && depth == 0) return i;
             }
