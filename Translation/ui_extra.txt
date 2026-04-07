@@ -63,7 +63,7 @@ Self=Себя
 Commands and Hints=Команды и советы
 
 # --- Инвентарь / статы ---
-< Place item here to destroy=< Положи предмет сюда для уничтожения
+< Place item here to destroy=< Положи предм. для уничтож
 Health=ОЗ
 Mana=ОМ
 Mana:=ОМ:
@@ -967,7 +967,6 @@ Design and Development:=Дизайн и разработка:
 With support from=При поддержке
 Current FPS: =Текущий FPS: 
 < Place item here to destroy=< Положи предмет для уничтожения
-< Place item here to DESTROY=< Положи предмет для уничтожения
 
 [EXACT]
 
