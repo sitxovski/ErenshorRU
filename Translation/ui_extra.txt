@@ -461,7 +461,7 @@ Saving and backing up game data...=Сохранение и резервная к
 HOTKEY TYPE=ТИП ХОТКЕЯ
 Object Name=Имя объекта
 Clean List=Очист. сп.
-E- Loot All=E- Весь лут
+# E- Loot All — перенесено в SUBSTRING (ui_system.txt), текст генерируется динамически
 Esc - Close=Esc - Закр.
 Destroy All=Уничт. всё
 Specify Slot=Указать слот
@@ -992,6 +992,7 @@ Map=Мап
 Forward:\n\nBackward:\n\nLeft:\n\nRight:\n\nJump:\n\nAutoattack:\n\nConsider Opponent:\n\nHail / Greet:\n\nSpells and Skills:\n\nQuest Log:\n\nCycle Targets:\n\nOpen / Submit Chat:\n\nInventory:\n\nOptions Menu:\n\nStrafe Left:\n\nStrafe Right:\n\nAutorun:\n\nSit:=Вперёд:\n\nНазад:\n\nВлево:\n\nВправо:\n\nПрыжок:\n\nАвтоатака:\n\nОценить цель:\n\nПриветствие:\n\nЗакл. и навыки:\n\nЖурнал квестов:\n\nСмена цели:\n\nОткрыть / Отправить чат:\n\nИнвентарь:\n\nМеню настроек:\n\nШаг влево:\n\nШаг вправо:\n\nАвтобег:\n\nСесть:
 "Modern Controls" are a previous control scheme from earlier in development. Options are good, so I re-enabled them. They can only be activated once you're in-game (for now) and do not currently save settings. \n\nIf there is interest, this feature can be made complete.\n\n-Permanent Mouse look & mouse steering\n\n-"Free mouse" removed\n\n-Mouse cursor released during UI usage (also toggled by middle mouse button)\n\n-Left clicking on vendors, bank, etc interacts with them\n\n-"Left" and "Right" default to strafe=«Современное управление» — предыдущая схема из ранней разработки. Настройки — это хорошо, поэтому я вернул их. Активировать можно только в игре (пока что), настройки не сохраняются.\n\nЕсли будет интерес, функцию можно доработать.\n\n-Постоянный обзор мышью и управление мышью\n\n-«Свободная мышь» убрана\n\n-Курсор освобождается при использовании интерфейса (также по средней кнопке мыши)\n\n-Левый клик по торговцам, банку и т.д. взаимодействует с ними\n\n-«Влево» и «Вправо» по умолчанию — боковой шаг
 
+[SUBSTRING]
 # --- Все GEN предметы (для WTB чата) ---
 A Coral=Коралл
 A Remnant of Sivakya=Осколок Сивакаи
@@ -1132,6 +1133,26 @@ Willow Seed DUSKEN=Семя Ивы СУМРАК
 Willow Seed FERNALLA=Семя Ивы ФЕРНАЛЛА
 Willow Seed RIPPER=Семя Ивы РИПЕР
 Wishlan's Hope=Надежда Вишлан
+Wood Dining Set=Деревянный Обеденный Набор
+Wood Dining=Деревянная Столовая
+Wood Auction Set=Деревянный Набор Аукциона
+Wood Bank Set=Деревянный Набор Банка
+Wood Livingroom Set=Деревянный Набор Гостиной
+Wood Training Set=Деревянный Тренировочный Набор
+Wood Vendor Set=Деревянный Набор Торговца
+Stone Auction Set=Набор Каменного Аукциона
+Stone Bank Set=Набор Каменного Банка
+Stone Dining Set=Набор Каменной Столовой
+Stone Fountain Set=Набор Каменного Фонтана
+Stone Training Set=Набор Каменной Тренировочной
+Stone Vendor Set=Набор Каменного Торговца
+Loomingwood Market Set=Набор Рынка Грозолесья
+Loomingwood Shrine Set=Набор Святилища Грозолесья
+Azynthian Dining Set=Азинтийский Набор Столовой
+Azynthian Livingroom Set=Азинтийский Набор Гостиной
+Azynthian Rest Set=Азинтийский Набор Спальни
+Game Room Set=Набор Игровой Комнаты
+FURNITURE - Wood Dining=МЕБЕЛЬ — Деревянная Столовая
 
 
 # --- Предметы для WTB чата (Spell Scroll, Blueprint, Skill Book) ---

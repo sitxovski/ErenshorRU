@@ -23,7 +23,7 @@ namespace ErenshorRU
     {
         public const string GUID = "com.erenshor.ru";
         public const string NAME = "Erenshor Russian Translation";
-        public const string VERSION = "2.7.2";
+        public const string VERSION = "3.0.0";
 
         internal static ManualLogSource Log;
         internal static TranslationDB T;
@@ -215,6 +215,100 @@ namespace ErenshorRU
             if (db == null) return;
             string path = Path.Combine(ErenshorRUPlugin.PluginDir, "untranslated_dump.txt");
             db.DumpUntranslated(path);
+            DumpSimPlayerPhrases();
+        }
+
+        private static void DumpSimPlayerPhrases()
+        {
+            try
+            {
+                string path = Path.Combine(ErenshorRUPlugin.PluginDir, "simplayer_phrases_dump.txt");
+                var unique = new HashSet<string>(StringComparer.Ordinal);
+                var db = ErenshorRUPlugin.T;
+
+                void CollectList(List<string> list)
+                {
+                    if (list == null) return;
+                    foreach (string s in list)
+                    {
+                        if (string.IsNullOrEmpty(s) || s.Length < 2) continue;
+                        string raw = s.Replace("\r", "");
+                        if (db != null)
+                        {
+                            string tr = db.Translate(raw);
+                            if (tr != raw) continue;
+                        }
+                        unique.Add(raw.Replace("\n", @"\n"));
+                    }
+                }
+
+                void ScanFields<T>(T obj, string[] fields) where T : class
+                {
+                    if (obj == null) return;
+                    foreach (string fn in fields)
+                    {
+                        var field = typeof(T).GetField(fn);
+                        if (field == null) continue;
+                        CollectList(field.GetValue(obj) as List<string>);
+                    }
+                }
+
+                string[] langFields = {
+                    "Greetings", "ReturnGreeting", "Invites", "Justifications",
+                    "Confirms", "GenericLines", "Aggro", "Died",
+                    "InsultsFun", "RetortsFun", "Exclamations", "Denials",
+                    "DeclineGroup", "Negative", "LFGPublic", "OTW",
+                    "Goodnight", "Hello", "LocalFriendHello", "UnsureResponse",
+                    "AngerResponse", "Affirms", "EnvDmg", "WantsDrop",
+                    "Gratitude", "Impressed", "ImpressedEnd", "AcknowledgeGratitude",
+                    "LevelUpCelebration", "GoodLastOuting", "BadLastOuting",
+                    "GotAnItemLastOuting", "ReturnToZone", "BeenAWhile", "Unsure"
+                };
+                foreach (var lang in Resources.FindObjectsOfTypeAll<SimPlayerLanguage>())
+                    ScanFields(lang, langFields);
+
+                string[] mngrFields = {
+                    "Invites", "InviteEnd", "SmallTalk", "DenyGroup", "OTW", "Died",
+                    "Affirmations", "Declinations", "JoinMyGuild", "JoinYourGuild",
+                    "GenericGreeting", "GroupRequest", "HelpReq", "Apologies",
+                    "LevelUpCelebrations", "LevelUpCongratulations", "ApologyResponses",
+                    "LFGs", "Goodnight", "LevelCheck", "Gratitude",
+                    "GroupedAlreadyAccept", "Impressed", "ImpressedEnd",
+                    "WhatsUp", "AcknowledgeGratitude",
+                    "NiceDesciptions", "TryhardDescriptions", "MeanDescriptions",
+                    "XPLossMsg", "DidNotUnderstand", "GMWarningsObscenities",
+                    "CongratsForWorldEvent", "FriendsClubResponseToWorldEvent"
+                };
+                foreach (var mngr in Resources.FindObjectsOfTypeAll<SimPlayerMngr>())
+                    ScanFields(mngr, mngrFields);
+
+                foreach (var za in Resources.FindObjectsOfTypeAll<ZoneAnnounce>())
+                {
+                    if (za == null) continue;
+                    CollectList(za.ZoneComments);
+                }
+
+                if (unique.Count == 0) return;
+
+                var sorted = new List<string>(unique);
+                sorted.Sort(StringComparer.OrdinalIgnoreCase);
+                using (var w = new StreamWriter(path, false, System.Text.Encoding.UTF8))
+                {
+                    w.WriteLine("# SimPlayer phrases dump (untranslated only)");
+                    w.WriteLine("# Re-generated each scene load");
+                    w.WriteLine("# Total: " + sorted.Count);
+                    w.WriteLine("# Format: EN=RU (fill in RU translations)");
+                    w.WriteLine();
+                    foreach (string s in sorted)
+                        w.WriteLine(s + "=");
+                }
+                ErenshorRUPlugin.Log.LogInfo(
+                    $"[RU] Dumped {sorted.Count} untranslated SimPlayer phrases to simplayer_phrases_dump.txt");
+            }
+            catch (Exception e)
+            {
+                ErenshorRUPlugin.Log.LogError($"[RU] SimPlayer dump error: {e.Message}");
+            }
         }
     }
 
@@ -757,7 +851,7 @@ namespace ErenshorRU
         private static readonly string[] EnSeparators =
             { " shouts: ", " says: ", " tells the guild: ", " tells the group: ", " tells you: " };
         private static readonly string[] RuSeparators =
-            { " кричит: ", " говорит: ", " говорит гильдии: ", " говорит группе: " };
+            { " кричит: ", " говорит: ", " гов.: ", " говорит гильдии: ", " говорит группе: " };
 
         [HarmonyPrefix]
         [HarmonyPatch(typeof(ChatLogLine), MethodType.Constructor,
@@ -765,7 +859,11 @@ namespace ErenshorRU
         static void ChatLogLine_Ctor(ref string _msg)
         {
             if (ErenshorRUPlugin.T == null || string.IsNullOrEmpty(_msg)) return;
+            TranslateChat(ref _msg);
+        }
 
+        internal static void TranslateChat(ref string _msg)
+        {
             if (TrySplitAndTranslate(ref _msg, EnSeparators, true))
                 return;
 
@@ -812,10 +910,48 @@ namespace ErenshorRU
                 if (trContent == content)
                     trContent = TranslateSentences(content);
 
-                msg = name + trSep + trContent;
+                if (trContent == content)
+                    trContent = TryStripGreetingAndTranslate(content);
+
+                string trName = ErenshorRUPlugin.T.TranslateDirect(name);
+                if (trName == name)
+                    trName = ErenshorRUPlugin.T.Translate(name);
+                msg = trName + trSep + trContent;
                 return true;
             }
             return false;
+        }
+
+        private static readonly string[] GreetingPrefixes =
+            { "hi ", "hey ", "lol ", "yo ", "haha ", "ha ", "hmm ", "oh ", "well ", "man ", "dude ",
+              "rofl ", "lmao ", "omg ", "bruh ", "bro ", "so ", "ok ", "yeah ", "nah ", "hah ",
+              "heh ", "ugh ", "meh ", "wow ", "ayy ", "ayo ", "like ", "sure " };
+
+        private static string TryStripGreetingAndTranslate(string content)
+        {
+            if (string.IsNullOrEmpty(content) || content.Length < 6) return content;
+            var db = ErenshorRUPlugin.T;
+            if (db == null) return content;
+
+            for (int i = 0; i < GreetingPrefixes.Length; i++)
+            {
+                string pfx = GreetingPrefixes[i];
+                if (content.Length > pfx.Length &&
+                    content.StartsWith(pfx, StringComparison.OrdinalIgnoreCase))
+                {
+                    string tail = content.Substring(pfx.Length);
+                    string trTail = db.Translate(tail);
+                    if (trTail == tail)
+                        trTail = db.TranslateDirect(tail);
+                    if (trTail != tail)
+                    {
+                        string trPfx = db.Translate(pfx.TrimEnd());
+                        if (trPfx == pfx.TrimEnd()) trPfx = pfx.TrimEnd();
+                        return trPfx + " " + trTail;
+                    }
+                }
+            }
+            return content;
         }
 
         private static string TranslateSentences(string content)
@@ -1253,6 +1389,255 @@ namespace ErenshorRU
         }
     }
 
+    [HarmonyPatch(typeof(ItemInfoWindow), "DisplayItem")]
+    public static class ItemInfoLayoutPatch
+    {
+        private static readonly Dictionary<int, float> _origFontSize =
+            new Dictionary<int, float>();
+
+        [HarmonyPostfix]
+        static void Postfix(ItemInfoWindow __instance)
+        {
+            try
+            {
+                var lore = __instance.Lore;
+                if (lore == null) return;
+
+                bool otherActive = __instance.OtherTextParent != null &&
+                                   __instance.OtherTextParent.activeSelf;
+                bool effectActive = __instance.ItemEffect != null &&
+                                    __instance.ItemEffect.activeSelf;
+
+                if (!otherActive && !effectActive)
+                {
+                    lore.enableAutoSizing = false;
+                    return;
+                }
+
+                int id = lore.GetInstanceID();
+                if (!_origFontSize.ContainsKey(id))
+                    _origFontSize[id] = lore.fontSize;
+
+                float maxSize = _origFontSize[id];
+                lore.enableAutoSizing = true;
+                lore.fontSizeMin = maxSize * 0.55f;
+                lore.fontSizeMax = maxSize;
+            }
+            catch { }
+        }
+    }
+
+    [HarmonyPatch(typeof(NPC), "Start")]
+    public static class NpcNameplatePatch
+    {
+        [HarmonyPostfix]
+        static void Postfix(NPC __instance)
+        {
+            try
+            {
+                var db = ErenshorRUPlugin.T;
+                if (db == null || __instance.NamePlateTxt == null) return;
+                __instance.NamePlateTxt.text = TranslateNameplate(db, __instance.NamePlateTxt.text);
+            }
+            catch { }
+        }
+
+        internal static string TranslateNameplate(TranslationDB db, string text)
+        {
+            int nl = text.IndexOf('\n');
+            if (nl >= 0)
+            {
+                string name = text.Substring(0, nl);
+                string rest = text.Substring(nl);
+                string trName = db.TranslateDirect(name);
+                return trName + db.Translate(rest);
+            }
+            string tr = db.TranslateDirect(text);
+            if (tr != text) return tr;
+            return db.Translate(text);
+        }
+    }
+
+    [HarmonyPatch(typeof(NPC), "UpdateNamePlate")]
+    public static class NpcNameplateUpdatePatch
+    {
+        [HarmonyPostfix]
+        static void Postfix(NPC __instance)
+        {
+            try
+            {
+                var db = ErenshorRUPlugin.T;
+                if (db == null || __instance.NamePlateTxt == null) return;
+                __instance.NamePlateTxt.text = NpcNameplatePatch.TranslateNameplate(db, __instance.NamePlateTxt.text);
+            }
+            catch { }
+        }
+    }
+
+    [HarmonyPatch(typeof(IDLogLocal), "StartLocalDialog")]
+    public static class DialogHeaderPatch
+    {
+        private const string ConvPrefix = "Conversation with: ";
+        internal static string LastEnglishHeader;
+
+        [HarmonyPostfix]
+        static void Postfix(IDLogLocal __instance)
+        {
+            try
+            {
+                var db = ErenshorRUPlugin.T;
+                if (db == null || __instance.DialogHeader == null) return;
+                string text = __instance.DialogHeader.text;
+                LastEnglishHeader = text;
+                if (text.StartsWith(ConvPrefix))
+                {
+                    string npcName = text.Substring(ConvPrefix.Length);
+                    string trName = db.TranslateDirect(npcName);
+                    string trPrefix = db.Translate(ConvPrefix);
+                    __instance.DialogHeader.text = trPrefix + trName;
+                }
+                else
+                {
+                    __instance.DialogHeader.text = db.Translate(text);
+                }
+            }
+            catch { }
+        }
+
+        internal static void TranslateHeader()
+        {
+            try
+            {
+                var db = ErenshorRUPlugin.T;
+                if (db == null || LastEnglishHeader == null) return;
+                var header = GameData.LocalLog?.DialogHeader;
+                if (header == null) return;
+                string text = LastEnglishHeader;
+                if (text.StartsWith(ConvPrefix))
+                {
+                    string npcName = text.Substring(ConvPrefix.Length);
+                    string trName = db.TranslateDirect(npcName);
+                    string trPrefix = db.Translate(ConvPrefix);
+                    header.text = trPrefix + trName;
+                }
+                else
+                {
+                    header.text = db.Translate(text);
+                }
+            }
+            catch { }
+        }
+    }
+
+    [HarmonyPatch(typeof(NPCDialogManager), "Update")]
+    public static class DialogUpdateComparisonPatch
+    {
+        [HarmonyPrefix]
+        static void Prefix()
+        {
+            try
+            {
+                if (DialogHeaderPatch.LastEnglishHeader != null &&
+                    GameData.LocalLog?.DialogHeader != null)
+                    GameData.LocalLog.DialogHeader.text = DialogHeaderPatch.LastEnglishHeader;
+            }
+            catch { }
+        }
+
+        [HarmonyPostfix]
+        static void Postfix()
+        {
+            try
+            {
+                DialogHeaderPatch.TranslateHeader();
+            }
+            catch { }
+        }
+    }
+
+    [HarmonyPatch(typeof(UpdateSocialLog), "LocalLogAdd",
+        new Type[] { typeof(string), typeof(string) })]
+    public static class LocalLogAddPatch
+    {
+        [HarmonyPrefix]
+        static void Prefix(ref string _msg)
+        {
+            try
+            {
+                var db = ErenshorRUPlugin.T;
+                if (db == null || string.IsNullOrEmpty(_msg)) return;
+                ChatPatches.TranslateChat(ref _msg);
+            }
+            catch { }
+        }
+    }
+
+    [HarmonyPatch]
+    public static class KnowledgeDatabasePatches
+    {
+        private static string T(string s)
+        {
+            var db = ErenshorRUPlugin.T;
+            return db != null ? db.Translate(s) : s;
+        }
+
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(KnowledgeDatabase), "GetDropAnswer")]
+        static void GetDropAnswer_Post(ref string __result)
+        {
+            try { __result = T(__result); } catch { }
+        }
+
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(KnowledgeDatabase), "GetNPCAnswer")]
+        static void GetNPCAnswer_Post(ref string __result)
+        {
+            try { __result = T(__result); } catch { }
+        }
+
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(KnowledgeDatabase), "GetQuestAnswer")]
+        static void GetQuestAnswer_Post(ref string __result)
+        {
+            try { __result = T(__result); } catch { }
+        }
+
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(KnowledgeDatabase), "CheckTheWiki")]
+        static void CheckTheWiki_Post(ref string __result)
+        {
+            try { __result = T(__result); } catch { }
+        }
+
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(KnowledgeDatabase), "GetItemDropZoneAnswer")]
+        static void GetItemDropZoneAnswer_Post(ref string __result)
+        {
+            try { __result = T(__result); } catch { }
+        }
+
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(KnowledgeDatabase), "GetItemQuestAnswer")]
+        static void GetItemQuestAnswer_Post(ref string __result)
+        {
+            try { __result = T(__result); } catch { }
+        }
+
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(KnowledgeDatabase), "GetItemCraftedAnswer")]
+        static void GetItemCraftedAnswer_Post(ref string __result)
+        {
+            try { __result = T(__result); } catch { }
+        }
+
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(KnowledgeDatabase), "GetIDKGeneric")]
+        static void GetIDKGeneric_Post(ref string __result)
+        {
+            try { __result = T(__result); } catch { }
+        }
+    }
+
     [HarmonyPatch]
     public static class QuestLogPatches
     {
@@ -1375,6 +1760,8 @@ namespace ErenshorRU
     {
         private readonly Dictionary<string, string> _exact =
             new Dictionary<string, string>(StringComparer.Ordinal);
+        private readonly Dictionary<string, string> _exactCI =
+            new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
         private readonly List<KeyValuePair<string, string>> _substrings =
             new List<KeyValuePair<string, string>>();
         private readonly List<KeyValuePair<string, string>> _prefixes =
@@ -1421,9 +1808,13 @@ namespace ErenshorRU
                 else
                 {
                     _exact[en] = ru;
+                    if (!_exactCI.ContainsKey(en))
+                        _exactCI[en] = ru;
                     if (en.Length > 50 && en.EndsWith("...") && !string.IsNullOrEmpty(ru))
                         _prefixes.Add(new KeyValuePair<string, string>(
                             en.Substring(0, en.Length - 3), ru));
+                    if (en.Length >= 40 && !string.IsNullOrEmpty(ru))
+                        _substrings.Add(new KeyValuePair<string, string>(en, ru));
             }
             }
             if (skipped > 0)
@@ -1465,7 +1856,23 @@ namespace ErenshorRU
             if (trimmed != input && _exact.TryGetValue(trimmed, out val)) return val;
             string noTrail = input.TrimEnd('\n', '\r', ' ', '.');
             if (noTrail != input && _exact.TryGetValue(noTrail, out val)) return val;
+            if (_exactCI.TryGetValue(input, out val)) return val;
             return input;
+        }
+
+        private static string ReplaceCI(string source, string oldVal, string newVal)
+        {
+            var sb = new StringBuilder(source.Length);
+            int pos = 0;
+            while (pos < source.Length)
+            {
+                int idx = source.IndexOf(oldVal, pos, StringComparison.OrdinalIgnoreCase);
+                if (idx < 0) { sb.Append(source, pos, source.Length - pos); break; }
+                sb.Append(source, pos, idx - pos);
+                sb.Append(newVal);
+                pos = idx + oldVal.Length;
+            }
+            return sb.ToString();
         }
 
         private string TranslateCore(string input)
@@ -1480,7 +1887,9 @@ namespace ErenshorRU
 
             string stripped = StripRichTags(input);
             if (stripped != input && _exact.TryGetValue(stripped, out val))
-                return input.Replace(stripped, val);
+                return val;
+
+            if (_exactCI.TryGetValue(input, out val)) return val;
 
             for (int i = 0; i < _prefixes.Count; i++)
             {
@@ -1496,6 +1905,11 @@ namespace ErenshorRU
                 if (result.IndexOf(en, StringComparison.Ordinal) >= 0)
                 {
                     result = result.Replace(en, _substrings[i].Value);
+                    anyMatch = true;
+                }
+                else if (result.IndexOf(en, StringComparison.OrdinalIgnoreCase) >= 0)
+                {
+                    result = ReplaceCI(result, en, _substrings[i].Value);
                     anyMatch = true;
                 }
             }

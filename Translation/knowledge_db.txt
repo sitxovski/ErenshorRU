@@ -1,0 +1,121 @@
+# ==============================================================
+# KnowledgeDatabase — шаблоны ответов SimPlayer'ов о дропах/NPC/квестах
+# Переводятся Harmony Postfix-патчем на методы KnowledgeDatabase
+# ==============================================================
+
+[SUBSTRING]
+
+# --- GetDropAnswer (без зоны) ---
+ drops from = дропается с 
+ comes from = идёт от 
+ drops that.= дропает это.
+ drops = дропает 
+Find = Найди 
+ for your = для 
+ can drop from = может выпасть с 
+You can get =Можно достать 
+ from = от 
+Look for =Ищи 
+ to find = чтобы найти 
+Farm =Фарми 
+Try =Попробуй 
+ can be found on = можно найти на 
+I'm pretty sure= вроде бы
+I think drops = наверно дропает 
+
+# --- GetDropAnswer (с зоной) ---
+It spawns in =Спавнится в 
+Go to =Иди в 
+ and find = и найди 
+ in = в 
+Check =Чекни 
+
+# --- GetNPCAnswer ---
+ spawns in = спавнится в 
+. It's around level =. Примерно ур. 
+You have to go to =Надо идти в 
+ but you'll want to be around level = но лучше быть около ур. 
+ or so if you're trying to farm it= или около если хочешь фармить
+That one spawns in =Он спавнится в 
+, just look around a bit and you'll find it=, просто поищи и найдёшь
+ is in = в 
+ can be found in = можно найти в 
+You'll find =Найдёшь 
+Try looking in =Ищи в 
+ is over in = сидит в 
+ and is around level = и около ур. 
+
+# --- GetItemDropZoneAnswer (без моба, только зона) ---
+I think that comes from something in =Думаю, это из 
+Pretty sure that's from =Почти уверен, что из 
+I want to say it's in =Вроде это в 
+ is from = из 
+Might be in =Может быть в 
+, not totally sure=, не совсем уверен
+Feels like that was in =Кажется, это было в 
+I remember something about =Помню что-то про 
+ for that= для этого
+Think it's tied to =Думаю, связано с 
+ somehow= как-то
+I think you get =Думаю, ты достанешь 
+ over in = в 
+Could be =Может быть 
+, but I'm not certain=, но не уверен
+
+# --- GetItemQuestAnswer ---
+ is a reward from the quest '= это награда за квест '
+You get =Получишь 
+ from completing '= за прохождение '
+' gives = даёт 
+ as a reward= в награду
+Finish '=Заверши '
+' to receive = чтобы получить 
+ comes from the quest '= идёт из квеста '
+Completing '=Прохождение '
+' rewards you with = награждает 
+' rewards = награждает 
+It's from the quest '=Это из квеста '
+You get it from completing '=Получишь за прохождение '
+It comes from the quest '=Идёт из квеста '
+
+# --- GetItemCraftedAnswer ---
+ is crafted, you need = крафтится, нужен 
+ is crafted with = крафтится с помощью 
+Thats crafted. You need =Это крафт. Нужен 
+It's a crafted item.=Это крафтовый предмет.
+
+# --- GetIDKGeneric ---
+Not sure on that one=Не уверен насчёт этого
+I don't know=Не знаю
+No idea=Без понятия
+Can't say=Не могу сказать
+I don't have that info=Нет такой инфы
+I can't remember=Не могу вспомнить
+Hard to say=Трудно сказать
+I don't think I know that=Не думаю что знаю это
+I don't have an answer for that=Нет ответа на это
+Unsure on that=Не уверен
+
+# --- CheckTheWiki ---
+You should check the wiki or Discord for that=Чекни вики или Дискорд
+Wiki probably has the details=В вики наверно есть детали
+Look it up on the wiki=Посмотри в вики
+Ask on the Discord, they're awesome=Спроси на Дискорде, там классные ребята
+Try the wiki for that one=Попробуй вики
+The wiki should cover this=В вики должно быть
+I'd check in with the Discord=Я бы глянул на Дискорде
+Discord is your best bet here=Дискорд — лучший вариант
+Not sure, but the wiki will know=Не уверен, но вики знает
+You can find that on the wiki=Можешь найти это в вики
+
+# --- GetQuestAnswer ---
+Sorry, quest spoilers are not allowed here. =Извини, спойлеры квестов тут запрещены. 
+Hey, sorry, we are not supposed to share quest spoilers. =Эй, извини, мы не должны шарить спойлеры квестов. 
+Friendly reminder that quest spoilers are not permitted. =Напоминаю, спойлеры квестов запрещены. 
+Sorry, but sharing quest details is against the rules. =Извини, делиться деталями квестов — против правил. 
+Just a heads up, we cannot post quest spoilers. =К сведению: спойлеры квестов запрещены. 
+My bad, but quest spoilers are not allowed here. =Мой косяк, но спойлеры квестов тут нельзя. 
+Sorry about that, quest spoilers are against the rules. =Извиняюсь, спойлеры квестов — против правил. 
+Quick reminder: no quest spoilers here. =Быстрое напоминание: без спойлеров квестов. 
+Sorry, but we need to avoid quest spoilers. =Извини, нам нужно избегать спойлеров квестов. 
+Apologies, quest spoilers are not permitted. =Извиняюсь, спойлеры квестов запрещены. 

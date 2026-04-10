@@ -115,6 +115,7 @@ Long ago I dispatched a band of Warlocks. In their final breaths they cursed me 
 Those undead just keep pouring out of that place. They're not hard to dispatch, the one's we're seeing at least. What if something bigger comes out though?=Эта нежить всё продолжает лезть оттуда. Их нетрудно прикончить, по крайней мере тех что мы видим. Но что если выберется что-то покрупнее?
 Any ghost can leave it behind once you dispatch him, but It's rare. I pay well for it and for an adventurer like you, I've got something a little more unique than gold  if you find any.=Любой призрак может оставить это после гибели, но это редко. Я хорошо плачу, а для искателя приключений вроде вас у меня найдётся кое-что поуникальнее золота, если найдёте.
 aetheria=эфирия
+Watchlight=Огонь-Страж
 Watchlights=Огни-Стражи
 Need something'? I've got spells and some artifacts for sale.=Что-нибудь нужно? У меня есть заклинания и артефакты на продажу.
 
@@ -1671,6 +1672,7 @@ Celestarian Blade=Целестарианский Клинок
 Charred Epaulets=Обугленные Эполеты
 Chewed Armwraps=Изжёванные Наручники
 Cloth Sleeves=Тканые Рукава
+Coal=Уголь
 Cobalt Shell=Кобальтовая Раковина
 Coiled Leather Boots=Свитые Кожаные Сапоги
 Copper Claws=Медные Когти
@@ -3240,6 +3242,7 @@ Red Leaf Cape=Краснолистый Плащ
 Reed Trousers=Тростниковые Штаны
 Resonating Brace=Резонирующий Наруч
 Rising Moon=Восходящая Луна
+Rock=Камень
 Rock Fiend=Каменный Демон
 Rock Sprite=Каменный Спрайт
 Rootwoven Wraps=Корнеплетёные Обмотки
